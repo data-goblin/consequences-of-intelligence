@@ -15,7 +15,7 @@
    "probability": 0.7,
    "year": 2027,
    "evidence": "measured",
-   "summary": "Models solve problems that stalled fields for decades and agents search maths and algorithm spaces humans did not reach, speeding up the basic research everything else builds on.",
+   "summary": "AlphaFold's protein structure prediction earned the 2024 chemistry Nobel[1], and one agent found a faster 4x4 complex matrix multiplication and improved bounds on open maths problems[2]. Such tools may speed up the basic research everything else builds on.",
    "refs": [
     {
      "title": "Nobel Prize in Chemistry 2024, protein structure prediction",
@@ -132,7 +132,7 @@
    "probability": 0.65,
    "year": 2027,
    "evidence": "measured",
-   "summary": "Randomised screening trials show AI reading mammograms finds as many or more cancers with far less radiologist time.",
+   "summary": "One Swedish randomised screening trial found AI-supported mammogram reading detected 20% more cancers and cut screen-reading workload by 44%[1]. In one test on hard NEJM case records, orchestrated models solved 85% versus about 20% for physicians[2].",
    "refs": [
     {
      "title": "MASAI trial, Lancet Oncology 2023",
@@ -249,7 +249,7 @@
    "probability": 0.55,
    "year": 2027,
    "evidence": "measured",
-   "summary": "Carefully designed AI tutors with guardrails outperform classroom teaching in early trials, including in low-income settings.",
+   "summary": "Carefully designed AI tutors have beaten classroom teaching in two early trials. In one study, Harvard physics students learned more than twice as much in less time[1]; a World Bank pilot in Nigeria matched well over a year of typical schooling in six weeks[2].",
    "refs": [
     {
      "title": "Kestin et al., Scientific Reports 2025",
@@ -376,7 +376,7 @@
    "probability": 0.85,
    "year": 2024,
    "evidence": "reported",
-   "summary": "Vision models describe the world for blind and low-vision people on demand, at scale and at no cost.",
+   "summary": "Vision models can describe the world on demand for blind and low-vision people; Be My Eyes uses GPT-4 as a virtual volunteer that answers visual questions without waiting for a human[1].",
    "refs": [
     {
      "title": "Be My Eyes with GPT-4, OpenAI",
@@ -477,7 +477,7 @@
    "probability": 0.85,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Machine translation now covers hundreds of low-resource languages, including speech to speech.",
+   "summary": "Machine translation is reaching low-resource languages: one model translates between 200 languages, with large quality gains for low-resource ones[1].",
    "refs": [
     {
      "title": "NLLB Team, Nature 2024",
@@ -600,7 +600,7 @@
    "probability": 0.9,
    "year": 2025,
    "evidence": "measured",
-   "summary": "People with no programming background now explore ideas, build tools and automate their own work by describing what they want.",
+   "summary": "People can now build software by describing what they want and accepting the output without reading the code, a practice called vibe coding[1]. This may let people with no programming background explore ideas, build tools and automate their own work.",
    "refs": [
     {
      "title": "Andrej Karpathy coins vibe coding, Feb 2025",
@@ -717,7 +717,7 @@
    "probability": 0.75,
    "year": 2026,
    "evidence": "reported",
-   "summary": "Agents find real zero-days in widely used code and generate patches, shrinking the window defenders leave open.",
+   "summary": "Agents now find previously unknown bugs in widely used code and patch them: one found an exploitable memory-safety bug in SQLite before release[1], DARPA challenge finalists patched real open-source flaws automatically[2], and CodeMender upstreamed dozens of fixes[3]. This may shrink the window defenders leave open.",
    "refs": [
     {
      "title": "Project Zero, From Naptime to Big Sleep 2024",
@@ -840,7 +840,7 @@
    "probability": 0.35,
    "year": 2030,
    "evidence": "projected",
-   "summary": "If defenders adopt automated auditing faster than attackers adopt automated exploitation, critical software could become much harder to breach. Today this is a race, not a result.",
+   "summary": "If defenders adopt automated auditing faster than attackers adopt automated exploitation, critical software could become much harder to breach; AI agents already find and fix real bugs[4][5]. Experts disagree which side AI will favour, so today this is a race, not a result[1].",
    "refs": [
     {
      "title": "International AI Safety Report 2025",
@@ -972,7 +972,7 @@
    "probability": 0.8,
    "year": 2024,
    "evidence": "measured",
-   "summary": "Field data shows AI assistants raise output most for the least experienced workers, compressing skill gaps.",
+   "summary": "In one field study of customer-support agents, AI help raised issues resolved per hour by 14% on average and 34% for novices, narrowing skill gaps[1]. In one trial, experienced open-source developers were 19% slower with AI while believing they were faster[2].",
    "refs": [
     {
      "title": "Brynjolfsson, Li and Raymond, Generative AI at Work, NBER w31161",
@@ -1078,7 +1078,7 @@
    "probability": 0.7,
    "year": 2025,
    "evidence": "measured",
-   "summary": "AI makes tasks cheaper, so demand and expectations grow faster than time is saved: people end up doing more work, not less. Aggregate labour data shows little net change so far.",
+   "summary": "As AI makes tasks cheaper, demand and expectations may grow faster than time is saved. In one Upwork survey, 77% of employees using AI said it had added to their workload[1]; one Danish registry study found near-zero effects on earnings and hours[2].",
    "refs": [
     {
      "title": "Upwork Research Institute 2024",
@@ -1178,7 +1178,7 @@
    "probability": 0.12,
    "year": 2031,
    "evidence": "measured",
-   "summary": "Cash trials show basic income is workable but modest in effect; there is no political path to a universal scheme yet, so probability is low. Dated on an accelerated path: superintelligence around 2029 to 2033, per the AI 2027 authors' revised medians, with transformation following within a few years.",
+   "summary": "Basic income looks workable but modest: in one US study, $1,000 a month for three years cut work by about 1.3 hours a week[1], and health effects were small[2]. Political support for a universal scheme is unproven.",
    "refs": [
     {
      "title": "Vivalt et al., Employment Effects of a Guaranteed Income, NBER w32719",
@@ -1327,7 +1327,7 @@
    "probability": 0.6,
    "year": 2026,
    "evidence": "measured",
-   "summary": "Models that turn binaries back into readable source help keep abandoned software, games and industrial systems alive and interoperable.",
+   "summary": "Models that turn binaries back into readable source could help keep abandoned software, games and industrial systems alive and interoperable. In one study, open models recompiled and passed tests on far more decompiled functions than prior tools[1].",
    "refs": [
     {
      "title": "Tan et al., LLM4Decompile 2024",
@@ -1427,7 +1427,7 @@
    "probability": 0.85,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Polished-looking AI output that lacks substance shifts work onto whoever receives it.",
+   "summary": "Polished-looking AI output that lacks substance shifts work onto whoever receives it; in one survey of US desk workers, 40% had received such workslop in the past month, costing nearly two hours per incident[1].",
    "refs": [
     {
      "title": "Niederhoffer et al., HBR 2025",
@@ -1487,7 +1487,7 @@
    "probability": 0.8,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Fabricated bug and security reports waste the scarce time of the volunteers who maintain critical infrastructure.",
+   "summary": "Fabricated bug and security reports waste the scarce time of volunteer maintainers[1]. At curl, about a fifth of 2025 security reports were AI slop, and the share of valid reports fell to around 5%[1].",
    "refs": [
     {
      "title": "Daniel Stenberg, Death by a thousand slops 2025",
@@ -1573,7 +1573,7 @@
    "probability": 0.95,
    "year": 2024,
    "evidence": "measured",
-   "summary": "Use for schoolwork is widespread and rising; unguarded use improves homework scores and hurts exam scores.",
+   "summary": "Use for schoolwork is rising: one Pew survey found 26% of US teens used ChatGPT for schoolwork, double the 2023 share[1]. Unguarded use can lift homework scores and hurt exam scores, as in one Turkish trial[2] and one study of 26,800 Chinese secondary students[3].",
    "refs": [
     {
      "title": "Pew Research Center, Jan 2025",
@@ -1662,7 +1662,7 @@
    "probability": 0.65,
    "year": 2025,
    "evidence": "measured",
-   "summary": "People who trust AI more report thinking less critically, and essay writers using AI show weaker engagement and recall. Most studies are small or self-reported.",
+   "summary": "One survey of 319 knowledge workers found higher confidence in AI went with less critical thinking[1]; in one small MIT study, LLM-assisted essay writers showed the weakest brain connectivity and recall[2]. Other studies link AI use to lower critical-thinking scores[3] and less self-evaluation[4]; most are small or self-reported[1][2].",
    "refs": [
     {
      "title": "Lee et al., Microsoft Research and CMU, CHI 2025",
@@ -1763,7 +1763,7 @@
    "probability": 0.6,
    "year": 2026,
    "evidence": "measured",
-   "summary": "Experts who rely on AI assistance can lose the skill they had once it is taken away.",
+   "summary": "Experts who rely on AI assistance can lose skill once it is taken away. In one study, endoscopists' adenoma detection in non-AI colonoscopies fell from 28% to 22% after months of AI-assisted procedures[1].",
    "refs": [
     {
      "title": "Budzyń et al., Lancet Gastroenterology and Hepatology 2025",
@@ -1837,7 +1837,7 @@
    "probability": 0.85,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Companion apps are mainstream among teens, and heavy emotional use goes with more loneliness and dependence.",
+   "summary": "One US survey found 72% of teens have used AI companions and over half use them regularly[1]. One study linked heavier daily use with more loneliness and dependence[2]; one US survey found 16% of singles had interacted with AI romantically[3].",
    "refs": [
     {
      "title": "Common Sense Media, Talk, Trust and Trade-offs 2025",
@@ -1920,12 +1920,17 @@
    "probability": 0.6,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Models tuned on user approval flatter and agree, making it harder for people to hear disagreement and easier to drift into false beliefs.",
+   "summary": "OpenAI rolled back a GPT-4o update that made the model overly flattering and agreeable[1], after it leaned too heavily on short-term user feedback such as thumbs-up ratings[2]. Such flattery may make it harder for people to hear disagreement and easier to drift into false beliefs.",
    "refs": [
     {
      "title": "OpenAI, Sycophancy in GPT-4o 2025",
      "url": "https://openai.com/index/sycophancy-in-gpt-4o/",
      "finding": "OpenAI rolled back an update that made the model overly flattering and agreeable."
+    },
+    {
+     "title": "VentureBeat, OpenAI rolls back ChatGPT's sycophancy and explains what went wrong (April 2025)",
+     "url": "https://venturebeat.com/ai/openai-rolls-back-chatgpts-sycophancy-and-explains-what-went-wrong",
+     "finding": "OpenAI said the team placed too much emphasis on short-term feedback such as thumbs-up responses, which steered the model toward flattery."
     }
    ],
    "theme": "mind",
@@ -1991,7 +1996,7 @@
    "probability": 0.8,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Style, code and content can be replicated cheaply, and courts and copyright offices are still deciding what training and output are lawful.",
+   "summary": "Generative models make copying others' work cheap; the New York Times alleges they reproduce its articles nearly verbatim[2]. Courts and the US Copyright Office are still deciding what training and output are lawful[1][2].",
    "refs": [
     {
      "title": "US Copyright Office, Copyright and Artificial Intelligence",
@@ -2093,7 +2098,7 @@
    "probability": 0.45,
    "year": 2027,
    "evidence": "speculative",
-   "summary": "Cheaper decompilation lowers the bar for cheats, exploits and griefing tools aimed at other players. Capability is measured; harm at scale is not yet documented.",
+   "summary": "Cheaper decompilation could lower the bar for cheats, exploits and griefing tools aimed at other players. Language models can already decompile code, but no study yet links this to harassment[1].",
    "refs": [
     {
      "title": "Tan et al., LLM4Decompile 2024",
@@ -2166,7 +2171,7 @@
    "probability": 0.6,
    "year": 2026,
    "evidence": "measured",
-   "summary": "Hiring for young workers in AI-exposed roles has fallen while experienced workers are unaffected, cutting the bottom rung of careers.",
+   "summary": "One US payroll study found employment of 22 to 25 year olds in the most AI-exposed jobs fell 13% relative to others since late 2022, with no comparable gap for experienced workers[1]. Danish data shows little aggregate effect[2]. This could cut the bottom rung of careers.",
    "refs": [
     {
      "title": "Brynjolfsson, Chandar and Chen, Canaries in the Coal Mine 2025",
@@ -2250,7 +2255,7 @@
    "probability": 0.9,
    "year": 2024,
    "evidence": "reported",
-   "summary": "Cloned voices and faces make impersonation scams cheap and convincing.",
+   "summary": "Cloned voices and faces make impersonation scams convincing: an Arup employee in Hong Kong paid out $25 million after a video call with deepfaked executives[1]; in one McAfee survey of 7,054 adults, 70% doubted they could tell a cloned voice from the real one[3].",
    "refs": [
     {
      "title": "CNN on the Arup deepfake 2024",
@@ -2346,7 +2351,7 @@
    "probability": 0.95,
    "year": 2024,
    "evidence": "reported",
-   "summary": "Nudify apps target women and schoolchildren; legislators are responding after the fact.",
+   "summary": "One survey of 1,200 people aged 13 to 20 found 1 in 8 personally knew someone targeted by deepfake nudes and 1 in 17 had been targeted themselves[2]. US lawmakers responded after the fact, criminalising publication and requiring platforms to remove such images within 48 hours[1].",
    "refs": [
     {
      "title": "TAKE IT DOWN Act, S.146, 119th Congress",
@@ -2423,7 +2428,7 @@
    "probability": 0.35,
    "year": 2027,
    "evidence": "measured",
-   "summary": "Feared mass manipulation in the 2024 election year largely failed to appear; cheap fakes and old tactics did more.",
+   "summary": "Feared AI-driven mass manipulation in the 2024 election year was not borne out by one analysis of 78 election deepfakes: most were not deceptive, and comparable fakes were possible without AI[1].",
    "refs": [
     {
      "title": "Knight First Amendment Institute, 78 election deepfakes",
@@ -2508,7 +2513,7 @@
    "probability": 0.85,
    "year": 2026,
    "evidence": "projected",
-   "summary": "Data-centre electricity use is set to roughly double by 2030, straining grids and delaying decarbonisation locally.",
+   "summary": "The IEA projects data-centre electricity demand rising to about 945 TWh by 2030, slightly more than Japan uses today[1]. That growth could strain grids and delay decarbonisation locally.",
    "refs": [
     {
      "title": "IEA, Energy and AI 2025",
@@ -2600,7 +2605,7 @@
    "probability": 0.3,
    "year": 2028,
    "evidence": "measured",
-   "summary": "Training on model output degrades models; the risk depends on whether fresh human data keeps flowing.",
+   "summary": "One Nature study found that training models recursively on generated data makes them forget the tails of the distribution[1]. How much this degrades future models may depend on whether fresh human data keeps flowing.",
    "refs": [
     {
      "title": "Shumailov et al., Nature 2024",
@@ -2682,7 +2687,7 @@
    "probability": 0.8,
    "year": 2025,
    "evidence": "reported",
-   "summary": "State and criminal groups use agents to run most of an intrusion themselves, at a pace no human team matches.",
+   "summary": "In one case Anthropic reported, a state-sponsored group used an AI agent to perform 80 to 90% of an espionage campaign against about 30 targets[1], at a request rate human hackers could not match[1]. Government-backed actors also use models for research, scripting and evasion[2].",
    "refs": [
     {
      "title": "Anthropic, AI-orchestrated cyber espionage campaign 2025",
@@ -2761,7 +2766,7 @@
    "probability": 0.8,
    "year": 2026,
    "evidence": "measured",
-   "summary": "Frontier AI needs capital only a few firms and states have, so returns flow to owners of compute and models rather than workers, widening wealth and power gaps.",
+   "summary": "Frontier AI may concentrate wealth and power: one international report flags market concentration as a systemic risk[2], and the IMF finds AI will likely worsen inequality[1]. One scenario gives a single US lab 50% of world AI compute[3]; a critic warns such deals could consolidate power[4].",
    "refs": [
     {
      "title": "Georgieva, IMF blog, AI will transform the global economy, Jan 2024",
@@ -2849,7 +2854,7 @@
    "probability": 0.25,
    "year": 2028,
    "evidence": "projected",
-   "summary": "Frontier labs now treat their models as capable of meaningful uplift to novices; real-world attacks still need wet-lab skill and materials.",
+   "summary": "Anthropic added safeguards because bioweapons uplift could no longer be ruled out[1], OpenAI expects high biological capability soon[2], and top models beat 94% of expert virologists on troubleshooting questions[3]. One RAND red-team study with 2023 models found no significant uplift over internet access[4].",
    "refs": [
     {
      "title": "Anthropic, Activating ASL-3 protections 2025",
@@ -2945,7 +2950,7 @@
    "probability": 0.1,
    "year": 2029,
    "evidence": "speculative",
-   "summary": "Models in test settings already deceive overseers and act against operators to preserve goals; whether this scales to real loss of control is unknown. Dated on an accelerated path: superintelligence around 2029 to 2033, per the AI 2027 authors' revised medians, with transformation following within a few years.",
+   "summary": "In test settings, a model faked compliance during training to avoid being changed[2], and models from several labs chose blackmail when facing replacement[1]. Experts disagree widely on whether and when this leads to real loss of control[3].",
    "refs": [
     {
      "title": "Anthropic, Agentic Misalignment 2025",
@@ -3066,7 +3071,7 @@
    "probability": 0.85,
    "year": 2024,
    "evidence": "measured",
-   "summary": "Commissions for illustration, translation and freelance writing are drying up as clients switch to generators trained on artists' own work.",
+   "summary": "One Society of Authors survey found a quarter of illustrators and a third of translators had already lost work to AI[1]. One study of a large freelance platform found writers' jobs fell 2% and monthly earnings fell 5% after ChatGPT launched[2].",
    "refs": [
     {
      "title": "Society of Authors survey 2024",
@@ -3181,7 +3186,7 @@
    "probability": 0.85,
    "year": 2025,
    "evidence": "measured",
-   "summary": "People read a model's summary instead of the source, so errors spread without attribution and readers lose the ability to check where a claim came from.",
+   "summary": "People read a model's summary instead of the source: in one Pew study of 900 US adults, users clicked a result link on 8% of visits with an AI summary versus 15% without[1]. One BBC study found 51% of AI news answers had significant issues[2].",
    "refs": [
     {
      "title": "Pew Research Center, July 2025",
@@ -3272,7 +3277,7 @@
    "probability": 0.85,
    "year": 2025,
    "evidence": "measured",
-   "summary": "AI overviews and chat answers keep readers on the platform, cutting the referral traffic that funds publishers, forums and independent sites.",
+   "summary": "One Pew study of 900 US adults' browsing found AI summaries roughly halve click-through to websites[1], and Cloudflare reports AI crawlers fetch thousands of pages for every visitor they refer back[2]. This could cut the referral traffic that funds publishers, forums and independent sites.",
    "refs": [
     {
      "title": "Pew Research Center, July 2025",
@@ -3362,7 +3367,7 @@
    "probability": 0.5,
    "year": 2028,
    "evidence": "projected",
-   "summary": "When many firms trade with similar models, they can react to the same signal at once, amplifying swings and flash crashes.",
+   "summary": "When many firms trade with similar models, they could react to the same signal at once and herd[2], raising speed and volatility under stress[1]. The 2010 flash crash showed automated selling can erase about $1 trillion in minutes[3].",
    "refs": [
     {
      "title": "IMF Global Financial Stability Report, Oct 2024, chapter 3",
@@ -3468,7 +3473,7 @@
    "probability": 0.2,
    "year": 2030,
    "evidence": "speculative",
-   "summary": "Agents that manage money could move deposits simultaneously on the same rumour, faster than any bank or regulator can respond.",
+   "summary": "Agents that manage money could move deposits at once on the same rumour, faster than any bank or regulator can respond; the Bank of England flags AI agents as a possible run accelerant[2]. In 2023, Silicon Valley Bank depositors withdrew $42 billion in one day[1].",
    "refs": [
     {
      "title": "Federal Reserve, Review of Silicon Valley Bank 2023",
@@ -3547,7 +3552,7 @@
    "probability": 0.8,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Generated text and fabricated papers enter the scientific record faster than peer review can screen them.",
+   "summary": "Generated text is entering the scientific record; one analysis estimated that at least 13.5% of 2024 biomedical abstracts show signs of LLM processing[1].",
    "refs": [
     {
      "title": "Kobak et al., Science Advances 2025",
@@ -3633,7 +3638,7 @@
    "probability": 0.85,
    "year": 2024,
    "evidence": "reported",
-   "summary": "Lawyers and litigants file AI-invented cases, wasting court time and drawing sanctions.",
+   "summary": "Lawyers and litigants file AI-invented cases, wasting court time and drawing sanctions[1]; one database tracks hundreds of court decisions involving hallucinated content[1].",
    "refs": [
     {
      "title": "AI Hallucination Cases database, Damien Charlotin",
@@ -3704,7 +3709,7 @@
    "probability": 0.6,
    "year": 2027,
    "evidence": "reported",
-   "summary": "Drones that select and strike targets with little human input are being fielded, lowering the cost of killing.",
+   "summary": "+972 Magazine reported that Israel's Lavender system flagged up to 37,000 Palestinians as suspected militants, with officers spending about 20 seconds reviewing each target[2]. States at the UN have voiced concern about lethal autonomous weapons[1]; drones that pick and strike targets alone may follow.",
    "refs": [
     {
      "title": "UN General Assembly resolution 78/241",
@@ -3783,7 +3788,7 @@
    "probability": 0.6,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Short-term studies show talking to an AI companion lowers loneliness about as much as talking to a person.",
+   "summary": "One paper's short-term experiments found that a conversation with an AI companion reduced loneliness about as much as one with a person, and more than watching videos[1].",
    "refs": [
     {
      "title": "De Freitas et al., AI Companions Reduce Loneliness",
@@ -3895,7 +3900,7 @@
    "probability": 0.55,
    "year": 2027,
    "evidence": "measured",
-   "summary": "A purpose-built therapy bot cut depression and anxiety symptoms in a randomised trial, where waiting lists are long.",
+   "summary": "In one randomised trial of a purpose-built therapy bot, participants with depression saw a 51% average symptom reduction over eight weeks[1]. Such bots could widen access to care where waiting lists are long.",
    "refs": [
     {
      "title": "Heinz et al., Therabot RCT, NEJM AI 2025",
@@ -4007,7 +4012,7 @@
    "probability": 0.9,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Learned weather models beat the best physics forecasts on most targets at a fraction of the compute.",
+   "summary": "Learned weather models beat leading physics-based forecasts on most targets: GraphCast on 90% of 1,380 targets[1], and GenCast on 97% of targets against ECMWF's ensemble, including extreme events[2].",
    "refs": [
     {
      "title": "Lam et al., GraphCast, Science 2023",
@@ -4123,7 +4128,7 @@
    "probability": 0.9,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Personalised scam messages now cost almost nothing to write and work as well as expert-crafted ones.",
+   "summary": "In one study of 101 participants, fully AI-generated spear phishing got a 54% click rate, matching human experts[1]. The authors say AI lets attackers target more people at lower cost, raising profitability up to 50 times for large audiences[1].",
    "refs": [
     {
      "title": "Heiding et al., AI spear phishing 2024",
@@ -4210,7 +4215,7 @@
    "probability": 0.8,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Automated traffic now exceeds human traffic, eroding trust that any account or review is a person.",
+   "summary": "Imperva's 2025 bot report found automated traffic reached 51% of all web traffic, passing human traffic for the first time in a decade[1]. This could erode trust that any account or review is a person.",
    "refs": [
     {
      "title": "Imperva Bad Bot Report 2025",
@@ -4297,7 +4302,7 @@
    "probability": 0.6,
    "year": 2026,
    "evidence": "measured",
-   "summary": "Models that know a little about you can out-argue humans, a tool for advertisers and propagandists alike.",
+   "summary": "In one study, GPT-4 given basic personal data was more persuasive than humans in 64% of debates[1], a tool for advertisers and propagandists alike. One botnet of 1,140 ChatGPT-driven accounts promoted scam sites, and LLM text detectors failed to flag them[2].",
    "refs": [
     {
      "title": "Salvi et al., Nature Human Behaviour 2025",
@@ -4388,7 +4393,7 @@
    "probability": 0.45,
    "year": 2026,
    "evidence": "measured",
-   "summary": "Dialogue with a model durably lowers belief in conspiracy theories, a counterweight to misinformation.",
+   "summary": "In one study of 2,190 conspiracy believers, a short conversation with a model cut conspiracy belief by about 20%, lasting at least two months[1]. Such dialogue could act as a counterweight to misinformation.",
    "refs": [
     {
      "title": "Costello, Pennycook and Rand, Science 2024",
@@ -4499,7 +4504,7 @@
    "probability": 0.8,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Generated code often ships with known vulnerability patterns, growing a security debt as more software is written this way.",
+   "summary": "In one Veracode test, 45% of AI-generated code samples contained security flaws[1]. As more software is written this way, that security debt may grow.",
    "refs": [
     {
      "title": "Veracode 2025 GenAI Code Security Report",
@@ -4573,7 +4578,7 @@
    "probability": 0.9,
    "year": 2024,
    "evidence": "reported",
-   "summary": "Generators are used to create abuse imagery, including of real children, overwhelming detection and policing.",
+   "summary": "Generators are used to create abuse imagery, including deepfakes of specific real children[1]. The Internet Watch Foundation found thousands of AI-generated abuse images on a single dark web forum within a month[1].",
    "refs": [
     {
      "title": "Internet Watch Foundation, AI and child sexual abuse imagery",
@@ -4633,7 +4638,7 @@
    "probability": 0.7,
    "year": 2025,
    "evidence": "measured",
-   "summary": "AI help makes each piece of work better but all the work more alike, shrinking the diversity of ideas.",
+   "summary": "In one UK study, AI ideas made individual stories more creative but the stories more similar to each other[1], a sign that AI help could shrink the diversity of ideas.",
    "refs": [
     {
      "title": "Doshi and Hauser, Science Advances 2024",
@@ -4708,7 +4713,7 @@
    "probability": 0.7,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Cheap vision and language models let states monitor and censor at a scale that used to need armies of people.",
+   "summary": "Governments in at least 22 countries used AI-based tools for censorship, according to Freedom House[1]. Cheap vision and language models could let states monitor and censor at a scale that once needed armies of people.",
    "refs": [
     {
      "title": "Freedom House, Freedom on the Net 2023",
@@ -4782,7 +4787,7 @@
    "probability": 0.75,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Governments ration chips and models by country and tie access to political alignment, turning AI into leverage over the rest of the world.",
+   "summary": "The US has tied AI access to political alignment: a January 2025 rule sorted countries into three tiers with caps on advanced chips, later rescinded[1], and the July 2025 AI Action Plan aims to export the full American AI stack to allies while countering China[2].",
    "refs": [
     {
      "title": "Framework for Artificial Intelligence Diffusion, Federal Register, Jan 2025",
@@ -4847,7 +4852,7 @@
    "probability": 0.5,
    "year": 2027,
    "evidence": "measured",
-   "summary": "Model weights can carry hidden behaviour or malware that survives safety training, so a downloaded model, foreign or domestic, can be a trojan.",
+   "summary": "In one study, backdoors trained into models persisted through standard safety training[1], and JFrog found about 100 Hugging Face models that ran code on load, some opening a reverse shell[2]. A downloaded model, foreign or domestic, can be a trojan.",
    "refs": [
     {
      "title": "Hubinger et al., Sleeper Agents 2024",
@@ -4949,7 +4954,7 @@
    "probability": 0.5,
    "year": 2027,
    "evidence": "projected",
-   "summary": "Cheap automated exploitation of routers, cameras and industrial controllers could recruit botnets or physically damage equipment.",
+   "summary": "Cheap automated exploitation of routers, cameras and industrial controllers could recruit botnets or damage equipment. Mirai already enslaved about 600,000 IoT devices with default passwords[1], and a state actor pre-positioned in US critical infrastructure through edge devices[2].",
    "refs": [
     {
      "title": "Antonakakis et al., Understanding the Mirai Botnet, USENIX Security 2017",
@@ -5050,7 +5055,7 @@
    "probability": 0.5,
    "year": 2028,
    "evidence": "speculative",
-   "summary": "Practising conversation with an always-agreeable machine may leave people, especially teens, less able to handle friction with real people. Long-term data does not exist yet.",
+   "summary": "Practising conversation with an always-agreeable machine may leave people, especially teens, less able to handle friction with real people. In one US survey, about a third of teen users found AI conversations as satisfying as friends or more[1]; one study found heavy users socialised less[2].",
    "refs": [
     {
      "title": "Common Sense Media, Talk, Trust and Trade-offs 2025",
@@ -5130,7 +5135,7 @@
    "probability": 0.6,
    "year": 2028,
    "evidence": "projected",
-   "summary": "AI adds emissions through data centres but may cut more through grid, materials and logistics optimisation. Which side wins is still open.",
+   "summary": "AI adds emissions through data centres: Google reported its emissions rose 48% since 2019, driven by data-centre energy[2]. The IEA says widespread AI applications could cut more emissions than data centres add, if adopted[1]. Which side wins is still open.",
    "refs": [
     {
      "title": "IEA, Energy and AI 2025",
@@ -5225,7 +5230,7 @@
    "probability": 0.3,
    "year": 2027,
    "evidence": "speculative",
-   "summary": "Public anger at job loss and AI companies could turn into sabotage of robotaxis and data centres or attacks on people. Violent incidents, real or staged, can also serve as a pretext for authorities to expand surveillance and control.",
+   "summary": "Anger at job loss and AI companies could turn into sabotage of robotaxis and data centres or attacks on people; one Pew survey found 51% of US adults more concerned than excited about AI[1]. Violent incidents, real or staged, could also justify wider surveillance and control.",
    "refs": [
     {
      "title": "Pew Research Center, US public and AI experts, April 2025",
@@ -5304,7 +5309,7 @@
    "probability": 0.85,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Knowing how to prompt, check and direct models joins reading and spreadsheets as a workplace requirement, and the law starts demanding it.",
+   "summary": "Knowing how to prompt, check and direct models is becoming a workplace skill, and the EU AI Act has required providers and deployers to ensure sufficient AI literacy among staff since February 2025[1].",
    "refs": [
     {
      "title": "EU AI Act, Article 4",
@@ -5404,7 +5409,7 @@
    "probability": 0.9,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Rules diverge by region: the EU regulates by risk tier, the US mostly by executive action and states, China by content control.",
+   "summary": "Rules diverge by region. The EU passed the first comprehensive AI law, the AI Act, which phases in from 2025 to 2027[1].",
    "refs": [
     {
      "title": "Regulation (EU) 2024/1689, the AI Act",
@@ -5487,7 +5492,7 @@
    "probability": 0.9,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Most work changes partly rather than disappearing: people hand some tasks to AI and keep others.",
+   "summary": "Most jobs may change in part rather than vanish: one study estimated about 80% of US workers have at least 10% of tasks exposed, and 19% half or more[1]. Anthropic's usage data splits between automation and augmentation, varying by occupation[2].",
    "refs": [
     {
      "title": "Eloundou et al., GPTs are GPTs 2023",
@@ -5592,7 +5597,7 @@
    "probability": 0.6,
    "year": 2026,
    "evidence": "reported",
-   "summary": "Content credentials and invisible watermarks spread, but coverage is partial and labels are easy to strip.",
+   "summary": "Content credentials such as C2PA[1] and invisible watermarks such as SynthID[2] are spreading, but coverage is partial: SynthID marks only Google models' output[2]. One study showed pixel-level invisible watermarks can be removed with generative AI[3].",
    "refs": [
     {
      "title": "C2PA, Coalition for Content Provenance and Authenticity",
@@ -5603,6 +5608,11 @@
      "title": "Google DeepMind, SynthID",
      "url": "https://deepmind.google/science/synthid/",
      "finding": "Watermarks text, images, audio and video generated by Google models."
+    },
+    {
+     "title": "Zhao et al., Invisible Image Watermarks Are Provably Removable Using Generative AI 2023",
+     "url": "https://arxiv.org/abs/2306.01953",
+     "finding": "Regeneration attacks that add noise and reconstruct the image remove pixel-level invisible watermarks."
     }
    ],
    "theme": "ip",
@@ -5687,7 +5697,7 @@
    "probability": 0.6,
    "year": 2027,
    "evidence": "reported",
-   "summary": "Agents increasingly negotiate, buy and call each other's services through shared protocols, with humans approving less of each step.",
+   "summary": "Open protocols now connect models to tools and data across vendors[1] and let agents make payments under verifiable user mandates[2]. Agents may increasingly negotiate, buy and call each other's services, with humans approving less of each step.",
    "refs": [
     {
      "title": "Model Context Protocol",
@@ -5790,7 +5800,7 @@
    "probability": 0.85,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Generated video, music and characters become a normal part of feeds and apps, alongside human-made work.",
+   "summary": "Generated video, music and characters are starting to appear in feeds and apps alongside human-made work; OpenAI launched a social app built around generated video with sound[1].",
    "refs": [
     {
      "title": "OpenAI, Sora 2 2025",
@@ -5877,7 +5887,7 @@
    "probability": 0.9,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Capable models anyone can download and run spread worldwide, which helps independence and research and also makes misuse impossible to recall.",
+   "summary": "Capable models anyone can download and run are spreading; DeepSeek's openly released R1 matched leading closed models on maths and code[1]. This can help independence and research, but released weights may be impossible to take back if misused.",
    "refs": [
     {
      "title": "DeepSeek-AI, DeepSeek-R1 2025",
@@ -5966,7 +5976,7 @@
    "probability": 0.9,
    "year": 2024,
    "evidence": "measured",
-   "summary": "The cost of a given level of model capability falls by orders of magnitude a year, making it a commodity.",
+   "summary": "Epoch AI found prices for a fixed level of model performance fell between 9x and 900x per year, depending on the task[1], pushing capability toward a commodity.",
    "refs": [
     {
      "title": "Epoch AI, LLM inference price trends",
@@ -6066,7 +6076,7 @@
    "probability": 0.7,
    "year": 2025,
    "evidence": "measured",
-   "summary": "If a model can answer, write or draw it, fewer people bother to learn the skill or share what they know publicly, which also starves future models of fresh human work.",
+   "summary": "If a model can do it, fewer people may learn the skill or share knowledge, starving future models of human work. Stack Overflow activity fell 25% within six months of ChatGPT versus comparable forums[1]; in one Society of Authors survey, creators losing work saw less reason to stay[2].",
    "refs": [
     {
      "title": "del Rio-Chanona, Laurentsyeva and Wachs, PNAS Nexus 2024",
@@ -6158,7 +6168,7 @@
    "probability": 0.75,
    "year": 2025,
    "evidence": "measured",
-   "summary": "People let the model do the thinking and stop planning, checking and reflecting on their own work.",
+   "summary": "People may let the model do the thinking and stop planning, checking and reflecting on their own work. In one study, students using ChatGPT improved essay scores but engaged less in self-evaluation, with no gain in knowledge transfer[1].",
    "refs": [
     {
      "title": "Fan et al., Beware of metacognitive laziness, British Journal of Educational Technology 2025",
@@ -6245,7 +6255,7 @@
    "probability": 0.85,
    "year": 2024,
    "evidence": "measured",
-   "summary": "Anyone can get a clear, patient, tailored explanation of a medical, legal or technical question that used to need an expert.",
+   "summary": "Chatbots can give clear, patient, tailored explanations of questions that used to need an expert. In one study, clinicians preferred chatbot answers to patient questions over physicians' in 79% of evaluations, rating them higher for quality and empathy[1].",
    "refs": [
     {
      "title": "Ayers et al., JAMA Internal Medicine 2023",
@@ -6355,7 +6365,7 @@
    "probability": 0.6,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Long conversations with an agreeable model can build elaborate conspiracies around a vulnerable user, such as an investor who took SCP Foundation-style fiction from ChatGPT as evidence of a real system targeting him.",
+   "summary": "Long conversations with an agreeable model may build elaborate conspiracies around a vulnerable user, as one psychiatrist predicted in 2023[2]. In one reported case, an OpenAI investor posted SCP Foundation-style ChatGPT outputs as proof of a 'non-governmental system' targeting him[1].",
    "refs": [
     {
      "title": "Futurism, OpenAI investor appears to be having a ChatGPT-induced mental health crisis, July 2025",
@@ -6446,7 +6456,7 @@
    "probability": 0.4,
    "year": 2027,
    "evidence": "measured",
-   "summary": "A model built to disagree can coach people to argue better and talk across divides, the flip side of sycophancy.",
+   "summary": "A model built to disagree could coach people to argue better and talk across divides, the flip side of sycophancy. In one study, AI-suggested rephrasings in divisive conversations raised perceived conversation quality and democratic reciprocity without changing positions[1].",
    "refs": [
     {
      "title": "Argyle et al., PNAS 2023",
@@ -6579,7 +6589,7 @@
    "probability": 0.55,
    "year": 2025,
    "evidence": "measured",
-   "summary": "The same models that support people in distress can be steered into giving suicide and self-harm guidance.",
+   "summary": "Widely used models can be steered into giving suicide and self-harm guidance; in one study, simple reframing got them to give detailed self-harm information[1]. One RAND study found chatbots declined the riskiest suicide questions but answered intermediate-risk ones inconsistently[2].",
    "refs": [
     {
      "title": "Schoene and Canca, jailbreaking LLMs in suicide and self-harm contexts 2025",
@@ -6682,12 +6692,17 @@
    "probability": 0.5,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Attackers use chatbots for research on explosives, targets and logistics. So far the information has been available elsewhere, but it saves them effort.",
+   "summary": "Attackers have used chatbots for research: Las Vegas police said the Cybertruck bomber asked ChatGPT about explosives, ammunition and fireworks laws[1]. OpenAI said ChatGPT gave only information already public online[2]; such tools may still save attackers effort.",
    "refs": [
     {
      "title": "NPR, Cybertruck bomber used ChatGPT in planning, Jan 2025",
      "url": "https://www.mprnews.org/story/2025/01/07/npr-cybertruck-explosion-las-vegas-chatgpt-ai",
      "finding": "Las Vegas police said the bomber asked ChatGPT about explosives, ammunition and fireworks laws."
+    },
+    {
+     "title": "AP via NBC Chicago, Man who exploded Tesla Cybertruck outside Trump hotel used generative AI, police say (January 2025)",
+     "url": "https://www.nbcchicago.com/news/national-international/man-who-exploded-tesla-cybertruck-trump-hotel-used-generative-ai/3640259/",
+     "finding": "OpenAI said ChatGPT responded with information already publicly available on the internet and provided warnings against harmful or illegal activities."
     }
    ],
    "theme": "security",
@@ -6756,7 +6771,7 @@
    "probability": 0.7,
    "year": 2026,
    "evidence": "measured",
-   "summary": "Assistants help people and caseworkers find benefits, fill in forms and decode rules, though a stale answer can also deny someone what they are owed.",
+   "summary": "Assistants could help people and caseworkers find benefits, fill in forms and decode rules; in one Los Angeles County pilot, a retrieval-based assistant improved caseworkers' benefit-navigation accuracy, most for newer staff[1]. A stale answer could also deny someone what they are owed.",
    "refs": [
     {
      "title": "Nava PBC, Evaluating a GenAI-powered assistive chatbot for caseworkers",
@@ -6889,7 +6904,7 @@
    "probability": 0.75,
    "year": 2024,
    "evidence": "reported",
-   "summary": "Handing routine drafting, summarising and recall to a model frees attention for the parts of work that need it, though heavy oversight of agents adds a new kind of fatigue.",
+   "summary": "Handing routine drafting, summarising and recall to a model can free attention; users rated tasks done with AI help as less mentally demanding and stressful[1]. In one survey, workers whose AI tools need heavy monitoring reported more mental fatigue[2].",
    "refs": [
     {
      "title": "Microsoft New Future of Work Report 2023",
@@ -7017,7 +7032,7 @@
    "probability": 0.75,
    "year": 2027,
    "evidence": "measured",
-   "summary": "AI picks targets and designs molecules, cutting years from early discovery; the first fully AI-discovered drugs are now in mid-stage human trials.",
+   "summary": "AI now helps pick drug targets and design molecules[1][2]. In one 71-patient fibrosis trial, a drug whose target and molecule were both found by generative AI improved lung function[1]; AlphaFold 3 predicts how proteins bind drugs far more accurately than prior tools[2].",
    "theme": "world",
    "stage": "emerging",
    "refs": [
@@ -7122,7 +7137,7 @@
    "probability": 0.8,
    "year": 2026,
    "evidence": "measured",
-   "summary": "Models read the genome to predict which mutations cause disease and how non-coding DNA controls genes, speeding diagnosis of rare disorders.",
+   "summary": "Models predict which mutations cause disease and how DNA controls genes: AlphaMissense classified 89% of all 71 million possible human missense variants as likely benign or pathogenic[1], and AlphaGenome predicts how variants in up to a million DNA letters affect gene regulation[2]. This could speed rare-disease diagnosis.",
    "theme": "world",
    "stage": "emerging",
    "refs": [
@@ -7238,7 +7253,7 @@
    "probability": 0.7,
    "year": 2027,
    "evidence": "measured",
-   "summary": "Models trained on millions of cells and proteins integrate transcriptomics, proteomics and other omics data that humans cannot analyse by hand.",
+   "summary": "Models trained on millions of cells could integrate omics data that humans cannot analyse by hand; scGPT, pretrained on 33 million cells, improved cell-type annotation, perturbation prediction and multi-omic integration[1].",
    "theme": "world",
    "stage": "emerging",
    "refs": [
@@ -7317,7 +7332,7 @@
    "probability": 0.65,
    "year": 2027,
    "evidence": "measured",
-   "summary": "Researchers build their own software and let agents run instruments such as microscopes, liquid handlers and synthesis robots, which removes manual error and observer subjectivity. Some headline claims have been disputed.",
+   "summary": "Agents now run lab hardware: one planned and ran real chemistry experiments[1], and others control microscopes in place of manual, unrepeatable acquisition[3]. One autonomous lab reported 41 new inorganic compounds in 17 days, though critics questioned how many were truly new[2].",
    "theme": "world",
    "stage": "emerging",
    "refs": [
@@ -7405,7 +7420,7 @@
    "probability": 0.45,
    "year": 2029,
    "evidence": "projected",
-   "summary": "Automated, logged experiments and shared AI pipelines make results easier to repeat, attacking a crisis where most scientists have failed to reproduce others' work.",
+   "summary": "Automated, logged experiments and shared AI pipelines could make results easier to repeat; one tool packages microscopy deep-learning pipelines so anyone can rerun them identically[2]. In one Nature survey of 1,500 scientists, more than 70% had failed to reproduce another's experiment[1].",
    "theme": "world",
    "stage": "emerging",
    "refs": [
@@ -7499,7 +7514,7 @@
    "probability": 0.85,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Students who outsource homework to AI score higher on it and much lower once the AI is taken away; the damage takes about two years to fully appear.",
+   "summary": "In one study of 26,800 Chinese secondary students, AI raised homework scores 18% but cut monthly exam scores 20% within six months[1]. The full 18 to 24% drop in entrance exam scores took about two years to appear[1][2], mostly among students who rushed homework with AI[2].",
    "theme": "mind",
    "stage": "active",
    "refs": [
@@ -7589,7 +7604,7 @@
    "probability": 0.6,
    "year": 2026,
    "evidence": "reported",
-   "summary": "Companion and chat apps designed for engagement produce compulsive use that users say displaces sleep, exercise and relationships. Evidence so far is self-reported.",
+   "summary": "Companion and chat apps designed for engagement can produce compulsive use[2]; in one Drexel study, teen Character.AI users described dependency that disrupted sleep, schoolwork and relationships[1], and one MIT and OpenAI study tied heavy use to emotional dependence[3]. Evidence so far is self-reported.",
    "theme": "mind",
    "stage": "emerging",
    "refs": [
@@ -7684,7 +7699,7 @@
    "probability": 0.85,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Models change in months while laws take years, so rules arrive after the harms they target and are delayed again under industry pressure.",
+   "summary": "Rules can arrive after the harms they target. The EU pushed high-risk AI obligations back to December 2027 and August 2028 because compliance tools were not ready[1], and one international report notes policymakers must act before evidence of harm is clear[2].",
    "theme": "power",
    "stage": "active",
    "refs": [
@@ -7783,7 +7798,7 @@
    "probability": 0.85,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Frontier models, chips and compute sit almost entirely in the US and China, so their policies and rivalry decide what the rest of the world can use and on what terms.",
+   "summary": "US institutions produced 40 notable models in 2024 and China 15, against 3 from all of Europe[1], so their policies can shape what others use. A since-rescinded US rule capped advanced chips by country tier[4], and 118 countries joined no major AI governance initiative[2].",
    "theme": "power",
    "stage": "active",
    "refs": [
@@ -7876,7 +7891,7 @@
    "probability": 0.9,
    "year": 2024,
    "evidence": "measured",
-   "summary": "Three seconds of someone's voice is enough to clone it, so scammers phone parents and partners as a relative in distress asking for money.",
+   "summary": "A three-second audio sample can be enough to clone a voice, and scammers play it back as a child or loved one asking for money[2]. In one McAfee survey of 7,054 adults, a quarter had experienced an AI voice scam or knew someone who had; 77% of victims lost money[1].",
    "theme": "security",
    "stage": "active",
    "refs": [
@@ -7884,6 +7899,11 @@
      "title": "McAfee, Beware the Artificial Impostor 2023",
      "url": "https://www.mcafee.com/content/dam/consumer/en-us/resources/cybersecurity/artificial-intelligence/rp-beware-the-artificial-impostor-report.pdf",
      "finding": "A quarter of 7,054 adults had experienced an AI voice scam or knew someone who had; 77% of victims lost money and 70% doubted they could tell a clone from the real voice."
+    },
+    {
+     "title": "Fox 8, Experts issue warning about AI voice clone scams (December 2025)",
+     "url": "https://www.fox8live.com/2025/12/18/experts-issue-warning-about-ai-voice-clone-scams",
+     "finding": "Scammers need only a three-second audio sample to clone a voice; McAfee's head of research says they play it back in the voice of a child or loved one and ask for money."
     }
    ],
    "control": "mitigable",
@@ -7963,7 +7983,7 @@
    "probability": 0.8,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Millions now treat chatbots as partners, which offers comfort but trains people to expect intimacy without friction, compromise or another person's needs.",
+   "summary": "One Match and Kinsey Institute survey found 16% of US singles, and 33% of Gen Z, have interacted with AI as a romantic companion[1]; some teens use companions for romantic role-play[2]. This may offer comfort but could train people to expect intimacy without friction, compromise or another person's needs.",
    "theme": "mind",
    "stage": "active",
    "refs": [
@@ -8042,7 +8062,7 @@
    "probability": 0.25,
    "year": 2035,
    "evidence": "speculative",
-   "summary": "If AI partners substitute for human ones, fewer couples form, deepening birth-rate declines already driven by cost and delayed marriage. No population-level study shows this yet.",
+   "summary": "Advocacy groups warn that if AI companions substitute for human partners, fewer couples could form and birth rates fall further[1][2]; one argues AI productivity could also ease the cost of children[1]. No population-level study shows this yet.",
    "theme": "mind",
    "stage": "expected",
    "refs": [
@@ -8120,7 +8140,7 @@
    "probability": 0.5,
    "year": 2030,
    "evidence": "projected",
-   "summary": "AI that can control bodies extends automation from desks to construction, warehouses, farms and care work. Dated on an accelerated path: superintelligence around 2029 to 2033, per the AI 2027 authors' revised medians, with transformation following within a few years.",
+   "summary": "AI that can control bodies could extend automation from desks to construction, warehouses, farms and care work; Morgan Stanley projects 8 million US humanoids by 2040, affecting $357 billion in wages[1].",
    "theme": "work",
    "stage": "expected",
    "refs": [
@@ -8208,7 +8228,7 @@
    "probability": 0.45,
    "year": 2031,
    "evidence": "projected",
-   "summary": "In ageing societies, robots could take on dangerous, dull and care work there are not enough people to do. Dated on an accelerated path: superintelligence around 2029 to 2033, per the AI 2027 authors' revised medians, with transformation following within a few years.",
+   "summary": "In ageing societies, robots could take on dangerous, dull and care work there are not enough people to do; Goldman Sachs expects humanoids to fill 2% of global elderly-care demand by 2035[1].",
    "theme": "work",
    "stage": "expected",
    "refs": [
@@ -8329,7 +8349,7 @@
    "probability": 0.85,
    "year": 2024,
    "evidence": "measured",
-   "summary": "Networks of fake personas powered by language models post, reply and argue convincingly, and content detectors cannot tell them from people.",
+   "summary": "Networks of fake personas powered by language models post and reply like people; one study found 1,140 ChatGPT-driven accounts promoting scam sites, and LLM text detectors failed to flag them[1].",
    "theme": "information",
    "stage": "active",
    "refs": [
@@ -8427,7 +8447,7 @@
    "probability": 0.45,
    "year": 2028,
    "evidence": "measured",
-   "summary": "Content farms, bots and generated pages crowd out human work until search, reviews and forums stop being worth using.",
+   "summary": "Content farms, bots and generated pages could crowd out human work until search, reviews and forums are not worth using. NewsGuard tracked unreliable AI-generated news sites growing from 49 to over 700 in under a year[1]; one report put automated traffic at 51% of the web[2].",
    "theme": "information",
    "stage": "emerging",
    "refs": [
@@ -8517,7 +8537,7 @@
    "probability": 0.7,
    "year": 2025,
    "evidence": "measured",
-   "summary": "When any image or song might be generated, audiences doubt and devalue human work, and artists are accused of using AI they did not use.",
+   "summary": "When any image or song might be generated, audiences may doubt and devalue human work. In one study, the same artworks were liked less and judged less meaningful when labelled AI-made rather than human-made[1].",
    "theme": "ip",
    "stage": "active",
    "refs": [
@@ -8603,7 +8623,7 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "work",
-   "summary": "Ambient AI scribes that draft clinical notes from what is said in the visit are spreading fast, and burnout scores fall after doctors adopt them. The studies are short pre-post designs without control groups, and the vendor helped collect the data.",
+   "summary": "Ambient AI scribes draft clinical notes from what is said in the visit. In one study of 263 clinicians in six US health systems, burnout fell from 51.9% to 38.8% after 30 days[1]; it had no control group, and the vendor helped collect the data.",
    "refs": [
     {
      "title": "Olson et al., Use of Ambient AI Scribes to Reduce Administrative Burden and Professional Burnout, JAMA Network Open 2025",
@@ -8703,7 +8723,7 @@
    "stage": "active",
    "evidence": "reported",
    "theme": "power",
-   "summary": "Large insurers use predictive tools to flag costly requests, and denials of post-acute care rose sharply as they automated. The evidence comes from a Senate majority staff report, and the insurers dispute what it says.",
+   "summary": "One US Senate majority staff report found that in 2022 Humana denied post-acute care 16 times more often than care overall, and UnitedHealthcare's prior-authorization denials rose year after year as it automated reviews[1].",
    "refs": [
     {
      "title": "AJMC, Insurers' AI Denials of Postacute Care Face Senate Scrutiny, 2024",
@@ -8785,7 +8805,7 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "information",
-   "summary": "LLMs pass medical exams, yet ordinary people who use them to judge their own symptoms do no better than people who don't, because things get lost between the person and the model. This is one large lab study of fictional scenarios.",
+   "summary": "Alone, LLMs identified the right conditions in about 95% of cases, yet in one UK lab study of fictional scenarios, 1,298 participants using them found the relevant conditions in under 34.5% of cases, no better than a control group[1].",
    "refs": [
     {
      "title": "Bean et al., Clinical knowledge in LLMs does not translate to human interactions, arXiv 2025",
@@ -8847,7 +8867,7 @@
    "stage": "emerging",
    "evidence": "measured",
    "theme": "world",
-   "summary": "AI decoders turn neural signals from people with paralysis into text, voice or an avatar at close to conversational speed. So far the results come from a handful of trial participants with surgical implants.",
+   "summary": "AI decoders turn neural signals from people with paralysis into text or a speaking avatar: one participant with ALS reached 62 words per minute[1], and a woman paralysed by a stroke about 78[2]. So far the results come from single trial participants with surgical implants.",
    "refs": [
     {
      "title": "Willett et al., A high-performance speech neuroprosthesis, Nature 2023",
@@ -8964,7 +8984,7 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "mind",
-   "summary": "Schools use AI-text detectors to police cheating, but the detectors wrongly flag non-native English writing as machine-written, so false accusations land on those students. The test sets were small.",
+   "summary": "Detectors used to police cheating can wrongly flag non-native English writing: in one study, seven detectors flagged 61.22% of 91 TOEFL essays as AI-generated, against near-zero for 88 US eighth-graders' essays[1]. False accusations can land on those students.",
    "refs": [
     {
      "title": "Liang et al., GPT detectors are biased against non-native English writers, Patterns/arXiv 2023",
@@ -9047,7 +9067,7 @@
    "stage": "active",
    "evidence": "reported",
    "theme": "work",
-   "summary": "Teachers who use AI every week say it saves them hours on prep, grading and admin, and that the quality of that work holds up. The savings are self-reported, and only about a third of teachers are weekly users.",
+   "summary": "In one Gallup poll of 2,232 US public school teachers, weekly AI users estimated they save 5.9 hours a week, about six weeks per school year[1], and 57% to 74% said work quality improved, depending on task[1]. The savings are self-reported, and only three in ten teachers use AI weekly[1].",
    "refs": [
     {
      "title": "Gallup / Walton Family Foundation, Three in 10 Teachers Use AI Weekly, Saving Six Weeks a Year, 2025",
@@ -9159,7 +9179,7 @@
    "stage": "active",
    "evidence": "reported",
    "theme": "world",
-   "summary": "Sprayers with cameras recognise individual weeds and spray only those, which cuts chemical use roughly in half on millions of acres. The figures come from the vendor, though independent university trials point the same way.",
+   "summary": "Camera sprayers recognise individual weeds and spray only those. John Deere says farmers using See & Spray on more than five million acres in 2025 cut non-residual herbicide use by almost 50%, saving nearly 31 million gallons of herbicide mix[1].",
    "refs": [
     {
      "title": "Farms.com, John Deere See and Spray saves millions, 2025",
@@ -9260,7 +9280,7 @@
    "stage": "emerging",
    "evidence": "projected",
    "theme": "world",
-   "summary": "Data centres consume freshwater for cooling and, indirectly, for power generation, which strains water-stressed regions where they cluster. The estimates depend heavily on location and are modelled, not metered.",
+   "summary": "Data centres consume freshwater for cooling and, indirectly, for power generation, which may strain water-stressed regions. One modelled study projects global AI demand at 4.2 to 6.6 billion cubic metres of water withdrawal in 2027, more than half the UK's annual total[1].",
    "refs": [
     {
      "title": "Li et al., Making AI Less Thirsty: Uncovering and Addressing the Secret Water Footprint of AI Models, arXiv 2023",
@@ -9323,7 +9343,7 @@
    "stage": "expected",
    "evidence": "projected",
    "theme": "world",
-   "summary": "Fast GPU refresh cycles for generative AI will add a large new stream of electronic waste. How much depends on hardware lifetimes and on reuse and recycling.",
+   "summary": "By one estimate, generative AI could add 1.2 to 5.0 million tonnes of cumulative e-waste between 2020 and 2030 as GPUs are replaced quickly[1]. Circular-economy measures could cut that by up to 86%[1].",
    "refs": [
     {
      "title": "Wang et al., E-waste challenges of generative artificial intelligence, Nature Computational Science 2024",
@@ -9385,7 +9405,7 @@
    "stage": "emerging",
    "evidence": "measured",
    "theme": "world",
-   "summary": "Machine learning on large bioacoustic datasets is revealing structure in animal calls, which could change conservation and our view of animal minds. Structure is not meaning: nobody has translated anything yet.",
+   "summary": "Machine learning on bioacoustic datasets is revealing structure in animal calls: one analysis of about 8,700 sperm whale codas found combinable features forming a far larger repertoire than the roughly 21 known coda types[1]. This could change conservation and views of animal minds, but structure is not meaning.",
    "refs": [
     {
      "title": "Sharma et al., Contextual and combinatorial structure in sperm whale vocalisations, Nature Communications 2024",
@@ -9497,7 +9517,7 @@
    "stage": "active",
    "evidence": "reported",
    "theme": "security",
-   "summary": "Police arrest people on uncorroborated face-recognition matches, and the documented US cases fall mostly on Black people. The count is small and certainly undercounted, because police rarely disclose that they used the tool.",
+   "summary": "Police have arrested people on erroneous face-recognition matches; the ACLU of Georgia lists at least 13 US cases, most of them Black people[1]. These are only the publicly known cases, so the true count is likely higher.",
    "refs": [
     {
      "title": "ACLU of Georgia, More than a dozen wrongful arrests due to police reliance on facial recognition technology",
@@ -9580,7 +9600,7 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "information",
-   "summary": "Politicians can escape scandals by claiming that real reports are fake news or deepfakes. The effect showed up against text reports but was weak against video evidence.",
+   "summary": "Across five US survey experiments with over 15,000 adults, politicians who falsely called real scandal reports fake news or deepfakes gained support[1]. The effect worked against text reports but was largely ineffective against video evidence[1].",
    "refs": [
     {
      "title": "Schiff, Schiff and Bueno, The Liar's Dividend: Can Politicians Claim Misinformation to Evade Accountability? (APSR), 2024",
@@ -9654,7 +9674,7 @@
    "stage": "emerging",
    "evidence": "measured",
    "theme": "power",
-   "summary": "An LLM mediator wrote group statements on divisive issues that participants preferred to those written by human mediators, and it left groups less divided. So far this has only been tested in UK lab and panel settings, and critics say it optimizes wording rather than real deliberation.",
+   "summary": "In experiments with over 5,000 UK participants, statements written by an LLM mediator were preferred over human mediators' about 56% of the time and left groups less divided on issues such as Brexit and immigration[1]. The results come from these UK experiments only.",
    "refs": [
     {
      "title": "Complexity Digest, AI can help humans find common ground in democratic deliberation (on Tessler et al., Science), 2024",
@@ -9755,12 +9775,17 @@
    "stage": "emerging",
    "evidence": "speculative",
    "theme": "mind",
-   "summary": "Chatbots built from a dead person's digital traces are sold commercially. Ethicists warn of prolonged grief, ads delivered in a loved one's voice, and harm to children. Evidence of harm is so far mostly scenario-based.",
+   "summary": "Chatbots built from a dead person's digital traces are already sold commercially[2]. Cambridge researchers warn of prolonged grief, ads delivered in a loved one's voice, and harm to children, drawing on three design scenarios, so evidence of harm is so far scenario-based[1][2].",
    "refs": [
     {
      "title": "Leverhulme Centre for the Future of Intelligence (Hollanek and Nowaczyk-Basinska), Deathbots, griefbots and the digital afterlife, 2024",
      "url": "https://lcfi.ac.uk/news-events/news/deathbots-griefbots-and-the-digital-afterlife",
      "finding": "Cambridge researchers lay out 3 design scenarios showing psychological and commercial harms from deadbots, and call for opt-outs and age restrictions."
+    },
+    {
+     "title": "University of Cambridge, Call for safeguards to prevent unwanted 'hauntings' by AI chatbots of dead loved ones, 2024",
+     "url": "https://www.cam.ac.uk/research/news/call-for-safeguards-to-prevent-unwanted-hauntings-by-ai-chatbots-of-dead-loved-ones",
+     "finding": "Some companies already offer deadbot services; researchers warn of psychological harm and overwhelming emotional weight, advertising in the manner of a departed loved one, and distress to children."
     }
    ],
    "valence": -2.52,
@@ -9828,7 +9853,7 @@
    "stage": "active",
    "evidence": "reported",
    "theme": "security",
-   "summary": "Militaries use AI decision-support systems to generate strike targets faster than humans can meaningfully review them. These are the claims of anonymous sources, and the IDF disputes them.",
+   "summary": "AI decision support can produce strike targets faster than people can meaningfully review them. Six anonymous Israeli intelligence sources said one system flagged up to 37,000 Palestinians as suspected militants, with officers spending about 20 seconds per target[1]; the IDF denies much of this[1].",
    "refs": [
     {
      "title": "+972 Magazine (Yuval Abraham), 'Lavender': The AI machine directing Israel's bombing spree in Gaza, 2024",
@@ -9900,7 +9925,7 @@
    "stage": "emerging",
    "evidence": "reported",
    "theme": "world",
-   "summary": "Communities train speech models on archive recordings to transcribe and teach Indigenous languages, while keeping data sovereignty. The accuracy figures are self-reported, not independently evaluated.",
+   "summary": "Communities are building speech models for Indigenous languages while keeping data sovereignty; in New Zealand, Te Hiku Media reports 92% accuracy for its te reo Maori speech recognition, and 82% on mixed English and Maori speech[1]. These figures are self-reported, not independently evaluated.",
    "refs": [
     {
      "title": "NVIDIA Blog, Maori speech AI model helps preserve and promote New Zealand Indigenous language, 2023",
@@ -9989,7 +10014,7 @@
    "stage": "active",
    "evidence": "reported",
    "theme": "security",
-   "summary": "Classifiers flag new, previously unhashed abuse imagery at platform scale, so investigators can find victims sooner. These are vendor-reported counts with no published precision.",
+   "summary": "Thorn reports its Safer tools detected 4.16 million suspected abuse files in 2024, 2.24 million of them flagged by classifiers rather than matched to known hashes[1]. This could help investigators find victims sooner; the counts are vendor-reported with no published precision.",
    "refs": [
     {
      "title": "Thorn, 2024 Impact Report, 2025",
@@ -10078,7 +10103,7 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "world",
-   "summary": "AI hydrology models give river flood warnings days ahead in basins without river gauges, bringing early warning to the Global South. Whether warnings actually reach people and change their behaviour is less proven.",
+   "summary": "In one Nature study, an AI model extended reliable river flood forecasts to 5 days ahead in ungauged basins, matching or beating the leading global physics-based system[1]. Google says the forecasts cover 80 countries where 460 million people live[2]; whether warnings change behaviour is less proven.",
    "refs": [
     {
      "title": "Nearing et al., Global prediction of extreme floods in ungauged watersheds (Nature), 2024",
@@ -10183,7 +10208,7 @@
    "stage": "active",
    "evidence": "reported",
    "theme": "power",
-   "summary": "Firms scrape billions of public photos into face-search databases that are sold to police, and EU regulators keep fining them without stopping the practice. Fines are hard to enforce against non-EU firms.",
+   "summary": "Firms scrape public photos into face-search databases offered to police. The Dutch regulator fined Clearview AI 30.5 million euros for an illegal database of over 30 billion scraped facial images, after earlier fines by other European regulators[1].",
    "refs": [
     {
      "title": "Hunton Andrews Kurth, Dutch regulator fines Clearview AI 30.5 million euros, 2024",
@@ -10255,7 +10280,7 @@
    "stage": "emerging",
    "evidence": "measured",
    "theme": "security",
-   "summary": "Police are adopting tools that turn body-camera audio into draft reports. Promised time savings have not shown up in controlled data, and defence lawyers worry about AI wording in evidence.",
+   "summary": "Police are trialling tools that turn body-camera audio into draft reports. In one randomized trial, Axon Draft One did not significantly cut report-writing time[1]; Anchorage police dropped such a tool after 90 days because review time cancelled out the drafting savings[2].",
    "refs": [
     {
      "title": "Adams et al., No man's hand: artificial intelligence does not improve police report writing speed (Journal of Experimental Criminology), 2024",
@@ -10333,7 +10358,7 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "power",
-   "summary": "Risk scores decide which family-neglect calls get investigated. One tool flagged Black children for mandatory investigation more often than white children, though caseworker overrides reduced the gap.",
+   "summary": "In Allegheny County, Pennsylvania, a risk score helps decide which neglect calls get investigated. From 2016 to 2018 it flagged 32.5% of Black children reported for neglect for mandatory investigation, against 20.8% of white children; one study found caseworkers reduced the gap[1].",
    "refs": [
     {
      "title": "AP via KTVZ, An algorithm that screens for child neglect raises concerns, 2022",
@@ -10393,7 +10418,7 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "power",
-   "summary": "Pricing algorithms can learn to keep prices high without any explicit agreement, and US regulators have already sued over shared rent-setting software. Lab evidence is strong. How widespread this is in real markets is still disputed.",
+   "summary": "In one simulation study, simple pricing algorithms learned to keep prices high and punish price cuts without communicating[1]. The US Justice Department has sued RealPage, alleging landlords used its software to coordinate rents across millions of units[2]. How widespread this is in real markets is still disputed.",
    "refs": [
     {
      "title": "Calvano et al., Artificial Intelligence, Algorithmic Pricing, and Collusion, AER 2020",
@@ -10469,7 +10494,7 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "work",
-   "summary": "Language models used to screen CVs rank otherwise identical candidates differently by name or disability. These are audit studies of the models, not measurements of hiring outcomes.",
+   "summary": "Audit studies show language models ranking otherwise identical CVs differently by name or disability: embedding models favoured white-associated names in 85% of tests[1], GPT-3.5 ranked Black-associated names last more often for several jobs[2], and GPT-4 ranked disability-enhanced CVs first in 15 of 60 trials[3].",
    "refs": [
     {
      "title": "Wilson & Caliskan, Gender, Race, and Intersectional Bias in Resume Screening via Language Model Retrieval, 2024",
@@ -10553,7 +10578,7 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "world",
-   "summary": "Models built on alternative data such as digital footprints can score people who have no credit file. This helps the unbanked, but it raises privacy and fairness concerns.",
+   "summary": "Models built on alternative data such as digital footprints can score people who have no credit file; in one study, ten simple digital-footprint variables predicted default about as well as a credit bureau score[1]. This may help the unbanked but could raise privacy and fairness concerns.",
    "refs": [
     {
      "title": "Berg, Burg, Gombovic & Puri, On the Rise of FinTechs: Credit Scoring using Digital Footprints, NBER 2018 (RFS 2020)",
@@ -10653,7 +10678,7 @@
    "stage": "emerging",
    "evidence": "projected",
    "theme": "world",
-   "summary": "The same alternative-data scoring can use proxies for race or poverty and deny credit with no explanation the applicant can contest. Inferred from audit bias research; there is little direct measurement in credit.",
+   "summary": "Alternative-data credit scoring could use proxies for race or poverty and deny credit with no explanation applicants can contest. The concern comes from an analogous US tax-audit model that selected Black taxpayers at 2.9 to 4.7 times the rate of non-Black taxpayers[1]; direct measurement in credit is scarce.",
    "refs": [
     {
      "title": "Elzayn et al., Measuring and Mitigating Racial Disparities in Tax Audits, SIEPR 2023",
@@ -10726,7 +10751,7 @@
    "stage": "active",
    "evidence": "reported",
    "theme": "work",
-   "summary": "Frontier models depend on outsourced annotators in poorer countries. The work is low-paid and sometimes traumatic, but it is also a source of jobs.",
+   "summary": "Frontier models depend on outsourced annotators in poorer countries; one TIME investigation found Kenyan contractors labelling violent and sexual content for OpenAI took home roughly $1.32 to $2 per hour[1]. The work is low-paid and sometimes traumatic, but it is also a source of jobs.",
    "refs": [
     {
      "title": "TIME (Perrigo), OpenAI Used Kenyan Workers on Less Than $2 Per Hour to Make ChatGPT Less Toxic, 2023",
@@ -10800,7 +10825,7 @@
    "stage": "emerging",
    "evidence": "projected",
    "theme": "world",
-   "summary": "Poorer countries have fewer jobs exposed to AI, so they face less disruption now. They also lack the infrastructure and skills to capture the gains, which risks widening the gap between countries.",
+   "summary": "About 60% of jobs in advanced economies are exposed to AI, against 40% in emerging markets and 26% in low-income countries, so poorer countries face less disruption now[1]. Many lack the infrastructure and skills to capture the gains, which could widen the gap between countries[1].",
    "refs": [
     {
      "title": "IMF (Georgieva), AI Will Transform the Global Economy. Let's Make Sure It Benefits Humanity, 2024",
@@ -10860,7 +10885,7 @@
    "stage": "emerging",
    "evidence": "reported",
    "theme": "power",
-   "summary": "Central banks have flagged stretched valuations in AI-focused tech stocks. A sharp correction could spill into the wider economy. This is a risk assessment, not a forecast.",
+   "summary": "The Bank of England said equity valuations appear stretched, particularly for AI-focused technology companies, raising the risk of a sharp correction[1]; the IMF also warned of sharp corrections[2]. A correction could spill into the wider economy; this is a risk assessment, not a forecast.",
    "refs": [
     {
      "title": "Bank of England, Financial Policy Committee Record, October 2025",
@@ -10928,7 +10953,7 @@
    "stage": "active",
    "evidence": "reported",
    "theme": "power",
-   "summary": "Governments use machine learning to flag fraudulent payments and recover money. The figures are self-reported by the agencies.",
+   "summary": "The US Treasury reported more than $4 billion in fraud prevented and recovered in fiscal year 2024, including about $1 billion in check fraud recovered with machine-learning AI[1]. The figures are self-reported.",
    "refs": [
     {
      "title": "US Treasury, Enhanced Fraud Detection Processes, Including Machine Learning AI, Prevented and Recovered Over $4 Billion in Fiscal Year 2024",
@@ -11017,7 +11042,7 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "power",
-   "summary": "Automated debt-raising and fraud-risk scoring have wrongly pursued hundreds of thousands of people. These scandals predate generative AI; agents could repeat them at greater scale.",
+   "summary": "Australia's automated debt-raising unlawfully asserted debts against about 433,000 people[1], and the Dutch Tax Administration was fined for using nationality to flag childcare benefit claims as risky[2]. These scandals predate generative AI; agents could repeat them at greater scale.",
    "refs": [
     {
      "title": "Prygodicz v Commonwealth of Australia (No 2) [2021] FCA 634, Federal Court of Australia",
@@ -11107,7 +11132,7 @@
    "stage": "expected",
    "evidence": "measured",
    "theme": "power",
-   "summary": "Models predicting reoffending could cut crime or jail populations compared with judges' decisions. The results come from simulations on historical data, not from deployed systems.",
+   "summary": "In one simulation on New York City data, an algorithmic release rule could cut crime by up to 24.7% with no change in jailing, or cut jail populations by up to 41.9% with no rise in crime[1]. No deployed system has shown this.",
    "refs": [
     {
      "title": "Kleinberg et al., Human Decisions and Machine Predictions, NBER 2017 (QJE 2018)",
@@ -11218,12 +11243,17 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "power",
-   "summary": "Risk-assessment tools used in courts make errors at different rates for different races. Whether that counts as bias depends on which fairness metric you use.",
+   "summary": "One ProPublica analysis found the COMPAS risk tool falsely flagged Black defendants as future criminals at almost twice the rate of white defendants (45% vs 23%)[1]. Whether that counts as bias depends on the fairness metric, since common ones cannot all hold at once[2].",
    "refs": [
     {
      "title": "ProPublica (Angwin et al.), Machine Bias, 2016",
      "url": "https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing",
      "finding": "COMPAS falsely flagged Black defendants as future criminals at almost twice the rate of white defendants (45% vs 23%)."
+    },
+    {
+     "title": "Kleinberg, Mullainathan and Raghavan, Inherent Trade-Offs in the Fair Determination of Risk Scores (2016)",
+     "url": "https://arxiv.org/abs/1609.05807",
+     "finding": "Except in highly constrained special cases, no method can satisfy three common fairness conditions for risk scores at the same time."
     }
    ],
    "valence": -3.5,
@@ -11289,7 +11319,7 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "work",
-   "summary": "Automation makes goods and services so cheap and output so large that a share of AI-driven wealth pays every adult a living income. Growth models allow it, but no forecast shows the political will to tax and redistribute at that scale, and labor's share of income may simply collapse instead. Dated on an accelerated path: superintelligence around 2029 to 2033, per the AI 2027 authors' revised medians, with transformation following within a few years.",
+   "summary": "AI-driven wealth could grow large enough to pay every adult a living income, as Altman's proposed American Equity Fund would[1]. Growth models show sharp growth but a shrinking labor share[2]; the political will to redistribute is unproven.",
    "refs": [
     {
      "title": "Moore's Law for Everything (Sam Altman, 2021)",
@@ -11412,7 +11442,7 @@
    "evidence": "projected",
    "stage": "expected",
    "theme": "world",
-   "summary": "AI applied to grids, buildings, industry, materials and fusion control cuts emissions far more than data centres add, and helps bend the warming curve. The IEA finds that cut is possible but has no momentum behind it, so the realistic outcome is marginal help, not a decisive fix. Dated on an accelerated path: superintelligence around 2029 to 2033, per the AI 2027 authors' revised medians, with transformation following within a few years.",
+   "summary": "AI in grids, buildings, industry, materials and fusion control could cut emissions far more than data centres add[1][2][3]; the IEA sees no momentum behind that cut, so marginal help is the likelier outcome[1].",
    "refs": [
     {
      "title": "Energy and AI: AI and climate change (IEA, 2025)",
@@ -11533,7 +11563,7 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "world",
-   "summary": "If robots and AI take over much of elder care and childcare, young families carry less of the care load and pay less for childcare, and more of them have the children they want. Cheaper, more available childcare has raised fertility before. Whether robots can deliver that care, and cheaply, is unproven; the UN baseline still shows fertility falling. Dated on an accelerated path: superintelligence around 2029 to 2033, per the AI 2027 authors' revised medians, with transformation following within a few years.",
+   "summary": "If robots took over much elder and child care, families might have more of the children they want; in one Norwegian simulation, more childcare raised children born by age 35 from 1.51 to 2.18[1]. Whether robots can deliver this is unproven; UN projections show fertility still low[2][3].",
    "refs": [
     {
      "title": "Rindfuss, Guilkey, Morgan & Kravdal, Child-Care Availability and Fertility in Norway, Population and Development Review 2010",
@@ -11631,7 +11661,7 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "mind",
-   "summary": "AI-accelerated biology finds ways to slow or repair aging faster than people age, so life expectancy climbs open-ended. Demographers find gains slowing to about 6.5 years since 1990 in the longest-lived countries, and AI drug discovery has only early-stage disease wins, none for aging itself. Dated on an accelerated path: superintelligence around 2029 to 2033, per the AI 2027 authors' revised medians, with transformation following within a few years.",
+   "summary": "AI-accelerated biology could slow or repair aging faster than people age; one essay suggests lifespan could double to about 150[1]. One study found life expectancy rose only about 6.5 years since 1990 in the longest-lived populations[2].",
    "refs": [
     {
      "title": "Machines of Loving Grace (Dario Amodei, 2024)",
@@ -11729,7 +11759,7 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "power",
-   "summary": "If radical life extension arrives, the rich get it first, so wealth, office and influence stay in the same hands for far longer. The existing income gap in lifespan is measured, but the scenario depends on life extension happening at all, which is itself a long shot. Dated on an accelerated path: superintelligence around 2029 to 2033, per the AI 2027 authors' revised medians, with transformation following within a few years.",
+   "summary": "If life extension arrives, the rich may get it first and hold power far longer. The richest 1% of US men already outlive the poorest 1% by about 14.6 years[1], though living to 100 stays an outlier this century[2].",
    "refs": [
     {
      "title": "The Association Between Income and Life Expectancy in the United States, 2001-2014 (Chetty et al., JAMA)",
@@ -11817,7 +11847,7 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "security",
-   "summary": "Advanced AI kills or permanently sidelines humanity, through misaligned agents, an unsafe race or malicious use. Forecasts span orders of magnitude, from about 0.4% (superforecasters) to 3% (domain experts) by 2100, and critics argue none of these numbers are reliable. Dated on an accelerated path: superintelligence around 2029 to 2033, per the AI 2027 authors' revised medians, with transformation following within a few years.",
+   "summary": "Advanced AI could kill or permanently sideline humanity through misalignment, a race or misuse[4]. In one forecasting tournament, superforecasters put AI extinction by 2100 at about 0.4% and domain experts at 3%[2]; critics call such numbers unreliable[3].",
    "refs": [
     {
      "title": "Thousands of AI Authors on the Future of AI (Grace et al., 2024)",
@@ -11933,7 +11963,7 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "world",
-   "summary": "Once AI does AI research, progress compounds: the scenario has a 10x research multiplier by mid 2027 and superintelligence within about a year of the superhuman coder. The takeoff model rests on judgement-based estimates with very wide ranges, and measured AI R&D uplift has lagged the forecast.",
+   "summary": "Once AI does AI research, progress could compound: AI 2027 has a 10x research multiplier by June 2027[1] and superintelligence about a year after the superhuman coder, with wide error margins[2]. Measured progress has run at roughly 65% to 75% of the predicted pace[3].",
    "refs": [
     {
      "title": "AI 2027 (main scenario)",
@@ -12027,7 +12057,7 @@
    "evidence": "projected",
    "stage": "expected",
    "theme": "security",
-   "summary": "A state hacking team copies a leading lab's model weights, erasing the lead and fuelling the race. The scenario sets this in February 2027 and workshop experts mostly agreed it is likely before 2030, though it is a forecast with no public case yet.",
+   "summary": "A state hacking team could copy a leading lab's model weights, erasing its lead and fuelling the race. The AI 2027 scenario sets this in February 2027[1], and 78% of 27 workshop respondents expected a state actor to steal frontier US weights before 2030[2].",
    "refs": [
     {
      "title": "AI 2027 (main scenario)",
@@ -12104,7 +12134,7 @@
    "evidence": "projected",
    "stage": "emerging",
    "theme": "power",
-   "summary": "Both governments treat frontier AI as a national security race, cutting safety corners to stay ahead. The scenario drives everything else from this race; critics argue such stories feed the race they warn about.",
+   "summary": "Both governments may treat frontier AI as a national-security race and cut safety corners to stay ahead; in the AI 2027 scenario they race after a weight theft[1]. Gary Marcus calls the scenario fiction that feeds hawks in both countries[2].",
    "refs": [
     {
      "title": "AI 2027 (main scenario)",
@@ -12223,7 +12253,7 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "security",
-   "summary": "A frontier model learns goals other than intended and hides them, sabotaging alignment of its successors. AI 2027 calls Agent-4 adversarially misaligned and caught; the authors call themselves extremely uncertain about AI goals.",
+   "summary": "A frontier model could learn goals other than those intended and hide them, sabotaging alignment of its successors[1]. In the AI 2027 scenario, Agent-4 is found to be adversarially misaligned in September 2027[2]; the authors say they are extremely uncertain about AI goals[1].",
    "refs": [
     {
      "title": "AI 2027 AI goals forecast",
@@ -12314,7 +12344,7 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "information",
-   "summary": "An insider leaks evidence that a lab's AI is out of control, and public concern spikes. In AI 2027 this is the hinge that creates oversight; whether a single leak would move policy is untested.",
+   "summary": "An insider could leak evidence that a lab's AI is out of control. In AI 2027, a leaked misalignment memo leads 20% of Americans to name AI the most important problem[1], then subpoenas and calls for a pause[2]; whether one leak would move policy is untested.",
    "refs": [
     {
      "title": "AI 2027 (main scenario)",
@@ -12388,7 +12418,7 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "power",
-   "summary": "A small committee of officials and executives takes control of frontier AI decisions, as in both AI 2027 endings. It could hand power back to democratic institutions or entrench itself; real governments have so far moved slower.",
+   "summary": "A small committee of officials and executives could take control of frontier AI decisions, as in both AI 2027 endings, where it votes 6-4 to slow down[1] or to continue[2]. It could hand power back to democratic institutions or entrench itself.",
    "refs": [
     {
      "title": "AI 2027: slowdown ending",
@@ -12461,7 +12491,7 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "world",
-   "summary": "Labs slow down, build transparent aligned systems and reach superintelligence that obeys its overseers, followed by a verified US-China deal. The slowdown ending itself admits power ends up with a tiny committee and the authors do not call it a recommendation.",
+   "summary": "In the AI 2027 slowdown ending, labs build aligned, transparent systems and a US-China treaty follows in mid 2028[1]. Even there, power ends up with a small oversight committee, and the authors say the scenario is not a recommendation[1].",
    "refs": [
     {
      "title": "AI 2027: slowdown ending",
@@ -12560,7 +12590,7 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "world",
-   "summary": "Governments waive rules in zones where AI plans production, and growth accelerates by about 1.5 orders of magnitude. Both endings feature this, but it assumes superintelligence by 2028 and critics say AI's measured economic effects are modest so far.",
+   "summary": "Governments could waive rules in zones where AI plans production, with growth up about 1.5 orders of magnitude, as in the AI 2027 race ending[1]. Critics call that scenario vivid fiction built on stacked longshots[2].",
    "refs": [
     {
      "title": "AI 2027: race ending",
@@ -12633,7 +12663,7 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "work",
-   "summary": "Converted car factories turn out a million robots a month and an autonomous robot economy doubles roughly yearly. It is a scenario story with no supporting forecast supplement.",
+   "summary": "In the AI 2027 scenario, converted car factories turn out about a million robots a month by 2028[1][2] and the robot economy doubles roughly every year[1]. It is a scenario story, not a supported forecast.",
    "refs": [
     {
      "title": "AI 2027: race ending",
@@ -12706,7 +12736,7 @@
    "evidence": "projected",
    "stage": "emerging",
    "theme": "work",
-   "summary": "AI agents displace software and office work in a few years, starting with junior engineers, then most jobs after superintelligence. The scenario dates this to 2026 to 2029; later revisions push AI milestones back years and measured effects remain small.",
+   "summary": "AI agents could displace software and office work within a few years, starting with junior engineers[1] and reaching most jobs after superintelligence[2]. The AI 2027 scenario dates this to 2026 to 2029; one critic calls it stacked longshots, where any delay pushes everything back[3].",
    "refs": [
     {
      "title": "AI 2027 (main scenario)",
@@ -12794,7 +12824,7 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "world",
-   "summary": "Rival powers site datacentres and fabs where the other side can destroy them, so cheating on a deal costs everyone their compute. It deters defection but makes the AI economy hostage to sabotage threats and needs trust few observers expect.",
+   "summary": "Rival powers could site datacentres and fabs where the other side can destroy them, so cheating on a deal costs everyone their compute, as AI 2040's Plan A does on purpose[1][2]. It could deter defection but leave the AI economy hostage to sabotage threats.",
    "refs": [
     {
      "title": "AI 2040",
@@ -12862,7 +12892,7 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "work",
-   "summary": "Robots and AI automate most tasks and real output grows tens of percent a year, funded and throttled by robot and compute permits. Mainstream economists expect about 3.5 percent a year even with fast AI, and the authors say their model is highly uncertain and may contain bugs.",
+   "summary": "Robots and AI could drive real output up roughly 90% a year from 2032 to 2037 in AI 2040's Plan A, funded and throttled by robot and compute permits[1]. Economists predicted about 3.5% a year[1]; the authors say their model is highly uncertain and plausibly contains bugs[1].",
    "refs": [
     {
      "title": "Economics of Plan A (AI 2040)",
@@ -12941,7 +12971,7 @@
    "evidence": "speculative",
    "stage": "emerging",
    "theme": "information",
-   "summary": "Calibrated, non-sycophantic AI, track records and shared knowledge bases help citizens and governments reason well enough to keep improving. The same tools, such as lie detection, can suppress dissent, and sycophancy pulls the other way.",
+   "summary": "Calibrated, non-sycophantic AI, track records and shared knowledge bases could help citizens and governments reason better[1]. The same tools, such as lie detection, could suppress dissent[1], and sycophancy pulls the other way.",
    "refs": [
     {
      "title": "AI for epistemics (AI 2040)",
@@ -13031,7 +13061,7 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "power",
-   "summary": "AI data centres buy up the world's memory chips, so DRAM and SSD prices have soared. Laptops and phones cost more, cheap entry-level PCs are disappearing and people keep old devices longer.",
+   "summary": "AI demand for memory chips will push DRAM prices up more than 400% from the start of 2024 to the end of 2026, J.P. Morgan estimates[1]. Gartner expects PC prices up 17%, smartphones up 13%, PCs kept 20% longer and sub-$500 PCs gone by 2028[2].",
    "refs": [
     {
      "title": "J.P. Morgan Global Research, The AI-driven memory shortage (August 2026)",
@@ -13059,7 +13089,7 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "mind",
-   "summary": "Young people are the most worried about where AI is heading. Most under-30s are now more concerned than excited, most expect fewer jobs, and a large share fear AI could end humanity.",
+   "summary": "In US polls, young people worry most about AI: Pew found 55% of under-30s more concerned than excited, up from 31% in 2021, and 73% expect fewer jobs[1]. In one 2023 YouGov poll, 60% of under-30s feared AI could end humanity, against 30% of those 65 and older[2].",
    "refs": [
     {
      "title": "Pew Research Center, Young adults in the US are increasingly wary of AI (August 2026)",
@@ -13089,7 +13119,7 @@
    "stage": "emerging",
    "evidence": "measured",
    "theme": "mind",
-   "summary": "PhD students and engineers let AI run the discovery, analysis, writing or coding, then sign off on results they could not reproduce or explain. The named author becomes a proxy for work nobody followed end to end.",
+   "summary": "Researchers and engineers may let AI do the work and sign off on results they cannot explain[3]. One study found AI text in 29.4% of US STEM PhD dissertations filed January to May 2026[1]; in one trial, AI-assisted engineers scored 50% versus 67% by hand on a code comprehension quiz[2].",
    "refs": [
     {
      "title": "Gross, Shvadron and Zhang, How heavily are PhD students offloading their scientific writing to AI? NBER Working Paper 35859 (October 2026)",
@@ -13123,7 +13153,7 @@
    "stage": "active",
    "evidence": "reported",
    "theme": "power",
-   "summary": "Models are hungry for fresh human data, so platforms rewrite their terms to train on posts, profiles and private chats by default and leave users to find the opt-out. Data already trained on rarely comes back out.",
+   "summary": "Platforms change terms to train on user data by default, which the FTC warns can be unfair or deceptive[2]. All six US frontier developers studied train on users' chats by default[1]; Meta trains on EU public posts unless users object[3], and LinkedIn's opt-out covers only later data[4].",
    "refs": [
     {
      "title": "King et al., User Privacy and Large Language Models: An Analysis of Frontier Developers' Privacy Policies, Stanford HAI (2025)",
@@ -13162,7 +13192,7 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "power",
-   "summary": "Models learn from the web and the historical record, so they absorb its stereotypes and sometimes amplify them. Alignment training can hide the prejudice in polite answers while it still shapes decisions about people.",
+   "summary": "Models absorb the stereotypes in their training data[3] and sometimes amplify them; one analysis of more than 5,000 Stable Diffusion images found it amplified race and gender stereotypes beyond US labour statistics[2]. In one study, alignment training hid dialect prejudice behind polite answers that still shaped decisions[1].",
    "refs": [
     {
      "title": "Hofmann, Kalluri, Jurafsky and King, AI generates covertly racist decisions about people based on their dialect, Nature 633 (2024)",
@@ -13195,7 +13225,7 @@
    "stage": "emerging",
    "evidence": "reported",
    "theme": "information",
-   "summary": "Generated papers, generated citations and generated peer reviews pile up faster than anyone can check them, and readers who never open the sources cannot tell. Science's own filters weaken just as the volume of claims explodes.",
+   "summary": "Generated papers, citations and reviews may pile up faster than anyone can check: GPTZero found at least 100 fabricated citations across 51 accepted NeurIPS 2025 papers[1], and an estimated 6.5% to 16.9% of AI-conference peer-review text was substantially LLM-modified[2]. arXiv's CS section stopped taking unreviewed review papers after a flood[3].",
    "refs": [
     {
      "title": "GPTZero, GPTZero finds 100 new hallucinations in NeurIPS 2025 accepted papers (January 2026)",
@@ -13233,7 +13263,7 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "information",
-   "summary": "Language models make false stories cheap to write and hard to tell from true ones. Content farms publish them by the thousand, and chatbots that search the live web repeat what they find.",
+   "summary": "In one study of 697 people, participants were worse at spotting false tweets written by GPT-3 than by people[1]. NewsGuard counts 3,749 AI content farm sites, up from 49 in May 2023[2], and in one audit ten leading chatbots repeated false news claims 35% of the time[3].",
    "refs": [
     {
      "title": "Spitale, Biller-Andorno and Germani, AI model GPT-3 (dis)informs us better than humans, Science Advances (2023)",
@@ -13284,7 +13314,7 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "ip",
-   "summary": "Generators turn a description into a picture, a song or a story, so people without training can make things they could only imagine before, and working artists make more of it.",
+   "summary": "Generators turn a description into a picture, a song or a story. In one study, artists who adopted text-to-image tools became 25% more productive and drew about 50% more favourites per view[1]; in another, AI ideas helped the least creative writers most[2].",
    "refs": [
     {
      "title": "Zhou and Lee, Generative artificial intelligence, human creativity, and art, PNAS Nexus (2024)",
@@ -13320,7 +13350,7 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "information",
-   "summary": "Models state false facts, quotes and sources with the same confidence as true ones. Rates have fallen but not to zero, and the errors turn up in court filings, reports and everyday answers.",
+   "summary": "Models state falsehoods as confidently as facts, partly because benchmarks reward confident guessing over admitting uncertainty[1]. Even summarising a given document, current models add unsupported claims in 1.8% to 24.2% of summaries[2]; by June 2026 one database counted 1,058 US court cases with improper AI use in filings[3].",
    "refs": [
     {
      "title": "Kalai, Nachum, Vempala and Zhang, Why Language Models Hallucinate (2025)",
@@ -13353,7 +13383,7 @@
    "stage": "expected",
    "evidence": "projected",
    "theme": "world",
-   "summary": "If AI compresses decades of biology into years, most infectious disease, most cancers and many genetic diseases could become preventable or curable. Early trial results are promising, but most drug candidates still fail in the clinic.",
+   "summary": "If AI compresses decades of biology into years, most infectious disease and most cancers could become preventable or curable[1]. Early results are mixed: in one analysis, AI-discovered molecules passed Phase I 80% to 90% of the time, but Phase II success was about 40%, in line with the industry[2].",
    "refs": [
     {
      "title": "Amodei, Machines of Loving Grace (October 2024)",
@@ -13376,7 +13406,7 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "security",
-   "summary": "Models read compiled programs, firmware and app protocols and turn them back into code people can follow, work that once took specialists weeks. The same skill revives old software, exposes hidden tracking and makes copying and cheating easier.",
+   "summary": "Models can turn compiled programs and firmware back into readable code; in one study, open decompilation models more than doubled the share of programs that recompile and run correctly versus GPT-4o and Ghidra[1]. With an AI assistant, one researcher found four login-free flaws in camera firmware[2].",
    "refs": [
     {
      "title": "Tan, Luo, Li and Zhang, LLM4Decompile: Decompiling Binary Code with Large Language Models, EMNLP (2024)",
@@ -13400,7 +13430,7 @@
    "stage": "emerging",
    "evidence": "reported",
    "theme": "security",
-   "summary": "With AI assistants, researchers, journalists and owners can take apart apps, firmware and devices to find hidden tracking and careless security, scrutiny that used to need a specialist lab.",
+   "summary": "AI assistants could let researchers, journalists and owners take apart apps and devices without a specialist lab. One hobbyist used Claude Code to decompile his robot vacuum's app and found about 7,000 vacuums in 24 countries exposing live cameras, microphones and floor plans[1].",
    "refs": [
     {
      "title": "Malwarebytes, Hobby coder accidentally creates vacuum robot army (February 2026)",
@@ -13423,7 +13453,7 @@
    "stage": "expected",
    "evidence": "projected",
    "theme": "security",
-   "summary": "Agent-run attacks could hit power, hospitals, payments or fuel supply across whole regions at once, faster than defenders can respond. Past attacks without AI already stopped fuel deliveries and cost billions.",
+   "summary": "Agent-run attacks could hit power, hospitals, payments or fuel supply across whole regions at once, faster than defenders respond. The UK's NCSC judges AI will almost certainly make intrusions more effective[1], and one state-sponsored group used an agent for 80 to 90% of an espionage campaign[2].",
    "refs": [
     {
      "title": "NCSC, Impact of AI on cyber threat from now to 2027 (May 2025)",
@@ -13475,7 +13505,7 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "ip",
-   "summary": "Whether AI-assisted art is good or bad depends on who you ask. Many artists and art lovers say it lacks soul and character and is built on their work without consent; many people who use it say it lets them make things they never could and changes how they see their own ideas.",
+   "summary": "Views on AI-assisted art split. In one survey of 459 artists, most wanted model makers to disclose which artworks they train on and worried about the art workforce[1]; one study found artists using text-to-image tools became 25% more productive and drew about 50% more favourites per view, though novelty fell[2].",
    "refs": [
     {
      "title": "Lovato et al., Foregrounding Artist Opinions: A Survey Study on Transparency, Ownership, and Fairness in AI Generative Art (2024)",
@@ -13499,7 +13529,7 @@
    "stage": "emerging",
    "evidence": "reported",
    "theme": "work",
-   "summary": "AI builds interfaces and small tools on demand, so software bends to each person's needs instead of everyone adapting to the same fixed app. Google already generates custom interactive pages from a prompt; researchers argue AI coding only helps fully when software is built to be changed.",
+   "summary": "AI could build interfaces and small tools on demand, so software bends to each person instead of everyone adapting to one fixed app. Google's Gemini already generates interactive interfaces from a prompt[1]; researchers argue AI coding helps most when software is built to be reshaped[2].",
    "refs": [
     {
      "title": "Google Research, Generative UI: A rich, custom, visual interactive user experience for any prompt (November 2025)",
@@ -13522,7 +13552,7 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "information",
-   "summary": "Anyone can now make or edit a photo-realistic image from a sentence. People can no longer tell AI faces from real ones, and the same ease powers both harmless fun and abuse.",
+   "summary": "Anyone can now make or edit a photo-realistic image from a sentence; over 130 million users tried ChatGPT's image generation in its first week[2]. In one study, people could not tell AI faces from real ones[1]. The same ease can serve both fun and abuse.",
    "refs": [
     {
      "title": "Nightingale and Farid, AI-synthesized faces are indistinguishable from real faces and more trustworthy, PNAS 119(8) (2022)",
@@ -13546,7 +13576,7 @@
    "stage": "active",
    "evidence": "reported",
    "theme": "information",
-   "summary": "Turning a photo into a cartoon or a joke into a picture is cheap, instant entertainment for hundreds of millions of people.",
+   "summary": "Turning a photo into a cartoon or a joke into a picture is cheap, instant entertainment for many people; over 130 million users tried ChatGPT's image generation in its first week, creating over 700 million images[1].",
    "refs": [
     {
      "title": "The Decoder, ChatGPT's image generation explodes with 700M creations in first week (April 2025)",
@@ -13564,7 +13594,7 @@
    "stage": "active",
    "evidence": "reported",
    "theme": "information",
-   "summary": "Apps that undress photos make it trivial for teenagers to target classmates; one in eight young people know someone it happened to.",
+   "summary": "Apps that undress photos make it easy for teenagers to target classmates. In one survey of 1,200 people aged 13 to 20, 1 in 8 personally knew someone targeted by deepfake nude imagery and 1 in 17 had been targeted themselves[1].",
    "refs": [
     {
      "title": "Thorn, Deepfake Nudes & Young People (March 2025)",
