@@ -15,17 +15,17 @@
    "probability": 0.7,
    "year": 2027,
    "evidence": "measured",
-   "summary": "AlphaFold's protein structure prediction earned the 2024 chemistry Nobel[1], and one agent found a faster 4x4 complex matrix multiplication and improved bounds on open maths problems[2]. Such tools may speed up the basic research everything else builds on.",
+   "summary": "Half of the 2024 chemistry Nobel went to AlphaFold's protein structure prediction[1], and Google DeepMind reports its AlphaEvolve agent found a way to multiply 4x4 complex matrices with 48 scalar multiplications and improved the best known result on about 20% of 50+ open maths problems[2]. Such tools may speed up the basic research everything else builds on.",
    "refs": [
     {
      "title": "Nobel Prize in Chemistry 2024, protein structure prediction",
      "url": "https://www.nobelprize.org/prizes/chemistry/2024/press-release/",
-     "finding": "AlphaFold's structure prediction earned the 2024 chemistry Nobel."
+     "finding": "Half of the 2024 chemistry Nobel went to Hassabis and Jumper for protein structure prediction, the other half to Baker for computational protein design."
     },
     {
      "title": "AlphaEvolve, Google DeepMind 2025",
      "url": "https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
-     "finding": "An agent found a faster 4x4 complex matrix multiplication and improved bounds on open maths problems."
+     "finding": "Google DeepMind reports AlphaEvolve found a way to multiply 4x4 complex matrices with 48 scalar multiplications and improved the best known result on about 20% of 50+ open maths problems."
     }
    ],
    "theme": "world",
@@ -44,21 +44,31 @@
     {
      "limit": "compute concentrated in few labs",
      "kind": "access",
-     "evidence": "The 2025 AI Index notes infrastructure gaps such as electricity limit access across many African countries.",
+     "evidence": "Nearly 90% of notable AI models in 2024 came from industry, up from 60% in 2023.",
      "ref": {
       "title": "The 2025 AI Index Report, Stanford HAI",
       "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report",
-      "finding": "GPT-3.5-level inference cost fell over 280-fold in two years; fewer than half of US CS teachers feel equipped to teach AI."
+      "finding": "Nearly 90% of notable AI models in 2024 came from industry, up from 60% in 2023."
      }
     },
     {
      "limit": "slow institutional adoption",
      "kind": "incentives",
-     "evidence": "Real use stays thin: AI assisted only 1% to 5% of US work hours in late 2024.",
+     "evidence": "Across the whole US economy, generative AI assisted only 1% to 5% of work hours in late 2024.",
      "ref": {
       "title": "The Rapid Adoption of Generative AI, NBER w32966",
       "url": "https://www.nber.org/papers/w32966",
-      "finding": "About 40% of US adults used generative AI by late 2024, but it assisted only 1% to 5% of work hours."
+      "finding": "Nearly 40% of the US population aged 18 to 64 used generative AI by late 2024, but it assisted only 1% to 5% of all work hours."
+     }
+    },
+    {
+     "limit": "narrows what science studies",
+     "kind": "quality",
+     "evidence": "Across 41.3 million papers, scientists using AI published 3 times more papers and got 4.8 times more citations, but AI use shrank the range of topics studied by 4.6% and cut engagement between scientists by 22%.",
+     "ref": {
+      "title": "Hao, Xu, Li and Evans 2026, Artificial intelligence tools expand scientists' impact but contract science's focus, Nature",
+      "url": "https://doi.org/10.1038/s41586-025-09922-y",
+      "finding": "Across 41.3 million papers, scientists using AI published 3.02 times more papers and got 4.84 times more citations, but AI adoption shrank the range of topics studied by 4.63% and cut engagement between scientists by 22%."
      }
     }
    ],
@@ -68,11 +78,11 @@
      "actor": "research labs",
      "status": "in force",
      "counters": null,
-     "evidence": "AlphaFold was published with methods in Nature, letting other labs build on it.",
+     "evidence": "AlphaFold's code and trained weights were released openly with its Nature paper, letting other labs build on it.",
      "ref": {
       "title": "Highly accurate protein structure prediction with AlphaFold, Nature 2021",
       "url": "https://www.nature.com/articles/s41586-021-03819-2",
-      "finding": "AlphaFold predicts protein structures with near-experimental accuracy for most proteins."
+      "finding": "AlphaFold was competitive with experimental structures in a majority of CASP14 cases, and its source code and trained weights were released under an open-source licence."
      }
     },
     {
@@ -84,7 +94,7 @@
      "ref": {
       "title": "The 2025 AI Index Report, Stanford HAI",
       "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report",
-      "finding": "GPT-3.5-level inference cost fell over 280-fold in two years; fewer than half of US CS teachers feel equipped to teach AI."
+      "finding": "At the hardware level, AI costs have declined by 30% a year."
      }
     },
     {
@@ -103,20 +113,20 @@
    "precedents": [
     {
      "event": "Four-colour theorem proved by computer",
-     "year": "1976-1977",
+     "year": "1976-1997",
      "parallel": "A problem open since the 1850s fell only when mathematicians combined their own reasoning with a computer search no human could check by hand, much as AI search now reaches spaces people did not.",
-     "outcome": "Appel and Haken reduced the problem to 1,936 configurations and used more than 1,000 hours of computer time; the proof was accepted only after long debate, and by 1997 others had cut it to 633 cases but still could not remove the computer step.",
+     "outcome": "Appel and Haken's 1976 proof relied on a computer for a step no one could check by hand, and its hand-checked part was so tedious that it was never fully verified; a 1997 proof cut it to 633 configurations but still needed a computer.",
      "ref": {
-      "title": "Four-colour map problem (Britannica)",
-      "url": "https://www.britannica.com/science/four-color-map-problem",
-      "finding": "Proof needed 1,936 configurations and over 1,000 computer hours; mathematicians debated whether it counted as a proof."
+      "title": "Robin Thomas, The Four Color Theorem (Georgia Tech)",
+      "url": "https://thomas.math.gatech.edu/FC/fourcolor.html",
+      "finding": "Appel and Haken's 1976 proof used a computer and could not be verified by hand; the 1997 proof by Robertson, Sanders, Seymour and Thomas uses 633 configurations and still needs a computer."
      }
     },
     {
      "event": "AlphaFold predicts protein structures",
      "year": "2020-2021",
      "parallel": "An earlier machine learning system, built before the generative AI wave, cracked a basic science problem that had stalled for decades.",
-     "outcome": "AlphaFold reached accuracy competitive with experimental structures in most CASP14 cases, against a field where only about 100,000 structures had ever been solved experimentally; it predicts structure but does not by itself explain folding or deliver drugs.",
+     "outcome": "AlphaFold reached accuracy competitive with experimental structures in most CASP14 cases, against a field where only about 100,000 structures had ever been solved experimentally.",
      "ref": {
       "title": "Jumper et al. 2021, Highly accurate protein structure prediction with AlphaFold, Nature",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8371605/",
@@ -132,17 +142,17 @@
    "probability": 0.65,
    "year": 2027,
    "evidence": "measured",
-   "summary": "One Swedish randomised screening trial found AI-supported mammogram reading detected 20% more cancers and cut screen-reading workload by 44%[1]. In one test on hard NEJM case records, orchestrated models solved 85% versus about 20% for physicians[2].",
+   "summary": "One Swedish randomised trial of about 106,000 women found AI-supported mammogram reading detected 29% more cancers and cut screen-reading workload by 44%, without significantly more false positives[1]. In one test on 304 hard NEJM case records, Microsoft's orchestrated models solved 85% versus 20% for 21 physicians who worked without colleagues, books or AI; the work was not yet peer reviewed[2].",
    "refs": [
     {
-     "title": "MASAI trial, Lancet Oncology 2023",
-     "url": "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(23)00298-X/fulltext",
-     "finding": "AI-supported screening detected 20% more cancers and cut screen-reading workload by 44%."
+     "title": "Hernström et al. 2025, Screening performance and characteristics of breast cancer detected in the MASAI trial, Lancet Digital Health",
+     "url": "https://www.thelancet.com/journals/landig/article/PIIS2589-7500(24)00267-X/fulltext",
+     "finding": "Among 105,934 women at four Swedish screening sites, AI-supported reading detected 6.4 cancers per 1,000 against 5.0 with standard double reading, 29% more, without a significant rise in false positives, and cut screen-reading workload by 44.2%."
     },
     {
      "title": "Microsoft AI, MAI-DxO 2025",
      "url": "https://microsoft.ai/new/the-path-to-medical-superintelligence/",
-     "finding": "Orchestrated models solved 85% of hard NEJM case records versus about 20% for physicians in the test setup."
+     "finding": "On 304 NEJM case records, MAI-DxO with o3 solved 85.5% versus a mean 20% for 21 US and UK physicians working without colleagues, textbooks or AI; the work had not been peer reviewed."
     }
    ],
    "theme": "world",
@@ -151,11 +161,11 @@
     {
      "limit": "slow institutional adoption",
      "kind": "infrastructure",
-     "evidence": "MASAI is one Swedish program; scale depends on screening services changing reading workflows.",
+     "evidence": "MASAI ran at four screening sites in southwest Sweden; wider use depends on screening services changing reading workflows.",
      "ref": {
-      "title": "MASAI screening performance, Lancet Digital Health 2025",
+      "title": "Hernström et al. 2025, Screening performance and characteristics of breast cancer detected in the MASAI trial, Lancet Digital Health",
       "url": "https://www.thelancet.com/journals/landig/article/PIIS2589-7500(24)00267-X/fulltext",
-      "finding": "AI-supported screening found 29% more cancers than standard double reading in a randomised trial."
+      "finding": "Among 105,934 women at four Swedish screening sites, AI-supported reading detected 6.4 cancers per 1,000 against 5.0 with standard double reading, 29% more, without a significant rise in false positives, and cut screen-reading workload by 44.2%."
      }
     },
     {
@@ -187,9 +197,9 @@
      "counters": "unproven outside trials",
      "evidence": "MASAI randomised women to AI-supported or standard reading and found 29% more cancers.",
      "ref": {
-      "title": "MASAI screening performance, Lancet Digital Health 2025",
+      "title": "Hernström et al. 2025, Screening performance and characteristics of breast cancer detected in the MASAI trial, Lancet Digital Health",
       "url": "https://www.thelancet.com/journals/landig/article/PIIS2589-7500(24)00267-X/fulltext",
-      "finding": "AI-supported screening found 29% more cancers than standard double reading in a randomised trial."
+      "finding": "Among 105,934 women at four Swedish screening sites, AI-supported reading detected 6.4 cancers per 1,000 against 5.0 with standard double reading, 29% more, without a significant rise in false positives, and cut screen-reading workload by 44.2%."
      }
     },
     {
@@ -197,11 +207,11 @@
      "actor": "screening programs",
      "status": "tested",
      "counters": "slow institutional adoption",
-     "evidence": "AI-supported reading cut screen-reading workload by 44% without lowering safety.",
+     "evidence": "In one Swedish trial, AI-supported reading cut screen-reading workload by 44% and met the safety threshold for cancer detection.",
      "ref": {
-      "title": "MASAI trial clinical safety analysis, Lancet Oncology 2023",
+      "title": "Lång et al. 2023, AI-supported screen reading versus standard double reading in the MASAI trial: a clinical safety analysis, Lancet Oncology",
       "url": "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(23)00298-X/fulltext",
-      "finding": "AI-supported reading was safe versus double reading and cut screen-reading workload by 44%."
+      "finding": "In an interim analysis of 80,033 Swedish women, AI-supported reading met the safety threshold for cancer detection and cut screen-reading workload by 44.3%."
      }
     },
     {
@@ -209,24 +219,24 @@
      "actor": "regulators",
      "status": "proposed",
      "counters": "liability and approval rules",
-     "evidence": "WHO recommends ongoing evaluation and accountability for large models in health.",
+     "evidence": "WHO recommends independent post-release auditing and impact assessments of large multi-modal models used at scale in health.",
      "ref": {
-      "title": "Ethics and governance of AI for health: Guidance on large multi-modal models, WHO",
-      "url": "https://www.who.int/publications/i/item/9789240084759",
-      "finding": "WHO sets governance guidance for health use of large multi-modal models, including evaluation and accountability."
+      "title": "WHO releases AI ethics and governance guidance for large multi-modal models, WHO 2024",
+      "url": "https://www.who.int/news/item/18-01-2024-who-releases-ai-ethics-and-governance-guidance-for-large-multi-modal-models",
+      "finding": "WHO's over 40 recommendations include mandatory post-release auditing and impact assessments of large multi-modal models used at scale, by independent third parties."
      }
     }
    ],
    "precedents": [
     {
      "event": "Computer-aided detection in mammography",
-     "year": "1998-2009",
+     "year": "2003-2009",
      "parallel": "Software that flagged suspicious areas on mammograms was paid for and adopted across US screening on the promise that it would find more cancers.",
-     "outcome": "Across about 625,000 screening exams from 2003 to 2009, sensitivity was 85.3% with CAD and 87.3% without and specificity was unchanged, while the tool cost an estimated $400 million a year; older CAD was much weaker than modern models, so this is a warning about adoption without proof, not proof that AI reading fails.",
+     "outcome": "Across about 625,000 screening exams from 2003 to 2009, sensitivity was 85.3% with CAD and 87.3% without and specificity was unchanged, while the tool cost an estimated $400 million a year; this is a warning about adoption without proof, not proof that modern AI reading fails.",
      "ref": {
       "title": "Lehman et al. 2015, Diagnostic Accuracy of Digital Screening Mammography With and Without Computer-Aided Detection, JAMA Internal Medicine",
       "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2443369",
-      "finding": "CAD did not improve sensitivity or specificity; in radiologists who read both ways, sensitivity was lower with CAD."
+      "finding": "CAD did not improve sensitivity or specificity; in 107 radiologists who read both ways, sensitivity was 83.3% with CAD against 89.6% without."
      }
     },
     {
@@ -249,17 +259,17 @@
    "probability": 0.55,
    "year": 2027,
    "evidence": "measured",
-   "summary": "Carefully designed AI tutors have beaten classroom teaching in two early trials. In one study, Harvard physics students learned more than twice as much in less time[1]; a World Bank pilot in Nigeria matched well over a year of typical schooling in six weeks[2].",
+   "summary": "Carefully designed AI tutors gave large gains in two early trials. In one trial of 194 Harvard physics students, learning gains with an AI tutor were more than double those from an active-learning class, in less time[1]; in a World Bank randomised pilot in Nigeria, six weeks of after-school AI tutoring gave gains the authors equate to nearly two years of typical learning[2].",
    "refs": [
     {
      "title": "Kestin et al., Scientific Reports 2025",
      "url": "https://www.nature.com/articles/s41598-025-97652-6",
-     "finding": "Harvard physics students learned more than twice as much in less time with an AI tutor than in active-learning class."
+     "finding": "In one trial of 194 Harvard physics students, learning gains with an AI tutor were more than double those from an active-learning class, in less time."
     },
     {
-     "title": "World Bank, Nigeria pilot 2025",
+     "title": "From chalkboards to chatbots: Transforming learning in Nigeria, one prompt at a time, World Bank 2025",
      "url": "https://blogs.worldbank.org/en/education/From-chalkboards-to-chatbots-Transforming-learning-in-Nigeria",
-     "finding": "Six weeks of after-school GPT-4 tutoring produced learning gains equal to well over a year of typical schooling."
+     "finding": "In a randomised after-school pilot in Edo State, six weeks of AI tutoring gave gains of about 0.3 standard deviations, which the authors equate to nearly two years of typical learning."
     }
    ],
    "theme": "mind",
@@ -268,11 +278,11 @@
     {
      "limit": "answer-giving harms learning",
      "kind": "quality",
-     "evidence": "Students using plain GPT-4 did worse once AI was removed.",
+     "evidence": "In one trial of about 1,000 Turkish high school students, those given plain GPT-4 for practice scored 17% lower than controls once AI was removed.",
      "ref": {
       "title": "Generative AI without guardrails can harm learning, PNAS 2025",
       "url": "https://www.pnas.org/doi/10.1073/pnas.2422633122",
-      "finding": "Students with plain GPT-4 did better in practice but worse once AI was removed; hint-only guardrails mitigated it."
+      "finding": "Plain GPT-4 raised practice grades by 48% but cut later exam grades by 17% once access was removed; a hint-giving GPT Tutor largely mitigated the harm."
      }
     },
     {
@@ -288,21 +298,11 @@
     {
      "limit": "low AI literacy",
      "kind": "literacy",
-     "evidence": "Fewer than half of US computer science teachers feel equipped to teach AI.",
+     "evidence": "Fewer than half of US K-12 computer science teachers feel equipped to teach AI.",
      "ref": {
       "title": "The 2025 AI Index Report, Stanford HAI",
       "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report",
-      "finding": "GPT-3.5-level inference cost fell over 280-fold in two years; fewer than half of US CS teachers feel equipped to teach AI."
-     }
-    },
-    {
-     "limit": "unequal access to paid AI plans",
-     "kind": "cost",
-     "evidence": "2.6 billion people are offline, and the best models sit behind paid tiers in many markets.",
-     "ref": {
-      "title": "ITU Facts and Figures 2024: Internet use",
-      "url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-internet-use/",
-      "finding": "2.6 billion people, a third of the world, are offline; only 27% use the internet in low-income countries."
+      "finding": "Fewer than half of US K-12 computer science teachers feel equipped to teach AI."
      }
     }
    ],
@@ -312,11 +312,11 @@
      "actor": "edtech developers",
      "status": "tested",
      "counters": "answer-giving harms learning",
-     "evidence": "Teacher-designed hint prompts mitigated the learning loss in a high school trial.",
+     "evidence": "A hint-giving tutor built with teacher input largely removed the learning loss in one trial of about 1,000 Turkish high school students.",
      "ref": {
       "title": "Generative AI without guardrails can harm learning, PNAS 2025",
       "url": "https://www.pnas.org/doi/10.1073/pnas.2422633122",
-      "finding": "Students with plain GPT-4 did better in practice but worse once AI was removed; hint-only guardrails mitigated it."
+      "finding": "Plain GPT-4 raised practice grades by 48% but cut later exam grades by 17% once access was removed; a hint-giving GPT Tutor largely mitigated the harm."
      }
     },
     {
@@ -324,11 +324,11 @@
      "actor": "school systems",
      "status": "tested",
      "counters": "low AI literacy",
-     "evidence": "A teacher-guided six-week program in Nigeria gave gains of about 0.3 standard deviations.",
+     "evidence": "In the Nigeria pilot, trained teachers introduced each topic, kept students on task and flagged AI errors; gains were about 0.3 standard deviations.",
      "ref": {
-      "title": "From chalkboards to chatbots: Transforming learning in Nigeria, World Bank",
-      "url": "https://blogs.worldbank.org/en/education/From-chalkboards-to-chatbots-Transforming-learning-in-Nigeria",
-      "finding": "A six-week teacher-guided AI tutoring program in Edo State gave gains of about 0.3 standard deviations."
+      "title": "Addressing the learning crisis with generative AI: lessons from Edo State, World Bank 2025",
+      "url": "https://blogs.worldbank.org/en/developmenttalk/addressing-the-learning-crisis-with-generative-ai--lessons-from-",
+      "finding": "Trained teachers introduced each topic, kept students on task and flagged AI errors; gains were about 0.3 standard deviations overall and 0.24 in English."
      }
     },
     {
@@ -336,11 +336,11 @@
      "actor": "ministries of education",
      "status": "tested",
      "counters": "poor connectivity",
-     "evidence": "The Nigeria pilot ran after school on school devices, not students' own phones.",
+     "evidence": "The Nigeria pilot ran twice a week after school in computer labs; many students had never used a computer before.",
      "ref": {
-      "title": "From chalkboards to chatbots: Transforming learning in Nigeria, World Bank",
-      "url": "https://blogs.worldbank.org/en/education/From-chalkboards-to-chatbots-Transforming-learning-in-Nigeria",
-      "finding": "A six-week teacher-guided AI tutoring program in Edo State gave gains of about 0.3 standard deviations."
+      "title": "From chalkboards to chatbots in Nigeria: 7 lessons to pioneer generative AI for education, World Bank 2024",
+      "url": "https://blogs.worldbank.org/en/education/From-chalkboards-to-chatbots-in-Nigeria",
+      "finding": "Sessions were after-school English classes held twice a week in computer labs, with teachers guiding students' prompts."
      }
     }
    ],
@@ -349,7 +349,7 @@
      "event": "Bloom's two sigma tutoring claim",
      "year": "1984",
      "parallel": "One-to-one tutoring was claimed to lift students two standard deviations, the same hope now placed on an AI tutor for every child.",
-     "outcome": "The claim came from small three-week experiments that combined tutoring with mastery learning and was never replicated; a 2020 meta-analysis of 96 randomised tutoring studies found an average effect of 0.37 standard deviations.",
+     "outcome": "The claim came from three-week experiments, mostly in unpublished dissertations, that combined tutoring with extra testing and feedback, and was never replicated; a 2020 meta-analysis of 96 randomised tutoring studies found an average effect of 0.37 standard deviations.",
      "ref": {
       "title": "von Hippel 2024, Two-Sigma Tutoring: Separating Science Fiction from Science Fact, Education Next",
       "url": "https://www.educationnext.org/two-sigma-tutoring-separating-science-fiction-from-science-fact/",
@@ -376,12 +376,12 @@
    "probability": 0.85,
    "year": 2024,
    "evidence": "reported",
-   "summary": "Vision models can describe the world on demand for blind and low-vision people; Be My Eyes uses GPT-4 as a virtual volunteer that answers visual questions without waiting for a human[1].",
+   "summary": "Vision models can describe the world on demand for blind and low-vision people; Be My Eyes uses GPT-4 to answer questions about photos users send, and offers a sighted volunteer when it cannot[1].",
    "refs": [
     {
-     "title": "Be My Eyes with GPT-4, OpenAI",
-     "url": "https://openai.com/index/be-my-eyes/",
-     "finding": "A virtual volunteer answers visual questions for blind users without waiting for a human."
+     "title": "Introducing Be My AI (formerly Virtual Volunteer), powered by OpenAI's GPT-4, Be My Eyes 2023",
+     "url": "https://www.bemyeyes.com/blog/introducing-be-my-eyes-virtual-volunteer",
+     "finding": "Users send photos to a GPT-4 assistant that answers questions about them; if it cannot answer, it offers to connect the user to a sighted volunteer."
     }
    ],
    "theme": "world",
@@ -390,7 +390,7 @@
     {
      "limit": "poor connectivity",
      "kind": "infrastructure",
-     "evidence": "Vision assistants need a data connection; 2.6 billion people are offline.",
+     "evidence": "2.6 billion people, a third of the world, are offline.",
      "ref": {
       "title": "ITU Facts and Figures 2024: Internet use",
       "url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-internet-use/",
@@ -400,21 +400,21 @@
     {
      "limit": "errors in descriptions",
      "kind": "quality",
-     "evidence": "WHO-style guidance warns large multi-modal models can produce confident but wrong outputs.",
+     "evidence": "In one interview study of 26 blind people, AI visual assistants made errors that were hard to check without sight, notably with complex layouts, other languages and cultural objects.",
      "ref": {
-      "title": "Ethics and governance of AI for health: Guidance on large multi-modal models, WHO",
-      "url": "https://www.who.int/publications/i/item/9789240084759",
-      "finding": "WHO sets governance guidance for health use of large multi-modal models, including evaluation and accountability."
+      "title": "Alharbi et al. 2024, Misfitting With AI: How Blind People Verify and Contest AI Errors, ASSETS 2024",
+      "url": "https://arxiv.org/abs/2408.06546",
+      "finding": "Blind participants found AI visual assistance errors hard to verify non-visually, especially with complex document layouts, diverse languages and cultural artifacts."
      }
     },
     {
      "limit": "limited language coverage",
      "kind": "access",
-     "evidence": "Translation and speech models cover at most a few hundred of 7,000 languages.",
+     "evidence": "Text translation reaches about 200 of the world's 7,000+ languages and the widest speech recognition model about 1,100.",
      "ref": {
       "title": "Scaling neural machine translation to 200 languages, Nature 2024",
       "url": "https://www.nature.com/articles/s41586-024-07335-x",
-      "finding": "NLLB covers 200 languages but quality depends on scarce parallel data for low-resource languages."
+      "finding": "NLLB translates text across 200 languages; parallel training data is scarce for most of the world's 7,000+ languages."
      }
     }
    ],
@@ -424,18 +424,18 @@
      "actor": "service providers",
      "status": "in force",
      "counters": "errors in descriptions",
-     "evidence": "Be My Eyes pairs over 1.1 million users with volunteers alongside its AI.",
+     "evidence": "Be My AI offers to connect users to a sighted volunteer when it cannot answer; the service lists over 1.1 million blind and low-vision users and 11 million volunteers.",
      "ref": {
-      "title": "Be My Eyes",
-      "url": "https://www.bemyeyes.com/",
-      "finding": "The service reports over 1.1 million blind and low-vision users and free, unlimited calls."
+      "title": "Introducing Be My AI (formerly Virtual Volunteer), powered by OpenAI's GPT-4, Be My Eyes 2023",
+      "url": "https://www.bemyeyes.com/blog/introducing-be-my-eyes-virtual-volunteer",
+      "finding": "Users send photos to a GPT-4 assistant that answers questions about them; if it cannot answer, it offers to connect the user to a sighted volunteer."
      }
     },
     {
      "action": "Offer core assistive features free",
      "actor": "service providers",
      "status": "in force",
-     "counters": "unequal access to paid AI plans",
+     "counters": null,
      "evidence": "Be My Eyes reports free, unlimited calls for blind and low-vision users.",
      "ref": {
       "title": "Be My Eyes",
@@ -448,11 +448,11 @@
      "actor": "funders and labs",
      "status": "tested",
      "counters": "limited language coverage",
-     "evidence": "SeamlessM4T added speech translation for up to 100 languages.",
+     "evidence": "SeamlessM4T translates speech from 101 languages into text in 96, but into speech in only 36.",
      "ref": {
       "title": "Joint speech and text machine translation for up to 100 languages, Nature 2025",
       "url": "https://www.nature.com/articles/s41586-024-08359-z",
-      "finding": "SeamlessM4T translates speech and text across up to 100 languages, far fewer than the world's 7,000."
+      "finding": "SeamlessM4T supports speech-to-text translation from 101 to 96 languages and speech-to-speech from 101 to 36."
      }
     }
    ],
@@ -461,7 +461,7 @@
      "event": "Mandated TV closed captioning",
      "year": "1990s-present",
      "parallel": "Text access to spoken television for deaf and hard-of-hearing people was scaled across all broadcasters, as AI description now scales visual access for blind people.",
-     "outcome": "Captioning became a legal duty for distributors, and the FCC had to add quality rules requiring captions to be accurate, synchronous, complete and properly placed, with exemptions such as 2 a.m. to 6 a.m. programming; the source gives no measure of uptake or benefit, and scale alone did not guarantee quality.",
+     "outcome": "Captioning became a legal duty for distributors, and the FCC later had to add quality rules requiring captions to be accurate, synchronous, complete and properly placed, with exemptions such as programming shown from 2 a.m. to 6 a.m.; scale alone did not guarantee quality.",
      "ref": {
       "title": "Closed Captioning on Television (FCC consumer guide)",
       "url": "https://www.fcc.gov/consumers/guides/closed-captioning-television",
@@ -477,12 +477,12 @@
    "probability": 0.85,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Machine translation is reaching low-resource languages: one model translates between 200 languages, with large quality gains for low-resource ones[1].",
+   "summary": "Machine translation is reaching low-resource languages: one model covering 200 languages scored on average 44% better than the previous best systems[1].",
    "refs": [
     {
-     "title": "NLLB Team, Nature 2024",
+     "title": "Scaling neural machine translation to 200 languages, NLLB Team, Nature 2024",
      "url": "https://www.nature.com/articles/s41586-024-07335-x",
-     "finding": "One model translates between 200 languages, with large quality gains for low-resource ones."
+     "finding": "One model covering 200 languages, three times as many low-resource as high-resource, scored on average 44% better (BLEU) than the previous best systems."
     }
    ],
    "theme": "world",
@@ -511,11 +511,21 @@
     {
      "limit": "poor connectivity",
      "kind": "infrastructure",
-     "evidence": "2.6 billion people are offline, many in multilingual low-income regions.",
+     "evidence": "2.6 billion people, a third of the world, were offline in 2024; only 27% of people in low-income countries use the internet.",
      "ref": {
       "title": "ITU Facts and Figures 2024: Internet use",
       "url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-internet-use/",
       "finding": "2.6 billion people, a third of the world, are offline; only 27% use the internet in low-income countries."
+     }
+    },
+    {
+     "limit": "uneven accuracy for high-stakes text",
+     "kind": "quality",
+     "evidence": "In one US study of 400 translated emergency discharge statements, meaning was kept for 94% in Spanish but only 55% in Armenian.",
+     "ref": {
+      "title": "Taira et al. 2021, A Pragmatic Assessment of Google Translate for Emergency Department Instructions, J Gen Intern Med",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33674922/",
+      "finding": "In one US study of 400 translated discharge statements, meaning was kept for 94% in Spanish but only 67.5% in Farsi and 55% in Armenian."
      }
     }
    ],
@@ -525,7 +535,7 @@
      "actor": "research labs",
      "status": "in force",
      "counters": "limited language coverage",
-     "evidence": "NLLB was released openly with evaluation data across 200 languages.",
+     "evidence": "NLLB's models, data, code and FLORES-200 benchmark were released free for non-commercial use.",
      "ref": {
       "title": "Scaling neural machine translation to 200 languages, Nature 2024",
       "url": "https://www.nature.com/articles/s41586-024-07335-x",
@@ -537,23 +547,23 @@
      "actor": "research labs",
      "status": "tested",
      "counters": "limited language coverage",
-     "evidence": "SeamlessM4T handles speech and text for up to 100 languages.",
+     "evidence": "SeamlessM4T translates speech from 101 languages and text across 96, but produces speech in only 36.",
      "ref": {
       "title": "Joint speech and text machine translation for up to 100 languages, Nature 2025",
       "url": "https://www.nature.com/articles/s41586-024-08359-z",
-      "finding": "SeamlessM4T translates speech and text across up to 100 languages, far fewer than the world's 7,000."
+      "finding": "One model supports speech-to-text from 101 to 96 languages, text-to-text in 96 and speech output in 36; released for non-commercial use."
      }
     },
     {
      "action": "Collect community data for low-resource languages",
      "actor": "governments and communities",
-     "status": "idea",
+     "status": "tested",
      "counters": "weak quality on scarce data",
-     "evidence": "NLLB shows quality tracks the volume of available parallel data.",
+     "evidence": "A participatory network of African researchers built machine translation benchmarks for over 30 African languages.",
      "ref": {
-      "title": "Scaling neural machine translation to 200 languages, Nature 2024",
-      "url": "https://www.nature.com/articles/s41586-024-07335-x",
-      "finding": "NLLB covers 200 languages but quality depends on scarce parallel data for low-resource languages."
+      "title": "Nekoto et al. 2020, Participatory Research for Low-resourced Machine Translation: A Case Study in African Languages, Findings of EMNLP",
+      "url": "https://aclanthology.org/2020.findings-emnlp.195/",
+      "finding": "A participatory community effort produced machine translation benchmarks for over 30 African languages, with human evaluations for about a third of them."
      }
     }
    ],
@@ -572,23 +582,23 @@
     {
      "event": "Google neural machine translation",
      "year": "2016",
-     "parallel": "The switch from phrase-based to neural translation, before the generative AI wave, was the first large measured jump in machine translation quality.",
-     "outcome": "In human side-by-side tests on isolated simple sentences, the neural system reduced translation errors by an average of 60% against the phrase-based production system; tests on simple sentences overstate gains for hard text and low-resource languages.",
+     "parallel": "The switch from phrase-based to neural translation, before the generative AI wave, brought a large measured jump in machine translation quality.",
+     "outcome": "In human side-by-side tests on isolated simple sentences, the neural system reduced translation errors by an average of 60% against Google's phrase-based production system; the paper does not test longer or harder text.",
      "ref": {
       "title": "Wu et al. 2016, Google's Neural Machine Translation System, arXiv",
       "url": "https://arxiv.org/abs/1609.08144",
-      "finding": "GNMT reduced translation errors by an average of 60% versus Google's phrase-based system."
+      "finding": "GNMT reduced translation errors by an average of 60% versus Google's phrase-based system in human side-by-side tests on isolated simple sentences."
      }
     },
     {
      "event": "Georgetown-IBM experiment",
      "year": "1954",
      "parallel": "A tiny public demo was read as proof that general translation was near, the same gap between demo and coverage that low-resource language claims face now.",
-     "outcome": "The system handled roughly 250 words with six grammar rules; the publicity far outran the capability, which Hutchins describes as raising hopes that high-quality automatic translation was imminent.",
+     "outcome": "The demonstration used just 250 words and six grammar rules, yet Hutchins writes that it raised expectations of automatic systems capable of high quality translation in the near future.",
      "ref": {
       "title": "Hutchins 2004, The Georgetown-IBM experiment demonstrated in January 1954, AMTA proceedings",
       "url": "https://aclanthology.org/2004.amta-papers.12/",
-      "finding": "A small demonstration of about 250 words and six rules raised expectations of imminent high-quality MT."
+      "finding": "A small-scale experiment of 250 words and six grammar rules raised expectations of high quality machine translation in the near future."
      }
     }
    ]
@@ -599,8 +609,8 @@
    "valence": 0.72,
    "probability": 0.9,
    "year": 2025,
-   "evidence": "measured",
-   "summary": "People can now build software by describing what they want and accepting the output without reading the code, a practice called vibe coding[1]. This may let people with no programming background explore ideas, build tools and automate their own work.",
+   "evidence": "reported",
+   "summary": "People can now build software by describing what they want and accepting the output without reading the code, a practice Andrej Karpathy named vibe coding and pitched for throwaway weekend projects[1]. In Stack Overflow's 2025 developer survey, 84% use or plan to use AI tools, but 72% said vibe coding is not part of their professional work[2]. This may let people with no programming background build tools and automate their own work.",
    "refs": [
     {
      "title": "Andrej Karpathy coins vibe coding, Feb 2025",
@@ -610,7 +620,7 @@
     {
      "title": "Stack Overflow Developer Survey 2025, AI",
      "url": "https://survey.stackoverflow.co/2025/ai",
-     "finding": "84% of respondents use or plan to use AI tools; trust in their accuracy fell."
+     "finding": "84% of developer respondents use or plan to use AI tools; more distrust AI accuracy (46%) than trust it (33%), and 72% do not vibe code at work."
     }
    ],
    "theme": "work",
@@ -619,31 +629,31 @@
     {
      "limit": "low AI literacy",
      "kind": "literacy",
-     "evidence": "Consultants using AI on a task outside its frontier gave worse answers than those without it.",
+     "evidence": "In one experiment with 758 BCG consultants, those using GPT-4 on a task outside its frontier were 19% less likely to reach a correct answer.",
      "ref": {
-      "title": "Navigating the Jagged Technological Frontier, HBS Working Paper",
-      "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=64700",
-      "finding": "In 758 BCG consultants, AI raised quality inside its capability frontier but made answers worse on a task outside it."
+      "title": "Dell'Acqua et al., Navigating the Jagged Technological Frontier, Organization Science 2026",
+      "url": "https://doi.org/10.1287/orsc.2025.21838",
+      "finding": "In a preregistered experiment with 758 BCG consultants, GPT-4 users completed 12.2% more tasks 25.1% faster inside the frontier, but were 19% less likely to be correct on a task outside it."
      }
     },
     {
      "limit": "insecure generated code",
      "kind": "quality",
-     "evidence": "Users with an AI assistant wrote less secure code and felt more confident about it.",
+     "evidence": "In one study of 47 participants, those using a 2022 Codex-based assistant wrote less secure code and were more likely to think it was secure.",
      "ref": {
       "title": "Do Users Write More Insecure Code with AI Assistants?, arXiv 2211.03622",
       "url": "https://arxiv.org/abs/2211.03622",
-      "finding": "Users with an AI assistant wrote less secure code and were more confident it was secure."
+      "finding": "In a 47-person user study (CCS 2023), participants with a codex-davinci-002 assistant wrote significantly less secure code and were more likely to believe it secure."
      }
     },
     {
-     "limit": "unequal access to paid AI plans",
-     "kind": "cost",
-     "evidence": "Late 2024 adoption was about 40% of US adults, with heavier use among the better educated.",
+     "limit": "uneven uptake by education",
+     "kind": "literacy",
+     "evidence": "In US surveys in late 2024, work use of generative AI was about twice as high among workers with a degree (40%) as among those without (20%).",
      "ref": {
       "title": "The Rapid Adoption of Generative AI, NBER w32966",
       "url": "https://www.nber.org/papers/w32966",
-      "finding": "About 40% of US adults used generative AI by late 2024, but it assisted only 1% to 5% of work hours."
+      "finding": "Nearly 40% of US adults aged 18 to 64 used generative AI by late 2024; it assisted 1% to 5% of work hours, and work adoption was about twice as high among graduates."
      }
     }
    ],
@@ -653,11 +663,11 @@
      "actor": "employers",
      "status": "in force",
      "counters": "low AI literacy",
-     "evidence": "The EU AI Act requires deployers to ensure staff AI literacy.",
+     "evidence": "The EU AI Act requires providers and deployers to take measures to support AI literacy among staff who use AI.",
      "ref": {
-      "title": "EU AI Act, Article 4: AI literacy",
+      "title": "EU AI Act, Article 4: AI literacy, as amended by the Digital Omnibus on AI 2026",
       "url": "https://artificialintelligenceact.eu/article/4/",
-      "finding": "Providers and deployers must ensure a sufficient level of AI literacy among staff who use AI."
+      "finding": "Since a July 2026 amendment, providers and deployers must take measures to support AI literacy among staff who use AI, without a set level required of any individual."
      }
     },
     {
@@ -665,18 +675,18 @@
      "actor": "tool vendors",
      "status": "proposed",
      "counters": "insecure generated code",
-     "evidence": "CISA's Secure by Design pledge asks makers to make security the default.",
+     "evidence": "CISA's voluntary Secure by Design pledge asks software makers to make products secure out of the box; it does not target AI coding tools specifically.",
      "ref": {
       "title": "Secure by Design, CISA",
       "url": "https://www.cisa.gov/securebydesign",
-      "finding": "Over 200 software makers signed a voluntary pledge to ship secure defaults."
+      "finding": "Over 200 software manufacturers signed CISA's voluntary Secure by Design pledge, committing to a good-faith effort on seven security goals."
      }
     },
     {
      "action": "Rely on falling model prices",
      "actor": "model providers",
      "status": "in force",
-     "counters": "unequal access to paid AI plans",
+     "counters": null,
      "evidence": "The price of a fixed capability fell 9x to 900x per year.",
      "ref": {
       "title": "LLM inference prices have fallen rapidly but unequally across tasks, Epoch AI",
@@ -717,22 +727,22 @@
    "probability": 0.75,
    "year": 2026,
    "evidence": "reported",
-   "summary": "Agents now find previously unknown bugs in widely used code and patch them: one found an exploitable memory-safety bug in SQLite before release[1], DARPA challenge finalists patched real open-source flaws automatically[2], and CodeMender upstreamed dozens of fixes[3]. This may shrink the window defenders leave open.",
+   "summary": "Agents now find previously unknown bugs in widely used code and patch them: one found an exploitable memory-safety bug in SQLite before release[1], DARPA challenge finalists found 18 real open-source flaws and offered 11 patches[2], and CodeMender upstreamed 72 reviewed fixes in six months[3]. This may shrink the window defenders leave open.",
    "refs": [
     {
-     "title": "Project Zero, From Naptime to Big Sleep 2024",
-     "url": "https://googleprojectzero.blogspot.com/2024/10/from-naptime-to-big-sleep.html",
-     "finding": "An LLM agent found an exploitable memory-safety bug in SQLite before release."
+     "title": "Big Sleep team, From Naptime to Big Sleep: Using Large Language Models To Catch Vulnerabilities In Real-World Code, Google Project Zero 2024",
+     "url": "https://projectzero.google/2024/10/from-naptime-to-big-sleep.html",
+     "finding": "An LLM agent found an exploitable stack buffer underflow in SQLite before it reached an official release; the authors call the work highly experimental."
     },
     {
      "title": "DARPA AI Cyber Challenge results 2025",
      "url": "https://www.darpa.mil/news/2025/aixcc-results",
-     "finding": "Finalist systems found and patched synthetic and real vulnerabilities in open-source code automatically."
+     "finding": "Finalists found 54 of 63 synthetic vulnerabilities and patched 43, and found 18 real open-source vulnerabilities, providing 11 patches."
     },
     {
      "title": "Google DeepMind, CodeMender 2025",
      "url": "https://deepmind.google/discover/blog/introducing-codemender-an-ai-agent-for-code-security/",
-     "finding": "An agent upstreamed dozens of security fixes to open-source projects."
+     "finding": "CodeMender upstreamed 72 security fixes to open-source projects in six months, each reviewed by human researchers before submission."
     }
    ],
    "theme": "security",
@@ -741,7 +751,7 @@
     {
      "limit": "attackers gain the same tools",
      "kind": "incentives",
-     "evidence": "GPT-4 exploited 87% of 15 known vulnerabilities given the CVE text.",
+     "evidence": "In one test, GPT-4 exploited 87% of 15 known one-day vulnerabilities given the CVE text, and 7% without it.",
      "ref": {
       "title": "LLM Agents can Autonomously Exploit One-day Vulnerabilities, arXiv 2404.08144",
       "url": "https://arxiv.org/abs/2404.08144",
@@ -753,19 +763,19 @@
      "kind": "quality",
      "evidence": "AIxCC systems found 86% of synthetic vulnerabilities but patched only 68%.",
      "ref": {
-      "title": "DARPA AI Cyber Challenge final results",
-      "url": "https://aicyberchallenge.com/",
-      "finding": "Finalist systems found 86% of 63 synthetic vulnerabilities and patched 68%; tools were released open source."
+      "title": "DARPA, AI Cyber Challenge marks pivotal inflection point for cyber defense, Aug 2025",
+      "url": "https://www.darpa.mil/news/2025/aixcc-results",
+      "finding": "Finalists found 54 of 63 synthetic vulnerabilities (86%) and patched 43 (68%); all seven finalist systems are being released as open source."
      }
     },
     {
      "limit": "maintainer capacity",
      "kind": "infrastructure",
-     "evidence": "Big Sleep's SQLite fix was fast because the maintainers responded the same day; many projects lack that capacity.",
+     "evidence": "Big Sleep's SQLite bug was fixed the same day, but 60% of open-source maintainers in one 2024 survey of 437 said they are unpaid hobbyists.",
      "ref": {
-      "title": "From Naptime to Big Sleep, Google Project Zero 2024",
-      "url": "https://projectzero.google/2024/10/from-naptime-to-big-sleep.html",
-      "finding": "An LLM agent found an exploitable SQLite bug that 150 CPU-hours of fuzzing missed; it was fixed the same day."
+      "title": "The 2024 Tidelift Maintainer Impact Report",
+      "url": "https://www.sonarsource.com/the-2024-tidelift-maintainer-impact-report.pdf",
+      "finding": "Sixty percent of surveyed maintainers report they are unpaid hobbyists, and only 12% earn most or all of their income from maintenance."
      }
     }
    ],
@@ -777,9 +787,9 @@
      "counters": "patches lag discovery",
      "evidence": "AIxCC finalists released their cyber reasoning systems as open source.",
      "ref": {
-      "title": "DARPA AI Cyber Challenge final results",
-      "url": "https://aicyberchallenge.com/",
-      "finding": "Finalist systems found 86% of 63 synthetic vulnerabilities and patched 68%; tools were released open source."
+      "title": "DARPA, AI Cyber Challenge marks pivotal inflection point for cyber defense, Aug 2025",
+      "url": "https://www.darpa.mil/news/2025/aixcc-results",
+      "finding": "Finalists found 54 of 63 synthetic vulnerabilities (86%) and patched 43 (68%); all seven finalist systems are being released as open source."
      }
     },
     {
@@ -789,17 +799,17 @@
      "counters": null,
      "evidence": "Big Sleep found a SQLite bug by checking a recent commit for missed variants.",
      "ref": {
-      "title": "From Naptime to Big Sleep, Google Project Zero 2024",
+      "title": "Big Sleep team, From Naptime to Big Sleep: Using Large Language Models To Catch Vulnerabilities In Real-World Code, Google Project Zero 2024",
       "url": "https://projectzero.google/2024/10/from-naptime-to-big-sleep.html",
-      "finding": "An LLM agent found an exploitable SQLite bug that 150 CPU-hours of fuzzing missed; it was fixed the same day."
+      "finding": "An LLM agent found an exploitable stack buffer underflow in SQLite before it reached an official release; the authors call the work highly experimental."
      }
     },
     {
      "action": "Mandate vulnerability handling for vendors",
      "actor": "EU",
      "status": "in force",
-     "counters": "maintainer capacity",
-     "evidence": "The Cyber Resilience Act sets vulnerability handling duties for digital products.",
+     "counters": null,
+     "evidence": "The Cyber Resilience Act makes vendors report actively exploited vulnerabilities from September 2026 and meet security requirements from December 2027; non-commercial open source is excluded.",
      "ref": {
       "title": "Cyber Resilience Act, Regulation (EU) 2024/2847",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
@@ -812,7 +822,7 @@
      "event": "DARPA Cyber Grand Challenge",
      "year": "2016",
      "parallel": "Machines competed to find and patch software flaws on their own, the same promise now made for AI agents.",
-     "outcome": "Seven finalists from over 100 teams ran for nearly 12 hours; Mayhem won the $2 million prize, and DARPA's programme manager said he did not expect it to finish well when it was invited to play human experts at DEF CON.",
+     "outcome": "Seven finalist systems competed with no human help; Mayhem won the $2 million first prize, and DARPA's programme manager said he did not expect it to finish well when it then played human experts at DEF CON.",
      "ref": {
       "title": "DARPA, Cyber Grand Challenge winners (2016)",
       "url": "https://www.darpa.mil/news/2016/cyber-grand-challenge-winners",
@@ -823,7 +833,7 @@
      "event": "Google OSS-Fuzz automated fuzzing",
      "year": "2016-2025",
      "parallel": "Automated testing at scale finds real bugs in widely used open-source code and feeds fixes back, a pre-LLM version of automated vulnerability finding.",
-     "outcome": "By May 2025 OSS-Fuzz had helped identify and fix over 13,000 vulnerabilities and 50,000 bugs across 1,000 projects; it finds bugs, while fixing still mostly falls on maintainers.",
+     "outcome": "By May 2025 OSS-Fuzz had helped identify and fix over 13,000 vulnerabilities and 50,000 bugs across 1,000 projects.",
      "ref": {
       "title": "google/oss-fuzz README",
       "url": "https://github.com/google/oss-fuzz",
@@ -840,32 +850,27 @@
    "probability": 0.35,
    "year": 2030,
    "evidence": "projected",
-   "summary": "If defenders adopt automated auditing faster than attackers adopt automated exploitation, critical software could become much harder to breach; AI agents already find and fix real bugs[4][5]. Experts disagree which side AI will favour, so today this is a race, not a result[1].",
+   "summary": "If defenders adopt automated auditing faster than attackers adopt automated exploitation, critical software could become much harder to breach; AI agents already find and fix real bugs[3][4]. It remains uncertain which side AI will favour, so today this is a race, not a result[1].",
    "refs": [
     {
-     "title": "International AI Safety Report 2025",
-     "url": "https://www.gov.uk/government/publications/international-ai-safety-report-2025",
-     "finding": "Experts disagree whether AI will favour cyber offence or defence; evidence so far is mixed."
+     "title": "International AI Safety Report 2026",
+     "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+     "finding": "Many of the same AI capabilities used for cyberattacks can also strengthen defences, leaving it uncertain whether AI benefits attackers or defenders more."
     },
     {
      "title": "DARPA AI Cyber Challenge results 2025",
      "url": "https://www.darpa.mil/news/2025/aixcc-results",
-     "finding": "Tools are being open-sourced for critical infrastructure maintainers."
+     "finding": "All seven finalist systems are being released as open source, and DARPA and ARPA-H added $1.4 million in prizes for integrating them into critical infrastructure software."
     },
     {
-     "title": "AI 2040 (PDF)",
-     "url": "https://ai-2040.com/",
-     "finding": "Scenario spends on the order of $1T a year, 0.2% of the world economy, hardening the world against AI-enabled threats."
-    },
-    {
-     "title": "Project Zero, From Naptime to Big Sleep 2024",
-     "url": "https://googleprojectzero.blogspot.com/2024/10/from-naptime-to-big-sleep.html",
-     "finding": "An LLM agent found an exploitable memory-safety bug in SQLite before release."
+     "title": "Big Sleep team, From Naptime to Big Sleep: Using Large Language Models To Catch Vulnerabilities In Real-World Code, Google Project Zero 2024",
+     "url": "https://projectzero.google/2024/10/from-naptime-to-big-sleep.html",
+     "finding": "An LLM agent found an exploitable stack buffer underflow in SQLite before it reached an official release; the authors call the work highly experimental."
     },
     {
      "title": "Google DeepMind, CodeMender 2025",
      "url": "https://deepmind.google/discover/blog/introducing-codemender-an-ai-agent-for-code-security/",
-     "finding": "An agent upstreamed dozens of security fixes to open-source projects."
+     "finding": "CodeMender upstreamed 72 security fixes to open-source projects in six months, each reviewed by human researchers before submission."
     }
    ],
    "theme": "security",
@@ -874,7 +879,7 @@
     {
      "limit": "attackers gain the same tools",
      "kind": "incentives",
-     "evidence": "GPT-4 exploited 87% of known one-day vulnerabilities given the CVE text.",
+     "evidence": "In one test, GPT-4 exploited 87% of 15 known one-day vulnerabilities given the CVE text, and 7% without it.",
      "ref": {
       "title": "LLM Agents can Autonomously Exploit One-day Vulnerabilities, arXiv 2404.08144",
       "url": "https://arxiv.org/abs/2404.08144",
@@ -888,17 +893,17 @@
      "ref": {
       "title": "Secure by Design, CISA",
       "url": "https://www.cisa.gov/securebydesign",
-      "finding": "Over 200 software makers signed a voluntary pledge to ship secure defaults."
+      "finding": "Over 200 software manufacturers signed CISA's voluntary Secure by Design pledge, committing to a good-faith effort on seven security goals."
      }
     },
     {
      "limit": "insecure generated code",
      "kind": "quality",
-     "evidence": "AI assistant users wrote less secure code than those without one.",
+     "evidence": "In one study of 47 participants, those using a 2022 Codex-based assistant wrote less secure code than those without one.",
      "ref": {
       "title": "Do Users Write More Insecure Code with AI Assistants?, arXiv 2211.03622",
       "url": "https://arxiv.org/abs/2211.03622",
-      "finding": "Users with an AI assistant wrote less secure code and were more confident it was secure."
+      "finding": "In a 47-person user study (CCS 2023), participants with a codex-davinci-002 assistant wrote significantly less secure code and were more likely to believe it secure."
      }
     }
    ],
@@ -908,7 +913,7 @@
      "actor": "EU",
      "status": "in force",
      "counters": "slow institutional adoption",
-     "evidence": "The Cyber Resilience Act turns product security into a legal requirement in the EU.",
+     "evidence": "The Cyber Resilience Act entered into force in December 2024; its reporting duties apply from September 2026 and its main security requirements from December 2027.",
      "ref": {
       "title": "Cyber Resilience Act, Regulation (EU) 2024/2847",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng",
@@ -922,9 +927,9 @@
      "counters": "attackers gain the same tools",
      "evidence": "AIxCC was run to find and patch flaws in software critical infrastructure depends on.",
      "ref": {
-      "title": "DARPA AI Cyber Challenge final results",
-      "url": "https://aicyberchallenge.com/",
-      "finding": "Finalist systems found 86% of 63 synthetic vulnerabilities and patched 68%; tools were released open source."
+      "title": "DARPA, AI Cyber Challenge marks pivotal inflection point for cyber defense, Aug 2025",
+      "url": "https://www.darpa.mil/news/2025/aixcc-results",
+      "finding": "Finalists found 54 of 63 synthetic vulnerabilities (86%) and patched 43 (68%); all seven finalist systems are being released as open source."
      }
     },
     {
@@ -932,11 +937,11 @@
      "actor": "software makers",
      "status": "proposed",
      "counters": "insecure generated code",
-     "evidence": "CISA asks makers to include MFA and logging by default.",
+     "evidence": "CISA asks makers to ship products secure out of the box, with features such as MFA and logging at no extra cost.",
      "ref": {
       "title": "Secure by Design, CISA",
       "url": "https://www.cisa.gov/securebydesign",
-      "finding": "Over 200 software makers signed a voluntary pledge to ship secure defaults."
+      "finding": "Over 200 software manufacturers signed CISA's voluntary Secure by Design pledge, committing to a good-faith effort on seven security goals."
      }
     }
    ],
@@ -945,7 +950,7 @@
      "event": "Morris worm",
      "year": "1988",
      "parallel": "The first network-wide attack showed that defence depends on getting fixes deployed, not only on knowing the flaws, the core of the attacker-defender race.",
-     "outcome": "The worm reportedly infected up to 6,000 of the 60,000 computers on the Internet within hours; GAO found problems in developing, distributing and installing fixes, and later intrusions used a known hole whose fix had been supplied but not installed.",
+     "outcome": "The worm reportedly infected up to 6,000 of the more than 60,000 computers on the Internet within hours; GAO found problems in developing, distributing and installing fixes, and in one later intrusion the fix had been supplied but not installed.",
      "ref": {
       "title": "GAO 1989, Computer Security: Virus Highlights Need for Improved Internet Management (IMTEC-89-57)",
       "url": "https://www.gao.gov/products/imtec-89-57",
@@ -972,17 +977,22 @@
    "probability": 0.8,
    "year": 2024,
    "evidence": "measured",
-   "summary": "In one field study of customer-support agents, AI help raised issues resolved per hour by 14% on average and 34% for novices, narrowing skill gaps[1]. In one trial, experienced open-source developers were 19% slower with AI while believing they were faster[2].",
+   "summary": "In one field study of 5,172 customer-support agents at one firm, AI help raised issues resolved per hour by 15% on average and about 30% for less skilled and less experienced agents, narrowing skill gaps[1]. In one early-2025 trial, 16 experienced open-source developers were 19% slower with AI while believing they were faster; METR has since said these results are out of date, and a late-2025 follow-up was too uncertain to show a clear speedup[2][3].",
    "refs": [
     {
-     "title": "Brynjolfsson, Li and Raymond, Generative AI at Work, NBER w31161",
-     "url": "https://www.nber.org/papers/w31161",
-     "finding": "Support agents resolved 14% more issues per hour on average, 34% for novices."
+     "title": "Brynjolfsson, Li and Raymond 2025, Generative AI at Work, Quarterly Journal of Economics 140(2)",
+     "url": "https://academic.oup.com/qje/article/140/2/889/7990658",
+     "finding": "Across 5,172 customer-support agents at one firm, AI assistance raised issues resolved per hour by 15% on average and by 30% for less skilled and less experienced agents; the most skilled saw small speed gains and small quality declines."
     },
     {
-     "title": "METR, early-2025 developer study",
+     "title": "METR 2025, Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
      "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
-     "finding": "Experienced open-source developers were 19% slower with AI while believing they were faster."
+     "finding": "In a randomised trial of 16 experienced developers on 246 tasks, AI use made tasks take 19% longer, though developers believed it sped them up by 20%; METR later marked these results out of date."
+    },
+    {
+     "title": "METR 2026, We are Changing our Developer Productivity Experiment Design",
+     "url": "https://metr.org/blog/2026-02-24-uplift-update/",
+     "finding": "A late-2025 follow-up with 57 developers estimated speedups of 18% and 4% with confidence intervals including zero; METR calls this very weak evidence because developers declined to work without AI."
     }
    ],
    "theme": "work",
@@ -991,31 +1001,31 @@
     {
      "limit": "gains shrink for experts",
      "kind": "quality",
-     "evidence": "Experienced developers were 19% slower with AI tools in an RCT.",
+     "evidence": "In one early-2025 trial, 16 experienced developers were 19% slower with AI; in one support-centre study, the most skilled agents saw small speed gains and small quality declines.",
      "ref": {
-      "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity, METR",
+      "title": "METR 2025, Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
       "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
-      "finding": "Experienced developers were 19% slower with AI tools while believing they were faster."
+      "finding": "In a randomised trial of 16 experienced developers on 246 tasks, AI use made tasks take 19% longer, though developers believed it sped them up by 20%; METR later marked these results out of date."
      }
     },
     {
-     "limit": "slow institutional adoption",
+     "limit": "gains not yet showing in pay or hours",
      "kind": "incentives",
-     "evidence": "Danish data show null effects on earnings and hours two years after ChatGPT.",
+     "evidence": "One Danish study found most employers in exposed occupations had adopted chatbots, yet earnings and recorded hours had not moved two years after ChatGPT.",
      "ref": {
       "title": "Still Waters, Rapid Currents, NBER w33777",
       "url": "https://www.nber.org/papers/w33777",
-      "finding": "Danish data show precise null effects of chatbots on earnings and hours two years after ChatGPT."
+      "finding": "Linking Danish adoption surveys to registry data, the authors estimate precise null effects on earnings and recorded hours, ruling out effects larger than 2% two years after ChatGPT."
      }
     },
     {
      "limit": "low AI literacy",
      "kind": "literacy",
-     "evidence": "Consultants were worse with AI on a task outside its capability frontier.",
+     "evidence": "In one experiment with 758 BCG consultants, those using GPT-4 on a task outside its frontier were 19% less likely to reach a correct answer.",
      "ref": {
-      "title": "Navigating the Jagged Technological Frontier, HBS Working Paper",
-      "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=64700",
-      "finding": "In 758 BCG consultants, AI raised quality inside its capability frontier but made answers worse on a task outside it."
+      "title": "Dell'Acqua et al., Navigating the Jagged Technological Frontier, Organization Science 2026",
+      "url": "https://doi.org/10.1287/orsc.2025.21838",
+      "finding": "In a preregistered experiment with 758 BCG consultants, GPT-4 users completed 12.2% more tasks 25.1% faster inside the frontier, but were 19% less likely to be correct on a task outside it."
      }
     }
    ],
@@ -1025,11 +1035,11 @@
      "actor": "employers",
      "status": "tested",
      "counters": "gains shrink for experts",
-     "evidence": "Novices gained 34% versus 14% on average in a support centre.",
+     "evidence": "In one firm's support centre, less skilled and less experienced agents gained about 30% in issues resolved per hour, against 15% on average.",
      "ref": {
-      "title": "Generative AI at Work, NBER w31161",
-      "url": "https://www.nber.org/papers/w31161",
-      "finding": "An AI assistant raised support agent productivity 14% on average and 34% for novices, with little gain for experts."
+      "title": "Brynjolfsson, Li and Raymond 2025, Generative AI at Work, Quarterly Journal of Economics 140(2)",
+      "url": "https://academic.oup.com/qje/article/140/2/889/7990658",
+      "finding": "Across 5,172 customer-support agents at one firm, AI assistance raised issues resolved per hour by 15% on average and by 30% for less skilled and less experienced agents; the most skilled saw small speed gains and small quality declines."
      }
     },
     {
@@ -1037,23 +1047,23 @@
      "actor": "employers",
      "status": "in force",
      "counters": "low AI literacy",
-     "evidence": "The EU AI Act requires AI literacy for staff of deployers.",
+     "evidence": "The EU AI Act requires providers and deployers to take measures supporting AI literacy among staff who use AI.",
      "ref": {
-      "title": "EU AI Act, Article 4: AI literacy",
+      "title": "EU AI Act, Article 4: AI literacy, as amended by the Digital Omnibus on AI 2026",
       "url": "https://artificialintelligenceact.eu/article/4/",
-      "finding": "Providers and deployers must ensure a sufficient level of AI literacy among staff who use AI."
+      "finding": "Since a July 2026 amendment, providers and deployers must take measures to support AI literacy among staff who use AI, without a set level required of any individual."
      }
     },
     {
      "action": "Redesign workflows, not only add tools",
      "actor": "employers",
      "status": "idea",
-     "counters": "slow institutional adoption",
-     "evidence": "AI assisted only 1% to 5% of US work hours despite 40% adoption.",
+     "counters": "gains not yet showing in pay or hours",
+     "evidence": "Nearly 40% of US adults aged 18 to 64 used generative AI by late 2024, yet it assisted only 1% to 5% of all work hours.",
      "ref": {
       "title": "The Rapid Adoption of Generative AI, NBER w32966",
       "url": "https://www.nber.org/papers/w32966",
-      "finding": "About 40% of US adults used generative AI by late 2024, but it assisted only 1% to 5% of work hours."
+      "finding": "Nearly 40% of the US population aged 18 to 64 used generative AI by late 2024, and between 1% and 5% of all work hours were assisted by it."
      }
     }
    ],
@@ -1077,49 +1087,49 @@
    "valence": -2.61,
    "probability": 0.7,
    "year": 2025,
-   "evidence": "measured",
-   "summary": "As AI makes tasks cheaper, demand and expectations may grow faster than time is saved. In one Upwork survey, 77% of employees using AI said it had added to their workload[1]; one Danish registry study found near-zero effects on earnings and hours[2].",
+   "evidence": "reported",
+   "summary": "As AI makes tasks cheaper, demand and expectations may grow faster than time is saved. In one 2024 Upwork survey, 77% of employees using AI said it had added to their workload[1]; in one Danish study, 85% of chatbot users said they moved saved time to other tasks, and earnings and recorded hours did not change[2].",
    "refs": [
     {
      "title": "Upwork Research Institute 2024",
      "url": "https://www.upwork.com/research/ai-enhanced-work-models",
-     "finding": "77% of employees using AI said it had added to their workload."
+     "finding": "In one 2024 survey of 2,500 workers and executives in the US, UK, Australia and Canada, 77% of employees using AI said it had added to their workload, while 96% of executives expected AI to raise productivity."
     },
     {
-     "title": "Humlum and Vestergaard, Large Language Models, Small Labor Market Effects, NBER w33777",
+     "title": "Humlum and Vestergaard, Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI, NBER w33777",
      "url": "https://www.nber.org/papers/w33777",
-     "finding": "Danish registry data across 11 exposed occupations shows near-zero effects on earnings and hours."
+     "finding": "In Danish surveys of 11 exposed occupations linked to registry data, 85% of chatbot users said they moved saved time to other tasks, and effects on earnings and recorded hours were precise nulls."
     },
     {
-     "title": "Acemoglu, The Simple Macroeconomics of AI, NBER w32487",
+     "title": "Acemoglu 2025, The Simple Macroeconomics of AI, Economic Policy (NBER w32487)",
      "url": "https://www.nber.org/papers/w32487",
-     "finding": "Estimates only about 0.7% total factor productivity gain over ten years."
+     "finding": "Estimates no more than a 0.66% gain in total factor productivity over ten years."
     },
     {
-     "title": "Anthropic Economic Index",
-     "url": "https://www.anthropic.com/economic-index",
-     "finding": "Tracks which tasks people hand to AI versus do with it, by occupation."
+     "title": "Anthropic Economic Index report: Uneven geographic and enterprise AI adoption, September 2025",
+     "url": "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report",
+     "finding": "Classifies Claude.ai and enterprise API use by economic task, and as automation or augmentation."
     }
    ],
    "theme": "work",
    "stage": "emerging",
-   "control": "inevitable",
+   "control": "mitigable",
    "price_of": [
     "productivity",
     "cheapintelligence"
    ],
-   "control_note": "If tasks get cheaper, demand for them grows; that is the same mechanism as the productivity gain. Policy can only decide who captures the saved time.",
+   "control_note": "If tasks get cheaper, demand for them can grow, by the same mechanism as the productivity gain; how much depends on how elastic demand is. Policy and employers mostly decide who captures the saved time.",
    "actions": [
     {
      "action": "Set workload targets when AI is introduced",
      "actor": "employers",
      "status": "idea",
      "aim": "probability",
-     "evidence": "Employees report AI adds to workload under existing models, while flexible arrangements went with less burnout; this is survey data, not causal.",
+     "evidence": "In one vendor survey, 77% of employees using AI said it added to their workload; this is self-reported and not causal.",
      "ref": {
       "title": "Upwork Research Institute, From Burnout to Balance: AI-Enhanced Work Models, 2024",
       "url": "https://www.upwork.com/research/ai-enhanced-work-models",
-      "finding": "Most employees using AI said it added to their workload, while freelancers on flexible models reported less burnout."
+      "finding": "In one 2024 survey of 2,500 workers and executives in the US, UK, Australia and Canada, 77% of employees using AI said it had added to their workload, while 96% of executives expected AI to raise productivity."
      }
     },
     {
@@ -1177,38 +1187,28 @@
    "valence": 2.86,
    "probability": 0.12,
    "year": 2031,
-   "evidence": "measured",
-   "summary": "Basic income looks workable but modest: in one US study, $1,000 a month for three years cut work by about 1.3 hours a week[1], and health effects were small[2]. Political support for a universal scheme is unproven.",
+   "evidence": "projected",
+   "summary": "Basic income looks workable but modest: in one US trial, $1,000 a month for three years to 1,000 low-income people cut work by 1 to 2 hours a week[1], and health gains were mostly short-lived[2]. Political support for a universal scheme is unproven.",
    "refs": [
     {
-     "title": "Vivalt et al., Employment Effects of a Guaranteed Income, NBER w32719",
+     "title": "Vivalt et al. 2026, The Employment Effects of a Guaranteed Income: Experimental Evidence from Two U.S. States, Quarterly Journal of Economics (NBER w32719)",
      "url": "https://www.nber.org/papers/w32719",
-     "finding": "$1,000 a month for three years cut recipients' work by about 1.3 hours a week, with no clear gains in job quality."
+     "finding": "$1,000 a month for three years to 1,000 low-income people cut their work by 1 to 2 hours a week and labour market participation by 4.2 percentage points, with no impact on job quality."
     },
     {
-     "title": "OpenResearch Unconditional Cash Study",
-     "url": "https://www.openresearchlab.org/findings",
-     "finding": "Recipients spent more on basic needs and support for others; health effects were small."
+     "title": "Miller et al., Does Income Affect Health? Evidence from a Randomized Controlled Trial of a Guaranteed Income, NBER w32711",
+     "url": "https://www.nber.org/papers/w32711",
+     "finding": "$1,000 a month for three years brought large but short-lived gains in stress and food security, more use of hospital, emergency and dental care, and no improvement in physical health or biomarkers."
     },
     {
-     "title": "AI 2027: race ending",
+     "title": "Kokotajlo, Lifland, Larsen and Dean (with Scott Alexander), AI 2027: race ending, 2025",
      "url": "https://ai-2027.com/race",
-     "finding": "Displaced humans live on an incredibly luxurious universal basic income by 2029."
+     "finding": "In the authors' scenario, by 2029 people whose jobs are obsolete either act out their old roles or collect an incredibly luxurious universal basic income."
     },
     {
-     "title": "AI 2027 takeoff forecast",
-     "url": "https://ai-2027.com/research/takeoff-forecast",
-     "finding": "Median about one year from superhuman coder to superintelligence, with wide error margins."
-    },
-    {
-     "title": "AI Futures Project, Q2.5 2026 Timelines Update",
-     "url": "https://blog.aifutures.org/p/q25-2026-timelines-update-uplift",
-     "finding": "August 2026 superintelligence medians: Kokotajlo March 2029, Lifland July 2033."
-    },
-    {
-     "title": "Economics of Plan A (AI 2040)",
+     "title": "Dean and Larsen, Economics of Plan A (AI 2040 scenario supplement)",
      "url": "https://ai-2040.com/supplements/economics-of-plan-a",
-     "finding": "Permit revenue paid as a citizen's dividend of about $1M per person a year in 2035."
+     "finding": "In the authors' modelled scenario, most US AI permit revenue is paid to US residents as a Citizen's Dividend of about $1M per person a year by 2035; they say they do not fully trust the model."
     }
    ],
    "theme": "work",
@@ -1217,7 +1217,7 @@
     {
      "limit": "high fiscal cost",
      "kind": "cost",
-     "evidence": "A US trial paid $1,000 a month to 1,000 people for three years, a cost that scales poorly to everyone.",
+     "evidence": "One US trial paid $1,000 a month to 1,000 low-income people for three years; trials like it do not test how payments to everyone would be funded.",
      "ref": {
       "title": "The Employment Effects of a Guaranteed Income, NBER w32719",
       "url": "https://www.nber.org/papers/w32719",
@@ -1237,11 +1237,11 @@
     {
      "limit": "no political path",
      "kind": "regulation",
-     "evidence": "No country runs a universal scheme; evidence comes from trials only.",
+     "evidence": "No country pays a basic income large enough to live on; Iran's nationwide cash transfer since 2011 was compensation for subsidy cuts, not a basic income.",
      "ref": {
-      "title": "Universal Basic Income: Short-Term Results from a Long-Term Experiment in Kenya",
-      "url": "https://conference.nber.org/conf_papers/f192616.pdf",
-      "finding": "UBI in 295 villages expanded local enterprise; labor supply did not fall but shifted to self-employment."
+      "title": "Salehi-Isfahani and Mostafavi-Dehzooei 2018, Cash transfers and labor supply: Evidence from a large-scale program in Iran, Journal of Development Economics",
+      "url": "https://erf.org.eg/publications/cash-transfers-and-labor-supply-evidence-from-a-large-scale-program-in-iran",
+      "finding": "Apart from youth, the authors find no evidence that the transfers, worth 29% of median household income, reduced labour supply."
      }
     }
    ],
@@ -1251,11 +1251,11 @@
      "actor": "researchers and NGOs",
      "status": "tested",
      "counters": "no political path",
-     "evidence": "A 12-year UBI trial in Kenya covers 295 villages.",
+     "evidence": "A Kenyan trial pays a 12-year basic income in 44 villages, alongside 2-year and lump-sum arms and 100 control villages.",
      "ref": {
       "title": "Universal Basic Income: Short-Term Results from a Long-Term Experiment in Kenya",
       "url": "https://conference.nber.org/conf_papers/f192616.pdf",
-      "finding": "UBI in 295 villages expanded local enterprise; labor supply did not fall but shifted to self-employment."
+      "finding": "Across 195 treated villages in rural Kenya, compared with 100 control villages, UBI expanded local enterprise; labour supply did not fall overall but shifted from wage work to self-employment."
      }
     },
     {
@@ -1263,11 +1263,11 @@
      "actor": "governments",
      "status": "tested",
      "counters": "high fiscal cost",
-     "evidence": "In Kenya, lump sums had similar or larger effects than streams of the same value.",
+     "evidence": "In Kenya, a one-off lump sum had similar or larger economic effects than a two-year stream of the same value; the authors note it is cheaper only if households get less.",
      "ref": {
       "title": "Universal Basic Income: Short-Term Results from a Long-Term Experiment in Kenya",
       "url": "https://conference.nber.org/conf_papers/f192616.pdf",
-      "finding": "UBI in 295 villages expanded local enterprise; labor supply did not fall but shifted to self-employment."
+      "finding": "The lump sums had similar, if not larger, economic impacts than the short-term stream, which had noticeably smaller effects despite delivering the same capital."
      }
     },
     {
@@ -1288,7 +1288,7 @@
      "event": "Alaska Permanent Fund Dividend",
      "year": "1982-present",
      "parallel": "A universal, unconditional cash payment has run for decades, the closest real case of a basic income.",
-     "outcome": "The dividend had no effect on employment and raised part-time work by 1.8 percentage points (17 percent); it is a few thousand dollars a year at most, far below a living income.",
+     "outcome": "The dividend had no effect on employment and raised part-time work by 1.8 percentage points (17 percent).",
      "ref": {
       "title": "Jones and Marinescu 2022, The Labor Market Impacts of Universal and Permanent Cash Transfers, AEJ: Economic Policy",
       "url": "https://www.aeaweb.org/articles?id=10.1257/pol.20190299",
@@ -1299,9 +1299,9 @@
      "event": "Finland basic income experiment",
      "year": "2017-2018",
      "parallel": "A national randomised trial tested unconditional payments to unemployed people as a step toward a simpler, universal system.",
-     "outcome": "Employment improved slightly more than in the control group and recipients reported better wellbeing and less mental strain, but a 2018 activation reform muddied the employment result and it did not help those already in hard situations.",
+     "outcome": "About 2,000 unemployed people received 560 euros a month; employment rose slightly more than in the control group and recipients reported better wellbeing and less mental strain, but a 2018 activation reform muddied the employment result and it did not help those already in hard situations.",
      "ref": {
-      "title": "Kela and Finnish Government, Finland's Basic Income Experiment 2017-2018 results",
+      "title": "Finland Toolbox presentation, Finland's Basic Income Experiment 2017-2018 (2020)",
       "url": "https://toolbox.finland.fi/wp-content/uploads/sites/2/2018/04/basic_income_experiment_2017-2018_results_2020.pdf",
       "finding": "Slightly better employment and better perceived wellbeing; interpretation complicated by the 2018 activation model."
      }
@@ -1316,6 +1316,17 @@
       "url": "https://economics.ubc.ca/wp-content/uploads/sites/38/2021/03/forget-cpp-reanalysis.pdf",
       "finding": "After accounting for pre-trends, the data point to an increase in hospital use, reversing Forget's 2011 conclusion."
      }
+    },
+    {
+     "event": "Iran's nationwide cash transfer",
+     "year": "2011",
+     "parallel": "A national government paid unconditional monthly cash to nearly all households, the closest country-scale case.",
+     "outcome": "Transfers worth 29% of median household income did not reduce labour supply except among young people, and service-sector workers worked more hours.",
+     "ref": {
+      "title": "Salehi-Isfahani and Mostafavi-Dehzooei 2018, Cash transfers and labor supply: Evidence from a large-scale program in Iran, Journal of Development Economics",
+      "url": "https://erf.org.eg/publications/cash-transfers-and-labor-supply-evidence-from-a-large-scale-program-in-iran",
+      "finding": "Apart from youth, the authors find no evidence that the transfers, worth 29% of median household income, reduced labour supply."
+     }
     }
    ],
    "merged": "abundance"
@@ -1326,13 +1337,13 @@
    "valence": 2.69,
    "probability": 0.6,
    "year": 2026,
-   "evidence": "measured",
-   "summary": "Models that turn binaries back into readable source could help keep abandoned software, games and industrial systems alive and interoperable. In one study, open models recompiled and passed tests on far more decompiled functions than prior tools[1].",
+   "evidence": "projected",
+   "summary": "Models that turn binaries back into readable source could help keep abandoned software, games and industrial systems alive and interoperable. In one study, open models recompiled and passed tests on more than twice as many decompiled functions as GPT-4o and Ghidra on two benchmarks[1].",
    "refs": [
     {
-     "title": "Tan et al., LLM4Decompile 2024",
+     "title": "Tan, Luo, Li and Zhang, LLM4Decompile: Decompiling Binary Code with Large Language Models, EMNLP 2024",
      "url": "https://arxiv.org/abs/2403.05286",
-     "finding": "Open models recompile and pass tests on far more decompiled functions than prior tools."
+     "finding": "Open models re-executed more than twice as many decompiled functions as GPT-4o and Ghidra on two benchmarks."
     }
    ],
    "theme": "ip",
@@ -1351,21 +1362,21 @@
     {
      "limit": "output not fully correct",
      "kind": "quality",
-     "evidence": "LLM4Decompile doubled re-executability over baselines but much output still fails.",
+     "evidence": "LLM4Decompile more than doubled re-executability over GPT-4o and Ghidra, but even its best released model re-executes only about 65% of benchmark functions.",
      "ref": {
-      "title": "LLM4Decompile: Decompiling Binary Code with Large Language Models, arXiv 2403.05286",
-      "url": "https://arxiv.org/abs/2403.05286",
-      "finding": "Open models doubled re-executability of decompiled code over GPT-4o and Ghidra on benchmarks, still far from perfect."
+      "title": "LLM4Decompile repository and model results, GitHub",
+      "url": "https://github.com/albertan017/LLM4Decompile",
+      "finding": "Open models re-executed more than twice as many decompiled functions as GPT-4o and Ghidra; the best released model re-executes about 65% of benchmark functions."
      }
     },
     {
      "limit": "skills to verify output",
      "kind": "skills",
-     "evidence": "Recovered code needs experts to test, since benchmarks show many failed functions.",
+     "evidence": "Even the best released model re-executes about 65% of benchmark functions, so experts must test the rest.",
      "ref": {
-      "title": "LLM4Decompile: Decompiling Binary Code with Large Language Models, arXiv 2403.05286",
-      "url": "https://arxiv.org/abs/2403.05286",
-      "finding": "Open models doubled re-executability of decompiled code over GPT-4o and Ghidra on benchmarks, still far from perfect."
+      "title": "LLM4Decompile repository and model results, GitHub",
+      "url": "https://github.com/albertan017/LLM4Decompile",
+      "finding": "Open models re-executed more than twice as many decompiled functions as GPT-4o and Ghidra; the best released model re-executes about 65% of benchmark functions."
      }
     }
    ],
@@ -1377,9 +1388,9 @@
      "counters": "output not fully correct",
      "evidence": "LLM4Decompile models were released openly for reuse.",
      "ref": {
-      "title": "LLM4Decompile: Decompiling Binary Code with Large Language Models, arXiv 2403.05286",
+      "title": "Tan, Luo, Li and Zhang, LLM4Decompile: Decompiling Binary Code with Large Language Models, EMNLP 2024",
       "url": "https://arxiv.org/abs/2403.05286",
-      "finding": "Open models doubled re-executability of decompiled code over GPT-4o and Ghidra on benchmarks, still far from perfect."
+      "finding": "Open models re-executed more than twice as many decompiled functions as GPT-4o and Ghidra on two benchmarks."
      }
     },
     {
@@ -1400,7 +1411,7 @@
      "event": "Sega v. Accolade",
      "year": "1992",
      "parallel": "Turning object code back into readable source to achieve compatibility was ruled lawful, the legal footing that AI decompilation for interoperability would lean on.",
-     "outcome": "The Ninth Circuit held that disassembly for a legitimate reason, when there is no other way to reach unprotected functional elements, is fair use; it did not cover copying the expressive code itself.",
+     "outcome": "The Ninth Circuit held that disassembly for a legitimate reason, when there is no other way to reach the unprotected functional elements, is fair use, since the purpose was game compatibility rather than copying the games.",
      "ref": {
       "title": "Sega Enters. Ltd. v. Accolade, Inc., 977 F.2d 1510 (9th Cir. 1992), US Copyright Office Fair Use Index",
       "url": "https://www.copyright.gov/fair-use/summaries/segaenters-accolade-9thcir1992.pdf",
@@ -13668,12 +13679,6 @@
    "why": "Offloading judgement to AI weakens the habit of checking, so experts lose skill they then lack when the AI is gone."
   },
   {
-   "source": "tutoring",
-   "target": "cheating",
-   "kind": "counters",
-   "why": "Tutors with guardrails guide students to work answers out themselves instead of handing over homework answers."
-  },
-  {
    "source": "sycophancy",
    "target": "parasocial",
    "kind": "leads",
@@ -15442,6 +15447,66 @@
    "target": "aipsychosis",
    "kind": "leads",
    "why": "Long, emotionally intense chats with a companion that always agrees can pull a vulnerable person into a shared delusion."
+  },
+  {
+   "source": "science",
+   "target": "homogenisation",
+   "kind": "twin",
+   "why": "AI tools that make individual scientists more productive also steer the field toward fewer, already established topics."
+  },
+  {
+   "source": "medicine",
+   "target": "deskilling",
+   "kind": "twin",
+   "why": "AI that helps doctors spot disease can erode their own skill; in one Polish study, detection without AI fell after doctors got used to it."
+  },
+  {
+   "source": "hallucinations",
+   "target": "accessibility",
+   "kind": "counters",
+   "why": "Blind users often cannot see when an AI description is wrong, so made-up details undercut the help."
+  },
+  {
+   "source": "translation",
+   "target": "aidivide",
+   "kind": "counters",
+   "why": "Translation into local languages lowers the language barrier that keeps many people in developing countries from using AI services."
+  },
+  {
+   "source": "builders",
+   "target": "comprehensiondebt",
+   "kind": "leads",
+   "why": "People who accept generated code without reading it ship software that nobody involved understands."
+  },
+  {
+   "source": "cheapintelligence",
+   "target": "builders",
+   "kind": "leads",
+   "why": "As model prices fall, building software by describing it becomes affordable to people who would never hire a programmer."
+  },
+  {
+   "source": "decompilation",
+   "target": "patching",
+   "kind": "leads",
+   "why": "AI reverse engineering lets defenders audit closed binaries for the same bugs agents find in source code."
+  },
+  {
+   "source": "hardening",
+   "target": "iot",
+   "kind": "counters",
+   "why": "Software that is much harder to breach leaves fewer exploitable flaws in routers and cameras for automated attacks."
+  },
+  {
+   "source": "jevons",
+   "target": "cognitiveload",
+   "kind": "counters",
+   "why": "If time saved by AI fills with extra tasks, the lighter load per task does not add up to a lighter working day."
+  },
+  {
+   "source": "robotics",
+   "target": "ubi",
+   "kind": "leads",
+   "why": "If humanoid robots displace physical labour, more people lose wage income, adding pressure for a basic income alongside office job losses."
   }
  ],
  "themes": {
