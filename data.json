@@ -13615,6 +13615,88 @@
    ],
    "valence": -2.9,
    "merged": "ncii"
+  },
+  {
+   "id": "robotaxisafety",
+   "label": "Driverless cars cut road injuries",
+   "probability": 0.35,
+   "year": 2030,
+   "stage": "emerging",
+   "evidence": "measured",
+   "theme": "world",
+   "summary": "About 1.16 million people die in road crashes each year[1]. Over 271 million driverless miles in five US metro areas, Waymo reports 82% fewer injury crashes and 95% fewer serious-injury crashes than human drivers on the same roads[2]; one claims study with the insurer Swiss Re found 92% fewer bodily injury claims over 25.3 million miles[3]. Both analyses come from the company, and US regulators opened an investigation after a driverless car passed a stopped school bus[4].",
+   "refs": [
+    {
+     "title": "WHO, Road traffic injuries fact sheet, 2026",
+     "url": "https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries",
+     "finding": "About 1.16 million people die each year in road traffic crashes, and 20 to 50 million more are injured."
+    },
+    {
+     "title": "Waymo, Safety Impact data hub, data through June 2026",
+     "url": "https://waymo.com/safety/impact/",
+     "finding": "Over 271.3 million rider-only miles in Los Angeles, the San Francisco Bay Area, Phoenix, Austin and Atlanta, Waymo reports 82% fewer injury-causing crashes, 95% fewer serious-injury-or-worse crashes and 93% fewer pedestrian injury crashes than a human benchmark on the same roads."
+    },
+    {
+     "title": "Waymo, New Swiss Re study: Waymo is safer than even the most advanced human-driven vehicles, 2024",
+     "url": "https://waymo.com/blog/2024/12/new-swiss-re-study-waymo/",
+     "finding": "Over 25.3 million miles, Waymo had 9 property damage and 2 bodily injury claims against 78 and 26 expected for human drivers, 88% and 92% fewer."
+    },
+    {
+     "title": "NHTSA Office of Defects Investigation, PE25013 resume, 2025",
+     "url": "https://static.nhtsa.gov/odi/inv/2025/INOA-PE25013-23069.pdf",
+     "finding": "NHTSA opened a preliminary evaluation on 17 October 2025 into about 2,000 Waymo vehicles after one drove around a stopped school bus."
+    }
+   ],
+   "limiters": [
+    {
+     "limit": "Service limited to a few mapped cities",
+     "kind": "access",
+     "evidence": "The safety figures cover rider-only service in five US metro areas.",
+     "ref": {
+      "title": "Waymo, Safety Impact data hub, data through June 2026",
+      "url": "https://waymo.com/safety/impact/",
+      "finding": "Data covers Los Angeles, the San Francisco Bay Area, Phoenix, Austin and Atlanta."
+     }
+    },
+    {
+     "limit": "Unsafe behaviour in edge cases",
+     "kind": "quality",
+     "evidence": "US regulators opened an investigation into about 2,000 Waymo vehicles over how they behave around stopped school buses.",
+     "ref": {
+      "title": "NHTSA Office of Defects Investigation, PE25013 resume, 2025",
+      "url": "https://static.nhtsa.gov/odi/inv/2025/INOA-PE25013-23069.pdf",
+      "finding": "Subject: Waymo AV drives around a stopped school bus; population about 2,000 vehicles; opened 17 October 2025."
+     }
+    }
+   ],
+   "enablers": [
+    {
+     "action": "Publish crash rates against human benchmarks",
+     "actor": "Waymo",
+     "status": "in force",
+     "counters": null,
+     "evidence": "Waymo publishes crash rates by outcome for its rider-only miles, compared with human drivers on the same roads.",
+     "ref": {
+      "title": "Waymo, Safety Impact data hub, data through June 2026",
+      "url": "https://waymo.com/safety/impact/",
+      "finding": "Public crash-rate comparison by outcome over 271.3 million rider-only miles."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "Electronic stability control",
+     "year": "2010-2014",
+     "parallel": "A computer that corrects the driver's mistakes in a skid is an early, narrow version of the same idea.",
+     "outcome": "IIHS studies found it cut fatal single-vehicle crash risk by about half, and NHTSA estimated it saved about 4,100 lives in the US from 2010 to 2014.",
+     "ref": {
+      "title": "IIHS, Life-saving benefits of ESC continue to accrue, 2016",
+      "url": "https://www.iihs.org/news/detail/life-saving-benefits-of-esc-continue-to-accrue",
+      "finding": "ESC lowers fatal single-vehicle crash risk by about 50% and fatal multiple-vehicle crash risk by 20%; NHTSA estimates about 4,100 lives saved in 2010 to 2014."
+     }
+    }
+   ],
+   "valence": 3.93
   }
  ],
  "links": [
@@ -15507,6 +15589,12 @@
    "target": "ubi",
    "kind": "leads",
    "why": "If humanoid robots displace physical labour, more people lose wage income, adding pressure for a basic income alongside office job losses."
+  },
+  {
+   "source": "robotaxisafety",
+   "target": "backlash",
+   "kind": "leads",
+   "why": "Driverless taxis that take paid driving work are a visible target for the sabotage the backlash describes."
   }
  ],
  "themes": {
