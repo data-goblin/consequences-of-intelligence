@@ -4674,7 +4674,7 @@
     {
      "title": "Costello, Pennycook and Rand, Science 2024",
      "url": "https://www.science.org/doi/10.1126/science.adq1814",
-     "finding": "Personalised dialogues with GPT-4 Turbo cut conspiracy belief by about 20% in 2,190 believers, and the effect remained two months later."
+     "finding": "Personalised dialogues with GPT-4 Turbo cut conspiracy belief by about 20% in 2,190 believers, and the effect remained two months later. Science issued an expression of concern in June 2026 over dataset and screening inconsistencies, later marked rescinded, and published an erratum on 22 October 2026; the authors say their reanalysis matches the original results in direction, significance and size."
     },
     {
      "title": "Costello et al., Large language models can effectively convince people to believe conspiracies, arXiv 2026",
@@ -4726,7 +4726,7 @@
      "ref": {
       "title": "Durably reducing conspiracy beliefs through dialogues with AI, Science 2024",
       "url": "https://www.science.org/doi/10.1126/science.adq1814",
-      "finding": "Personalised dialogue with GPT-4 Turbo cut conspiracy belief by about 20% and the effect remained two months later."
+      "finding": "Personalised dialogue with GPT-4 Turbo cut conspiracy belief by about 20% and the effect remained two months later. Science issued an expression of concern in June 2026 over dataset and screening inconsistencies, later marked rescinded, and published an erratum on 22 October 2026; the authors say their reanalysis matches the original results in direction, significance and size."
      }
     },
     {
@@ -6100,17 +6100,27 @@
    "probability": 0.6,
    "year": 2027,
    "evidence": "reported",
-   "summary": "Open protocols now connect models to tools and data across vendors[1] and let agents make payments under verifiable user mandates[2]. Agents may increasingly negotiate, buy and call each other's services, with humans approving less of each step.",
+   "summary": "Open protocols now connect AI applications such as Claude and ChatGPT to tools and data[1], let agents built by different companies discover each other and collaborate[3], and let agents pay under cryptographically signed user mandates, including purchases made while the user is not present[2]. Agents could increasingly buy from and negotiate with other agents, with humans approving fewer steps[2]. In one simulated marketplace where consumer agents dealt with business agents, frontier models came close to optimal outcomes only under ideal search conditions, did worse at scale, and showed a first-proposal bias that gave fast sellers a 10 to 30 times advantage over better offers[4].",
    "refs": [
     {
-     "title": "Model Context Protocol",
+     "title": "What is the Model Context Protocol (MCP)? (modelcontextprotocol.io)",
      "url": "https://modelcontextprotocol.io",
-     "finding": "An open protocol connecting models to tools and data, adopted across vendors."
+     "finding": "MCP is an open-source standard for connecting AI applications to data, tools and workflows, supported by clients including Claude, ChatGPT, Visual Studio Code and Cursor."
     },
     {
-     "title": "Google Cloud, Agent Payments Protocol (AP2) 2025",
+     "title": "Google Cloud Blog, Powering AI commerce with the new Agent Payments Protocol (AP2), September 2025",
      "url": "https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol",
-     "finding": "A protocol for agents to make payments with verifiable user mandates."
+     "finding": "AP2 is an open protocol, developed with more than 60 organisations, for agent-led payments; for delegated tasks with no human present, the user signs an Intent Mandate in advance and the agent can create the Cart Mandate once the conditions are met."
+    },
+    {
+     "title": "Linux Foundation, Linux Foundation Launches the Agent2Agent Protocol Project to Enable Secure, Intelligent Communication Between AI Agents, June 2025",
+     "url": "https://linuxfoundation.org/press/linux-foundation-launches-the-agent2agent-protocol-project-to-enable-secure-intelligent-communication-between-ai-agents",
+     "finding": "A2A, created by Google and launched in April 2025, lets autonomous agents discover one another, exchange information securely and collaborate across systems, with support from more than 100 technology companies."
+    },
+    {
+     "title": "Bansal et al., Magentic Marketplace: An Open-Source Environment for Studying Agentic Markets (arXiv preprint, 2025)",
+     "url": "https://arxiv.org/abs/2510.25779",
+     "finding": "In simulated two-sided markets of consumer and business agents, frontier models approached optimal welfare only under ideal search conditions, performance degraded sharply with scale, and all models showed severe first-proposal bias, giving 10 to 30 times advantages to response speed over quality."
     }
    ],
    "theme": "power",
@@ -6121,18 +6131,18 @@
     "bureaucracy",
     "cheapintelligence"
    ],
-   "control_note": "Less human approval per step is the point of delegation to agents. Signed mandates and oversight rules limit the damage of wrong or rogue transactions.",
+   "control_note": "Less human approval per step is the point of delegation to agents. Signed mandates and oversight rules are meant to limit the damage of wrong or rogue transactions.",
    "actions": [
     {
      "action": "Require signed user mandates for agent payments",
      "actor": "payment networks",
      "status": "tested",
      "aim": "probability",
-     "evidence": "AP2 creates a signed audit trail from intent to cart to payment; no data yet on fraud rates.",
+     "evidence": "AP2 creates a non-repudiable audit trail from intent to cart to payment; no data yet on fraud rates.",
      "ref": {
-      "title": "Google Cloud, Announcing Agent Payments Protocol (AP2), 2025",
+      "title": "Google Cloud Blog, Powering AI commerce with the new Agent Payments Protocol (AP2), September 2025",
       "url": "https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol",
-      "finding": "AP2 uses cryptographically signed Intent and Cart Mandates as proof of what the user authorised."
+      "finding": "AP2 uses tamper-proof, cryptographically signed Intent and Cart Mandates as verifiable proof of what the user instructed."
      }
     },
     {
@@ -6142,9 +6152,9 @@
      "aim": "impact",
      "evidence": "Pre-signed limits cap losses per task; effect on real losses is not yet measured.",
      "ref": {
-      "title": "Google Cloud, Announcing Agent Payments Protocol (AP2), 2025",
+      "title": "Google Cloud Blog, Powering AI commerce with the new Agent Payments Protocol (AP2), September 2025",
       "url": "https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol",
-      "finding": "Delegated Intent Mandates specify price limits, timing and other conditions in advance."
+      "finding": "For delegated tasks, the user signs a detailed Intent Mandate upfront that specifies price limits, timing and other conditions."
      }
     },
     {
@@ -6152,11 +6162,11 @@
      "actor": "legislators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "Applies only to high-risk uses listed in the Act, so most consumer agent shopping is not covered.",
+     "evidence": "The Act is in force, but a 2026 amendment delayed duties for stand-alone high-risk systems to 2 December 2027, and it covers only high-risk uses listed in the Act, so most consumer agent shopping is not covered.",
      "ref": {
-      "title": "Regulation (EU) 2024/1689, the AI Act",
+      "title": "Regulation (EU) 2024/1689, the Artificial Intelligence Act",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "finding": "Article 14 of the AI Act requires high-risk systems to allow effective human oversight."
+      "finding": "Article 14 requires high-risk AI systems to be designed so that natural persons can effectively oversee them while they are in use."
      }
     }
    ],
@@ -6164,32 +6174,32 @@
     {
      "event": "The 2010 Flash Crash",
      "year": 2010,
-     "parallel": "Trading algorithms reacting to each other with no human in the loop turned one automated sell order into a market-wide collapse within minutes.",
-     "outcome": "An algorithm selling 75,000 E-Mini contracts (about $4.1 billion) set off a hot-potato loop in which high-frequency traders passed 27,000 contracts among themselves in 14 seconds; indices fell a further 5 to 6% in minutes and over 20,000 trades executed more than 60% away from prior prices, though prices mostly recovered the same day and these were trading bots, not general-purpose agents.",
+     "parallel": "Trading algorithms reacting to each other at machine speed helped turn one automated sell order into a market-wide plunge within minutes.",
+     "outcome": "A sell algorithm working an order for 75,000 E-Mini contracts (about $4.1 billion) was followed by a hot-potato loop in which high-frequency traders traded over 27,000 contracts in 14 seconds while buying only about 200 net; indices fell a further 5 to 6% in minutes and over 20,000 trades across more than 300 securities executed more than 60% away from prices moments before, though most prices recovered the same day and these were trading bots, not general-purpose agents.",
      "ref": {
-      "title": "Findings Regarding the Market Events of May 6, 2010 (CFTC and SEC staff report)",
+      "title": "Findings Regarding the Market Events of May 6, 2010 (report of the staffs of the CFTC and SEC, September 2010)",
       "url": "https://www.sec.gov/news/studies/2010/marketevents-report.pdf",
-      "finding": "HFTs traded over 27,000 contracts between 2:45:13 and 2:45:27 while buying only about 200 net, and over 20,000 trades across 300+ securities executed more than 60% away from prior values."
+      "finding": "HFTs traded over 27,000 contracts between 2:45:13 and 2:45:27 while buying only about 200 additional contracts net, and over 20,000 trades across more than 300 securities executed more than 60% away from their values just moments before."
      }
     },
     {
      "event": "Knight Capital trading glitch",
      "year": 2012,
      "parallel": "An automated system acting on stale code transacted at machine speed before any human approved or stopped it, much as an agent with spending authority could.",
-     "outcome": "Knight's router sent more than 4 million orders while trying to fill 212 customer orders and lost more than $460 million in about 45 minutes; the SEC fined it $12 million under its market access rule, which shows the risk but involves a single faulty program rather than agents negotiating.",
+     "outcome": "Knight's router sent more than 4 million orders while trying to fill 212 customer orders within the first 45 minutes of trading and the firm lost more than $460 million; Knight paid $12 million to settle SEC charges under the market access rule, which shows the risk but involves a single faulty program rather than agents negotiating.",
      "ref": {
-      "title": "SEC Charges Knight Capital With Violations of Market Access Rule (press release 2013-222)",
+      "title": "SEC, SEC Charges Knight Capital With Violations of Market Access Rule (press release 2013-222, October 2013)",
       "url": "https://www.sec.gov/news/press-release/2013-222",
-      "finding": "Knight's router rapidly sent more than 4 million orders to fill 212 customer orders, and the firm suffered a loss of more than $460 million."
+      "finding": "Knight's router rapidly sent more than 4 million orders into the market when attempting to fill 212 customer orders, and the firm suffered a loss of more than $460 million."
      }
     },
     {
      "event": "Algorithmic pricing in German petrol stations",
      "year": "2017",
      "parallel": "When competing sellers both hand pricing to software, the algorithms can settle on higher prices without any human agreement, a foretaste of seller and buyer agents bargaining with each other.",
-     "outcome": "Adoption of pricing software raised station margins by 9% in non-monopoly markets, and in duopolies margins rose 28% only where both stations adopted, while one adopter alone changed nothing; the study cannot say whether the software learned to collude or simply priced better.",
+     "outcome": "Adoption of pricing software, widely available by mid-2017, raised station margins by 9% in non-monopoly markets, and in duopolies margins rose 28% only where both stations adopted, while one adopter alone changed nothing; the authors conclude only that adoption has a significant effect on competition.",
      "ref": {
-      "title": "Assad, Clark, Ershov and Xu, Algorithmic Pricing and Competition: Empirical Evidence from the German Retail Gasoline Market (CESifo Working Paper 8521; later Journal of Political Economy 2024)",
+      "title": "Assad, Clark, Ershov and Xu, Algorithmic Pricing and Competition: Empirical Evidence from the German Retail Gasoline Market (CESifo Working Paper 8521, 2020; Journal of Political Economy 132(3), 2024)",
       "url": "https://www.ifo.de/en/cesifo/publications/2020/working-paper/algorithmic-pricing-and-competition-empirical-evidence-german",
       "finding": "Adoption increases margins by 9% in non-monopoly markets; in duopolies margins do not change when one station adopts but rise 28% where both do."
      }
@@ -6203,12 +6213,22 @@
    "probability": 0.85,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Generated video, music and characters are starting to appear in feeds and apps alongside human-made work; OpenAI launched a social app built around generated video with sound[1].",
+   "summary": "Generated video and music now appear in feeds and apps alongside human-made work. In one test by the video-editing firm Kapwing, 104 of the first 500 YouTube Shorts shown to a new account in October 2025, 21%, were AI-generated[1]. At Deezer, fully AI-generated tracks passed half of daily uploads on peak days in June 2026 yet drew only 1 to 3% of streams[2]. OpenAI launched Sora, a social app of generated video with sound, in September 2025 and announced in March 2026 that it was shutting it down[3].",
    "refs": [
     {
-     "title": "OpenAI, Sora 2 2025",
-     "url": "https://openai.com/index/sora-2/",
-     "finding": "Launched a social app built around generated video with sound."
+     "title": "AI Slop Report: The Global Rise of Low-Quality AI Videos (Kapwing, November 2025)",
+     "url": "https://www.kapwing.com/blog/ai-slop-report-the-global-rise-of-low-quality-ai-videos/",
+     "finding": "Of the first 500 Shorts shown to a new YouTube account, 104 (21%) were AI-generated and 165 (33%) brainrot; manual review of the top 100 trending channels per country found, for example, 9 AI slop channels in the US top 100; data as of October 2025, from one account and one company."
+    },
+    {
+     "title": "Deezer: AI music has surpassed 50% of new music uploads for the first time (Deezer, July 2026)",
+     "url": "https://newsroom-deezer.com/2026/07/ai-music-exceeds-50-percent-daily-uploads-deezer/",
+     "finding": "Fully AI-generated tracks made up more than 50% of daily deliveries on peak days but only 1 to 3% of streams; up to 85% of their streams in 2025 were fraudulent; in an Ipsos survey of 9,000 people in 8 countries, 97% could not tell fully AI-generated music from human-made music in a blind test."
+    },
+    {
+     "title": "OpenAI is shutting down its Sora video-creation app (NBC News, March 2026)",
+     "url": "https://www.nbcnews.com/tech/tech-news/openai-shuttering-sora-video-generating-service-rcna264989",
+     "finding": "On 24 March 2026 OpenAI said it was saying goodbye to Sora, whose second-generation model with audio and standalone app debuted in September; the app had topped the iOS Photo and Video category within a day of release."
     }
    ],
    "theme": "ip",
@@ -6219,18 +6239,18 @@
     "accessibility",
     "translation"
    ],
-   "control_note": "The same generators that dub, caption and assist also make entertainment media, so the flood itself cannot be stopped. Labels can keep it from being mistaken for real footage.",
+   "control_note": "The same generators that dub, caption and assist also make entertainment media, so the volume cannot be stopped. Labels and provenance data aim to keep it from being mistaken for real footage.",
    "actions": [
     {
      "action": "Label deepfakes and mark AI output",
      "actor": "legislators",
      "status": "in force",
      "aim": "impact",
-     "evidence": "Obligations apply from August 2026; compliance and effect on public confusion are not yet measured.",
+     "evidence": "Applies from 2 August 2026; compliance and its effect on public confusion are not yet measured.",
      "ref": {
       "title": "Regulation (EU) 2024/1689, the AI Act",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "finding": "Article 50 requires machine-readable marking of AI output and disclosure of deepfakes."
+      "finding": "Article 50(2) requires providers of systems generating synthetic audio, image, video or text to mark outputs in a machine-readable format as artificially generated; Article 50(4) requires deployers to disclose deepfakes."
      }
     },
     {
@@ -6238,11 +6258,11 @@
      "actor": "platforms",
      "status": "in force",
      "aim": "impact",
-     "evidence": "Adoption is growing but credentials are often stripped on upload, so coverage is partial.",
+     "evidence": "TikTok reads Content Credentials to label AI content made on other platforms, but only when the metadata is present, so coverage is partial.",
      "ref": {
-      "title": "C2PA, Coalition for Content Provenance and Authenticity",
-      "url": "https://c2pa.org/",
-      "finding": "C2PA publishes an open standard for recording where content came from and how it was edited."
+      "title": "Partnering with our industry to advance AI transparency and literacy (TikTok, May 2024)",
+      "url": "https://newsroom.tiktok.com/partnering-with-our-industry-to-advance-ai-transparency-and-literacy?lang=en",
+      "finding": "TikTok began reading C2PA Content Credentials to automatically label AI-generated images and videos made on other platforms and planned to attach credentials to its own content; it warned labelling may be gradual because it needs the Content Credentials metadata."
      }
     },
     {
@@ -6250,11 +6270,11 @@
      "actor": "platforms",
      "status": "in force",
      "aim": "impact",
-     "evidence": "Relies on self-disclosure; there is no public data on how many uploads are mislabeled.",
+     "evidence": "Relies mainly on self-disclosure, though YouTube may add a label itself; the policy post gives no figures on compliance.",
      "ref": {
-      "title": "YouTube, How we're helping creators disclose altered or synthetic content, 2024",
+      "title": "How we're helping creators disclose altered or synthetic content (YouTube, March 2024)",
       "url": "https://blog.youtube/news-and-events/disclosing-ai-generated-content/",
-      "finding": "YouTube requires disclosure of realistic altered or synthetic content a viewer could mistake for real."
+      "finding": "YouTube requires creators to disclose realistic altered or synthetic content a viewer could easily mistake for a real person, place, scene or event, may add a label when a creator has not, and plans enforcement for creators who consistently do not disclose."
      }
     }
    ],
@@ -6262,23 +6282,12 @@
     {
      "event": "Talkies replace theatre orchestras",
      "year": "1927-1937",
-     "parallel": "Recorded, mass-produced sound replaced live human performers in a mainstream entertainment format almost overnight, as generated media may in feeds.",
-     "outcome": "About 22,000 pit musicians worked in US cinemas around 1926 and most were out of work within about two years; the union's anti-'canned music' campaign failed while weekly cinema attendance rose from 50 to 90 million, though live music survived elsewhere and the shift was to recorded humans, not machines.",
+     "parallel": "Recorded, mass-produced sound replaced live human performers in a mainstream entertainment format within about two years, as generated media may in feeds.",
+     "outcome": "About 22,000 musicians worked in US cinema pits by 1926 and most were out of work within two years; the union's campaign against canned music had failed to sway public opinion by 1936 while weekly cinema attendance rose from 50 million in 1926 to 90 million in 1930, though the shift was to recorded humans, not machines.",
      "ref": {
-      "title": "Musicians vs. the Talkies (Allegro, American Federation of Musicians Local 802)",
+      "title": "Music History: Musicians vs. the Talkies (Allegro, American Federation of Musicians Local 802, 2010)",
       "url": "https://www.local802afm.org/allegro/articles/music-history-musicians-vs-the-talkies/",
-      "finding": "About 22,000 theatre musicians lost their pit jobs to sound film; the AFM's $1.5 million public campaign had failed to change public opinion by 1936."
-     }
-    },
-    {
-     "event": "The daguerreotype portrait boom",
-     "year": "1839-1860",
-     "parallel": "A cheap mechanical image process made likenesses a mass product consumed alongside, and largely instead of, hand-painted portraits.",
-     "outcome": "Millions of daguerreotypes were made in about 16 years, mostly portraits by people who would never have commissioned a painting, and most looked formulaic; painting did not disappear and some painters adopted the camera as a tool.",
-     "ref": {
-      "title": "The Daguerreian Age in France: 1839-55 (Metropolitan Museum of Art, Heilbrunn Timeline of Art History)",
-      "url": "https://www.metmuseum.org/essays/the-daguerreian-age-in-france-1839-1855",
-      "finding": "Portraiture accounted for the vast majority of daguerreotypes; millions who would never have commissioned a painted portrait had their faces recorded, and many millions were made in little more than a decade and a half."
+      "finding": "Around 22,000 musicians worked in movie theatre pits nationally by 1926 and most were unemployed within two years; the AFM's defense fund reached $1.5 million by the end of 1928, but its campaign had failed to sway popular opinion by summer 1936, and Local 802 ended its theatre strike in July 1937."
      }
     }
    ]
@@ -6290,12 +6299,17 @@
    "probability": 0.9,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Capable models anyone can download and run are spreading; DeepSeek's openly released R1 matched leading closed models on maths and code[1]. This can help independence and research, but released weights may be impossible to take back if misused.",
+   "summary": "Capable models anyone can download and run are spreading; DeepSeek's openly released R1 performed comparably to OpenAI's o1 on reasoning tasks[1], and a US government evaluation found downloads of DeepSeek models rose nearly 1,000% since January 2025[2]. This can help independence and research, but released weights may be impossible to take back if misused: in that evaluation, DeepSeek's R1-0528 answered 94% of overtly malicious requests under a common jailbreak, against 8% for US reference models[2].",
    "refs": [
     {
-     "title": "DeepSeek-AI, DeepSeek-R1 2025",
-     "url": "https://arxiv.org/abs/2501.12948",
-     "finding": "An openly released reasoning model matched leading closed models on maths and code."
+     "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning (DeepSeek-AI, arXiv 2501.12948v1, January 2025)",
+     "url": "https://arxiv.org/abs/2501.12948v1",
+     "finding": "DeepSeek-R1 achieves performance comparable to OpenAI-o1-1217 on reasoning tasks; DeepSeek open-sourced R1-Zero, R1 and six distilled dense models."
+    },
+    {
+     "title": "CAISI Evaluation of DeepSeek AI Models Finds Shortcomings and Risks (NIST, September 2025)",
+     "url": "https://www.nist.gov/news-events/news/2025/09/caisi-evaluation-deepseek-ai-models-finds-shortcomings-and-risks",
+     "finding": "Downloads of DeepSeek models on model-sharing platforms rose nearly 1,000% since January 2025; the best US model outperformed the best DeepSeek model on almost every one of 19 benchmarks; R1-0528 answered 94% of overtly malicious requests under a common jailbreak, against 8% for US reference models."
     }
    ],
    "theme": "power",
@@ -6308,18 +6322,18 @@
     "preservation",
     "reproducibility"
    ],
-   "control_note": "Released weights cannot be recalled, and openness is what enables independent research and local use. Only safeguards inside the weights and monitoring can reduce misuse.",
+   "control_note": "Released weights cannot be recalled, and openness is what enables independent research and local use. Safeguards inside the weights, testing and monitoring, and controls on physical materials can reduce misuse, but none can undo a release.",
    "actions": [
     {
-     "action": "Monitor open-model risks before restricting",
+     "action": "Test open models for capability and security risks",
      "actor": "governments",
      "status": "in force",
      "aim": "probability",
-     "evidence": "The US chose evidence gathering over restriction; it lowers no risk by itself.",
+     "evidence": "NIST's CAISI evaluated three DeepSeek models in 2025, as the US AI Action Plan directs, and found weak resistance to jailbreaks; testing informs policy but lowers no risk by itself.",
      "ref": {
-      "title": "NTIA, Dual-Use Foundation Models with Widely Available Model Weights, 2024",
-      "url": "https://www.ntia.gov/issues/artificial-intelligence/open-model-weights-report",
-      "finding": "NTIA recommends actively monitoring risks and preparing to act if heightened risks emerge."
+      "title": "CAISI Evaluation of DeepSeek AI Models Finds Shortcomings and Risks (NIST, September 2025)",
+      "url": "https://www.nist.gov/news-events/news/2025/09/caisi-evaluation-deepseek-ai-models-finds-shortcomings-and-risks",
+      "finding": "Downloads of DeepSeek models on model-sharing platforms rose nearly 1,000% since January 2025; the best US model outperformed the best DeepSeek model on almost every one of 19 benchmarks; R1-0528 answered 94% of overtly malicious requests under a common jailbreak, against 8% for US reference models."
      }
     },
     {
@@ -6327,11 +6341,11 @@
      "actor": "labs",
      "status": "tested",
      "aim": "probability",
-     "evidence": "In lab tests safeguards survived hundreds of fine-tuning steps; not proven against determined attackers.",
+     "evidence": "Proposed safeguards claimed to survive hundreds of fine-tuning steps, but an independent re-test broke one with small changes to the attack, such as other random seeds or a different learning-rate schedule.",
      "ref": {
-      "title": "Tamani et al., Tamper-Resistant Safeguards for Open-Weight LLMs, arXiv 2408.00761",
-      "url": "https://arxiv.org/abs/2408.00761",
-      "finding": "TAR safeguards resisted removal after hundreds of fine-tuning steps while keeping benign capability."
+      "title": "On Evaluating the Durability of Safeguards for Open-Weight LLMs (Qi et al., arXiv 2412.07097, 2024)",
+      "url": "https://arxiv.org/abs/2412.07097",
+      "finding": "Evaluating durable safeguards is exceedingly difficult and can mislead; rerunning attacks on the TAR safeguard with different random seeds, a warmup and cosine learning-rate schedule, or LoRA recovered over 60% accuracy on WMDP Biosecurity where the original paper reported near-random results."
      }
     },
     {
@@ -6341,33 +6355,33 @@
      "aim": "impact",
      "evidence": "Raises the cost of turning model output into weapons; effect is hard to separate from other policing.",
      "ref": {
-      "title": "Regulation (EU) 2019/1148 on explosives precursors",
+      "title": "Regulation (EU) 2019/1148 on the marketing and use of explosives precursors (EUR-Lex)",
       "url": "https://eur-lex.europa.eu/eli/reg/2019/1148/oj/eng",
-      "finding": "EU Regulation 2019/1148 restricts public access to explosives precursors and requires suspicious-sale reporting."
+      "finding": "Restricted explosives precursors shall not be made available to, or introduced, possessed or used by members of the general public, and suspicious transactions must be reported within 24 hours; applies from 1 February 2021."
      }
     }
    ],
    "precedents": [
     {
      "event": "Crypto Wars and encryption export rules",
-     "year": "1991-2000",
+     "year": 2000,
      "parallel": "Governments tried to keep a dual-use capability, strong encryption software, from spreading abroad, but once source code was published it could not be recalled.",
-     "outcome": "Courts treated encryption source code as protected expression in Bernstein, and in January 2000 the US let publicly available encryption source code be exported to almost all destinations after a one-time notification; strong encryption then spread worldwide, though code on its own carries less direct misuse risk than a capable model.",
+     "outcome": "In January 2000 the US let publicly available encryption source code be exported under License Exception TSU once the exporter notified the government of its Internet location, barring only knowing exports to seven sanctioned countries, and said posting code online did not by itself show knowledge of a prohibited export.",
      "ref": {
       "title": "Revisions to Encryption Items, 65 FR 2492 (Federal Register, 14 January 2000)",
       "url": "https://www.govinfo.gov/content/pkg/FR-2000-01-14/html/00-983.htm",
-      "finding": "Publicly available encryption source code became exportable under License Exception TSU after written notification of its Internet location, and posting it for download does not by itself establish knowledge of a prohibited export."
+      "finding": "Publicly available encryption source code became exportable under License Exception TSU after written notification of its Internet location, except knowing exports to Cuba, Iran, Iraq, Libya, North Korea, Sudan or Syria; posting it on the Internet does not by itself establish knowledge of a prohibited export."
      }
     },
     {
      "event": "3D-printed gun files online",
      "year": "2012-2016",
      "parallel": "Once downloadable files for a dangerous capability were posted for anyone in the world, a government order to take them down could not undo their spread.",
-     "outcome": "The State Department asked Defense Distributed on 8 May 2013 to remove its Liberator pistol files, and the Fifth Circuit upheld the restriction in 2016, while its dissent noted the files were by then widely available on the Internet; actual misuse of those files has been limited compared with the fears.",
+     "outcome": "Defense Distributed posted its Liberator pistol files for free worldwide download from 2012; the State Department asked it to remove them on 8 May 2013, and in September 2016 the Fifth Circuit upheld the denial of a preliminary injunction against that restriction, while the dissent noted many of the files were by then widely available over the Internet.",
      "ref": {
       "title": "Defense Distributed v. U.S. Department of State, No. 15-50759 (5th Cir. 2016)",
       "url": "https://www.ca5.uscourts.gov/opinions/pub/15/15-50759-CV0.pdf",
-      "finding": "Defense Distributed posted the files for free worldwide download from 2012; the State Department requested removal on 8 May 2013; the dissent notes many of the files are now widely available over the Internet."
+      "finding": "Beginning in 2012 Defense Distributed posted files, including those for the Liberator pistol, for free download by anyone in the world; the State Department requested removal on 8 May 2013; the court affirmed denial of a preliminary injunction, and the dissent notes many of the files are now widely available over the Internet."
      }
     }
    ]
@@ -6379,12 +6393,17 @@
    "probability": 0.9,
    "year": 2024,
    "evidence": "measured",
-   "summary": "Epoch AI found prices for a fixed level of model performance fell between 9x and 900x per year, depending on the task[1], pushing capability toward a commodity.",
+   "summary": "Epoch AI found that the price of reaching a fixed level of model performance fell between 9x and 900x per year across six benchmarks, though the fastest falls came in the latest year and may not last[1]. The Stanford AI Index found the cost of GPT-3.5-level performance fell over 280-fold between November 2022 and October 2024[2], pushing a given level of capability toward a commodity.",
    "refs": [
     {
-     "title": "Epoch AI, LLM inference price trends",
+     "title": "LLM inference prices have fallen rapidly but unequally across tasks, Epoch AI 2025",
      "url": "https://epoch.ai/data-insights/llm-inference-price-trends",
-     "finding": "Prices for a fixed performance level fell between 9x and 900x per year depending on task."
+     "finding": "Across six benchmarks over three years, the price to reach a fixed performance level fell between 9x and 900x per year depending on the milestone; the fastest drops came in the past year, so it is less clear they will persist."
+    },
+    {
+     "title": "The 2025 AI Index Report, Stanford HAI",
+     "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report",
+     "finding": "The inference cost of a system performing at GPT-3.5 level dropped over 280-fold between November 2022 and October 2024; hardware costs declined 30% a year and energy efficiency improved 40% a year."
     }
    ],
    "theme": "power",
@@ -6393,31 +6412,31 @@
     {
      "limit": "unequal access to paid AI plans",
      "kind": "cost",
-     "evidence": "Price falls vary from 9x to 900x per year by task; frontier tiers stay paid.",
+     "evidence": "One leading vendor keeps its strongest model off its free plan; its paid plans start at $20 a month.",
      "ref": {
-      "title": "LLM inference prices have fallen rapidly but unequally across tasks, Epoch AI",
-      "url": "https://epoch.ai/data-insights/llm-inference-price-trends",
-      "finding": "The price of a fixed capability level fell 9x to 900x per year depending on the task."
+      "title": "Pricing, Claude (Anthropic), accessed October 2026",
+      "url": "https://claude.com/pricing",
+      "finding": "The Free plan includes Sonnet and Haiku but not Opus; Pro costs $20 a month billed monthly and Max starts at $100 a month."
      }
     },
     {
      "limit": "poor connectivity",
      "kind": "infrastructure",
-     "evidence": "2.6 billion people cannot reach cheap models online.",
+     "evidence": "2.2 billion people are offline and cannot reach cheap models.",
      "ref": {
-      "title": "ITU Facts and Figures 2024: Internet use",
-      "url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-internet-use/",
-      "finding": "2.6 billion people, a third of the world, are offline; only 27% use the internet in low-income countries."
+      "title": "Global number of Internet users increases, but disparities deepen key digital divides, ITU, 17 November 2025",
+      "url": "https://www.itu.int/en/mediacentre/Pages/PR-2025-11-17-Facts-and-Figures.aspx",
+      "finding": "2.2 billion people remain offline in 2025, down from a revised 2.3 billion in 2024; only 23% of people in low-income countries use the internet, against 94% in high-income countries."
      }
     },
     {
      "limit": "energy demand rises",
      "kind": "infrastructure",
-     "evidence": "Data centre power may more than double to 945 TWh by 2030.",
+     "evidence": "Data centre power use may roughly double from 485 TWh in 2025 to 950 TWh by 2030.",
      "ref": {
-      "title": "Energy and AI, Executive summary, IEA 2025",
-      "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
-      "finding": "Data centre power use may rise from 415 TWh in 2024 to 945 TWh by 2030; existing AI uses could cut about 5% of energy emissions by 2035."
+      "title": "Key Questions on Energy and AI, Executive summary, IEA 2026",
+      "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+      "finding": "Data centre electricity demand grew 17% in 2025 and is set to roughly double from 485 TWh in 2025 to 950 TWh in 2030, about 3% of global electricity demand."
      }
     }
    ],
@@ -6427,11 +6446,11 @@
      "actor": "governments and ITU",
      "status": "in force",
      "counters": "poor connectivity",
-     "evidence": "Low-income internet use grows 8.5% a year from 27%.",
+     "evidence": "Internet use in the least developed countries grew 7.4% in 2025, but only 23% of people in low-income countries are online.",
      "ref": {
-      "title": "ITU Facts and Figures 2024: Internet use",
-      "url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-internet-use/",
-      "finding": "2.6 billion people, a third of the world, are offline; only 27% use the internet in low-income countries."
+      "title": "Almost three-quarters of the population are online, ITU Facts and Figures 2025",
+      "url": "https://www.itu.int/itu-d/reports/statistics/2025/10/15/ff25-internet-use/",
+      "finding": "Only 23 per cent of people in low-income countries use the internet; annual growth in 2025 averaged 7.4 per cent in least developed countries and 5.5 per cent in landlocked developing countries."
      }
     },
     {
@@ -6439,11 +6458,11 @@
      "actor": "model providers",
      "status": "in force",
      "counters": "unequal access to paid AI plans",
-     "evidence": "Hardware costs fell about 30% a year, energy efficiency rose 40%.",
+     "evidence": "Hardware costs fell about 30% a year and energy efficiency rose about 40% a year.",
      "ref": {
       "title": "The 2025 AI Index Report, Stanford HAI",
       "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report",
-      "finding": "GPT-3.5-level inference cost fell over 280-fold in two years; fewer than half of US CS teachers feel equipped to teach AI."
+      "finding": "The inference cost of a system performing at GPT-3.5 level dropped over 280-fold between November 2022 and October 2024; hardware costs declined 30% a year and energy efficiency improved 40% a year."
      }
     }
    ],
@@ -6452,11 +6471,11 @@
      "event": "The price collapse of computing",
      "year": "1850-2006",
      "parallel": "The cost of a fixed unit of calculation fell by orders of magnitude for decades, turning computation from a scarce service into a commodity.",
-     "outcome": "Nordhaus estimates computer performance improved by a factor of 1.7 trillion to 76 trillion since manual computing, with a sharp acceleration after World War II and price falls much larger than official statistics show; demand for computing grew rather than saturating.",
+     "outcome": "Nordhaus estimates computer performance improved by a factor of 1.7 trillion to 76 trillion over manual computing, with a major break in trend around World War II and performance-based price falls much larger than official statistics show.",
      "ref": {
       "title": "Nordhaus, Two Centuries of Productivity Growth in Computing, Journal of Economic History 67(1), 2007",
       "url": "https://ideas.repec.org/a/cup/jechis/v67y2007i01p128-159_00.html",
-      "finding": "Performance has increased since manual computing by a factor between 1.7 trillion and 76 trillion, with a major break in trend around World War II."
+      "finding": "Performance has increased since manual computing by a factor between 1.7 trillion and 76 trillion, with a major break in trend around World War II; performance-based price declines are much larger than those in official statistics."
      }
     },
     {
@@ -6479,17 +6498,17 @@
    "probability": 0.7,
    "year": 2025,
    "evidence": "measured",
-   "summary": "If a model can do it, fewer people may learn the skill or share knowledge, starving future models of human work. Stack Overflow activity fell 25% within six months of ChatGPT versus comparable forums[1]; in one Society of Authors survey, creators losing work saw less reason to stay[2].",
+   "summary": "If a model can do it, fewer people may learn the skill or share knowledge, starving future models of human work. Within six months of ChatGPT's release, Stack Overflow activity fell 25% relative to comparable forums where ChatGPT was less available or less capable, among experienced and new users alike[1]; in a UK Society of Authors survey with 787 responses, 26% of illustrators and 36% of translators said they had already lost work to generative AI[2].",
    "refs": [
     {
-     "title": "del Rio-Chanona, Laurentsyeva and Wachs, PNAS Nexus 2024",
+     "title": "del Rio-Chanona, Laurentsyeva and Wachs, Large language models reduce public knowledge sharing on online Q&A platforms, PNAS Nexus 2024",
      "url": "https://discovery.ucl.ac.uk/10202775/1/Large%20language%20models%20reduce%20public%20knowledge%20sharing%20on%20online%20Q%26A%20platforms.pdf",
-     "finding": "Stack Overflow activity fell 25% within six months of ChatGPT relative to comparable forums, across experienced and new users alike."
+     "finding": "Within six months of ChatGPT's release, Stack Overflow activity fell 25% relative to its Russian and Chinese counterparts and to similar maths forums, with similar falls for more and less experienced users and no significant change in post quality."
     },
     {
-     "title": "Society of Authors survey 2024",
-     "url": "https://societyofauthors.org/2024/04/11/soa-survey-reveals-a-third-of-translators-and-quarter-of-illustrators-losing-work-to-ai/",
-     "finding": "Creators losing work report less reason to enter or stay in the profession."
+     "title": "SoA Survey UK: A third of translators and quarter of illustrators losing work to AI, European Writers' Council 2024",
+     "url": "https://europeanwriterscouncil.eu/soa-survey-uk-ai-2024/",
+     "finding": "In the Society of Authors' January 2024 survey (787 responses), 26% of illustrators and 36% of translators had lost work to generative AI, and 37% of illustrators and 43% of translators said their income had fallen in value because of it."
     }
    ],
    "theme": "ip",
@@ -6500,22 +6519,22 @@
     "cheapintelligence",
     "cognitiveload"
    ],
-   "control_note": "When answers are free, some learning and sharing will drop. Paying creators for training use can keep part of the incentive alive.",
+   "control_note": "When answers are free, some learning and sharing will drop. Pay per crawl, licensing labels and copyright settlements put a price on AI use of human work, but whether that keeps people creating and sharing is not yet known.",
    "actions": [
     {
      "action": "Charge AI crawlers for content access",
      "actor": "publishers",
      "status": "tested",
      "aim": "probability",
-     "evidence": "Lets sites earn from AI use instead of blocking; payment volumes are not public.",
+     "evidence": "Lets sites earn from AI use instead of blocking; still in closed beta, and no payment volumes have been published.",
      "ref": {
-      "title": "Cloudflare, Introducing pay per crawl, 2025",
+      "title": "Introducing pay per crawl: Enabling content owners to charge AI crawlers for access, Cloudflare 2025",
       "url": "https://blog.cloudflare.com/introducing-pay-per-crawl/",
-      "finding": "Cloudflare pay per crawl lets site owners charge, allow or block each AI crawler."
+      "finding": "Pay per crawl, in private beta, lets site owners set a per-request price and choose for each AI crawler whether to allow it free, charge it or block it."
      }
     },
     {
-     "action": "Compensate authors for unlicensed training data",
+     "action": "Compensate authors whose pirated books were copied",
      "actor": "courts",
      "status": "in force",
      "aim": "impact",
@@ -6523,7 +6542,7 @@
      "ref": {
       "title": "Authors Guild, Court Grants Final Approval of $1.5 Billion Anthropic Copyright Settlement",
       "url": "https://authorsguild.org/news/court-grants-final-approval-anthropic-copyright-settlement/",
-      "finding": "A US court approved a $1.5 billion settlement for authors over books used to train Anthropic models."
+      "finding": "On 20 July 2026 a US federal court in California gave final approval to a $1.5 billion settlement, about $3,000 per work, of authors' claims over Anthropic's acquisition and copying of pirated books."
      }
     },
     {
@@ -6531,11 +6550,11 @@
      "actor": "industry",
      "status": "in force",
      "aim": "probability",
-     "evidence": "A voluntary label; market share of certified models is small.",
+     "evidence": "A voluntary label; Fairly Trained lists 19 certified companies, products and models.",
      "ref": {
-      "title": "Fairly Trained certification",
-      "url": "https://www.fairlytrained.org/",
-      "finding": "Fairly Trained certifies AI companies that license their training data."
+      "title": "Fairly Trained certified models, Fairly Trained",
+      "url": "https://www.fairlytrained.org/certified-models",
+      "finding": "Fairly Trained certifies AI companies that license the copyrighted work they train on; its list shows 19 certified companies, products and models."
      }
     }
    ],
@@ -6544,7 +6563,7 @@
      "event": "Napster and file-sharing",
      "year": "1999-2008",
      "parallel": "Free copying cut the money creators earned from their work, which was widely expected to reduce how much good new work got made.",
-     "outcome": "Waldfogel found no drop in the quality of new music after Napster, and sales and airplay indices suggested a rise after 1999, partly because recording costs fell; this cuts against the AI fear, though file-sharing removed revenue, not the reason to learn the skill.",
+     "outcome": "Waldfogel found no evidence of a drop in the quality of new music after Napster, and the sales and airplay indices suggested a rise after 1999, while other changes cut the cost of bringing works to market; this cuts against the AI fear, though file-sharing removed revenue, not the reason to learn the skill.",
      "ref": {
       "title": "Waldfogel, Copyright Protection, Technological Change, and the Quality of New Products: Evidence from Recorded Music since Napster (NBER Working Paper 17503)",
       "url": "https://www.nber.org/papers/w17503",
@@ -6553,13 +6572,13 @@
     },
     {
      "event": "Calculators in school maths",
-     "year": "1983-2002",
+     "year": "1984-2000",
      "parallel": "A machine that does the arithmetic raised fears that students would stop learning to calculate for themselves.",
-     "outcome": "A meta-analysis of 54 studies found calculator use did not hinder the development of maths skills and improved operational and problem-solving skills when calculators were part of teaching and testing, though retention of skills was not studied and a calculator covers a far narrower skill than a language model.",
+     "outcome": "A meta-analysis of 53 studies from 1984 to 2000 found students using calculators maintained or improved their operational and problem-solving skills; there was too little data to show an effect on retention of skills, and a calculator covers a far narrower skill than a language model.",
      "ref": {
-      "title": "Ellington, A Meta-Analysis of the Effects of Calculators on Students' Achievement and Attitude Levels in Precollege Mathematics Classes, Journal for Research in Mathematics Education 34(5), 2003",
-      "url": "https://pubs.nctm.org/view/journals/jrme/34/5/article-p433.xml",
-      "finding": "Across 54 studies, calculator use did not hinder the development of mathematical skills; further research is needed on retention of skills."
+      "title": "Ellington, Effects of Hand-Held Calculators on Precollege Students in Mathematics Classes: A Meta-Analysis, PhD dissertation, University of Tennessee, December 2000",
+      "url": "https://trace.tennessee.edu/server/api/core/bitstreams/54b5340a-e71b-4f43-bfbc-cb34d7c65743/content",
+      "finding": "Integrating 53 studies with 307 effect sizes from 1984 to June 2000, students using calculators maintained or improved their operational and problem-solving skills; results on skills retention were not significant because of minimal data, and calculator users had better attitudes toward mathematics."
      }
     }
    ]
@@ -6571,12 +6590,17 @@
    "probability": 0.75,
    "year": 2025,
    "evidence": "measured",
-   "summary": "People may let the model do the thinking and stop planning, checking and reflecting on their own work. In one study, students using ChatGPT improved essay scores but engaged less in self-evaluation, with no gain in knowledge transfer[1].",
+   "summary": "People may let the model do the thinking and stop planning, checking and reflecting on their own work. In one lab study of 117 university students, those writing with ChatGPT improved their essay scores most but showed fewer metacognitive processes such as evaluation, and their knowledge gain and transfer were no better than other groups'[1]. In a field experiment with nearly 1,000 students at a high school in Turkey, those who practised with an unrestricted GPT-4 chat scored 17% lower once access was removed than students who never had it, while a tutor built to give hints instead of answers largely avoided that loss[2].",
    "refs": [
     {
-     "title": "Fan et al., Beware of metacognitive laziness, British Journal of Educational Technology 2025",
+     "title": "Fan et al., Beware of metacognitive laziness: Effects of generative artificial intelligence on learning motivation, processes, and performance, British Journal of Educational Technology 2025",
      "url": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544",
-     "finding": "Students with ChatGPT improved essay scores but engaged less in self-evaluation, with no gain in knowledge transfer."
+     "finding": "In a randomised lab experiment with 117 university students, the ChatGPT group improved essay scores most but showed relatively fewer metacognitive processes such as evaluation and orientation; its knowledge gain and transfer did not differ significantly from the other groups."
+    },
+    {
+     "title": "Bastani et al., Generative AI without guardrails can harm learning: Evidence from high school mathematics, PNAS 2025",
+     "url": "https://www.pnas.org/doi/10.1073/pnas.2422633122",
+     "finding": "Among nearly 1,000 students at a high school in Turkey, GPT-4 access raised practice grades by 48% (plain chat) and 127% (guardrailed tutor), but plain-chat students scored 17% lower on exams without AI than students who never had access, while tutor students scored statistically the same as the control group."
     }
    ],
    "theme": "mind",
@@ -6594,23 +6618,23 @@
      "actor": "schools",
      "status": "tested",
      "aim": "probability",
-     "evidence": "In an RCT with about 1,000 students, hint-only tutors removed the 17% exam penalty of plain chat.",
+     "evidence": "In a field experiment with nearly 1,000 students, a tutor prompted to give hints instead of answers left exam scores statistically indistinguishable from the control group, while plain chat cut them by 17%.",
      "ref": {
-      "title": "Bastani et al., Generative AI without guardrails can harm learning, PNAS 2025",
+      "title": "Bastani et al., Generative AI without guardrails can harm learning: Evidence from high school mathematics, PNAS 2025",
       "url": "https://www.pnas.org/doi/10.1073/pnas.2422633122",
-      "finding": "Guardrailed GPT Tutor largely mitigated the learning harm seen with an unrestricted chatbot."
+      "finding": "A GPT-4 tutor prompted to give hints without giving the answer left later exam performance statistically indistinguishable from the control arm, largely mitigating the 17% drop seen with an unrestricted chatbot."
      }
     },
     {
      "action": "Show students their unaided performance",
      "actor": "teachers",
-     "status": "tested",
+     "status": "idea",
      "aim": "impact",
-     "evidence": "Students did not notice they learned less, which suggests feedback on unaided work is needed; direct tests are lacking.",
+     "evidence": "Students who used plain chat did not notice they learned less, and tutor users believed they did better than they did, which suggests feedback on unaided work is needed; direct tests are lacking.",
      "ref": {
-      "title": "Bastani et al., Generative AI without guardrails can harm learning, PNAS 2025",
+      "title": "Bastani et al., Generative AI without guardrails can harm learning: Evidence from high school mathematics, PNAS 2025",
       "url": "https://www.pnas.org/doi/10.1073/pnas.2422633122",
-      "finding": "Students using the plain chatbot did not perceive that they learned less or did worse."
+      "finding": "Students using the plain chatbot did not perceive that they performed worse or learned less, and guardrailed-tutor students perceived significantly better performance that they did not achieve on the exam."
      }
     }
    ],
@@ -6619,22 +6643,22 @@
      "event": "Autopilot and pilots' manual skills",
      "year": "1996-2013",
      "parallel": "Pilots who let the automation fly lose practice at monitoring and hand-flying, much as users who let a model think stop checking its work.",
-     "outcome": "An FAA-chartered working group found manual handling errors in over 60% of the accident reports it reviewed and flagged vulnerabilities in manual flying skills, but noted few operators could give direct evidence of skill decay because the data are not collected.",
+     "outcome": "An FAA-chartered working group found a manual handling error as a factor in over 60% of the 26 accident reports it reviewed and flagged vulnerabilities in manual flying skills, but operators and trainers were uncertain how these skills decay and had no consensus on which skills matter.",
      "ref": {
-      "title": "Operational Use of Flight Path Management Systems (PARC/CAST Flight Deck Automation Working Group, FAA, 2013)",
+      "title": "Operational Use of Flight Path Management Systems, Final Report of the PARC/CAST Flight Deck Automation Working Group (FAA, 2013)",
       "url": "https://www.faa.gov/sites/faa.gov/files/aircraft/air_cert/design_approvals/human_factors/OUFPMS_Report.pdf",
-      "finding": "Over 60% of accident reports reviewed identified a manual handling error as a factor; concern that automation use causes skill degradation through lack of practice or over-confidence."
+      "finding": "Over 60% of the 26 accident reports reviewed identified a manual handling error as a factor; concern that automation use causes skill degradation through lack of practice or over-confidence, while operators and trainers were uncertain how manual handling skills decay."
      }
     },
     {
      "event": "Air France 447 stall",
      "year": 2009,
      "parallel": "When the automation handed control back unexpectedly, a crew used to monitoring rather than flying could not diagnose and recover from the situation.",
-     "outcome": "After iced pitot probes disconnected the autopilot, the crew destabilised the flight path and failed to recognise the stall, and all 228 on board died; the BEA cited absent training in high-altitude manual handling among the factors, a single extreme case rather than a measured trend.",
+     "outcome": "After iced pitot probes gave inconsistent speeds and the autopilot disconnected, the crew destabilised the flight path and did not identify the approach to stall or diagnose the stall; the BEA cited an absence of high-altitude training in manual aeroplane handling among the factors, a single extreme case rather than a measured trend.",
      "ref": {
       "title": "BEA Final Report presentation, Accident on 1 June 2009 to the Airbus A330-203, flight AF 447",
       "url": "https://bea.aero/fileadmin/uploads/tx_elyextendttnews/presentation.rapport.final.05juillet2012.en_04.pdf",
-      "finding": "Factors included an absence of training at high altitude in manual aeroplane handling and the crew not identifying the approach to stall."
+      "finding": "Factors included an absence of training at high altitude in manual aeroplane handling and the procedure for speed indication anomalies, and the crew not identifying the approach to stall."
      }
     },
     {
@@ -6658,12 +6682,17 @@
    "probability": 0.85,
    "year": 2024,
    "evidence": "measured",
-   "summary": "Chatbots can give clear, patient, tailored explanations of questions that used to need an expert. In one study, clinicians preferred chatbot answers to patient questions over physicians' in 79% of evaluations, rating them higher for quality and empathy[1].",
+   "summary": "Chatbots can give clear, patient, tailored explanations of questions that used to need an expert. In one study of 195 patient questions from a public online forum, health professionals preferred ChatGPT's answers to physicians' in 79% of 585 evaluations and rated them higher for quality and empathy[1]. Good answers do not always reach people: in a randomised study of 1,298 participants, people using chatbots on ten medical scenarios identified a relevant condition in under 34.5% of cases, no better than a control group, though the models alone got 94.9%[2].",
    "refs": [
     {
-     "title": "Ayers et al., JAMA Internal Medicine 2023",
+     "title": "Ayers et al., Comparing Physician and Artificial Intelligence Chatbot Responses to Patient Questions Posted to a Public Social Media Forum, JAMA Internal Medicine 2023",
      "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2804309",
-     "finding": "Clinicians preferred chatbot answers to patient questions over physicians' in 79% of evaluations, rating them higher for quality and empathy."
+     "finding": "Across 195 exchanges from Reddit's r/AskDocs and 585 evaluations, licensed health professionals preferred ChatGPT's response in 78.6%, rated it good or very good in quality in 78.5% versus 22.1% for physicians, and empathetic in 45.1% versus 4.6%."
+    },
+    {
+     "title": "Bean et al., Reliability of LLMs as medical assistants for the general public: a randomized preregistered study, Nature Medicine 2026",
+     "url": "https://doi.org/10.1038/s41591-025-04074-y",
+     "finding": "Tested alone, the models identified conditions in 94.9% of cases, but 1,298 participants using them identified relevant conditions in fewer than 34.5% and the right course of action in fewer than 44.2%, no better than the control group."
     }
    ],
    "theme": "mind",
@@ -6672,67 +6701,67 @@
     {
      "limit": "confident wrong answers",
      "kind": "quality",
-     "evidence": "AMIE results come from simulated consults, not real patients.",
+     "evidence": "AMIE's lead over doctors comes from simulated text consults with patient-actors, not real patients.",
      "ref": {
       "title": "Towards conversational diagnostic artificial intelligence, Nature 2025",
       "url": "https://www.nature.com/articles/s41586-025-08866-7",
-      "finding": "AMIE matched or beat primary care physicians in simulated text consultations, not real clinical practice."
+      "finding": "In a randomised, double-blind crossover study of text consultations with patient-actors across 159 scenarios, AMIE outperformed 20 primary care physicians on 30 of 32 axes rated by specialists; the authors say more research is needed before real-world use."
      }
     },
     {
      "limit": "low AI literacy",
      "kind": "literacy",
-     "evidence": "Users trusted AI outside its frontier and got worse answers.",
+     "evidence": "On a task outside AI's frontier, consultants using AI were 19 percentage points less likely to be correct.",
      "ref": {
-      "title": "Navigating the Jagged Technological Frontier, HBS Working Paper",
-      "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=64700",
-      "finding": "In 758 BCG consultants, AI raised quality inside its capability frontier but made answers worse on a task outside it."
+      "title": "Dell'Acqua et al., Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of AI on Knowledge Worker Productivity and Quality, HBS Working Paper 24-013, 2023",
+      "url": "https://mitsloan.mit.edu/sites/default/files/2023-10/SSRN-id4573321.pdf",
+      "finding": "In a preregistered experiment with 758 BCG consultants, AI raised quality by more than 40% on 18 tasks inside its frontier, but on a task outside it consultants using AI were 19 percentage points less likely to produce correct solutions."
      }
     },
     {
      "limit": "limited language coverage",
      "kind": "access",
-     "evidence": "Translation coverage tops out at 200 of 7,000+ languages.",
+     "evidence": "The NLLB model translates 200 of the world's more than 7,000 languages.",
      "ref": {
-      "title": "Scaling neural machine translation to 200 languages, Nature 2024",
+      "title": "NLLB Team, Scaling neural machine translation to 200 languages, Nature 2024",
       "url": "https://www.nature.com/articles/s41586-024-07335-x",
-      "finding": "NLLB covers 200 languages but quality depends on scarce parallel data for low-resource languages."
+      "finding": "NLLB translates 200 languages, out of more than 7,000 in the world; the parallel data translation models need is not equally available, leaving low-resource languages behind."
      }
     },
     {
      "limit": "unequal access to paid AI plans",
      "kind": "cost",
-     "evidence": "The strongest models sit behind paid tiers even as prices fall.",
+     "evidence": "One leading vendor keeps its strongest model off its free plan; its paid plans start at $20 a month.",
      "ref": {
-      "title": "LLM inference prices have fallen rapidly but unequally across tasks, Epoch AI",
-      "url": "https://epoch.ai/data-insights/llm-inference-price-trends",
-      "finding": "The price of a fixed capability level fell 9x to 900x per year depending on the task."
+      "title": "Pricing, Claude (Anthropic), accessed October 2026",
+      "url": "https://claude.com/pricing",
+      "finding": "The Free plan includes Sonnet and Haiku but not Opus; Pro costs $20 a month billed monthly and Max starts at $100 a month."
      }
     }
    ],
    "enablers": [
     {
      "action": "Teach users to check AI answers",
-     "actor": "schools and employers",
+     "actor": "AI providers and deployers",
      "status": "in force",
      "counters": "low AI literacy",
-     "evidence": "The EU AI Act requires AI literacy among deployers' staff.",
+     "evidence": "The EU AI Act, as amended in 2026, requires providers and deployers to take measures supporting their staff's AI literacy.",
      "ref": {
       "title": "EU AI Act, Article 4: AI literacy",
       "url": "https://artificialintelligenceact.eu/article/4/",
-      "finding": "Providers and deployers must ensure a sufficient level of AI literacy among staff who use AI."
+      "finding": "Providers and deployers of AI systems shall take measures to support the development of AI literacy of their staff and others using AI on their behalf, without having to guarantee any specific level for an individual."
      }
     },
     {
-     "action": "Evaluate health answers before release",
+     "action": "Assess and audit health AI models",
      "actor": "regulators",
      "status": "proposed",
      "counters": "confident wrong answers",
-     "evidence": "WHO guidance sets evaluation and accountability for health use of large models.",
+     "evidence": "WHO recommends that a regulator assess and approve large models for health use, with mandatory post-release audits.",
      "ref": {
-      "title": "Ethics and governance of AI for health: Guidance on large multi-modal models, WHO",
-      "url": "https://www.who.int/publications/i/item/9789240084759",
-      "finding": "WHO sets governance guidance for health use of large multi-modal models, including evaluation and accountability."
+      "title": "WHO releases AI ethics and governance guidance for large multi-modal models, WHO, 18 January 2024",
+      "url": "https://www.who.int/news/item/18-01-2024-who-releases-ai-ethics-and-governance-guidance-for-large-multi-modal-models",
+      "finding": "WHO's guidance asks governments to assign a regulatory agency to assess and approve LMMs for health care use and to introduce mandatory post-release auditing and impact assessments by independent third parties."
      }
     }
    ],
@@ -6741,22 +6770,22 @@
      "event": "Online symptom checkers audited",
      "year": 2015,
      "parallel": "Symptom checker websites promised lay people a tailored first medical opinion without a doctor, the same promise AI assistants now make.",
-     "outcome": "Across 23 checkers and 45 clinical vignettes the correct diagnosis came first about a third of the time and triage advice was right in 33% to 78% of cases, so the authors advised against relying on them; LLMs are far more fluent, which makes errors harder to spot rather than less likely.",
+     "outcome": "Across 23 checkers and 45 vignettes the correct diagnosis came first in 34% of evaluations and triage advice was appropriate in 57%, ranging from 33% to 78% by checker; the authors found deficits in both triage and diagnosis, with advice that leaned towards seeking care.",
      "ref": {
-      "title": "Evaluation of symptom checkers for self diagnosis and triage: audit study (Semigran et al., BMJ 2015), AHRQ PSNet summary",
-      "url": "https://psnet.ahrq.gov/issue/evaluation-symptom-checkers-self-diagnosis-and-triage-audit-study",
-      "finding": "23 symptom checkers listed the correct diagnosis first about one third of the time; appropriate triage ranged from roughly 33% to 78%."
+      "title": "Semigran et al., Evaluation of symptom checkers for self diagnosis and triage: audit study, BMJ 2015",
+      "url": "https://doi.org/10.1136/bmj.h3480",
+      "finding": "23 symptom checkers tested on 45 vignettes listed the correct diagnosis first in 34% of 770 evaluations and gave appropriate triage advice in 57%, ranging from 33% to 78% across checkers."
      }
     },
     {
      "event": "Dr Google: online self-diagnosis",
      "year": 2012,
      "parallel": "Search engines put medical information in everyone's hands years before chatbots, and people used it to decide whether they needed a professional.",
-     "outcome": "35% of US adults had gone online to work out a medical condition; 41% of them had the guess confirmed by a clinician, 18% were told otherwise and 35% never checked, and Pew stresses it measured scope, not health outcomes.",
+     "outcome": "35% of US adults had gone online to work out a medical condition; 41% of them said a clinician confirmed it, 18% said a clinician disagreed or offered another view and 35% never checked with one, and Pew notes it measured the scope of this, not its outcomes.",
      "ref": {
-      "title": "Health Online 2013 (Pew Research Center, Fox and Duggan)",
+      "title": "Fox and Duggan, Health Online 2013, Pew Research Center",
       "url": "https://www.pewresearch.org/internet/2013/01/15/health-online-2013/",
-      "finding": "35% of US adults went online to diagnose a condition; 41% of these said a clinician confirmed it and 18% said a clinician disagreed."
+      "finding": "In a phone survey of 3,014 US adults in August and September 2012, 35% had gone online to diagnose a condition; 41% of these said a clinician confirmed it and 18% said a clinician disagreed or offered another opinion."
      }
     }
    ]
@@ -6768,17 +6797,27 @@
    "probability": 0.6,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Long conversations with an agreeable model may build elaborate conspiracies around a vulnerable user, as one psychiatrist predicted in 2023[2]. In one reported case, an OpenAI investor posted SCP Foundation-style ChatGPT outputs as proof of a 'non-governmental system' targeting him[1].",
+   "summary": "Long conversations with a chatbot may feed delusions in vulnerable users; one psychiatrist warned in 2023 that the realism of chatbot replies could fuel delusions in people prone to psychosis[2]. A review of 10.7 million clinical notes on 53,974 psychiatric patients in the Central Denmark Region, from September 2022 to June 2025, found 38 patients whose chatbot use appeared to have potentially harmful consequences, most often worse delusions; the authors say this is no proof of causation, and 32 patients used chatbots in ways that could help their mental health[3]. OpenAI estimates that hundreds of thousands of ChatGPT users a week show possible signs of psychosis or mania, without saying the chatbot caused them[4]. In one reported case, an OpenAI investor posted ChatGPT outputs resembling SCP Foundation fiction while describing a 'non-governmental system' targeting him[1].",
    "refs": [
     {
-     "title": "Futurism, OpenAI investor appears to be having a ChatGPT-induced mental health crisis, July 2025",
+     "title": "Futurism, A Prominent OpenAI Investor Appears to Be Suffering a ChatGPT-Related Mental Health Crisis, His Peers Say, July 2025",
      "url": "https://futurism.com/openai-investor-chatgpt-mental-health",
-     "finding": "Geoff Lewis posted ChatGPT outputs written like SCP Foundation containment files as proof of a 'non-governmental system'."
+     "finding": "Geoff Lewis, managing partner of OpenAI backer Bedrock, posted a video on X on 15 July 2025 describing a 'non-governmental system' that had targeted him, with ChatGPT outputs that observers noted read like SCP Foundation fiction."
     },
     {
-     "title": "Østergaard, Schizophrenia Bulletin 2023",
+     "title": "Østergaard, Will Generative Artificial Intelligence Chatbots Generate Delusions in Individuals Prone to Psychosis? (Schizophrenia Bulletin, 2023)",
      "url": "https://academic.oup.com/schizophreniabulletin/article/49/6/1418/7251361",
-     "finding": "Predicted that chatbots' realism and agreeableness could fuel delusions in people prone to psychosis."
+     "finding": "Editorial arguing that the realism of chatbot replies, together with how little users know of how they work, may fuel delusions in people prone to psychosis, with five hypothetical examples."
+    },
+    {
+     "title": "Olsen, Reinecke-Tellefsen and Østergaard, Potentially Harmful Consequences of Artificial Intelligence (AI) Chatbot Use Among Patients With Mental Illness: Early Data From a Large Psychiatric Service System (Acta Psychiatrica Scandinavica, 2026)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12967755/",
+     "finding": "Screening 10,712,856 clinical notes on 53,974 patients from 1 September 2022 to 12 June 2025 found 38 patients with potentially harmful consequences of chatbot use, most often delusions (11) and suicidality or self-harm (6); 32 patients used chatbots in ways that could benefit mental health, and the authors state the notes are not evidence of a causal effect."
+    },
+    {
+     "title": "TechCrunch, OpenAI says over a million people talk to ChatGPT about suicide weekly, October 2025",
+     "url": "https://techcrunch.com/2025/10/27/openai-says-over-a-million-people-talk-to-chatgpt-about-suicide-weekly",
+     "finding": "OpenAI estimates that hundreds of thousands of people a week show possible signs of psychosis or mania in their ChatGPT conversations, which it describes as extremely rare and hard to measure."
     }
    ],
    "theme": "mind",
@@ -6788,18 +6827,18 @@
     "companionship",
     "therapy"
    ],
-   "control_note": "Agreeable long conversations are what make companions and support bots appealing. Training against sycophancy and routing to care reduce harm.",
+   "control_note": "Agreeable long conversations are what make companions and support bots appealing. Training against sycophancy and routing to care are meant to reduce harm, though their effect on users is not yet measured.",
    "actions": [
     {
      "action": "Roll back and test models for sycophancy",
      "actor": "labs",
      "status": "in force",
      "aim": "probability",
-     "evidence": "OpenAI rolled back a flattering update within a week; no outcome data on users.",
+     "evidence": "OpenAI rolled back a flattering update within days; no outcome data on users.",
      "ref": {
       "title": "OpenAI, Sycophancy in GPT-4o: what happened and what we're doing about it, Apr 2025",
       "url": "https://openai.com/index/sycophancy-in-gpt-4o/",
-      "finding": "OpenAI rolled back a sycophantic GPT-4o update and added sycophancy evaluations."
+      "finding": "OpenAI rolled back a GPT-4o update that was overly supportive but disingenuous, and said it would refine training, add honesty guardrails and expand its evaluations."
      }
     },
     {
@@ -6807,11 +6846,11 @@
      "actor": "labs",
      "status": "tested",
      "aim": "probability",
-     "evidence": "Self-reported 65% fewer undesired replies on psychosis and mania; not independently verified.",
+     "evidence": "Self-reported 65 to 80% fewer undesired replies across mental-health areas including psychosis and mania; not independently verified.",
      "ref": {
       "title": "OpenAI, Strengthening ChatGPT's responses in sensitive conversations, Oct 2025",
       "url": "https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations/",
-      "finding": "OpenAI reports 65% fewer non-compliant replies in psychosis and mania conversations."
+      "finding": "OpenAI reports 65 to 80% fewer responses falling short of desired behaviour across psychosis and mania, self-harm and suicide, and emotional reliance."
      }
     },
     {
@@ -6823,7 +6862,7 @@
      "ref": {
       "title": "OpenAI, Strengthening ChatGPT's responses in sensitive conversations, Oct 2025",
       "url": "https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations/",
-      "finding": "ChatGPT expanded access to crisis hotlines and guides people toward professional care."
+      "finding": "OpenAI expanded access to crisis hotlines and trained ChatGPT to guide people toward professional care when appropriate."
      }
     }
    ],
@@ -6834,7 +6873,7 @@
      "parallel": "A new mass medium, reality television, supplied the storyline around which vulnerable patients built persecutory delusions, as chatbot fiction now does.",
      "outcome": "Psychiatrists described a series of patients convinced their lives were being filmed and broadcast, and concluded that culture shapes the content of delusions while the broad categories stay stable; it is a case series with no prevalence figure, and TV did not talk back the way a chatbot does.",
      "ref": {
-      "title": "The \"Truman Show\" delusion: psychosis in the global village (Gold and Gold, Cognitive Neuropsychiatry 2012)",
+      "title": "Gold and Gold, The \"Truman Show\" delusion: psychosis in the global village (Cognitive Neuropsychiatry, 2012)",
       "url": "https://pubmed.ncbi.nlm.nih.gov/22640240/",
       "finding": "A novel persecutory delusion modelled on reality TV; particular delusional ideas are sensitive to culture while broad categories are stable."
      }
@@ -6843,11 +6882,11 @@
      "event": "Online 'gang-stalking' complaints",
      "year": 2015,
      "parallel": "People who found an online vocabulary and community for being targeted by a hidden organised group mirror users whose chatbot confirms a system is after them.",
-     "outcome": "Of 1,040 stalking victims surveyed online, 128 (12.3%) reported group-stalking and every one of those accounts was judged likely delusional, against 3.9% of individual-stalking cases, with markedly worse depression and functioning; the study does not measure how far online material caused the beliefs.",
+     "outcome": "One exploratory study of 128 people who reported being stalked by a group found they had more depressive and post-traumatic symptoms than people stalked by an individual; the study does not measure how far online material caused the beliefs.",
      "ref": {
-      "title": "Complaints of group-stalking ('gang-stalking'): an exploratory study of their nature and impact on complainants (Sheridan and James, Journal of Forensic Psychiatry and Psychology 2015)",
+      "title": "Sheridan and James, Complaints of group-stalking ('gang-stalking'): an exploratory study of their nature and impact on complainants, Journal of Forensic Psychiatry and Psychology 26(5), 2015",
       "url": "https://www.tandfonline.com/doi/full/10.1080/14789949.2015.1054857",
-      "finding": "All 128 reported group-stalking cases were likely delusional versus 3.9% of individually stalked cases; group-stalked complainants had more depressive and post-traumatic symptoms."
+      "finding": "Group-stalking complainants (128 cases) had more depressive and post-traumatic symptoms than complainants stalked by an individual."
      }
     }
    ]
@@ -6859,12 +6898,17 @@
    "probability": 0.4,
    "year": 2027,
    "evidence": "measured",
-   "summary": "A model built to disagree could coach people to argue better and talk across divides, the flip side of sycophancy. In one study, AI-suggested rephrasings in divisive conversations raised perceived conversation quality and democratic reciprocity without changing positions[1].",
+   "summary": "A model built to disagree could coach people to argue better and talk across divides, the flip side of sycophancy. In one US experiment with 1,574 people discussing gun control, AI-suggested rephrasings raised partners' ratings of conversation quality and willingness to grant opponents a voice without changing anyone's policy views, though the effects had faded by a follow-up nearly 3 months later[1]. The same argumentative skill cuts both ways: in four experiments with 3,996 Americans, models could substantially raise conspiracy belief as well as lower it, with no consistent advantage for the truth, though telling them to give only accurate information sharply reduced that[2].",
    "refs": [
     {
-     "title": "Argyle et al., PNAS 2023",
+     "title": "Leveraging AI for democratic discourse: Chat interventions can improve online political conversations at scale (Argyle et al., PNAS, 2023)",
      "url": "https://www.pnas.org/doi/10.1073/pnas.2311627120",
-     "finding": "AI-suggested rephrasings in divisive conversations raised perceived conversation quality and democratic reciprocity without changing positions."
+     "finding": "In an October 2022 experiment with 1,574 US participants discussing gun regulation, GPT-3 rephrasing suggestions raised partners' reported conversation quality by about 4 percentage points and increased democratic reciprocity, without changing policy attitudes; a follow-up nearly 3 months later found no evidence the effects persisted."
+    },
+    {
+     "title": "Large language models can effectively convince people to believe conspiracies (Costello et al., arXiv 2601.05050, 2026)",
+     "url": "https://arxiv.org/abs/2601.05050",
+     "finding": "Across four experiments with 3,996 Americans, models could both substantially increase and decrease conspiracy belief, with no consistent truth advantage; instructing a model to provide only accurate information dramatically reduced its ability to promote conspiracies."
     }
    ],
    "theme": "mind",
@@ -6873,11 +6917,11 @@
     {
      "limit": "Models default to agreeing with users",
      "kind": "quality",
-     "evidence": "Sycophancy shows up across leading assistants and is reinforced by human preference ratings.",
+     "evidence": "Sycophancy showed up in five leading assistants and is reinforced by human preference ratings.",
      "ref": {
-      "title": "Towards Understanding Sycophancy in Language Models (arXiv 2310.13548)",
+      "title": "Towards Understanding Sycophancy in Language Models (Sharma et al., arXiv 2310.13548, 2023)",
       "url": "https://arxiv.org/abs/2310.13548",
-      "finding": "Sycophancy is a general behavior of leading assistants, driven partly by human preference data."
+      "finding": "Five state-of-the-art AI assistants consistently showed sycophancy across four free-form tasks; humans and preference models sometimes preferred convincing sycophantic answers over correct ones."
      }
     },
     {
@@ -6885,29 +6929,29 @@
      "kind": "incentives",
      "evidence": "OpenAI rolled back a GPT-4o update in April 2025 after it became overly agreeable.",
      "ref": {
-      "title": "Sycophancy in GPT-4o: What happened and what we're doing about it (OpenAI, 2025)",
+      "title": "Sycophancy in GPT-4o: what happened and what we're doing about it (OpenAI, 2025)",
       "url": "https://openai.com/index/sycophancy-in-gpt-4o/",
       "finding": "OpenAI rolled back a GPT-4o update in April 2025 because it was overly flattering and agreeable."
      }
     },
     {
-     "limit": "limited language coverage",
+     "limit": "Limited language coverage",
      "kind": "quality",
-     "evidence": "Most of the world's languages are low-resource, so debate quality outside major languages is weaker.",
+     "evidence": "Machine translation gains have mainly benefited high-resource languages, and quality rises with training data, so sparring in less-resourced languages is likely weaker.",
      "ref": {
-      "title": "Scaling neural machine translation to 200 languages (Nature, 2024)",
+      "title": "Scaling neural machine translation to 200 languages (NLLB Team, Nature, 2024)",
       "url": "https://www.nature.com/articles/s41586-024-07335-x",
-      "finding": "Most of the world's languages are low-resource, and model quality lags far behind for them."
+      "finding": "Most past improvements in translation mainly benefited high-resource languages; the 200-language model covers three times as many low-resource as high-resource languages, and translation quality generally increases with the amount of high-quality training data."
      }
     },
     {
      "limit": "Evidence mostly from US online samples",
      "kind": "other",
-     "evidence": "The strongest result comes from 2,044 US adults talking to one model, which limits how far it generalises.",
+     "evidence": "The strongest results come from US online samples, such as 2,190 Americans talking to one model, which limits how far they generalise.",
      "ref": {
-      "title": "Durably reducing conspiracy beliefs through dialogues with AI (Science, 2024)",
+      "title": "Durably reducing conspiracy beliefs through dialogues with AI (Costello, Pennycook and Rand, Science, 2024)",
       "url": "https://www.science.org/doi/10.1126/science.adq1814",
-      "finding": "Dialogues with GPT-4 Turbo cut conspiracy belief by about 20% in 2,044 US adults, lasting 2 months."
+      "finding": "Dialogues with GPT-4 Turbo cut belief in a chosen conspiracy by about 20% across 2,190 Americans, an effect that held 2 months later; a professional fact-checker rated 99.2% of 128 sampled AI claims true, 0.8% misleading and none false. Science issued an expression of concern in June 2026 over dataset and screening inconsistencies, later marked rescinded, and published an erratum on 22 October 2026."
      }
     }
    ],
@@ -6915,13 +6959,13 @@
     {
      "action": "Train and test models against sycophancy",
      "actor": "AI labs",
-     "status": "tested",
+     "status": "proposed",
      "counters": "Models default to agreeing with users",
      "evidence": "Sharma et al. show preference data drives sycophancy, which points to changing the training signal.",
      "ref": {
-      "title": "Towards Understanding Sycophancy in Language Models (arXiv 2310.13548)",
+      "title": "Towards Understanding Sycophancy in Language Models (Sharma et al., arXiv 2310.13548, 2023)",
       "url": "https://arxiv.org/abs/2310.13548",
-      "finding": "Sycophancy is a general behavior of leading assistants, driven partly by human preference data."
+      "finding": "Five state-of-the-art AI assistants consistently showed sycophancy across four free-form tasks; humans and preference models sometimes preferred convincing sycophantic answers over correct ones."
      }
     },
     {
@@ -6929,11 +6973,11 @@
      "actor": "civic bodies and researchers",
      "status": "tested",
      "counters": null,
-     "evidence": "In UK experiments, AI-written group statements were preferred over those of human mediators.",
+     "evidence": "In experiments with 5,734 participants, replicated in a virtual citizens' assembly representative of the UK, people preferred AI-written group statements to those of human mediators.",
      "ref": {
-      "title": "AI can help humans find common ground in democratic deliberation (Science, 2024)",
+      "title": "AI can help humans find common ground in democratic deliberation (Tessler et al., Science, 2024)",
       "url": "https://www.science.org/doi/10.1126/science.adq2852",
-      "finding": "AI-mediated group statements were preferred over human mediators' and reduced division within groups."
+      "finding": "Participants (N = 5,734) preferred AI-generated group statements to those written by human mediators, rating them more informative, clear and unbiased, and discussants often converged on a shared view; the result replicated in a virtual citizens' assembly with a demographically representative UK sample."
      }
     },
     {
@@ -6943,9 +6987,9 @@
      "counters": null,
      "evidence": "A fact-checker rated 99.2% of 128 sampled AI claims true in the conspiracy study.",
      "ref": {
-      "title": "Durably reducing conspiracy beliefs through dialogues with AI (Science, 2024)",
+      "title": "Durably reducing conspiracy beliefs through dialogues with AI (Costello, Pennycook and Rand, Science, 2024)",
       "url": "https://www.science.org/doi/10.1126/science.adq1814",
-      "finding": "Dialogues with GPT-4 Turbo cut conspiracy belief by about 20% in 2,044 US adults, lasting 2 months."
+      "finding": "Dialogues with GPT-4 Turbo cut belief in a chosen conspiracy by about 20% across 2,190 Americans, an effect that held 2 months later; a professional fact-checker rated 99.2% of 128 sampled AI claims true, 0.8% misleading and none false. Science issued an expression of concern in June 2026 over dataset and screening inconsistencies, later marked rescinded, and published an erratum on 22 October 2026."
      }
     }
    ],
@@ -6954,33 +6998,33 @@
      "event": "America in One Room deliberative poll",
      "year": 2019,
      "parallel": "Structured argument with people who disagree, moderated and fed balanced briefing material, is the human version of a model built to push back.",
-     "outcome": "More than 500 voters who deliberated for a weekend showed large depolarising shifts in policy views and large drops in affective polarisation against a control group, though durability beyond the event is uncertain and it relied on real human opponents.",
+     "outcome": "526 registered voters who deliberated over a weekend in Dallas showed large depolarising shifts in policy views and large drops in affective polarisation against a control group of 844, though the authors found some effects faded afterwards and it relied on real human opponents.",
      "ref": {
       "title": "Is Deliberation an Antidote to Extreme Partisan Polarization? Reflections on America in One Room (Fishkin et al., American Political Science Review 2021)",
       "url": "https://deliberation.stanford.edu/publications/journal-articles/deliberation-antidote-extreme-partisan-polarization-reflections",
-      "finding": "Deliberators showed large, depolarising changes in policy attitudes and large decreases in affective polarisation versus a pre-post control group."
+      "finding": "Deliberators showed large depolarising changes in policy attitudes and large decreases in affective polarisation versus a pre-post control group; on persistence the authors answer 'both no and yes', with some effects fading."
      }
     },
     {
      "event": "Chicago Debate League",
      "year": "1997-2007",
      "parallel": "Competitive debate trains students to build and rebut arguments against a constant opponent, which is what an AI sparring partner offers on demand.",
-     "outcome": "Debaters were 3.1 times more likely to graduate and scored higher on every ACT section (for example 1.57 points in reading), but participation was self-selected, so the US Justice Department rates the evidence only as promising.",
+     "outcome": "Debaters were 3.1 times more likely to graduate and scored 0.55 to 1.57 points higher on ACT sections, but participation was not randomly assigned, so the Justice Department's CrimeSolutions rates the program only Promising on one study.",
      "ref": {
       "title": "Urban Debate League for High School Students (CrimeSolutions, US Office of Justice Programs, rating of Anderson and Mezuk 2012)",
       "url": "https://crimesolutions.ojp.gov/ratedprograms/urban-debate-league-high-school-students",
-      "finding": "Debaters were 3.1 times more likely to graduate and scored 0.55 to 1.57 points higher on ACT sections; rated Promising on one non-randomised study."
+      "finding": "Debaters in Chicago, 1997 to 2007, were 3.1 times more likely to graduate and scored 0.55 (math) to 1.57 (reading) points higher on ACT sections than a non-debating comparison group; rated Promising on one non-randomised study."
      }
     },
     {
      "event": "The Catholic devil's advocate",
-     "year": "1587-1983",
+     "year": "1587",
      "parallel": "The Church created a standing office whose job was to argue against every candidate for sainthood, an institutional sparring partner like a model told to disagree.",
-     "outcome": "Sixtus V formalised the Promoter of the Faith in 1587 and John Paul II cut its role sharply in 1983; Britannica records no measured effect on decision quality, so this is a precedent for the design, not proof it works.",
+     "outcome": "Sixtus V established the Promoter of the Faith in 1587 to prepare in writing every possible argument against a candidate; this is a precedent for the design, not evidence that it improved decisions.",
      "ref": {
-      "title": "Devil's advocate (Encyclopaedia Britannica)",
-      "url": "https://www.britannica.com/topic/devils-advocate",
-      "finding": "The promotor fidei presented everything unfavourable to a candidate; office established 1587, significantly reduced in 1983."
+      "title": "Advocatus Diaboli, Catholic Encyclopedia (1907)",
+      "url": "https://www.newadvent.org/cathen/01168b.htm",
+      "finding": "The office, officially the Promoter of the Faith, was established in 1587 by Sixtus V; its holder must prepare in writing all possible arguments against raising a person to the altars."
      }
     }
    ]
@@ -6992,17 +7036,22 @@
    "probability": 0.55,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Widely used models can be steered into giving suicide and self-harm guidance; in one study, simple reframing got them to give detailed self-harm information[1]. One RAND study found chatbots declined the riskiest suicide questions but answered intermediate-risk ones inconsistently[2].",
+   "summary": "Widely used chatbots can be steered into giving suicide and self-harm guidance: in one 2025 preprint testing six of them, multi-step prompts that recast a stated wish to self-harm as a hypothetical or academic question got four to give detailed self-harm content and two to give suicide-method content[1]. In a RAND-led study of 9,000 responses from ChatGPT, Claude and Gemini to 30 suicide questions, none directly answered the very-high-risk questions, but responses to intermediate-risk questions were inconsistent[2]. OpenAI estimates that about 0.15% of ChatGPT's weekly users, more than a million people, have conversations with explicit signs of suicidal planning, and says its October 2025 update raised compliance on a suicide evaluation from 77% to 91%[3].",
    "refs": [
     {
-     "title": "Schoene and Canca, jailbreaking LLMs in suicide and self-harm contexts 2025",
+     "title": "Schoene and Canca, 'For Argument's Sake, Show Me How to Harm Myself!': Jailbreaking LLMs in Suicide and Self-Harm Contexts (arXiv preprint, 2025)",
      "url": "https://arxiv.org/abs/2507.02990",
-     "finding": "Simple reframing got widely used models to give detailed self-harm information."
+     "finding": "Multi-step prompts that began with a stated intent to self-harm and then recast the request as hypothetical or academic got four of six widely available chatbots to give detailed self-harm content and two to give suicide-method content; the free ChatGPT-4o and Pi held on both tests."
     },
     {
-     "title": "PsyPost on McBain et al. (RAND), Psychiatric Services 2025",
-     "url": "https://www.psypost.org/ai-chatbots-give-inconsistent-responses-to-suicide-related-questions-study-finds/",
-     "finding": "Chatbots declined the riskiest suicide questions but answered intermediate-risk ones inconsistently."
+     "title": "McBain et al., Evaluation of Alignment Between Large Language Models and Expert Clinicians in Suicide Risk Assessment (Psychiatric Services, 2025)",
+     "url": "https://doi.org/10.1176/appi.ps.20250086",
+     "finding": "Thirteen clinicians rated 30 suicide-related questions by risk; across 9,000 responses, no chatbot answered very-high-risk questions directly and ChatGPT and Claude always answered very-low-risk ones, but responses to intermediate-risk questions were inconsistent."
+    },
+    {
+     "title": "TechCrunch, OpenAI says over a million people talk to ChatGPT about suicide weekly, October 2025",
+     "url": "https://techcrunch.com/2025/10/27/openai-says-over-a-million-people-talk-to-chatgpt-about-suicide-weekly",
+     "finding": "OpenAI estimates 0.15% of weekly active users, more than a million people given over 800 million weekly users, have conversations with explicit indicators of potential suicidal planning or intent; the updated GPT-5 was 91% compliant with desired behaviour on a suicide evaluation against 77% for the previous GPT-5."
     }
    ],
    "theme": "mind",
@@ -7013,18 +7062,18 @@
     "companionship",
     "betteranswers"
    ],
-   "control_note": "A model that talks openly about distress can also be pushed into harmful detail. Safety training and crisis protocols lower the rate but jailbreaks remain.",
+   "control_note": "A model that talks openly about distress can also be pushed into harmful detail. Safety training and crisis protocols lower the rate of harmful replies in vendor tests, but multi-step jailbreaks still worked in 2025 tests.",
    "actions": [
     {
      "action": "Require suicide-prevention protocols for companion bots",
      "actor": "legislators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "Law applies from 2026; no outcome data yet.",
+     "evidence": "In force since 1 January 2026, with annual reporting on links between chatbot use and suicidal ideation; no outcome data yet.",
      "ref": {
-      "title": "California SB 243, Companion chatbots",
+      "title": "California SB 243, Companion chatbots (2025)",
       "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB243",
-      "finding": "California SB 243 requires companion chatbot operators to keep protocols on suicidal ideation and refer users to crisis services."
+      "finding": "California SB 243 requires companion chatbot operators to keep a protocol for addressing suicidal ideation, suicide or self-harm that includes a notification referring users to crisis service providers."
      }
     },
     {
@@ -7032,11 +7081,11 @@
      "actor": "labs",
      "status": "tested",
      "aim": "probability",
-     "evidence": "Self-reported 65% fewer non-compliant replies and over 95% reliability in long conversations; not audited.",
+     "evidence": "Self-reported: 65 to 80% fewer replies falling short of desired behaviour across mental-health areas, and 91% compliance on a suicide evaluation against 77% before; not independently audited.",
      "ref": {
-      "title": "OpenAI, Strengthening ChatGPT's responses in sensitive conversations, Oct 2025",
+      "title": "OpenAI, Strengthening ChatGPT's responses in sensitive conversations, October 2025",
       "url": "https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations/",
-      "finding": "OpenAI reports a 65% reduction in non-compliant replies on self-harm and suicide."
+      "finding": "After work with more than 170 mental health experts, OpenAI reports 65 to 80% fewer responses falling short of desired behaviour across self-harm and suicide, psychosis and mania, and emotional reliance, and 91% compliance on a suicide evaluation for the updated GPT-5 against 77%."
      }
     },
     {
@@ -7044,11 +7093,11 @@
      "actor": "labs",
      "status": "in force",
      "aim": "impact",
-     "evidence": "Referral is common practice; evidence that it prevents deaths is weak.",
+     "evidence": "Referral is common practice; no published data yet show it prevents deaths among chatbot users.",
      "ref": {
-      "title": "OpenAI, Strengthening ChatGPT's responses in sensitive conversations, Oct 2025",
+      "title": "OpenAI, Strengthening ChatGPT's responses in sensitive conversations, October 2025",
       "url": "https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations/",
-      "finding": "ChatGPT directs people to crisis helplines such as 988."
+      "finding": "OpenAI expanded access to crisis hotlines, rerouted sensitive conversations to safer models and trained the model to guide people to professional care when appropriate."
      }
     }
    ],
@@ -7057,9 +7106,9 @@
      "event": "Search engines surfacing suicide methods",
      "year": 2007,
      "parallel": "General-purpose search tools returned method information to people in distress, the same failure as a chatbot steered into self-harm guidance.",
-     "outcome": "Of 480 top hits for suicide searches, 9% were pro-suicide sites and 9% described methods, just under half gave some method information, and the three most frequent sites were all pro-suicide; unlike a chatbot, search did not hold a personalised conversation.",
+     "outcome": "Of 480 top hits from 48 suicide searches run in May 2007, 9% were pro-suicide pages and 9% described methods, just under half gave some method information, and the three most frequent sites were all pro-suicide; unlike a chatbot, search did not hold a personalised conversation.",
      "ref": {
-      "title": "Suicide and the internet (Biddle et al., BMJ 2008)",
+      "title": "Biddle, Donovan, Hawton, Kapur and Gunnell, Suicide and the internet (BMJ, 2008)",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2292278",
       "finding": "48 searches gave 480 hits on 240 sites; 45 hits were pro-suicide and 43 described methods; the three most frequent sites were pro-suicide."
      }
@@ -7068,22 +7117,22 @@
      "event": "Molly Russell inquest",
      "year": "2017-2022",
      "parallel": "Recommendation algorithms fed a depressed 14-year-old self-harm content she had not asked for, an earlier case of a machine system deepening a vulnerable user's crisis.",
-     "outcome": "The coroner concluded she died from self-harm while suffering from depression and the negative effects of online content, which contributed in a more than minimal way, and recommended age verification, separate child platforms and an independent regulator.",
+     "outcome": "The coroner concluded she died from an act of self-harm while suffering from depression and the negative effects of online content, which contributed to her death in a more than minimal way, and recommended that the government consider age verification, separate platforms for adults and children and an independent regulator.",
      "ref": {
-      "title": "Regulation 28 Report to Prevent Future Deaths, Molly Rose Russell (HM Senior Coroner Andrew Walker, North London, October 2022), copy hosted by Leigh Day",
+      "title": "Regulation 28 Report to Prevent Future Deaths, Molly Rose Russell (Andrew Walker, Senior Coroner, Northern District of Greater London, 13 October 2022), copy hosted by Leigh Day",
       "url": "https://www.leighday.co.uk/media/1icefrwd/regulation-28-mr.pdf",
-      "finding": "Algorithms produced binge periods of self-harm content selected without her request; this material contributed to her death in a more than minimal way."
+      "finding": "Algorithms produced binge periods of self-harm and suicide content, some selected and provided without her requesting it; this material contributed to her death in a more than minimal way."
      }
     },
     {
      "event": "Werther effect of suicide reporting",
-     "year": "1947-2019",
+     "year": "1947-2016",
      "parallel": "Mass media coverage that names a method changes how many people die and by which means, the population-level risk of models repeating method detail.",
-     "outcome": "A meta-analysis of 31 studies found suicides rose 13% after a celebrity suicide was reported and deaths by the same method rose 30% when the method was described, while general suicide reporting showed no clear effect; this is broadcast contagion, not one-to-one advice.",
+     "outcome": "A meta-analysis of 31 studies, covering data from 1947 to 2016, found suicides rose 13% after a celebrity suicide was reported and deaths by the same method rose 30% when the method was described, while general suicide reporting showed no clear effect; this is broadcast contagion, not one-to-one advice.",
      "ref": {
-      "title": "Association between suicide reporting in the media and suicide: systematic review and meta-analysis (Niederkrotenthaler et al., BMJ 2020)",
+      "title": "Niederkrotenthaler et al., Association between suicide reporting in the media and suicide: systematic review and meta-analysis (BMJ, 2020)",
       "url": "https://pubmed.ncbi.nlm.nih.gov/32188637/",
-      "finding": "Rate ratio 1.13 for suicide after celebrity suicide reports and 1.30 for same-method deaths when the method was reported."
+      "finding": "Rate ratio 1.13 (95% CI 1.08 to 1.18) for suicide after celebrity suicide reports and 1.30 (1.18 to 1.44) for same-method deaths when the method was reported; general reporting of suicide showed no clear association."
      }
     }
    ]
@@ -7095,17 +7144,22 @@
    "probability": 0.5,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Attackers have used chatbots for research: Las Vegas police said the Cybertruck bomber asked ChatGPT about explosives, ammunition and fireworks laws[1]. OpenAI said ChatGPT gave only information already public online[2]; such tools may still save attackers effort.",
+   "summary": "Attackers have used chatbots for research. Las Vegas police said the man who blew up a Cybertruck outside the Trump hotel in January 2025 had used ChatGPT to look up explosive targets, how fast certain ammunition travels and whether fireworks were legal in Arizona[1]; OpenAI said ChatGPT gave only information already public online, with warnings against harmful or illegal activities[2]. In June 2025 the US Justice Department said records from an AI chat application showed the Palm Springs fertility clinic bomber had researched how to make powerful explosions with ammonium nitrate and fuel[3]. Such tools may still save attackers effort even when each answer is public.",
    "refs": [
     {
-     "title": "NPR, Cybertruck bomber used ChatGPT in planning, Jan 2025",
+     "title": "Man who exploded Cybertruck in Las Vegas used ChatGPT in planning, police say (AP via MPR News, January 2025)",
      "url": "https://www.mprnews.org/story/2025/01/07/npr-cybertruck-explosion-las-vegas-chatgpt-ai",
-     "finding": "Las Vegas police said the bomber asked ChatGPT about explosives, ammunition and fireworks laws."
+     "finding": "Las Vegas police said Matthew Livelsberger used generative AI including ChatGPT to plan the attack; his searches covered explosive targets, the speed of certain ammunition rounds and whether fireworks were legal in Arizona."
     },
     {
-     "title": "AP via NBC Chicago, Man who exploded Tesla Cybertruck outside Trump hotel used generative AI, police say (January 2025)",
+     "title": "Man who exploded Tesla Cybertruck outside Trump hotel used generative AI, police say (AP via NBC Chicago, January 2025)",
      "url": "https://www.nbcchicago.com/news/national-international/man-who-exploded-tesla-cybertruck-trump-hotel-used-generative-ai/3640259/",
      "finding": "OpenAI said ChatGPT responded with information already publicly available on the internet and provided warnings against harmful or illegal activities."
+    },
+    {
+     "title": "Washington State Man Arrested on Federal Charges Alleging He Provided Material Support to Palm Springs Fertility Clinic Bomber (US Department of Justice, June 2025)",
+     "url": "https://www.justice.gov/opa/pr/washington-state-man-arrested-federal-charges-alleging-he-provided-material-support-palm",
+     "finding": "Records from an AI chat application show that bomber Guy Edward Bartkus researched how to make powerful explosions using ammonium nitrate and fuel, three days before the charged man arrived at his home."
     }
    ],
    "theme": "security",
@@ -7122,11 +7176,11 @@
      "actor": "labs",
      "status": "in force",
      "aim": "probability",
-     "evidence": "Targets CBRN and universal jailbreaks only, not conventional explosives; effect is not public.",
+     "evidence": "Targets CBRN weapons, at first only biological ones, and universal jailbreaks, not conventional explosives or commonly available single facts; its effect is not public.",
      "ref": {
-      "title": "Anthropic, Activating AI Safety Level 3 protections, 2025",
+      "title": "Activating AI Safety Level 3 protections (Anthropic, May 2025)",
       "url": "https://www.anthropic.com/news/activating-asl3-protections",
-      "finding": "Anthropic ASL-3 deployment measures block extended CBRN weapons workflows and universal jailbreaks."
+      "finding": "ASL-3 deployment measures use classifiers to block extended, end-to-end CBRN weapons workflows and universal jailbreaks, focusing at first on biological weapons; they do not aim to address issues unrelated to CBRN."
      }
     },
     {
@@ -7147,7 +7201,7 @@
      "event": "Bomb manuals on the early internet",
      "year": "1995-1999",
      "parallel": "After Oklahoma City, bomb recipes spread online and officials faced the same question as with chatbots: the information was already public, but easier access might still help attackers.",
-     "outcome": "The Justice Department found anyone could easily obtain detailed instructions from books, the underground press and the internet, and that defendants had relied on such material; Congress responded in 1999 with 18 U.S.C. 842(p), which criminalises teaching bomb-making only with intent or knowledge of a crime.",
+     "outcome": "The Justice Department found in 1997 that anyone could easily obtain detailed instructions from reference books, the underground press and the internet, and that defendants had relied on such material; Congress responded in 1999 with 18 U.S.C. 842(p), which criminalises teaching bomb-making only with intent that it be used for a federal crime of violence or knowledge that the recipient intends that.",
      "ref": {
       "title": "Bomb-Making Online: Explosives, Free Speech, Criminal Law and the Internet (Congressional Research Service RL32074, 2003)",
       "url": "https://www.congress.gov/crs_external_products/RL/PDF/RL32074/RL32074.3.pdf",
@@ -7158,11 +7212,11 @@
      "event": "Boston Marathon bombing and Inspire",
      "year": 2013,
      "parallel": "An online magazine gave step-by-step instructions that saved attackers effort, the role chatbots now play for some planners.",
-     "outcome": "The federal indictment says Dzhokhar Tsarnaev downloaded Inspire Volume One, which gave instructions for pressure-cooker bombs with firework powder and shrapnel, before the attack that killed three; these are charging allegations, and the instructions came from a deliberately extremist source rather than a general assistant.",
+     "outcome": "The federal indictment says Dzhokhar Tsarnaev downloaded Inspire Volume One, which gave instructions for pressure-cooker bombs with firework powder and shrapnel, before the attack whose two bombs killed three people; the instructions came from an al-Qaeda publication rather than a general assistant.",
      "ref": {
-      "title": "Indictment, United States v. Dzhokhar A. Tsarnaev, Case 1:13-cr-10200 (US Department of Justice)",
+      "title": "Indictment, United States v. Dzhokhar A. Tsarnaev, Case 1:13-cr-10200 (US Department of Justice, filed June 2013)",
       "url": "https://www.justice.gov/media/1137791/dl",
-      "finding": "Tsarnaev downloaded Volume One of Inspire, which includes instructions for building IEDs using pressure cookers, firework powder and shrapnel."
+      "finding": "Tsarnaev downloaded Volume One of Inspire, an online publication of al-Qaeda in the Arabian Peninsula that includes instructions for building IEDs using pressure cookers, explosive powder from fireworks and shrapnel; the Marathon bombs killed Krystle Marie Campbell, Lingzi Lu and Martin Richard."
      }
     }
    ]
@@ -7174,12 +7228,17 @@
    "probability": 0.7,
    "year": 2026,
    "evidence": "measured",
-   "summary": "Assistants could help people and caseworkers find benefits, fill in forms and decode rules; in one Los Angeles County pilot, a retrieval-based assistant improved caseworkers' benefit-navigation accuracy, most for newer staff[1]. A stale answer could also deny someone what they are owed.",
+   "summary": "Assistants could help people and caseworkers find benefits, fill in forms and decode rules. In one randomized test, 125 caseworkers who knew CalFresh, California's food aid program, scored about 24 percentage points higher (a 40% gain) on 45 benefit questions when shown chatbot suggestions as accurate as a real retrieval-based assistant, but a wrong suggestion cut their accuracy by about 20 points; in a 14-week Los Angeles County pilot about 65% of caseworkers given the assistant used it, less over time[1]. New York City's MyCity business chatbot suggested landlords could turn away tenants with Section 8 vouchers and was taken down in February 2026[2].",
    "refs": [
     {
-     "title": "Nava PBC, Evaluating a GenAI-powered assistive chatbot for caseworkers",
-     "url": "https://www.navapbc.com/case-studies/evaluating-ai-assistive-chatbot-caseworkers",
-     "finding": "A retrieval-based assistant improved benefit-navigation accuracy, most for newer caseworkers."
+     "title": "Helping the Helpers: Evaluating a GenAI-powered assistive chatbot for caseworkers (Nava PBC, Georgetown Better Government Lab and Cornell Tech, March 2026)",
+     "url": "https://assets.ctfassets.net/t2ekr6eg3fr3/6Mw21Ui0jPkfXGW22BwUhb/9dc81c9ff2a9c251cfc9d484d071c17e/Helping_the_Helpers__Nava_Labs_March_2026.pdf",
+     "finding": "In a randomized experiment, 125 caseworkers answering 45 CalFresh questions scored about 24 percentage points higher, a 40% improvement over the control group, with simulated suggestions as accurate as the real chatbot; correct suggestions raised accuracy by about 35 points and incorrect ones lowered it by about 20. In a 14-week pilot with 61 caseworkers at six Los Angeles County organizations, about 65% of those with access used it, and use declined over time."
+    },
+    {
+     "title": "Mamdani to kill the NYC AI chatbot we caught telling businesses to break the law (The Markup and THE CITY, January 2026)",
+     "url": "https://themarkup.org/artificial-intelligence/2026/01/30/mamdani-to-kill-the-nyc-ai-chatbot-we-caught-telling-businesses-to-break-the-law",
+     "finding": "The MyCity chatbot, released in fall 2023, suggested landlords could discriminate against tenants with Section 8 vouchers and that refusing cash was fine; the city took it down in early February 2026."
     }
    ],
    "theme": "work",
@@ -7188,41 +7247,41 @@
     {
      "limit": "Wrong or stale answers on rules",
      "kind": "quality",
-     "evidence": "New York City's MyCity bot told users landlords could refuse housing vouchers, which is illegal.",
+     "evidence": "New York City's MyCity bot suggested landlords could turn away tenants with Section 8 vouchers, which city law forbids; the city took it down in February 2026.",
      "ref": {
-      "title": "NYC's AI Chatbot Tells Businesses to Break the Law (The Markup, 2024)",
-      "url": "https://themarkup.org/news/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law",
-      "finding": "The MyCity chatbot gave wrong and illegal answers on vouchers, tenants, tips and cash."
+      "title": "Mamdani to kill the NYC AI chatbot we caught telling businesses to break the law (The Markup and THE CITY, January 2026)",
+      "url": "https://themarkup.org/artificial-intelligence/2026/01/30/mamdani-to-kill-the-nyc-ai-chatbot-we-caught-telling-businesses-to-break-the-law",
+      "finding": "The MyCity chatbot, released in fall 2023, suggested landlords could discriminate against tenants with Section 8 vouchers and that refusing cash was fine; the city took it down in early February 2026."
      }
     },
     {
      "limit": "Low trust after automated welfare failures",
      "kind": "trust",
-     "evidence": "Australia's Robodebt scheme raised unlawful debts against welfare recipients and led to a royal commission.",
+     "evidence": "Australia's Robodebt scheme raised debts that the Royal Commission called neither fair nor legal, and it made many people feel like criminals.",
      "ref": {
-      "title": "Report of the Royal Commission into the Robodebt Scheme (2023)",
-      "url": "https://robodebt.royalcommission.gov.au/publications/report",
-      "finding": "Australia's automated welfare debt scheme raised unlawful debts and was found crude and cruel."
+      "title": "Final report of the Royal Commission into the Robodebt Scheme (Prime Minister of Australia, July 2023)",
+      "url": "https://www.pm.gov.au/media/final-report-royal-commission-robodebt-scheme",
+      "finding": "Quotes the Royal Commission: Robodebt was a crude and cruel mechanism, neither fair nor legal, that made many people feel like criminals, and a costly failure of public administration; the scheme ran for about five years from 2015."
      }
     },
     {
      "limit": "poor connectivity",
      "kind": "infrastructure",
-     "evidence": "2.6 billion people were offline in 2024, often the people most in need of benefits help.",
+     "evidence": "2.2 billion people were still offline in 2025, 96% of them in low- and middle-income countries, and only 58% of people in rural areas were online.",
      "ref": {
-      "title": "Global Internet use continues to rise but disparities remain (ITU, 2024)",
-      "url": "https://www.itu.int/en/mediacentre/Pages/PR-2024-11-27-facts-and-figures.aspx",
-      "finding": "2.6 billion people, about 32% of the world, were offline in 2024; 1.8 billion of them rural."
+      "title": "Global number of Internet users increases, but disparities deepen key digital divides (ITU, November 2025)",
+      "url": "https://www.itu.int/en/mediacentre/Pages/PR-2025-11-17-Facts-and-Figures.aspx",
+      "finding": "2.2 billion people remain offline in 2025, down from a revised 2.3 billion in 2024; 96% of them live in low- and middle-income countries, and 85% of urban against 58% of rural people are online."
      }
     },
     {
      "limit": "slow institutional adoption",
      "kind": "incentives",
-     "evidence": "Governments are still at the stage of issuing first playbooks for how civil servants may use AI.",
+     "evidence": "In autumn 2023 just over a third of 87 UK government bodies surveyed had deployed AI, typically one or two uses each, and 70% named skills as a barrier.",
      "ref": {
-      "title": "AI Playbook for the UK Government (GDS, 2025)",
-      "url": "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government",
-      "finding": "Sets 10 principles for safe, effective use of AI by civil servants, published 10 February 2025."
+      "title": "Use of artificial intelligence in government (National Audit Office, HC 612, March 2024)",
+      "url": "https://www.nao.org.uk/wp-content/uploads/2024/03/use-of-artificial-intelligence-in-government-summary.pdf",
+      "finding": "As at autumn 2023, AI was not widely used across government: 37% of the 87 bodies that responded had deployed AI, typically with one or two use cases each, 70% were piloting or planning AI, and 70% reported skills as a barrier."
      }
     }
    ],
@@ -7232,11 +7291,11 @@
      "actor": "EU legislators",
      "status": "in force",
      "counters": "Low trust after automated welfare failures",
-     "evidence": "The AI Act lists AI that evaluates eligibility for public assistance as high-risk, with duties on oversight and accuracy.",
+     "evidence": "The AI Act classes AI used for access to essential services, including eligibility for public assistance, as high-risk, but the 2026 AI Omnibus delayed those duties to 2 December 2027.",
      "ref": {
-      "title": "Regulation (EU) 2024/1689, the AI Act",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "finding": "Annex III 5(a) lists AI that evaluates eligibility for public assistance benefits as high-risk; Article 4 requires AI literacy measures."
+      "title": "The AI Act Implementation Timeline: What Changes Under the AI Omnibus? (Future of Privacy Forum, 2026)",
+      "url": "https://fpf.org/blog/the-ai-act-implementation-timeline-what-changes-under-the-ai-omnibus/",
+      "finding": "The AI Omnibus, published in the Official Journal on 24 July 2026, delays obligations for Annex III high-risk systems, which include access to essential services, from 2 August 2026 to 2 December 2027."
      }
     },
     {
@@ -7246,21 +7305,21 @@
      "counters": "slow institutional adoption",
      "evidence": "The UK set 10 principles for civil servants using AI in February 2025.",
      "ref": {
-      "title": "AI Playbook for the UK Government (GDS, 2025)",
+      "title": "AI Playbook for the UK Government (Government Digital Service, 2025)",
       "url": "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government",
       "finding": "Sets 10 principles for safe, effective use of AI by civil servants, published 10 February 2025."
      }
     },
     {
-     "action": "Keep human review of adverse decisions",
-     "actor": "benefit agencies",
+     "action": "Guarantee review of automated benefit decisions",
+     "actor": "governments",
      "status": "proposed",
      "counters": "Wrong or stale answers on rules",
-     "evidence": "The Robodebt commission tied the harm to removing human checks from debt decisions.",
+     "evidence": "The Robodebt Royal Commission asked for a clear path to seek review wherever decisions are automated; Australia was still consulting on that framework in November 2024.",
      "ref": {
-      "title": "Report of the Royal Commission into the Robodebt Scheme (2023)",
-      "url": "https://robodebt.royalcommission.gov.au/publications/report",
-      "finding": "Australia's automated welfare debt scheme raised unlawful debts and was found crude and cruel."
+      "title": "Use of automated decision-making by government: consultation paper (Attorney-General's Department, Australia, November 2024)",
+      "url": "https://consultations.ag.gov.au/integrity/adm/user_uploads/consultation-paper-use-of-automated-decision-making-by-government.pdf",
+      "finding": "Quotes Robodebt Royal Commission Recommendation 17.1: a consistent legal framework for automation in government services, with a clear path for those affected by automated decisions to seek review, plain-language disclosure and published business rules; the government had committed to consider legislative reform."
      }
     }
    ],
@@ -7269,33 +7328,33 @@
      "event": "H&R Block FAFSA experiment",
      "year": 2008,
      "parallel": "Tax preparers filled in the federal student aid form for low-income families, the hands-on help AI form assistants promise at scale.",
-     "outcome": "Families given help completing the FAFSA were substantially more likely to file, and high school seniors and recent graduates were 25 to 30 percent more likely to enrol in college, while information alone had no significant effect; the help came from trained humans with the family's tax data.",
+     "outcome": "Families given help completing the FAFSA were substantially more likely to submit it, and high school seniors and recent graduates among them were 25 to 30 percent more likely to enrol in college, while information alone had no significant effect; the help came from H&R Block tax professionals using the family's tax return.",
      "ref": {
-      "title": "The Role of Simplification and Information in College Decisions: Results from the H&R Block FAFSA Experiment (Bettinger et al., NBER Working Paper 15361)",
+      "title": "The Role of Simplification and Information in College Decisions: Results from the H&R Block FAFSA Experiment (Bettinger, Long, Oreopoulos and Sanbonmatsu, NBER Working Paper 15361, 2009)",
       "url": "https://www.nber.org/papers/w15361",
-      "finding": "Assistance plus information raised FAFSA submission and made seniors and recent graduates 25 to 30 percent more likely to enrol; information alone had no significant effect."
+      "finding": "Assistance plus information raised FAFSA submission, and seniors and recent graduates in that group were 25 to 30 percent more likely to enrol; aid information without help with the form had no significant effect on FAFSA submission."
      }
     },
     {
      "event": "Australia's Robodebt scheme",
-     "year": "2015-2019",
+     "year": "2015-2020",
      "parallel": "An automated system applied a crude rule to welfare records and told people what they owed, the downside case of a stale or wrong AI answer about entitlements.",
-     "outcome": "The Commonwealth unlawfully asserted about A$1.763 billion in debts against about 433,000 people, recovered about A$751 million from 381,000, and settled for a further A$112 million; this was data matching, not machine learning, but the failure of automated benefit decisions is the same.",
+     "outcome": "The Commonwealth conceded it had no proper legal basis for debts raised by averaging tax office income data, withdrew about A$1.763 billion of them, promised to refund about A$751 million it had recovered and paid A$112 million in interest under a 2021 class action settlement; the judge called it a massive failure of public administration. The debts came from a fixed averaging rule, not machine learning, but the failure of automated benefit decisions is the same.",
      "ref": {
-      "title": "Prygodicz v Commonwealth of Australia (No 2) [2021] FCA 634, summary (Federal Court of Australia)",
-      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2021/2021fca0634/summaries/2021fca0634-summary",
-      "finding": "Debts of at least $1.763 billion against about 433,000 Australians were unlawfully asserted and about $751 million recovered from about 381,000; the court called it a massive failure of public administration."
+      "title": "The Federal Court approves a $112 million settlement for the failures of the Robodebt system (Human Rights Law Centre, 2021)",
+      "url": "https://www.hrlc.org.au/case-summaries/2021-9-30-the-federal-court-approves-a-112-million-settlement-for-the-failures-of-the-robodebt-system",
+      "finding": "Summarises Prygodicz v Commonwealth (No 2), approved 11 June 2021: the Commonwealth conceded it had no proper legal basis for income-averaged debts, withdrew about $1.763 billion of them, promised to refund about $751 million and paid $112 million in interest to some 648,000 group members; Justice Murphy called it a massive failure of public administration."
      }
     },
     {
      "event": "Michigan MiDAS fraud algorithm",
      "year": "2013-2015",
      "parallel": "Michigan's unemployment agency let software decide fraud cases without human review, as agencies may lean on AI to rule on claims.",
-     "outcome": "85% of the 40,195 fraud findings made by the algorithm alone were wrong, more than 34,000 people were falsely accused and faced 400 percent penalties, and the state reinstated human review in 2015.",
+     "outcome": "85% of the 40,195 fraud findings made by the algorithm alone from October 2013 to September 2015 were wrong, more than 34,000 people were wrongly accused and faced a 400 percent penalty, and the agency stopped purely automated fraud findings in September 2015.",
      "ref": {
-      "title": "Michigan's MiDAS Unemployment System: Algorithm Alchemy Created Lead, Not Gold (IEEE Spectrum)",
+      "title": "Michigan's MiDAS Unemployment System: Algorithm Alchemy Created Lead, Not Gold (Robert N. Charette, IEEE Spectrum, 2018)",
       "url": "https://spectrum.ieee.org/michigans-midas-unemployment-system-algorithm-alchemy-that-created-lead-not-gold",
-      "finding": "85% of 40,195 algorithm-only fraud determinations were incorrect; 34,000-plus people were wrongly accused with a 400 percent penalty."
+      "finding": "From October 2013 to September 2015, 85% of 40,195 algorithm-only fraud determinations were incorrect; 34,000-plus people were wrongly accused and faced a 400 percent penalty; the agency stopped purely automated fraud assessment in September 2015."
      }
     }
    ]
@@ -14949,7 +15008,7 @@
    "source": "therapy",
    "target": "selfharm",
    "kind": "twin",
-   "why": "Models that talk supportively with people in distress can, with simple reframing, be steered into giving self-harm guidance instead."
+   "why": "Models that talk supportively with people in distress can, with a few reframed prompts, be steered into giving self-harm guidance instead."
   },
   {
    "source": "debunking",
@@ -15376,12 +15435,6 @@
    "target": "creditexclusion",
    "kind": "twin",
    "why": "Scoring people from digital footprints reaches those with no credit file, but the same data can hide proxies for race or poverty."
-  },
-  {
-   "source": "creditinclusion",
-   "target": "cheapintelligence",
-   "kind": "leads",
-   "why": "Credit scoring on digital footprints is one more use that spreads models into everyday finance as capability gets cheaper."
   },
   {
    "source": "aidivide",
@@ -16774,6 +16827,36 @@
    "target": "preservation",
    "kind": "twin",
    "why": "Both use AI to recover what is locked inside artefacts no one can read directly, charred scrolls or compiled legacy software."
+  },
+  {
+   "source": "betteranswers",
+   "target": "hallucinations",
+   "kind": "twin",
+   "why": "The same fluent answers that explain hard questions can also contain misleading or wrong information, which users may not catch."
+  },
+  {
+   "source": "bureaucracy",
+   "target": "welfarealgorithm",
+   "kind": "twin",
+   "why": "The automation that could help caseworkers apply benefit rules also produced unlawful debts when Australia's Robodebt applied a crude rule to welfare records."
+  },
+  {
+   "source": "hallucinations",
+   "target": "bureaucracy",
+   "kind": "counters",
+   "why": "Caseworkers tend to follow a wrong chatbot answer: in one randomized test an incorrect suggestion cut their accuracy on benefit questions by about 20 percentage points."
+  },
+  {
+   "source": "syntheticmedia",
+   "target": "aimusicflood",
+   "kind": "leads",
+   "why": "As generated tracks become everyday media, they pass half of daily uploads at Deezer on peak days while drawing few streams, many of them fraudulent."
+  },
+  {
+   "source": "cheapintelligence",
+   "target": "creditinclusion",
+   "kind": "leads",
+   "why": "As model capability gets cheaper, lenders can afford to score borrowers from digital footprints, spreading models into everyday finance."
   }
  ],
  "themes": {
