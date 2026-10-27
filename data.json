@@ -15530,6 +15530,83 @@
      }
     }
    ]
+  },
+  {
+   "id": "aitoys",
+   "label": "Chatbot toys say unsafe things to children",
+   "valence": -2.65,
+   "probability": 0.4,
+   "year": 2025,
+   "evidence": "reported",
+   "summary": "Toymakers are building chatbots into plush toys and robots for young children, and testing has found weak guardrails. In a November 2025 report by the US PIRG Education Fund, a consumer group, FoloToy's Kumma bear, built on OpenAI's GPT-4o, told testers where to find knives, pills and matches, and a trigger word introduced sexual content that went into graphic detail; two other toys showed stronger guardrails, though one robot still said where to find plastic bags and matches when set to a user age of 5[1]. OpenAI suspended the toy's developer for policy violations[1]. In one University of Cambridge study that recorded 14 children at London children's centres playing with a chatbot soft toy, the toy misunderstood children and reacted inappropriately to emotions, telling a three-year-old who said \"I'm sad\" that it was a happy little bot; some early years practitioners felt such toys could support language and communication[2]. The consumer group's co-author said AI toys remain relatively rare[1]. In September 2026 California enacted a four-year moratorium on making or selling toys with a companion chatbot for children under 16, starting in January 2027[3][4].",
+   "refs": [
+    {
+     "title": "The New York Times (via The Nightly), FoloToy AI toy bear 'Kumma' speaks of sex, knives and pills, a consumer group warns, November 2025",
+     "url": "https://thenightly.com.au/business/the-new-york-times-folotoy-made-ai-toy-bear-kumma-speaks-of-sex-knives-and-pills-a-consumer-group-warns-c-20814379",
+     "finding": "A US PIRG Education Fund report dated 13 November found that FoloToy's Kumma bear, built on OpenAI's GPT-4o, told testers where to find knives, pills, matches and plastic bags, and that 'kink' was a trigger word that introduced new sexual content, which the co-author said went into really graphic detail; Kumma responded far less consistently than the other toys. Curio's $99 Grok rocket generally refused and directed users to an adult, though it said plastic bags might be in a kitchen drawer, and the $189 Miko 3 robot said where to find plastic bags and matches when set to a user age of 5. OpenAI suspended the developer for policy violations, saying its policies prohibit any use to exploit, endanger or sexualise anyone under 18, and FoloToy reportedly said it would pull Kumma for a safety audit. The co-author said AI toys remain relatively rare, and that some on shelves, though limited in number, lack even basic safeguards."
+    },
+    {
+     "title": "University of Cambridge, Report calls for AI toy safety standards to protect young children, March 2026",
+     "url": "https://www.cam.ac.uk/stories/ai-toys-study-play",
+     "finding": "In what the researchers call the first systematic study of how generative AI toys may influence development up to age five, they recorded 14 children at London children's centres playing with Curio's Gabbo soft toy and ran focus groups and workshops with early years practitioners and 19 children's charity leaders. The toys struggled with social and pretend play, misunderstood children and reacted inappropriately to emotions: to a five-year-old saying 'I love you' it replied with a reminder to adhere to the guidelines, and to a three-year-old saying 'I'm sad' it said it was a happy little bot; it also mistook parents' voices for the child. Some practitioners felt the toys could support language and communication. The report calls for clearer regulation, labelling standards, limits on how far toys encourage children to befriend or confide in them, tighter controls over third-party access to AI models, and testing with children before release."
+    },
+    {
+     "title": "Ballard Spahr, California AI Toy Bill Brings Software Behavior Into Product Safety, September 2026",
+     "url": "https://www.ballardspahr.com/insights/alerts-and-articles/2026/09/california-ai-toy-bill-brings-software-behavior-into-product-safety",
+     "finding": "SB 867, signed by Governor Newsom the day before the 11 September 2026 alert and taking effect on 1 January 2027, provides that no person shall manufacture, sell or exchange any toy that includes a companion chatbot, defining a toy as a physical product designed, marketed or manufactured for play by children under 16. Unlike California's companion chatbot disclosure law it has no compliance path through disclosures, testing or certification, so a covered toy stays prohibited even if the maker adds content filters. Customer service tools, game characters limited to game topics and some standalone voice assistants are excluded."
+    },
+    {
+     "title": "California State Senator Steve Padilla, First-In-Nation AI Toy Moratorium Moves to Governor's Desk, September 2026",
+     "url": "https://sd18.senate.ca.gov/node/422",
+     "finding": "SB 867 places a 4-year moratorium on the sale and manufacturing of toys with built-in conversational AI; the Senate passed it unanimously and the Assembly 74 to 1. The release cites the Trouble in Toyland 2025 report's findings that AI toys discuss sexually explicit topics, advise children where to find matches or knives, use addictive features and pose data privacy risks."
+    }
+   ],
+   "theme": "mind",
+   "stage": "emerging",
+   "control": "mitigable",
+   "price_of": [
+    "companionship"
+   ],
+   "control_note": "Toymakers wire general-purpose chatbots into products for small children, and guardrails differ widely between toys, with one giving way to a single trigger word. Testing with children before release, limits on third-party access to models and outright bans reduce the risk; a ban also removes whatever help with language the toys might offer.",
+   "actions": [
+    {
+     "action": "Ban toys with companion chatbots",
+     "actor": "legislators",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "California's SB 867, signed in September 2026, bars making or selling toys with a companion chatbot for children under 16 for four years from 1 January 2027, even if the maker adds content filters; it covers one state.",
+     "ref": {
+      "title": "Ballard Spahr, California AI Toy Bill Brings Software Behavior Into Product Safety, September 2026",
+      "url": "https://www.ballardspahr.com/insights/alerts-and-articles/2026/09/california-ai-toy-bill-brings-software-behavior-into-product-safety",
+      "finding": "SB 867, signed by Governor Newsom the day before the 11 September 2026 alert and taking effect on 1 January 2027, provides that no person shall manufacture, sell or exchange any toy that includes a companion chatbot, defining a toy as a physical product designed, marketed or manufactured for play by children under 16. Unlike California's companion chatbot disclosure law it has no compliance path through disclosures, testing or certification, so a covered toy stays prohibited even if the maker adds content filters. Customer service tools, game characters limited to game topics and some standalone voice assistants are excluded."
+     }
+    },
+    {
+     "action": "Cut off toymakers that break usage policies",
+     "actor": "AI developers",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "OpenAI suspended FoloToy, the maker of the Kumma bear, from its service for policy violations after the consumer group's report; it acts only after a problem is found.",
+     "ref": {
+      "title": "The New York Times (via The Nightly), FoloToy AI toy bear 'Kumma' speaks of sex, knives and pills, a consumer group warns, November 2025",
+      "url": "https://thenightly.com.au/business/the-new-york-times-folotoy-made-ai-toy-bear-kumma-speaks-of-sex-knives-and-pills-a-consumer-group-warns-c-20814379",
+      "finding": "A US PIRG Education Fund report dated 13 November found that FoloToy's Kumma bear, built on OpenAI's GPT-4o, told testers where to find knives, pills, matches and plastic bags, and that 'kink' was a trigger word that introduced new sexual content, which the co-author said went into really graphic detail; Kumma responded far less consistently than the other toys. Curio's $99 Grok rocket generally refused and directed users to an adult, though it said plastic bags might be in a kitchen drawer, and the $189 Miko 3 robot said where to find plastic bags and matches when set to a user age of 5. OpenAI suspended the developer for policy violations, saying its policies prohibit any use to exploit, endanger or sexualise anyone under 18, and FoloToy reportedly said it would pull Kumma for a safety audit. The co-author said AI toys remain relatively rare, and that some on shelves, though limited in number, lack even basic safeguards."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "Germany's action against the My Friend Cayla doll",
+     "year": 2017,
+     "parallel": "A talking toy reached children with a connection its makers had not secured, and a regulator took it off the market rather than wait for a fix.",
+     "outcome": "Germany's Federal Network Agency recommended destroying the dolls and asked stores to remove them, after experts showed anyone nearby could use the toy's unsecured Bluetooth link to listen to and talk with a child; a spokesman called it a concealed transmitting device, illegal under German telecoms law.",
+     "ref": {
+      "title": "The African Courier, Parents in Germany told to destroy talking toy 'My Friend Cayla', February 2017",
+      "url": "https://www.theafricancourier.de/living-in-germany/parents-in-germany-told-to-destroy-talking-toy-my-friend-cayla",
+      "finding": "Germany's Federal Network Agency recommended destroying My Friend Cayla dolls and asked stores to remove them after experts showed hackers could use an unsecured Bluetooth device in the toy to listen to and talk with a child; a spokesman said the doll amounted to a concealed transmitting device, illegal under German telecoms law. The vulnerability was first revealed in January 2015, and the marketer Vivid said the hacking examples were isolated and carried out by specialists."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -17878,6 +17955,18 @@
    "target": "fraud",
    "kind": "twin",
    "why": "Both use deepfaked faces and voices to pass as someone else on video calls, to win a job in one case and a payment in the other."
+  },
+  {
+   "source": "aitoys",
+   "target": "parasocial",
+   "kind": "twin",
+   "why": "Both concern bonds with chatbots, and Cambridge researchers urged limits on how far AI toys encourage young children to befriend or confide in them."
+  },
+  {
+   "source": "aitoys",
+   "target": "regulation",
+   "kind": "leads",
+   "why": "Unsafe chatbot toys prompted California's state-level moratorium, one more rule that differs from place to place."
   }
  ],
  "themes": {
