@@ -14671,6 +14671,83 @@
      }
     }
    ]
+  },
+  {
+   "id": "dctaxbreaks",
+   "label": "Data-centre tax breaks drain state budgets",
+   "valence": -1.91,
+   "probability": 0.6,
+   "year": 2025,
+   "evidence": "measured",
+   "summary": "US states court the data-centre boom that AI's demand for computing power is driving with sales tax exemptions on construction and servers, and the cost has outrun forecasts[2]. Ohio's exemption cost $554.9 million in 2024, about four times the forecast, and $1.6 billion in 2025, eleven times the original estimate of $136 million[1]. Texas forecast in 2025 that it would lose $3.2 billion in sales tax over two years, a figure its Comptroller's Office called almost certainly an underestimate, and had audited only 20 of 138 qualifying data centres, six of them in breach[2]. An evaluation for Georgia's state auditor put forgone state revenue at $474.2 million in FY 2025, judged that 70% of the state's data centres would exist without the exemption and counted $34.6 million in state tax from the construction and $6.9 million from the operations it attributed to the break, though it also found the gain to the state economy significantly higher than the revenue forgone[3]. Virginia's legislative auditor found its exemption saved data centres $928 million in FY23 and returned 48 cents in state revenue per dollar, close to the 41-cent average for the state's other incentives, with most of the economic benefit coming from construction[4].",
+   "refs": [
+    {
+     "title": "Signal Ohio via WTOP News, Ohio data center tax break cost $1.4 billion more than expected in 2025, May 2026",
+     "url": "https://wtop.com/news/2026/05/ohio-data-center-tax-break-cost-1-4-billion-more-than-expected-in-2025/",
+     "finding": "Figures from the Ohio Department of Taxation show the data-centre sales tax exemption cost the state $554.9 million in 2024, about four times the department's forecast, plus $166.8 million in lost local sales taxes; in 2025 it cost $1.6 billion, eleven times the original estimate of $136 million. Lawmakers voted to end the break and Governor Mike DeWine vetoed the repeal."
+    },
+    {
+     "title": "Texas Tribune, Texas' multibillion-dollar sales tax exemption for data centers is growing, while audits lag, July 2026",
+     "url": "https://www.texastribune.org/2026/07/27/texas-data-centers-sales-tax-break-audits/",
+     "finding": "The state forecast in 2025 that it would lose $3.2 billion in sales tax revenue over two years from data centres, a figure the Comptroller's Office said is almost certainly an underestimate; the exemption cost $5.4 million in 2015. Of 138 qualified data centres only 20 had been audited, and six were breaching the terms, at least four of them by failing to create the required jobs; those out of compliance must pay back the money. The article ties the growth in data centres to artificial intelligence raising demand for computing power."
+    },
+    {
+     "title": "Georgia Department of Audits and Accounts, Tax Incentive Evaluation: Georgia Data Center Sales & Use Tax Exemption, December 2025, revised January 2026",
+     "url": "https://www.audits2.ga.gov/wp-content/uploads/2025/12/Data-Center-Tax-Exemption-Summary-Revised.pdf",
+     "finding": "The University of Georgia's Carl Vinson Institute of Government estimated forgone state tax revenue of $474.2 million in FY 2025 and attributed 30% of Georgia's data centres to the exemption, so 70% would exist without it. Activity attributed to the exemption generated $34.6 million in state tax from construction and $6.9 million from operations, a fiscal return of 4%, while state economic growth, an economic return of 289%, was significantly higher than the forgone revenue."
+    },
+    {
+     "title": "Joint Legislative Audit and Review Commission, Data Centers in Virginia, Report 598, December 2024",
+     "url": "https://jlarc.virginia.gov/pdfs/reports/Rpt598.pdf",
+     "finding": "Since 2010 Virginia has exempted data centres from its retail sales and use tax; the exemption provided $928 million in tax savings in FY23 and about 90% of the industry uses it. The industry is estimated to contribute 74,000 jobs, $5.5 billion in labour income and $9.1 billion in GDP a year, mostly from construction rather than ongoing operations. The exemption returns 48 cents in state revenue per $1 spent, against 41 cents for the average Virginia incentive, and like most incentives does not pay for itself."
+    }
+   ],
+   "theme": "power",
+   "stage": "active",
+   "control": "mitigable",
+   "price_of": [
+    "cheapintelligence"
+   ],
+   "control_note": "States offer the breaks because rival states do and companies say they weigh them when choosing a site, so no state wants to drop them first. Caps, pauses on new approvals, audits with clawbacks and taxes on data-centre power use can limit the cost, but breaks already granted run for years.",
+   "actions": [
+    {
+     "action": "Pause approvals of new exemptions",
+     "actor": "governors",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "Ohio's governor told the state's Tax Credit Authority to stop approving new data-centre sales tax exemptions while officials review their costs; projects already approved keep their breaks.",
+     "ref": {
+      "title": "The Register, Ohio hits pause on datacenter tax breaks draining its coffers, June 2026",
+      "url": "https://www.theregister.com/on-prem/2026/06/01/ohio-hits-pause-on-datacenter-tax-breaks-draining-its-coffers/5249137",
+      "finding": "Governor Mike DeWine directed the Tax Credit Authority to stop approving new data-centre sales tax exemption requests while officials review the industry's costs and impacts; the pause covers only new approvals, and projects already approved keep their breaks. Good Jobs First puts the 2025 cost of Ohio's exemption at more than $1.5 billion, about 11 times the state's $136 million forecast."
+     }
+    },
+    {
+     "action": "Tax data-centre electricity use",
+     "actor": "legislatures",
+     "status": "in force",
+     "aim": "impact",
+     "evidence": "Virginia kept its exemption but taxes data-centre electricity at $0.011 per kWh from July 2026 to June 2028, capped at $600 million a year, which recovers part of the revenue without ending the break.",
+     "ref": {
+      "title": "Holland & Knight, Virginia Preserves Data Center Tax Incentive, Adds New Electricity Consumption Tax, August 2026",
+      "url": "https://www.hklaw.com/en/insights/publications/2026/08/virginia-preserves-data-center-tax-incentive",
+      "finding": "Virginia kept its sales and use tax exemption for qualifying data-centre equipment and instead imposed a tax of $0.011 per kilowatt-hour of electricity consumed by data-centre operators from 1 July 2026 through 30 June 2028, with annual collections capped at $600 million and up to $1.2 billion in additional revenue over the biennium."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "Foxconn's Wisconsin tax credit deal",
+     "year": 2017,
+     "parallel": "A state pledged billions in tax credits to win a high-technology investment on promises of jobs and capital that the company later scaled back.",
+     "outcome": "Foxconn would have qualified for $2.85 billion in Wisconsin tax credits for investing $10 billion and creating 13,000 jobs; in April 2021 a new contract for a smaller facility cut that to up to $80 million for 1,454 jobs and $676 million of investment by 2026, and let the state recover incentives on default.",
+     "ref": {
+      "title": "Associated Press via KSAT, Foxconn deal with Wisconsin lowers tax breaks to $80 million, April 2021",
+      "url": "https://www.ksat.com/news/politics/2021/04/20/foxconn-deal-with-wisconsin-lowers-tax-breaks-to-80-million/",
+      "finding": "Under the original deal Foxconn would have qualified for $2.85 billion in state tax credits if it invested $10 billion and created 13,000 jobs; the new contract lets it qualify for $80 million if it employs 1,454 people and invests $676 million by 2026, allows the state to recover 100% of incentives paid each year in the event of a default, and covers a smaller facility, which Foxconn said reflected unanticipated market fluctuations."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -16857,6 +16934,12 @@
    "target": "creditinclusion",
    "kind": "leads",
    "why": "As model capability gets cheaper, lenders can afford to score borrowers from digital footprints, spreading models into everyday finance."
+  },
+  {
+   "source": "dctaxbreaks",
+   "target": "powerbills",
+   "kind": "twin",
+   "why": "Both shift a cost of the AI data-centre build-out onto residents, through tax revenue the state gives up or higher power bills."
   }
  ],
  "themes": {
