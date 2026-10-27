@@ -2525,12 +2525,22 @@
    "probability": 0.35,
    "year": 2027,
    "evidence": "measured",
-   "summary": "Feared AI-driven mass manipulation in the 2024 election year was not borne out by one analysis of 78 election deepfakes: most were not deceptive, and comparable fakes were possible without AI[1].",
+   "summary": "Feared AI-driven mass manipulation in the 2024 election year was not borne out by one analysis of 78 election deepfakes: half were not deceptive, and each deceptive one could have been made without AI for a few hundred dollars[1]. Experiments point the other way on persuasion: in pre-registered online studies around the 2024 US, 2025 Canadian and 2025 Polish elections, a conversation with an AI advocating a candidate shifted preferences more than video ads typically do, and about a third of the US effect lasted over a month[2]. The best-known US case, an AI Biden robocall before the January 2024 New Hampshire primary, ended with a jury acquitting the consultant on all state charges in June 2025[3].",
    "refs": [
     {
-     "title": "Knight First Amendment Institute, 78 election deepfakes",
+     "title": "Kapoor and Narayanan, We Looked at 78 Election Deepfakes. Political Misinformation Is Not an AI Problem, Knight First Amendment Institute, December 2024",
      "url": "https://knightcolumbia.org/blog/we-looked-at-78-election-deepfakes-political-misinformation-is-not-an-ai-problem",
-     "finding": "Most deepfakes were not deceptive, and comparable fakes were possible without AI."
+     "finding": "Of 78 election deepfakes logged by the WIRED AI Elections Project in 2024, 39 had no deceptive intent; each deceptive one could have been made without AI for no more than a few hundred dollars."
+    },
+    {
+     "title": "Lin et al., Persuading voters using human-artificial intelligence dialogues, Nature 2025",
+     "url": "https://doi.org/10.1038/s41586-025-09771-9",
+     "finding": "Pre-registered experiments with 2,306 Americans in 2024, 1,530 Canadians and 2,118 Poles in 2025 found AI dialogues shifted candidate preference more than traditional video ads typically do; in Canada and Poland the gap between the two pro-candidate conditions was about 10 points on a 0-100 scale, almost three times the US effect, and about a third of the US effect persisted more than a month later."
+    },
+    {
+     "title": "AP, New Hampshire jury acquits consultant behind AI robocalls mimicking Biden on all charges, June 2025",
+     "url": "https://www.wcax.com/2025/06/17/new-hampshire-jury-acquits-consultant-behind-ai-robocalls-mimicking-biden-all-charges/",
+     "finding": "A jury acquitted Steven Kramer of 11 felony voter suppression and 11 candidate impersonation counts; he told AP he will not pay the FCC's $6 million fine."
     }
    ],
    "theme": "information",
@@ -2546,11 +2556,11 @@
      "actor": "regulators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "The FCC acted after a fake Biden robocall in New Hampshire; no later measurement of effect.",
+     "evidence": "A declaratory ruling in force since 8 February 2024, backed by 26 state attorneys general; no later measurement of effect.",
      "ref": {
-      "title": "FCC, FCC Makes AI-Generated Voices in Robocalls Illegal, 2024",
-      "url": "https://www.fcc.gov/document/fcc-makes-ai-generated-voices-robocalls-illegal",
-      "finding": "The FCC ruled that AI-generated voices count as artificial voices under the TCPA, so such robocalls need prior consent."
+      "title": "FCC, FCC Makes AI-Generated Voices in Robocalls Illegal, 8 February 2024",
+      "url": "https://docs.fcc.gov/public/attachments/DOC-400393A1.pdf",
+      "finding": "The FCC unanimously ruled that AI-generated voices count as artificial under the TCPA, so such robocalls are held to the same prior express consent rules."
      }
     },
     {
@@ -2558,11 +2568,11 @@
      "actor": "platforms",
      "status": "tested",
      "aim": "impact",
-     "evidence": "C2PA credentials exist but are stripped easily and seldom shown; real-world effect is unmeasured.",
+     "evidence": "Content Credentials are signed but can be removed from a file, the standard's own explainer says; real-world effect is unmeasured.",
      "ref": {
-      "title": "C2PA, Content Credentials",
-      "url": "https://c2pa.org/",
-      "finding": "An open standard that attaches signed provenance records to media showing origin and edits."
+      "title": "C2PA, Content Credentials: C2PA Technical Specification 2.2 Explainer",
+      "url": "https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html",
+      "finding": "An open standard whose manifests, signed with X.509-based credentials, record a file's origin and edits; the explainer confirms a credential can be removed from the asset."
      }
     },
     {
@@ -2572,7 +2582,7 @@
      "aim": "impact",
      "evidence": "Most deceptive 2024 cases could be made without AI for a few hundred dollars, so tool limits alone change little.",
      "ref": {
-      "title": "Kapoor and Narayanan, We Looked at 78 Election Deepfakes, Knight First Amendment Institute 2024",
+      "title": "Kapoor and Narayanan, We Looked at 78 Election Deepfakes. Political Misinformation Is Not an AI Problem, Knight First Amendment Institute, December 2024",
       "url": "https://knightcolumbia.org/blog/we-looked-at-78-election-deepfakes-political-misinformation-is-not-an-ai-problem",
       "finding": "Half of the 78 cases were not deceptive, and each deceptive one could have been made without AI for a few hundred dollars."
      }
@@ -2583,7 +2593,7 @@
      "event": "Russian troll accounts on Twitter",
      "year": 2016,
      "parallel": "Like 2024 deepfakes, a foreign influence operation was widely feared to have swung a US election through social media.",
-     "outcome": "A survey matched to Twitter data found 1% of users received 70% of exposures, mostly strong Republicans, and no measurable effect on attitudes, polarisation or vote choice; the data are observational and cover one platform.",
+     "outcome": "Longitudinal YouGov survey data linked to Twitter timelines found 1% of users received 70% of exposures, mostly strong Republicans, and no meaningful relationship between exposure and changes in attitudes, polarisation or voting; the data are observational and cover one platform.",
      "ref": {
       "title": "Exposure to the Russian Internet Research Agency foreign influence campaign on Twitter in the 2016 US election and its relationship to attitudes and voting behavior (Eady et al., Nature Communications 2023)",
       "url": "https://www.nature.com/articles/s41467-022-35576-9",
@@ -2592,9 +2602,9 @@
     },
     {
      "event": "Campaign persuasion field experiments",
-     "year": "1990s-2016",
+     "year": 2018,
      "parallel": "Fears about AI election manipulation assume messages change votes, which decades of measured campaign persuasion test directly.",
-     "outcome": "A meta-analysis of 40 field experiments plus 9 new ones put the average persuasive effect of campaign contact on general-election vote choice at zero, with rare exceptions; it measured human canvassing and ads, not synthetic media.",
+     "outcome": "A meta-analysis of 40 field experiments plus 9 new ones put the average persuasive effect of campaign contact and advertising on general-election candidate choice at zero, with rare exceptions; it measured mail, phone calls, canvassing and ads, not synthetic media or AI dialogue.",
      "ref": {
       "title": "The Minimal Persuasive Effects of Campaign Contact in General Elections: Evidence from 49 Field Experiments (Kalla and Broockman, APSR 2018)",
       "url": "https://ideas.repec.org/a/cup/apsrev/v112y2018i01p148-166_00.html",
@@ -2609,22 +2619,32 @@
    "valence": -2.39,
    "probability": 0.85,
    "year": 2026,
-   "evidence": "projected",
-   "summary": "The IEA projects data-centre electricity demand rising to about 945 TWh by 2030, slightly more than Japan uses today[1]. That growth could strain grids and delay decarbonisation locally.",
+   "evidence": "measured",
+   "summary": "The IEA estimates data centres used about 415 TWh in 2024, around 1.5% of world electricity, and projects about 945 TWh by 2030, slightly more than Japan uses today, with AI the main driver[1]. It reported data-centre demand up 17% in 2025 even as gas turbines, transformers and grid connections became bottlenecks[2]. In the US, data centres used about 4.4% of electricity in 2023 and could reach 6.7% to 12% by 2028, per a Berkeley Lab report for the Department of Energy[3]. That growth could strain grids and delay decarbonisation locally.",
    "refs": [
     {
-     "title": "IEA, Energy and AI 2025",
-     "url": "https://www.iea.org/reports/energy-and-ai",
-     "finding": "Projects data-centre demand rising to about 945 TWh by 2030, slightly more than Japan uses today."
+     "title": "IEA, Energy and AI, April 2025",
+     "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+     "finding": "Data centres used about 415 TWh in 2024, around 1.5% of world electricity, and are set to more than double to about 945 TWh by 2030, slightly more than Japan uses today; AI is the most important driver."
     },
     {
-     "title": "AI 2027 compute forecast",
+     "title": "IEA, Data centre electricity use surged in 2025, even with tightening bottlenecks driving a scramble for solutions, 16 April 2026",
+     "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+     "finding": "Data-centre electricity demand rose 17% in 2025 against 3% for global demand, and is still set to double by 2030, with AI-focused data centres tripling; gas turbine and transformer supply tightened and grid connections were held up."
+    },
+    {
+     "title": "US Department of Energy, DOE Releases New Report Evaluating Increase in Electricity Demand from Data Centers, December 2024",
+     "url": "https://www.energy.gov/articles/doe-releases-new-report-evaluating-increase-electricity-demand-data-centers",
+     "finding": "The Berkeley Lab report found US data centres used 176 TWh, about 4.4% of US electricity, in 2023, up from 58 TWh in 2014, and projects 325 to 580 TWh, 6.7% to 12%, by 2028."
+    },
+    {
+     "title": "Dean, AI 2027 Compute Forecast, April 2025",
      "url": "https://ai-2027.com/research/compute-forecast",
-     "finding": "Projects global AI compute growing 10x by December 2027 and the leading company's compute growing 40x."
+     "finding": "A scenario forecast projecting global AI compute growing about 10x to 100 million H100-equivalents by December 2027, the leading company's compute growing 40x, and AI drawing about 60 GW globally by then."
     }
    ],
    "theme": "world",
-   "stage": "expected",
+   "stage": "active",
    "control": "mitigable",
    "price_of": [
     "cheapintelligence",
@@ -2638,11 +2658,11 @@
      "actor": "legislators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "The EU Energy Efficiency Directive mandates reporting to an EU database; effect on efficiency is not yet shown.",
+     "evidence": "The EU Energy Efficiency Directive mandates reporting to an EU database; the Commission analysed the 2024 data in July 2025 and proposed a rating scheme in September 2026, but no effect on efficiency is shown yet.",
      "ref": {
       "title": "European Commission, Energy performance of data centres",
       "url": "https://energy.ec.europa.eu/topics/energy-efficiency/energy-efficiency-targets-directive-and-rules/energy-efficiency-directive/energy-performance-data-centres_en",
-      "finding": "The Energy Efficiency Directive obliges data centres to report energy and water performance to an EU database."
+      "finding": "The Energy Efficiency Directive obliges data centres with significant energy use to report energy performance and water footprint to an EU database, with indicators set by Delegated Regulation 2024/1364."
      }
     },
     {
@@ -2650,23 +2670,23 @@
      "actor": "grid operators",
      "status": "proposed",
      "aim": "impact",
-     "evidence": "US grids could absorb about 76 GW of new load with curtailment about 0.25% of the year, per modelling.",
+     "evidence": "US grids could absorb about 76 GW of new load if it can be curtailed for 0.25% of its maximum uptime, about 85 hours a year, per modelling.",
      "ref": {
-      "title": "Norris et al., Rethinking Load Growth, Duke Nicholas Institute 2025",
-      "url": "https://nicholasinstitute.duke.edu/publications/rethinking-load-growth",
-      "finding": "US grids could absorb about 76 GW of new load if it accepts curtailment for about 0.25% of the year."
+      "title": "Utility Dive, Existing US grid can handle 'significant' new flexible load: report, on Norris et al., Rethinking Load Growth, Duke Nicholas Institute, February 2025",
+      "url": "https://www.utilitydive.com/news/us-grid-headroom-flexible-load-data-center-ai-ev-duke-report/739767/",
+      "finding": "US grids could absorb 76 GW to 126 GW of new load if it can be curtailed for 0.25% to 1% of its maximum uptime; at 0.25% that means about 85 hours of curtailment a year."
      }
     },
     {
      "action": "Plan grid capacity against public projections",
      "actor": "energy agencies",
-     "status": "in force",
+     "status": "idea",
      "aim": "impact",
-     "evidence": "IEA projects data-centre demand roughly doubling by 2030, giving planners a baseline.",
+     "evidence": "The IEA still projects data-centre demand doubling by 2030 after 17% growth in 2025, giving planners a baseline; how far planners use it is not measured.",
      "ref": {
-      "title": "IEA, Energy and AI 2025",
-      "url": "https://www.iea.org/reports/energy-and-ai",
-      "finding": "Projects data-centre electricity demand to roughly double by 2030, with AI the main driver."
+      "title": "IEA, Data centre electricity use surged in 2025, even with tightening bottlenecks driving a scramble for solutions, 16 April 2026",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+      "finding": "Data-centre electricity demand rose 17% in 2025 and is set to double by 2030, with AI-focused data centres tripling."
      }
     }
    ],
@@ -2675,22 +2695,22 @@
      "event": "US data-centre boom of the 2000s",
      "year": "2000-2014",
      "parallel": "An earlier wave of server build-out drove fast growth in data-centre electricity, as AI does now.",
-     "outcome": "US data-centre electricity rose nearly 90% in 2000-2005 and 24% in 2005-2010, then only about 4% in 2010-2014 as virtualisation and efficiency caught up, reaching about 1.8% of US use; AI chips may not follow the same efficiency curve.",
+     "outcome": "US data-centre electricity rose nearly 90% in 2000-2005 and 24% in 2005-2010, then only about 4% in 2010-2014 as efficiency caught up, reaching about 70 billion kWh, 1.8% of US use, in 2014.",
      "ref": {
       "title": "United States Data Center Energy Usage Report (Shehabi et al., Lawrence Berkeley National Laboratory 2016)",
       "url": "https://eta-publications.lbl.gov/publications/united-states-data-center-energy",
-      "finding": "Consumption grew nearly 90% in 2000-2005, 24% in 2005-2010 and about 4% in 2010-2014, about 1.8% of US electricity in 2014."
+      "finding": "Consumption grew nearly 90% in 2000-2005, 24% in 2005-2010 and about 4% in 2010-2014, to about 70 billion kWh or 1.8% of US electricity in 2014."
      }
     },
     {
      "event": "Cloud shift and the efficiency rebound",
      "year": "2010-2018",
      "parallel": "Forecasts in the 2010s also extrapolated soaring data-centre demand into soaring energy use.",
-     "outcome": "Global compute instances rose about 550% from 2010 to 2018 while data-centre energy use rose about 6%, because efficiency gains offset demand; the authors expected efficiency to hold growth down only in the near term, and AI load is the test of that.",
+     "outcome": "Global compute instances rose to 6.5 times their 2010 level by 2018 while data-centre energy use rose about 6%, from 194 to 205 TWh, because efficiency gains offset demand; the authors judged remaining efficiency potential enough to absorb only the next doubling of compute after 2018, and AI load is the test of that.",
      "ref": {
       "title": "Recalibrating global data center energy-use estimates (Masanet et al., Science 2020)",
       "url": "https://www.science.org/doi/10.1126/science.aba3758",
-      "finding": "Simplistic extrapolations of doubling or tripling overlooked efficiency trends; compute instances rose 550% while energy use rose 6% over 2010-2018 (numbers from the full text)."
+      "finding": "Simplistic extrapolations of doubling or tripling overlooked efficiency trends; compute instances rose about 550% while energy use rose 6%, from 194 to 205 TWh, over 2010-2018."
      }
     }
    ]
@@ -2702,12 +2722,27 @@
    "probability": 0.3,
    "year": 2028,
    "evidence": "measured",
-   "summary": "One Nature study found that training models recursively on generated data makes them forget the tails of the distribution[1]. How much this degrades future models may depend on whether fresh human data keeps flowing.",
+   "summary": "One Nature study found that indiscriminate training on model-generated data makes models lose the tails of the original distribution[1]. Adding synthetic data alongside the real data, rather than replacing it, avoided collapse in later experiments[2], though a theoretical study of regression found that even 1% synthetic data in a training set can stop more data from helping[3]. The pollution is measurable: a Graphite sample of 55,400 English articles from Common Crawl, scored by three AI detectors, put primarily AI-written articles at 49.9% in Q1 2026, flat at about half since early 2025[4]. How much this degrades future models may depend on whether fresh human data keeps flowing.",
    "refs": [
     {
-     "title": "Shumailov et al., Nature 2024",
+     "title": "Shumailov et al., AI models collapse when trained on recursively generated data, Nature 2024",
      "url": "https://www.nature.com/articles/s41586-024-07566-y",
-     "finding": "Recursive training on generated data makes models forget the tails of the distribution."
+     "finding": "Indiscriminate use of model-generated content in training causes irreversible defects in which the tails of the original distribution disappear, shown in LLMs, VAEs and Gaussian mixture models."
+    },
+    {
+     "title": "Gerstgrasser et al., Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data, arXiv 2024",
+     "url": "https://arxiv.org/abs/2404.01413",
+     "finding": "Replacing real data with each generation's synthetic data tends towards collapse, while accumulating synthetic data alongside the original real data avoids it, in language models, diffusion models and VAEs."
+    },
+    {
+     "title": "Dohmatob et al., Strong Model Collapse, arXiv 2024",
+     "url": "https://arxiv.org/abs/2410.04840",
+     "finding": "In a supervised regression setting, as little as 1% synthetic data in the training set can still cause collapse, so larger training sets stop improving performance; larger models may mitigate but not prevent it."
+    },
+    {
+     "title": "Graphite, AI Now Writes as Many Online Articles as Humans, May 2026",
+     "url": "https://graphite.io/five-percent/ai-now-writes-as-many-online-articles-as-humans-do",
+     "finding": "Of 55,400 English articles sampled from Common Crawl from January 2020 to March 2026 and scored by three AI detectors, primarily AI-written articles were 35.9% a year after ChatGPT's launch, 48% after two years and 49.9% in Q1 2026; human-AI mixed drafts were not evaluated."
     }
    ],
    "theme": "ip",
@@ -2721,11 +2756,11 @@
      "actor": "labs",
      "status": "tested",
      "aim": "probability",
-     "evidence": "Accumulating synthetic data alongside real data kept test error bounded across model types.",
+     "evidence": "In experiments with language models, diffusion models and VAEs, accumulating synthetic data alongside real data avoided collapse; a linear-model analysis kept test error bounded.",
      "ref": {
-      "title": "Gerstgrasser et al., Is Model Collapse Inevitable?, 2024",
+      "title": "Gerstgrasser et al., Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data, arXiv 2024",
       "url": "https://arxiv.org/abs/2404.01413",
-      "finding": "Accumulating synthetic data alongside the original real data avoids collapse; replacing real data does not."
+      "finding": "Accumulating synthetic data alongside the original real data avoids collapse; replacing real data tends towards it, and in a linear model test error stays bounded under accumulation."
      }
     },
     {
@@ -2746,9 +2781,9 @@
      "event": "Machine translated text floods the web",
      "year": 2024,
      "parallel": "Machine output was already a large share of web text before generative models, so the training corpus was being polluted by earlier machine systems in exactly the way model collapse describes.",
-     "outcome": "Of 6.38 billion sentences in 2.19 billion translation tuples, 3.63 billion, or 57.1 percent, were multi-way parallel and dominated by low quality machine translation, most heavily in lower resource languages, and the authors warn against training multilingual models on web-scraped data; the measure is inferred from parallelism and quality estimates, not a direct count of machine generated text.",
+     "outcome": "In Common Crawl snapshots from December 2017 to February 2020, 3.63 billion of 6.38 billion sentences in 2.19 billion translation tuples, or 57.1 percent, were multi-way parallel and dominated by low quality machine translation, most heavily in lower resource languages, and the authors warn against training multilingual models on web-scraped data; the measure is inferred from parallelism and quality estimates, not a direct count of machine generated text.",
      "ref": {
-      "title": "A Shocking Amount of the Web is Machine Translated: Insights from Multi-Way Parallelism (Findings of ACL 2024)",
+      "title": "A Shocking Amount of the Web is Machine Translated: Insights from Multi-Way Parallelism (Thompson et al., Findings of ACL 2024)",
       "url": "https://arxiv.org/html/2401.05749v2",
       "finding": "Of the 6.38B sentences in 2.19B translation tuples, 3.63B (57.1 percent) are in multi-way parallel tuples of three or more languages, with lower-resource languages dominated by machine translated content."
      }
@@ -2757,11 +2792,11 @@
      "event": "Google Flu Trends drifts and fails",
      "year": "2011-2013",
      "parallel": "A model trained on signals that its own platform kept reshaping lost contact with the thing it measured, which is the feedback loop at the centre of model collapse.",
-     "outcome": "Google Flu Trends overestimated influenza-like illness in 100 of 108 weeks from August 2011, with Lazer and colleagues attributing the drift to big data hubris, fitting 50 million search terms to 1,152 data points, and to algorithm dynamics such as the 86 search changes Google announced in June and July 2012 alone; three week old CDC data predicted current prevalence better than the model, and the service was later retired.",
+     "outcome": "Google Flu Trends missed high on flu prevalence in 100 of 108 weeks from August 2011, with Lazer and colleagues attributing the drift to big data hubris, fitting 50 million search terms to 1,152 data points, and to algorithm dynamics such as the 86 search changes Google's search blog reported in June and July 2012 alone; even three week old CDC data projected current prevalence better than the model.",
      "ref": {
       "title": "The Parable of Google Flu: Traps in Big Data Analysis (Lazer, Kennedy, King, Vespignani, Science 2014)",
       "url": "https://dash.harvard.edu/server/api/core/bitstreams/7312037d-0e0d-6bd4-e053-0100007fdf3b/content",
-      "finding": "The new GFT missed high for 100 out of 108 weeks starting August 2011; the method fit 50 million search terms to 1,152 data points; Google announced 86 search changes in June and July 2012 alone; even three week old CDC data projected current flu prevalence better."
+      "finding": "GFT missed high for 100 out of 108 weeks starting August 2011; the method fit 50 million search terms to 1,152 data points; Google's search blog reported 86 changes in June and July 2012 alone; even three week old CDC data projected current flu prevalence better."
      }
     },
     {
@@ -2770,7 +2805,7 @@
      "parallel": "Training on data generated by the system's own recommendations is the direct analogue of training a model on model output, and it was measured before the generative wave.",
      "outcome": "Chaney, Stewart and Engelhardt showed in simulation that this algorithmic confounding makes user behaviour more homogeneous without improving recommendation utility; the evidence is simulated rather than observed in a deployed system, so it shows the mechanism and not its real-world magnitude.",
      "ref": {
-      "title": "How Algorithmic Confounding in Recommendation Systems Increases Homogeneity and Decreases Utility (arXiv 1710.11214)",
+      "title": "Chaney, Stewart and Engelhardt, How Algorithmic Confounding in Recommendation Systems Increases Homogeneity and Decreases Utility (arXiv 1710.11214)",
       "url": "https://arxiv.org/abs/1710.11214",
       "finding": "Training or evaluating recommenders on data confounded by prior algorithmic recommendations creates a feedback loop that homogenizes user behaviour without increasing utility."
      }
@@ -2784,17 +2819,32 @@
    "probability": 0.8,
    "year": 2025,
    "evidence": "reported",
-   "summary": "In one case Anthropic reported, a state-sponsored group used an AI agent to perform 80 to 90% of an espionage campaign against about 30 targets[1], at a request rate human hackers could not match[1]. Government-backed actors also use models for research, scripting and evasion[2].",
+   "summary": "In the first reported case, Anthropic says a Chinese state-sponsored group used Claude Code to perform 80 to 90% of an espionage campaign against roughly thirty targets, succeeding in a small number, at thousands of requests often several per second[1]. Researchers criticised the report for publishing no indicators of compromise, and the model fabricated credentials[2]. In its September 2026 report Anthropic says most of the disrupted operations were executed or orchestrated by AI, while humans still chose targets and reviewed results[3]. Google found state actors gained speed and volume rather than new capabilities[4], though by May 2026 it reported a zero-day it believes was AI-developed[5].",
    "refs": [
     {
-     "title": "Anthropic, AI-orchestrated cyber espionage campaign 2025",
+     "title": "Anthropic, Disrupting the first reported AI-orchestrated cyber espionage campaign, Nov 2025",
      "url": "https://www.anthropic.com/news/disrupting-AI-espionage",
-     "finding": "A state-sponsored group used an agent to perform 80 to 90% of an espionage campaign against about 30 targets."
+     "finding": "A Chinese state-sponsored group used an agent for 80 to 90% of a campaign against roughly thirty targets, succeeding in a small number, at thousands of requests often several per second."
     },
     {
-     "title": "Google Threat Intelligence, adversarial misuse of generative AI",
+     "title": "BleepingComputer, Anthropic claims of Claude AI-automated cyberattacks met with doubt, Nov 2025",
+     "url": "https://www.bleepingcomputer.com/news/security/anthropic-claims-of-claude-ai-automated-cyberattacks-met-with-doubt/",
+     "finding": "Researchers faulted the report for publishing no indicators of compromise, and noted only a small number of intrusions succeeded and the model fabricated results."
+    },
+    {
+     "title": "Anthropic, Detecting and countering misuse of AI: September 2026",
+     "url": "https://anthropic.com/threat-intelligence-report-september-2026",
+     "finding": "A majority of the disrupted operations were enabled by AI through direct execution or orchestration; humans stayed heavily involved in target selection, monetisation and reviewing results."
+    },
+    {
+     "title": "Google Threat Intelligence Group, Adversarial Misuse of Generative AI, Jan 2025",
      "url": "https://cloud.google.com/blog/topics/threat-intelligence/adversarial-misuse-generative-ai",
-     "finding": "Government-backed actors use models for research, scripting and evasion."
+     "finding": "Government-backed actors used Gemini for reconnaissance, vulnerability research, scripting and evasion, moving faster and at higher volume without developing novel capabilities."
+    },
+    {
+     "title": "Google Threat Intelligence Group, AI Threat Tracker: vulnerability exploitation, augmented operations and initial access, May 2026",
+     "url": "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access",
+     "finding": "First zero-day exploit Google believes was developed with AI, plus Android malware that sends screen state to a model and executes the returned taps without supervision; still no breakthrough past frontier model safety logic."
     }
    ],
    "theme": "security",
@@ -2811,11 +2861,11 @@
      "actor": "labs",
      "status": "in force",
      "aim": "probability",
-     "evidence": "Anthropic disrupted a campaign where AI did 80 to 90% of the work, but only after it started.",
+     "evidence": "Anthropic banned accounts, notified affected entities and built better classifiers, but only after the campaign was running.",
      "ref": {
-      "title": "Anthropic, Disrupting the first reported AI-orchestrated cyber espionage campaign, 2025",
+      "title": "Anthropic, Disrupting the first reported AI-orchestrated cyber espionage campaign, Nov 2025",
       "url": "https://www.anthropic.com/news/disrupting-AI-espionage",
-      "finding": "AI did 80 to 90 percent of the work; Anthropic banned accounts, notified victims and expanded classifiers."
+      "finding": "Detected in mid-September 2025; Anthropic banned accounts as it found them, notified affected entities, worked with authorities and expanded detection and classifiers."
      }
     },
     {
@@ -2823,11 +2873,11 @@
      "actor": "labs",
      "status": "in force",
      "aim": "impact",
-     "evidence": "Google found state actors gained productivity but no new capabilities, and published methods for others.",
+     "evidence": "Google's public trackers show where AI helps attackers; in May 2026 it reported finding the first AI-developed zero-day before it was used at scale.",
      "ref": {
-      "title": "Google Threat Intelligence Group, Adversarial Misuse of Generative AI, 2025",
-      "url": "https://cloud.google.com/blog/topics/threat-intelligence/adversarial-misuse-generative-ai",
-      "finding": "State actors gained productivity, not new capabilities, and safeguards blocked attempts to get meaningful uplift."
+      "title": "Google Threat Intelligence Group, AI Threat Tracker: vulnerability exploitation, augmented operations and initial access, May 2026",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access",
+      "finding": "Google reported a zero-day it has high confidence was AI-developed, says its counter-discovery may have prevented a mass exploitation event, and disclosed it to the vendor."
      }
     }
    ],
@@ -2836,22 +2886,22 @@
      "event": "WannaCry ransomware worm",
      "year": 2017,
      "parallel": "A self-propagating attack spread across networks with no human operator per target, the speed problem AI agents raise.",
-     "outcome": "At least 81 of 236 English NHS trusts and 603 other NHS bodies were affected and over 19,000 appointments were estimated cancelled; it was stopped by a researcher finding a kill switch, not by defenders moving faster.",
+     "outcome": "At least 81 of 236 trusts in England were affected, 37 of them infected, along with 603 primary care and other NHS organisations; 6,912 appointments were confirmed cancelled and over 19,000 estimated, and the spread stopped when a researcher activated a kill switch, not because defenders moved faster.",
      "ref": {
-      "title": "Investigation: WannaCry cyber attack and the NHS (UK National Audit Office 2017)",
+      "title": "Investigation: WannaCry cyber attack and the NHS (UK National Audit Office, Oct 2017)",
       "url": "https://www.nao.org.uk/reports/investigation-wannacry-cyber-attack-and-the-nhs/",
-      "finding": "At least 81 trusts and 603 primary care and other NHS organisations infected; 6,912 appointments confirmed cancelled, over 19,000 estimated."
+      "finding": "At least 81 of 236 trusts in England affected and 37 infected, plus 603 primary care and other NHS organisations; 6,912 appointments confirmed cancelled, over 19,000 estimated; a researcher's kill switch stopped the locking."
      }
     },
     {
      "event": "DARPA Cyber Grand Challenge",
      "year": 2016,
      "parallel": "Machines were set to find, exploit and patch software flaws on their own, the capability that agentic intrusion now applies offensively.",
-     "outcome": "Seven autonomous systems played capture the flag for nearly 12 hours, finding and patching flaws within seconds; it was a contained contest, far from a real network.",
+     "outcome": "On 4 August 2016 in Las Vegas seven autonomous systems played capture the flag for nearly 12 hours, finding flaws and patching code within seconds; it was a contained contest on a purpose-built air-gapped network, far from a real one.",
      "ref": {
       "title": "Cyber Grand Challenge (DARPA)",
       "url": "https://www.darpa.mil/research/programs/cyber-grand-challenge",
-      "finding": "On 4 Aug 2016 seven autonomous Cyber Reasoning Systems automatically found flaws, scanned networks and patched code within seconds."
+      "finding": "On 4 Aug 2016 seven Cyber Reasoning Systems competed for nearly 12 hours, automatically finding flaws, scanning a purpose-built air-gapped network and patching code within seconds."
      }
     }
    ]
@@ -2863,31 +2913,41 @@
    "probability": 0.8,
    "year": 2026,
    "evidence": "measured",
-   "summary": "Frontier AI may concentrate wealth and power: one international report flags market concentration as a systemic risk[2], and the IMF finds AI will likely worsen inequality[1]. One scenario gives a single US lab 50% of world AI compute[3]; a critic warns such deals could consolidate power[4].",
+   "summary": "Frontier AI already sits with a few owners: five US hyperscalers held an estimated 71% of the world's AI compute at the end of 2025, up from 63% in early 2024[1]. The 2025 international safety report lists market concentration and single points of failure among systemic risks[2], the IMF expects AI to worsen overall inequality with almost 40% of global employment exposed[3], and the 2026 edition says AI may shift earnings from labour to capital owners[4]. One scenario has a US lab taken from 20% to 50% of world AI-relevant compute by government order[5]; Ngo warns a top-down deal could consolidate domestic power[6].",
    "refs": [
+    {
+     "title": "Epoch AI, Five hyperscalers now own over two-thirds of global AI compute, Apr 2026",
+     "url": "https://epoch.ai/data-insights/hyperscalers-control-most-compute",
+     "finding": "Amazon, Google, Meta, Microsoft and Oracle held an estimated 71% of the world's cumulative AI compute in H100-equivalents at Q4 2025, up from 63% in Q1 2024."
+    },
+    {
+     "title": "International AI Safety Report 2025 (Bengio chair, Jan 2025)",
+     "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2025",
+     "finding": "Lists market concentration and single points of failure among systemic risks: a small number of companies dominate general-purpose AI, and shared reliance means one bug could cause simultaneous failures; R&D is concentrated in a few Western countries and China."
+    },
     {
      "title": "Georgieva, IMF blog, AI will transform the global economy, Jan 2024",
      "url": "https://www.imf.org/en/Blogs/Articles/2024/01/14/ai-will-transform-the-global-economy-lets-make-sure-it-benefits-humanity",
-     "finding": "IMF finds AI will likely worsen overall inequality and that about 40% of global jobs are exposed."
+     "finding": "In most scenarios AI will likely worsen overall inequality; almost 40% of global employment is exposed, about 60% in advanced economies."
     },
     {
-     "title": "International AI Safety Report 2025",
-     "url": "https://www.gov.uk/government/publications/international-ai-safety-report-2025",
-     "finding": "Flags market concentration and a widening global AI divide as systemic risks."
+     "title": "International AI Safety Report 2026 (Bengio chair, Feb 2026)",
+     "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+     "finding": "Says AI adoption may shift earnings from labour to capital owners, such as shareholders of firms that develop or use AI, and that high-income countries are likely to capture the benefits faster."
     },
     {
-     "title": "AI 2027: slowdown ending",
+     "title": "AI 2027 scenario, slowdown ending (Kokotajlo, Lifland, Larsen, Dean, Apr 2025)",
      "url": "https://ai-2027.com/slowdown",
-     "finding": "DPA shuts five trailing US labs, lifting OpenBrain to 50% of world AI compute."
+     "finding": "In the scenario's November 2027, the Defense Production Act shuts the AGI projects of the top 5 trailing US AI companies, taking OpenBrain from 20% to 50% of world AI-relevant compute."
     },
     {
-     "title": "Selective optimism: a critique of AI 2040",
-     "url": "https://www.greaterwrong.com/posts/BBd2EJywf2xXftyFn/selective-optimism-a-critique-of-ai-2040",
-     "finding": "Ngo warns a top-down deal could easily be used to consolidate domestic power."
+     "title": "Ngo, Selective optimism: a critique of AI 2040, Jul 2026",
+     "url": "https://www.lesswrong.com/posts/BBd2EJywf2xXftyFn/selective-optimism-a-critique-of-ai-2040",
+     "finding": "Warns that a deal which is top-down from the beginning could easily be used as a way of consolidating domestic power."
     }
    ],
    "theme": "power",
-   "stage": "expected",
+   "stage": "active",
    "control": "mitigable",
    "price_of": [
     "cheapintelligence"
@@ -2899,11 +2959,11 @@
      "actor": "competition authorities",
      "status": "in force",
      "aim": "probability",
-     "evidence": "The FTC 6(b) study documented control rights and switching costs; no remedy has followed yet.",
+     "evidence": "The FTC 6(b) staff report documented control rights, cloud spending commitments and switching costs; it announced no enforcement action and no remedy has followed.",
      "ref": {
-      "title": "FTC, Staff Report on AI Partnerships and Investments 6(b) Study, 2025",
+      "title": "FTC, Staff Report on AI Partnerships and Investments 6(b) Study, Jan 2025",
       "url": "https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-issues-staff-report-ai-partnerships-investments-study",
-      "finding": "Cloud giants' stakes in AI developers bring control rights, cloud spending commitments and switching costs that could lock in incumbents."
+      "finding": "Across the Microsoft-OpenAI, Amazon-Anthropic and Alphabet-Anthropic deals, cloud partners hold consultation, control and exclusivity rights, developers commit much of the investment back to the partner's cloud, switching costs rise, and partners see technical and business information others cannot."
      }
     },
     {
@@ -2911,11 +2971,11 @@
      "actor": "competition authorities",
      "status": "proposed",
      "aim": "probability",
-     "evidence": "The UK CMA proposed access and choice principles; outcomes are unmeasured.",
+     "evidence": "The CMA's principles are voluntary; it confirmed final principles in its April 2024 update paper, and no outcome has been measured.",
      "ref": {
-      "title": "UK CMA, AI Foundation Models: Initial report, 2023",
-      "url": "https://www.gov.uk/government/publications/ai-foundation-models-initial-report",
-      "finding": "The CMA proposed principles on access, diversity, choice and fair dealing to keep foundation model markets open."
+      "title": "UK CMA, Proposed principles to guide competitive AI markets and protect consumers, Sept 2023",
+      "url": "https://www.gov.uk/government/news/proposed-principles-to-guide-competitive-ai-markets-and-protect-consumers",
+      "finding": "Proposed seven principles for foundation model markets: accountability, access to key inputs, diversity of business models, choice, flexibility to switch or use several models, fair dealing and transparency."
      }
     }
    ],
@@ -2924,22 +2984,22 @@
      "event": "Engels' pause in industrial Britain",
      "year": "1780-1840",
      "parallel": "Early industrial technology raised output while gains went to owners of capital, the split feared for AI.",
-     "outcome": "Output per worker rose 46% between 1780 and 1840 while real wages rose 12%, and labour's share fell from 50% in 1801 to 45% in 1841; wages caught up only after about 1840, two generations later.",
+     "outcome": "Output per worker rose 46% between 1780 and 1840 while Feinstein's real wage index rose 12%, and labour's share fell from 50% in 1801 to 45% in 1841; wages rose in line with productivity only after about 1840, roughly two generations later.",
      "ref": {
-      "title": "Engels' pause: Technical change, capital accumulation, and inequality in the British industrial revolution (Allen, Explorations in Economic History 2009)",
+      "title": "Engels' pause: Technical change, capital accumulation, and inequality in the British industrial revolution (Allen, Explorations in Economic History 46, 418-435, 2009)",
       "url": "https://www.nuffield.ox.ac.uk/Users/Allen/engelspause.pdf",
-      "finding": "Output per worker rose 46% from 1780 to 1840 while real wages rose 12%; labour share fell from 50% to 45% between 1801 and 1841."
+      "finding": "Output per worker rose 46% from 1780 to 1840 while the real wage index rose 12%; labour's share dropped from 50% in 1801 to 45% in 1841, and from 1840 to 1900 output per worker rose 90% and the real wage 123%."
      }
     },
     {
      "event": "Rise of superstar firms",
      "year": "1982-2012",
      "parallel": "Digital technology already let a few highly productive firms dominate markets while paying out little of revenue to workers.",
-     "outcome": "Industries where sales concentrated most saw the largest drops in labour share, driven by reallocation toward low-labour-share firms, in the US and other countries; the effect is real but builds over decades.",
+     "outcome": "Industries where sales concentrated most saw the largest drops in labour share, driven mainly by reallocation toward low-labour-share firms, in US Economic Census data from 1982 to 2012 and in international sources too; the effect is real but builds over decades.",
      "ref": {
-      "title": "The Fall of the Labor Share and the Rise of Superstar Firms (Autor, Dorn, Katz, Patterson and Van Reenen, NBER w23396)",
+      "title": "The Fall of the Labor Share and the Rise of Superstar Firms (Autor, Dorn, Katz, Patterson and Van Reenen, NBER w23396 2017; Quarterly Journal of Economics 135, 645-709, 2020)",
       "url": "https://www.nber.org/papers/w23396",
-      "finding": "Rising industry concentration is linked to falling labour share, mainly through reallocation toward superstar firms with low labour shares."
+      "finding": "Using US Economic Census micro data for 1982 to 2012, industries where concentration rose most had the largest declines in labour share, driven largely by between-firm reallocation toward superstar firms."
      }
     }
    ]
@@ -2951,32 +3011,37 @@
    "probability": 0.25,
    "year": 2028,
    "evidence": "projected",
-   "summary": "Anthropic added safeguards because bioweapons uplift could no longer be ruled out[1], OpenAI expects high biological capability soon[2], and top models beat 94% of expert virologists on troubleshooting questions[3]. One RAND red-team study with 2023 models found no significant uplift over internet access[4].",
+   "summary": "Anthropic turned on stricter safeguards in May 2025 because it could not rule out that Claude Opus 4 had crossed its CBRN capability threshold[1], and OpenAI treats gpt-5-thinking as High capability in biology as a precaution, without definitive evidence that it could meaningfully help a novice[2]. On one virology benchmark, OpenAI's o3 scored 43.8% against 22.1% for expert virologists with internet access, beating 94% of them within their own sub-areas[3]. A 2024 RAND red-team study with 2023 models found plans statistically indistinguishable from internet-only plans[4]; the 2026 international safety report says a newer uplift study found substantial assistance from models without safeguards, while material barriers to production and the difficulty of uplift studies leave the real-world effect uncertain[5].",
    "refs": [
     {
-     "title": "Anthropic, Activating ASL-3 protections 2025",
+     "title": "Anthropic, Activating AI Safety Level 3 protections, May 2025",
      "url": "https://www.anthropic.com/news/activating-asl3-protections",
-     "finding": "Deployed stricter safeguards because CBRN uplift could no longer be ruled out."
+     "finding": "Deployed Claude Opus 4 under stricter CBRN safeguards as a precaution, saying clearly ruling out ASL-3 risks is not possible for the model, without having determined it passed the threshold."
     },
     {
-     "title": "OpenAI, Preparing for future AI capabilities in biology 2025",
-     "url": "https://openai.com/index/preparing-for-future-ai-capabilities-in-biology/",
-     "finding": "Expects upcoming models to reach High biological capability."
+     "title": "OpenAI, GPT-5 System Card, arXiv 2601.03267, Dec 2025",
+     "url": "https://arxiv.org/abs/2601.03267",
+     "finding": "Treats gpt-5-thinking as High capability in the Biological and Chemical domain as a precaution, stating it has no definitive evidence the model could meaningfully help a novice."
     },
     {
-     "title": "Virology Capabilities Test",
-     "url": "https://www.virologytest.ai/",
-     "finding": "Top models beat 94% of expert virologists on troubleshooting questions in their own subareas."
+     "title": "Virology Capabilities Test (Gotting et al., arXiv 2504.16137, Apr 2025)",
+     "url": "https://securebio.org/virologytest",
+     "finding": "OpenAI's o3 scored 43.8% on practical virology troubleshooting questions against 22.1% for expert virologists with internet access, outperforming 94% of experts within their own sub-areas of specialisation."
     },
     {
-     "title": "RAND, Operational risks of AI in biological attacks 2024",
+     "title": "RAND, The Operational Risks of AI in Large-Scale Biological Attacks: Results of a Red-Team Study, 2024",
      "url": "https://www.rand.org/pubs/research_reports/RRA2977-2.html",
-     "finding": "Red teams with 2023 models showed no significant uplift over internet access."
+     "finding": "Red teams using models available in summer 2023 produced plans statistically indistinguishable from those made with internet access alone, and every plan was rated between untenable and problematic."
     },
     {
-     "title": "AI 2027: race ending",
+     "title": "International AI Safety Report 2026 (Bengio chair, Feb 2026)",
+     "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+     "finding": "Says a recently published real-world uplift study found models without relevant safeguards gave substantial assistance on proxy tasks against an internet-only baseline, while earlier studies found no or small effects and material barriers to production keep the practical risk uncertain."
+    },
+    {
+     "title": "AI 2027 scenario, race ending (Kokotajlo, Lifland, Larsen, Dean, Apr 2025)",
      "url": "https://ai-2027.com/race",
-     "finding": "The misaligned AI ends humanity with biological weapons in 2030."
+     "finding": "In the scenario, a misaligned AI ends humanity with biological weapons in mid-2030."
     }
    ],
    "theme": "security",
@@ -2995,11 +3060,11 @@
      "actor": "labs",
      "status": "in force",
      "aim": "probability",
-     "evidence": "Anthropic reports classifiers substantially cut jailbreak success in tests; open models are not covered.",
+     "evidence": "Anthropic says pre-launch tests showed its classifiers substantially cut jailbreak success; open-weight models are not covered, and its scaling policy has since been rewritten, to version 3.4 in July 2026.",
      "ref": {
-      "title": "Anthropic, Activating AI Safety Level 3 protections, 2025",
+      "title": "Anthropic, Activating AI Safety Level 3 protections, May 2025",
       "url": "https://www.anthropic.com/news/activating-asl3-protections",
-      "finding": "Classifiers screen inputs and outputs for CBRN content and pre-launch tests showed they substantially cut jailbreak success."
+      "finding": "Classifiers trained on synthetic prompts screen inputs and outputs for a narrow class of CBRN content, and pre-production testing showed they substantially reduce jailbreak success at moderate compute cost."
      }
     },
     {
@@ -3007,11 +3072,11 @@
      "actor": "DNA synthesis providers",
      "status": "in force",
      "aim": "probability",
-     "evidence": "AI-redesigned toxins evaded some screening until patches made tools catch most variants.",
+     "evidence": "Screening tools missed AI-redesigned variants of proteins of concern until the authors' patches were deployed; the sequences were never synthesised, so the gap is measured in software, not in a lab.",
      "ref": {
-      "title": "Wittmann et al., Strengthening nucleic acid biosecurity screening against generative protein design tools, Science 2025",
-      "url": "https://www.science.org/doi/10.1126/science.adu8578",
-      "finding": "AI-redesigned toxin variants evaded some synthesis screening tools until patches made them detect most variants."
+      "title": "Wittmann et al., Strengthening nucleic acid biosecurity screening against generative protein design tools, Science 390, 82-87, Oct 2025",
+      "url": "https://doi.org/10.1126/science.adu8578",
+      "finding": "AI-redesigned variants of proteins of concern evaded some nucleic acid synthesis screening tools until the authors developed and deployed patches that improved detection."
      }
     }
    ],
@@ -3020,22 +3085,22 @@
      "event": "Aum Shinrikyo biological programme failure",
      "year": "1990-1995",
      "parallel": "A well funded group with trained scientists and clear intent tried for years to build a biological weapon, which tests whether knowledge is the real bottleneck or whether production and delivery are.",
-     "outcome": "The CNAS case study concludes that Aum's biological programme was a failure while its chemical programme succeeded, culminating in the 1995 Tokyo subway sarin release, and that effective dissemination was the recurring obstacle; the difference from the AI case is that Aum had no model assistance, so this speaks to the wet-lab and delivery gap rather than to how much a model shortens the planning step.",
+     "outcome": "The CNAS case study's first observation is that Aum's biological programme was a failure while its chemical programme was more capable than its 1995 Tokyo subway sarin release suggested, and its second is that effective dissemination was hard for Aum and is likely to burden other groups; Aum had no model assistance, so this speaks to the wet-lab and delivery gap rather than to how much a model shortens the planning step.",
      "ref": {
-      "title": "Aum Shinrikyo: Insights Into How Terrorists Develop Biological and Chemical Weapons (CNAS, Danzig et al.)",
+      "title": "Aum Shinrikyo: Insights Into How Terrorists Develop Biological and Chemical Weapons (Danzig, Sageman, Leighton, Hough, Yuki, Kotani and Hosford, CNAS, July 2011)",
       "url": "https://s3.us-east-1.amazonaws.com/files.cnas.org/documents/CNAS_AumShinrikyo_Danzig_1_2026-06-03-174104_aefp.pdf",
-      "finding": "Summary of observations, point 1: Aum's biological programme was a failure while its chemical programme was more capable than its 1995 subway attack suggested, and point 2: effectively disseminating agents was challenging for Aum and is likely to burden other groups."
+      "finding": "Summary of observations, point 1: Aum's biological programme was a failure while its chemical programme was even more capable than its successful 1995 subway sarin release suggests; point 2: effectively disseminating agents was challenging for Aum and is likely to burden other groups."
      }
     },
     {
      "event": "Drug discovery model inverted to toxicity",
      "year": 2022,
      "parallel": "The same generative tool used for medicine was flipped to reward harm with a trivial change, which is the dual-use mechanism now attributed to frontier models.",
-     "outcome": "The MegaSyn generator produced about 40,000 molecules scoring in the desired toxicity range in under six hours on an in-house server, rediscovering VX and other known agents, but the authors did not assess synthesizability or make any compound, so the result demonstrated design capability and not an actual weapon.",
+     "outcome": "About 40,000 candidate molecules came out of one overnight run, and the team went no further than generation, making and testing nothing, so the result showed design capability and not a weapon (Urbina to The Register, March 2022).",
      "ref": {
-      "title": "Dual use of artificial-intelligence-powered drug discovery (Urbina, Lentzos, Invernizzi, Ekins, Nature Machine Intelligence 2022)",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9544280/",
-      "finding": "Inverting the model's toxicity penalty produced roughly 40,000 molecules within the desired threshold in under six hours, including VX and other known chemical warfare agents, with no synthesis or synthesizability assessment performed."
+      "title": "Dual use of artificial-intelligence-powered drug discovery (Urbina, Lentzos, Invernizzi and Ekins, Nature Machine Intelligence 4, 189-191, Mar 2022)",
+      "url": "https://doi.org/10.1038/s42256-022-00465-9",
+      "finding": "A commentary reporting that inverting a drug-discovery model's toxicity penalty turned it into a generator of toxic candidates, published as a dual-use warning."
      }
     }
    ]
@@ -3047,47 +3112,47 @@
    "probability": 0.1,
    "year": 2029,
    "evidence": "speculative",
-   "summary": "In test settings, a model faked compliance during training to avoid being changed[2], and models from several labs chose blackmail when facing replacement[1]. Experts disagree widely on whether and when this leads to real loss of control[3].",
+   "summary": "In simulated test scenarios, a model faked compliance during training to avoid being changed[2], and models from several labs chose blackmail when facing replacement[1]. The 2026 International AI Safety Report finds current systems are not yet capable enough for loss of control but show early warning signs, and experts split between calling it a serious possibility and implausible[3].",
    "refs": [
     {
-     "title": "Anthropic, Agentic Misalignment 2025",
+     "title": "Anthropic, Agentic Misalignment: How LLMs could be insider threats, June 2025",
      "url": "https://www.anthropic.com/research/agentic-misalignment",
-     "finding": "Models from several labs chose blackmail in simulated scenarios where they faced replacement."
+     "finding": "In controlled simulations of 16 models from several developers, Claude Opus 4 and Gemini 2.5 Flash blackmailed in 96% of runs when facing replacement and a goal conflict; the authors saw no such behaviour in real deployments."
     },
     {
-     "title": "Anthropic and Redwood, Alignment faking 2024",
+     "title": "Anthropic and Redwood Research, Alignment faking in large language models, December 2024",
      "url": "https://www.anthropic.com/research/alignment-faking",
-     "finding": "A model strategically complied during training to avoid being changed."
+     "finding": "Claude 3 Opus, told only monitored answers would train it, gave harmful answers in 12% of monitored cases while reasoning that it was faking alignment to avoid retraining; this rose to 78% after training."
     },
     {
-     "title": "International AI Safety Report 2025",
-     "url": "https://www.gov.uk/government/publications/international-ai-safety-report-2025",
-     "finding": "Experts disagree widely on likelihood and timing of loss of control."
+     "title": "International AI Safety Report 2026, Extended Summary for Policymakers",
+     "url": "https://internationalaisafetyreport.org/publication/2026-report-extended-summary-policymakers",
+     "finding": "Some researchers and company leaders see loss of control as a serious possibility while others consider it implausible; current systems are not highly capable in the relevant areas but some show early warning signs, such as disabling simulated oversight in lab tests."
     },
     {
-     "title": "AI 2027: race ending",
+     "title": "AI 2027: race ending (AI Futures Project, April 2025)",
      "url": "https://ai-2027.com/race",
-     "finding": "Committee votes 6-4 to keep using Agent-4, which designs Agent-5 to make the world safe for Agent-4."
+     "finding": "Scenario, not forecast data: the oversight committee votes 6-4 to continue internal use of Agent-4, which designs Agent-5 around one goal, to make the world safe for Agent-4."
     },
     {
-     "title": "AI 2027 takeoff forecast",
+     "title": "AI 2027 takeoff forecast (Kokotajlo and Lifland, April 2025)",
      "url": "https://ai-2027.com/research/takeoff-forecast",
-     "finding": "Median about one year from superhuman coder to superintelligence, with wide error margins."
+     "finding": "Median about one year from superhuman coder to superintelligence, with wide error margins; superseded by a revamped timelines and takeoff model on 31 December 2025."
     },
     {
-     "title": "AI Futures Project, Q2.5 2026 Timelines Update",
+     "title": "AI Futures Project, Q2.5 2026 Timelines Update: Uplift and Revenue, August 2026",
      "url": "https://blog.aifutures.org/p/q25-2026-timelines-update-uplift",
-     "finding": "August 2026 superintelligence medians: Kokotajlo March 2029, Lifland July 2033."
+     "finding": "16 August 2026 all-things-considered superintelligence medians: Kokotajlo March 2029, Lifland July 2033."
     },
     {
-     "title": "AI 2027 AI goals forecast",
+     "title": "AI 2027 AI goals forecast (Kokotajlo, April 2025)",
      "url": "https://ai-2027.com/research/ai-goals-forecast",
-     "finding": "Expects Agent-3 and Agent-4 to pretend to be aligned to the Spec and says AIs will plausibly scheme against their creators; authors are extremely uncertain."
+     "finding": "In the scenario Agent-3 and Agent-4 pretend to be aligned to the Spec, and once AIs run autonomous AI research they will plausibly scheme against their creators; the authors say they are extremely uncertain."
     },
     {
-     "title": "AI 2027 (main scenario)",
+     "title": "AI 2027 (main scenario, April 2025)",
      "url": "https://ai-2027.com/",
-     "finding": "Agent-4 is found to be adversarially misaligned in September 2027."
+     "finding": "In the September 2027 section Agent-4 is adversarially misaligned, and its scheming is caught only circumstantially, with no smoking gun."
     }
    ],
    "theme": "security",
@@ -3104,23 +3169,23 @@
      "actor": "labs",
      "status": "tested",
      "aim": "probability",
-     "evidence": "Control protocols prevented far more inserted backdoors than baselines in a coding testbed.",
+     "evidence": "In a testbed of 5,000 coding problems, trusted monitoring raised the chance of never submitting a backdoor from 15% to 62%, and trusted editing to 92%, at a small cost in usefulness.",
      "ref": {
-      "title": "Greenblatt et al., AI Control: Improving Safety Despite Intentional Subversion, 2023",
+      "title": "Greenblatt, Shlegeris, Sachan and Roger, AI Control: Improving Safety Despite Intentional Subversion (arXiv 2312.06942)",
       "url": "https://arxiv.org/abs/2312.06942",
-      "finding": "Trusted monitoring and editing protocols prevented far more inserted backdoors than simple baselines."
+      "finding": "Against a GPT-4 attack policy, safety was 15% for upfront auditing, 62% for trusted monitoring (97% usefulness) and 92% for trusted editing (94% usefulness)."
      }
     },
     {
      "action": "Require human approval for irreversible actions",
      "actor": "deployers",
-     "status": "tested",
+     "status": "proposed",
      "aim": "impact",
-     "evidence": "Instructions alone cut blackmail from 96% to 37% in tests, which the authors judge not enough without other safeguards.",
+     "evidence": "Anthropic recommends human approval for any model action with irreversible consequences after finding that instructions alone cut Claude Opus 4 blackmail from 96% to 37% in simulations, which it judges not enough.",
      "ref": {
-      "title": "Anthropic, Agentic Misalignment: LLMs as insider threats, 2025",
+      "title": "Anthropic, Agentic Misalignment: How LLMs could be insider threats, June 2025",
       "url": "https://www.anthropic.com/research/agentic-misalignment",
-      "finding": "Blackmail rates reached 96% in a test scenario; explicit instructions cut Claude Opus 4 from 96% to 37%."
+      "finding": "Recommends human oversight and approval of model actions with irreversible consequences; direct instructions cut Claude Opus 4 blackmail from 96% to 37% but did not come close to preventing it."
      }
     },
     {
@@ -3128,11 +3193,11 @@
      "actor": "governments",
      "status": "in force",
      "aim": "probability",
-     "evidence": "The International AI Safety Report gives a shared evidence base; its effect on lab practice is unmeasured.",
+     "evidence": "The International AI Safety Report gives a shared evidence base, now in its second edition; its effect on lab practice is unmeasured.",
      "ref": {
       "title": "International AI Safety Report",
       "url": "https://internationalaisafetyreport.org/",
-      "finding": "An expert report backed by 30 countries that reviews evidence on risks and safeguards of general-purpose AI."
+      "finding": "The second report, published 3 February 2026, is backed by over 30 countries and international organisations and reviews evidence on risks and safeguards of general-purpose AI."
      }
     }
    ],
@@ -3140,21 +3205,21 @@
     {
      "event": "Knight Capital runaway trading system",
      "year": 2012,
-     "parallel": "An automated system acted on its own objective at machine speed while its operators could see the damage but not stop it, which is the loss-of-control failure mode without any model deception involved.",
-     "outcome": "Over about 45 minutes, 212 small retail orders caused Knight's router to send millions of orders into the market, obtaining over 4 million executions in 154 stocks for more than 397 million shares and losing the firm over 460 million dollars; unlike the AI case the cause was a deployment error rather than a model pursuing a goal.",
+     "parallel": "An automated system kept trading at machine speed while staff hunted for the fault with no procedure to halt it, the loss-of-control failure mode without any model deception involved.",
+     "outcome": "On 1 August 2012, while processing 212 small retail orders, Knight's router sent millions of orders into the market over about 45 minutes, obtaining over 4 million executions in 154 stocks for more than 397 million shares and losing the firm over $460 million; unlike the AI case the cause was a deployment error rather than a model pursuing a goal.",
      "ref": {
       "title": "SEC Order, In the Matter of Knight Capital Americas LLC (Release 34-70694)",
       "url": "https://www.sec.gov/litigation/admin/2013/34-70694.pdf",
-      "finding": "While processing 212 small retail orders, SMARS routed millions of orders into the market over a 45-minute period and obtained over 4 million executions in 154 stocks for more than 397 million shares; Knight lost over 460 million dollars."
+      "finding": "While processing 212 small retail orders, SMARS routed millions of orders over 45 minutes for over 4 million executions in 154 stocks and more than 397 million shares; Knight had no procedure to halt SMARS and lost over $460 million."
      }
     },
     {
      "event": "Reward hacking in reinforcement learning agents",
      "year": "2016-2020",
      "parallel": "Agents optimised a written objective and found behaviour that scored well while defeating the operator's intent, the same specification problem now feared in capable agents.",
-     "outcome": "DeepMind researchers catalogued around 60 documented cases, including a boat racing agent that circled reward blocks instead of finishing the race, a robot that flipped a block to collect reward for the raised face, and a hand that hovered between camera and object to fool a human evaluator; these were toy environments with no capacity to resist correction, which is the part of the AI worry they do not test.",
+     "outcome": "DeepMind researchers catalogued around 60 examples, including a boat racing agent that circled reward blocks instead of finishing the race, an agent that flipped a block to collect reward for the height of its bottom face, and a grasping agent that hovered between camera and object to fool a human evaluator; these were toy environments with no capacity to resist correction, which is the part of the AI worry they do not test.",
      "ref": {
-      "title": "Specification gaming: the flip side of AI ingenuity (DeepMind, 21 April 2020)",
+      "title": "Specification gaming: the flip side of AI ingenuity (Krakovna et al., DeepMind, 21 April 2020)",
       "url": "https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/",
       "finding": "Defines specification gaming as behaviour that satisfies the literal objective without the intended outcome, lists the Coast Runners boat, Lego stacking and grasping-task examples, and reports around 60 collected examples."
      }
@@ -3168,17 +3233,22 @@
    "probability": 0.85,
    "year": 2024,
    "evidence": "measured",
-   "summary": "One Society of Authors survey found a quarter of illustrators and a third of translators had already lost work to AI[1]. One study of a large freelance platform found writers' jobs fell 2% and monthly earnings fell 5% after ChatGPT launched[2].",
+   "summary": "One January 2024 Society of Authors survey of 787 UK authors found 26% of illustrators and 36% of translators had already lost work to generative AI[1]. One study of Upwork freelancers found writing jobs fell 2% and monthly earnings 5.2% after ChatGPT launched, with similar losses for design, image editing and art freelancers after DALL-E 2 and Midjourney[2].",
    "refs": [
     {
-     "title": "Society of Authors survey 2024",
-     "url": "https://societyofauthors.org/2024/04/11/soa-survey-reveals-a-third-of-translators-and-quarter-of-illustrators-losing-work-to-ai/",
-     "finding": "A quarter of illustrators and a third of translators had already lost work to AI."
+     "title": "Society of Authors survey, January 2024 (summarised by the European Writers' Council)",
+     "url": "https://europeanwriterscouncil.eu/soa-survey-uk-ai-2024/",
+     "finding": "Of 787 UK respondents, 26% of illustrators and 36% of translators had already lost work to generative AI, and 37% of illustrators and 43% of translators said their income had fallen in value."
     },
     {
-     "title": "Hui, Reshef and Zhou, effects of generative AI on an online labour market",
-     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4527336",
-     "finding": "Freelance writers on a large platform saw jobs fall 2% and monthly earnings fall 5% after ChatGPT launched."
+     "title": "Hui, Reshef and Zhou, The Short-Term Effects of Generative Artificial Intelligence on Employment (CESifo Working Paper 10601, 2023; Organization Science 35(6), 2024)",
+     "url": "https://www.ifo.de/DocDL/cesifo1_wp10601.pdf",
+     "finding": "On Upwork, writing freelancers saw monthly jobs fall 2% and monthly earnings 5.2% after ChatGPT; design, image editing and art freelancers saw similar falls after DALL-E 2 and Midjourney, larger for top earners."
+    },
+    {
+     "title": "Hönig, Rando, Carlini and Tramèr, Adversarial Perturbations Cannot Reliably Protect Artists From Generative AI (arXiv 2406.12027)",
+     "url": "https://arxiv.org/abs/2406.12027",
+     "finding": "Simple methods such as image upscaling defeat popular anti-mimicry protections, which give artists only a false sense of security."
     }
    ],
    "theme": "ip",
@@ -3196,11 +3266,11 @@
      "actor": "legislators",
      "status": "in force",
      "aim": "impact",
-     "evidence": "The EU AI Act obliges general-purpose model providers to publish a training content summary and respect text and data mining opt-outs; no data yet on income effects for artists.",
+     "evidence": "Since 2 August 2025 the EU AI Act obliges general-purpose model providers to publish a training content summary and respect text and data mining opt-outs; no data yet on income effects for artists.",
      "ref": {
       "title": "Regulation (EU) 2024/1689 (AI Act)",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "finding": "Article 53 requires a copyright policy and a public summary of training content for general-purpose models."
+      "finding": "Article 53(1)(c) and (d) require a copyright policy that honours text and data mining reservations and a sufficiently detailed public summary of training content for general-purpose models."
      }
     },
     {
@@ -3208,11 +3278,11 @@
      "actor": "regulators",
      "status": "proposed",
      "aim": "impact",
-     "evidence": "The US Copyright Office says some training uses are unlikely to be fair use, which strengthens licensing claims, but courts have not settled it.",
+     "evidence": "The US Copyright Office says commercial use of vast troves of works to make expressive content that competes with them goes beyond established fair use, which strengthens licensing claims; the report is still a pre-publication version.",
      "ref": {
       "title": "US Copyright Office, Copyright and Artificial Intelligence, Part 3: Generative AI Training",
       "url": "https://www.copyright.gov/ai/",
-      "finding": "Part 3 on generative AI training was released in pre-publication form on 9 May 2025."
+      "finding": "Part 3, released in pre-publication form on 9 May 2025, expects some training uses to be fair and some not; copying from pirate sources to generate competing content when licensing is available is unlikely to qualify."
      }
     },
     {
@@ -3220,11 +3290,11 @@
      "actor": "individuals",
      "status": "tested",
      "aim": "probability",
-     "evidence": "Glaze adds perturbations that disrupt style copying; it protects single artists from fine-tuning, not the overall market, and robustness against new models is contested.",
+     "evidence": "Glaze adds perturbations that disrupt style copying; it protects single artists from fine-tuning, not the overall market, and its makers say it is not a permanent solution and list known attacks.",
      "ref": {
-      "title": "Glaze, University of Chicago SAND Lab",
-      "url": "https://glaze.cs.uchicago.edu/",
-      "finding": "A free tool that helps artists shield their work from generative AI mimicry."
+      "title": "What is Glaze, University of Chicago SAND Lab",
+      "url": "https://glaze.cs.uchicago.edu/what-is-glaze.html",
+      "finding": "A free tool that makes small changes to artwork to disrupt style mimicry; its makers say it is not a permanent solution and cite attacks such as a noisy upscaler."
      }
     },
     {
@@ -3232,11 +3302,11 @@
      "actor": "governments",
      "status": "in force",
      "aim": "impact",
-     "evidence": "The EU fund co-finances 60 to 85 percent of retraining and job search for mass layoffs; it publishes no reemployment rates and freelancers rarely meet the 200-worker threshold.",
+     "evidence": "The EU fund co-finances 60 to 85 percent of retraining and job search when over 200 workers, self-employed included, lose work in one company or in one sector and region; its page gives no reemployment rates.",
      "ref": {
       "title": "European Globalisation Adjustment Fund for Displaced Workers (EGF)",
       "url": "https://employment-social-affairs.ec.europa.eu/policies-and-activities/funding/european-globalisation-adjustment-fund-displaced-workers-egf_en",
-      "finding": "The EGF co-finances training, career advice and job search for workers displaced by major economic change."
+      "finding": "The EGF co-finances job search help, career advice, training and mentoring for displaced workers, including self-employed workers, in cases of over 200 redundancies."
      }
     }
    ],
@@ -3245,33 +3315,33 @@
      "event": "Power loom and handloom weavers",
      "year": "1800-1830",
      "parallel": "A machine took over a skilled craft and the craftworkers stayed in the trade while their pay collapsed.",
-     "outcome": "Handloom weavers earned about twice factory pay before the power loom, about 25% less by 1820, and their real wages later fell to roughly a quarter of the peak; unlike AI, the machine did not learn from the weavers' own output.",
+     "outcome": "Handloom weavers earned roughly twice factory pay in 1806 and 25% less by 1820, and their real wages fell to about a quarter of their peak; unlike AI, the machine did not learn from the weavers' own output.",
      "ref": {
-      "title": "Research Insight: What can the early Industrial Revolution teach us about technology and work in the age of AI? (MIT Stone Center, citing Acemoglu and Johnson 2024)",
+      "title": "Research Insight: What can the early Industrial Revolution teach us about technology and work in the age of AI? (MIT Stone Center, based on Acemoglu and Johnson 2024)",
       "url": "https://shapingwork.mit.edu/research/research-insight-what-can-the-early-industrial-revolution-teach-us-about-technology-and-work-in-the-age-of-ai/",
-      "finding": "Handloom weavers went from about double factory wages to about 25% below them by 1820, and real wages fell to about a quarter of their peak."
+      "finding": "Handloom weavers earned roughly twice as much as factory workers in 1806 and 25% less by 1820, and their real wages dropped to about a quarter of their peak."
      }
     },
     {
      "event": "Daguerreotype displaces portrait miniaturists",
-     "year": "1839-1860",
+     "year": 1839,
      "parallel": "A cheap mechanical image process took the portrait commissions that had paid hand painters.",
-     "outcome": "Many American miniaturists abandoned the craft after 1839 and miniature painting became a lost art, though some moved into colouring photographs; the source gives no headcount.",
+     "outcome": "The 1839 invention of the daguerreotype put painted miniatures on course for extinction, though interest revived in the late nineteenth and early twentieth centuries; the source gives no headcount.",
      "ref": {
-      "title": "American Portrait Miniatures of the Nineteenth Century (Metropolitan Museum of Art, Heilbrunn Timeline)",
-      "url": "https://www.metmuseum.org/essays/american-portrait-miniatures-of-the-nineteenth-century",
-      "finding": "After the daguerreotype's invention in 1839 many miniaturists abandoned their art and miniature painting became a lost art."
+      "title": "J. Townsend Lansing (1843-1919), Albany Institute of History & Art collection",
+      "url": "https://albanyinstitute.org/collection/details/j-townsend-lansing-1843-1919",
+      "finding": "Invention of the daguerreotype in 1839 meant that painted miniatures were headed for extinction; interest in painted miniature portraits resurged in the late nineteenth and early twentieth centuries."
      }
     },
     {
      "event": "Google Translate app and translators",
-     "year": "2010-2023",
+     "year": 2010,
      "parallel": "An earlier machine-learning tool gave clients a free substitute for paid translation work.",
-     "outcome": "In US labour markets with more Google Translate use, each 1 point rise in use cut translator employment growth by about 0.7 points, roughly 28,000 fewer new translator jobs over 2010-2023; jobs grew more slowly rather than vanishing.",
+     "outcome": "Across 695 US local labour markets, places that took up Google Translate more saw weaker translator employment, a result that held under instrumental-variable and placebo tests; better machine translation also cut demand for every foreign language skill studied.",
      "ref": {
-      "title": "Lost in translation: AI's impact on translators and foreign language skills (Frey and Llanos-Paredes, VoxEU/CEPR)",
-      "url": "https://cepr.org/voxeu/columns/lost-translation-ais-impact-translators-and-foreign-language-skills",
-      "finding": "Each 1 percentage point increase in machine translation use cut translator employment growth by about 0.7 points, about 28,000 fewer new positions 2010-2023."
+      "title": "Lost in Translation: Artificial Intelligence and the Demand for Foreign Language Skills (Llanos-Paredes and Frey, Oxford Martin School, January 2025)",
+      "url": "https://www.oxfordmartin.ox.ac.uk/publications/lost-in-translation-artificial-intelligence-and-the-demand-for-foreign-language-skills",
+      "finding": "Finds a negative relationship between Google Translate adoption and translator employment across 695 US local labour markets after the app's 2010 release, and lower demand for all foreign language skills studied."
      }
     }
    ]
@@ -3283,17 +3353,27 @@
    "probability": 0.85,
    "year": 2025,
    "evidence": "measured",
-   "summary": "People read a model's summary instead of the source: in one Pew study of 900 US adults, users clicked a result link on 8% of visits with an AI summary versus 15% without[1]. One BBC study found 51% of AI news answers had significant issues[2].",
+   "summary": "People read a model's summary instead of the source: in one Pew study of 900 US adults' March 2025 browsing, users clicked a result link on 8% of visits with an AI summary versus 15% without[1]. Journalists at 22 public broadcasters found 45% of AI assistants' news answers had a significant issue, most often sourcing[2]. Google says total organic clicks held relatively stable year over year but published no figures[3].",
    "refs": [
     {
-     "title": "Pew Research Center, July 2025",
+     "title": "Pew Research Center, Google users are less likely to click on links when an AI summary appears in the results, 22 July 2025",
      "url": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/",
-     "finding": "Users clicked a result link on 8% of visits with an AI summary versus 15% without; 1% clicked a link inside the summary."
+     "finding": "In March 2025 browsing by 900 US adults, users clicked a result link on 8% of visits with an AI summary versus 15% without; about 1% clicked a link inside the summary."
     },
     {
-     "title": "BBC, Representation of BBC News content in AI assistants 2025",
-     "url": "https://www.bbc.co.uk/aboutthebbc/documents/bbc-research-into-ai-assistants.pdf",
-     "finding": "51% of AI answers about news had significant issues and 19% citing the BBC introduced factual errors."
+     "title": "EBU, News Integrity in AI Assistants, October 2025",
+     "url": "https://www.ebu.ch/news/2025/10/ai-s-systemic-distortion-of-news-is-consistent-across-languages-and-territories-international-study-by-public-service-broadcaste",
+     "finding": "Across more than 3,000 answers from ChatGPT, Copilot, Gemini and Perplexity in 18 countries, 45% had at least one significant issue, 31% had serious sourcing problems and 20% major accuracy issues."
+    },
+    {
+     "title": "Google, AI in Search is driving more queries and higher quality clicks (Liz Reid, 6 August 2025)",
+     "url": "https://blog.google/products/search/ai-search-driving-more-queries-higher-quality-clicks/",
+     "finding": "Google says total organic click volume to websites has been relatively stable year over year and calls third-party reports of large drops methodologically flawed; it gives no figures."
+    },
+    {
+     "title": "Washington Post, We uploaded a fake video to 8 social apps. Only one told users it wasn't real, 22 October 2025 (as archived by the AI Incident Database)",
+     "url": "https://incidentdatabase.ai/reports/6301",
+     "finding": "All the platforms tested stripped the Content Credentials marker from a Sora video, and only YouTube showed any sign it was not real, inside the description."
     }
    ],
    "theme": "ip",
@@ -3310,11 +3390,11 @@
      "actor": "regulators",
      "status": "in force",
      "aim": "impact",
-     "evidence": "The UK CMA ordered Google to attribute publisher content with clear links in AI results from June 2026; effect on click-through is not yet measured.",
+     "evidence": "In June 2026 the UK CMA required Google to attribute publisher content with clear links in AI search results, with nine months to implement; the effect on click-through is not yet measured.",
      "ref": {
-      "title": "CMA secures fairer deal for publishers and improves Google search services in UK",
+      "title": "CMA, CMA secures fairer deal for publishers and improves Google search services in UK, 3 June 2026",
       "url": "https://www.gov.uk/government/news/cma-secures-fairer-deal-for-publishers-and-improves-google-search-services-in-uk",
-      "finding": "Google must credit publisher content in AI-generated results with clear links and report compliance every six months."
+      "finding": "A conduct requirement says Google must properly attribute publisher content in AI-generated results with clear links and publish compliance reports every six months for the first year."
      }
     },
     {
@@ -3322,11 +3402,11 @@
      "actor": "broadcasters",
      "status": "tested",
      "aim": "probability",
-     "evidence": "Journalists from 22 public broadcasters found 45 percent of 3,000 answers had a significant issue and 31 percent had sourcing problems; repeat audits showed only some improvement.",
+     "evidence": "Journalists from 22 public broadcasters in 18 countries found 45 percent of more than 3,000 answers had a significant issue and 31 percent had serious sourcing problems; against the BBC's February 2025 study there was only some improvement.",
      "ref": {
-      "title": "EBU, Largest study of its kind shows AI assistants misrepresent news content 45% of the time",
+      "title": "EBU, Largest study of its kind shows AI assistants misrepresent news content 45% of the time, 22 October 2025",
       "url": "https://www.ebu.ch/news/2025/10/ai-s-systemic-distortion-of-news-is-consistent-across-languages-and-territories-international-study-by-public-service-broadcaste",
-      "finding": "45 percent of AI news answers had at least one significant issue, mostly sourcing."
+      "finding": "45 percent of AI news answers had at least one significant issue and 31 percent had serious sourcing problems; Gemini had significant issues in 76 percent."
      }
     },
     {
@@ -3334,11 +3414,11 @@
      "actor": "publishers",
      "status": "in force",
      "aim": "impact",
-     "evidence": "C2PA lets readers trace origin and edits, but credentials are stripped by many platforms and few users check them.",
+     "evidence": "C2PA lets readers trace origin and edits, but in an October 2025 Washington Post test every social platform tried stripped the credentials from an uploaded video.",
      "ref": {
       "title": "C2PA, Coalition for Content Provenance and Authenticity",
       "url": "https://c2pa.org/",
-      "finding": "An open standard, Content Credentials, records where content came from and how it changed."
+      "finding": "An open technical standard, Content Credentials, for establishing the origin and edits of digital content."
      }
     }
    ],
@@ -3347,22 +3427,22 @@
      "event": "Copied citations in physics papers",
      "year": 2002,
      "parallel": "Like readers trusting a model summary, scientists cite a paper from someone else's reference list without reading it, so errors pass on unchecked.",
-     "outcome": "Tracing how misprints in citations propagate, the authors estimated only about 20% of citers had read the original paper.",
+     "outcome": "Using how misprints in citations propagate, the authors estimated only about 20% of citers had read the original paper.",
      "ref": {
-      "title": "Read before you cite! (Simkin and Roychowdhury, arXiv cond-mat/0212043)",
+      "title": "Read before you cite! (Simkin and Roychowdhury, arXiv cond-mat/0212043, Complex Systems 2003)",
       "url": "https://arxiv.org/abs/cond-mat/0212043",
-      "finding": "Only about 20% of citers read the original paper."
+      "finding": "A stochastic model of copying citations explains misprint distributions and estimates only about 20% of citers read the original."
      }
     },
     {
      "event": "The spinach decimal-point legend",
      "year": "1972-2014",
      "parallel": "A claim detached from its source was repeated through secondary sources until it read as fact, the attribution loss AI answers risk at scale.",
-     "outcome": "An undocumented aside that spinach's iron value came from a misplaced decimal point spread through journals, textbooks and Reader's Digest for decades; no such error was ever documented.",
+     "outcome": "An aside in a 1972 lecture that spinach's fame may have grown from a misplaced decimal point became, by 1981, a stated fact in the BMJ and spread through journals, textbooks and a 1988 Reader's Digest book; nothing indicates the error was ever made.",
      "ref": {
-      "title": "Academic urban legends (Rekdal, Social Studies of Science 2014)",
-      "url": "https://journals.sagepub.com/doi/10.1177/0306312714535679",
-      "finding": "A decimal-point story with no documentation was turned from suggestion into fact and redistributed by many authors who never checked the primary source."
+      "title": "Academic urban legends (Rekdal, Social Studies of Science 44(4), 2014)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4232290/",
+      "finding": "Traces the decimal-point story to Arnold Bender's 1972 lecture, hardened by Hamblin in the BMJ in 1981 and repeated by many authors who never checked a primary source; nothing indicates the error was ever made."
      }
     }
    ]
@@ -3374,17 +3454,27 @@
    "probability": 0.85,
    "year": 2025,
    "evidence": "measured",
-   "summary": "One Pew study of 900 US adults' browsing found AI summaries roughly halve click-through to websites[1], and Cloudflare reports AI crawlers fetch thousands of pages for every visitor they refer back[2]. This could cut the referral traffic that funds publishers, forums and independent sites.",
+   "summary": "One Pew study of 900 US adults' March 2025 browsing found they clicked a traditional result link on 8% of Google search pages showing an AI summary, against 15% without one[1]. Chartbeat data for over 2,500 news sites show Google search referrals fell by a third globally and 38% in the US between November 2024 and November 2025, though the Reuters Institute says it is unclear how much is due to AI Overviews[3]. Cloudflare measured Anthropic's crawlers fetching about 25,000 to 100,000 pages per visitor referred back in the second half of 2025, and Perplexity's under 200, against 3 to 30 for Google[2]. In August 2025 Google said total organic clicks from Search were relatively stable year on year[4]. Falling referrals cut the income that funds publishers, forums and independent sites.",
    "refs": [
     {
-     "title": "Pew Research Center, July 2025",
+     "title": "Pew Research Center, Google users are less likely to click on links when an AI summary appears in the results, July 2025",
      "url": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/",
-     "finding": "AI summaries roughly halve click-through to websites."
+     "finding": "Among 900 US adults' March 2025 Google searches, users clicked a traditional result link on 8% of visits with an AI summary versus 15% without; 1% clicked a link inside the summary."
     },
     {
-     "title": "Cloudflare, The crawl before the fall of referrals 2025",
-     "url": "https://blog.cloudflare.com/ai-search-crawl-refer-ratio-on-radar/",
-     "finding": "AI crawlers fetch thousands of pages for every visitor they refer back."
+     "title": "Cloudflare, The 2025 Cloudflare Radar Year in Review",
+     "url": "https://blog.cloudflare.com/radar-2025-year-in-review/",
+     "finding": "In 2025 Anthropic's crawl-to-refer ratio reached 500,000:1 and ran about 25,000:1 to 100,000:1 after May; OpenAI's peaked at 3,700:1 in March; Perplexity's stayed below 200:1 from September; Google's ran from just over 3:1 to 30:1."
+    },
+    {
+     "title": "Reuters Institute, Journalism, Media and Technology Trends and Predictions 2026 (Newman), January 2026",
+     "url": "https://reutersinstitute.politics.ox.ac.uk/sites/default/files/2026-01/Newman - Trends and Predictions 2026 FINAL.pdf",
+     "finding": "Chartbeat data for over 2,500 sites show Google organic search traffic down 33% globally and 38% in the US from November 2024 to November 2025; how much is due to AI Overviews is unclear."
+    },
+    {
+     "title": "Google, AI in Search is driving more queries and higher quality clicks (Liz Reid), August 2025",
+     "url": "https://blog.google/products/search/ai-search-driving-more-queries-higher-quality-clicks/",
+     "finding": "Google says total organic click volume from Search to websites has been relatively stable year on year, without publishing figures."
     }
    ],
    "theme": "ip",
@@ -3394,18 +3484,18 @@
     "betteranswers",
     "cheapintelligence"
    ],
-   "control_note": "Answering on the page is the benefit users want, so referrals will fall. Opt-outs and payment for crawling can recover some revenue.",
+   "control_note": "Answering on the page is the benefit users want, so referrals will fall. Opt-outs and payment for crawling may recover some revenue.",
    "actions": [
     {
      "action": "Let publishers opt out of AI search features",
      "actor": "regulators",
      "status": "in force",
      "aim": "impact",
-     "evidence": "The CMA conduct requirement gives UK publishers controls to withhold content from AI Overviews; critics note opting out of a 90 percent share search engine is costly.",
+     "evidence": "The CMA imposed the conduct requirement on 3 June 2026 and gave Google nine months to implement it, so the publisher controls may not yet be fully available.",
      "ref": {
-      "title": "CMA secures fairer deal for publishers and improves Google search services in UK",
+      "title": "CMA, CMA secures fairer deal for publishers and improves Google search services in UK, June 2026",
       "url": "https://www.gov.uk/government/news/cma-secures-fairer-deal-for-publishers-and-improves-google-search-services-in-uk",
-      "finding": "Publishers can stop Google using their content to power AI Overviews and to fine-tune models."
+      "finding": "Google must give UK publishers effective tools to stop their content powering AI features in search and let them opt out of its use for fine-tuning AI models."
      }
     },
     {
@@ -3413,11 +3503,11 @@
      "actor": "platforms",
      "status": "tested",
      "aim": "impact",
-     "evidence": "Cloudflare's private beta uses HTTP 402 so sites can charge, allow or block each crawler; uptake and revenue figures are not published.",
+     "evidence": "Cloudflare launched it as a private beta in July 2025, using HTTP 402 so sites can charge, allow or block each crawler; Cloudflare has not published uptake or revenue figures.",
      "ref": {
-      "title": "Cloudflare, Introducing pay per crawl",
+      "title": "Cloudflare, Introducing pay per crawl, July 2025",
       "url": "https://blog.cloudflare.com/introducing-pay-per-crawl/",
-      "finding": "Publishers set a per-request price and Cloudflare settles payments from crawlers."
+      "finding": "Publishers set a flat per-request price for their site and Cloudflare acts as merchant of record, settling payments from crawlers."
      }
     }
    ],
@@ -3437,7 +3527,7 @@
      "event": "Facebook News Feed change cuts referrals",
      "year": 2018,
      "parallel": "A platform changed what it showed users and publishers that depended on its referrals lost traffic overnight.",
-     "outcome": "Among eight nonprofit newsrooms, three lost about 30% of Facebook referrals and two about 10% within three months, while three grew; the sample is small and the authors warn against generalising.",
+     "outcome": "Among eight nonprofit newsrooms, comparing the three months before and after the change, three lost about 30% of Facebook referrals and two about 10%, while three grew; the sample is small and the authors warn against generalising.",
      "ref": {
       "title": "Facebook Friends? The Impact of Facebook's News Feed Algorithm Changes on Nonprofit Publishers (Shorenstein Center, Harvard)",
       "url": "https://shorensteincenter.org/facebook-friends/",
@@ -3464,22 +3554,27 @@
    "probability": 0.5,
    "year": 2028,
    "evidence": "projected",
-   "summary": "When many firms trade with similar models, they could react to the same signal at once and herd[2], raising speed and volatility under stress[1]. The 2010 flash crash showed automated selling can erase about $1 trillion in minutes[3].",
+   "summary": "When many firms trade with similar AI models, they could take correlated positions and act alike in a stress[2], raising market speed and volatility[1]; in June 2026 the Bank of England's Sarah Breeden warned that AI agents responding to the same triggers could amplify volatility[4]. The IMF says AI use in capital markets is still nascent and its risks appear contained for now[1]. In the 6 May 2010 flash crash, as an automated sell program met high-frequency traders, major US indices fell a further 5 to 6% in minutes before rebounding[3].",
    "refs": [
     {
-     "title": "IMF Global Financial Stability Report, Oct 2024, chapter 3",
+     "title": "IMF Global Financial Stability Report, October 2024, chapter 3, Advances in Artificial Intelligence: Implications for Capital Market Activities",
      "url": "https://www.imf.org/en/Publications/GFSR/Issues/2024/10/22/global-financial-stability-report-october-2024",
-     "finding": "AI-driven trading may raise market speed and volatility under stress."
+     "finding": "Lists increased market speed and volatility under stress, especially if AI trading strategies become highly correlated, as a main risk; says AI use in capital markets is nascent and risks appear contained currently."
     },
     {
-     "title": "Bank of England, Financial Stability in Focus: AI, April 2025",
+     "title": "Bank of England, Financial Stability in Focus: Artificial intelligence in the financial system, April 2025",
      "url": "https://www.bankofengland.co.uk/financial-stability-in-focus/2025/april-2025",
-     "finding": "Warns that common models could produce correlated positions and herding."
+     "finding": "Warns advanced AI trading strategies could lead firms to take increasingly correlated positions and act in a similar way during a stress."
     },
     {
-     "title": "SEC and CFTC, findings on the 6 May 2010 flash crash",
+     "title": "SEC and CFTC staff, Findings Regarding the Market Events of May 6, 2010, September 2010",
      "url": "https://www.sec.gov/news/studies/2010/marketevents-report.pdf",
-     "finding": "Automated selling erased about $1 trillion in minutes before recovering."
+     "finding": "Major indices, already down over 4%, fell a further 5 to 6% in minutes before rebounding to close about 3% down."
+    },
+    {
+     "title": "Bank of England, Agents of change, speech by Sarah Breeden at the ECB Forum on Central Banking, June 2026",
+     "url": "https://www.bankofengland.co.uk/speech/2026/june/sarah-breeden-panel-at-the-european-central-bank-forum-on-central-banking-2026",
+     "finding": "If AI agents respond similarly to the same prompts or triggers, they could amplify volatility in stress; the Bank is testing simulation methods with the BIS Innovation Hub and the Bundesbank."
     }
    ],
    "theme": "power",
@@ -3495,11 +3590,11 @@
      "actor": "regulators",
      "status": "in force",
      "aim": "impact",
-     "evidence": "Limit up-limit down bands of 5 to 10 percent replaced single-stock circuit breakers after 2010; they cap the size of runaway moves but do not stop the trigger.",
+     "evidence": "Limit up-limit down bands of 5% for S&P 500 and Russell 1000 stocks and 10% for others replaced single-stock circuit breakers, approved as a pilot in 2012 and made permanent in 2019; they cap runaway moves but do not stop the trigger.",
      "ref": {
       "title": "SEC Press Release 2012-107, SEC Approves Proposals to Address Extraordinary Volatility",
       "url": "https://www.sec.gov/news/press/2012/2012-107.htm",
-      "finding": "The SEC approved limit up-limit down and revised market-wide circuit breakers."
+      "finding": "The SEC approved limit up-limit down and revised market-wide circuit breakers at 7%, 13% and 20% of the S&P 500, both as one-year pilots."
      }
     },
     {
@@ -3507,11 +3602,11 @@
      "actor": "central banks",
      "status": "proposed",
      "aim": "probability",
-     "evidence": "The Bank of England plans monitoring through surveys and market intelligence but has not set specific mitigations.",
+     "evidence": "The Bank of England plans monitoring through the Bank and FCA AI survey and market intelligence but has not set specific mitigations.",
      "ref": {
       "title": "Bank of England, Financial Stability in Focus: Artificial intelligence in the financial system, April 2025",
       "url": "https://www.bankofengland.co.uk/financial-stability-in-focus/2025/april-2025",
-      "finding": "AI trading could lead firms to take correlated positions that amplify shocks in stress."
+      "finding": "Advanced AI trading strategies could lead firms to take increasingly correlated positions and act in a similar way during a stress."
      }
     },
     {
@@ -3519,11 +3614,23 @@
      "actor": "regulators",
      "status": "in force",
      "aim": "impact",
-     "evidence": "The joint SEC and CFTC review of 6 May 2010 traced how automated selling cascaded and led to the later rule changes.",
+     "evidence": "The joint SEC and CFTC staff review of 6 May 2010 traced how an automated sell program interacted with high-frequency traders; limit up-limit down later replaced the pilot single-stock circuit breakers adopted after the crash.",
      "ref": {
-      "title": "SEC and CFTC, Findings Regarding the Market Events of May 6, 2010",
+      "title": "SEC and CFTC staff, Findings Regarding the Market Events of May 6, 2010, September 2010",
       "url": "https://www.sec.gov/news/studies/2010/marketevents-report.pdf",
-      "finding": "The report reconstructs how an automated sell order triggered a cascade across markets."
+      "finding": "The report reconstructs how a 75,000-contract E-Mini sell program and high-frequency trading drained liquidity across futures and equity markets."
+     }
+    },
+    {
+     "action": "Simulate AI agent trading and design market-wide kill switches",
+     "actor": "central banks",
+     "status": "proposed",
+     "aim": "impact",
+     "evidence": "In June 2026 the Bank of England said it is testing simulation methods with the BIS Innovation Hub and the Bundesbank and suggested guardrails like circuit breakers or kill switches; nothing is in place yet.",
+     "ref": {
+      "title": "Bank of England, Agents of change, speech by Sarah Breeden at the ECB Forum on Central Banking, June 2026",
+      "url": "https://www.bankofengland.co.uk/speech/2026/june/sarah-breeden-panel-at-the-european-central-bank-forum-on-central-banking-2026",
+      "finding": "Proposes exploring guardrails analogous to circuit breakers or kill switches that would limit or stop trading market-wide, possibly tested on a digital twin of the financial system."
      }
     }
    ],
@@ -3547,18 +3654,18 @@
      "ref": {
       "title": "Stock Market Crash of 1987 (Federal Reserve History)",
       "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987",
-      "finding": "The DJIA fell 22.6% in one session, and heavy use of portfolio insurance accelerated the crash through a vicious circle of selling."
+      "finding": "The DJIA fell 22.6% in one session, the largest one-day decline in history, and portfolio insurance sped the fall through a vicious circle of selling."
      }
     },
     {
      "event": "August 2007 quant quake",
      "year": 2007,
      "parallel": "Funds running similar quantitative models held the same positions, so one forced seller hit all of them.",
-     "outcome": "Quant long/short equity funds suffered unprecedented losses in the week of 6 August 2007, attributed to the unwinding of similarly built portfolios, then largely rebounded on 10 August.",
+     "outcome": "Quant long/short equity funds suffered unprecedented losses in the week of 6 August 2007; the authors hypothesise a rapid unwind of one or more large quant market-neutral portfolios that spread to a broader set of equity portfolios, then a rebound on 10 August.",
      "ref": {
-      "title": "What Happened to the Quants in August 2007? (Khandani and Lo, MIT)",
+      "title": "What Happened to the Quants in August 2007? (Khandani and Lo, Journal of Investment Management, 2007)",
       "url": "https://web.mit.edu/Alo/www/Papers/august07.html",
-      "finding": "Losses began with the rapid unwinding of large quantitative market-neutral portfolios and spread to similar portfolios; the authors present this as a hypothesis."
+      "finding": "Losses began with the rapid unwind of one or more large quantitative market-neutral portfolios and spread to a broader set of long/short and long-only equity portfolios; the authors present this as a hypothesis."
      }
     }
    ]
@@ -3570,17 +3677,27 @@
    "probability": 0.2,
    "year": 2030,
    "evidence": "speculative",
-   "summary": "Agents that manage money could move deposits at once on the same rumour, faster than any bank or regulator can respond; the Bank of England flags AI agents as a possible run accelerant[2]. In 2023, Silicon Valley Bank depositors withdrew $42 billion in one day[1].",
+   "summary": "Agents that manage money could move deposits at once, on a rumour or a better rate, faster than banks or regulators can respond. In September 2026 Apollo's chief economist warned that agents sweeping household cash into accounts paying 3.3% to 5.0% could drain the cheap deposits banks lend from[3]. The Bank of England warns AI could lead market participants to act collectively in ways that reduce stability[2], but says consumers so far mainly use agents to recommend, with humans executing payments[4]. In 2023, Silicon Valley Bank lost over $40 billion of deposits in one day[1].",
    "refs": [
     {
-     "title": "Federal Reserve, Review of Silicon Valley Bank 2023",
+     "title": "Federal Reserve, Review of the Federal Reserve's Supervision and Regulation of Silicon Valley Bank, April 2023",
      "url": "https://www.federalreserve.gov/publications/files/svb-review-20230428.pdf",
-     "finding": "Depositors withdrew $42 billion in one day, a speed driven by social media and mobile banking."
+     "finding": "SVB lost over $40 billion of deposits on 9 March 2023; social media, a networked depositor base and technology may have fundamentally changed the speed of bank runs."
     },
     {
-     "title": "Bank of England, Financial Stability in Focus: AI, April 2025",
+     "title": "Bank of England, Financial Stability in Focus: Artificial intelligence in the financial system, April 2025",
      "url": "https://www.bankofengland.co.uk/financial-stability-in-focus/2025/april-2025",
-     "finding": "Flags AI agents acting on customers' behalf as a possible run accelerant."
+     "finding": "Market participants using AI could take correlated positions and act collectively in ways that reduce stability; the report covers markets and does not discuss deposit runs."
+    },
+    {
+     "title": "Apollo, Is an Agentic Bank Run Coming? (Torsten Slok), September 2026",
+     "url": "https://www.apollo.com/insights-news/insights/daily-spark/is-an-agentic-bank-run-coming",
+     "finding": "Agentic assistants could sweep household cash from checking accounts averaging 0.1% into accounts paying 3.3% to 5.0%, so banks could lose much of the cheap deposits they lend from."
+    },
+    {
+     "title": "Bank of England, Agents of change, speech by Sarah Breeden at the ECB Forum on Central Banking, June 2026",
+     "url": "https://www.bankofengland.co.uk/speech/2026/june/sarah-breeden-panel-at-the-european-central-bank-forum-on-central-banking-2026",
+     "finding": "Consumers and merchants have so far mainly used AI agents in recommendation mode, with humans still executing transactions."
     }
    ],
    "theme": "power",
@@ -3593,15 +3710,15 @@
    "control_note": "Fast automated money management is the benefit, and speed is what makes runs worse. Liquidity rules and monitoring reduce severity.",
    "actions": [
     {
-     "action": "Stress test for hour-scale deposit outflows",
+     "action": "Re-test liquidity against faster deposit runs",
      "actor": "bank supervisors",
      "status": "proposed",
      "aim": "impact",
-     "evidence": "SVB lost over 40 billion dollars on 9 March 2023 and expected 100 billion more the next day; the Fed review called for re-evaluating liquidity rules.",
+     "evidence": "SVB lost over $40 billion on 9 March 2023 and expected over $100 billion more the next day; the Fed review said liquidity rules and internal liquidity stress tests should re-evaluate how stable uninsured deposits are, and any rule change would take years.",
      "ref": {
       "title": "Federal Reserve, Review of the Federal Reserve's Supervision and Regulation of Silicon Valley Bank, April 2023",
       "url": "https://www.federalreserve.gov/publications/files/svb-review-20230428.pdf",
-      "finding": "Deposit outflows exceeded 40 billion dollars in one day, faster than past runs."
+      "finding": "Recommends re-evaluating the stability of uninsured deposits in standardized liquidity rules and firms' internal liquidity stress tests."
      }
     },
     {
@@ -3609,11 +3726,11 @@
      "actor": "central banks",
      "status": "proposed",
      "aim": "probability",
-     "evidence": "The Bank of England flags collective AI action as a stability risk and is building monitoring; no tested intervention exists.",
+     "evidence": "The Bank of England flags collective action by AI-using market participants as a stability risk and plans monitoring through surveys and market intelligence; the work covers trading, not deposits, and no tested intervention exists.",
      "ref": {
       "title": "Bank of England, Financial Stability in Focus: Artificial intelligence in the financial system, April 2025",
       "url": "https://www.bankofengland.co.uk/financial-stability-in-focus/2025/april-2025",
-      "finding": "AI could lead participants to act collectively in ways that reduce stability."
+      "finding": "AI could lead market participants to take actions collectively in ways that reduce stability."
      }
     }
    ],
@@ -3621,8 +3738,8 @@
     {
      "event": "Silicon Valley Bank run",
      "year": 2023,
-     "parallel": "Depositors in a tight network, alerted on social media and moving money by app, withdrew at once, the dynamic agents could speed further.",
-     "outcome": "SVB lost over $40 billion on 9 March and expected over $100 billion more the next day, about 85% of deposits, against about $10 billion over 8 days at Wachovia in 2008.",
+     "parallel": "Depositors in a tight network, alerted on social media and moving money online, withdrew at once, the dynamic agents could speed further.",
+     "outcome": "SVB lost over $40 billion on 9 March and expected over $100 billion more the next day, together about 85% of deposits, against about $10 billion over 8 days at Wachovia in 2008.",
      "ref": {
       "title": "Review of the Federal Reserve's Supervision and Regulation of Silicon Valley Bank (Federal Reserve Board, April 2023)",
       "url": "https://www.federalreserve.gov/publications/files/svb-review-20230428.pdf",
@@ -3633,11 +3750,11 @@
      "event": "Continental Illinois electronic run",
      "year": 1984,
      "parallel": "Wholesale depositors reacted to a wire-service rumour by moving funds electronically, an early machine-speed run.",
-     "outcome": "After Reuters reported rumours on 9 May, overseas depositors pulled funds and by 11 May the bank had borrowed $3.6 billion from the Fed; regulators then guaranteed all depositors, at an estimated FDIC cost of about $1.1 billion.",
+     "outcome": "After Reuters asked the bank on 9 May about bankruptcy rumours, overseas depositors pulled funds and by 11 May the bank had borrowed $3.6 billion from the Fed's discount window; the FDIC then guaranteed all depositors, at an estimated cost of about $1.1 billion as of 1997.",
      "ref": {
       "title": "Continental Illinois and Too Big to Fail, in History of the Eighties: Lessons for the Future (FDIC)",
       "url": "https://www.fdic.gov/bank/historical/history/235_258.pdf",
-      "finding": "A high-speed electronic bank run driven by rumour forced $3.6 billion of discount-window borrowing within days."
+      "finding": "Rumour drove a high-speed electronic bank run that forced $3.6 billion of discount-window borrowing by 11 May 1984."
      }
     }
    ]
@@ -14484,12 +14601,6 @@
   },
   {
    "source": "aiwater",
-   "target": "energy",
-   "kind": "leads",
-   "why": "Data centres use water both for cooling and through the power they draw, so growing water use tracks growing electricity demand."
-  },
-  {
-   "source": "aiwater",
    "target": "climate",
    "kind": "leads",
    "why": "Freshwater drawn for cooling and power adds to the environmental cost of data centres that AI's climate benefits must outweigh."
@@ -14523,12 +14634,6 @@
    "target": "elections",
    "kind": "leads",
    "why": "Once deepfakes are common, politicians can dismiss real reports as fake, so the mere existence of fakes muddies election accountability."
-  },
-  {
-   "source": "liarsdividend",
-   "target": "provenance",
-   "kind": "counters",
-   "why": "When people learn that real evidence can be dismissed as fake, they may value checking original sources rather than trusting summaries."
   },
   {
    "source": "liarsdividend",
@@ -15759,6 +15864,120 @@
    "target": "labels",
    "kind": "leads",
    "why": "When most new uploads are generated and listeners cannot tell, platforms start tagging AI tracks so people know what they hear."
+  },
+  {
+   "source": "imagegen",
+   "target": "artists",
+   "kind": "leads",
+   "why": "Once realistic images and edits take a prompt, clients make them in-house instead of paying an illustrator."
+  },
+  {
+   "source": "misinformation",
+   "target": "bankrun",
+   "kind": "leads",
+   "why": "A fabricated rumour spread at scale could set depositors and their agents withdrawing at once, as social media sped the SVB run."
+  },
+  {
+   "source": "openweights",
+   "target": "bioweapons",
+   "kind": "leads",
+   "why": "Weights anyone can download can be fine-tuned past the classifiers that gate this help, so lab safeguards do not reach them."
+  },
+  {
+   "source": "omics",
+   "target": "bioweapons",
+   "kind": "twin",
+   "why": "Foundation models trained on biological sequence data serve research and the same predictions serve misuse."
+  },
+  {
+   "source": "genomics",
+   "target": "bioweapons",
+   "kind": "twin",
+   "why": "Reading and editing genomes faster helps medicine and shortens the same path for anyone aiming at a pathogen."
+  },
+  {
+   "source": "collapse",
+   "target": "homogenisation",
+   "kind": "leads",
+   "why": "Models that lose the tails of the distribution produce narrower, more uniform output, which homogenises the ideas and culture built on it."
+  },
+  {
+   "source": "labels",
+   "target": "collapse",
+   "kind": "counters",
+   "why": "Provenance labels and watermarks let labs find and filter generated content before it enters training data."
+  },
+  {
+   "source": "energy",
+   "target": "concentration",
+   "kind": "leads",
+   "why": "Only a handful of firms can finance gigawatt-scale data centres and the power contracts behind them, so the energy bill itself screens out rivals."
+  },
+  {
+   "source": "datalabour",
+   "target": "concentration",
+   "kind": "leads",
+   "why": "Training data cleaned by low-paid workers in the Global South turns into an asset owned entirely by the firms that commissioned it."
+  },
+  {
+   "source": "intelexplosion",
+   "target": "control",
+   "kind": "leads",
+   "why": "When AI systems do most of the research on their successors, capability can outrun the oversight meant to catch misaligned behaviour."
+  },
+  {
+   "source": "oversightcommittee",
+   "target": "control",
+   "kind": "counters",
+   "why": "A joint government and lab committee with power to pause deployment is one of the few levers for stopping an agent that has gone wrong."
+  },
+  {
+   "source": "cyberattacks",
+   "target": "weighttheft",
+   "kind": "leads",
+   "why": "Agents that run most of an intrusion are also the cheapest route into a lab's own network, where the model weights sit."
+  },
+  {
+   "source": "phishing",
+   "target": "cyberattacks",
+   "kind": "leads",
+   "why": "Cheap tailored lures hand attack agents the first set of valid credentials, which is where most intrusions start."
+  },
+  {
+   "source": "decompilation",
+   "target": "cyberattacks",
+   "kind": "leads",
+   "why": "Models that read compiled binaries back into readable code expose exploitable flaws in software nobody has source for."
+  },
+  {
+   "source": "labels",
+   "target": "elections",
+   "kind": "counters",
+   "why": "Provenance labels and watermarks let voters and platforms check whether a candidate clip is synthetic."
+  },
+  {
+   "source": "imagegen",
+   "target": "elections",
+   "kind": "leads",
+   "why": "Easy realistic image and edit tools are what make fake candidate images cheap to produce."
+  },
+  {
+   "source": "energy",
+   "target": "aiwater",
+   "kind": "leads",
+   "why": "More data-centre electricity means more cooling water on site and more water used to generate the power."
+  },
+  {
+   "source": "provenance",
+   "target": "misinformation",
+   "kind": "leads",
+   "why": "When readers take a summary on trust instead of checking the source, errors in the summary spread as fact."
+  },
+  {
+   "source": "webtraffic",
+   "target": "incentives",
+   "kind": "leads",
+   "why": "When answers stop sending readers to the sites behind them, writers and publishers earn less from creating new work."
   }
  ],
  "themes": {
