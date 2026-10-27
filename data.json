@@ -14992,6 +14992,78 @@
      }
     }
    ]
+  },
+  {
+   "id": "aidevicerecalls",
+   "label": "Under-tested AI medical devices fail after clearance",
+   "valence": -2.55,
+   "probability": 0.5,
+   "year": 2025,
+   "evidence": "measured",
+   "summary": "AI-enabled medical devices cleared through the FDA's 510(k) route reach the US market without prospective testing on people, which that route does not require, and some fail soon after[1]. In one study of 950 FDA-cleared AI devices, 60 (6.3%) were tied to 182 recalls, 43.4% of them within a year of clearance and most for diagnostic or measurement errors; devices without clinical validation had higher odds of recall (odds ratio 2.8), as did those from public companies (5.9), which made 53.2% of the devices but 91.8% of the recalls[1]. Recalls are still uncommon: 91.8% of the devices stayed recall-free for five years[1]. Reuters reported that after AI was added to one sinus-surgery navigation system, the FDA received more than 100 malfunction reports and at least 10 reports of injured patients, against seven unconfirmed malfunction reports in its three years before; the FDA has not attributed the injuries to AI and the device's owner denies a causal link[2]. One analysis of the FDA's adverse-event database finds it insufficient to judge AI device safety, with more than 98% of reported events falling on fewer than five devices[3].",
+   "refs": [
+    {
+     "title": "Lee et al., Early Recalls and Clinical Validation Gaps in Artificial Intelligence-Enabled Medical Devices, JAMA Health Forum 2025",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12374217",
+     "finding": "Of 950 FDA-cleared AI-enabled medical devices, 60 (6.3%) were associated with 182 recalls; 109 recalls were for diagnostic or measurement errors and 44 for functionality delay, and 79 (43.4%) came within 12 months of clearance. Lack of clinical validation (adjusted odds ratio 2.8) and public company status (5.9) were associated with recalls; public companies made 53.2% of the devices but accounted for 91.8% of recalls. Recall-free survival was 96.6% at one year and 91.8% at five years. Because 510(k) clearance does not require prospective human testing, the authors say it may overlook early failures, and suggest prospective evaluation or time-limited clearances that lapse without confirmatory data."
+    },
+    {
+     "title": "Gizmodo, The Last 'Person' You Want Handling Your Surgery Is a Hallucinating Robot, February 2026",
+     "url": "https://gizmodo.com/the-last-person-you-want-handling-your-surgery-is-a-hallucinating-robot-2000719802",
+     "finding": "Summarising a Reuters investigation: the TruDi Navigation System for chronic sinusitis had seven unconfirmed malfunction reports in three years on the market, and after AI was added the FDA received more than 100 malfunction notifications and at least 10 reports of injured patients, including a punctured skull base, cerebrospinal fluid leaks and strokes. The FDA has not attributed the injuries to AI because the incidents are under review, and owner Integra LifeSciences says there is no credible evidence of a causal connection. Reuters counted 1,357 FDA-authorised devices using AI and reported that cuts removed 15 of the 40 scientists in the FDA unit that reviews AI-enabled devices."
+    },
+    {
+     "title": "Babic, Cohen, Stern, Li and Ouellet, A general framework for governing marketed AI/ML medical devices, npj Digital Medicine 2025",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12126487/",
+     "finding": "Analysing 943 adverse event reports linked to AI/ML devices approved from 2010 to 2023 in the FDA's MAUDE database, the authors find more than 98% of adverse events in AI/ML devices are borne by fewer than five devices, against about 85% for other devices, and conclude the existing system is insufficient for properly assessing the safety and effectiveness of AI/ML devices."
+    }
+   ],
+   "theme": "world",
+   "stage": "active",
+   "control": "mitigable",
+   "price_of": [
+    "medicine"
+   ],
+   "control_note": "The 510(k) route lets AI tools reach patients without prospective human testing, and the FDA's adverse-event database is too thin to judge their safety. Prospective evaluation, clearances that lapse without confirmatory data and monitoring of real-world performance can catch failures earlier, but current FDA guidance on monitoring is a non-binding draft.",
+   "actions": [
+    {
+     "action": "Ask makers to validate across subgroups and monitor performance after launch",
+     "actor": "FDA",
+     "status": "proposed",
+     "aim": "probability",
+     "evidence": "The FDA's January 2025 draft guidance calls for subgroup analyses and recommends that makers monitor and address changes in device performance, but it is non-binding and monitoring plans are generally not required for 510(k) devices.",
+     "ref": {
+      "title": "King & Spalding, FDA Releases Draft Guidance on Submission Recommendations for AI-Enabled Device Software Functions, January 2025",
+      "url": "https://www.kslaw.com/news-and-insights/fda-releases-draft-guidance-on-submission-recommendations-for-ai-enabled-device-software-functions",
+      "finding": "The FDA's draft guidance of 7 January 2025 calls for adequate subgroup analyses for relevant demographics, recommends that manufacturers proactively monitor, identify and address device performance changes, and recommends a model card in device labelling; monitoring plans are generally not required for 510(k)s but may be for De Novo requests and PMAs."
+     }
+    },
+    {
+     "action": "Require prospective evaluation or time-limited clearance",
+     "actor": "researchers",
+     "status": "idea",
+     "aim": "probability",
+     "evidence": "The authors of the recall study suggest that requiring prospective evaluation, or issuing clearances that lapse without confirmatory data, could reduce early failures.",
+     "ref": {
+      "title": "Lee et al., Early Recalls and Clinical Validation Gaps in Artificial Intelligence-Enabled Medical Devices, JAMA Health Forum 2025",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12374217",
+      "finding": "Of 950 FDA-cleared AI-enabled medical devices, 60 (6.3%) were associated with 182 recalls; 109 recalls were for diagnostic or measurement errors and 44 for functionality delay, and 79 (43.4%) came within 12 months of clearance. Lack of clinical validation (adjusted odds ratio 2.8) and public company status (5.9) were associated with recalls; public companies made 53.2% of the devices but accounted for 91.8% of recalls. Recall-free survival was 96.6% at one year and 91.8% at five years. Because 510(k) clearance does not require prospective human testing, the authors say it may overlook early failures, and suggest prospective evaluation or time-limited clearances that lapse without confirmatory data."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "External test of the Epic Sepsis Model",
+     "year": 2021,
+     "parallel": "A proprietary prediction tool spread to hundreds of hospitals before independent testing showed how it performed on real patients.",
+     "outcome": "At Michigan Medicine the model reached an AUC of 0.63, substantially worse than its developer reported, missed 67% of patients with sepsis and alerted on 18% of all hospitalised patients.",
+     "ref": {
+      "title": "Wong et al., External Validation of a Widely Implemented Proprietary Sepsis Prediction Model in Hospitalized Patients, JAMA Internal Medicine 2021",
+      "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2781307",
+      "finding": "The Epic Sepsis Model, developed by Epic Systems and implemented at hundreds of US hospitals, was tested on 38,455 hospitalisations of 27,697 patients at Michigan Medicine; it reached an AUC of 0.63, substantially worse than the developer reported, missed 1,709 of the patients with sepsis (67%) and alerted on 18% of all hospitalised patients."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -17220,6 +17292,18 @@
    "target": "gridtrips",
    "kind": "leads",
    "why": "As data-centre demand grows, more voltage-sensitive load sits on the grid, and NERC says the rise in large load-loss events coincides with the growing share of large loads."
+  },
+  {
+   "source": "aidevicerecalls",
+   "target": "medicine",
+   "kind": "counters",
+   "why": "Most recalls of FDA-cleared AI devices were for diagnostic or measurement errors, often soon after clearance, which undercuts the promise of better diagnosis."
+  },
+  {
+   "source": "aidevicerecalls",
+   "target": "medchatbotgap",
+   "kind": "twin",
+   "why": "Both show medical AI doing worse with real patients than its premarket or laboratory results suggest."
   }
  ],
  "themes": {
