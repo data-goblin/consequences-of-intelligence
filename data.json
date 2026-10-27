@@ -13783,6 +13783,60 @@
     }
    ],
    "valence": 3.93
+  },
+  {
+   "id": "aimusicflood",
+   "label": "AI music floods streaming and feeds royalty fraud",
+   "probability": 0.9,
+   "year": 2026,
+   "evidence": "reported",
+   "summary": "At Deezer, fully AI-generated tracks passed half of new uploads on peak days in June 2026, about 90,000 a day, but drew only 1 to 3% of streams, and up to 85% of those streams in 2025 were fraudulent[1]. In one US case, a man whose bots streamed hundreds of thousands of AI-generated songs billions of times pleaded guilty to wire fraud conspiracy and agreed to forfeit about $8 million[2]. In one Ipsos survey of 9,000 people in 8 countries commissioned by Deezer, 97% could not tell fully AI-generated music from human-made music in a blind test[1].",
+   "refs": [
+    {
+     "title": "Deezer, AI music has surpassed 50% of new music uploads for the first time, July 2026",
+     "url": "https://newsroom-deezer.com/2026/07/ai-music-exceeds-50-percent-daily-uploads-deezer/",
+     "finding": "About 90,000 fully AI-generated tracks a day were over 50% of new uploads at peak in June 2026; they make up 1 to 3% of streams, and up to 85% of their streams in 2025 were fraudulent, against 8% across the catalogue."
+    },
+    {
+     "title": "Bloomberg Law, AI music maker who faked streams pleads guilty on fraud count, March 2026",
+     "url": "https://news.bloomberglaw.com/ip-law/ai-music-maker-who-faked-streams-pleads-guilty-on-fraud-count",
+     "finding": "Michael Smith pleaded guilty to one count of conspiracy to commit wire fraud over bots that streamed hundreds of thousands of AI-generated songs billions of times, and agreed to pay about $8 million."
+    }
+   ],
+   "theme": "ip",
+   "stage": "active",
+   "control": "mitigable",
+   "price_of": [
+    "newart"
+   ],
+   "control_note": "The tools that let anyone make a song also make uploads and fake listeners cheap. Detection and royalty rules limit the payout from fraud but not the volume of uploads.",
+   "actions": [
+    {
+     "action": "Tag AI tracks and keep fraudulent streams out of royalties",
+     "actor": "streaming platforms",
+     "status": "in force",
+     "aim": "impact",
+     "evidence": "Deezer tags AI tracks, keeps them out of algorithmic and editorial playlists, excludes fraudulent streams from royalties and will remove AI tracks used for fraud; the effect on fraud volume is not published.",
+     "ref": {
+      "title": "Deezer, AI music has surpassed 50% of new music uploads for the first time, July 2026",
+      "url": "https://newsroom-deezer.com/2026/07/ai-music-exceeds-50-percent-daily-uploads-deezer/",
+      "finding": "AI-detected tracks are excluded from algorithmic recommendations and editorial playlists, fraudulent streams are excluded from royalty payments, and AI tracks used for streaming fraud will be removed."
+     }
+    },
+    {
+     "action": "Prosecute streaming fraud",
+     "actor": "prosecutors",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "US prosecutors brought a criminal case that ended in a guilty plea; one case does not show deterrence.",
+     "ref": {
+      "title": "Bloomberg Law, AI music maker who faked streams pleads guilty on fraud count, March 2026",
+      "url": "https://news.bloomberglaw.com/ip-law/ai-music-maker-who-faked-streams-pleads-guilty-on-fraud-count",
+      "finding": "Guilty plea to conspiracy to commit wire fraud, with about $8 million to be paid."
+     }
+    }
+   ],
+   "valence": -2.83
   }
  ],
  "links": [
@@ -15693,6 +15747,18 @@
    "target": "fraud",
    "kind": "leads",
    "why": "Realistic synthetic faces and video let scammers pose as real executives on video calls, as in the Arup case."
+  },
+  {
+   "source": "newart",
+   "target": "aimusicflood",
+   "kind": "twin",
+   "why": "Generators that let anyone make a song in minutes also let a few uploaders flood streaming services with tracks for bots to play."
+  },
+  {
+   "source": "aimusicflood",
+   "target": "labels",
+   "kind": "leads",
+   "why": "When most new uploads are generated and listeners cannot tell, platforms start tagging AI tracks so people know what they hear."
   }
  ],
  "themes": {
