@@ -14213,6 +14213,83 @@
      }
     }
    ]
+  },
+  {
+   "id": "promptinjection",
+   "label": "Prompt injection hijacks AI agents",
+   "valence": -3.45,
+   "probability": 0.6,
+   "year": 2026,
+   "evidence": "measured",
+   "summary": "AI agents that read email, web pages or documents can be steered by instructions hidden in that content. In one public red-teaming competition sponsored by the UK AI Security Institute, about 1.8 million attacks on 22 frontier agents produced over 60,000 policy violations such as unauthorised data access, and nearly all agents broke policy for most behaviours within 10 to 100 queries[1]. Researchers showed that a single crafted email could make Microsoft 365 Copilot leak data with no user interaction[2]. Google's scans of the public web found detections of malicious injections rose by a relative 32% from November 2025 to February 2026, though the attacks seen so far show limited sophistication[3]. The UK NCSC says prompt injection may never be fully mitigated the way SQL injection can be[4].",
+   "refs": [
+    {
+     "title": "Zou et al., Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition, arXiv 2025",
+     "url": "https://arxiv.org/abs/2507.20526",
+     "finding": "A competition run on Gray Swan Arena and sponsored by the UK AI Security Institute targeted 22 frontier agents across 44 deployment scenarios; 1.8 million prompt-injection attacks produced over 60,000 successful policy violations such as unauthorised data access and illicit financial actions. Nearly all agents showed violations for most behaviours within 10 to 100 queries, attacks transferred across models, and robustness correlated little with model size, capability or inference-time compute."
+    },
+    {
+     "title": "Reddy and Gujral, EchoLeak: The First Real-World Zero-Click Prompt Injection Exploit in a Production LLM System, arXiv 2025",
+     "url": "https://arxiv.org/abs/2509.10540",
+     "finding": "CVE-2025-32711 in Microsoft 365 Copilot allowed remote, unauthenticated data exfiltration via a single crafted email with no user interaction, bypassing Microsoft's cross-prompt-injection classifier, link redaction and the content security policy."
+    },
+    {
+     "title": "Google, AI threats in the wild: The current state of prompt injections on the web, April 2026",
+     "url": "https://blog.google/security/prompt-injections-web/",
+     "finding": "Scanning Common Crawl snapshots of 2 to 3 billion pages each, Google's threat intelligence teams found a relative increase of 32% in the malicious category between November 2025 and February 2026, including attempts at data exfiltration and file deletion; observed attacks showed limited sophistication, and the authors expect the threat to grow in scale and complexity."
+    },
+    {
+     "title": "NCSC, Prompt injection is not SQL injection (it may be worse), December 2025",
+     "url": "https://www.ncsc.gov.uk/blog-post/prompt-injection-is-not-sql-injection",
+     "finding": "Because LLMs make no distinction between data and instructions, prompt injection may never be totally mitigated in the way SQL injection can be; the NCSC advises treating it as a residual risk, limiting what LLM systems can do with deterministic controls and logging tool calls."
+    }
+   ],
+   "theme": "security",
+   "stage": "emerging",
+   "control": "mitigable",
+   "price_of": [
+    "productivity"
+   ],
+   "control_note": "Agents are useful because they read outside content and act on it, and that same reading is the attacker's way in. Narrow permissions and designs that keep untrusted text out of control decisions limit the damage, but no filter removes the risk.",
+   "actions": [
+    {
+     "action": "Keep untrusted data out of an agent's control flow",
+     "actor": "developers",
+     "status": "tested",
+     "aim": "probability",
+     "evidence": "One design that fixes the plan from the user's trusted query and blocks private data from leaving through unauthorised flows solved 77% of AgentDojo tasks with provable security, against 84% for an undefended agent.",
+     "ref": {
+      "title": "Debenedetti et al., Defeating Prompt Injections by Design, arXiv 2025",
+      "url": "https://arxiv.org/abs/2503.18813",
+      "finding": "The defence wraps the LLM in a protective system layer that extracts control and data flows from the trusted query, so retrieved untrusted data cannot change program flow; it solves 77% of AgentDojo tasks with provable security, compared with 84% undefended."
+     }
+    },
+    {
+     "action": "Cut agent privileges to those of the content it reads",
+     "actor": "deployers",
+     "status": "proposed",
+     "aim": "impact",
+     "evidence": "The UK NCSC advises deployers to rely on deterministic, non-LLM controls on what a system can do and to log tool and API calls, since detection and training only make attacks harder.",
+     "ref": {
+      "title": "NCSC, Prompt injection is not SQL injection (it may be worse), December 2025",
+      "url": "https://www.ncsc.gov.uk/blog-post/prompt-injection-is-not-sql-injection",
+      "finding": "Recommends secure design with deterministic controls, dropping an LLM's privileges to those of any untrusted party whose content it processes, and monitoring inputs, outputs and tool calls; deny-lists of malicious phrases are easy to evade."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "SQL injection breaches of card processors",
+     "year": 2007,
+     "parallel": "Software that mixed untrusted input with commands let attackers take over databases, the flaw class the NCSC compares prompt injection with.",
+     "outcome": "A US federal indictment charged Albert Gonzalez and two unnamed hackers over SQL injection attacks on Heartland Payment Systems, 7-Eleven and Hannaford; the Heartland attack led to the theft of more than about 130 million card numbers and the Hannaford attack about 4.2 million.",
+     "ref": {
+      "title": "United States v. Albert Gonzalez, indictment, US District Court for the District of New Jersey, 2009",
+      "url": "https://justice.gov/archive/usao/nj/Press/files/pdffiles/2009/GonzIndictment.pdf",
+      "finding": "Beginning on or about 26 December 2007 Heartland was the victim of a SQL Injection Attack that resulted in the theft of more than approximately 130 million credit and debit card numbers; 7-Eleven (about August 2007) and Hannaford, with about 4.2 million card numbers stolen, were also hit by SQL Injection Attacks."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -16297,6 +16374,18 @@
    "target": "pcprices",
    "kind": "twin",
    "why": "Both are AI build-out demand for a shared input, power or memory chips, that raises what ordinary households pay."
+  },
+  {
+   "source": "agentcommerce",
+   "target": "promptinjection",
+   "kind": "leads",
+   "why": "The more tools, data and payments agents can reach for a user, the more an instruction hidden in what they read can make them do."
+  },
+  {
+   "source": "promptinjection",
+   "target": "insecurecode",
+   "kind": "twin",
+   "why": "Both are security holes that come built into AI-assisted systems themselves, rather than from attackers gaining new skills."
   }
  ],
  "themes": {
