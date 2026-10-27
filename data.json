@@ -15782,6 +15782,95 @@
      }
     }
    ]
+  },
+  {
+   "id": "hiringsignals",
+   "label": "AI-written job applications stop signalling skill",
+   "valence": -2.31,
+   "probability": 0.55,
+   "year": 2025,
+   "evidence": "measured",
+   "summary": "AI makes a tailored job application almost free to write, so it no longer shows who is good. On Freelancer.com, one working paper covering 2.7 million applications found employers paid a premium for customised applications before LLMs but not after; its model estimates that if written applications carried no signal at all, top-quintile workers would be hired 19% less often, bottom-quintile workers 14% more often, and average wages would be about 5% lower[1]. A second study of an AI cover-letter tool on a large online labour platform found the link between a letter's fit to the job and callbacks fell by 51%, with employers leaning more on past work histories[2], and on Freelancer.com employers turned more to price and prior ratings[4]. Applications are multiplying too: LinkedIn reported 11,000 applications a minute, up 45% in a year, and recruiters told The New York Times that AI tools produce near-identical resumes that make top candidates harder to spot[3]. Both studies cover single online platforms, the 19% and 14% figures come from a model rather than observed hiring[4], and applicants who spent longer editing AI drafts were hired more often[2].",
+   "refs": [
+    {
+     "title": "Galdin and Silbert, Making Talk Cheap: Generative AI and Labor Market Signaling, arXiv 2025",
+     "url": "https://arxiv.org/abs/2511.08785",
+     "finding": "Using Freelancer.com data on about 61,000 job postings and 2.7 million applications from 212,000 workers, and an LLM-based measure of how tailored an application is to the job, the authors find employers paid a premium for more customised applications before LLMs but not after; 14.03% of post-LLM applications used the platform's AI tool. In a simulated equilibrium where written applications carry no signal, top-quintile workers are hired 19% less often and bottom-quintile workers 14% more often, average wages fall about 5%, hiring per posted job about 1.5% and worker surplus about 4%."
+    },
+    {
+     "title": "Cui, Dias and Ye, Signaling in the Age of AI: Evidence from Cover Letters, arXiv 2025",
+     "url": "https://arxiv.org/abs/2509.25054",
+     "finding": "On a large online labour platform that introduced an AI cover-letter tool, access to the tool made cover letters more aligned with job posts and raised callback rates, and time spent editing AI drafts correlated with hiring success; after the tool arrived, the correlation between cover-letter alignment and callbacks fell by 51%, and employers relied more on other signals such as workers' prior work histories."
+    },
+    {
+     "title": "eWeek, Job Seekers - Some Using AI - Flood LinkedIn With 11,000 Applications a Minute, June 2025",
+     "url": "https://www.eweek.com/news/ai-job-applications-linkedin/",
+     "finding": "LinkedIn reports an average of 11,000 applications per minute, up 45% in a year, according to The New York Times; job seekers use tools such as ChatGPT to tailor resumes and apply to more roles, and recruiters told the Times this produces nearly identical resumes that make top candidates harder to distinguish. LinkedIn says showing Premium subscribers how well they fit a role reduces applications from underqualified candidates by 10%."
+    },
+    {
+     "title": "Tuck School of Business at Dartmouth, What Happens to Hiring When AI Writes Job Applications?, January 2026",
+     "url": "https://tuck.dartmouth.edu/news/articles/what-happens-to-hiring-when-ai-writes-job-applications",
+     "finding": "Freelancer.com added a one-click AI application tool in April 2023 and employers could not see which proposals were AI-generated; after AI, employers relied more on price and prior ratings, which hurt higher-ability workers. The 19% and 14% hiring effects come from a structural model. The article says fuller screening through live conversation and perhaps live tests may be needed, and co-author Anais Galdin suggests more exploratory temporary contracts."
+    }
+   ],
+   "theme": "work",
+   "stage": "emerging",
+   "control": "mitigable",
+   "price_of": [
+    "productivity"
+   ],
+   "control_note": "Writing help is a real gain for applicants, and it is the same help that stops a written application showing effort or skill. Employers can shift to signals that are harder to fake, such as track records, live interviews and work tests, but those take more time to run.",
+   "actions": [
+    {
+     "action": "Weigh track records over written applications",
+     "actor": "employers",
+     "status": "in force",
+     "aim": "impact",
+     "evidence": "After an AI cover-letter tool arrived on one large online labour platform, employers relied more on workers' prior work histories as cover letters told them less.",
+     "ref": {
+      "title": "Cui, Dias and Ye, Signaling in the Age of AI: Evidence from Cover Letters, arXiv 2025",
+      "url": "https://arxiv.org/abs/2509.25054",
+      "finding": "On a large online labour platform that introduced an AI cover-letter tool, access to the tool made cover letters more aligned with job posts and raised callback rates, and time spent editing AI drafts correlated with hiring success; after the tool arrived, the correlation between cover-letter alignment and callbacks fell by 51%, and employers relied more on other signals such as workers' prior work histories."
+     }
+    },
+    {
+     "action": "Screen candidates with live interviews and tests",
+     "actor": "employers",
+     "status": "proposed",
+     "aim": "impact",
+     "evidence": "A Tuck School article on the Freelancer.com study says fuller screening through live conversation and perhaps live tests may be needed, since employers cannot tell which applications were written by AI.",
+     "ref": {
+      "title": "Tuck School of Business at Dartmouth, What Happens to Hiring When AI Writes Job Applications?, January 2026",
+      "url": "https://tuck.dartmouth.edu/news/articles/what-happens-to-hiring-when-ai-writes-job-applications",
+      "finding": "Freelancer.com added a one-click AI application tool in April 2023 and employers could not see which proposals were AI-generated; after AI, employers relied more on price and prior ratings, which hurt higher-ability workers. The 19% and 14% hiring effects come from a structural model. The article says fuller screening through live conversation and perhaps live tests may be needed, and co-author Anais Galdin suggests more exploratory temporary contracts."
+     }
+    },
+    {
+     "action": "Show applicants how well they fit before they apply",
+     "actor": "platforms",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "LinkedIn says showing Premium subscribers how well they fit a role cuts applications from underqualified candidates by 10%.",
+     "ref": {
+      "title": "eWeek, Job Seekers - Some Using AI - Flood LinkedIn With 11,000 Applications a Minute, June 2025",
+      "url": "https://www.eweek.com/news/ai-job-applications-linkedin/",
+      "finding": "LinkedIn reports an average of 11,000 applications per minute, up 45% in a year, according to The New York Times; job seekers use tools such as ChatGPT to tailor resumes and apply to more roles, and recruiters told the Times this produces nearly identical resumes that make top candidates harder to distinguish. LinkedIn says showing Premium subscribers how well they fit a role reduces applications from underqualified candidates by 10%."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "Grade inflation at Harvard",
+     "year": 2025,
+     "parallel": "When almost everyone can get the top mark, the mark stops telling apart the strongest candidates.",
+     "outcome": "About 60% of Harvard College grades had become A's, up from about 40% a decade earlier and under a quarter 20 years earlier; the dean's report said grading was failing at its key functions, and a committee began weighing a limited number of A+ grades to distinguish the very best students.",
+     "ref": {
+      "title": "Bloomberg via Fortune, Harvard says it's been giving too many A grades to students, October 2025",
+      "url": "https://fortune.com/2025/10/27/harvard-grade-inflation-students-ivy-league-education/",
+      "finding": "About 60% of grades in Harvard College undergraduate classes are A's, up from about 40% a decade ago and less than a quarter 20 years ago; Dean Amanda Claybaugh's report says grading practices are failing at the key functions of grading, and a committee is considering a limited number of A+ grades that would distinguish the very best students."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -18166,6 +18255,12 @@
    "target": "chatexposure",
    "kind": "twin",
    "why": "Both take what people type into chatbots out of their control, one by reusing it for training and the other by exposing it to search engines, extensions or courts."
+  },
+  {
+   "source": "hiringsignals",
+   "target": "fakehires",
+   "kind": "twin",
+   "why": "Both come from AI making job applications cheap to produce, so employers can trust less of what candidates submit."
   }
  ],
  "themes": {
