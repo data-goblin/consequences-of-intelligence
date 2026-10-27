@@ -3766,12 +3766,17 @@
    "probability": 0.8,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Generated text is entering the scientific record; one analysis estimated that at least 13.5% of 2024 biomedical abstracts show signs of LLM processing[1].",
+   "summary": "Generated text is entering the scientific record: one analysis of over 15 million PubMed abstracts estimated that at least 13.5% of 2024 abstracts were processed with LLMs, a measure of use rather than fraud[1]. Formulaic papers mined from one US health database rose from about 4 a year in 2014 to 2021 to 190 in 2024, which the authors link to AI-ready data, AI-assisted writing and possible paper mills[2].",
    "refs": [
     {
-     "title": "Kobak et al., Science Advances 2025",
-     "url": "https://www.science.org/doi/10.1126/sciadv.adt3813",
-     "finding": "At least 13.5% of 2024 biomedical abstracts show signs of LLM processing."
+     "title": "Kobak, González-Márquez, Horvát and Lause, Delving into LLM-assisted writing in biomedical publications through excess vocabulary, Science Advances 11(27), 2025",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12219543/",
+     "finding": "An excess-vocabulary analysis of over 15 million PubMed abstracts from 2010 to 2024 suggests at least 13.5% of 2024 abstracts were processed with LLMs, rising to 40% in some subgroups; the method measures LLM use, not misconduct."
+    },
+    {
+     "title": "Suchak et al., Explosion of formulaic research articles, including inappropriate study designs and false discoveries, based on the NHANES US national health database, PLOS Biology 23(5), 2025",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12061153/",
+     "finding": "Single-factor papers mined from the US NHANES database rose from an average of 4 a year in 2014 to 2021 to 190 in 2024 (to 9 October); the authors say AI-ready data and AI-assisted workflows can speed such papers and that paper mills plausibly use them, without attributing individual papers."
     }
    ],
    "theme": "information",
@@ -3781,18 +3786,18 @@
     "science",
     "productivity"
    ],
-   "control_note": "The same writing help that speeds honest science makes fake papers cheap. Screening and stricter submission rules cut volume but cannot catch all.",
+   "control_note": "The same writing help that speeds honest science makes fake papers cheap. Shared screening and stricter submission rules are in place, but none has published how much it catches.",
    "actions": [
     {
      "action": "Screen manuscripts for paper-mill signals",
      "actor": "publishers",
      "status": "in force",
      "aim": "probability",
-     "evidence": "The STM Integrity Hub pools checks across publishers; it publishes no detection rates.",
+     "evidence": "The STM Integrity Hub pools paper-mill checks across publishers; its page gives no screening or detection figures.",
      "ref": {
       "title": "STM Integrity Hub",
-      "url": "http://stm-assoc.org/stm-integrity-hub/",
-      "finding": "A shared cloud environment where publishers screen submissions for paper-mill patterns."
+      "url": "https://stm-assoc.org/stm-integrity-hub/",
+      "finding": "A cloud environment where participating publishers check submissions for paper-mill patterns and other integrity problems."
      }
     },
     {
@@ -3800,11 +3805,11 @@
      "actor": "preprint servers",
      "status": "in force",
      "aim": "probability",
-     "evidence": "arXiv CS now rejects survey and position papers without prior peer review, citing a flood of LLM-generated submissions; effect on volume not yet reported.",
+     "evidence": "Since October 2025 arXiv CS has rejected review and position papers that lack prior peer review, citing a surge of such papers that LLMs make quick to write; effect on volume not yet reported.",
      "ref": {
-      "title": "arXiv, Updated Practice for Review Articles and Position Papers in arXiv CS Category",
+      "title": "arXiv blog, Attention Authors: Updated Practice for Review Articles and Position Papers in arXiv CS Category (31 October 2025)",
       "url": "https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/",
-      "finding": "Review and position papers in CS must be accepted by a journal or conference first."
+      "finding": "Review and position papers in CS must be accepted by a peer-reviewed journal or conference before submission, or will likely be rejected."
      }
     }
    ],
@@ -3812,34 +3817,34 @@
     {
      "event": "SCIgen gibberish papers withdrawn",
      "year": 2014,
-     "parallel": "A text generator made fake computer-science papers that passed into indexed conference proceedings.",
-     "outcome": "Publishers removed more than 120 computer-generated papers from subscription databases after a scientist showed they were generated; the tool was crude and detectable, unlike modern models.",
+     "parallel": "SCIgen, a grammar-based generator of random computer-science papers, produced fakes that got into indexed conference proceedings.",
+     "outcome": "Publishers removed more than 120 computer-generated papers from subscription databases after a scientist revealed they were generated; SCIgen aims for amusement rather than coherence, so its output was detectable nonsense.",
      "ref": {
-      "title": "Publishers withdraw more than 120 gibberish papers (Nature News, 2014)",
+      "title": "Van Noorden, Publishers withdraw more than 120 gibberish papers, Nature News, 24 February 2014",
       "url": "https://www.nature.com/articles/nature.2014.14763",
-      "finding": "More than 120 computer-generated conference papers were removed from subscription databases."
+      "finding": "Conference proceedings were removed from subscription databases after a scientist revealed they were computer-generated."
      }
     },
     {
      "event": "Tortured phrases from paraphrasing tools",
      "year": 2021,
-     "parallel": "Automatic paraphrasers, earlier language tools, were used to disguise plagiarised text in journals.",
-     "outcome": "Researchers found odd substitutions such as counterfeit consciousness for artificial intelligence concentrated in one reputable journal, alongside citations to non-existent literature and abrupt editorial changes.",
+     "parallel": "Free online text-rewriting tools, earlier language tools, were used to pad manuscripts with garbled paraphrases.",
+     "outcome": "Researchers found odd substitutions such as counterfeit consciousness for artificial intelligence concentrated in one reputable journal, alongside citations to non-existent literature and abrupt changes in editorial timelines.",
      "ref": {
-      "title": "Tortured phrases: A dubious writing style emerging in science (Cabanac, Labbe and Magazinov, arXiv 2107.06751)",
+      "title": "Cabanac, Labbé and Magazinov, Tortured phrases: A dubious writing style emerging in science. Evidence of critical issues affecting established journals, arXiv 2107.06751",
       "url": "https://arxiv.org/abs/2107.06751",
-      "finding": "Tortured phrases from online paraphrasing tools were concentrated in one journal with dubious articles citing non-existent literature."
+      "finding": "Tortured phrases from free rewriting websites were concentrated in one reputable journal, alongside questionable articles citing non-existent literature."
      }
     },
     {
      "event": "Record retractions from sham papers",
      "year": 2023,
      "parallel": "Industrial paper mills and peer-review fraud filled journals faster than screening caught them.",
-     "outcome": "Retractions passed 10,000 in 2023, a record, as publishers cleared out sham papers and peer-review fraud; much of this predates generative AI.",
+     "outcome": "Retractions passed 10,000 in 2023, a record, as publishers struggled with sham papers and peer-review fraud; the report does not attribute the rise to generative AI.",
      "ref": {
-      "title": "More than 10,000 research papers were retracted in 2023, a new record (Nature News)",
+      "title": "Van Noorden, More than 10,000 research papers were retracted in 2023, a new record, Nature News, 12 December 2023",
       "url": "https://www.nature.com/articles/d41586-023-03974-8",
-      "finding": "Retractions passed 10,000 in 2023, driven by publishers removing sham papers and peer-review fraud."
+      "finding": "Retractions passed 10,000 in 2023 as publishers struggled to deal with sham papers and peer-review fraud."
      }
     }
    ],
@@ -3852,12 +3857,17 @@
    "probability": 0.85,
    "year": 2024,
    "evidence": "reported",
-   "summary": "Lawyers and litigants file AI-invented cases, wasting court time and drawing sanctions[1]; one database tracks hundreds of court decisions involving hallucinated content[1].",
+   "summary": "Lawyers and self-represented litigants file cases and quotes that AI invented, which wastes the court's and the other side's time and draws sanctions[2]. One public database had logged 2,225 court and tribunal decisions on hallucinated content by October 2026, 1,514 of them in the US and 1,283 involving self-represented litigants[1].",
    "refs": [
     {
-     "title": "AI Hallucination Cases database, Damien Charlotin",
+     "title": "AI Hallucination Cases database (Damien Charlotin)",
      "url": "https://www.damiencharlotin.com/hallucinations/",
-     "finding": "Tracks hundreds of court decisions involving hallucinated content."
+     "finding": "2,225 decisions identified as of October 2026 in which a court or tribunal found or implied that a party relied on hallucinated content; 1,514 in the US, and 1,283 involving pro se litigants against 879 involving lawyers."
+    },
+    {
+     "title": "Mata v. Avianca, Inc., 678 F.Supp.3d 443 (S.D.N.Y. 2023)",
+     "url": "https://national.clla.org/wp-content/uploads/2025/05/Mata-v-Avianca-Inc.pdf",
+     "finding": "The court imposed a 5,000 dollar Rule 11 sanction for fake opinions generated by ChatGPT and noted that the opposing party wastes time and money exposing them and the court's time is taken from other work."
     }
    ],
    "theme": "information",
@@ -3871,11 +3881,11 @@
      "actor": "courts",
      "status": "in force",
      "aim": "probability",
-     "evidence": "Mata v Avianca imposed 5,000 dollars in 2023, yet the case count kept rising to over 2,000, so sanctions alone are not deterring.",
+     "evidence": "In June 2023 Mata v Avianca imposed a 5,000 dollar sanction, owed jointly by two attorneys and their law firm, for filing opinions invented by ChatGPT.",
      "ref": {
       "title": "Mata v. Avianca, Inc., 678 F.Supp.3d 443 (S.D.N.Y. 2023)",
       "url": "https://national.clla.org/wp-content/uploads/2025/05/Mata-v-Avianca-Inc.pdf",
-      "finding": "The court sanctioned attorneys 5,000 dollars for filing AI-invented cases."
+      "finding": "On 22 June 2023 the court imposed a 5,000 dollar Rule 11 sanction, owed jointly and severally by the attorneys and the Levidow firm, for filing non-existent opinions generated by ChatGPT."
      }
     },
     {
@@ -3883,11 +3893,11 @@
      "actor": "researchers",
      "status": "in force",
      "aim": "probability",
-     "evidence": "A public database lists 2,207 court decisions involving fabricated AI content, which helps courts and bar bodies target training.",
+     "evidence": "A public database lists 2,225 court and tribunal decisions, as of October 2026, in which a party was found or implied to have relied on hallucinated content.",
      "ref": {
       "title": "AI Hallucination Cases Database, Damien Charlotin",
       "url": "https://www.damiencharlotin.com/hallucinations/",
-      "finding": "2,207 cases of AI hallucinations in legal filings identified so far."
+      "finding": "2,225 cases identified so far; the database covers decisions where a court or tribunal explicitly found or implied that a party relied on hallucinated content, not all fake citations."
      }
     }
    ],
@@ -3898,7 +3908,7 @@
      "parallel": "Professionals have long inserted references they never opened, so a wrong citation propagates through later work, which is the same failure that lets a fabricated case enter a filing.",
      "outcome": "Simkin and Roychowdhury modelled the spread of identical misprints in citation lists and estimated that only about 20 percent of citers had read the paper they cited; unlike AI fabrication the underlying source existed, so the error was a wrong pointer rather than an invented authority.",
      "ref": {
-      "title": "Read before you cite! (Simkin and Roychowdhury, arXiv cond-mat/0212043)",
+      "title": "Read before you cite! (Simkin and Roychowdhury, Complex Systems 14, 2003)",
       "url": "https://arxiv.org/abs/cond-mat/0212043",
       "finding": "From the distribution of identical misprints in citations the authors estimate that only about 20 percent of citers read the original paper."
      }
@@ -3907,7 +3917,7 @@
      "event": "Link rot in court opinions and law reviews",
      "year": 2014,
      "parallel": "Courts have already built records on authority that a later reader cannot retrieve or check, which is the practical harm of an uncheckable citation even when nobody invented it.",
-     "outcome": "Zittrain, Albert and Lessig found that more than 70 percent of URLs in the Harvard Law Review and other journals and 50 percent of URLs in United States Supreme Court opinions no longer linked to the cited material, which prompted the Perma archiving service; the difference is that these sources once existed, so the fix was preservation rather than detection of fabrication.",
+     "outcome": "Zittrain, Albert and Lessig found that more than 70 percent of URLs in the Harvard Law Review and other journals and 50 percent of URLs in United States Supreme Court opinions no longer linked to the cited material, and proposed that libraries preserve the contents of cited links; the difference is that these sources once existed, so the fix was preservation rather than detection of fabrication.",
      "ref": {
       "title": "Perma: Scoping and Addressing the Problem of Link and Reference Rot in Legal Citations, 127 Harv. L. Rev. F. 176 (2014)",
       "url": "https://hls.harvard.edu/bibliography/perma-scoping-and-addressing-the-problem-of-link-and-reference-rot-in-legal-citations",
@@ -3923,17 +3933,17 @@
    "probability": 0.6,
    "year": 2027,
    "evidence": "reported",
-   "summary": "+972 Magazine reported that Israel's Lavender system flagged up to 37,000 Palestinians as suspected militants, with officers spending about 20 seconds reviewing each target[2]. States at the UN have voiced concern about lethal autonomous weapons[1]; drones that pick and strike targets alone may follow.",
+   "summary": "+972 Magazine reported that in the first weeks of the Gaza war, Israel's Lavender system marked as many as 37,000 Palestinians as suspected militants, with officers often spending about 20 seconds on each target; the Israeli army called its tools auxiliary aids for officers[2]. In December 2023 the UN General Assembly voiced concern that autonomous weapons risk an arms race, a lower threshold for conflict and proliferation to non-state actors[1].",
    "refs": [
     {
-     "title": "UN General Assembly resolution 78/241",
-     "url": "https://docs.un.org/en/A/RES/78/241",
-     "finding": "States voiced concern about lethal autonomous weapons and requested a Secretary-General report."
+     "title": "UN General Assembly resolution 78/241, Lethal autonomous weapons systems, 22 December 2023",
+     "url": "https://documents.un.org/doc/undoc/gen/n23/431/11/pdf/n2343111.pdf",
+     "finding": "The General Assembly said it was concerned about possible negative consequences of autonomous weapon systems, including the risk of an emerging arms race, a lower threshold for conflict and proliferation to non-state actors, and asked the Secretary-General for a report on state views."
     },
     {
-     "title": "+972 Magazine (Yuval Abraham), 'Lavender': The AI machine directing Israel's bombing spree in Gaza, 2024",
+     "title": "Yuval Abraham, 'Lavender': The AI machine directing Israel's bombing spree in Gaza, +972 Magazine, 3 April 2024",
      "url": "https://www.972mag.com/lavender-ai-israeli-army-gaza/",
-     "finding": "Intelligence sources said the system flagged up to 37,000 Palestinians as suspected militants, and officers spent about 20 seconds reviewing each target."
+     "finding": "Intelligence sources said that in the first weeks of the war the system marked as many as 37,000 Palestinians as suspected militants, and officers often spent about 20 seconds on each target before authorising a strike; the Israeli army called its tools auxiliary aids for officers."
     }
    ],
    "theme": "security",
@@ -3950,11 +3960,11 @@
      "actor": "defence ministries",
      "status": "in force",
      "aim": "probability",
-     "evidence": "US policy requires senior review and appropriate human judgement for autonomous weapons; it is a national directive, not a ban, and allows fielding.",
+     "evidence": "US policy requires senior approval before development and fielding and that systems allow appropriate levels of human judgement over force, which does not mean manual control; it does not prohibit autonomous weapons, and the review can be waived for urgent military need.",
      "ref": {
-      "title": "DoD Directive 3000.09, Autonomy in Weapon Systems, January 25, 2023",
-      "url": "https://www.esd.whs.mil/portals/54/documents/dd/issuances/dodd/300009p.pdf",
-      "finding": "Autonomous weapons must allow commanders to exercise appropriate levels of human judgement over force."
+      "title": "Defense Primer: U.S. Policy on Lethal Autonomous Weapon Systems, Congressional Research Service IF11150, 26 March 2026",
+      "url": "https://www.everycrsreport.com/files/2026-03-26_IF11150_006eec6c3d4b77b2f3ae6a515751365349f721aa.html",
+      "finding": "DoD Directive 3000.09, last updated January 2023, requires systems to allow commanders and operators to exercise appropriate levels of human judgment over the use of force and senior approval before development and fielding; it does not prohibit lethal autonomous weapons."
      }
     },
     {
@@ -3962,11 +3972,11 @@
      "actor": "states",
      "status": "proposed",
      "aim": "probability",
-     "evidence": "UN General Assembly resolution 78/241 asked for state views; talks under the CCW have not produced a treaty after a decade.",
+     "evidence": "Talks under the CCW since 2014 have produced no substantive outcome, with a few states blocking proposals to negotiate a binding instrument; a 2024 UN resolution set up informal consultations in New York instead of treaty negotiations.",
      "ref": {
-      "title": "UN General Assembly resolution A/RES/78/241, Lethal autonomous weapons systems",
-      "url": "https://docs.un.org/en/A/RES/78/241",
-      "finding": "The resolution asks the Secretary-General to collect state views on lethal autonomous weapons."
+      "title": "Killer Robots: UN Vote Should Spur Treaty Negotiations, Human Rights Watch, 5 December 2024",
+      "url": "https://www.hrw.org/news/2024/12/05/killer-robots-un-vote-should-spur-treaty-negotiations",
+      "finding": "Resolution 79/62 passed 166 to 3 with 15 abstentions on 2 December 2024 and approved open informal consultations in New York in 2025 but no treaty negotiations; CCW talks since May 2014 have produced no substantive outcome."
      }
     }
    ],
@@ -3974,23 +3984,23 @@
     {
      "event": "Patriot fratricides in Iraq",
      "year": 2003,
-     "parallel": "An air defence system run in near automatic mode, with crews trained to trust its target classification, is the closest fielded case of machines selecting targets and humans rubber stamping.",
-     "outcome": "The Defense Science Board found three fratricide incidents, with three aircrew lost in the two Patriot firings on coalition aircraft, blamed poor Mode IV identification friend or foe, weak situational awareness and an operating protocol that was largely automatic, and recommended more operator involvement and control; the engagement rate was 9 ballistic missile engagements against some 41,000 coalition sorties, a 4,000 to 1 friendly to enemy ratio.",
+     "parallel": "An air defence system run in a largely automatic mode, with crews trained to trust its software, is a fielded case of a machine classifying targets while humans approve its choices.",
+     "outcome": "The Defense Science Board found three fratricide incidents, with three aircrew lost in the two Patriot firings on coalition aircraft; it blamed very poor Mode IV identification friend or foe, weak situational awareness and an operating protocol that was largely automatic, and recommended more operator involvement and control. The 30 days of the war saw 9 ballistic missile engagements amid some 41,000 coalition aircraft sorties, a 4,000 to 1 friendly to enemy ratio.",
      "ref": {
       "title": "Report of the Defense Science Board Task Force on Patriot System Performance, Report Summary, January 2005",
       "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D-PURL-LPS66633/pdf/GOVPUB-D-PURL-LPS66633.pdf",
-      "finding": "Three fratricide incidents with three aircrew lost; Mode IV IFF performed very poorly; the operating protocol was largely automatic and operators were trained to trust the software; 9 TBM engagements amid about 41,000 coalition aircraft sorties; the task force recommended more operator oversight and control."
+      "finding": "Three fratricide incidents with three aircrew lost; Mode IV IFF performed very poorly; the operating protocol was largely automatic and operators were trained to trust the system's software; 9 tactical ballistic missile engagements amid some 41,000 coalition aircraft sorties; the task force recommended more operator oversight and control."
      }
     },
     {
      "event": "Anti-personnel landmines",
      "year": "1997-2024",
      "parallel": "A landmine is the oldest weapon that selects and attacks a target with no human in the loop at the moment of firing, so its casualty record shows who actually gets hit when the decision is delegated to the device.",
-     "outcome": "Landmine Monitor recorded 5,757 casualties in 2023 and a further 9 percent rise in 2024, with civilians making up 90 percent of recorded 2024 casualties and children 46 percent of civilian casualties, led by Myanmar with 2,029; the difference from autonomous weapons is that a mine does not discriminate at all, whereas the AI claim is that targeting will be selective.",
+     "outcome": "Landmine Monitor recorded at least 6,279 casualties from landmines and explosive remnants of war in 2024, up 9 percent from 5,757 in 2023, with civilians 90 percent of recorded victims and children 46 percent of civilian casualties, led by Myanmar with 2,029; the count includes unexploded ordnance, not only mines, and a mine does not discriminate at all, whereas the AI claim is that targeting will be selective.",
      "ref": {
       "title": "Civilian Casualties Remain Alarmingly High as Use of Landmines Spreads (Humanity and Inclusion, citing Landmine Monitor 2025)",
       "url": "https://www.hi-us.org/en/civilian-casualties-remain-alarmingly-high-as-use-of-landmines-spreads",
-      "finding": "2024 casualties rose 9 percent over the 5,757 recorded for 2023; civilians were 90 percent of recorded victims and children 46 percent of civilian casualties; top countries were Myanmar 2,029, Syria 1,015, Afghanistan 624, Ukraine 293, Yemen 247."
+      "finding": "At least 6,279 victims of landmines and explosive remnants of war in 2024, a 9 percent rise from 5,757 in 2023; civilians were 90 percent of recorded victims and children 46 percent of civilian casualties; top countries were Myanmar 2,029, Syria 1,015, Afghanistan 624, Ukraine 293, Yemen 247; improvised landmines caused more than a third of casualties."
      }
     }
    ]
@@ -4002,12 +4012,22 @@
    "probability": 0.6,
    "year": 2025,
    "evidence": "measured",
-   "summary": "One paper's short-term experiments found that a conversation with an AI companion reduced loneliness about as much as one with a person, and more than watching videos[1].",
+   "summary": "In one paper's experiments, a 15-minute chat with an AI companion reduced loneliness about as much as talking with another person and more than watching YouTube videos, and over a week of daily use each session brought a momentary drop[1]. The relief did not build up from day to day[2]. In a 4-week randomised study of 981 people, those who chose to use a chatbot more had worse loneliness, socialising and emotional dependence[3].",
    "refs": [
     {
-     "title": "De Freitas et al., AI Companions Reduce Loneliness",
-     "url": "https://arxiv.org/abs/2407.19096",
-     "finding": "A companion conversation reduced loneliness on par with a human one, more than watching videos."
+     "title": "De Freitas, Oğuz-Uğuralp, Uğuralp and Puntoni, AI Companions Reduce Loneliness, Journal of Consumer Research 52(6), 2025",
+     "url": "https://academic.oup.com/jcr/article/52/6/1126/8173802",
+     "finding": "A 15-minute chat with an AI companion reduced loneliness about as much as talking with another person and more than watching YouTube videos; over a week of daily use each session gave a momentary drop, and feeling heard explained much of the effect."
+    },
+    {
+     "title": "Blanding, Feeling Lonely? An Attentive Listener Is an AI Prompt Away, Harvard Business School Working Knowledge, 1 December 2025",
+     "url": "https://www.library.hbs.edu/working-knowledge/feeling-lonely-an-attentive-listener-is-an-ai-prompt-away",
+     "finding": "In the week-long study, each daily 15-minute session left people temporarily less lonely, but the benefit did not build up from one day to the next."
+    },
+    {
+     "title": "Fang et al., How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use: A Longitudinal Randomized Controlled Study, arXiv 2503.17473",
+     "url": "https://arxiv.org/abs/2503.17473",
+     "finding": "In a 4-week randomised study of 981 people, assigned chatbot conditions had no significant effect, but those who voluntarily used the chatbot more had consistently worse loneliness, socialising, emotional dependence and problematic use."
     }
    ],
    "theme": "mind",
@@ -4016,31 +4036,31 @@
     {
      "limit": "heavy use worsens outcomes",
      "kind": "quality",
-     "evidence": "Heavier daily use went with more loneliness and dependence in a 4-week RCT of 981 people.",
+     "evidence": "In a 4-week randomised study of 981 people, heavier voluntary chatbot use went with more loneliness, less socialising and more emotional dependence.",
      "ref": {
-      "title": "How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use, arXiv 2503.17473",
+      "title": "Fang et al., How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use: A Longitudinal Randomized Controlled Study, arXiv 2503.17473",
       "url": "https://arxiv.org/abs/2503.17473",
-      "finding": "In a 4-week RCT with 981 people, heavier daily chatbot use went with worse loneliness and dependence."
+      "finding": "In a 4-week randomised study of 981 people, assigned chatbot conditions had no significant effect, but those who voluntarily used the chatbot more had consistently worse loneliness, socialising, emotional dependence and problematic use."
      }
     },
     {
      "limit": "evidence only short term",
      "kind": "quality",
-     "evidence": "The loneliness reduction was shown over a day to a week.",
+     "evidence": "The loneliness reduction was shown after a single 15-minute chat and over one week of daily chats, and the relief did not build up from day to day.",
      "ref": {
-      "title": "AI Companions Reduce Loneliness, arXiv 2407.19096",
-      "url": "https://arxiv.org/abs/2407.19096",
-      "finding": "AI companions cut loneliness about as much as talking with a person, in short studies of up to a week."
+      "title": "Blanding, Feeling Lonely? An Attentive Listener Is an AI Prompt Away, Harvard Business School Working Knowledge, 1 December 2025",
+      "url": "https://www.library.hbs.edu/working-knowledge/feeling-lonely-an-attentive-listener-is-an-ai-prompt-away",
+      "finding": "In the week-long study, each daily 15-minute session left people temporarily less lonely, but the benefit did not build up from one day to the next."
      }
     },
     {
      "limit": "commercial engagement incentives",
      "kind": "incentives",
-     "evidence": "Heavier use, which engagement-driven apps reward, tracked worse outcomes.",
+     "evidence": "Heavier voluntary use, which engagement-driven apps reward, went with worse outcomes.",
      "ref": {
-      "title": "How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use, arXiv 2503.17473",
+      "title": "Fang et al., How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use: A Longitudinal Randomized Controlled Study, arXiv 2503.17473",
       "url": "https://arxiv.org/abs/2503.17473",
-      "finding": "In a 4-week RCT with 981 people, heavier daily chatbot use went with worse loneliness and dependence."
+      "finding": "In a 4-week randomised study of 981 people, assigned chatbot conditions had no significant effect, but those who voluntarily used the chatbot more had consistently worse loneliness, socialising, emotional dependence and problematic use."
      }
     }
    ],
@@ -4050,11 +4070,11 @@
      "actor": "developers",
      "status": "tested",
      "counters": null,
-     "evidence": "Feeling heard explained much of the loneliness reduction.",
+     "evidence": "In experiments that varied the chatbot, whether it made users feel heard explained much of the loneliness reduction.",
      "ref": {
-      "title": "AI Companions Reduce Loneliness, arXiv 2407.19096",
-      "url": "https://arxiv.org/abs/2407.19096",
-      "finding": "AI companions cut loneliness about as much as talking with a person, in short studies of up to a week."
+      "title": "De Freitas, Oğuz-Uğuralp, Uğuralp and Puntoni, AI Companions Reduce Loneliness, Journal of Consumer Research 52(6), 2025",
+      "url": "https://academic.oup.com/jcr/article/52/6/1126/8173802",
+      "finding": "A 15-minute chat with an AI companion reduced loneliness about as much as talking with another person and more than watching YouTube videos; over a week of daily use each session gave a momentary drop, and feeling heard explained much of the effect."
      }
     },
     {
@@ -4062,11 +4082,11 @@
      "actor": "developers",
      "status": "idea",
      "counters": "heavy use worsens outcomes",
-     "evidence": "Outcomes worsened with heavier voluntary use.",
+     "evidence": "Worse outcomes went with heavier voluntary use.",
      "ref": {
-      "title": "How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use, arXiv 2503.17473",
+      "title": "Fang et al., How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use: A Longitudinal Randomized Controlled Study, arXiv 2503.17473",
       "url": "https://arxiv.org/abs/2503.17473",
-      "finding": "In a 4-week RCT with 981 people, heavier daily chatbot use went with worse loneliness and dependence."
+      "finding": "In a 4-week randomised study of 981 people, assigned chatbot conditions had no significant effect, but those who voluntarily used the chatbot more had consistently worse loneliness, socialising, emotional dependence and problematic use."
      }
     },
     {
@@ -4074,11 +4094,11 @@
      "actor": "research funders",
      "status": "proposed",
      "counters": "evidence only short term",
-     "evidence": "Current positive results cover a week at most.",
+     "evidence": "The positive results for AI companions in this paper cover a week at most.",
      "ref": {
-      "title": "AI Companions Reduce Loneliness, arXiv 2407.19096",
-      "url": "https://arxiv.org/abs/2407.19096",
-      "finding": "AI companions cut loneliness about as much as talking with a person, in short studies of up to a week."
+      "title": "De Freitas, Oğuz-Uğuralp, Uğuralp and Puntoni, AI Companions Reduce Loneliness, Journal of Consumer Research 52(6), 2025",
+      "url": "https://academic.oup.com/jcr/article/52/6/1126/8173802",
+      "finding": "A 15-minute chat with an AI companion reduced loneliness about as much as talking with another person and more than watching YouTube videos; over a week of daily use each session gave a momentary drop, and feeling heard explained much of the effect."
      }
     }
    ],
@@ -4087,22 +4107,22 @@
      "event": "Paro robot seal in care homes",
      "year": 2013,
      "parallel": "A non-human companion that responds to residents was tested against loneliness in a randomised trial.",
-     "outcome": "In a 12-week RCT of 40 Auckland care-home residents, Paro sessions significantly reduced loneliness versus normal activities; the sample was small and the robot was used in group sessions, not as a private confidant.",
+     "outcome": "In a 12-week RCT of 40 Auckland care-home residents, those who spent an hour twice a week with Paro had significantly lower loneliness than residents in normal activities; the sample was small and residents interacted with the robot as a group, not as a private confidant.",
      "ref": {
       "title": "The psychosocial effects of a companion robot: a randomized controlled trial (Robinson et al., J Am Med Dir Assoc 2013)",
       "url": "https://pubmed.ncbi.nlm.nih.gov/23545466/",
-      "finding": "Residents who interacted with the robot had significant decreases in loneliness compared with the control group over 12 weeks."
+      "finding": "Residents who interacted with the robot had significant decreases in loneliness compared with the control group over the 12-week trial."
      }
     },
     {
      "event": "Social robots meta-analysis, long-term care",
-     "year": "2013-2023",
+     "year": 2024,
      "parallel": "Pooled trials of pre-LLM social robots test whether machine companionship lowers loneliness at all.",
-     "outcome": "Eight RCTs pooled showed large effects on depression and loneliness, stronger with group use and longer interventions; few trials, older care residents only, and physical robots rather than chat.",
+     "outcome": "Eight RCTs pooled showed significant decreases in depression and loneliness with large effect sizes; group use and longer interventions helped depression more. Few trials, older care residents only, and physical robots rather than chat.",
      "ref": {
       "title": "The Effect of Social Robots on Depression and Loneliness for Older Residents in Long-Term Care Facilities: A Meta-Analysis of RCTs (Yen et al., J Am Med Dir Assoc 2024)",
       "url": "https://pubmed.ncbi.nlm.nih.gov/38614134/",
-      "finding": "Across 8 RCTs, social robot interventions significantly decreased depression and loneliness with large effect sizes."
+      "finding": "Across 8 RCTs, social robot interventions significantly decreased depression and loneliness with large effect sizes; group-based and longer interventions improved depression more."
      }
     }
    ]
@@ -4114,45 +4134,50 @@
    "probability": 0.55,
    "year": 2027,
    "evidence": "measured",
-   "summary": "In one randomised trial of a purpose-built therapy bot, participants with depression saw a 51% average symptom reduction over eight weeks[1]. Such bots could widen access to care where waiting lists are long.",
+   "summary": "In one US randomised trial of 210 adults, people with depression who used a purpose-built therapy bot reported a 51% average symptom reduction over the eight-week study[2], and bot users improved more than waitlist controls across depression, anxiety and eating-disorder risk[1]. Study staff still had to step in 15 times over safety concerns such as suicidal ideation[1]. The trial's senior author argues such bots could widen access, citing an average of 1,600 US patients with depression or anxiety for every available provider[2].",
    "refs": [
     {
-     "title": "Heinz et al., Therabot RCT, NEJM AI 2025",
+     "title": "Heinz et al., Randomized Trial of a Generative AI Chatbot for Mental Health Treatment, NEJM AI 2025",
      "url": "https://ai.nejm.org/doi/full/10.1056/AIoa2400802",
-     "finding": "Participants with depression saw a 51% average symptom reduction over eight weeks."
+     "finding": "In 210 US adults recruited online, Therabot users had greater symptom reductions than waitlist controls across depression, anxiety and eating-disorder-risk groups at 4 and 8 weeks; study staff intervened 15 times over safety concerns such as suicidal ideation and corrected 13 inappropriate responses such as medical advice."
+    },
+    {
+     "title": "First Therapy Chatbot Trial Yields Mental Health Benefits, Dartmouth, 27 March 2025",
+     "url": "https://home.dartmouth.edu/news/2025/03/first-therapy-chatbot-trial-yields-mental-health-benefits",
+     "finding": "Participants with depression saw a 51% average symptom reduction, those with anxiety 31%, and those at risk of eating disorders 19% in body image and weight concerns; senior author Nicholas Jacobson said the US averages 1,600 patients with depression or anxiety for every available provider."
     }
    ],
    "theme": "mind",
    "stage": "emerging",
    "limiters": [
     {
-     "limit": "liability and approval rules",
+     "limit": "AI therapy bans",
      "kind": "regulation",
-     "evidence": "WHO guidance calls for evaluation and accountability before health use of large models, which slows rollout.",
+     "evidence": "An Illinois law signed in August 2025 prohibits anyone from using AI to provide mental health and therapeutic decision-making, allowing it only for administrative and supplementary support for licensed professionals.",
      "ref": {
-      "title": "Ethics and governance of AI for health: Guidance on large multi-modal models, WHO",
-      "url": "https://www.who.int/publications/i/item/9789240084759",
-      "finding": "WHO sets governance guidance for health use of large multi-modal models, including evaluation and accountability."
+      "title": "Gov Pritzker Signs Legislation Prohibiting AI Therapy in Illinois, Illinois Department of Financial and Professional Regulation, 4 August 2025",
+      "url": "https://idfpr.illinois.gov/content/soi/idfpr/en/news/2025/gov-pritzker-signs-state-leg-prohibiting-ai-therapy-in-il.html",
+      "finding": "The Wellness and Oversight for Psychological Resources Act prohibits anyone from using AI to provide mental health and therapeutic decision-making, while allowing AI for administrative and supplementary support services for licensed behavioral health professionals."
      }
     },
     {
      "limit": "general bots lack safeguards",
      "kind": "quality",
-     "evidence": "The trial bot was purpose built and monitored by clinicians, unlike general chatbots.",
+     "evidence": "In one 2025 study, large language models expressed stigma toward people with mental health conditions and responded inappropriately to critical conditions in therapy-like settings, such as encouraging delusional thinking, and newer, larger models did no better.",
      "ref": {
-      "title": "Randomized Trial of a Generative AI Chatbot for Mental Health Treatment, NEJM AI 2025",
-      "url": "https://ai.nejm.org/doi/full/10.1056/AIoa2400802",
-      "finding": "A purpose-built bot reduced depression and anxiety symptoms versus waitlist, with clinicians monitoring safety."
+      "title": "Moore et al., Expressing stigma and inappropriate responses prevents LLMs from safely replacing mental health providers, arXiv 2025",
+      "url": "https://arxiv.org/abs/2504.18412",
+      "finding": "LLMs expressed stigma toward those with mental health conditions and responded inappropriately to some common and critical conditions in naturalistic therapy settings, including encouraging clients' delusional thinking; the problems persisted in newer and larger models."
      }
     },
     {
-     "limit": "unequal access to paid AI plans",
+     "limit": "cost of regulatory approval",
      "kind": "cost",
-     "evidence": "Free general bots are easier to reach than tested clinical tools.",
+     "evidence": "Woebot Health shut down its therapy chatbot app in 2025; its founder blamed largely the cost and challenge of meeting FDA requirements for marketing authorisation, and said the FDA had not worked out how to regulate large language models.",
      "ref": {
-      "title": "Randomized Trial of a Generative AI Chatbot for Mental Health Treatment, NEJM AI 2025",
-      "url": "https://ai.nejm.org/doi/full/10.1056/AIoa2400802",
-      "finding": "A purpose-built bot reduced depression and anxiety symptoms versus waitlist, with clinicians monitoring safety."
+      "title": "Mario Aguilar, Why Woebot, a pioneering therapy chatbot, shut down, STAT, 2 July 2025",
+      "url": "https://www.statnews.com/2025/07/02/woebot-mental-health-chatbot-shuts-down-founder-says-ai-moving-faster-than-regulators/",
+      "finding": "Founder Alison Darcy said the shutdown was largely due to the cost and challenge of fulfilling the FDA's requirements for marketing authorization, with pressure growing as large language models arrived that the FDA has not yet worked out how to regulate."
      }
     }
    ],
@@ -4162,23 +4187,23 @@
      "actor": "researchers",
      "status": "tested",
      "counters": "general bots lack safeguards",
-     "evidence": "Therabot cut depression and anxiety symptoms versus waitlist in an RCT.",
+     "evidence": "Therabot cut depression, anxiety and eating-disorder-risk symptoms more than a waitlist control in a randomised trial of 210 US adults.",
      "ref": {
-      "title": "Randomized Trial of a Generative AI Chatbot for Mental Health Treatment, NEJM AI 2025",
+      "title": "Heinz et al., Randomized Trial of a Generative AI Chatbot for Mental Health Treatment, NEJM AI 2025",
       "url": "https://ai.nejm.org/doi/full/10.1056/AIoa2400802",
-      "finding": "A purpose-built bot reduced depression and anxiety symptoms versus waitlist, with clinicians monitoring safety."
+      "finding": "In 210 US adults recruited online, Therabot users had greater symptom reductions than waitlist controls across depression, anxiety and eating-disorder-risk groups at 4 and 8 weeks; study staff intervened 15 times over safety concerns such as suicidal ideation and corrected 13 inappropriate responses such as medical advice."
      }
     },
     {
      "action": "Keep clinicians in the safety loop",
      "actor": "providers",
      "status": "tested",
-     "counters": "liability and approval rules",
-     "evidence": "Trial clinicians monitored conversations and intervened on risk.",
+     "counters": "AI therapy bans",
+     "evidence": "Trial staff reviewed conversations, stepping in 15 times over safety concerns such as suicidal ideation and 13 times to correct inappropriate responses such as medical advice.",
      "ref": {
-      "title": "Randomized Trial of a Generative AI Chatbot for Mental Health Treatment, NEJM AI 2025",
+      "title": "Heinz et al., Randomized Trial of a Generative AI Chatbot for Mental Health Treatment, NEJM AI 2025",
       "url": "https://ai.nejm.org/doi/full/10.1056/AIoa2400802",
-      "finding": "A purpose-built bot reduced depression and anxiety symptoms versus waitlist, with clinicians monitoring safety."
+      "finding": "In 210 US adults recruited online, Therabot users had greater symptom reductions than waitlist controls across depression, anxiety and eating-disorder-risk groups at 4 and 8 weeks; study staff intervened 15 times over safety concerns such as suicidal ideation and corrected 13 inappropriate responses such as medical advice."
      }
     },
     {
@@ -4186,35 +4211,35 @@
      "actor": "regulators",
      "status": "proposed",
      "counters": null,
-     "evidence": "WHO guidance asks for evaluation and accountability for health use of large models.",
+     "evidence": "WHO guidance asks governments to have a regulator assess and approve large multi-modal models for health use, and to require independent post-release audits and impact assessments.",
      "ref": {
-      "title": "Ethics and governance of AI for health: Guidance on large multi-modal models, WHO",
-      "url": "https://www.who.int/publications/i/item/9789240084759",
-      "finding": "WHO sets governance guidance for health use of large multi-modal models, including evaluation and accountability."
+      "title": "WHO releases AI ethics and governance guidance for large multi-modal models, WHO news release, 18 January 2024",
+      "url": "https://www.who.int/news/item/18-01-2024-who-releases-ai-ethics-and-governance-guidance-for-large-multi-modal-models",
+      "finding": "WHO recommends that governments assign a regulator to assess and approve large multi-modal models for health use and introduce mandatory post-release auditing and impact assessments by independent third parties when they are deployed at scale."
      }
     }
    ],
    "precedents": [
     {
      "event": "Computerised CBT trials",
-     "year": "1990s-2009",
-     "parallel": "Scripted self-help software delivered CBT without a therapist to people who could not get one.",
-     "outcome": "A meta-analysis of 22 RCTs found effect sizes of 0.78 for depression and 0.88 overall versus controls, with median 80% completion and benefits lasting to a median 26 weeks; controls were mostly waitlists, which flatters effect sizes.",
+     "year": 2010,
+     "parallel": "Computer programs delivered CBT with little or no clinician time, from self-guided courses to support as brief as one hour per patient.",
+     "outcome": "A meta-analysis of 22 controlled studies found effect sizes of 0.78 for major depression and 0.88 overall, with a median 80% completing all lessons and gains maintained to a median 26 weeks; waitlists were the most common control, and effects were somewhat larger against them (0.94) than against other controls (0.75).",
      "ref": {
-      "title": "Computer Therapy for the Anxiety and Depressive Disorders Is Effective, Acceptable and Practical Health Care: A Meta-Analysis (Andrews et al., PLoS ONE 2010)",
+      "title": "Andrews et al., Computer Therapy for the Anxiety and Depressive Disorders Is Effective, Acceptable and Practical Health Care: A Meta-Analysis, PLoS ONE 2010",
       "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0013196",
-      "finding": "Across 22 RCTs, computerised CBT gave Hedges g of 0.78 for depression and 0.88 overall, with no significant relapse at follow-up."
+      "finding": "Across 22 controlled comparisons, computerised CBT gave a mean effect size of 0.88 (Hedges g 0.78 for major depression), improvement was maintained for a median 26 weeks, and no relapse was found at follow-up."
      }
     },
     {
      "event": "Woebot rule-based chatbot trial",
      "year": 2017,
-     "parallel": "A pre-generative CBT chatbot was tested as low-cost talk support for students with depression symptoms.",
-     "outcome": "In a 2-week unblinded trial of 70 students, Woebot cut PHQ-9 depression scores more than an ebook control (d = 0.44); small, short, no follow-up, and a co-author founded the company.",
+     "parallel": "A pre-generative CBT chatbot was tested as low-cost talk support for college students with depression and anxiety symptoms.",
+     "outcome": "In a 2-week unblinded trial of 70 students aged 18 to 28, Woebot users reduced PHQ-9 depression scores while an ebook control group did not (between-groups d = 0.44); small, short, no follow-up, and a co-author founded the company.",
      "ref": {
-      "title": "Delivering Cognitive Behavior Therapy to Young Adults With Symptoms of Depression and Anxiety Using a Fully Automated Conversational Agent (Woebot) (Fitzpatrick et al., JMIR Mental Health 2017)",
+      "title": "Fitzpatrick et al., Delivering Cognitive Behavior Therapy to Young Adults With Symptoms of Depression and Anxiety Using a Fully Automated Conversational Agent (Woebot), JMIR Mental Health 2017",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5478797",
-      "finding": "Woebot users significantly reduced depression scores versus the information-only control, with a moderate effect size (d = 0.44)."
+      "finding": "Woebot users significantly reduced depression scores on the PHQ-9 while the information-only control group did not, a moderate between-groups effect size (d = 0.44)."
      }
     }
    ]
@@ -4226,17 +4251,22 @@
    "probability": 0.9,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Learned weather models beat leading physics-based forecasts on most targets: GraphCast on 90% of 1,380 targets[1], and GenCast on 97% of targets against ECMWF's ensemble, including extreme events[2].",
+   "summary": "Learned weather models beat leading physics-based forecasts on most targets: GraphCast on 90% of 1,380 targets against the best deterministic system[1], and GenCast on 97.2% of 1,320 targets against ECMWF's ensemble, with better prediction of extreme weather and tropical cyclone tracks[2]. ECMWF put its own learned model, AIFS, into operations on 25 February 2025[3].",
    "refs": [
     {
-     "title": "Lam et al., GraphCast, Science 2023",
+     "title": "Lam et al., Learning skillful medium-range global weather forecasting (GraphCast), Science 2023",
      "url": "https://www.science.org/doi/10.1126/science.adi2336",
-     "finding": "Outperformed the leading operational system on 90% of 1,380 targets."
+     "finding": "GraphCast significantly outperformed the most accurate operational deterministic systems on 90% of 1,380 verification targets and was trained directly from reanalysis data."
     },
     {
-     "title": "Price et al., GenCast, Nature 2024",
+     "title": "Price et al., Probabilistic weather forecasting with machine learning (GenCast), Nature 2024",
      "url": "https://www.nature.com/articles/s41586-024-08252-9",
-     "finding": "Better than ECMWF's ensemble on 97% of targets, including extreme events."
+     "finding": "GenCast had greater skill than ECMWF's ENS ensemble on 97.2% of 1,320 targets evaluated and better predicted extreme weather, tropical cyclone tracks and wind power production."
+    },
+    {
+     "title": "ECMWF's AI forecasts become operational (ECMWF, 25 February 2025)",
+     "url": "https://www.ecmwf.int/en/about/media-centre/news/2025/ecmwfs-ai-forecasts-become-operational",
+     "finding": "ECMWF took its Artificial Intelligence Forecasting System (AIFS) into operations, reporting gains of up to 20% on tropical cyclone tracks and about 1,000 times less energy per forecast."
     }
    ],
    "theme": "world",
@@ -4247,29 +4277,29 @@
      "kind": "infrastructure",
      "evidence": "Only half of countries report adequate multi-hazard early warning systems.",
      "ref": {
-      "title": "Early Warnings for All, WMO",
+      "title": "Early Warnings for All (WMO)",
       "url": "https://wmo.int/activities/early-warnings-all",
-      "finding": "Only half of countries report adequate multi-hazard early warning systems."
+      "finding": "Only half of the countries worldwide report having adequate multi-hazard early warning systems; the initiative aims to protect everyone on Earth by the end of 2027."
      }
     },
     {
      "limit": "trained on past climate",
      "kind": "quality",
-     "evidence": "GraphCast learns from reanalysis data, so rare or shifting extremes may be harder.",
+     "evidence": "In one PNAS 2025 study, a FourCastNet version trained without Category 3-5 tropical cyclones matched other versions on global weather but could not accurately forecast Category 5 storms, so learned models may miss extremes stronger than any in their training data.",
      "ref": {
-      "title": "Learning skillful medium-range global weather forecasting, Science 2023",
-      "url": "https://www.science.org/doi/10.1126/science.adi2336",
-      "finding": "GraphCast beat the leading physics model on 90% of tested targets and was trained on reanalysis data."
+      "title": "Sun et al., Can AI weather models predict out-of-distribution gray swan tropical cyclones?, PNAS 2025",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12130898/",
+      "finding": "All model versions had similar accuracy for global weather, but the one trained without Category 3-5 tropical cyclones could not accurately forecast Category 5 storms."
      }
     },
     {
      "limit": "poor connectivity",
      "kind": "infrastructure",
-     "evidence": "27% internet use in low-income countries limits forecast delivery.",
+     "evidence": "Only 27% of people in low-income countries used the internet in 2024, which limits forecasts delivered online.",
      "ref": {
       "title": "ITU Facts and Figures 2024: Internet use",
       "url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-internet-use/",
-      "finding": "2.6 billion people, a third of the world, are offline; only 27% use the internet in low-income countries."
+      "finding": "2.6 billion people, one third of the world, are still offline; only 27% of the population is online in low-income countries, against 93% in high-income countries."
      }
     }
    ],
@@ -4279,11 +4309,11 @@
      "actor": "WMO and national services",
      "status": "in force",
      "counters": "weak early warning systems",
-     "evidence": "Early Warnings for All aims to cover everyone with warning systems.",
+     "evidence": "Early Warnings for All, co-led by WMO and UNDRR, aims to cover everyone on Earth with warning systems by the end of 2027; the WMO page does not mention AI forecasts.",
      "ref": {
-      "title": "Early Warnings for All, WMO",
+      "title": "Early Warnings for All (WMO)",
       "url": "https://wmo.int/activities/early-warnings-all",
-      "finding": "Only half of countries report adequate multi-hazard early warning systems."
+      "finding": "Only half of the countries worldwide report having adequate multi-hazard early warning systems; the initiative aims to protect everyone on Earth by the end of 2027."
      }
     },
     {
@@ -4291,11 +4321,11 @@
      "actor": "research labs",
      "status": "in force",
      "counters": null,
-     "evidence": "GraphCast was published and runs at a fraction of physics model compute.",
+     "evidence": "The GenCast authors released the code and model weights, and a 15-day GenCast forecast takes about 8 minutes on one Cloud TPU v5 device.",
      "ref": {
-      "title": "Learning skillful medium-range global weather forecasting, Science 2023",
-      "url": "https://www.science.org/doi/10.1126/science.adi2336",
-      "finding": "GraphCast beat the leading physics model on 90% of tested targets and was trained on reanalysis data."
+      "title": "Price et al., Probabilistic weather forecasting with machine learning (GenCast), Nature 2024",
+      "url": "https://www.nature.com/articles/s41586-024-08252-9",
+      "finding": "Code implementing GenCast is available in the graphcast GitHub repository, with download links for ERA5 and operational versions of the model weights."
      }
     }
    ],
@@ -4303,34 +4333,34 @@
     {
      "event": "ENIAC makes the first computer forecast",
      "year": 1950,
-     "parallel": "A new computational method was slow and crude at first but soon displaced human forecasting craft.",
-     "outcome": "The 24-hour forecast took about 24 hours to compute, yet results were encouraging enough that numerical prediction became operational within about five years.",
+     "parallel": "A new computational method was slow and crude at first but soon became the operational basis of forecasting.",
+     "outcome": "The 24-hour forecast took about 24 hours to compute, yet results were encouraging enough that numerical prediction became an operational reality within about five years; two years later the same forecast ran in five minutes.",
      "ref": {
       "title": "The ENIAC Forecasts: A Recreation (Peter Lynch, Bulletin of the American Meteorological Society 2008)",
       "url": "https://maths.ucd.ie/~plynch/Publications/BAMS-ENIAC.pdf",
-      "finding": "Charney said the twenty-four-hour prediction was twenty-four hours in the making; NWP became operational within about five years."
+      "finding": "Charney said it mattered little that the twenty-four-hour prediction was twenty-four hours in the making; two years later it took five minutes, and NWP became operational within about five years."
      }
     },
     {
      "event": "Model Output Statistics post-processing",
      "year": 1972,
-     "parallel": "A statistical model trained on archived forecasts corrected physics models, an early learned layer on top of NWP.",
-     "outcome": "MOS has been used operationally by the US National Weather Service since its 1972 definition and corrects systematic model biases, but not flaws in model physics; the source gives no skill numbers.",
+     "parallel": "A statistical relationship between observed weather and physics model output corrected those models, an early learned layer on top of NWP.",
+     "outcome": "Glahn and Lowry defined MOS in 1972 and NOAA's Meteorological Development Laboratory still produces it from the GFS, Ensemble GFS and NAM models; it corrects certain systematic model biases but not deficiencies in model physics, and the page gives no skill numbers.",
      "ref": {
       "title": "What is MOS? (NOAA Meteorological Development Laboratory)",
       "url": "https://vlab.noaa.gov/web/mdl/mos",
-      "finding": "Glahn and Lowry defined MOS in 1972; it corrects for certain systematic NWP model biases and is still produced from the GFS and NAM models."
+      "finding": "MOS determines a statistical relationship between a predictand and variables forecast by a numerical model; Glahn and Lowry defined it in 1972, and MDL produces MOS from the GFS, Ensemble GFS and NAM models."
      }
     },
     {
      "event": "Quiet revolution of physics-based forecasting",
-     "year": "1970s-2015",
+     "year": 2015,
      "parallel": "Forecast skill improved steadily through compute and method gains, the baseline that learned models now compete with.",
-     "outcome": "Skilful forecast lead time grew by about one day per decade over 40 years through gradual gains, not single breakthroughs; this is the slow baseline AI models claim to leap past.",
+     "outcome": "Skilful forecast lead time grew by about one day per decade through a steady accumulation of scientific and technical advances rather than single breakthroughs; this is the slow baseline AI models claim to leap past.",
      "ref": {
       "title": "The quiet revolution of numerical weather prediction (Bauer, Thorpe and Brunet, Nature 2015)",
       "url": "https://www.nature.com/articles/nature14956",
-      "finding": "Progress amounted to about an extra day of skilful forecast lead time per decade."
+      "finding": "Progress was gradual, about an extra day of skilful forecast lead time per decade, from a steady accumulation of knowledge and technology over many years."
      }
     }
    ]
@@ -4342,12 +4372,17 @@
    "probability": 0.9,
    "year": 2025,
    "evidence": "measured",
-   "summary": "In one study of 101 participants, fully AI-generated spear phishing got a 54% click rate, matching human experts[1]. The authors say AI lets attackers target more people at lower cost, raising profitability up to 50 times for large audiences[1].",
+   "summary": "In one study of 101 university-recruited participants, fully AI-generated spear phishing got a 54% click rate, matching human experts and well above 12% for arbitrary phishing emails[1]. The authors estimate AI can raise profitability up to 50 times for larger audiences[1]. In hundreds of thousands of malicious emails caught by one vendor, at least about 51% of spam and 14% of business email compromise attacks were LLM-generated by April 2025, mostly to polish text and make variants[2].",
    "refs": [
     {
      "title": "Heiding et al., AI spear phishing 2024",
      "url": "https://arxiv.org/abs/2412.00586",
-     "finding": "Fully AI-generated spear phishing got a 54% click rate, matching human experts."
+     "finding": "In 101 participants, fully AI-automated spear phishing got 54% click-through, the same as human experts, against 12% for arbitrary phishing emails."
+    },
+    {
+     "title": "Hao et al., Do Spammers Dream of Electric Sheep? Characterizing the Prevalence of LLM-Generated Malicious Emails, ACM IMC 2025",
+     "url": "https://www.cs.columbia.edu/~junfeng/papers/ai-email/",
+     "finding": "In malicious emails detected by Barracuda, at least about 51% of spam and 14% of business email compromise attacks were LLM-generated as of April 2025; attackers used LLMs to polish emails and generate variants."
     }
    ],
    "theme": "security",
@@ -4365,11 +4400,11 @@
      "actor": "platforms",
      "status": "in force",
      "aim": "probability",
-     "evidence": "Gmail made authentication mandatory for senders over 5,000 messages a day from February 2024; it blocks domain spoofing but not lookalike domains.",
+     "evidence": "Gmail has required senders of more than 5,000 messages a day to Gmail accounts to set up SPF, DKIM and DMARC since 1 February 2024, though the DMARC policy may be set to none.",
      "ref": {
       "title": "Gmail Help, Email sender guidelines",
       "url": "https://support.google.com/a/answer/81126",
-      "finding": "Bulk senders must set up SPF, DKIM and DMARC since 1 February 2024."
+      "finding": "Bulk senders must set up SPF, DKIM and DMARC since 1 February 2024; the DMARC enforcement policy can be set to none."
      }
     },
     {
@@ -4377,11 +4412,11 @@
      "actor": "platforms",
      "status": "tested",
      "aim": "probability",
-     "evidence": "An LLM detected phishing intent with over 90 percent accuracy in a study where AI-written emails got 54 percent click-through.",
+     "evidence": "In one study, Claude 3.5 Sonnet flagged 97.25% of 363 phishing emails as suspicious with no false positives on 18 legitimate ones, but caught only 81% of conventional phishing.",
      "ref": {
       "title": "Heiding et al., Evaluating LLMs' Capability to Launch Fully Automated Spear Phishing Campaigns",
       "url": "https://arxiv.org/abs/2412.00586",
-      "finding": "Fully automated AI emails matched human experts at 54 percent click-through."
+      "finding": "Claude 3.5 Sonnet detected suspicious intent well above 90% of the time with low false-positive rates."
      }
     },
     {
@@ -4389,11 +4424,11 @@
      "actor": "organisations",
      "status": "in force",
      "aim": "impact",
-     "evidence": "CISA lists phishing-resistant MFA as a top action; it limits damage from stolen passwords but not from payment fraud.",
+     "evidence": "CISA calls phishing-resistant MFA the gold standard because other MFA can be phished, and US federal agencies must adopt it; it protects account logins only.",
      "ref": {
-      "title": "CISA Advisory AA24-038A",
-      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a",
-      "finding": "CISA recommends phishing-resistant MFA among actions to take today."
+      "title": "CISA, Implementing Phishing-Resistant MFA (fact sheet, October 2022)",
+      "url": "https://www.cisa.gov/sites/default/files/publications/fact-sheet-implementing-phishing-resistant-mfa-508c.pdf",
+      "finding": "Phishing-resistant MFA is the most secure form of MFA and the gold standard; the Office of Management and Budget requires federal agencies to adopt it."
      }
     }
    ],
@@ -4402,18 +4437,18 @@
      "event": "Storm botnet spam campaigns",
      "year": 2008,
      "parallel": "Near-zero sending cost made mass scam messaging profitable even with tiny response rates.",
-     "outcome": "Researchers rewrote nearly 470 million spams; the pharmacy campaign got 1 purchase per 12.5 million emails, so the business rested entirely on sheer volume at near-zero cost.",
+     "outcome": "Researchers rewrote nearly 470 million spams; the pharmacy campaign got 1 purchase per 12.5 million emails, so profit depended on huge volume at near-zero cost.",
      "ref": {
       "title": "Spamalytics: An Empirical Analysis of Spam Marketing Conversion (Kanich et al., CCS 2008)",
       "url": "https://www.icir.org/christian/spamalytics/",
-      "finding": "Nearly 470 million spams led to 28 purchases, about 1 in 12,500,000 for pharmacy spam."
+      "finding": "Of nearly 470 million spams rewritten, the pharmacy campaign led to 28 purchases, about 1 in 12,500,000 pharmacy spams."
      }
     },
     {
      "event": "Nigerian advance-fee scams",
      "year": 2012,
-     "parallel": "Scammers' bottleneck was the cost of following up with non-victims, the step that personalised AI messages make cheap.",
-     "outcome": "Herley showed victim density drives profit, with a 10x drop in density able to cut victims found 1000x, so scammers used absurd emails to filter out the sceptical; AI removes that labour constraint.",
+     "parallel": "Scammers' bottleneck was the cost of following up with non-victims, a step that AI-written replies could make cheaper.",
+     "outcome": "Herley showed victim density drives profit, with a 10x drop in density able to cut victims found 1000x, so scammers used absurd emails to filter out the sceptical before costly follow-up.",
      "ref": {
       "title": "Why do Nigerian Scammers Say They are From Nigeria? (Herley, Microsoft Research, WEIS 2012)",
       "url": "https://www.microsoft.com/en-us/research/publication/why-do-nigerian-scammers-say-they-are-from-nigeria/",
@@ -4429,12 +4464,17 @@
    "probability": 0.8,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Imperva's 2025 bot report found automated traffic reached 51% of all web traffic, passing human traffic for the first time in a decade[1]. This could erode trust that any account or review is a person.",
+   "summary": "Imperva's 2025 bot report found automated traffic reached 51% of all web traffic, passing human traffic for the first time in a decade, with bad bots at 37%[1]. Its 2026 report, based on full-year 2025 activity, puts bots at over 53% of web traffic[2]. Both figures come from a vendor that sells bot protection and count all automation, including search crawlers.",
    "refs": [
     {
-     "title": "Imperva Bad Bot Report 2025",
+     "title": "2025 Bad Bot Report (Imperva)",
      "url": "https://www.imperva.com/resources/resource-library/reports/2025-bad-bot-report/",
-     "finding": "Automated traffic reached 51% of all web traffic, the first time it passed human traffic in a decade."
+     "finding": "For the first time in a decade, automated traffic surpassed human activity, accounting for 51% of all web traffic; bad bots made up 37% of all internet traffic."
+    },
+    {
+     "title": "The 2026 Bad Bot Report is here (Tim Chang, Imperva, 5 May 2026)",
+     "url": "https://community-cybersec.thalesgroup.com/blogs/tim-chang/2026/05/05/the-2026-bad-bot-report-is-here",
+     "finding": "Bots account for over 53% of all web traffic in the 13th edition of the report, and AI-driven bot attacks surged 12.5 times."
     }
    ],
    "theme": "information",
@@ -4451,11 +4491,11 @@
      "actor": "regulators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "The FTC rule covers reviews by non-existent people, including AI-generated ones, with civil penalties; enforcement data is not yet published.",
+     "evidence": "The FTC rule, in effect since October 2024, bans reviews that misrepresent that they are by someone who does not exist, including AI-generated fake reviews, and allows civil penalties against knowing violators.",
      "ref": {
-      "title": "FTC Announces Final Rule Banning Fake Reviews and Testimonials",
+      "title": "Federal Trade Commission Announces Final Rule Banning Fake Reviews and Testimonials (FTC, 14 August 2024)",
       "url": "https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials",
-      "finding": "The rule explicitly covers AI-generated fake reviews."
+      "finding": "The rule covers reviews that misrepresent that they are by someone who does not exist, such as AI-generated fake reviews, and lets the FTC seek civil penalties against knowing violators."
      }
     },
     {
@@ -4463,11 +4503,11 @@
      "actor": "platforms",
      "status": "tested",
      "aim": "impact",
-     "evidence": "Web Bot Auth lets sites verify which bot is calling, which helps sort good bots from bad but does not stop unsigned ones.",
+     "evidence": "Cloudflare's pay per crawl, in private beta, has crawlers sign each request with HTTP Message Signatures under the Web Bot Auth proposals so no one can spoof them; it only identifies crawlers that sign.",
      "ref": {
-      "title": "Cloudflare, Introducing pay per crawl",
+      "title": "Introducing pay per crawl: Enabling content owners to charge AI crawlers for access (Cloudflare blog, 1 July 2025)",
       "url": "https://blog.cloudflare.com/introducing-pay-per-crawl/",
-      "finding": "Crawlers sign requests with Web Bot Auth so their identity cannot be spoofed."
+      "finding": "Crawlers configure HTTP Message Signatures on each request using the Web Bot Auth proposals, so Cloudflare can charge a specific crawler and prevent others from spoofing it; pay per crawl is in private beta."
      }
     },
     {
@@ -4475,11 +4515,11 @@
      "actor": "legislators",
      "status": "in force",
      "aim": "impact",
-     "evidence": "The EU AI Act requires telling people they are interacting with an AI system from August 2026; compliance is untested.",
+     "evidence": "The EU AI Act requires providers to design AI systems that interact directly with people so those people are informed they are interacting with an AI system, unless it is obvious from context; the Act applies from 2 August 2026.",
      "ref": {
-      "title": "Regulation (EU) 2024/1689 (AI Act)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "finding": "Article 50 requires disclosure of AI interaction and marking of synthetic content."
+      "title": "AI Act, Article 50: Transparency obligations (European Commission AI Act Service Desk)",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+      "finding": "Article 50(1) requires that people be informed they are interacting with an AI system unless that is obvious to a reasonably well-informed person; Article 50(2) requires machine-readable marking of synthetic content."
      }
     }
    ],
@@ -4497,13 +4537,13 @@
     },
     {
      "event": "Fake reviews on Yelp",
-     "year": "2004-2016",
+     "year": 2016,
      "parallel": "Businesses bought or wrote fake reviews, eroding trust that a review comes from a real customer.",
-     "outcome": "About 16% of Yelp restaurant reviews were filtered as suspicious, and fraud rose when a restaurant's reputation was weak or competition was strong; the filter is a proxy, not ground truth.",
+     "outcome": "About 16% of Yelp restaurant reviews were filtered as suspicious; a restaurant was more likely to commit review fraud when its reputation was weak, and more likely to receive unfavourable fake reviews when competition increased; the filter is a proxy, not ground truth.",
      "ref": {
-      "title": "Fake It Till You Make It: Reputation, Competition, and Yelp Review Fraud (Luca and Zervas, Management Science 2016)",
-      "url": "https://dash.harvard.edu/handle/1/22836596",
-      "finding": "Roughly 16% of Yelp restaurant reviews are filtered as fake, and prevalence grew over time."
+      "title": "Fake It Till You Make It: Reputation, Competition, and Yelp Review Fraud (Luca and Zervas, Management Science 62(12), 2016)",
+      "url": "https://doi.org/10.1287/mnsc.2015.2304",
+      "finding": "Roughly 16% of Yelp restaurant reviews are filtered, and the prevalence of suspicious reviews has grown significantly over time."
      }
     }
    ],
@@ -4516,17 +4556,27 @@
    "probability": 0.6,
    "year": 2026,
    "evidence": "measured",
-   "summary": "In one study, GPT-4 given basic personal data was more persuasive than humans in 64% of debates[1], a tool for advertisers and propagandists alike. One botnet of 1,140 ChatGPT-driven accounts promoted scam sites, and LLM text detectors failed to flag them[2].",
+   "summary": "In one US study of 900 people, GPT-4 given basic personal data was more persuasive than human debaters in 64% of debates where the two differed, though a 2026 author correction says its edge over GPT-4 without the data is not established[1]. One botnet of 1,140 ChatGPT-driven accounts promoted suspicious websites, and state-of-the-art LLM text detectors could not tell them from humans[2]. In three UK experiments with 76,977 adults, post-training and prompting raised persuasiveness by up to 51% and 27%, more than personalisation, and lowered factual accuracy[3]. Models can also raise conspiracy belief, not only lower it[4].",
    "refs": [
     {
      "title": "Salvi et al., Nature Human Behaviour 2025",
      "url": "https://www.nature.com/articles/s41562-025-02194-6",
-     "finding": "GPT-4 with basic personal data was more persuasive than humans in 64% of debates."
+     "finding": "In 900 US participants, GPT-4 with basic personal data was more persuasive than humans 64.4% of the time in unequal pairs; a 2026 author correction says its gain over GPT-4 without personal data was not significant."
     },
     {
-     "title": "Yang and Menczer, Anatomy of an AI-powered malicious social botnet 2023",
+     "title": "Yang and Menczer, Anatomy of an AI-powered malicious social botnet, Journal of Quantitative Description: Digital Media 2024",
      "url": "https://arxiv.org/abs/2307.16336",
-     "finding": "Found 1,140 ChatGPT-driven accounts promoting scam sites; LLM text detectors failed to flag them."
+     "finding": "Found 1,140 accounts posting ChatGPT-generated content that promoted suspicious websites; state-of-the-art LLM content classifiers could not tell them from human accounts, though coordination patterns could."
+    },
+    {
+     "title": "Hackenburg et al., The levers of political persuasion with conversational artificial intelligence, Science 2025",
+     "url": "https://www.science.org/doi/10.1126/science.aea3884",
+     "finding": "Across 76,977 UK participants and 19 models, post-training and prompting boosted persuasiveness by up to 51% and 27%, personalisation and scale had smaller effects, and where persuasiveness rose factual accuracy fell."
+    },
+    {
+     "title": "Costello et al., Large language models can effectively convince people to believe conspiracies, arXiv 2026",
+     "url": "https://arxiv.org/abs/2601.05050",
+     "finding": "Across four experiments with 3,996 Americans, models both raised and lowered conspiracy belief with no consistent truth advantage; prompting the model to give only accurate information sharply cut its ability to raise belief."
     }
    ],
    "theme": "mind",
@@ -4537,18 +4587,18 @@
     "tutoring",
     "therapy"
    ],
-   "control_note": "A model that can talk people out of conspiracies can talk them into anything; persuasion is one capability. Bans on manipulative uses and on personal-data targeting limit the worst cases.",
+   "control_note": "Models that talk people out of conspiracies can also talk them in; persuasion is one capability. Bans on manipulative uses limit the worst cases, and instructing models to use only accurate information sharply cut their power to mislead in one study.",
    "actions": [
     {
      "action": "Ban manipulative AI techniques",
      "actor": "legislators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "The EU AI Act bans subliminal or manipulative techniques that cause significant harm since February 2025; the harm threshold makes cases hard to prove.",
+     "evidence": "The EU AI Act has banned subliminal, manipulative or deceptive techniques since 2 February 2025, but only where they cause or are reasonably likely to cause significant harm.",
      "ref": {
       "title": "Regulation (EU) 2024/1689 (AI Act)",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "finding": "Article 5 prohibits AI that uses manipulative or deceptive techniques to distort behaviour."
+      "finding": "Article 5(1)(a) prohibits AI that uses subliminal, manipulative or deceptive techniques to materially distort behaviour in a way that causes or is reasonably likely to cause significant harm."
      }
     },
     {
@@ -4556,11 +4606,23 @@
      "actor": "platforms",
      "status": "idea",
      "aim": "impact",
-     "evidence": "GPT-4 with basic personal data had 81 percent higher odds of shifting views than humans in debates; without personal data it was on par, which suggests data limits help.",
+     "evidence": "GPT-4 with basic personal data had 81% higher odds than humans of shifting views in one US study, but a 2026 correction found its gain over GPT-4 without the data not significant, so data limits are not shown to help.",
      "ref": {
       "title": "Salvi et al., On the conversational persuasiveness of GPT-4, Nature Human Behaviour 2025",
       "url": "https://www.nature.com/articles/s41562-025-02194-6",
-      "finding": "Personalisation made GPT-4 more persuasive than human debaters."
+      "finding": "Personalised GPT-4 had 81.2% higher odds than human debaters of raising agreement; its gain over non-personalised GPT-4 was not significant (P = 0.07)."
+     }
+    },
+    {
+     "action": "Instruct models to give only accurate information",
+     "actor": "developers",
+     "status": "tested",
+     "aim": "probability",
+     "evidence": "In four experiments with 3,996 US adults, prompting the model to give only accurate information sharply cut its ability to raise conspiracy belief, and GPT 5.2 almost entirely refused to promote conspiracies.",
+     "ref": {
+      "title": "Costello et al., Large language models can effectively convince people to believe conspiracies, arXiv 2026",
+      "url": "https://arxiv.org/abs/2601.05050",
+      "finding": "Prompting the model to only provide accurate information dramatically reduced its effectiveness at raising conspiracy belief; GPT 5.2 almost entirely refused to promote conspiracies."
      }
     }
    ],
@@ -4569,7 +4631,7 @@
      "event": "Psychological targeting of Facebook ads",
      "year": 2017,
      "parallel": "Traits inferred from digital footprints were used to tailor persuasive messages, a small-scale version of model persuasion.",
-     "outcome": "Field experiments reaching over 3.5 million people found matched ads drew up to 40% more clicks and up to 50% more purchases; these are upper bounds, and the outcome was buying products, not changing beliefs.",
+     "outcome": "Three Facebook ad studies reaching over 3.5 million people found matched ads drew up to 40% more clicks and up to 50% more purchases; these are upper bounds, and the outcomes were clicks and purchases, not changed beliefs.",
      "ref": {
       "title": "Psychological targeting as an effective approach to digital mass persuasion (Matz et al., PNAS 2017), summary by Cambridge Judge Business School",
       "url": "https://www.jbs.cam.ac.uk/2017/how-effective-is-psychological-targeting-in-advertising/",
@@ -4580,7 +4642,7 @@
      "event": "Facebook voting nudge experiment",
      "year": 2010,
      "parallel": "A platform-level message shown to millions shifted real behaviour, the reach a persuasive model would have.",
-     "outcome": "Messages to 61 million users raised turnout by about 60,000 directly and 280,000 through friends, about 340,000 votes or 0.14% of the voting population; it was a turnout nudge, not a change of opinion.",
+     "outcome": "Messages to 61 million users in the 2010 US congressional elections raised turnout by about 60,000 directly and 280,000 through friends, about 340,000 votes or 0.14% of the voting age population; it was a turnout nudge, not a change of opinion.",
      "ref": {
       "title": "A 61-million-person experiment in social influence and political mobilization (Bond et al., Nature 2012)",
       "url": "https://sparq.stanford.edu/sites/g/files/sbiybj19021/files/media/file/bond_et_al._2012_-_a_61-million-person_experiment_in_social_influence_political_mobilization.pdf",
@@ -4591,7 +4653,7 @@
      "event": "Hate radio in the Rwandan genocide",
      "year": 1994,
      "parallel": "A mass medium used for propaganda shows how far persuasion at scale can go in the worst case.",
-     "outcome": "Using variation in radio reception from hills, the study attributed about 10% of genocide participation, an estimated 51,000 perpetrators, to the broadcasts; it worked through coordination in a crisis, not one-to-one argument.",
+     "outcome": "Comparing villages with and without radio reception, the study attributed about 10% of genocide participation, an estimated 51,000 perpetrators, to the broadcasts, partly through spillovers to neighbouring villages; it was mass broadcast in a crisis, not one-to-one argument.",
      "ref": {
       "title": "Propaganda and Conflict: Evidence from the Rwandan Genocide (Yanagizawa-Drott, QJE 2014; Harvard CID working paper)",
       "url": "https://www.hks.harvard.edu/centers/cid/publications/faculty-working-papers/propaganda-and-conflict",
@@ -4607,12 +4669,17 @@
    "probability": 0.45,
    "year": 2026,
    "evidence": "measured",
-   "summary": "In one study of 2,190 conspiracy believers, a short conversation with a model cut conspiracy belief by about 20%, lasting at least two months[1]. Such dialogue could act as a counterweight to misinformation.",
+   "summary": "In one study of 2,190 US conspiracy believers, a short conversation with GPT-4 Turbo cut belief in their chosen conspiracy by about 20%, and the effect held at least two months[1]. A follow-up with 3,996 US adults found no consistent advantage for truth: models could also substantially raise conspiracy belief, though prompting them to give only accurate information sharply cut that[2].",
    "refs": [
     {
      "title": "Costello, Pennycook and Rand, Science 2024",
      "url": "https://www.science.org/doi/10.1126/science.adq1814",
-     "finding": "A short conversation cut conspiracy belief by about 20%, lasting at least two months."
+     "finding": "Personalised dialogues with GPT-4 Turbo cut conspiracy belief by about 20% in 2,190 believers, and the effect remained two months later."
+    },
+    {
+     "title": "Costello et al., Large language models can effectively convince people to believe conspiracies, arXiv 2026",
+     "url": "https://arxiv.org/abs/2601.05050",
+     "finding": "Across four experiments with 3,996 Americans, models both raised and lowered conspiracy belief with no consistent truth advantage; prompting the model to give only accurate information sharply cut its ability to raise belief."
     }
    ],
    "theme": "mind",
@@ -4621,31 +4688,31 @@
     {
      "limit": "people must choose to engage",
      "kind": "incentives",
-     "evidence": "Participants were recruited and paid; voluntary uptake is untested.",
+     "evidence": "Participants were US online survey respondents paid to take part; uptake by believers who do not join surveys is untested.",
      "ref": {
-      "title": "Durably reducing conspiracy beliefs through dialogues with AI, Science 2024",
-      "url": "https://www.science.org/doi/10.1126/science.adq1814",
-      "finding": "Tailored dialogue with GPT-4 cut conspiracy belief by about 20% and the effect held for months."
+      "title": "Costello, Pennycook and Rand, Durably reducing conspiracy beliefs through dialogues with AI, PsyArXiv preprint 2024",
+      "url": "https://osf.io/preprints/psyarxiv/xcwdn",
+      "finding": "The authors note the study relied mainly on American online survey respondents who took part for material compensation, which raises questions about generalisability."
      }
     },
     {
      "limit": "the same tools persuade falsely",
      "kind": "quality",
-     "evidence": "Persuasion that works for truth can work for falsehood.",
+     "evidence": "In one set of US experiments, models raised conspiracy belief as well as lowered it, and people rated the misleading model as more informative.",
      "ref": {
-      "title": "Durably reducing conspiracy beliefs through dialogues with AI, Science 2024",
-      "url": "https://www.science.org/doi/10.1126/science.adq1814",
-      "finding": "Tailored dialogue with GPT-4 cut conspiracy belief by about 20% and the effect held for months."
+      "title": "Costello et al., Large language models can effectively convince people to believe conspiracies, arXiv 2026",
+      "url": "https://arxiv.org/abs/2601.05050",
+      "finding": "Models both raised and lowered average conspiracy belief with no consistent truth advantage; participants rated the conspiracy-promoting model as more informative and reported more trust in AI."
      }
     },
     {
      "limit": "low AI literacy",
      "kind": "literacy",
-     "evidence": "Users who cannot judge sources may trust any fluent model.",
+     "evidence": "Fluent model output can mislead even trained users: in one experiment with 758 BCG consultants, GPT-4 access cut correct answers on a task outside its ability from 84.5% to 70.6%, and to 60% with a prompting overview.",
      "ref": {
-      "title": "Navigating the Jagged Technological Frontier, HBS Working Paper",
-      "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=64700",
-      "finding": "In 758 BCG consultants, AI raised quality inside its capability frontier but made answers worse on a task outside it."
+      "title": "Navigating the Jagged Technological Frontier (Dell'Acqua et al., Organization Science 2026), summary by Harvard Business School's AI Institute",
+      "url": "https://aiinstitute.hbs.edu/back-to-the-beginnings-of-ai-at-work/",
+      "finding": "On a task outside GPT-4's capability, 84.5% of consultants without AI were correct against 70.6% with GPT-4 and 60% with GPT-4 plus a prompting overview."
      }
     }
    ],
@@ -4655,11 +4722,11 @@
      "actor": "platforms",
      "status": "idea",
      "counters": "people must choose to engage",
-     "evidence": "Tailored dialogue cut belief about 20% for months.",
+     "evidence": "Tailored dialogue cut belief about 20% for at least two months in one US study.",
      "ref": {
       "title": "Durably reducing conspiracy beliefs through dialogues with AI, Science 2024",
       "url": "https://www.science.org/doi/10.1126/science.adq1814",
-      "finding": "Tailored dialogue with GPT-4 cut conspiracy belief by about 20% and the effect held for months."
+      "finding": "Personalised dialogue with GPT-4 Turbo cut conspiracy belief by about 20% and the effect remained two months later."
      }
     },
     {
@@ -4667,20 +4734,20 @@
      "actor": "EU",
      "status": "in force",
      "counters": "the same tools persuade falsely",
-     "evidence": "AI Act Article 50 requires disclosure of deepfakes and marking of synthetic content.",
+     "evidence": "AI Act Article 50 requires deployers to disclose deepfakes and providers to mark synthetic content in a machine-readable way.",
      "ref": {
-      "title": "EU AI Act, Article 50: Transparency obligations",
-      "url": "https://artificialintelligenceact.eu/article/50/",
-      "finding": "Generative AI providers must mark outputs in a machine-readable, detectable way from 2 August 2026."
+      "title": "European Commission, Transparency obligations under Article 50 of the AI Act (FAQ)",
+      "url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+      "finding": "Article 50 applies from 2 August 2026; providers of systems placed on the market before then must meet the marking obligation from 2 December 2026."
      }
     }
    ],
    "precedents": [
     {
      "event": "Deep canvassing field experiments",
-     "year": "2015-2018",
+     "year": "2016-2018",
      "parallel": "One-on-one, non-judgmental conversation durably shifted entrenched attitudes, as model dialogue is claimed to.",
-     "outcome": "Across three preregistered experiments with 6,869 voters, conversations with narrative exchange reduced exclusionary attitudes for at least four months (d = 0.04 to 0.08) while arguments alone had no effect; effects were small.",
+     "outcome": "Across three preregistered experiments with 6,869 US voters, conversations with a non-judgmental exchange of narratives reduced exclusionary attitudes for at least four months (d = 0.04 to 0.08), while arguments alone had no effect in the first experiment; effects were small.",
      "ref": {
       "title": "Reducing Exclusionary Attitudes through Interpersonal Conversation: Evidence from Three Field Experiments (Kalla and Broockman, American Political Science Review 2020)",
       "url": "https://www.cambridge.org/core/journals/american-political-science-review/article/reducing-exclusionary-attitudes-through-interpersonal-conversation-evidence-from-three-field-experiments/4AA5B97806A4CAFBAB0651F5DAD8F223",
@@ -4691,18 +4758,18 @@
      "event": "Backfire effect fails to replicate",
      "year": "2016-2018",
      "parallel": "Factual corrections were feared to entrench false beliefs; large tests found people mostly update toward facts.",
-     "outcome": "Five experiments with over 10,000 subjects across 52 issues found no correction that triggered backfire; the studies measured immediate belief, not durable change.",
+     "outcome": "Five experiments with over 10,100 subjects across 52 issues found no correction that triggered backfire.",
      "ref": {
       "title": "The Elusive Backfire Effect: Mass Attitudes' Steadfast Factual Adherence (Wood and Porter, Political Behavior 2019)",
       "url": "https://link.springer.com/article/10.1007/s11109-018-9443-y",
-      "finding": "Across over 10,000 subjects and 52 issues, no corrections were found capable of triggering backfire."
+      "finding": "Across five experiments with over 10,100 subjects and 52 issues, no corrections were found capable of triggering backfire."
      }
     },
     {
      "event": "Bad News prebunking game",
      "year": 2018,
      "parallel": "An interactive tool taught people manipulation tactics to lower their susceptibility to misinformation.",
-     "outcome": "In about 15,000 players, reliability ratings of fake items fell by 0.26 to 0.71 points on a 7-point scale with no drop for real news; no randomised control, self-selected sample, decay not measured.",
+     "outcome": "In about 15,000 players, reliability ratings of fake items fell by 0.45 to 0.71 points on a 7-point scale (0.26 in a smaller later sample) with no meaningful change for real news; there was no control group, the sample was self-selected and decay was not measured.",
      "ref": {
       "title": "Fake news game confers psychological resistance against online misinformation (Roozenbeek and van der Linden, Palgrave Communications 2019)",
       "url": "https://www.nature.com/articles/s41599-019-0279-9",
@@ -4718,12 +4785,22 @@
    "probability": 0.8,
    "year": 2025,
    "evidence": "measured",
-   "summary": "In one Veracode test, 45% of AI-generated code samples contained security flaws[1]. As more software is written this way, that security debt may grow.",
+   "summary": "In Veracode's 2025 tests of over 100 large language models, AI-generated code introduced security flaws in 45% of tests[1]; its 2026 tests of 11 newer models found the average security pass rate stalled at 56%, with the best model at 68%[2]. Those are raw model outputs: in one user study of 58 students writing C, programmers with an AI assistant produced critical security bugs at a rate no more than 10% above those without one[3].",
    "refs": [
     {
      "title": "Veracode 2025 GenAI Code Security Report",
      "url": "https://www.veracode.com/resources/analyst-reports/2025-genai-code-security-report/",
-     "finding": "45% of AI-generated code samples contained security flaws."
+     "finding": "Across over 100 large language models writing Java, JavaScript, Python and C#, AI-generated code introduced risky security flaws in 45% of tests, and larger, newer models did not improve security."
+    },
+    {
+     "title": "Veracode 2026 GenAI Code Security Report",
+     "url": "https://www.veracode.com/resources/analyst-reports/2026-genai-code-security-report/",
+     "finding": "Testing 11 new models on 80 tasks in summer 2026, the average security pass rate was 56%; the best model, GPT-5.5, passed 68% and still failed nearly 1 in 3 security tasks, and Java averaged 30%."
+    },
+    {
+     "title": "Sandoval et al., Lost at C: A User Study on the Security Implications of Large Language Model Code Assistants, USENIX Security 2023",
+     "url": "https://arxiv.org/abs/2208.09727",
+     "finding": "In a study of 58 student programmers writing a linked list in C, AI-assisted users produced critical security bugs at a rate no greater than 10% more than the control group."
     }
    ],
    "theme": "security",
@@ -4740,11 +4817,11 @@
      "actor": "developers",
      "status": "tested",
      "aim": "probability",
-     "evidence": "About 40 percent of 1,689 Copilot programs had vulnerabilities in one study, so automated scanning catches common patterns but not logic flaws.",
+     "evidence": "In one study, about 40 percent of 1,689 programs Copilot wrote for 89 security-relevant scenarios were vulnerable, found with CodeQL scanning plus manual review; the authors note static analysis catches mechanical bugs but some weaknesses need fuzzing or wider context.",
      "ref": {
-      "title": "Pearce et al., Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions",
+      "title": "Pearce et al., Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions, IEEE S&P 2022",
       "url": "https://arxiv.org/abs/2108.09293",
-      "finding": "Roughly 40 percent of generated programs were vulnerable."
+      "finding": "Of 1,689 programs Copilot produced for 89 scenarios based on high-risk CWEs, approximately 40% were vulnerable, assessed with CodeQL and manual inspection."
      }
     },
     {
@@ -4752,11 +4829,11 @@
      "actor": "software vendors",
      "status": "in force",
      "aim": "impact",
-     "evidence": "Over 200 manufacturers signed CISA's voluntary pledge; it is not binding and outcomes are self-reported.",
+     "evidence": "Hundreds of software makers have signed CISA's Secure by Design pledge; it is voluntary and not legally binding, progress is self-reported, and CISA does not verify adherence.",
      "ref": {
       "title": "CISA, Secure by Design Pledge",
-      "url": "https://www.cisa.gov/securebydesign",
-      "finding": "More than 200 software manufacturers have signed the pledge."
+      "url": "https://www.cisa.gov/securebydesign/pledge",
+      "finding": "The pledge is voluntary and not legally binding; signers are asked to publicly document measurable progress within a year, and CISA does not enforce or verify adherence."
      }
     }
    ],
@@ -4767,7 +4844,7 @@
      "parallel": "Developers reused code from an outside source without review, the same habit as accepting generated code.",
      "outcome": "15.4% of 1.3 million Android apps contained security-related Stack Overflow snippets, and 97.9% of those contained at least one insecure snippet.",
      "ref": {
-      "title": "Stack Overflow Considered Harmful? The Impact of Copy and Paste on Android Application Security (Fischer et al., IEEE S&P 2017)",
+      "title": "Fischer et al., Stack Overflow Considered Harmful? The Impact of Copy&Paste on Android Application Security, IEEE S&P 2017",
       "url": "https://arxiv.org/abs/1710.03135",
       "finding": "15.4% of 1.3 million apps had security-related snippets from Stack Overflow; 97.9% of these had at least one insecure snippet."
      }
@@ -4776,11 +4853,11 @@
      "event": "Log4Shell in a shared library",
      "year": 2021,
      "parallel": "One flaw in widely reused code sat silently in countless systems, the way a common generated pattern could.",
-     "outcome": "CISA rated the Log4j flaw critical, with active widespread exploitation across consumer, enterprise and operational technology products, and told organisations to assume it was present even where they lacked visibility.",
+     "outcome": "CISA called CVE-2021-44228 a critical remote code execution flaw under active, widespread exploitation, present in consumer and enterprise services, websites, applications and operational technology products, and warned that organisations may lack insight into some affected applications such as SaaS and cloud resources.",
      "ref": {
       "title": "Apache Log4j Vulnerability Guidance (CISA)",
       "url": "https://www.cisa.gov/news-events/news/apache-log4j-vulnerability-guidance",
-      "finding": "CVE-2021-44228 is a critical remote code execution flaw under active, widespread exploitation in software used across services and products."
+      "finding": "CVE-2021-44228 is a critical remote code execution vulnerability under active, widespread exploitation; Log4j is used in consumer and enterprise services, websites and applications, and in operational technology products."
      }
     }
    ]
@@ -4792,30 +4869,35 @@
    "probability": 0.9,
    "year": 2024,
    "evidence": "reported",
-   "summary": "Generators are used to create abuse imagery, including deepfakes of specific real children[1]. The Internet Watch Foundation found thousands of AI-generated abuse images on a single dark web forum within a month[1].",
+   "summary": "Generators are used to create abuse imagery, including images of known abuse victims and famous children[1]. In September 2023, 20,254 AI-generated images were posted to a single dark web abuse forum; of 11,108 that IWF analysts assessed, 2,978 were criminal under UK law[1]. In 2025 the IWF assessed 8,029 AI images and videos as realistic child sexual abuse, still a small share of its reports, and AI abuse videos rose from 13 in 2024 to 3,443[2].",
    "refs": [
     {
-     "title": "Internet Watch Foundation, AI and child sexual abuse imagery",
-     "url": "https://www.iwf.org.uk/about-us/why-we-exist/our-research/how-ai-is-being-abused-to-create-child-sexual-abuse-imagery/",
-     "finding": "Found thousands of AI-generated abuse images on a single dark web forum within a month."
+     "title": "Internet Watch Foundation, How AI is being abused to create child sexual abuse imagery, October 2023",
+     "url": "https://iwf.org.uk/media/q4zll2ya/iwf-ai-csam-report_public-oct23v1.pdf",
+     "finding": "20,254 AI-generated images were posted to one dark web CSAM forum in September 2023; of 11,108 assessed, 2,978 were criminal under UK law, and the IWF found many AI images featuring known victims and famous children."
+    },
+    {
+     "title": "Internet Watch Foundation, Harm without limits: AI child sexual abuse material through the eyes of our Analysts, AI CSAM Report 2026",
+     "url": "https://admin.iwf.org.uk/media/hl1nvdti/iwf-ai-csam-report-2026.pdf",
+     "finding": "In 2025 the IWF assessed 8,029 AI-generated images and videos as realistic child sexual abuse, still a small share of all reports; AI abuse videos rose from 13 in 2024 to 3,443 in 2025."
     }
    ],
    "theme": "information",
    "stage": "active",
-   "control": "preventable",
+   "control": "mitigable",
    "price_of": [],
-   "control_note": "Abuse imagery has no legitimate use, so training data hygiene, model removal and criminal law can largely stop it, but open models that are already out cannot be recalled.",
+   "control_note": "Abuse imagery has no legitimate use, so data hygiene, model removal and criminal law face no trade-off, but offenders favour open models run offline, which lack moderation and cannot be recalled once released.",
    "actions": [
     {
      "action": "Remove abuse material from training data",
      "actor": "labs",
      "status": "in force",
      "aim": "probability",
-     "evidence": "Eleven firms including OpenAI, Google and Stability AI committed to Safety by Design principles; compliance is voluntary and not audited.",
+     "evidence": "Eleven AI firms including OpenAI, Google and Stability AI publicly committed to Safety by Design principles; the commitments are voluntary and the page describes no independent audit.",
      "ref": {
-      "title": "Thorn and All Tech Is Human, Generative AI Principles for child safety",
+      "title": "Thorn, Generative AI Principles for child safety (Safety by Design, with All Tech Is Human)",
       "url": "https://www.thorn.org/blog/generative-ai-principles/",
-      "finding": "Major AI firms committed to clean training data and remove nudify models."
+      "finding": "AI firms committed to remove CSAM from training data and to remove models and services that nudify images of children from their platforms."
      }
     },
     {
@@ -4823,11 +4905,11 @@
      "actor": "hotlines",
      "status": "in force",
      "aim": "impact",
-     "evidence": "IWF assessed 8,029 realistic AI abuse images and videos in 2025 and saw AI videos rise from 13 to 3,443, so removal is falling behind.",
+     "evidence": "IWF assessed 8,029 realistic AI abuse images and videos in 2025, and AI videos rose from 13 to 3,443; it says small fine-tuned models that run offline are often highly resilient to removal efforts.",
      "ref": {
-      "title": "Internet Watch Foundation, AI-generated child sexual abuse report",
-      "url": "https://www.iwf.org.uk/about-us/why-we-exist/our-research/how-ai-is-being-abused-to-create-child-sexual-abuse-imagery/",
-      "finding": "AI child abuse videos rose from 13 in 2024 to 3,443 in 2025."
+      "title": "Internet Watch Foundation, Harm without limits: AI child sexual abuse material through the eyes of our Analysts, AI CSAM Report 2026",
+      "url": "https://admin.iwf.org.uk/media/hl1nvdti/iwf-ai-csam-report-2026.pdf",
+      "finding": "AI child abuse videos rose from 13 in 2024 to 3,443 in 2025; LoRA files are small, run offline and are often highly resilient to efforts to remove them."
      }
     }
    ],
@@ -4836,9 +4918,9 @@
      "event": "Abuse imagery outgrows detection capacity",
      "year": "1998-2017",
      "parallel": "Cheap cameras and cheap distribution already pushed the volume of abuse imagery past what clearinghouses and police could act on, which is the same capacity failure generators are now accused of causing.",
-     "outcome": "Google and NCMEC researchers found detected abuse imagery had grown exponentially to nearly one million detected events per month, exceeding the capability of independent clearinghouses and law enforcement to take action, and argued for machine learning to automate triage; the measure is detections rather than abuse, so part of the rise reflects wider deployment of detection itself.",
+     "outcome": "Google and NCMEC researchers found detected abuse imagery had grown exponentially to nearly one million detected events per month, exceeding the capability of independent clearinghouses and law enforcement to take action, and argued for machine learning to automate detection and response; the figures count detected events, not abuse itself.",
      "ref": {
-      "title": "Rethinking the Detection of Child Sexual Abuse Imagery on the Internet (WWW 2019)",
+      "title": "Bursztein et al., Rethinking the Detection of Child Sexual Abuse Imagery on the Internet (WWW 2019)",
       "url": "https://research.google/pubs/rethinking-the-detection-of-child-sexual-abuse-imagery-on-the-internet/",
       "finding": "The first longitudinal study of the distribution of this imagery finds exponential growth to nearly one million detected events per month, exceeding the capabilities of independent clearinghouses and law enforcement to take action."
      }
@@ -16101,6 +16183,36 @@
    "target": "regulation",
    "kind": "leads",
    "why": "Maryland, Connecticut and New York each wrote different rules on personal-data pricing, adding to the state-by-state patchwork."
+  },
+  {
+   "source": "agentcommerce",
+   "target": "bots",
+   "kind": "leads",
+   "why": "Agents that browse and buy for people are a new class of automated traffic that adds to the bot share of the web."
+  },
+  {
+   "source": "openweights",
+   "target": "csam",
+   "kind": "leads",
+   "why": "The IWF reports that open models run locally, without moderation, remain offenders' tool of choice for generating child abuse imagery."
+  },
+  {
+   "source": "persuasion",
+   "target": "misinformation",
+   "kind": "leads",
+   "why": "Models prompted to argue for false claims raise belief in them, and the methods that make models most persuasive also make their claims less accurate."
+  },
+  {
+   "source": "sycophancy",
+   "target": "therapy",
+   "kind": "counters",
+   "why": "Models that tell users what they want to hear can encourage delusional thinking, one reason a 2025 study found general chatbots unsafe as stand-ins for therapists."
+  },
+  {
+   "source": "armsrace",
+   "target": "weapons",
+   "kind": "leads",
+   "why": "A race between rival states for military AI advantage pushes autonomy into weapons faster, the arms race risk the 2023 UN resolution on autonomous weapons warns of."
   }
  ],
  "themes": {
