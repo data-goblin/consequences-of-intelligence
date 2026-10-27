@@ -177,6 +177,24 @@ impl Editor {
             }))
     }
 
+    fn fill_button(&self, base: DocPath, cx: &mut Context<Self>) -> AnyElement {
+        let Some(fill) = &self.cfg.fill else {
+            return div().into_any_element();
+        };
+        let mut url = base.clone();
+        url.push(key("url"));
+        let tag = path_id(&url);
+        Button::new(ElementId::Name(format!("fill-{tag}").into()))
+            .label(fill.label.clone())
+            .outline()
+            .compact()
+            .loading(self.filling.contains(&tag))
+            .on_click(cx.listener(move |this, _, window, cx| {
+                this.fill_ref(base.clone(), false, window, cx)
+            }))
+            .into_any_element()
+    }
+
     fn ref_block(&self, base: &DocPath, cx: &mut Context<Self>) -> AnyElement {
         let mut rp = base.clone();
         rp.push(key("ref"));
@@ -193,8 +211,13 @@ impl Editor {
             Some(Value::String(_)) => v_flex().gap_1().child(self.field(&rp)),
             _ => v_flex()
                 .gap_1()
+                .child(
+                    h_flex()
+                        .gap_2()
+                        .child(div().flex_1().child(self.field(&at("url"))))
+                        .child(self.fill_button(rp.clone(), cx)),
+                )
                 .child(self.field(&at("title")))
-                .child(self.field(&at("url")))
                 .child(self.field(&at("finding"))),
         };
         v_flex()
@@ -246,13 +269,14 @@ impl Editor {
                             v_flex()
                                 .flex_1()
                                 .gap_1()
-                                .child(self.field(&at("title")))
                                 .child(
                                     h_flex()
                                         .gap_2()
                                         .child(div().flex_1().child(self.field(&at("url"))))
-                                        .child(open_link(format!("open-ref-{r}"), url, cx)),
+                                        .child(open_link(format!("open-ref-{r}"), url, cx))
+                                        .child(self.fill_button(p.clone(), cx)),
                                 )
+                                .child(self.field(&at("title")))
                                 .child(self.field(&at("finding"))),
                         )
                         .child(self.remove_button(format!("rm-ref-{r}"), list.clone(), r, cx)),

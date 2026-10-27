@@ -1,14 +1,14 @@
 use crate::config::Config;
 use crate::form::Form;
 use crate::glyph;
-use crate::store::{SaveError, Store, key, node_path};
+use crate::store::{DocPath, SaveError, Store, key, node_path, path_id};
 use crate::style::*;
 use gpui::prelude::FluentBuilder as _;
 use gpui::*;
 use gpui_component::button::{Button, ButtonVariants as _};
 use gpui_component::input::{Input, InputEvent, InputState};
 use gpui_component::{Disableable as _, h_flex, v_flex};
-use serde_json::Value;
+use serde_json::{Value, json};
 use std::cell::RefCell;
 use std::collections::{BTreeSet, HashMap};
 use std::sync::Arc;
@@ -24,6 +24,7 @@ pub struct Editor {
     pub touched: BTreeSet<String>,
     pub confirm_delete: bool,
     pub status: SharedString,
+    pub filling: BTreeSet<String>,
     pub graph_hover: Option<usize>,
     scoring: bool,
     filter: Entity<InputState>,
@@ -55,6 +56,7 @@ impl Editor {
             touched: BTreeSet::new(),
             confirm_delete: false,
             status: SharedString::default(),
+            filling: BTreeSet::new(),
             graph_hover: None,
             scoring: false,
             filter,
@@ -223,6 +225,111 @@ impl Editor {
                         .into();
                     }
                     Err(e) => this.status = format!("Scoring failed: {e}").into(),
+                }
+                cx.notify();
+            })
+            .ok();
+        })
+        .detach();
+    }
+
+    pub fn fill_ref(
+        &mut self,
+        base: DocPath,
+        auto: bool,
+        window: &mut Window,
+        cx: &mut Context<Self>,
+    ) {
+        let at = move |k: &str| {
+            let mut p = base.clone();
+            p.push(key(k));
+            p
+        };
+        let tag = path_id(&at("url")[..]);
+        let url = self.store.text(&at("url")).trim().to_string();
+        let empty = |k: &str| self.store.text(&at(k)).trim().is_empty();
+        if !url.starts_with("http")
+            || self.filling.contains(&tag)
+            || (auto && !(empty("title") && empty("finding")))
+        {
+            return;
+        }
+        let Some(fill) = &self.cfg.fill else { return };
+        let node = self
+            .selected
+            .map(|i| node_value(&self.store, i).clone())
+            .unwrap_or(Value::Null);
+        let input = json!({
+            "url": url,
+            "label": node["label"].as_str().unwrap_or_default(),
+            "summary": node["summary"].as_str().unwrap_or_default(),
+        })
+        .to_string();
+        let args: Vec<String> = fill
+            .command
+            .iter()
+            .map(|a| a.replace("{url}", &url))
+            .collect();
+        let Some((program, rest)) = args.split_first() else {
+            return;
+        };
+        let mut cmd = std::process::Command::new(program);
+        cmd.args(rest)
+            .stdin(std::process::Stdio::piped())
+            .stdout(std::process::Stdio::piped())
+            .stderr(std::process::Stdio::piped());
+        if let Some(dir) = &fill.cwd {
+            cmd.current_dir(dir);
+        }
+        self.filling.insert(tag.clone());
+        self.status = format!("{}: {url}", fill.label).into();
+        cx.notify();
+        let run = cx.background_executor().spawn(async move {
+            use std::io::Write as _;
+            let mut child = cmd.spawn()?;
+            if let Some(mut stdin) = child.stdin.take() {
+                stdin.write_all(input.as_bytes())?;
+            }
+            child.wait_with_output()
+        });
+        cx.spawn_in(window, async move |this, cx| {
+            let out = run.await;
+            this.update_in(cx, |this, window, cx| {
+                this.filling.remove(&tag);
+                let parsed = match out {
+                    Ok(o) if o.status.success() => {
+                        serde_json::from_slice::<Value>(&o.stdout).map_err(|e| e.to_string())
+                    }
+                    Ok(o) => Err(String::from_utf8_lossy(&o.stderr)
+                        .lines()
+                        .last()
+                        .unwrap_or("no output")
+                        .to_string()),
+                    Err(e) => Err(e.to_string()),
+                };
+                match parsed {
+                    Ok(found) if this.store.text(&at("url")).trim() == url => {
+                        let mut set = Vec::new();
+                        for k in ["title", "finding"] {
+                            if let Some(v) = found[k].as_str().filter(|v| !v.trim().is_empty())
+                                && this.store.text(&at(k)).trim().is_empty()
+                            {
+                                this.store.set(&at(k), json!(v));
+                                if let Some(form) = &this.form {
+                                    form.set_text(&at(k), v, window, cx);
+                                }
+                                set.push(k);
+                            }
+                        }
+                        this.status = if set.is_empty() {
+                            "Nothing to fill".into()
+                        } else {
+                            format!("Filled {}", set.join(", ")).into()
+                        };
+                        this.touch(cx);
+                    }
+                    Ok(_) => this.status = "Link changed; fill dropped".into(),
+                    Err(e) => this.status = format!("Fill failed: {e}").into(),
                 }
                 cx.notify();
             })

@@ -6,18 +6,19 @@ use std::path::{Path, PathBuf};
 struct RawConfig {
     data: Option<String>,
     notes: Option<String>,
-    score: Option<RawScore>,
+    score: Option<RawCommand>,
+    fill: Option<RawCommand>,
 }
 
 #[derive(Deserialize)]
 #[serde(deny_unknown_fields)]
-struct RawScore {
+struct RawCommand {
     label: String,
     command: Vec<String>,
     cwd: Option<String>,
 }
 
-pub struct Score {
+pub struct Command {
     pub label: String,
     pub command: Vec<String>,
     pub cwd: Option<PathBuf>,
@@ -26,7 +27,8 @@ pub struct Score {
 pub struct Config {
     pub data: PathBuf,
     pub notes: PathBuf,
-    pub score: Option<Score>,
+    pub score: Option<Command>,
+    pub fill: Option<Command>,
 }
 
 fn home() -> PathBuf {
@@ -52,6 +54,14 @@ pub fn default_path() -> PathBuf {
     xdg("XDG_CONFIG_HOME", ".config").join("coi-editor/coi-editor.config.yaml")
 }
 
+fn command(c: RawCommand) -> Command {
+    Command {
+        label: c.label,
+        command: c.command,
+        cwd: c.cwd.map(|p| expand(&p)),
+    }
+}
+
 pub fn load(path: &Path) -> Result<Config, String> {
     let raw: RawConfig = match std::fs::read_to_string(path) {
         Ok(text) => {
@@ -69,10 +79,7 @@ pub fn load(path: &Path) -> Result<Config, String> {
             .notes
             .map(|p| expand(&p))
             .unwrap_or_else(|| xdg("XDG_DATA_HOME", ".local/share").join("coi-editor/notes.json")),
-        score: raw.score.map(|s| Score {
-            label: s.label,
-            command: s.command,
-            cwd: s.cwd.map(|p| expand(&p)),
-        }),
+        score: raw.score.map(command),
+        fill: raw.fill.map(command),
     })
 }

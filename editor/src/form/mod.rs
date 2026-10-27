@@ -93,8 +93,8 @@ pub(super) const LISTS: &[ListSpec] = &[
 ];
 
 pub(super) const REF_FIELDS: &[F] = &[
-    F::Line("title", "Title"),
     F::Line("url", "Link"),
+    F::Line("title", "Title"),
     F::Para("finding", "Finding"),
 ];
 
@@ -165,7 +165,7 @@ impl Builder<'_> {
         self.subs.push(cx.subscribe_in(
             &state,
             self.window,
-            move |this: &mut Editor, s, ev: &InputEvent, _, cx| {
+            move |this: &mut Editor, s, ev: &InputEvent, window, cx| {
                 if matches!(ev, InputEvent::Change) {
                     let text = s.read(cx).value().to_string();
                     let nullable = matches!(p.last(), Some(Seg::Key(k)) if k == "counters");
@@ -176,6 +176,10 @@ impl Builder<'_> {
                     };
                     this.store.set(&p, v);
                     this.touch(cx);
+                } else if matches!(ev, InputEvent::PressEnter { .. } | InputEvent::Blur)
+                    && matches!(p.last(), Some(Seg::Key(k)) if k == "url")
+                {
+                    this.fill_ref(p[..p.len() - 1].to_vec(), true, window, cx);
                 }
             },
         ));
@@ -283,6 +287,15 @@ impl Builder<'_> {
 }
 
 impl Form {
+    pub fn set_text(&self, path: &[Seg], text: &str, window: &mut Window, cx: &mut App) {
+        let text = text.to_string();
+        match self.fields.get(&path_id(path)) {
+            Some(Field::Line(s)) => s.update(cx, |s, cx| s.set_value(text, window, cx)),
+            Some(Field::Para(s)) => s.update(cx, |s, cx| s.set_value(text, window, cx)),
+            None => {}
+        }
+    }
+
     pub fn build(ed: &mut Editor, i: usize, window: &mut Window, cx: &mut Context<Editor>) -> Form {
         let mut b = Builder {
             window,
