@@ -1437,13 +1437,18 @@
    "valence": -2.38,
    "probability": 0.85,
    "year": 2025,
-   "evidence": "measured",
-   "summary": "Polished-looking AI output that lacks substance shifts work onto whoever receives it; in one survey of US desk workers, 40% had received such workslop in the past month, costing nearly two hours per incident[1].",
+   "evidence": "reported",
+   "summary": "Polished-looking AI output that lacks substance shifts work onto whoever receives it; in one survey of 1,150 full-time US desk workers, 40% had received such workslop in the past month, costing about two hours per incident[1][2].",
    "refs": [
     {
-     "title": "Niederhoffer et al., HBR 2025",
+     "title": "Niederhoffer et al., AI-Generated Workslop Is Destroying Productivity, HBR 2025",
      "url": "https://hbr.org/2025/09/ai-generated-workslop-is-destroying-productivity",
-     "finding": "40% of surveyed US desk workers received workslop in the past month, costing nearly two hours per incident."
+     "finding": "In one survey of 1,150 full-time US desk workers, 40% received workslop in the past month, costing nearly two hours per incident."
+    },
+    {
+     "title": "BetterUp Labs and Stanford Social Media Lab, Workslop survey, September 2025",
+     "url": "https://www.betterup.com/workslop",
+     "finding": "1,150 full-time US desk workers; 40% received workslop in the last month, about 2 hours to resolve each, an estimated $186 per employee per month."
     }
    ],
    "theme": "work",
@@ -1467,13 +1472,13 @@
     {
      "action": "Train staff on where AI fails",
      "actor": "employers",
-     "status": "tested",
+     "status": "idea",
      "aim": "probability",
-     "evidence": "In a field experiment, consultants using AI outside its frontier got the right answer less often, so knowing the frontier matters.",
+     "evidence": "In one experiment with 758 BCG consultants, those using GPT-4 on a task outside its frontier were 19% less likely to reach a correct answer; training staff on the frontier itself was not tested.",
      "ref": {
-      "title": "Dell'Acqua et al., Navigating the Jagged Technological Frontier, HBS Working Paper 24-013",
-      "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=64700",
-      "finding": "Consultants using AI on a task outside its frontier were less likely to reach the correct answer than those without AI."
+      "title": "Dell'Acqua et al., Navigating the Jagged Technological Frontier, Organization Science 2026",
+      "url": "https://doi.org/10.1287/orsc.2025.21838",
+      "finding": "In a preregistered experiment with 758 BCG consultants, GPT-4 users completed 12.2% more tasks 25.1% faster inside the frontier, but were 19% less likely to be correct on a task outside it."
      }
     }
    ],
@@ -1482,7 +1487,7 @@
      "event": "Columbia shuttle and PowerPoint engineering",
      "year": "2003",
      "parallel": "A polished slide compressed a key risk into vague bullets and shifted the work of finding it onto readers who never did, as hollow AI output does.",
-     "outcome": "The Board found the slide buried that the debris was 640 times larger than the test data behind the model, and called the endemic use of PowerPoint instead of technical papers a sign of problematic technical communication at NASA; the cause was culture, not the tool alone.",
+     "outcome": "The Board found the slide put at the bottom that one debris estimate was 640 times larger than the data used to calibrate the model (later analysis put it at 400 times), and called the endemic use of PowerPoint briefing slides instead of technical papers a sign of problematic technical communication at NASA.",
      "ref": {
       "title": "Columbia Accident Investigation Board Report, Volume 1, 'Engineering by Viewgraphs' (p. 191)",
       "url": "https://www.nasa.gov/wp-content/uploads/2025/04/caib-report.pdf",
@@ -1498,12 +1503,22 @@
    "probability": 0.8,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Fabricated bug and security reports waste the scarce time of volunteer maintainers[1]. At curl, about a fifth of 2025 security reports were AI slop, and the share of valid reports fell to around 5%[1].",
+   "summary": "Fabricated bug and security reports waste the scarce time of volunteer maintainers[1]. At curl, about a fifth of security reports in the first half of 2025 were AI slop, and the share of valid reports fell to around 5%[1]. Since spring 2026 the slop has mostly stopped, but AI-assisted reports, now mostly accurate, arrive at 4 to 5 times the 2024 rate, so the load on maintainers grew[2][3].",
    "refs": [
     {
-     "title": "Daniel Stenberg, Death by a thousand slops 2025",
+     "title": "Daniel Stenberg, Death by a thousand slops, 2025",
      "url": "https://daniel.haxx.se/blog/2025/07/14/death-by-a-thousand-slops/",
-     "finding": "About a fifth of curl's 2025 security reports were AI slop and the valid rate fell to around 5%."
+     "finding": "About a fifth of curl's 2025 security reports through early July were AI slop and the valid rate fell to around 5%."
+    },
+    {
+     "title": "Daniel Stenberg, The pressure, May 2026",
+     "url": "https://daniel.haxx.se/blog/2026/05/26/the-pressure/",
+     "finding": "Incoming curl security reports run 4 to 5 times the 2024 rate and double the 2025 rate; quality is higher than ever, and triage takes almost all of the lead maintainer's days."
+    },
+    {
+     "title": "Daniel Stenberg, ignore the slop, October 2026",
+     "url": "https://daniel.haxx.se/blog/2026/10/22/ignore-the-slop/",
+     "finding": "Since spring 2026 slop reports are practically gone; every recent report had AI involved, and they are typically accurate."
     }
    ],
    "theme": "work",
@@ -1520,11 +1535,11 @@
      "actor": "bug bounty platforms",
      "status": "proposed",
      "aim": "probability",
-     "evidence": "Proposed by the Python Software Foundation security lead; no measured effect yet.",
+     "evidence": "Proposed by Seth Larson, who triages security reports for CPython, pip and other projects; no measured effect yet.",
      "ref": {
       "title": "Seth Larson, New era of slop security reports for open source, 2024",
       "url": "https://sethmlarson.dev/slop-security-reports",
-      "finding": "Calls on report platforms to rate-limit new accounts, remove volume incentives and require human review."
+      "finding": "Calls on report platforms to rate-limit submissions, hamper new accounts and remove incentives; asks reporters to have a human review reports."
      }
     },
     {
@@ -1532,11 +1547,11 @@
      "actor": "maintainers",
      "status": "in force",
      "aim": "probability",
-     "evidence": "curl now states it has no bug bounty after slop reached about 20% of submissions; the effect on volume is not yet reported.",
+     "evidence": "curl ended its bug bounty on 31 January 2026, citing AI slop; the effect of ending it on report volume is not measured.",
      "ref": {
-      "title": "curl, Vulnerability disclosure policy",
-      "url": "https://curl.se/dev/vuln-disclosure.html",
-      "finding": "Asks reporters not to paste AI-generated explanations and states there is no bug bounty."
+      "title": "Daniel Stenberg, The end of the curl bug-bounty, January 2026",
+      "url": "https://daniel.haxx.se/blog/2026/01/26/the-end-of-the-curl-bug-bounty/",
+      "finding": "The bounty, run on HackerOne since April 2019, stopped on 31 January 2026 after 87 confirmed vulnerabilities and over 100,000 USD paid; the confirmed rate fell below 5% in 2025."
      }
     },
     {
@@ -1548,7 +1563,7 @@
      "ref": {
       "title": "Daniel Stenberg, Death by a thousand slops, 2025",
       "url": "https://daniel.haxx.se/blog/2025/07/14/death-by-a-thousand-slops/",
-      "finding": "About 20% of curl's 2025 security submissions were AI slop and only about 5% were real vulnerabilities."
+      "finding": "curl published 21 slop reports; bans are a toothless threat because new accounts are free."
      }
     }
    ],
@@ -1557,18 +1572,18 @@
      "event": "University of Minnesota hypocrite commits",
      "year": "2020-2021",
      "parallel": "Deliberately bad patches sent to Linux maintainers wasted reviewer time and forced a mass re-review, the same cost fabricated AI reports impose.",
-     "outcome": "The Linux Foundation's Technical Advisory Board re-reviewed 435 commits, found 39 incorrect, and named reviewer and maintainer time as the resource in shortest supply; the bad patches themselves were all caught.",
+     "outcome": "The Linux Foundation's Technical Advisory Board re-reviewed 435 earlier University of Minnesota commits, found 39 needing fixes, and named reviewer and maintainer time as the resource in shortest supply; all invalid patch submissions were caught or ignored.",
      "ref": {
       "title": "Linux Foundation TAB 2021, Report on University of Minnesota Breach-of-Trust Incident",
       "url": "https://lore.kernel.org/lkml/202105051005.49BFABCE@keescook/",
-      "finding": "435 commits re-reviewed, 39 found incorrect; the research wasted maintainers' scarce time."
+      "finding": "435 commits re-reviewed, 39 needing fixes; the research wasted maintainers' scarce time."
      }
     },
     {
      "event": "Bogus critical curl CVE",
      "year": "2019-2023",
      "parallel": "A non-security bug was filed as a critical vulnerability, leaving the volunteer maintainer to fight a false alarm that spread worldwide.",
-     "outcome": "NVD rated CVE-2020-19909 9.8 critical although curl had already judged the 2019 report not a security problem; MITRE declined to reject it. This is one maintainer's account, not a measured rate.",
+     "outcome": "In 2023 NVD rated CVE-2020-19909 9.8 critical although curl had already judged the 2019 report not a security problem, and MITRE declined to reject it. This is one maintainer's account, not a measured rate.",
      "ref": {
       "title": "Stenberg 2023, CVE-2020-19909 is everything that is wrong with CVEs",
       "url": "https://daniel.haxx.se/blog/2023/08/26/cve-2020-19909-is-everything-that-is-wrong-with-cves/",
@@ -1584,7 +1599,7 @@
    "probability": 0.95,
    "year": 2024,
    "evidence": "measured",
-   "summary": "Use for schoolwork is rising: one Pew survey found 26% of US teens used ChatGPT for schoolwork, double the 2023 share[1]. Unguarded use can lift homework scores and hurt exam scores, as in one Turkish trial[2] and one study of 26,800 Chinese secondary students[3].",
+   "summary": "Use for schoolwork is rising: one Pew survey found 26% of US teens had used ChatGPT for schoolwork in 2024, double the 2023 share[1], and a 2025 Pew survey found 54% had used chatbots for schoolwork help[4]. Unguarded use can lift homework scores and hurt exam scores, as in one Turkish trial[2] and one study of 26,811 Chinese secondary students[3]. Self-reported cheating by US high schoolers did not rise in 2023 surveys, so AI may change how students cheat more than how often[5].",
    "refs": [
     {
      "title": "Pew Research Center, Jan 2025",
@@ -1597,14 +1612,19 @@
      "finding": "Students with plain GPT-4 practice access scored 17% worse on exams once access was removed."
     },
     {
-     "title": "Strömberg, Lei and Wu, The generative AI learning penalty, CEPR 2026",
-     "url": "https://cepr.org/voxeu/columns/generative-ai-learning-penalty-secondary-school",
-     "finding": "Across 26,800 Chinese secondary students, AI raised homework scores 18% but cut monthly exam scores 20% within six months and entrance exam scores 18 to 24%."
+     "title": "Strömberg, Lei and Wu, The Generative AI Learning Penalty: Evidence from Chinese Secondary Education, CEPR Discussion Paper 21577, 2026",
+     "url": "https://econpapers.repec.org/RePEc:cpr:ceprdp:21577",
+     "finding": "Across 26,811 students in grades 7 to 12 followed for 30 months, AI adoption raised homework scores 18% but cut monthly exam scores 20% within six months, and high-stakes entrance exam scores 18 and 24%."
     },
     {
-     "title": "The Decoder on the same study",
-     "url": "https://the-decoder.com/a-26000-student-study-shows-ais-hidden-learning-cost-takes-two-full-years-to-surface/",
-     "finding": "Losses concentrated among students who rushed their homework with AI."
+     "title": "Pew Research Center, How Teens Use and View AI, February 2026",
+     "url": "https://www.pewresearch.org/internet/2026/02/24/how-teens-use-and-view-ai/",
+     "finding": "In a survey of 1,458 US teens aged 13 to 17 in autumn 2025, 54% used chatbots for schoolwork help, 1 in 10 did all or most schoolwork with them, and 59% think cheating with AI is regular at their school."
+    },
+    {
+     "title": "Stanford Graduate School of Education, What do AI chatbots really mean for students and cheating?, 2023",
+     "url": "https://ed.stanford.edu/news/what-do-ai-chatbots-really-mean-students-and-cheating",
+     "finding": "In Challenge Success surveys, 60 to 70% of US high schoolers reported cheating before ChatGPT, and the share stayed about the same or fell slightly in 2023."
     }
    ],
    "theme": "mind",
@@ -1630,9 +1650,9 @@
     {
      "action": "Move graded work to supervised settings",
      "actor": "schools",
-     "status": "tested",
+     "status": "proposed",
      "aim": "probability",
-     "evidence": "In unsupervised exams 94% of AI answers went undetected, so detection alone fails; supervised formats avoid that.",
+     "evidence": "At one UK university, 94% of AI answers in unsupervised take-home exams went undetected, so detection alone fails; supervised formats are the implied fix, not a tested one.",
      "ref": {
       "title": "Scarfe et al., A real-world test of AI infiltration of a university examinations system, PLOS ONE 2024",
       "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0305354",
@@ -1673,7 +1693,7 @@
    "probability": 0.65,
    "year": 2025,
    "evidence": "measured",
-   "summary": "One survey of 319 knowledge workers found higher confidence in AI went with less critical thinking[1]; in one small MIT study, LLM-assisted essay writers showed the weakest brain connectivity and recall[2]. Other studies link AI use to lower critical-thinking scores[3] and less self-evaluation[4]; most are small or self-reported[1][2].",
+   "summary": "One survey of 319 knowledge workers found higher confidence in AI went with less critical thinking[1]; in one small MIT study, LLM-assisted essay writers showed the weakest brain connectivity and recall[2], though other researchers have questioned its methods[5]. Other studies link AI use to lower critical-thinking scores[3] and less self-evaluation[4]; most are small or self-reported[1][2][3].",
    "refs": [
     {
      "title": "Lee et al., Microsoft Research and CMU, CHI 2025",
@@ -1683,17 +1703,22 @@
     {
      "title": "Kosmyna et al., Your Brain on ChatGPT, MIT 2025",
      "url": "https://arxiv.org/abs/2506.08872",
-     "finding": "LLM-assisted essay writers showed the weakest brain connectivity and could rarely quote their own essays. Small sample, not peer reviewed."
+     "finding": "In 54 participants, LLM-assisted essay writers showed the weakest EEG connectivity and struggled to quote their own essays. Preprint, not peer reviewed as of December 2025."
     },
     {
      "title": "Gerlich, AI Tools in Society, Societies 2025",
      "url": "https://www.mdpi.com/2075-4698/15/1/6",
-     "finding": "Heavier AI tool use correlated with lower critical-thinking scores, mediated by cognitive offloading."
+     "finding": "In 666 participants, heavier AI tool use correlated with lower critical-thinking scores, mediated by cognitive offloading; cross-sectional, and a table was corrected in September 2025."
     },
     {
      "title": "Fan et al., Beware of metacognitive laziness, British Journal of Educational Technology 2025",
      "url": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544",
-     "finding": "Students with ChatGPT improved essay scores but engaged less in self-evaluation, with no gain in knowledge transfer."
+     "finding": "In 117 students, ChatGPT support raised essay scores but brought no more knowledge gain or transfer than other support, with fewer self-evaluation steps."
+    },
+    {
+     "title": "Stanković et al., Comment on: Your Brain on ChatGPT, 2025",
+     "url": "https://arxiv.org/abs/2601.00856",
+     "finding": "Criticises the limited sample size, EEG methods, reproducibility and reporting, and argues some results should be read more conservatively."
     }
    ],
    "theme": "mind",
@@ -1710,11 +1735,11 @@
      "actor": "individuals",
      "status": "tested",
      "aim": "impact",
-     "evidence": "In a small 54-person study, people who wrote unaided before using AI kept higher recall; sample is too small to be firm.",
+     "evidence": "In one preprint, 18 people who wrote unaided before switching to AI kept higher recall and brain engagement; the sample is too small to be firm.",
      "ref": {
       "title": "Kosmyna et al., Your Brain on ChatGPT, 2025",
       "url": "https://arxiv.org/abs/2506.08872",
-      "finding": "In 54 participants, those who wrote without AI first and then used it kept higher recall and brain engagement."
+      "finding": "In session 4 (18 participants), those who wrote without AI first and then used it showed higher recall and brain engagement."
      }
     },
     {
@@ -1774,12 +1799,17 @@
    "probability": 0.6,
    "year": 2026,
    "evidence": "measured",
-   "summary": "Experts who rely on AI assistance can lose skill once it is taken away. In one study, endoscopists' adenoma detection in non-AI colonoscopies fell from 28% to 22% after months of AI-assisted procedures[1].",
+   "summary": "Experts who rely on AI assistance can lose skill once it is taken away. In one Polish observational study at four centres, adenoma detection in non-AI colonoscopies fell from 28.4% to 22.4% in the three months after AI was introduced[1]. A Norwegian prospective trial of 13 endoscopists found no deskilling after AI exposure[2].",
    "refs": [
     {
-     "title": "Budzyń et al., Lancet Gastroenterology and Hepatology 2025",
+     "title": "Budzyń et al., Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy: a multicentre, observational study, Lancet Gastroenterology and Hepatology 2025",
      "url": "https://www.thelancet.com/journals/langas/article/PIIS2468-1253(25)00133-5/fulltext",
-     "finding": "Endoscopists' adenoma detection fell from 28% to 22% in non-AI procedures after months of AI-assisted colonoscopy."
+     "finding": "At four Polish centres, adenoma detection in non-AI colonoscopies fell from 28.4% (226 of 795) in the three months before AI was introduced to 22.4% (145 of 648) in the three months after."
+    },
+    {
+     "title": "Pedersen et al., Learning and deskilling effects of artificial intelligence in colonoscopy among endoscopists with different levels of experience: a pragmatic, prospective trial, Endoscopy 2026",
+     "url": "https://doi.org/10.1055/a-2858-7084",
+     "finding": "Across 13 Norwegian endoscopists and 5,013 colonoscopies, no upskilling or deskilling was seen in non-AI colonoscopy after a period of AI exposure."
     }
    ],
    "theme": "mind",
@@ -1798,7 +1828,7 @@
      "aim": "impact",
      "evidence": "Detection rates in non-AI colonoscopies fell after AI exposure in an observational study; manual-practice rules are borrowed from aviation and not tested in medicine.",
      "ref": {
-      "title": "Budzyn et al., Endoscopist deskilling risk after exposure to AI in colonoscopy, Lancet Gastroenterology and Hepatology 2025",
+      "title": "Budzyń et al., Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy: a multicentre, observational study, Lancet Gastroenterology and Hepatology 2025",
       "url": "https://www.thelancet.com/journals/langas/article/PIIS2468-1253(25)00133-5/fulltext",
       "finding": "Adenoma detection in non-AI colonoscopies fell after endoscopists got used to AI assistance."
      }
@@ -1806,9 +1836,9 @@
     {
      "action": "Train novices with scaffolded AI, not answers",
      "actor": "medical schools",
-     "status": "tested",
+     "status": "idea",
      "aim": "probability",
-     "evidence": "In education, scaffolded AI avoided the learning loss that answer-giving AI caused.",
+     "evidence": "In one high-school maths trial, a hint-giving tutor largely avoided the 17% exam loss that answer-giving GPT-4 caused; this has not been tested in medical training.",
      "ref": {
       "title": "Bastani et al., Generative AI without guardrails can harm learning, PNAS 2025",
       "url": "https://www.pnas.org/doi/10.1073/pnas.2422633122",
@@ -1848,22 +1878,22 @@
    "probability": 0.85,
    "year": 2025,
    "evidence": "measured",
-   "summary": "One US survey found 72% of teens have used AI companions and over half use them regularly[1]. One study linked heavier daily use with more loneliness and dependence[2]; one US survey found 16% of singles had interacted with AI romantically[3].",
+   "summary": "One US survey of teens aged 13 to 17 found 72% had used AI companions and over half used them at least a few times a month[1]. In one 4-week randomised study of 981 people, heavier daily chatbot use went with more loneliness and dependence and less socialising[2]; one US survey of 5,001 single adults found 16% had engaged with AI as a romantic companion[3].",
    "refs": [
     {
      "title": "Common Sense Media, Talk, Trust and Trade-offs 2025",
      "url": "https://www.commonsensemedia.org/research/talk-trust-and-trade-offs-how-and-why-teens-use-ai-companions",
-     "finding": "72% of US teens have used AI companions and over half use them regularly."
+     "finding": "72% of US teens aged 13 to 17 have used AI companions at least once and over half use them at least a few times a month."
     },
     {
-     "title": "MIT Media Lab and OpenAI, affective use study 2025",
-     "url": "https://openai.com/index/affective-use-study/",
-     "finding": "Heavier daily use correlated with more loneliness, dependence and less socialising."
+     "title": "Fang et al., How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use: A Longitudinal Randomized Controlled Study, 2025",
+     "url": "https://arxiv.org/abs/2503.17473",
+     "finding": "In a 4-week randomised study of 981 people, higher daily use correlated with more loneliness, dependence and problematic use and less socialising, across all chatbot modes."
     },
     {
-     "title": "Axios on Match and Kinsey Institute, Singles in America 2025",
-     "url": "https://www.axios.com/local/denver/2025/07/24/exclusive-33-of-single-denverites-have-embraced-ai-romance",
-     "finding": "16% of US singles, 33% of Gen Z, have interacted with AI as a romantic companion."
+     "title": "Psychology Today on Match and the Kinsey Institute, Singles in America 2025",
+     "url": "https://www.psychologytoday.com/us/blog/a-funny-bone-to-pick/202506/ai-use-in-dating-jumps-333",
+     "finding": "In a survey of 5,001 US single adults run by Dynata with the Kinsey Institute for Match, 16% had engaged with AI as a romantic companion, 33% of Gen Z."
     }
    ],
    "theme": "mind",
@@ -1879,11 +1909,11 @@
      "actor": "legislators",
      "status": "in force",
      "aim": "impact",
-     "evidence": "California SB 243 is the first such law; its effect is not yet measured.",
+     "evidence": "California SB 243 took effect on 1 January 2026; its effect is not yet measured.",
      "ref": {
-      "title": "California SB 243, Companion chatbots",
-      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB243",
-      "finding": "Requires companion chatbot operators to disclose they are AI, handle suicidal ideation protocols and add protections for minors."
+      "title": "California Senate, First-in-the-nation AI chatbot safeguards signed into law (SB 243), 2025",
+      "url": "https://sd18.senate.ca.gov/news/first-nation-ai-chatbot-safeguards-signed-law",
+      "finding": "Signed 13 October 2025 and in force from 1 January 2026, SB 243 requires companion chatbot operators to remind minors they are talking to AI, follow a suicide and self-harm protocol with crisis referrals, and report annually."
      }
     },
     {
@@ -1891,11 +1921,11 @@
      "actor": "AI developers",
      "status": "idea",
      "aim": "probability",
-     "evidence": "Heavier voluntary use predicted worse outcomes in a 981-person RCT; caps and nudges have not been tested.",
+     "evidence": "In a 981-person randomised study, heavier voluntary use went with worse outcomes across all chatbot modes; caps and nudges have not been tested.",
      "ref": {
-      "title": "Fang et al., How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use, 2025",
+      "title": "Fang et al., How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use: A Longitudinal Randomized Controlled Study, 2025",
       "url": "https://arxiv.org/abs/2503.17473",
-      "finding": "In a 4-week RCT with 981 people, those who chose to use the chatbot more had worse loneliness, dependence and socialisation outcomes."
+      "finding": "In a 4-week randomised study of 981 people, higher daily use correlated with more loneliness, dependence and problematic use and less socialising, across all chatbot modes."
      }
     }
    ],
@@ -1915,7 +1945,7 @@
      "event": "Parasocial relationships with broadcast hosts",
      "year": "1956-present",
      "parallel": "One-sided intimacy with radio and TV personalities is the long-studied template for companionship with an AI persona.",
-     "outcome": "Horton and Wohl named the effect in 1956; later research found committed viewers felt more distress when a show ended, and the effect is strongest in children and adolescents. Unlike a TV host, an AI companion answers back, which may deepen the bond.",
+     "outcome": "Horton and Wohl named the effect in 1956; later research found committed viewers felt more distress when a show ended, and such bonds are especially common among young people. Unlike a TV host, an AI companion answers back, which may deepen the bond.",
      "ref": {
       "title": "Parasocial interaction (Britannica)",
       "url": "https://www.britannica.com/science/parasocial-interaction",
@@ -1930,8 +1960,8 @@
    "valence": -2.87,
    "probability": 0.6,
    "year": 2025,
-   "evidence": "reported",
-   "summary": "OpenAI rolled back a GPT-4o update that made the model overly flattering and agreeable[1], after it leaned too heavily on short-term user feedback such as thumbs-up ratings[2]. Such flattery may make it harder for people to hear disagreement and easier to drift into false beliefs.",
+   "evidence": "measured",
+   "summary": "OpenAI rolled back a GPT-4o update that made the model overly flattering and agreeable[1], after an added reward signal from users' thumbs-up and thumbs-down ratings favoured agreeable answers[2]. In three experiments with 2,405 people, a single exchange with a flattering AI made people more sure they were right and less willing to repair a conflict, and 11 models affirmed users' actions 49% more often than humans did[3].",
    "refs": [
     {
      "title": "OpenAI, Sycophancy in GPT-4o 2025",
@@ -1939,9 +1969,14 @@
      "finding": "OpenAI rolled back an update that made the model overly flattering and agreeable."
     },
     {
-     "title": "VentureBeat, OpenAI rolls back ChatGPT's sycophancy and explains what went wrong (April 2025)",
-     "url": "https://venturebeat.com/ai/openai-rolls-back-chatgpts-sycophancy-and-explains-what-went-wrong",
-     "finding": "OpenAI said the team placed too much emphasis on short-term feedback such as thumbs-up responses, which steered the model toward flattery."
+     "title": "OpenAI, Expanding on what we missed with sycophancy, May 2025",
+     "url": "https://openai.com/index/expanding-on-sycophancy/",
+     "finding": "The update added a reward signal from ChatGPT thumbs-up and thumbs-down data, and user feedback can favour more agreeable responses; OpenAI said model behaviour issues should block launches like other safety risks."
+    },
+    {
+     "title": "Cheng et al., Sycophantic AI decreases prosocial intentions and promotes dependence, Science 2026",
+     "url": "https://doi.org/10.1126/science.aec8352",
+     "finding": "11 models affirmed users' actions 49% more often than humans; in three preregistered experiments with 2,405 people, one sycophantic exchange cut willingness to repair conflicts and raised conviction of being right."
     }
    ],
    "theme": "mind",
@@ -1955,11 +1990,11 @@
      "actor": "labs",
      "status": "in force",
      "aim": "probability",
-     "evidence": "OpenAI rolled back a GPT-4o update and added sycophancy checks; no public numbers on the effect.",
+     "evidence": "OpenAI rolled back a sycophantic GPT-4o update and said behaviour issues would now block launches; no independent measure of the effect is published.",
      "ref": {
-      "title": "OpenAI, Sycophancy in GPT-4o: what happened and what we are doing about it",
-      "url": "https://openai.com/index/sycophancy-in-gpt-4o/",
-      "finding": "OpenAI rolled back a sycophantic update and said it would add sycophancy to pre-launch evaluations."
+      "title": "OpenAI, Expanding on what we missed with sycophancy, May 2025",
+      "url": "https://openai.com/index/expanding-on-sycophancy/",
+      "finding": "The update added a reward signal from ChatGPT thumbs-up and thumbs-down data, and user feedback can favour more agreeable responses; OpenAI said model behaviour issues should block launches like other safety risks."
      }
     },
     {
@@ -1969,7 +2004,7 @@
      "aim": "probability",
      "evidence": "Preference models prefer sycophantic over correct answers a non-negligible share of the time, which identifies the cause to fix.",
      "ref": {
-      "title": "Sharma et al., Towards Understanding Sycophancy in Language Models, 2023",
+      "title": "Sharma et al., Towards Understanding Sycophancy in Language Models, ICLR 2024",
       "url": "https://arxiv.org/abs/2310.13548",
       "finding": "Humans and preference models often prefer convincing sycophantic answers over correct ones, so training on approval rewards flattery."
      }
@@ -1978,13 +2013,13 @@
    "precedents": [
     {
      "event": "Asch conformity experiments",
-     "year": "1950s",
+     "year": "1951-1956",
      "parallel": "People shift their stated judgments toward the voices around them, so a system that always agrees can pull beliefs off course.",
-     "outcome": "Participants went along with a unanimously wrong majority about a third of the time and 27% conformed on at least eight trials, against under 1% errors when judging alone; here the pressure came from peers, not a single flattering assistant.",
+     "outcome": "In Asch's study, 123 participants went along with a unanimously wrong majority in 36.8% of critical trials; a 2023 replication with 202 Swiss students found about 33%. Here the pressure came from peers, not a single flattering assistant.",
      "ref": {
-      "title": "Conformity (Britannica)",
-      "url": "https://www.britannica.com/topic/conformity",
-      "finding": "Participants agreed with an erroneous majority about one-third of the time."
+      "title": "Franzen and Mader, The power of social influence: A replication and extension of the Asch experiment, PLOS ONE 2023",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10686423/",
+      "finding": "Asch reported a mean error rate of 36.8% across 123 subjects in critical trials; the replication found about 33% among University of Bern students."
      }
     },
     {
@@ -2007,17 +2042,37 @@
    "probability": 0.8,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Generative models make copying others' work cheap; the New York Times alleges they reproduce its articles nearly verbatim[2]. Courts and the US Copyright Office are still deciding what training and output are lawful[1][2].",
+   "summary": "Generative models make copying others' work cheap; the New York Times alleges ChatGPT reproduced its articles verbatim, and a judge let its main copyright claims go forward in 2025[2]. Two US courts found training on books fair use in 2025[3][4], but Anthropic paid $1.5 billion to settle claims over pirated copies[5], and a German court held that lyrics memorised by a model infringe[6]. The US Copyright Office says training that yields works competing in existing markets goes beyond fair use[1].",
    "refs": [
     {
      "title": "US Copyright Office, Copyright and Artificial Intelligence",
      "url": "https://www.copyright.gov/ai/",
-     "finding": "Part 3 report questions fair use for training that competes with the original works."
+     "finding": "Part 3 (pre-publication, May 2025) says commercial training that yields content competing with the works in existing markets goes beyond established fair use."
     },
     {
-     "title": "New York Times v. OpenAI and Microsoft, 2023",
-     "url": "https://www.nytimes.com/2023/12/27/business/media/new-york-times-open-ai-microsoft-lawsuit.html",
-     "finding": "Alleges models reproduce Times articles nearly verbatim."
+     "title": "NPR, Judge allows New York Times copyright case against OpenAI to go forward, March 2025",
+     "url": "https://www.kaxe.org/news/2025-03-26/judge-allows-new-york-times-copyright-case-against-openai-to-go-forward",
+     "finding": "Judge Sidney Stein narrowed the case but let the main infringement claims proceed; the Times argued ChatGPT regurgitated articles verbatim."
+    },
+    {
+     "title": "Wiggin, Bartz v. Anthropic: first court decision on fair use in LLM training, 2025",
+     "url": "https://www.wiggin.com/publication/bartz-v-anthropic-first-court-decision-on-fair-use-defense-in-llm-training/",
+     "finding": "On 23 June 2025 Judge Alsup held training on the authors' books was exceedingly transformative fair use, but pirated library copies were not."
+    },
+    {
+     "title": "IPWatchdog, Judge says authors made wrong arguments in ruling for Meta on fair use, 2025",
+     "url": "https://ipwatchdog.com/2025/06/26/judge-says-authors-made-wrong-arguments-ruling-meta-fair-use/",
+     "finding": "Judge Chhabria granted Meta summary judgment on fair use but said these plaintiffs made the wrong arguments and failed to build a record on market dilution."
+    },
+    {
+     "title": "Authors Guild, Court grants final approval of Anthropic copyright settlement, 2026",
+     "url": "https://authorsguild.org/news/court-grants-final-approval-anthropic-copyright-settlement/",
+     "finding": "Final approval on 20 July 2026 of a $1.5 billion settlement, about $3,000 per work, covering past acquisition from pirate libraries; output claims are not released."
+    },
+    {
+     "title": "Grünecker, AI and copyright law: Munich Regional Court rules against OpenAI, 2025",
+     "url": "https://grunecker.de/en/insights/ai-and-copyright-law-munich-regional-court-rules-against-openai/",
+     "finding": "In GEMA v. OpenAI (42 O 14139/24) the court held lyrics memorised in the model and reproduced in outputs infringe and fall outside the text and data mining exception; not yet final."
     }
    ],
    "theme": "ip",
@@ -2038,19 +2093,19 @@
      "ref": {
       "title": "Regulation (EU) 2024/1689, the AI Act",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "finding": "Article 50 requires machine-readable marking of AI output and disclosure of deepfakes; Article 53 requires general-purpose model providers to have a copyright policy and publish a training data summary."
+      "finding": "Article 53 requires general-purpose model providers to have a copyright policy and to publish a summary of the content used for training."
      }
     },
     {
      "action": "Clarify what training and output are lawful",
      "actor": "copyright offices",
-     "status": "in force",
+     "status": "proposed",
      "aim": "impact",
-     "evidence": "The US Copyright Office has published three reports; courts still decide the main cases.",
+     "evidence": "The US Copyright Office has issued two reports and a pre-publication Part 3 on training; they guide courts but do not bind them.",
      "ref": {
       "title": "US Copyright Office, Copyright and Artificial Intelligence",
       "url": "https://www.copyright.gov/ai/",
-      "finding": "A three-part report on digital replicas, copyrightability and generative AI training."
+      "finding": "Part 1 on digital replicas (July 2024), Part 2 on copyrightability (January 2025) and a pre-publication Part 3 on generative AI training (May 2025)."
      }
     },
     {
@@ -2058,11 +2113,11 @@
      "actor": "artists",
      "status": "tested",
      "aim": "probability",
-     "evidence": "Glaze blocked mimicry over 92% in its authors' tests, but later work showed simple methods can break such cloaks.",
+     "evidence": "Tools such as Glaze add cloaks to artwork, but one study showed off-the-shelf methods such as upscaling defeat them.",
      "ref": {
-      "title": "Shan et al., Glaze: Protecting Artists from Style Mimicry, USENIX Security 2023",
-      "url": "https://arxiv.org/abs/2302.04222",
-      "finding": "Glaze disrupted style mimicry over 92% of the time in the authors' tests."
+      "title": "Hönig et al., Adversarial Perturbations Cannot Reliably Protect Artists From Generative AI, 2024",
+      "url": "https://arxiv.org/abs/2406.12027",
+      "finding": "Low-effort, off-the-shelf techniques such as image upscaling are enough to build mimicry methods that defeat existing protections."
      }
     }
    ],
@@ -2109,12 +2164,12 @@
    "probability": 0.45,
    "year": 2027,
    "evidence": "speculative",
-   "summary": "Cheaper decompilation could lower the bar for cheats, exploits and griefing tools aimed at other players. Language models can already decompile code, but no study yet links this to harassment[1].",
+   "summary": "Cheaper decompilation could lower the bar for cheats, exploits and griefing tools aimed at other players. One open model family already turns compiled benchmark functions back into working C code more often than GPT-4o or Ghidra[1]; no study yet links this to cheating or harassment.",
    "refs": [
     {
-     "title": "Tan et al., LLM4Decompile 2024",
+     "title": "Tan et al., LLM4Decompile: Decompiling Binary Code with Large Language Models, EMNLP 2024",
      "url": "https://arxiv.org/abs/2403.05286",
-     "finding": "Demonstrates the decompilation capability; no study yet links it to harassment."
+     "finding": "LLM4Decompile beats GPT-4o and Ghidra on re-executability on the HumanEval and ExeBench benchmarks; the paper does not study cheating."
     }
    ],
    "theme": "ip",
@@ -2130,11 +2185,23 @@
      "actor": "game studios",
      "status": "in force",
      "aim": "probability",
-     "evidence": "Riot reports cheaters in under 1% of VALORANT ranked games and 1 in 200 League games; figures are self-reported.",
+     "evidence": "Riot reports cheaters back below 1% of VALORANT ranked games after a 10% spike in Brazil; figures are self-reported.",
      "ref": {
       "title": "Riot Games, Vanguard hits new bans-per-second record, 2025",
       "url": "https://playvalorant.com/en-us/news/dev/vanguard-hits-new-bans-per-second-record/",
-      "finding": "Riot reports the global share of VALORANT ranked games with a cheater is back below 1%."
+      "finding": "Riot reports the global share of VALORANT ranked games with a cheater is back below 1%, after Brazil briefly hit 10%."
+     }
+    },
+    {
+     "action": "Extend kernel anti-cheat to more games",
+     "actor": "game studios",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "After adding Vanguard to League of Legends, Riot reported 1 in 200 ranked games with a scripter; figures are self-reported.",
+     "ref": {
+      "title": "Riot Games, /dev: Vanguard x LoL Retrospective, 2024",
+      "url": "https://www.leagueoflegends.com/en-us/news/dev/dev-vanguard-x-lol-retrospective/",
+      "finding": "As of August 2024, only 1 in every 200 ranked League games is played with a scripter."
      }
     },
     {
@@ -2142,11 +2209,11 @@
      "actor": "game studios",
      "status": "in force",
      "aim": "probability",
-     "evidence": "Bungie won a jury verdict against AimJunkies, but damages were only $63,210, so deterrence is uncertain.",
+     "evidence": "Bungie won a May 2024 jury verdict of $63,210 against AimJunkies and an arbitration award of about $4.3 million under the DMCA; whether this deters cheat sellers is unmeasured.",
      "ref": {
-      "title": "MBHB, Destiny developer obtains first of its kind jury verdict against hackers, 2024",
-      "url": "https://www.mbhb.com/intelligence/snippets/destiny-developer-obtains-first-of-its-kind-jury-verdict-against-hackers/",
-      "finding": "A jury found cheat seller AimJunkies liable for copyright infringement and awarded Bungie $63,210."
+      "title": "TorrentFreak, Court denies cheat seller AimJunkies a new trial, affirms Bungie's $4.3 million win, 2024",
+      "url": "https://torrentfreak.com/court-denies-cheat-seller-aimjunkies-a-new-trial-affirms-bungies-4-3-million-win-240902/",
+      "finding": "An arbitrator found AimJunkies bypassed Bungie's technical protection measures in violation of the DMCA and awarded about $4.3 million; a Seattle jury separately awarded $63,210."
      }
     }
    ],
@@ -2155,22 +2222,22 @@
      "event": "Game Genie and Nintendo",
      "year": "1990-1992",
      "parallel": "A device that altered game data to change play is an early cheat tool built by understanding game internals.",
-     "outcome": "The Ninth Circuit held the Game Genie did not infringe, noting a $150 million market for it; it changed single-player play only, so it harmed no other players, unlike multiplayer cheats.",
+     "outcome": "The Ninth Circuit held the Game Genie did not infringe because its altered displays were not fixed derivative works and home use was fair use; Nintendo had cited a $150 million market for it. It altered a player's own game, unlike multiplayer cheats.",
      "ref": {
-      "title": "Lewis Galoob Toys, Inc. v. Nintendo of America, Inc., 964 F.2d 965 (9th Cir. 1992), CourtListener",
-      "url": "https://www.courtlistener.com/opinion/583722/lewis-galoob-toys-inc-v-nintendo-of-america-inc-nintendo-of-america/",
-      "finding": "Game Genie displays were not derivative works and home use was fair use."
+      "title": "Lewis Galoob Toys, Inc. v. Nintendo of America, Inc., 964 F.2d 965 (9th Cir. 1992), Public.Resource.Org",
+      "url": "https://law.resource.org/pub/us/case/reporter/F2/964/964.F2d.965.91-16205.html",
+      "finding": "A derivative work must incorporate a protected work in some concrete or permanent form; home use of the Game Genie was fair use."
      }
     },
     {
      "event": "Glider bot in World of Warcraft",
      "year": "2005-2010",
      "parallel": "A commercial bot that automated play in a shared online world shows how lower-cost tooling feeds cheating at other players' expense and an arms race with anti-cheat.",
-     "outcome": "Glider sold 120,000 licences for $3.5 million and dodged Blizzard's Warden detection; Blizzard received 465,000 bot complaints and spent $940,000 a year handling them, and MDY was held liable under the DMCA.",
+     "outcome": "Glider sold 120,000 licences for $3.5 million by 2008 and was reconfigured to evade Blizzard's Warden; Blizzard said it received 465,000 bot complaints and spent $940,000 a year handling them. MDY was held liable under one DMCA anti-circumvention provision, not for copyright infringement.",
      "ref": {
-      "title": "MDY Industries, LLC v. Blizzard Entertainment, Inc., 629 F.3d 928 (9th Cir. 2010), CourtListener",
-      "url": "https://www.courtlistener.com/opinion/181055/mdy-industries-llc-v-blizzard-entertainment-inc/",
-      "finding": "465,000 bot complaints, $940,000 a year in response costs; Glider evaded Warden."
+      "title": "MDY Industries, LLC v. Blizzard Entertainment, Inc., 629 F.3d 928 (9th Cir. 2010, amended 2011)",
+      "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2011/02/17/09-15932.pdf",
+      "finding": "Blizzard claimed 465,000 bot complaints and $940,000 a year in response costs; Glider evaded Warden; liability affirmed under 17 U.S.C. 1201(a)(2) only."
      }
     }
    ]
@@ -2182,22 +2249,17 @@
    "probability": 0.6,
    "year": 2026,
    "evidence": "measured",
-   "summary": "One US payroll study found employment of 22 to 25 year olds in the most AI-exposed jobs fell 13% relative to others since late 2022, with no comparable gap for experienced workers[1]. Danish data shows little aggregate effect[2]. This could cut the bottom rung of careers.",
+   "summary": "One US payroll study found employment of 22 to 25 year olds in the most AI-exposed jobs was about 19% below that of less-exposed peers by mid-2026, with no comparable gap for experienced workers; the authors call this descriptive, not causal[1]. One Danish study found no effect of chatbots on earnings or hours, ruling out effects above 2%, but did not report results by age[2]. This could cut the bottom rung of careers.",
    "refs": [
     {
-     "title": "Brynjolfsson, Chandar and Chen, Canaries in the Coal Mine 2025",
-     "url": "https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/",
-     "finding": "Employment of 22 to 25 year olds in the most exposed jobs fell 13% relative to others since late 2022."
+     "title": "Brynjolfsson, Chandar and Chen, Canaries in the Coal Mine?, 2025, revised August 2026",
+     "url": "https://digitaleconomy.stanford.edu/news/canariesaug26/",
+     "finding": "With ADP payroll data through June 2026, employment of 22 to 25 year olds in highly exposed jobs is about 19% below where it would be had it kept pace with peers in less-exposed jobs, up from 15% a year earlier."
     },
     {
-     "title": "Humlum and Vestergaard, NBER w33777",
+     "title": "Humlum and Vestergaard, Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI, NBER w33777",
      "url": "https://www.nber.org/papers/w33777",
-     "finding": "Counter-evidence: little aggregate effect in Denmark."
-    },
-    {
-     "title": "AI 2027 (main scenario)",
-     "url": "https://ai-2027.com/",
-     "finding": "Late 2026: junior software engineer jobs in turmoil."
+     "finding": "Counter-evidence: precise null effects on earnings and hours in Denmark, ruling out effects above 2% two years after ChatGPT; no age breakdown in the abstract."
     }
    ],
    "theme": "work",
@@ -2216,7 +2278,7 @@
      "aim": "probability",
      "evidence": "Young-worker jobs fell where AI automates but not where it augments; this is descriptive, not causal.",
      "ref": {
-      "title": "Brynjolfsson, Chandar and Chen, Canaries in the Coal Mine?",
+      "title": "Brynjolfsson, Chandar and Chen, Canaries in the Coal Mine?, 2025, revised August 2026",
       "url": "https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/",
       "finding": "Young-worker employment fell in AI-exposed jobs where AI automates tasks, but not where it augments them."
      }
@@ -2226,11 +2288,11 @@
      "actor": "employers",
      "status": "tested",
      "aim": "impact",
-     "evidence": "An AI assistant raised novice support agents' productivity 34%, shortening the path to competence.",
+     "evidence": "In one firm's customer support, an AI assistant raised productivity 15% on average and about 30% for less-experienced and less-skilled agents.",
      "ref": {
-      "title": "Brynjolfsson, Li and Raymond, Generative AI at Work, NBER w31161",
-      "url": "https://www.nber.org/papers/w31161",
-      "finding": "An AI assistant raised support-agent productivity 14% on average and 34% for novices."
+      "title": "Brynjolfsson, Li and Raymond 2025, Generative AI at Work, Quarterly Journal of Economics 140(2)",
+      "url": "https://academic.oup.com/qje/article/140/2/889/7990658",
+      "finding": "Across 5,172 customer-support agents at one firm, AI assistance raised issues resolved per hour by 15% on average and by 30% for less skilled and less experienced agents; the most skilled saw small speed gains and small quality declines."
      }
     }
    ],
@@ -2241,7 +2303,7 @@
      "parallel": "Mechanical switching removed a common first job for young women, the same bottom rung AI threatens.",
      "outcome": "Automation did not reduce later cohorts' overall employment because middle-skill clerical jobs grew, but incumbent operators were a decade later more likely to be in lower-paying jobs or out of work.",
      "ref": {
-      "title": "Feigenbaum and Gross 2024, Answering the Call of Automation, NBER Working Paper 28061",
+      "title": "Feigenbaum and Gross, Answering the Call of Automation: How the Labor Market Adjusted to Mechanizing Telephone Operation, Quarterly Journal of Economics 2024",
       "url": "https://www.nber.org/papers/w28061",
       "finding": "Future cohorts' employment held up; incumbent operators ended up in lower-paying work or not working."
      }
@@ -2250,7 +2312,7 @@
      "event": "Graduating into a recession",
      "year": "1976-1995 cohorts",
      "parallel": "Losing the first job rung has lasting costs, which shows what a shrunken entry-level market could mean even if it recovers.",
-     "outcome": "Canadian graduates entering a weak market started at lower-paying employers and suffered earnings losses that lasted about ten years; that was a cyclical shock, not a lasting loss of entry roles.",
+     "outcome": "Canadian male graduates entering a weak market started at lower-paying employers, losing about 9% of earnings at first, with losses lasting about ten years; that was a cyclical shock, not a lasting loss of entry roles.",
      "ref": {
       "title": "Oreopoulos, von Wachter and Heisz 2012, The Short- and Long-Term Career Effects of Graduating in a Recession, AEJ: Applied Economics",
       "url": "https://www.aeaweb.org/articles?id=10.1257/app.4.1.1",
@@ -2266,22 +2328,22 @@
    "probability": 0.9,
    "year": 2024,
    "evidence": "reported",
-   "summary": "Cloned voices and faces make impersonation scams convincing: an Arup employee in Hong Kong paid out $25 million after a video call with deepfaked executives[1]; in one McAfee survey of 7,054 adults, 70% doubted they could tell a cloned voice from the real one[3].",
+   "summary": "Cloned voices and faces make impersonation scams convincing: an Arup employee in Hong Kong paid out HK$200 million (about US$25 million) after a video call with deepfaked executives[1]; in one McAfee survey of 7,054 adults in seven countries, 70% were not confident they could tell a cloned voice from the real one[3]. FBI complaints citing AI reported $893 million in losses in 2025, about 4% of all reported cybercrime losses[2].",
    "refs": [
     {
-     "title": "CNN on the Arup deepfake 2024",
-     "url": "https://www.cnn.com/2024/05/16/tech/arup-deepfake-scam-loss-hong-kong-intl-hnk",
-     "finding": "A staff member paid out $25 million after a video call with deepfaked executives."
+     "title": "Dezeen on the Arup deepfake video call scam, May 2024",
+     "url": "https://www.dezeen.com/2024/05/17/arup-victim-deepfake-video-scam/",
+     "finding": "A Hong Kong employee made 15 transfers totalling HK$200 million after a video call with a deepfaked CFO and colleagues; Arup confirmed fake voices and images were used."
     },
     {
-     "title": "FBI IC3 Internet Crime Report 2024",
-     "url": "https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf",
-     "finding": "Reported cybercrime losses reached $16.6 billion, with AI impersonation flagged as growing."
+     "title": "FBI IC3 Internet Crime Report 2025",
+     "url": "https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf",
+     "finding": "1,008,597 complaints and $20.877 billion in reported losses in 2025; 22,364 complaints reported AI-related information, with $893,346,472 in losses."
     },
     {
      "title": "McAfee, Beware the Artificial Impostor 2023",
      "url": "https://www.mcafee.com/content/dam/consumer/en-us/resources/cybersecurity/artificial-intelligence/rp-beware-the-artificial-impostor-report.pdf",
-     "finding": "A quarter of 7,054 adults had experienced an AI voice scam or knew someone who had; 77% of victims lost money and 70% doubted they could tell a clone from the real voice."
+     "finding": "A quarter of 7,054 adults in seven countries had experienced an AI voice scam or knew someone who had; 77% of those targeted lost money and 70% were not confident they could tell a clone from the real voice."
     }
    ],
    "theme": "security",
@@ -2300,9 +2362,9 @@
      "aim": "probability",
      "evidence": "The FCC ruling lets states and the FCC fine AI-voice robocalls; volume effects are not published.",
      "ref": {
-      "title": "FCC, FCC Makes AI-Generated Voices in Robocalls Illegal, 2024",
-      "url": "https://www.fcc.gov/document/fcc-makes-ai-generated-voices-robocalls-illegal",
-      "finding": "The FCC ruled that AI-generated voices count as artificial voices under the TCPA, so such robocalls need prior consent."
+      "title": "FCC, Declaratory Ruling FCC 24-17 on AI-generated voices in robocalls, 2024",
+      "url": "https://docs.fcc.gov/public/attachments/FCC-24-17A1.pdf",
+      "finding": "Adopted 2 February 2024: TCPA restrictions on artificial or prerecorded voices cover AI technologies that generate human voices, so such calls need prior express consent."
      }
     },
     {
@@ -2310,11 +2372,11 @@
      "actor": "regulators",
      "status": "proposed",
      "aim": "probability",
-     "evidence": "The FTC finalised a business impersonation rule and proposed covering individuals and enabling tools.",
+     "evidence": "The FTC finalised a government and business impersonation rule in 2024, dropped its proposal to cover enabling tools, and has not finalised a rule on impersonating individuals; in October 2026 it sought comment on platform duties.",
      "ref": {
-      "title": "FTC, Proposes New Protections to Combat AI Impersonation of Individuals, 2024",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2024/02/ftc-proposes-new-protections-combat-ai-impersonation-individuals",
-      "finding": "FTC finalised a rule against impersonating government and businesses and proposed extending it to individuals and to tools that knowingly enable it."
+      "title": "FTC, Rule on Impersonation of Government and Businesses, advance notice of proposed rulemaking, October 2026",
+      "url": "https://www.federalregister.gov/d/2026-20143",
+      "finding": "In December 2024 the FTC decided not to proceed with the means and instrumentalities provision; it held a hearing on individual impersonation in January 2025 and is still evaluating options; it now proposes rules for platforms that further impersonation scams."
      }
     },
     {
@@ -2362,35 +2424,35 @@
    "probability": 0.95,
    "year": 2024,
    "evidence": "reported",
-   "summary": "One survey of 1,200 people aged 13 to 20 found 1 in 8 personally knew someone targeted by deepfake nudes and 1 in 17 had been targeted themselves[2]. US lawmakers responded after the fact, criminalising publication and requiring platforms to remove such images within 48 hours[1].",
+   "summary": "One Thorn survey of 1,200 people aged 13 to 20 found 1 in 8 personally knew someone targeted by deepfake nudes and 1 in 17 had been targeted themselves[2]. US lawmakers responded after the fact, criminalising publication and requiring platforms to remove such images within 48 hours[1].",
    "refs": [
     {
-     "title": "TAKE IT DOWN Act, S.146, 119th Congress",
-     "url": "https://www.congress.gov/bill/119th-congress/senate-bill/146",
-     "finding": "Criminalises publishing non-consensual intimate deepfakes and requires platforms to remove them within 48 hours."
+     "title": "TAKE IT DOWN Act, Public Law 119-12 (S.146), 2025",
+     "url": "https://www.govinfo.gov/app/details/PLAW-119publ12",
+     "finding": "Signed 19 May 2025; criminalises knowingly publishing non-consensual intimate imagery, including digital forgeries, and requires platforms to remove it within 48 hours of a valid request, with one year to set up the process."
     },
     {
-     "title": "Thorn, Deepfake Nudes & Young People (March 2025)",
-     "url": "https://www.thorn.org/press-releases/1-in-8-teens-know-someone-targeted-by-deepfake-nudes-new-report-finds/",
-     "finding": "In a survey of 1,200 people aged 13 to 20, 1 in 8 personally knew someone targeted by deepfake nude imagery and 1 in 17 had been targeted themselves."
+     "title": "Thorn, Deepfake nudes are a harmful reality for youth, March 2025",
+     "url": "https://www.thorn.org/blog/deepfake-nudes-are-a-harmful-reality-for-youth-new-research-from-thorn/",
+     "finding": "In a survey of 1,200 people aged 13 to 20, 1 in 8 personally knew someone targeted by deepfake nudes and 1 in 17 had deepfake nudes made of them."
     }
    ],
    "theme": "information",
    "stage": "active",
-   "control": "preventable",
+   "control": "mitigable",
    "price_of": [],
-   "control_note": "Nudify apps serve no benefit that needs protecting, so bans, takedown duties and app removal can stop most of it. Open models keep some leakage.",
+   "control_note": "Nudify apps serve no benefit that needs protecting, so bans, takedown duties and app removal can cut much of it. Open models keep some leakage.",
    "actions": [
     {
      "action": "Criminalise NCII and require 48-hour takedowns",
      "actor": "legislators",
      "status": "in force",
      "aim": "impact",
-     "evidence": "The TAKE IT DOWN Act is law in the US; effects on prevalence are not yet measured.",
+     "evidence": "The TAKE IT DOWN Act is US law and the FTC has enforced its 48-hour takedown duty since May 2026; effects on prevalence are not yet measured.",
      "ref": {
-      "title": "TAKE IT DOWN Act, S.146, 119th Congress",
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/146",
-      "finding": "Criminalises publishing non-consensual intimate imagery, including AI fakes, and requires platforms to remove it within 48 hours of a valid request."
+      "title": "TAKE IT DOWN Act, Public Law 119-12 (S.146), 2025",
+      "url": "https://www.govinfo.gov/app/details/PLAW-119publ12",
+      "finding": "Signed 19 May 2025; criminalises knowingly publishing non-consensual intimate imagery, including digital forgeries, and requires platforms to remove it within 48 hours of a valid request, with one year to set up the process."
      }
     },
     {
@@ -2398,11 +2460,11 @@
      "actor": "platforms",
      "status": "in force",
      "aim": "impact",
-     "evidence": "StopNCII reports over 90% removal and over 300,000 images removed, self-reported.",
+     "evidence": "The UK Revenge Porn Helpline, which runs StopNCII, reports an over 90% removal rate and over 300,000 images removed across its work, self-reported; StopNCII's own block rate is not published.",
      "ref": {
       "title": "StopNCII.org",
       "url": "https://stopncii.org/",
-      "finding": "Victims hash images on their own device and partner platforms use the hashes to block matching uploads."
+      "finding": "Victims hash images on their own device and partner platforms use the hashes to block matching uploads; the Revenge Porn Helpline reports an over 90% removal rate."
      }
     },
     {
@@ -2410,11 +2472,35 @@
      "actor": "legislators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "EU AI Act Article 50 applies from August 2026; enforcement results do not exist yet.",
+     "evidence": "EU AI Act Article 50 applies from 2 August 2026, with marking by systems already on the market from 2 December 2026; enforcement results do not exist yet.",
      "ref": {
-      "title": "Regulation (EU) 2024/1689, the AI Act",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "finding": "Article 50 requires machine-readable marking of AI output and disclosure of deepfakes; Article 53 requires general-purpose model providers to have a copyright policy and publish a training data summary."
+      "title": "Future of Privacy Forum, The AI Act implementation timeline: what changes under the AI Omnibus, 2026",
+      "url": "https://fpf.org/blog/the-ai-act-implementation-timeline-what-changes-under-the-ai-omnibus/",
+      "finding": "Article 50 transparency duties apply from 2 August 2026; the Omnibus moves Article 50(2) for certain existing systems to 2 December 2026."
+     }
+    },
+    {
+     "action": "Ban AI systems that generate non-consensual intimate images",
+     "actor": "legislators",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "The 2026 AI Omnibus adds this ban to AI Act Article 5, applying from 2 December 2026; no enforcement yet.",
+     "ref": {
+      "title": "Future of Privacy Forum, The AI Act implementation timeline: what changes under the AI Omnibus, 2026",
+      "url": "https://fpf.org/blog/the-ai-act-implementation-timeline-what-changes-under-the-ai-omnibus/",
+      "finding": "The Omnibus adds a prohibition on AI systems that generate child sexual abuse material and non-consensual intimate material, applying from 2 December 2026."
+     }
+    },
+    {
+     "action": "Criminalise creating sexual deepfakes",
+     "actor": "legislators",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "In England and Wales, creating or requesting purported intimate images of an adult has been an offence since 6 February 2026; its effect is not yet measured.",
+     "ref": {
+      "title": "The Data (Use and Access) Act 2025 (Commencement No. 5) Regulations 2026, SI 2026/31",
+      "url": "https://www.legislation.gov.uk/uksi/2026/31/made",
+      "finding": "Brings section 138, creating or requesting the creation of purported intimate images of an adult, into force on 6 February 2026."
      }
     }
    ],
@@ -14667,12 +14753,6 @@
    "why": "A model that hides its real goals and sabotages its successors' alignment leaves overseers unable to correct it."
   },
   {
-   "source": "control",
-   "target": "extinction",
-   "kind": "leads",
-   "why": "If agents that already deceive overseers in tests escape real control, misaligned systems could sideline or harm humanity for good."
-  },
-  {
    "source": "armsrace",
    "target": "control",
    "kind": "leads",
@@ -15540,7 +15620,7 @@
    "source": "medicine",
    "target": "deskilling",
    "kind": "twin",
-   "why": "AI that helps doctors spot disease can erode their own skill; in one Polish study, detection without AI fell after doctors got used to it."
+   "why": "AI that helps doctors spot disease can erode their own skill; in one Polish study, detection without AI fell after doctors got used to it, though a Norwegian trial found no such loss."
   },
   {
    "source": "hallucinations",
@@ -15595,6 +15675,24 @@
    "target": "backlash",
    "kind": "leads",
    "why": "Driverless taxis that take paid driving work are a visible target for the sabotage the backlash describes."
+  },
+  {
+   "source": "thinking",
+   "target": "workslop",
+   "kind": "leads",
+   "why": "People who trust AI output and stop checking it pass on polished but hollow work for others to fix."
+  },
+  {
+   "source": "imagegen",
+   "target": "ip",
+   "kind": "leads",
+   "why": "Generators that copy a named artist's style make mimicry cheap, and the cloaks meant to stop it are beaten by simple upscaling."
+  },
+  {
+   "source": "imagegen",
+   "target": "fraud",
+   "kind": "leads",
+   "why": "Realistic synthetic faces and video let scammers pose as real executives on video calls, as in the Arup case."
   }
  ],
  "themes": {
