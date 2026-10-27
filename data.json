@@ -14915,6 +14915,83 @@
      }
     }
    ]
+  },
+  {
+   "id": "gridtrips",
+   "label": "Data centres drop off the grid all at once",
+   "valence": -1.31,
+   "probability": 0.5,
+   "year": 2025,
+   "evidence": "reported",
+   "summary": "Data centres protect their servers by switching to backup power when grid voltage dips, so a single fault can make many of them leave the grid at the same moment[1]. In July 2024 a fault on a 230 kV line in the US Eastern Interconnection led data centres to drop about 1,500 MW of demand at once, a load loss of a size the grid had not historically seen after a fault; frequency rose to 60.047 Hz and operators had to bring voltage back down, though NERC found it caused no significant operating issues[1]. In July 2026 nearly 4,000 MW of data-centre load in Northern Virginia tripped offline after a properly cleared fault, the largest such event in PJM's history, and PJM brought its system back within limits in nine minutes[2]. Load losses of 1,000 MW or more have occurred in the Eastern and Texas interconnections, mostly in 2024 and 2025, and NERC says the rise in such events coincides with a growing share of large loads; its response covers data centres for artificial intelligence[3]. The risk is not unique to AI: in 26 events in Texas, crypto-mining sites lost 17% to 95% of their consumption within milliseconds of normally cleared faults[4].",
+   "refs": [
+    {
+     "title": "NERC, Incident Review: Considering Simultaneous Voltage-Sensitive Load Reductions, January 2025",
+     "url": "https://nerc.com/pa/rrm/ea/Documents/Incident_Review_Large_Load_Loss.pdf",
+     "finding": "On 10 July 2024 a lightning arrestor failed on a 230 kV line in the Eastern Interconnection, causing six successive faults in 82 seconds, all cleared properly; coincident with them about 1,500 MW of load, exclusively data-centre load, was disconnected on the customer side as data centres transferred to backup power. The grid has not historically experienced simultaneous load losses of this magnitude in response to a fault. Frequency rose to 60.047 Hz and voltage to 1.07 per unit, and operators removed shunt capacitor banks to bring voltage back to normal; about 1,260 MW did not return for hours. NERC says the disturbance did not cause significant operating issues, but the risk could quickly increase as data-centre loads grow."
+    },
+    {
+     "title": "American Public Power Association, PJM, Dominion Review Large Load Transfer Event, August 2026",
+     "url": "https://www.publicpower.org/periodical/article/pjm-dominion-review-large-load-transfer-event",
+     "finding": "On 22 July 2026 nearly 4,000 MW of data-centre load in Northern Virginia, in the Dominion zone, tripped offline, about 3,800 MW by Dominion's count and the largest such event in PJM history; a mechanical failure removed a 230 kV line and data centres disconnected although the fault was properly cleared, in a first drop of 2,970 MW and a second of 1,099 MW. PJM load fell from 99,984 MW to 96,205 MW, and PJM recovered its area control error limit within nine minutes, inside NERC's 30-minute standard."
+    },
+    {
+     "title": "Utility Dive, Sudden data center load losses prompt NERC alert, recommendations, April 2026",
+     "url": "https://www.utilitydive.com/news/data-center-load-disruptions-nerc-alert-recommendations/818036/",
+     "finding": "NERC describes widespread and unexpected customer-initiated load reductions, mostly in 2024 and 2025, in which 1,000 MW or more dropped off the bulk power system, in the Eastern and Texas interconnections since 2022; it said the increase of large-load events coincides with an increase in large-load penetration. Its planned Level 3 alert covers the modelling, study, monitoring and commissioning of large loads, including data centers for artificial intelligence, and NERC said entities generally did not have sufficient processes to address emerging computational loads."
+    },
+    {
+     "title": "POWER Magazine, FERC Orders Mandatory NERC Reliability Standards for Data Center and Other Computational Loads, July 2026",
+     "url": "https://www.powermag.com/ferc-orders-mandatory-nerc-reliability-standards-for-data-center-and-other-computational-loads/",
+     "finding": "On 16 July 2026 FERC directed NERC to file one or more mandatory reliability standards for integrating computational loads, a category covering generative-AI data centres, cryptocurrency mines and other IT facilities, by 31 December 2026, without itself setting a size threshold or compliance obligations; Chairman Laura Swett said winning the AI race must not threaten reliability. A NERC review found that across 26 events in ERCOT from January 2023 to September 2025, crypto-mining facilities lost 17% to 95% of their consumption within milliseconds of a normally cleared transmission fault."
+    }
+   ],
+   "theme": "world",
+   "stage": "active",
+   "control": "mitigable",
+   "price_of": [
+    "cheapintelligence"
+   ],
+   "control_note": "Data centres are set to switch to backup power when grid voltage dips, which protects their servers but can remove their demand all at once. Requirements to ride through normal faults, with models and tests of each large load before it connects, can contain the risk, but mandatory standards are only due at the end of 2026 while the loads keep growing.",
+   "actions": [
+    {
+     "action": "Write mandatory reliability standards for computational loads",
+     "actor": "regulators",
+     "status": "proposed",
+     "aim": "probability",
+     "evidence": "FERC ordered NERC in July 2026 to file mandatory reliability standards for data centres and other computational loads by 31 December 2026; the order itself sets no size threshold or compliance obligations.",
+     "ref": {
+      "title": "POWER Magazine, FERC Orders Mandatory NERC Reliability Standards for Data Center and Other Computational Loads, July 2026",
+      "url": "https://www.powermag.com/ferc-orders-mandatory-nerc-reliability-standards-for-data-center-and-other-computational-loads/",
+      "finding": "On 16 July 2026 FERC directed NERC to file one or more mandatory reliability standards for integrating computational loads, a category covering generative-AI data centres, cryptocurrency mines and other IT facilities, by 31 December 2026, without itself setting a size threshold or compliance obligations; Chairman Laura Swett said winning the AI race must not threaten reliability. A NERC review found that across 26 events in ERCOT from January 2023 to September 2025, crypto-mining facilities lost 17% to 95% of their consumption within milliseconds of a normally cleared transmission fault."
+     }
+    },
+    {
+     "action": "Model, study and test large loads before they connect",
+     "actor": "NERC",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "NERC's Level 3 alert of May 2026 asks transmission entities to model computational loads, study aggregate load losses, test facilities before energisation and prevent loss of firm load in normally cleared faults; it is not a mandatory standard and carries no penalties.",
+     "ref": {
+      "title": "Data Center Frontier, Why NERC Now Sees AI Data Centers as Grid Actors, May 2026",
+      "url": "https://www.datacenterfrontier.com/energy/article/55376679/why-nerc-now-sees-ai-data-centers-as-grid-actors",
+      "finding": "NERC's Level 3 alert of 4 May 2026 sets seven essential actions, among them modelling computational loads, studying aggregate load reductions, commissioning tests before energisation and preventing loss of firm computational load during normally cleared faults, with status reports due by 3 August 2026; it is not a mandatory reliability standard and carries no direct penalties."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "Wind-farm settings black out South Australia",
+     "year": 2016,
+     "parallel": "A new kind of grid-connected equipment, set to disconnect after repeated voltage dips, turned a series of faults into a sudden loss of a size the grid had not planned for.",
+     "outcome": "After six voltage dips in two minutes, settings at nine wind farms cut 456 MW of output in under seven seconds, the Heywood Interconnector tripped and the whole state lost supply; changed turbine control settings removed the risk of recurrence, and AEMO's final report made 19 recommendations.",
+     "ref": {
+      "title": "Energy Source & Distribution, AEMO publishes final report on SA blackouts, March 2017",
+      "url": "https://esdnews.com.au/aemo-publishes-final-report-sa-blackouts/",
+      "finding": "Tornadoes damaged transmission lines and caused six voltage dips over two minutes on 28 September 2016; software settings at nine wind farms in mid-north South Australia then produced a sustained generation reduction of 456 MW in under seven seconds, the Heywood Interconnector tripped and all supply to the state was lost. Changes made to turbine control settings shortly after the event removed the risk of recurrence, and the report made 19 recommendations."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -17137,6 +17214,12 @@
    "target": "unverifiable",
    "kind": "leads",
    "why": "Autonomous labs can report results faster than experts check them: one lab's claimed new materials were disputed by outside chemists and later corrected."
+  },
+  {
+   "source": "energy",
+   "target": "gridtrips",
+   "kind": "leads",
+   "why": "As data-centre demand grows, more voltage-sensitive load sits on the grid, and NERC says the rise in large load-loss events coincides with the growing share of large loads."
   }
  ],
  "themes": {
