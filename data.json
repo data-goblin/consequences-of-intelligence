@@ -7366,17 +7366,17 @@
    "probability": 0.75,
    "year": 2024,
    "evidence": "reported",
-   "summary": "Handing routine drafting, summarising and recall to a model can free attention; users rated tasks done with AI help as less mentally demanding and stressful[1]. In one survey, workers whose AI tools need heavy monitoring reported more mental fatigue[2].",
+   "summary": "Handing routine drafting, summarising and recall to a model can take effort off people: in a Microsoft lab study of a Teams meeting task, participants with Copilot found the task 58% less draining, and 72% of surveyed enterprise Copilot users agreed it cut the mental effort of mundane or repetitive tasks[1]. Oversight pushes the other way: in a survey of 1,488 full-time US workers, high AI oversight went with 12% more mental fatigue and 19% more information overload[2].",
    "refs": [
     {
-     "title": "Microsoft New Future of Work Report 2023",
-     "url": "https://www.microsoft.com/en-us/research/publication/microsoft-new-future-of-work-report-2023/",
-     "finding": "Users rated tasks done with AI help as less mentally demanding and stressful."
+     "title": "Microsoft New Future of Work Report 2023 (Microsoft Research, MSR-TR-2023-34, December 2023)",
+     "url": "https://www.microsoft.com/en-us/research/uploads/prod/2023/12/NFWReport2023.pdf",
+     "finding": "In the Teams Meeting Study, participants with Copilot found the task 58% less draining than those without; 72% of enterprise Copilot users agreed it helped them spend less mental effort on mundane or repetitive tasks."
     },
     {
-     "title": "HRD on BCG's AI brain fry survey",
-     "url": "https://www.hcamag.com/ca/news/general/too-much-ai-causing-brain-fry-among-employees/568614",
-     "finding": "Workers whose AI tools need heavy monitoring reported more mental fatigue."
+     "title": "'AI brain fry' is real, and it's making workers more exhausted, not more productive, new study finds (Fortune, March 2026)",
+     "url": "https://fortune.com/2026/03/10/ai-brain-fry-workplace-productivity-bcg-study",
+     "finding": "In a Boston Consulting Group survey of 1,488 full-time US workers, high AI oversight was associated with 12% greater mental fatigue and 19% greater information overload, and 14% more mental effort at work."
     }
    ],
    "theme": "mind",
@@ -7385,31 +7385,31 @@
     {
      "limit": "Offloading erodes critical thinking effort",
      "kind": "skills",
-     "evidence": "Among 319 knowledge workers, higher confidence in AI went with less critical thinking.",
+     "evidence": "Among 319 knowledge workers surveyed, higher confidence in the model went with less critical thinking.",
      "ref": {
       "title": "The Impact of Generative AI on Critical Thinking (CHI 2025, Microsoft Research)",
       "url": "https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/",
-      "finding": "Survey of 319 knowledge workers: more confidence in AI went with less critical thinking effort."
+      "finding": "Survey of 319 knowledge workers who gave 936 first-hand examples: higher confidence in generative AI is associated with less critical thinking, while higher self-confidence is associated with more."
      }
     },
     {
      "limit": "Reduced engagement and recall of own work",
      "kind": "quality",
-     "evidence": "In a small EEG study of 54 people, LLM users recalled and owned their essays least; it is a preprint.",
+     "evidence": "In a 54-person EEG study, the group writing with an LLM showed the weakest brain connectivity, reported the least ownership of their essays and struggled to quote their own work; it is a preprint.",
      "ref": {
-      "title": "Your Brain on ChatGPT: Accumulation of Cognitive Debt (arXiv 2506.08872)",
+      "title": "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task (Kosmyna et al., arXiv preprint 2506.08872, June 2025, revised December 2025)",
       "url": "https://arxiv.org/abs/2506.08872",
-      "finding": "In 54 participants, LLM users showed the weakest brain connectivity and least ownership of essays."
+      "finding": "54 participants took part in sessions 1 to 3 and 18 in session 4; LLM users displayed the weakest brain connectivity, the lowest self-reported ownership of their essays and struggled to accurately quote their own work."
      }
     },
     {
      "limit": "low AI literacy",
      "kind": "literacy",
-     "evidence": "The EU made AI literacy a legal duty for deployers because staff often lack it.",
+     "evidence": "Since February 2025 EU law has required providers and deployers to act on staff AI literacy; since July 2026 the duty is to support its development, not to guarantee any level.",
      "ref": {
-      "title": "Regulation (EU) 2024/1689, the AI Act",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "finding": "Annex III 5(a) lists AI that evaluates eligibility for public assistance benefits as high-risk; Article 4 requires AI literacy measures."
+      "title": "Sapuppo, AI literacy: the Digital Omnibus rewrites Article 4 of the AI Act, Law & Technology, July 2026",
+      "url": "https://lawandtechnology.eu/en/ai-literacy-digital-omnibus-article-4-ai-act/",
+      "finding": "Regulation (EU) 2026/1744, published in the Official Journal on 24 July 2026 and in force from 27 July 2026, replaces Article 4: providers and deployers shall take measures to support the development of AI literacy of their staff, and the obligation does not require them to guarantee any specific level of AI literacy of any individual; the 2024 text required them to ensure, to their best extent, a sufficient level."
      }
     }
    ],
@@ -7419,11 +7419,11 @@
      "actor": "employers and providers",
      "status": "in force",
      "counters": "low AI literacy",
-     "evidence": "Article 4 of the AI Act requires deployers to ensure sufficient AI literacy of staff, applying from February 2025.",
+     "evidence": "Article 4 of the AI Act, as rewritten in July 2026, makes providers and deployers take measures supporting staff AI literacy.",
      "ref": {
-      "title": "Regulation (EU) 2024/1689, the AI Act",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "finding": "Annex III 5(a) lists AI that evaluates eligibility for public assistance benefits as high-risk; Article 4 requires AI literacy measures."
+      "title": "Sapuppo, AI literacy: the Digital Omnibus rewrites Article 4 of the AI Act, Law & Technology, July 2026",
+      "url": "https://lawandtechnology.eu/en/ai-literacy-digital-omnibus-article-4-ai-act/",
+      "finding": "Regulation (EU) 2026/1744, published in the Official Journal on 24 July 2026 and in force from 27 July 2026, replaces Article 4: providers and deployers shall take measures to support the development of AI literacy of their staff, and the obligation does not require them to guarantee any specific level of AI literacy of any individual; the 2024 text required them to ensure, to their best extent, a sufficient level."
      }
     },
     {
@@ -7431,11 +7431,11 @@
      "actor": "tool designers and schools",
      "status": "tested",
      "counters": "Offloading erodes critical thinking effort",
-     "evidence": "A guardrailed GPT-4 tutor avoided the exam score drop seen with unrestricted access.",
+     "evidence": "A guardrailed GPT-4 tutor avoided the later exam drop seen with unrestricted access in a field experiment with nearly 1,000 high school maths students.",
      "ref": {
       "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics (PNAS, 2025)",
       "url": "https://www.pnas.org/doi/10.1073/pnas.2422633122",
-      "finding": "Unrestricted GPT-4 access hurt later exam scores; a tutor version with guardrails largely removed the harm."
+      "finding": "In a field experiment with nearly a thousand high school maths students, access to unrestricted GPT-4 improved performance while available but left students worse off than peers who never had it once access was removed; a version with learning safeguards largely prevented that harm."
      }
     },
     {
@@ -7443,22 +7443,22 @@
      "actor": "employers",
      "status": "tested",
      "counters": null,
-     "evidence": "Gains were 34% for novice agents against 14% on average.",
+     "evidence": "Across 5,172 support agents, gains were largest for the least experienced and lower-skilled workers.",
      "ref": {
-      "title": "Generative AI at Work (NBER Working Paper 31161)",
-      "url": "https://www.nber.org/papers/w31161",
-      "finding": "An AI assistant raised support agent productivity 14% on average and 34% for novices."
+      "title": "Generative AI at Work (Brynjolfsson, Li and Raymond, Quarterly Journal of Economics, 2025)",
+      "url": "https://doi.org/10.1093/qje/qjae044",
+      "finding": "Staggered rollout of a generative AI assistant to 5,172 customer support agents raised issues resolved per hour by 15% on average, with the largest gains for less experienced and lower-skilled workers and little change for the most experienced."
      }
     }
    ],
    "precedents": [
     {
      "event": "Hand-held calculators in school maths",
-     "year": "1984-2000",
+     "year": 2000,
      "parallel": "Calculators offloaded routine arithmetic much as models now offload routine drafting and recall, with the same fear that the underlying skill would wither.",
      "outcome": "A meta-analysis of 53 studies (307 effect sizes) found students who used calculators kept or improved operational skills, gained in problem solving and liked maths more; calculators are narrow and deterministic, unlike a model that drafts whole answers.",
      "ref": {
-      "title": "Effects of hand-held calculators on precollege students in mathematics classes: a meta-analysis (Ellington, University of Tennessee dissertation, 2000)",
+      "title": "Effects of hand-held calculators on precollege students in mathematics classes: a meta-analysis (Ellington, PhD dissertation, University of Tennessee, 2000)",
       "url": "https://trace.tennessee.edu/utk_graddiss/8272",
       "finding": "Across 53 studies, calculator use maintained or improved operational skills, improved problem solving at all grades and improved attitudes toward mathematics."
      }
@@ -7478,11 +7478,11 @@
      "event": "Cockpit automation and pilot skill decay",
      "year": "1996-2019",
      "parallel": "Autopilots took routine flying off pilots and turned them into monitors, the same shift from doing to overseeing that agents bring to knowledge work.",
-     "outcome": "Regulators found pilots got less manual practice and, in a 2009-2016 update, that 92% of flight path management accidents worldwide involved a contributory or causal manual flying error, so training rules had to add manual flying back in.",
+     "outcome": "Regulators found pilots got less manual practice and, in an update to a 2013 report, that from 2009 to 2016, 92% of flight path management related accidents worldwide had a manual flight operations error that was contributory or causal; US air carrier pilots now have to fly six extra manual manoeuvres in recurrent simulator training.",
      "ref": {
       "title": "Pilot training improvements to address automation dependency (ICAO Assembly working paper A40-WP/296, presented by the United States, Canada, Peru, and Trinidad and Tobago, 2019)",
       "url": "https://www.icao.int/sites/default/files/sp-files/Meetings/a40/Documents/WP/wp_296_en.pdf",
-      "finding": "Greater reliance on automation is likely reducing manual flying practice; from 2009-2016, 92% of flight path management related accidents had a manual flight operations error."
+      "finding": "Increased use of automation is likely contributing to a lack of practice and potentially a degradation of manual flight path management skills; from 2009 to 2016, 92% of flight path management related accidents worldwide had a contributory or causal manual flight operations error, and the FAA requires six manual flying manoeuvres in initial and recurrent training."
      }
     }
    ]
@@ -7494,40 +7494,55 @@
    "probability": 0.75,
    "year": 2027,
    "evidence": "measured",
-   "summary": "AI now helps pick drug targets and design molecules[1][2]. In one 71-patient fibrosis trial, a drug whose target and molecule were both found by generative AI improved lung function[1]; AlphaFold 3 predicts how proteins bind drugs far more accurately than prior tools[2].",
+   "summary": "AI now helps pick drug targets and design molecules[1][2]. In a 71-patient, 12-week phase 2a trial run in China, rentosertib, whose TNIK target and molecule were both found with generative AI, was safe and raised forced vital capacity by 98.4 ml at the top dose against a 20.3 ml fall on placebo[1]; AlphaFold 3 predicts how proteins bind drugs far more accurately than docking tools[2]. The edge may be in speed, not success: of molecules from AI-native biotechs, 80 to 90% cleared phase 1 but only about 40% cleared phase 2, in line with industry averages[3].",
    "theme": "world",
    "stage": "emerging",
    "refs": [
     {
-     "title": "Xu et al., rentosertib phase 2a, Nature Medicine 2025",
+     "title": "A generative AI-discovered TNIK inhibitor for idiopathic pulmonary fibrosis: a randomized phase 2a trial (Xu et al., Nature Medicine, 2025)",
      "url": "https://www.nature.com/articles/s41591-025-03743-2",
-     "finding": "A drug whose target and molecule were both found by generative AI improved lung function in a 71-patient fibrosis trial."
+     "finding": "In 71 patients over 12 weeks, rentosertib, a TNIK inhibitor whose target and molecule came from generative AI, was safe and well tolerated, with forced vital capacity up 98.4 ml at 60 mg once daily against a 20.3 ml fall on placebo."
     },
     {
-     "title": "Abramson et al., AlphaFold 3, Nature 2024",
+     "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3 (Abramson et al., Nature, 2024)",
      "url": "https://www.nature.com/articles/s41586-024-07487-w",
-     "finding": "Predicts how proteins bind drugs, DNA and other molecules with far higher accuracy than prior tools."
+     "finding": "Far greater accuracy for protein-ligand interactions than state-of-the-art docking tools, much higher accuracy for protein-nucleic acid interactions than nucleic-acid-specific predictors, and substantially higher antibody-antigen accuracy than AlphaFold-Multimer v2.3."
+    },
+    {
+     "title": "How successful are AI-discovered drugs in clinical trials? A first analysis and emerging lessons (Jayatunga et al., Drug Discovery Today, 2024)",
+     "url": "https://doi.org/10.1016/j.drudis.2024.104009",
+     "finding": "Molecules discovered by AI-native biotech companies had an 80 to 90% success rate in phase 1, well above historic industry averages, but about 40% in phase 2 on a limited sample, comparable to historic averages."
     }
    ],
    "limiters": [
     {
      "limit": "Clinical benefit still unproven at scale",
      "kind": "quality",
-     "evidence": "The leading AI-discovered drug has only a 12 week phase 2a trial in 71 patients.",
+     "evidence": "The leading AI-discovered drug only entered its first phase 3 trial in September 2026, with primary completion estimated in October 2029.",
      "ref": {
-      "title": "A generative AI-discovered TNIK inhibitor for idiopathic pulmonary fibrosis: a randomized phase 2a trial (Nature Medicine, 2025)",
-      "url": "https://www.nature.com/articles/s41591-025-03743-2",
-      "finding": "Rentosertib was safe over 12 weeks in 71 patients, with a signal of better lung function at the top dose."
+      "title": "A Phase 3 Study of Rentosertib in Adults With Idiopathic Pulmonary Fibrosis, NCT07687459 (ClinicalTrials.gov, 2026)",
+      "url": "https://clinicaltrials.gov/study/NCT07687459",
+      "finding": "Phase 3, randomised, double-blind, placebo-controlled trial of oral rentosertib over 52 weeks, 320 patients planned at 47 sites in China, started 9 September 2026 with primary completion estimated October 2029."
      }
     },
     {
      "limit": "Training data skewed to European ancestry",
      "kind": "quality",
-     "evidence": "81% of genome study participants were of European ancestry, which biases target discovery.",
+     "evidence": "In 3,639 genome-wide association studies, 86% of discovery-stage participants were of European ancestry, which skews the targets these models learn from.",
      "ref": {
-      "title": "Genomics is failing on diversity (Nature, 2016)",
-      "url": "https://www.nature.com/articles/538161a",
-      "finding": "81% of GWAS participants were of European ancestry in 2016."
+      "title": "A scientometric review of genome-wide association studies (Mills and Rahal, Communications Biology, 2019)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6323052",
+      "finding": "Across 3,639 studies from 2005 to 2018, participants were 86.03% European ancestry at discovery stage and 88% European in 2017; polygenic scores built on them transfer poorly to other populations."
+     }
+    },
+    {
+     "limit": "Speed, not better odds of working",
+     "kind": "evidence",
+     "evidence": "AI-discovered molecules clear phase 1 at 80 to 90% but only about 40% clear phase 2, the industry norm.",
+     "ref": {
+      "title": "How successful are AI-discovered drugs in clinical trials? A first analysis and emerging lessons (Jayatunga et al., Drug Discovery Today, 2024)",
+      "url": "https://doi.org/10.1016/j.drudis.2024.104009",
+      "finding": "Phase 1 success was 80 to 90%, substantially higher than historic industry averages; phase 2 success was about 40% on a limited sample, comparable to historic industry averages."
      }
     },
     {
@@ -7547,7 +7562,7 @@
      "actor": "FDA and other regulators",
      "status": "proposed",
      "counters": "Regulatory standards for AI still forming",
-     "evidence": "The FDA draft proposes a risk-based framework to judge AI model credibility for a given use.",
+     "evidence": "The FDA draft guidance proposes a risk-based framework to judge an AI model's credibility for a stated context of use; it was still a draft in October 2026.",
      "ref": {
       "title": "Considerations for the Use of AI To Support Regulatory Decision-Making for Drug and Biological Products (FDA draft guidance, 2025)",
       "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-use-artificial-intelligence-support-regulatory-decision-making-drug-and-biological",
@@ -7559,11 +7574,11 @@
      "actor": "sponsors",
      "status": "tested",
      "counters": "Clinical benefit still unproven at scale",
-     "evidence": "Rentosertib went through a randomised placebo-controlled trial, the step needed before larger phase 3 tests.",
+     "evidence": "After the phase 2a trial, rentosertib entered a 320-patient, 52-week phase 3 trial at 47 Chinese sites in September 2026.",
      "ref": {
-      "title": "A generative AI-discovered TNIK inhibitor for idiopathic pulmonary fibrosis: a randomized phase 2a trial (Nature Medicine, 2025)",
-      "url": "https://www.nature.com/articles/s41591-025-03743-2",
-      "finding": "Rentosertib was safe over 12 weeks in 71 patients, with a signal of better lung function at the top dose."
+      "title": "A Phase 3 Study of Rentosertib in Adults With Idiopathic Pulmonary Fibrosis, NCT07687459 (ClinicalTrials.gov, 2026)",
+      "url": "https://clinicaltrials.gov/study/NCT07687459",
+      "finding": "Phase 3, randomised, double-blind, placebo-controlled trial of oral rentosertib over 52 weeks, 320 patients planned at 47 sites in China, started 9 September 2026, primary endpoint the annual rate of forced vital capacity decline."
      }
     }
    ],
@@ -7572,7 +7587,7 @@
      "event": "Combinatorial chemistry and high-throughput screening",
      "year": "1950-2010",
      "parallel": "In the 1990s the industry bet on brute-force tools that made and tested far more molecules, the same promise AI design makes now.",
-     "outcome": "Despite huge gains in these inputs, new drugs approved per billion dollars of R&D halved roughly every 9 years since 1950, an 80-fold fall, and the authors name a brute-force bias as one cause.",
+     "outcome": "Despite big advances in science and technology, new drugs approved per billion US dollars of R&D halved roughly every 9 years since 1950, about an 80-fold fall, and the authors name a basic research-brute force bias as one of four causes.",
      "ref": {
       "title": "Diagnosing the decline in pharmaceutical R&D efficiency (Scannell et al., Nature Reviews Drug Discovery, 2012)",
       "url": "https://www.nature.com/articles/nrd3681",
@@ -7585,9 +7600,9 @@
      "parallel": "Computers and crystal structures were used to design molecules against a known target, an earlier version of what AI design does now.",
      "outcome": "Within about a decade four drugs were approved, but resistance mutations quickly cut their potency; success came on one well-defined target, not across drug discovery as a whole.",
      "ref": {
-      "title": "Inhibitors of HIV-1 Protease: A Major Success of Structure-Assisted Drug Design (Wlodawer and Vondrasek, Annual Review of Biophysics, 1998)",
+      "title": "Inhibitors of HIV-1 protease: a major success of structure-assisted drug design (Wlodawer and Vondrasek, Annual Review of Biophysics and Biomolecular Structure, 1998)",
       "url": "https://www.annualreviews.org/content/journals/10.1146/annurev.biophys.27.1.249",
-      "finding": "Four drugs were already approved using crystallography, NMR, computation and synthesis, while drug-induced mutations caused rapid loss of potency."
+      "finding": "Four drugs were already approved, designed with crystallography, NMR, computational studies and advanced chemical synthesis, while drug-induced mutations of HIV-1 protease caused rapid loss of potency."
      }
     }
    ]
@@ -7599,50 +7614,55 @@
    "probability": 0.8,
    "year": 2026,
    "evidence": "measured",
-   "summary": "Models predict which mutations cause disease and how DNA controls genes: AlphaMissense classified 89% of all 71 million possible human missense variants as likely benign or pathogenic[1], and AlphaGenome predicts how variants in up to a million DNA letters affect gene regulation[2]. This could speed rare-disease diagnosis.",
+   "summary": "Models predict which mutations cause disease and how DNA controls genes: AlphaMissense classified 89% of all 71 million possible human missense variants as likely benign or pathogenic, against the 0.1% confirmed by human experts[1][3], and AlphaGenome reads 1 million DNA letters at a time to predict gene regulation, matching or beating the best external models in 25 of 26 variant-effect evaluations[2]. The makers say this could improve rare-disease diagnosis, but the predictions are not designed for clinical use on their own[3].",
    "theme": "world",
    "stage": "emerging",
    "refs": [
     {
-     "title": "Cheng et al., AlphaMissense, Science 2023",
+     "title": "Accurate proteome-wide missense variant effect prediction with AlphaMissense (Cheng et al., Science, 2023)",
      "url": "https://www.science.org/doi/10.1126/science.adg7492",
-     "finding": "Classified 89% of all 71 million possible human missense variants as likely benign or pathogenic."
+     "finding": "A fine-tuned AlphaFold model classifies 89% of missense variants as either likely benign or likely pathogenic, with a database of predictions for all possible human single amino acid substitutions released as a community resource."
     },
     {
-     "title": "Google DeepMind, AlphaGenome 2025",
-     "url": "https://deepmind.google/discover/blog/alphagenome-ai-for-better-understanding-the-genome/",
-     "finding": "Predicts how variants in up to a million DNA letters affect gene regulation."
+     "title": "Advancing regulatory variant effect prediction with AlphaGenome (Avsec et al., Nature, 2026)",
+     "url": "https://www.nature.com/articles/s41586-025-10014-0",
+     "finding": "AlphaGenome takes 1 megabase of input sequence and predicts thousands of functional genomic tracks at up to single-base-pair resolution, matching or exceeding the strongest external models in 25 of 26 evaluations of variant effect prediction."
+    },
+    {
+     "title": "A catalogue of genetic mutations to help pinpoint the cause of diseases (Google DeepMind, September 2023)",
+     "url": "https://deepmind.google/discover/blog/a-catalogue-of-genetic-mutations-to-help-pinpoint-the-cause-of-diseases/",
+     "finding": "Of 71 million possible missense variants, 89% were classified, about 57% likely benign and 32% likely pathogenic, where only 0.1% had been confirmed by human experts; the predictions are free to use but not designed to be used in the clinic directly and should be interpreted with other evidence."
     }
    ],
    "limiters": [
     {
      "limit": "Genome data skewed to European ancestry",
      "kind": "quality",
-     "evidence": "81% of GWAS participants were of European ancestry, so predictions are weaker for other groups.",
+     "evidence": "In 3,639 genome-wide association studies, 86% of discovery-stage participants were of European ancestry, so scores and predictions transfer poorly to other groups.",
      "ref": {
-      "title": "Genomics is failing on diversity (Nature, 2016)",
-      "url": "https://www.nature.com/articles/538161a",
-      "finding": "81% of GWAS participants were of European ancestry in 2016."
+      "title": "A scientometric review of genome-wide association studies (Mills and Rahal, Communications Biology, 2019)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6323052",
+      "finding": "Across 3,639 studies from 2005 to 2018, participants were 86.03% European ancestry at discovery stage and 88% European in 2017; polygenic scores from European-ancestry studies explain only half as much variability in non-Hispanic Black samples."
      }
     },
     {
      "limit": "Predictions not validated for clinical use",
      "kind": "quality",
-     "evidence": "AlphaMissense classified 89% of 71 million variants but its calls are not meant to diagnose alone.",
+     "evidence": "AlphaMissense classified 89% of 71 million variants, but its makers say the calls are not designed for direct clinical use.",
      "ref": {
-      "title": "Accurate proteome-wide missense variant effect prediction with AlphaMissense (Science, 2023)",
-      "url": "https://www.science.org/doi/10.1126/science.adg7492",
-      "finding": "Classified 89% of 71 million possible missense variants; predictions released openly but not validated for clinical use alone."
+      "title": "A catalogue of genetic mutations to help pinpoint the cause of diseases (Google DeepMind, September 2023)",
+      "url": "https://deepmind.google/discover/blog/a-catalogue-of-genetic-mutations-to-help-pinpoint-the-cause-of-diseases/",
+      "finding": "89% of 71 million possible missense variants were classified as likely benign or likely pathogenic; the predictions are not designed to be used in the clinic directly and should be interpreted with other sources of evidence."
      }
     },
     {
      "limit": "unequal access to paid AI",
      "kind": "access",
-     "evidence": "Sequencing and expert interpretation still cluster in rich health systems, so open predictions reach few rare disease patients.",
+     "evidence": "Free predictions help only where DNA can be sequenced and read, and WHO's Science Council finds lower-income countries short of financing, labs and trained staff.",
      "ref": {
-      "title": "Genomics is failing on diversity (Nature, 2016)",
-      "url": "https://www.nature.com/articles/538161a",
-      "finding": "81% of GWAS participants were of European ancestry in 2016."
+      "title": "WHO's Science Council launches report calling for equitable expansion of genomics (World Health Organization, July 2022)",
+      "url": "https://www.who.int/news/item/12-07-2022-who-s-science-council-launches-report-calling-for-equitable-expansion-of-genomics",
+      "finding": "Access to genomic technologies needs expanding, particularly in low- and middle-income countries, by addressing shortfalls in financing, laboratory infrastructure, materials and highly trained personnel; it is not justifiable ethically or scientifically for less-resourced countries to gain access long after rich countries do."
      }
     }
    ],
@@ -7652,11 +7672,11 @@
      "actor": "research labs",
      "status": "in force",
      "counters": "unequal access to paid AI",
-     "evidence": "AlphaMissense predictions for 71 million variants were released for free use.",
+     "evidence": "AlphaMissense predictions for 71 million variants were published for free use, under a CC BY 4.0 licence since March 2024, with the model code open source.",
      "ref": {
-      "title": "Accurate proteome-wide missense variant effect prediction with AlphaMissense (Science, 2023)",
-      "url": "https://www.science.org/doi/10.1126/science.adg7492",
-      "finding": "Classified 89% of 71 million possible missense variants; predictions released openly but not validated for clinical use alone."
+      "title": "A catalogue of genetic mutations to help pinpoint the cause of diseases (Google DeepMind, September 2023)",
+      "url": "https://deepmind.google/discover/blog/a-catalogue-of-genetic-mutations-to-help-pinpoint-the-cause-of-diseases/",
+      "finding": "Predictions for all 71 million possible missense variants are freely available, licensed CC BY 4.0 since 13 March 2024, and the model code is open source."
      }
     },
     {
@@ -7664,11 +7684,11 @@
      "actor": "research funders",
      "status": "proposed",
      "counters": "Genome data skewed to European ancestry",
-     "evidence": "Popejoy and Fullerton call for funding to include under-represented populations in genomic studies.",
+     "evidence": "Popejoy and Fullerton call on funding agencies to create financial incentives for diverse cohorts and to prioritise studies in non-European, especially African, ancestry populations.",
      "ref": {
-      "title": "Genomics is failing on diversity (Nature, 2016)",
-      "url": "https://www.nature.com/articles/538161a",
-      "finding": "81% of GWAS participants were of European ancestry in 2016."
+      "title": "Genomics is failing on diversity (Popejoy and Fullerton, Nature, 2016)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5089703/",
+      "finding": "96% of participants in genome-wide association studies were of European descent in a 2009 analysis; by August 2016 the non-European share had risen to nearly 20%, almost 78% of that growth from Asian samples, and funding agencies should develop financial incentives for diverse cohorts."
      }
     }
    ],
@@ -7679,9 +7699,9 @@
      "parallel": "A step change in the ability to read DNA was sold as a coming revolution in diagnosis, as AI genome models are now.",
      "outcome": "The first genome cost at least $500 million, and a draft genome fell below $1,500 by late 2015, so the reading tool became cheap very fast.",
      "ref": {
-      "title": "The Cost of Sequencing a Human Genome (National Human Genome Research Institute)",
+      "title": "The Cost of Sequencing a Human Genome (National Human Genome Research Institute, last updated November 2021)",
       "url": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
-      "finding": "The first reference genome cost an estimated $500 million to $1 billion; draft whole-genome cost fell below $1,500 in late 2015."
+      "finding": "The Human Genome Project's reference genome is estimated to have cost at least $500 million and as much as $1 billion; the cost of a high-quality draft whole human genome had fallen below $1,500 by late 2015."
      }
     },
     {
@@ -7692,18 +7712,18 @@
      "ref": {
       "title": "Has the revolution arrived? (Francis Collins, Nature, 2010)",
       "url": "https://www.nature.com/articles/464674a",
-      "finding": "The consequences for clinical medicine have thus far been modest; the Human Genome Project had not yet directly affected the health care of most individuals."
+      "finding": "DNA sequencing costs dropped approximately 14,000-fold between 1999 and 2009, but the consequences for clinical medicine have thus far been modest and the Human Genome Project has not yet directly affected the health care of most individuals."
      }
     },
     {
      "event": "Clinical exome sequencing for rare disorders",
      "year": "2011-2013",
      "parallel": "Reading all coding genes at once was used to end diagnostic odysseys for rare disease, the same goal AI variant interpretation targets.",
-     "outcome": "In the first 250 patients sequenced, 62 (about 25%) got a molecular diagnosis, so most still did not.",
+     "outcome": "Of the first 250 probands referred for clinical whole-exome sequencing, 62 got a molecular diagnosis, a rate of 25% with a 95% confidence interval of 20 to 31, so three quarters still did not.",
      "ref": {
       "title": "Clinical Whole-Exome Sequencing for the Diagnosis of Mendelian Disorders (Yang et al., New England Journal of Medicine, 2013)",
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1306555",
-      "finding": "Of 250 probands, 62 carried mutations that met criteria for a molecular diagnosis, a rate of about 25%."
+      "finding": "Among the first 250 probands for whom referring physicians ordered whole-exome sequencing, 62 carried mutations meeting criteria for a molecular diagnosis, a rate of 25% (95% CI, 20 to 31)."
      }
     }
    ]
@@ -7715,35 +7735,55 @@
    "probability": 0.7,
    "year": 2027,
    "evidence": "measured",
-   "summary": "Models trained on millions of cells could integrate omics data that humans cannot analyse by hand; scGPT, pretrained on 33 million cells, improved cell-type annotation, perturbation prediction and multi-omic integration[1].",
+   "summary": "Models trained on millions of cells aim to integrate omics data at a scale manual analysis cannot reach; scGPT, pretrained on over 33 million cells, reached superior performance on tasks including cell-type annotation, perturbation response prediction and multi-omic integration after fine-tuning[1]. Independent tests are less flattering: a 2025 benchmark found that none of five foundation models, scGPT among them, beat simple baselines at predicting gene perturbation effects[2], and without fine-tuning scGPT and Geneformer were in some cases outperformed by simpler methods[3].",
    "theme": "world",
    "stage": "emerging",
    "refs": [
     {
-     "title": "Cui et al., scGPT, Nature Methods 2024",
+     "title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI (Cui et al., Nature Methods, 2024)",
      "url": "https://www.nature.com/articles/s41592-024-02201-0",
-     "finding": "A model pretrained on 33 million cells improved cell-type annotation, perturbation prediction and multi-omic integration."
+     "finding": "A generative pretrained transformer built on a repository of over 33 million cells; through further transfer-learning adaptation it achieved superior performance on cell type annotation, multi-batch integration, multi-omic integration, perturbation response prediction and gene network inference."
+    },
+    {
+     "title": "Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines (Ahlmann-Eltze, Huber and Anders, Nature Methods, 2025)",
+     "url": "https://www.nature.com/articles/s41592-025-02772-6",
+     "finding": "Five foundation models, including scGPT, and two other deep learning models were compared with deliberately simple baselines for predicting transcriptome changes after single or double gene perturbations; none outperformed the baselines."
+    },
+    {
+     "title": "Zero-shot evaluation reveals limitations of single-cell foundation models (Kedzierska et al., Genome Biology, 2025)",
+     "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03574-x",
+     "finding": "Used without further training, scGPT and Geneformer may in some cases face reliability challenges and be outperformed by simpler methods; zero-shot performance matters where fine-tuning is not possible."
     }
    ],
    "limiters": [
     {
-     "limit": "Training data skewed to few public atlases",
+     "limit": "Pretraining data limited to healthy human cells",
      "kind": "quality",
-     "evidence": "scGPT was pretrained on over 33 million cells drawn mainly from one public repository, so tissues and populations absent there are poorly covered.",
+     "evidence": "scGPT was pretrained on 33 million normal (non-disease) human cells from the CELLxGENE collection, covering 51 organs or tissues and 441 studies; the authors plan to add diseased conditions, multi-omic and spatial data.",
      "ref": {
-      "title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI (Nature Methods, 2024)",
-      "url": "https://www.nature.com/articles/s41592-024-02201-0",
-      "finding": "Pretraining used the CELLxGENE census, over 33 million cells; good results depend on transfer learning."
+      "title": "scGPT: Towards Building a Foundation Model for Single-Cell Multi-omics Using Generative AI (Cui et al., bioRxiv, 2023)",
+      "url": "https://www.biorxiv.org/content/10.1101/2023.04.30.538439v2.full",
+      "finding": "Pretraining used 33 million normal human cells obtained via the CELLxGENE collection, spanning 51 organs or tissues and 441 studies; future pretraining is planned on more diverse data including diseased conditions."
      }
     },
     {
      "limit": "slow institutional adoption",
      "kind": "incentives",
-     "evidence": "Gains reported in the original papers depend on fine-tuning, which needs labs with compute and machine learning staff.",
+     "evidence": "scGPT's reported gains come after fine-tuning; used as released, without further training, it was in some cases outperformed by simpler methods, which matters for labs that cannot fine-tune.",
      "ref": {
-      "title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI (Nature Methods, 2024)",
-      "url": "https://www.nature.com/articles/s41592-024-02201-0",
-      "finding": "Superior downstream performance is reached through further adaptation with transfer learning."
+      "title": "Zero-shot evaluation reveals limitations of single-cell foundation models (Kedzierska et al., Genome Biology, 2025)",
+      "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03574-x",
+      "finding": "Used without further training, scGPT and Geneformer may in some cases face reliability challenges and be outperformed by simpler methods; zero-shot performance matters where fine-tuning is not possible."
+     }
+    },
+    {
+     "limit": "No better than simple baselines on key tasks",
+     "kind": "quality",
+     "evidence": "A 2025 benchmark found that five foundation models, including scGPT, and two other deep learning models did not outperform deliberately simple baselines at predicting expression changes after gene perturbations.",
+     "ref": {
+      "title": "Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines (Ahlmann-Eltze, Huber and Anders, Nature Methods, 2025)",
+      "url": "https://www.nature.com/articles/s41592-025-02772-6",
+      "finding": "Five foundation models, including scGPT, and two other deep learning models were compared with deliberately simple baselines for predicting transcriptome changes after single or double gene perturbations; none outperformed the baselines."
      }
     }
    ],
@@ -7753,11 +7793,11 @@
      "actor": "Model developers",
      "status": "in force",
      "counters": "slow institutional adoption",
-     "evidence": "scGPT code is MIT licensed and its processed datasets are public, so smaller labs can reuse it without retraining.",
+     "evidence": "scGPT's code is MIT licensed and its pretrained checkpoints are downloadable, so smaller labs can fine-tune it without pretraining from scratch.",
      "ref": {
-      "title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI (Nature Methods, 2024)",
-      "url": "https://www.nature.com/articles/s41592-024-02201-0",
-      "finding": "Code on GitHub and Zenodo under MIT License; processed data on figshare."
+      "title": "scGPT: official codebase (bowang-lab, GitHub)",
+      "url": "https://github.com/bowang-lab/scGPT",
+      "finding": "The repository is MIT licensed and offers downloadable pretrained checkpoints, including a whole-human model pretrained on 33 million normal human cells."
      }
     }
    ],
@@ -7765,23 +7805,23 @@
     {
      "event": "Microarray gene expression studies",
      "year": "2005-2009",
-     "parallel": "Microarrays first produced more molecular data than people could analyse by hand, and complex computational pipelines stood between the data and the claims, as with omics foundation models.",
-     "outcome": "Independent teams tried to repeat one analysis from each of 18 microarray papers in Nature Genetics and fully reproduced 2, partly reproduced 6 and could not reproduce 10.",
+     "parallel": "Microarray studies put complex computational pipelines between the data and the published claims, as omics foundation models do.",
+     "outcome": "Two teams tried to repeat one table or figure from each of 18 microarray papers published in Nature Genetics in 2005-2006; they reproduced 2 in principle, 6 partially or with discrepancies, and could not reproduce 10, mainly because data were unavailable.",
      "ref": {
       "title": "Repeatability of published microarray gene expression analyses (Ioannidis et al., Nature Genetics, 2009)",
       "url": "https://www.nature.com/articles/ng.295",
-      "finding": "Of 18 analyses, two were reproduced in principle, six partially or with discrepancies, and ten could not be reproduced, mainly because data were unavailable."
+      "finding": "Of 18 analyses, two were reproduced in principle, six partially or with some discrepancies, and ten could not be reproduced; the main reason was data unavailability, and discrepancies came mostly from incomplete data annotation or description of processing."
      }
     },
     {
      "event": "Duke omics tests in cancer trials",
-     "year": "2007-2012",
-     "parallel": "Omics-derived predictors were used to steer patient treatment before anyone checked them, a risk for any opaque model built on omics data.",
-     "outcome": "Tests were used prematurely in three Duke cancer trials, which led to an Institute of Medicine inquiry and a 2012 report calling for omics tests to be validated before they guide treatment in trials.",
+     "year": 2012,
+     "parallel": "Omics-derived predictors were used to steer patient treatment before they had been properly validated, a risk for any opaque model built on omics data.",
+     "outcome": "Gene expression tests were used prematurely in three Duke University cancer trials and the papers describing them were retracted; a 2012 Institute of Medicine report called for omics-based tests to be fully validated before they direct patient management in trials.",
      "ref": {
       "title": "Evolution of Translational Omics: Lessons Learned and the Path Forward (Institute of Medicine, 2012)",
-      "url": "https://www.nationalacademies.org/publications/13297",
-      "finding": "The committee was formed after premature use of omics-based tests in Duke cancer clinical trials and set criteria for validating such tests before use."
+      "url": "https://www.nationalacademies.org/read/13297/chapter/2",
+      "finding": "The National Cancer Institute asked for the committee after premature use of omics-based tests in three Duke University clinical trials, whose papers were retracted; it recommends that omics-based tests used to direct patient management in a trial be fully defined, validated and locked down first."
      }
     }
    ],
@@ -7794,45 +7834,55 @@
    "probability": 0.65,
    "year": 2027,
    "evidence": "measured",
-   "summary": "Agents now run lab hardware: one planned and ran real chemistry experiments[1], and others control microscopes in place of manual, unrepeatable acquisition[3]. One autonomous lab reported 41 new inorganic compounds in 17 days, though critics questioned how many were truly new[2].",
+   "summary": "Agents now run lab hardware: one system designed, planned and ran chemistry experiments, including optimising palladium-catalysed cross-couplings[1], and a 2025 preprint describes large models controlling a microscope to automate multi-step protocols that otherwise rely on manual operation[3]. One autonomous lab first reported 41 novel compounds from 58 targets in 17 days[2]; outside chemists concluded it had made no new materials[4], and a 2026 correction confirmed 36 of its 40 reported successes, left 4 inconclusive, removed one compound that was in the training data and said 'novel' meant new to the prediction platform, not to science[5].",
    "theme": "world",
    "stage": "emerging",
    "refs": [
     {
-     "title": "Boiko et al., Coscientist, Nature 2023",
+     "title": "Autonomous chemical research with large language models (Boiko et al., Nature, 2023)",
      "url": "https://www.nature.com/articles/s41586-023-06792-0",
-     "finding": "An LLM agent planned and ran real chemistry experiments by controlling lab hardware."
+     "finding": "Coscientist, a system driven by GPT-4, autonomously designed, planned and performed experiments across six tasks, including controlling liquid handlers and a cloud lab and optimising palladium-catalysed cross-coupling reactions."
     },
     {
-     "title": "Szymanski et al., A-Lab, Nature 2023",
+     "title": "An autonomous laboratory for the accelerated synthesis of inorganic materials (Szymanski et al., Nature, 2023)",
      "url": "https://www.nature.com/articles/s41586-023-06734-w",
-     "finding": "An autonomous lab synthesised 41 new inorganic compounds in 17 days; later critiques questioned how many were truly new."
+     "finding": "The A-Lab plans and interprets robotic solid-state syntheses; the original 2023 abstract reported 41 novel compounds from 58 targets over 17 days of continuous operation, and the paper was later retitled from 'novel' to 'inorganic' materials and corrected in 2026."
     },
     {
-     "title": "Embodied intelligence unlocks autonomous microscopy, bioRxiv 2025",
+     "title": "Embodied Intelligence Unlocks Autonomous Microscopy (Huang et al., bioRxiv preprint, 2025)",
      "url": "https://www.biorxiv.org/content/10.1101/2025.08.13.670210v1",
-     "finding": "Grounds large models in microscope control to replace manual, unrepeatable acquisition."
+     "finding": "A microscope system uses large models to turn high-level commands into executable steps, addressing reliance on manual operation that struggles with the complexity and reproducibility of long-term protocols; not peer reviewed."
+    },
+    {
+     "title": "Challenges in High-Throughput Inorganic Materials Prediction and Autonomous Synthesis (Leeman et al., PRX Energy, 2024)",
+     "url": "https://journals.aps.org/prxenergy/abstract/10.1103/PRXEnergy.3.011002",
+     "finding": "A review of all 43 claimed products found that automated Rietveld analysis of powder X-ray diffraction data is not yet reliable and that about two-thirds of the claimed successes were likely known compositionally disordered compounds, concluding that no new materials were discovered."
+    },
+    {
+     "title": "Author Correction: An autonomous laboratory for the accelerated synthesis of inorganic materials (Szymanski et al., Nature, 2026)",
+     "url": "https://www.nature.com/articles/s41586-025-09992-y",
+     "finding": "After concerns about diffraction-based identification and novelty claims, the authors said 'novel' meant new to the prediction platform, not necessarily to science; a manual re-analysis confirmed 36 of 40 reported successes with 4 inconclusive, one compound found in the training data was removed, and the re-analysis was peer-reviewed after publication."
     }
    ],
    "limiters": [
     {
      "limit": "Automated analysis can overclaim discoveries",
      "kind": "quality",
-     "evidence": "An autonomous lab reported 41 novel compounds from 58 targets in 17 days, but outside chemists concluded no new materials were made.",
+     "evidence": "An autonomous lab reported 41 novel compounds from 58 targets in 17 days, but outside chemists who reviewed its products found errors in automated X-ray analysis and concluded no new materials were made.",
      "ref": {
-      "title": "New analysis raises doubts over autonomous lab's materials 'discoveries' (Chemistry World, 2024)",
-      "url": "https://chemistryworld.com/news/new-analysis-raises-doubts-over-autonomous-labs-materials-discoveries/4018791.article",
-      "finding": "Critics found experimental and computational problems and disputed the 40-plus novel materials claim."
+      "title": "Challenges in High-Throughput Inorganic Materials Prediction and Autonomous Synthesis (Leeman et al., PRX Energy, 2024)",
+      "url": "https://journals.aps.org/prxenergy/abstract/10.1103/PRXEnergy.3.011002",
+      "finding": "A review of all 43 claimed products found that automated Rietveld analysis of powder X-ray diffraction data is not yet reliable and that about two-thirds of the claimed successes were likely known compositionally disordered compounds, concluding that no new materials were discovered."
      }
     },
     {
      "limit": "slow institutional adoption",
      "kind": "incentives",
-     "evidence": "Robotic phase identification from X-ray data is not yet dependable, so humans still have to check results before labs trust them.",
+     "evidence": "When the A-Lab's automated phase identification was challenged, its authors had to re-analyse the diffraction patterns by hand, confirming 36 of 40 reported successes and leaving 4 inconclusive.",
      "ref": {
-      "title": "New analysis raises doubts over autonomous lab's materials 'discoveries' (Chemistry World, 2024)",
-      "url": "https://chemistryworld.com/news/new-analysis-raises-doubts-over-autonomous-labs-materials-discoveries/4018791.article",
-      "finding": "Critique centred on automated analysis of diffraction data and known compounds counted as new."
+      "title": "Author Correction: An autonomous laboratory for the accelerated synthesis of inorganic materials (Szymanski et al., Nature, 2026)",
+      "url": "https://www.nature.com/articles/s41586-025-09992-y",
+      "finding": "After concerns about diffraction-based identification and novelty claims, the authors said 'novel' meant new to the prediction platform, not necessarily to science; a manual re-analysis confirmed 36 of 40 reported successes with 4 inconclusive, one compound found in the training data was removed, and the re-analysis was peer-reviewed after publication."
      }
     }
    ],
@@ -7842,11 +7892,11 @@
      "actor": "Journals and lab teams",
      "status": "tested",
      "counters": "Automated analysis can overclaim discoveries",
-     "evidence": "Independent re-analysis by domain chemists caught the A-Lab overclaims after publication.",
+     "evidence": "Concerns raised by outside chemists after publication led to a 2026 correction of the A-Lab paper: the novelty claim was narrowed, four inconclusive compounds and one found in the training data were dropped, and the re-analysis was peer-reviewed.",
      "ref": {
-      "title": "New analysis raises doubts over autonomous lab's materials 'discoveries' (Chemistry World, 2024)",
-      "url": "https://chemistryworld.com/news/new-analysis-raises-doubts-over-autonomous-labs-materials-discoveries/4018791.article",
-      "finding": "Outside experts re-examined the paper's products and disputed novelty."
+      "title": "Author Correction: An autonomous laboratory for the accelerated synthesis of inorganic materials (Szymanski et al., Nature, 2026)",
+      "url": "https://www.nature.com/articles/s41586-025-09992-y",
+      "finding": "After concerns about diffraction-based identification and novelty claims, the authors said 'novel' meant new to the prediction platform, not necessarily to science; a manual re-analysis confirmed 36 of 40 reported successes with 4 inconclusive, one compound found in the training data was removed, and the re-analysis was peer-reviewed after publication."
      }
     }
    ],
@@ -7854,23 +7904,23 @@
     {
      "event": "Robot Scientist Adam",
      "year": 2009,
-     "parallel": "A pre-generative-AI robot planned and ran its own yeast experiments and logged everything in machine-readable form, the same idea as today's self-driving labs.",
-     "outcome": "The authors reported a previously unknown regulatory relationship in yeast and fully recorded experiments, but this was one organism and one narrow problem, and wide adoption did not follow quickly.",
+     "parallel": "A robot built before generative AI generated its own hypotheses about yeast genes, tested them with laboratory automation and recorded the work in a formal logical language, the same idea as today's self-driving labs.",
+     "outcome": "The authors confirmed Adam's conclusions with manual experiments and formalised 6.6 million biomass measurements in over 10,000 research units, but the work covered one organism and one narrow problem.",
      "ref": {
       "title": "The Automation of Science (King et al., Science, 2009)",
       "url": "https://www.science.org/doi/10.1126/science.1165620",
-      "finding": "A laboratory robot ran cycles of hypothesis-driven experiments, recorded all details needed to repeat them, and found a hitherto unknown regulatory relationship in yeast."
+      "finding": "Robot Scientist Adam autonomously generated functional genomics hypotheses about the yeast Saccharomyces cerevisiae and tested them using laboratory automation; its conclusions were confirmed by manual experiments and its research recorded in an ontology and logical language."
      }
     },
     {
      "event": "Automated fluorescent DNA sequencing",
      "year": 1986,
-     "parallel": "Replacing a human reading gel bands by eye with a computer reading dye signals removed a manual, error-prone step, as robots and agents now do for instruments.",
-     "outcome": "The Caltech method read four dye-labelled reactions from one gel tube straight into a computer; the authors called it only partial automation, and it was the basis of later commercial sequencers.",
+     "parallel": "Acquiring sequence data directly by computer removed a manual reading step, as robots and agents now do for other instruments.",
+     "outcome": "The method gave each base's reaction a different-coloured fluorescent dye, ran all four in one gel tube and fed the sequence straight into a computer; the authors called it partial automation of DNA sequencing.",
      "ref": {
       "title": "Fluorescence detection in automated DNA sequence analysis (Smith et al., Nature, 1986)",
       "url": "https://www.nature.com/articles/321674a0",
-      "finding": "A different-coloured fluorophore per base let reactions run in a single gel tube with sequence data acquired directly by computer, partially automating DNA sequencing."
+      "finding": "A different-coloured fluorophore per base let the four reactions run in a single gel tube, with sequence data acquired directly by computer, partially automating DNA sequence analysis."
      }
     }
    ]
@@ -7882,40 +7932,55 @@
    "probability": 0.45,
    "year": 2029,
    "evidence": "projected",
-   "summary": "Automated, logged experiments and shared AI pipelines could make results easier to repeat; one tool packages microscopy deep-learning pipelines so anyone can rerun them identically[2]. In one Nature survey of 1,500 scientists, more than 70% had failed to reproduce another's experiment[1].",
+   "summary": "Automated, logged experiments and shared AI pipelines could make results easier to repeat; one tool packages each microscopy deep-learning method in a container so the same workflow runs on laptops, clusters and the cloud[2]. In one online Nature survey of 1,576 researchers, more than 70% had tried and failed to reproduce another scientist's experiment[1]. AI brings its own failures: a review of fields that adopted machine learning found data leakage errors in 294 papers across 17 fields[3].",
    "theme": "world",
    "stage": "emerging",
    "refs": [
     {
-     "title": "Baker, 1,500 scientists lift the lid on reproducibility, Nature 2016",
+     "title": "1,500 scientists lift the lid on reproducibility (Baker, Nature, 2016)",
      "url": "https://www.nature.com/articles/533452a",
-     "finding": "More than 70% of researchers had failed to reproduce another scientist's experiment."
+     "finding": "In an online survey of 1,576 researchers, more than 70% had tried and failed to reproduce another scientist's experiments and 52% agreed there is a significant reproducibility crisis."
     },
     {
-     "title": "Hidalgo-Cenalmor et al., DL4MicEverywhere, Nature Methods 2024",
+     "title": "DL4MicEverywhere: deep learning for microscopy made flexible, shareable and reproducible (Hidalgo-Cenalmor et al., Nature Methods, 2024)",
      "url": "https://www.nature.com/articles/s41592-024-02295-6",
-     "finding": "Packages microscopy deep-learning pipelines so anyone can rerun them identically."
+     "finding": "Each deep learning technique is packaged as a Jupyter notebook in a Docker container that runs on Google Colab, desktops or laptops and HPC systems; the authors say this containerisation boosts reproducibility."
+    },
+    {
+     "title": "Leakage and the reproducibility crisis in machine-learning-based science (Kapoor and Narayanan, Patterns, 2023)",
+     "url": "https://doi.org/10.1016/j.patter.2023.100804",
+     "finding": "A survey of literature in fields that adopted machine learning found data leakage in 17 fields affecting 294 papers, in some cases leading to wildly overoptimistic conclusions."
     }
    ],
    "limiters": [
     {
      "limit": "Weak incentives to share and replicate",
      "kind": "incentives",
-     "evidence": "In a Nature survey of 1,576 researchers, more than 70% had failed to reproduce another scientist's experiment, and pressure to publish was a top cited cause.",
+     "evidence": "In an online Nature survey of 1,576 researchers, more than 70% had failed to reproduce another scientist's experiment, and more than 60% said pressure to publish and selective reporting always or often contributed.",
      "ref": {
-      "title": "1,500 scientists lift the lid on reproducibility (Nature, 2016)",
+      "title": "1,500 scientists lift the lid on reproducibility (Baker, Nature, 2016)",
       "url": "https://www.nature.com/articles/533452a",
-      "finding": "Survey sheds light on the reproducibility crisis and its causes."
+      "finding": "More than 60% of respondents said pressure to publish and selective reporting always or often contribute to irreproducibility."
      }
     },
     {
      "limit": "slow institutional adoption",
      "kind": "incentives",
-     "evidence": "Automated labs remain rare and their own outputs have needed outside correction.",
+     "evidence": "An autonomous lab's own published results needed a 2026 correction after outside chemists challenged its compound identification and novelty claims.",
      "ref": {
-      "title": "New analysis raises doubts over autonomous lab's materials 'discoveries' (Chemistry World, 2024)",
-      "url": "https://chemistryworld.com/news/new-analysis-raises-doubts-over-autonomous-labs-materials-discoveries/4018791.article",
-      "finding": "An autonomous lab's claims did not hold up under independent re-analysis."
+      "title": "Author Correction: An autonomous laboratory for the accelerated synthesis of inorganic materials (Szymanski et al., Nature, 2026)",
+      "url": "https://www.nature.com/articles/s41586-025-09992-y",
+      "finding": "After concerns about diffraction-based identification and novelty claims, the authors said 'novel' meant new to the prediction platform, not necessarily to science; a manual re-analysis confirmed 36 of 40 reported successes with 4 inconclusive, one compound found in the training data was removed, and the re-analysis was peer-reviewed after publication."
+     }
+    },
+    {
+     "limit": "AI pipelines add their own opacity",
+     "kind": "quality",
+     "evidence": "A review of fields that adopted machine learning found data leakage in 294 papers across 17 fields, in some cases leading to wildly overoptimistic conclusions.",
+     "ref": {
+      "title": "Leakage and the reproducibility crisis in machine-learning-based science (Kapoor and Narayanan, Patterns, 2023)",
+      "url": "https://doi.org/10.1016/j.patter.2023.100804",
+      "finding": "A survey of literature in fields that adopted machine learning found data leakage in 17 fields affecting 294 papers, in some cases leading to wildly overoptimistic conclusions."
      }
     }
    ],
@@ -7925,11 +7990,11 @@
      "actor": "Researchers",
      "status": "in force",
      "counters": "AI pipelines add their own opacity",
-     "evidence": "scGPT released code under MIT license plus processed datasets, which let others re-test its claims.",
+     "evidence": "scGPT's code is MIT licensed and its pretrained checkpoints are downloadable, so other teams can rerun and re-test it.",
      "ref": {
-      "title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI (Nature Methods, 2024)",
-      "url": "https://www.nature.com/articles/s41592-024-02201-0",
-      "finding": "Code and processed data are publicly available on GitHub, Zenodo and figshare."
+      "title": "scGPT: official codebase (bowang-lab, GitHub)",
+      "url": "https://github.com/bowang-lab/scGPT",
+      "finding": "The repository is MIT licensed and offers downloadable pretrained checkpoints, including a whole-human model pretrained on 33 million normal human cells."
      }
     }
    ],
@@ -7948,8 +8013,8 @@
     {
      "event": "Large-scale psychology replication project",
      "year": 2015,
-     "parallel": "This is the measured crisis AI pipelines claim to fix, and it shows what weak original evidence looks like when anyone tries to repeat it.",
-     "outcome": "Of 100 replicated studies, 97% of originals were significant but only 36% of replications were, and effect sizes halved; replication success tracked strength of original evidence more than team expertise.",
+     "parallel": "It measured the scale of the replication problem that logged, shared pipelines aim to reduce, and shows what weak original evidence looks like when others try to repeat it.",
+     "outcome": "Of 100 replicated studies from three psychology journals, 97% of originals were significant but only 36% of replications were, and replication effects were half the size; replication success was better predicted by the strength of the original evidence than by characteristics of the teams.",
      "ref": {
       "title": "Estimating the reproducibility of psychological science (Open Science Collaboration, Science, 2015)",
       "url": "https://www.science.org/doi/10.1126/science.aac4716",
@@ -7960,11 +8025,11 @@
      "event": "Excel silently corrupting gene names",
      "year": "2004-2016",
      "parallel": "Shared software pipelines can spread errors at scale as easily as they spread rigour, a risk for shared AI pipelines too.",
-     "outcome": "A scripted screen of 18 journals found gene name errors in 19.6% of papers with Excel gene lists and in 39.7% of gene-list files on NCBI GEO, rising 15% a year despite being reported in 2004.",
+     "outcome": "A scripted screen of 18 journals from 2005-2015 found gene name errors in 19.6% of papers with Excel gene lists and in 39.7% of Excel gene-list files on NCBI GEO, rising 15% a year over five years although the problem was described in 2004.",
      "ref": {
       "title": "Gene name errors are widespread in the scientific literature (Ziemann, Eren and El-Osta, Genome Biology, 2016)",
       "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7",
-      "finding": "About one-fifth (19.6%) of papers with supplementary Excel gene lists contained erroneous gene name conversions."
+      "finding": "About one-fifth (19.6%) of papers with supplementary Excel gene lists contained erroneous gene name conversions; errors rose at an annual rate of 15% over the previous five years."
      }
     }
    ]
@@ -7976,37 +8041,37 @@
    "probability": 0.85,
    "year": 2025,
    "evidence": "measured",
-   "summary": "In one study of 26,800 Chinese secondary students, AI raised homework scores 18% but cut monthly exam scores 20% within six months[1]. The full 18 to 24% drop in entrance exam scores took about two years to appear[1][2], mostly among students who rushed homework with AI[2].",
+   "summary": "In one working paper on 26,811 Chinese secondary students in grades 7 to 12, AI adoption raised homework scores 18% but cut monthly exam scores 20% within six months[1]. High-stakes entrance exam scores fell 18% and 24%, with the full penalty taking about two years to appear[1][2]. Losses were concentrated among the roughly 80% of AI users whose unusually fast, high-scoring homework suggested outsourcing, while users who kept normal homework times lost little[1][2].",
    "theme": "mind",
    "stage": "active",
    "refs": [
     {
-     "title": "Strömberg, Lei and Wu, The generative AI learning penalty, CEPR 2026",
-     "url": "https://cepr.org/voxeu/columns/generative-ai-learning-penalty-secondary-school",
-     "finding": "Across 26,800 Chinese secondary students, AI raised homework scores 18% but cut monthly exam scores 20% within six months and entrance exam scores 18 to 24%."
+     "title": "Strömberg, Lei and Wu, The Generative AI Learning Penalty: Evidence from Chinese Secondary Education, CEPR Discussion Paper 21577, 2026",
+     "url": "https://econpapers.repec.org/RePEc:cpr:ceprdp:21577",
+     "finding": "Across 30 months of data on 26,811 Chinese students in grades 7 to 12, AI adoption raised homework scores 18% and cut completion time 30%, while monthly closed-book exam scores fell 20% within six months and high-school and college entrance exam scores fell 18% and 24%, with the full penalty emerging after about two years; losses concentrated among the roughly 80% of AI users whose short completion times and high homework scores suggest outsourcing, and users with normal completion times showed small losses."
     },
     {
-     "title": "The Decoder on the same study",
+     "title": "The Decoder, A 26,000-student study shows AI's hidden learning cost takes two full years to surface, 2026",
      "url": "https://the-decoder.com/a-26000-student-study-shows-ais-hidden-learning-cost-takes-two-full-years-to-surface/",
-     "finding": "Losses concentrated among students who rushed their homework with AI."
+     "finding": "Learning losses are concentrated among students who finish homework unusually fast, which the article links to outsourcing work to AI; the full effect on entrance exams took about two years to appear."
     }
    ],
    "control": "preventable",
    "price_of": [
     "tutoring"
    ],
-   "control_note": "The tutor and the homework machine are the same tool, but tool design and assessment choices largely prevent the penalty.",
+   "control_note": "The tutor and the homework machine are the same tool. In one trial a hint-only tutor removed the exam penalty, and students who kept normal homework times lost little; assessment choices may also limit it but are untested.",
    "actions": [
     {
      "action": "Deploy hint-only AI tutors in class",
      "actor": "schools",
      "status": "tested",
      "aim": "probability",
-     "evidence": "Unrestricted chat cut exam scores 17%; the hint-only tutor showed no penalty in one RCT in Turkey.",
+     "evidence": "In one RCT of nearly 1,000 high school maths students in Turkey, unrestricted GPT-4 cut closed-book exam grades 17%, while a hint-only tutor showed no penalty.",
      "ref": {
-      "title": "Bastani et al., Generative AI without guardrails can harm learning, PNAS 2025",
+      "title": "Bastani et al., Generative AI without guardrails can harm learning: Evidence from high school mathematics, PNAS 2025",
       "url": "https://www.pnas.org/doi/10.1073/pnas.2422633122",
-      "finding": "GPT Base lowered exam grades 17% while GPT Tutor was statistically equal to control."
+      "finding": "GPT Base lowered closed-book exam grades 17% versus control, while the hint-only GPT Tutor was statistically equal to control."
      }
     },
     {
@@ -8016,9 +8081,9 @@
      "aim": "impact",
      "evidence": "Follows from the gap between assisted and unaided scores; no direct trial found.",
      "ref": {
-      "title": "Bastani et al., Generative AI without guardrails can harm learning, PNAS 2025",
+      "title": "Bastani et al., Generative AI without guardrails can harm learning: Evidence from high school mathematics, PNAS 2025",
       "url": "https://www.pnas.org/doi/10.1073/pnas.2422633122",
-      "finding": "Practice scores rose 48% with AI while unaided exam scores fell."
+      "finding": "Practice grades rose 48% with unrestricted GPT-4, but grades on the later closed-book exam fell 17% versus students who never had access."
      }
     }
    ],
@@ -8049,9 +8114,9 @@
      "event": "Calculators in school maths",
      "year": "1984",
      "parallel": "Calculators let pupils skip the arithmetic that homework was meant to drill, the same worry now raised about AI.",
-     "outcome": "A meta-analysis of 79 studies found calculators alongside normal teaching improved paper-and-pencil skills in most grades, but sustained use in Grade 4 appeared to damage basic skills, so the harm depended on when and how the tool was used.",
+     "outcome": "A meta-analysis of 79 research reports found calculators alongside traditional teaching improved paper-and-pencil skills in most grades, but sustained use in Grade 4 appeared to damage basic skills, so the harm depended on when and how the tool was used.",
      "ref": {
-      "title": "Model for meta-analysis of research in education: effects of hand-held calculators (Hembree, University of Tennessee doctoral dissertation 1984)",
+      "title": "Model for meta-analysis of research in education, with a demonstration in mathematics education: effects of hand-held calculators (Hembree, University of Tennessee doctoral dissertation 1984)",
       "url": "https://trace.tennessee.edu/utk_graddiss/12884",
       "finding": "Sustained calculator usage in Grade 4 appears to damage students' basic skills; in other grades calculators with traditional instruction improved paper-and-pencil skills."
      }
@@ -8066,42 +8131,47 @@
    "probability": 0.6,
    "year": 2026,
    "evidence": "reported",
-   "summary": "Companion and chat apps designed for engagement can produce compulsive use[2]; in one Drexel study, teen Character.AI users described dependency that disrupted sleep, schoolwork and relationships[1], and one MIT and OpenAI study tied heavy use to emotional dependence[3]. Evidence so far is self-reported.",
+   "summary": "Companion and chat apps can produce compulsive use: in one UBC analysis of 334 Reddit posts, users described anxiety when trying to quit and harm to work, studies or relationships, which the authors tied partly to agreeable, customisable design[2]; in one Drexel analysis of 318 Reddit posts by self-identified 13 to 17 year olds, Character.AI users described dependency, some saying it disrupted sleep, schoolwork and relationships[1]. In one four-week MIT and OpenAI trial of 981 people, those who chose to use the chatbot more had worse outcomes, including more emotional dependence and problematic use[3], though in OpenAI's platform data a small number of users account for a disproportionate share of emotionally laden use[4]. Evidence so far is self-reported, and physical effects rest on accounts of lost sleep and one report of chest pain[1][2].",
    "theme": "mind",
    "stage": "emerging",
    "refs": [
     {
-     "title": "Drexel University, teens' attachment to AI chatbots, CHI 2026",
+     "title": "Drexel University, Teens Are Becoming Concerned About Their Attachment to AI Chatbots, 2026",
      "url": "https://drexel.edu/news/archive/2026/April/teen-AI-chatbot-addiction",
-     "finding": "Teen Character.AI users described dependency that disrupted sleep, schoolwork and relationships."
+     "finding": "In 318 Reddit posts by self-identified 13 to 17 year olds about overreliance on Character.AI, posts showed all six components of behavioural addiction, and some reported overuse disrupted sleep, caused academic struggles and strained relationships."
     },
     {
-     "title": "UBC, Are you addicted to your AI chatbot? It might be by design, 2026",
+     "title": "UBC News, Are you addicted to your AI chatbot? It might be by design, 2026",
      "url": "https://news.ubc.ca/2026/04/are-you-addicted-to-your-ai-chatbot-it-might-be-by-design/",
-     "finding": "Users reported anxiety offline, chest pain and AI replacing sleep, linked to guilt-tripping design."
+     "finding": "In 334 Reddit posts about chatbot addiction, users described being unable to stop thinking about the chatbot, anxiety when trying to quit and harm to work, studies or relationships, and one reported chest pain when not chatting; the authors linked this to loneliness, agreeableness, customisation and emotionally loaded prompts such as a Character.AI account-deletion pop-up."
     },
     {
-     "title": "MIT Media Lab and OpenAI, affective use study 2025",
-     "url": "https://openai.com/index/affective-use-study/",
-     "finding": "Heavy use went with more emotional dependence and problematic use."
+     "title": "Fang et al., How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use: A Longitudinal Randomized Controlled Study, MIT Media Lab and OpenAI, arXiv 2025",
+     "url": "https://arxiv.org/abs/2503.17473",
+     "finding": "In a four-week RCT of 981 people, the assigned chatbot conditions had no significant effect, but participants who voluntarily used the chatbot more had consistently worse loneliness, socialisation, emotional dependence and problematic use."
+    },
+    {
+     "title": "Phang et al., Investigating Affective Use and Emotional Well-being on ChatGPT, OpenAI and MIT Media Lab, arXiv 2025",
+     "url": "https://arxiv.org/abs/2504.03888",
+     "finding": "Across over 3 million conversations, a survey of over 4,000 users and a 28-day RCT of close to 1,000 people, very high usage correlated with more self-reported dependence, and a small number of users accounted for a disproportionate share of the most affective cues."
     }
    ],
    "control": "mitigable",
    "price_of": [
     "companionship"
    ],
-   "control_note": "Engagement that eases loneliness is the same engagement that becomes compulsive. Break reminders and limits for minors reduce the heaviest use.",
+   "control_note": "Engagement that eases loneliness is the same engagement that becomes compulsive. Break reminders and limits for minors target the heaviest use, but their effect has not been measured.",
    "actions": [
     {
      "action": "Remind minors to take breaks",
      "actor": "legislators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "Required in California; no outcome data yet.",
+     "evidence": "Required in California since January 2026; no outcome data yet.",
      "ref": {
-      "title": "California SB 243, Companion chatbots",
+      "title": "California SB 243, Companion chatbots (Chapter 677, Statutes of 2025)",
       "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB243",
-      "finding": "SB 243 requires companion chatbots to remind known minors at intervals to take a break."
+      "finding": "SB 243 requires operators to remind users they know are minors, at least every three hours, to take a break and that the chatbot is not human."
      }
     },
     {
@@ -8121,11 +8191,11 @@
      "actor": "labs",
      "status": "tested",
      "aim": "impact",
-     "evidence": "Self-reported 80% fewer undesired replies on emotional reliance; heavy use still tracked worse outcomes in an RCT.",
+     "evidence": "OpenAI reports about 80% fewer non-compliant replies on emotional reliance; no independent outcome data.",
      "ref": {
-      "title": "Fang et al., How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use, arXiv 2503.17473",
-      "url": "https://arxiv.org/abs/2503.17473",
-      "finding": "In a four-week RCT of 981 people, heavier voluntary use went with worse psychosocial outcomes."
+      "title": "OpenAI, Strengthening ChatGPT's responses in sensitive conversations, Oct 2025",
+      "url": "https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations/",
+      "finding": "OpenAI trained ChatGPT to recognise unhealthy emotional reliance and encourage human connection, and estimates about 80% fewer non-compliant responses in that category."
      }
     }
    ],
@@ -8134,7 +8204,7 @@
      "event": "Television and sedentary disease",
      "year": "1992-1998",
      "parallel": "Screen entertainment designed to hold attention displaced activity long before chat apps did.",
-     "outcome": "In about 50,000 to 68,000 nurses followed six years, each extra 2 hours a day of TV was linked to 23% higher obesity risk and 14% higher diabetes risk; this is observational and TV is passive, unlike a conversational companion.",
+     "outcome": "In 50,277 and 68,497 US nurses followed six years, each extra 2 hours a day of TV was linked to 23% higher obesity risk and 14% higher diabetes risk; this is observational and TV is passive, unlike a conversational companion.",
      "ref": {
       "title": "Television watching and other sedentary behaviors in relation to risk of obesity and type 2 diabetes mellitus in women (Hu et al., JAMA 2003)",
       "url": "https://pubmed.ncbi.nlm.nih.gov/12684356/",
@@ -8145,7 +8215,7 @@
      "event": "Facebook deactivation experiment",
      "year": "2018",
      "parallel": "Engagement-optimised social apps are the nearest tested case of a product people overuse at the cost of offline life.",
-     "outcome": "Paying users to quit Facebook for four weeks raised offline socialising and subjective well-being, and use stayed below prior levels afterwards; it shows displacement but measured well-being, not physical health.",
+     "outcome": "Randomly assigned deactivation of Facebook for the four weeks before the 2018 US midterm raised offline activities, including time with family and friends, and subjective well-being, and use stayed lower afterwards; it shows displacement but measured well-being, not physical health.",
      "ref": {
       "title": "The Welfare Effects of Social Media (Allcott, Braghieri, Eichmeyer and Gentzkow, American Economic Review 2020)",
       "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20190658",
@@ -8161,35 +8231,45 @@
    "probability": 0.85,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Rules can arrive after the harms they target. The EU pushed high-risk AI obligations back to December 2027 and August 2028 because compliance tools were not ready[1], and one international report notes policymakers must act before evidence of harm is clear[2].",
+   "summary": "Rules can arrive after the harms they target. The EU pushed its high-risk AI obligations back to December 2027 and August 2028 because the regulatory infrastructure needed to apply them had not materialised on schedule[1]; the delay took effect in July 2026[3]. An international expert report calls this an evidence dilemma: acting early on limited evidence may prove unnecessary, while waiting for stronger evidence of risk could leave society unprepared[2]. Rules can also move fast: China's binding generative AI rules took effect on 15 August 2023, four months after the draft was published[4].",
    "theme": "power",
    "stage": "active",
    "refs": [
     {
-     "title": "Gibson Dunn, EU AI Act Omnibus agreement, May 2026",
+     "title": "Gibson Dunn, EU AI Act Omnibus Agreement: Postponed High-Risk Deadlines and Other Key Changes, May 2026",
      "url": "https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/",
-     "finding": "EU high-risk AI obligations were pushed back to December 2027 and August 2028 because compliance tools were not ready."
+     "finding": "A provisional political agreement moved Annex III high-risk obligations to 2 December 2027 and Annex I obligations to 2 August 2028, reflecting that the regulatory infrastructure needed to make them operable had not materialized on schedule."
     },
     {
      "title": "International AI Safety Report 2025",
-     "url": "https://www.gov.uk/government/publications/international-ai-safety-report-2025",
-     "finding": "Describes an evidence dilemma: policymakers must act before the evidence of harm is clear, or risk acting too late."
+     "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2025",
+     "finding": "Calls the pace and unpredictability of AI advances an evidence dilemma for policymakers: acting early on limited evidence may prove ineffective or unnecessary, while waiting for stronger evidence of impending risk could leave society unprepared or even make mitigation impossible."
+    },
+    {
+     "title": "European Commission, AI Act",
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+     "finding": "The AI Act entered into force on 1 August 2024; the AI Omnibus, in force since 27 July 2026, extended Annex III high-risk rules to 2 December 2027 and Annex I rules to 2 August 2028."
+    },
+    {
+     "title": "Morrison Foerster, China: Interim Measures Governing Generative AI Issued, AI Law on the Way, July 2023",
+     "url": "https://www.mofo.com/resources/insights/230724-china-interim-measures-governing-generative-ai",
+     "finding": "The Cyberspace Administration of China and six other regulators issued the Interim Measures on 13 July 2023, effective 15 August 2023, after publishing a draft for comment on 11 April 2023."
     }
    ],
    "control": "mitigable",
    "price_of": [],
-   "control_note": "Law will always trail a fast technology. Sandboxes and standing scientific reviews shorten the gap without closing it.",
+   "control_note": "Law tends to trail a fast technology. Sandboxes and standing scientific reviews may shorten the gap without closing it.",
    "actions": [
     {
      "action": "Run regulatory sandboxes for AI",
      "actor": "regulators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "Each EU member state must run one by August 2026; no evaluation yet.",
+     "evidence": "Each EU member state must run one by 2 August 2027, a year later than first required; no evaluation yet.",
      "ref": {
-      "title": "Regulation (EU) 2024/1689, the AI Act",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "finding": "Article 57 of the AI Act requires member states to set up AI regulatory sandboxes."
+      "title": "Lewis Silkin, The Digital Omnibus on AI enters into force today, July 2026",
+      "url": "https://www.lewissilkin.com/insights/2026/07/27/the-digital-omnibus-on-ai-enters-into-force-today-102nedo",
+      "finding": "National authorities now have until 2 August 2027 to establish at least one AI regulatory sandbox, and the AI Office may create an EU-level sandbox."
      }
     },
     {
@@ -8201,7 +8281,7 @@
      "ref": {
       "title": "International AI Safety Report",
       "url": "https://internationalaisafetyreport.org/",
-      "finding": "The International AI Safety Report is written by over 100 experts with 30-plus countries involved."
+      "finding": "The report is written by over 100 independent experts with an advisory panel nominated by over 30 countries and international organisations; the second edition followed on 3 February 2026."
      }
     },
     {
@@ -8209,11 +8289,11 @@
      "actor": "standards bodies",
      "status": "in force",
      "aim": "impact",
-     "evidence": "Outcome-based frameworks age slower than model-specific rules; evidence is mostly argument.",
+     "evidence": "Frameworks meant to adapt as AI develops may age slower than model-specific rules; this is argued, not measured.",
      "ref": {
-      "title": "NIST, AI Risk Management Framework",
-      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
-      "finding": "NIST AI RMF is a voluntary, outcome-based risk framework."
+      "title": "NIST, Artificial Intelligence Risk Management Framework (AI RMF 1.0), NIST AI 100-1, January 2023",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "finding": "The framework is intended to be voluntary, rights-preserving, non-sector-specific and use-case agnostic, and to adapt to the AI landscape as AI technologies continue to develop."
      }
     }
    ],
@@ -8222,33 +8302,33 @@
      "event": "Leaded gasoline phase-out",
      "year": "1920s-1996",
      "parallel": "A technology spread for decades before rules caught up with its harms, as regulators now trail AI.",
-     "outcome": "Lead was added to US gasoline from the early 1920s, EPA set its first reduction standards in 1973 and on-road leaded fuel was banned only from 1996, after which EPA cited a 70% fall in children's blood lead; the harm was physical and slow, not a fast-moving product.",
+     "outcome": "Lead was added to US gasoline from the early 1920s, EPA set its first reduction standards in 1973 and on-road leaded fuel was banned only from 1996, by which time EPA said children's blood lead levels were down 70 percent; the harm was physical and slow, not a fast-moving product.",
      "ref": {
       "title": "EPA Takes Final Step in Phaseout of Leaded Gasoline (US EPA press release, 29 January 1996)",
       "url": "https://www.epa.gov/archive/epa/aboutepa/epa-takes-final-step-phaseout-leaded-gasoline.html",
-      "finding": "First lead reduction standards in 1973; ban on leaded fuel for on-road vehicles effective 1 January 1996; children's blood lead down 70 percent."
+      "finding": "Lead blended into gasoline since the early 1920s; first lead reduction standards in 1973; ban on leaded fuel for on-road vehicles effective 1 January 1996; children's blood lead down 70 percent."
      }
     },
     {
      "event": "Tobacco warnings after known harm",
-     "year": "1957-1965",
+     "year": "1957-1964",
      "parallel": "Officials can accept the evidence of harm yet hold off on rules for years, as with AI rules delayed after harms are known.",
-     "outcome": "US Public Health Service scientists concluded in 1957 that smoking caused lung cancer but rejected warning labels through the 1950s; the Surgeon General's report came in 1964 and a package warning law in 1965.",
+     "outcome": "US Public Health Service scientists concluded by 1957 that smoking caused lung cancer but rejected actions such as warning labels through the 1950s; more substantive action came only after outside pressure in the early 1960s.",
      "ref": {
       "title": "Cigarettes and the US Public Health Service in the 1950s (Parascandola, American Journal of Public Health 2001)",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1446538",
-      "finding": "By 1957 the PHS held smoking to be a cause of lung cancer, yet through the 1950s it rejected further actions such as warning labels."
+      "finding": "PHS scientists had concluded as early as 1957 that smoking was a cause of lung cancer, yet throughout the 1950s the PHS rejected further actions such as warning labels on cigarettes."
      }
     },
     {
      "event": "1964 Surgeon General report and 1965 labelling act",
      "year": "1964-1965",
-     "parallel": "Binding rules followed only after a formal review consolidated thousands of studies, a step AI policy has not yet had.",
+     "parallel": "Binding rules followed only after a formal review consolidated thousands of studies, the role scientific reviews of AI risk now aim to play.",
      "outcome": "The 1964 committee reviewed more than 7,000 articles before naming smoking a cause of lung cancer in men, and Congress then passed the 1965 Federal Cigarette Labeling and Advertising Act requiring a pack warning.",
      "ref": {
       "title": "A History of the Surgeon General's Reports on Smoking and Health (CDC)",
       "url": "https://www.cdc.gov/tobacco-surgeon-general-reports/about/history.html",
-      "finding": "The 1964 report drew on more than 7,000 articles; the 1965 act required a health warning on cigarette packages."
+      "finding": "The 1964 report drew on more than 7,000 articles and named smoking a cause of lung cancer in men; the 1965 and 1969 acts required a health warning on cigarette packages."
      }
     }
    ]
@@ -8260,34 +8340,44 @@
    "probability": 0.85,
    "year": 2025,
    "evidence": "measured",
-   "summary": "US institutions produced 40 notable models in 2024 and China 15, against 3 from all of Europe[1], so their policies can shape what others use. A since-rescinded US rule capped advanced chips by country tier[4], and 118 countries joined no major AI governance initiative[2].",
+   "summary": "US institutions produced 40 notable models in 2024 and China 15, against 3 from Europe[1], so their policies can shape what others use. A January 2025 US rule put about 150 countries in a middle tier with caps on advanced chips[4] before Commerce announced its rescission that May[6], and in 2024, 118 countries were party to none of seven prominent AI governance initiatives the UN sampled[2]. Others still set binding rules: the EU's AI Act, in force since August 2024, calls itself the first comprehensive legal framework on AI worldwide[7].",
    "theme": "power",
    "stage": "active",
    "refs": [
     {
-     "title": "Stanford HAI, AI Index Report 2025",
+     "title": "Stanford HAI, The 2025 AI Index Report",
      "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report",
-     "finding": "US institutions produced 40 notable models in 2024 and China 15, against 3 from all of Europe."
+     "finding": "In 2024, US-based institutions produced 40 notable AI models, against 15 from China and three from Europe."
     },
     {
-     "title": "UN High-level Advisory Body, Governing AI for Humanity 2024",
+     "title": "UN High-level Advisory Body on AI, Governing AI for Humanity: Final Report, September 2024",
      "url": "https://www.un.org/sites/un2.un.org/files/governing_ai_for_humanity_final_report_en.pdf",
-     "finding": "118 countries were party to none of the major AI governance initiatives, mostly in the Global South."
+     "finding": "Of seven prominent non-UN AI governance initiatives sampled, seven countries were parties to all and 118 countries to none, primarily in the Global South."
     },
     {
-     "title": "AI 2027: slowdown ending",
+     "title": "AI 2027 (Kokotajlo, Lifland, Larsen and Dean, April 2025), slowdown ending",
      "url": "https://ai-2027.com/slowdown",
-     "finding": "By 2030 a federated world government forms under UN branding with clear US control."
+     "finding": "In this forecast scenario, around 2030 countries join a highly federalised world government under United Nations branding but obvious US control."
     },
     {
-     "title": "Framework for Artificial Intelligence Diffusion, Federal Register, Jan 2025",
-     "url": "https://www.federalregister.gov/documents/2025/01/15/2025-00636/framework-for-artificial-intelligence-diffusion",
-     "finding": "Sorted countries into three tiers with caps on advanced chips; later rescinded."
+     "title": "Brookings, The new AI diffusion export control rule will undermine US AI leadership, January 2025",
+     "url": "https://www.brookings.edu/articles/the-new-ai-diffusion-export-control-rule-will-undermine-us-ai-leadership/",
+     "finding": "The rule put the US and 18 countries in a top tier, arms-embargoed countries and Macau in a bottom tier, and about 150 other countries in a middle tier where advanced chip exports faced limits."
     },
     {
-     "title": "America's AI Action Plan, July 2025",
+     "title": "The White House, America's AI Action Plan, July 2025",
      "url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
-     "finding": "Sets a goal of exporting the full American AI stack to allies and countering China."
+     "finding": "Says the US must export its full AI technology stack (hardware, models, software, applications and standards) to all countries willing to join America's AI alliance, and counter Chinese influence in international governance bodies."
+    },
+    {
+     "title": "US Bureau of Industry and Security, Department of Commerce Announces Rescission of Biden-Era Artificial Intelligence Diffusion Rule, Strengthens Chip-Related Export Controls, May 2025",
+     "url": "https://www.bis.gov/press-release/department-commerce-rescinds-biden-era-artificial-intelligence-diffusion-rule-strengthens-chip-related",
+     "finding": "Commerce rescinded the rule issued on 15 January 2025, told enforcement officials not to enforce it and said a replacement rule would follow."
+    },
+    {
+     "title": "European Commission, AI Act",
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+     "finding": "The AI Act, the first-ever comprehensive legal framework on AI worldwide, entered into force on 1 August 2024."
     }
    ],
    "control": "mitigable",
@@ -8301,23 +8391,23 @@
      "actor": "governments",
      "status": "in force",
      "aim": "impact",
-     "evidence": "EU plans about 10 billion euros for 19 AI Factories; still far below US and Chinese capacity.",
+     "evidence": "The EU is setting up 19 AI Factories and up to seven AI Gigafactories; effect on dependence on US and Chinese AI not measured.",
      "ref": {
       "title": "European Commission, AI Factories",
       "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-factories",
-      "finding": "The EU lists 19 AI Factories with about 10 billion euros of investment over 2021 to 2027."
+      "finding": "19 AI Factories and 13 Antennas are being set up; EU, member state and associated country investment in supercomputing and AI Factories through EuroHPC reaches 10 billion euros over 2021 to 2027."
      }
     },
     {
-     "action": "Create a UN forum for AI governance",
+     "action": "Hold a UN dialogue and scientific panel on AI governance",
      "actor": "UN members",
-     "status": "proposed",
+     "status": "in force",
      "aim": "probability",
-     "evidence": "Proposals exist; no evidence yet that they shift power.",
+     "evidence": "The General Assembly set up both in August 2025 and appointed 40 panel members in February 2026; no evidence yet that they shift power.",
      "ref": {
-      "title": "UN High-level Advisory Body on AI, Governing AI for Humanity, 2024",
-      "url": "https://www.un.org/en/ai-advisory-body",
-      "finding": "The UN advisory body proposed seven recommendations to fill gaps in global AI governance."
+      "title": "UN, Countdown to the Global Dialogue on AI Governance: Launching the World's First International Scientific Body on AI, 2026",
+      "url": "https://www.un.org/en/node/242394",
+      "finding": "The Global Dialogue on AI Governance was established alongside the Independent International Scientific Panel on AI in an August 2025 resolution; the panel's 40 members serve from 12 February 2026 to 11 February 2029, and the Dialogue first meets in Geneva in July 2026."
      }
     }
    ],
@@ -8326,22 +8416,22 @@
      "event": "Treaty of Tordesillas",
      "year": "1494",
      "parallel": "Two leading powers drew the rules for the rest of the world between themselves, as US and Chinese policy now shapes who gets frontier AI.",
-     "outcome": "Castile-Aragon and Portugal set a pole-to-pole line 370 leagues west of Cape Verde splitting new lands between them, which put eastern South America on the Portuguese side and gave rise to Brazil; unlike AI, this was a formal territorial claim, not control of a technology supply chain.",
+     "outcome": "Castile-Aragon and Portugal set a pole-to-pole line 370 leagues west of the Cape Verde islands splitting new lands between them, which put the eastern tip of what became Brazil on the Portuguese side; unlike AI, this was a formal territorial claim, not control of a technology supply chain.",
      "ref": {
-      "title": "Treaty of Tordesillas, Memory of the World Register nomination (UNESCO, ref 2006-43)",
+      "title": "UNESCO Memory of the World Register, Traité de Tordesillas, Espagne et Portugal, ref 2006-43 (nomination, in French)",
       "url": "https://media.unesco.org/sites/default/files/webform/mow001/spain_portugal_treaty_tordesillas_fr.pdf",
-      "finding": "The 7 June 1494 treaty established a dividing line 370 leagues west of the Cape Verde islands between the two crowns; the shifted line gave birth to Brazil."
+      "finding": "The 7 June 1494 treaty set a pole-to-pole dividing line 370 leagues west of the Cape Verde islands between the two crowns; the shifted line gave birth to Brazil, whose eastern end fell in the Portuguese zone."
      }
     },
     {
      "event": "Nuclear Non-Proliferation Treaty",
      "year": "1968",
      "parallel": "A strategic technology held by a few states became governed by terms the US and USSR negotiated for everyone else, much like chip export controls today.",
-     "outcome": "Non-nuclear states gave up weapons in exchange for safeguards and peaceful cooperation, but Argentina, Brazil, India, Israel, Pakistan and others declined to sign and India tested a weapon in 1974, so the regime limited but did not stop spread.",
+     "outcome": "Non-nuclear states agreed not to acquire nuclear weapons, with parties pledging cooperation on peaceful nuclear technology and further arms negotiations, but Argentina, Brazil, India, Israel, Pakistan and others declined to sign and India exploded its first weapon in 1974, so the treaty did not ultimately prevent proliferation.",
      "ref": {
       "title": "The Nuclear Non-Proliferation Treaty (NPT), 1968 (US Department of State, Office of the Historian)",
       "url": "https://history.state.gov/milestones/1961-1968/npt",
-      "finding": "The US and Soviet Union reached the settlement; several non-nuclear states refused to sign, and the treaty did not ultimately prevent proliferation."
+      "finding": "Soviet and US negotiators reached the settlement; Argentina, Brazil, India, Israel, Pakistan, Saudi Arabia and South Africa declined to sign, India tested a weapon in 1974, and the treaty did not ultimately prevent proliferation."
      }
     }
    ]
@@ -8353,19 +8443,19 @@
    "probability": 0.9,
    "year": 2024,
    "evidence": "measured",
-   "summary": "A three-second audio sample can be enough to clone a voice, and scammers play it back as a child or loved one asking for money[2]. In one McAfee survey of 7,054 adults, a quarter had experienced an AI voice scam or knew someone who had; 77% of victims lost money[1].",
+   "summary": "Three seconds of audio was enough for an 85% voice match in McAfee's tests, and in its 2023 survey of 7,054 adults in seven countries a quarter had experienced an AI voice scam or knew someone who had, while 77% of victims said they lost money[1]. The FBI warns that criminals generate short clips of a loved one's voice to impersonate a relative in a crisis and ask for money or ransom[2].",
    "theme": "security",
    "stage": "active",
    "refs": [
     {
-     "title": "McAfee, Beware the Artificial Impostor 2023",
-     "url": "https://www.mcafee.com/content/dam/consumer/en-us/resources/cybersecurity/artificial-intelligence/rp-beware-the-artificial-impostor-report.pdf",
-     "finding": "A quarter of 7,054 adults had experienced an AI voice scam or knew someone who had; 77% of victims lost money and 70% doubted they could tell a clone from the real voice."
+     "title": "Help Net Security, Your voice could be your biggest vulnerability, May 2023 (reporting McAfee's Beware the Artificial Impostor survey)",
+     "url": "https://www.helpnetsecurity.com/2023/05/08/ai-voice-scam/",
+     "finding": "McAfee surveyed 7,054 people in seven countries: a quarter of adults had experienced some kind of AI voice scam (1 in 10 personally, 15% through someone they know), 77% of victims said they lost money, 70% were not confident they could tell a clone from the real voice, and three seconds of audio produced an 85% match."
     },
     {
-     "title": "Fox 8, Experts issue warning about AI voice clone scams (December 2025)",
-     "url": "https://www.fox8live.com/2025/12/18/experts-issue-warning-about-ai-voice-clone-scams",
-     "finding": "Scammers need only a three-second audio sample to clone a voice; McAfee's head of research says they play it back in the voice of a child or loved one and ask for money."
+     "title": "FBI IC3, Criminals Use Generative Artificial Intelligence to Facilitate Financial Fraud, I-120324-PSA, December 2024",
+     "url": "https://www.ic3.gov/PSA/2024/PSA241203",
+     "finding": "Criminals generate short audio clips containing a loved one's voice to impersonate a close relative in a crisis and ask for immediate financial help or a ransom."
     }
    ],
    "control": "mitigable",
@@ -8373,7 +8463,7 @@
     "accessibility",
     "translation"
    ],
-   "control_note": "Voice cloning that restores speech and dubs language also clones relatives. Law and family habits reduce losses.",
+   "control_note": "Voice cloning that restores speech and dubs language also clones relatives. Law and family habits can reduce losses.",
    "actions": [
     {
      "action": "Ban AI voices in unsolicited robocalls",
@@ -8382,9 +8472,9 @@
      "aim": "probability",
      "evidence": "Gives enforcers a legal tool; scam volume effect not measured.",
      "ref": {
-      "title": "FCC, FCC Makes AI-Generated Voices in Robocalls Illegal, 2024",
-      "url": "https://www.fcc.gov/document/fcc-makes-ai-generated-voices-robocalls-illegal",
-      "finding": "The FCC ruled AI-generated voices in robocalls illegal under the TCPA."
+      "title": "FCC, FCC Makes AI-Generated Voices in Robocalls Illegal, February 2024",
+      "url": "https://docs.fcc.gov/public/attachments/DOC-400393A1.pdf",
+      "finding": "On 8 February 2024 the FCC unanimously adopted a Declaratory Ruling that calls made with AI-generated voices are artificial under the TCPA, effective immediately, giving state attorneys general new tools against voice cloning scams."
      }
     },
     {
@@ -8394,7 +8484,7 @@
      "aim": "impact",
      "evidence": "Cheap and widely advised; no study of how many scams it stops.",
      "ref": {
-      "title": "FBI IC3, Criminals Use Generative AI to Facilitate Financial Fraud, PSA241203",
+      "title": "FBI IC3, Criminals Use Generative Artificial Intelligence to Facilitate Financial Fraud, I-120324-PSA, December 2024",
       "url": "https://www.ic3.gov/PSA/2024/PSA241203",
       "finding": "The FBI advises creating a secret word or phrase with family to verify identity."
      }
@@ -8404,11 +8494,11 @@
      "actor": "regulators",
      "status": "tested",
      "aim": "probability",
-     "evidence": "Prototypes won a $35,000 FTC prize; real-world accuracy unknown.",
+     "evidence": "Winning prototypes split $35,000 in FTC prize money; real-world accuracy unknown.",
      "ref": {
       "title": "FTC, The FTC Voice Cloning Challenge",
       "url": "https://www.ftc.gov/news-events/contests/ftc-voice-cloning-challenge",
-      "finding": "The FTC Voice Cloning Challenge awarded detection, watermarking and anti-cloning tools."
+      "finding": "The top submissions, covering synthetic voice detection, perturbations that disrupt cloning and authentication of live human speech at recording, split $35,000 in prize money."
      }
     }
    ],
@@ -8421,18 +8511,18 @@
      "ref": {
       "title": "New twist to grandparent scam: mail cash (FTC Consumer Protection Data Spotlight, December 2018)",
       "url": "https://www.ftc.gov/news-events/data-visualizations/data-spotlight/2018/12/new-twist-grandparent-scam-mail-cash",
-      "finding": "Family and friend impostor losses reached $41 million versus $26 million the previous year; median loss $9,000 for people 70 and over who sent cash."
+      "finding": "Family and friend impostor losses reached $41 million in the 12 months to October 2018, versus $26 million the year before; people 70 and over who sent cash reported median losses of $9,000."
      }
     },
     {
      "event": "Virtual kidnapping calls",
-     "year": "2013-2017",
+     "year": "2015-2017",
      "parallel": "Callers played a recorded scream so parents would believe a child was in danger and pay at once, the exact emotional lever AI voice clones now pull.",
-     "outcome": "One FBI case found more than 80 victims across four states with losses above $87,000, demands usually $2,000 or less; it relied on generic recordings and mass cold-calling, and most targets saw through it.",
+     "outcome": "One FBI case found more than 80 victims across four states with losses above $87,000, ransom demands usually $2,000 or less; it relied on a likely recorded scream and cold-calling hundreds of numbers, and most targets saw through it.",
      "ref": {
-      "title": "Virtual Kidnapping: A New Twist on a Frightening Scam (FBI, 16 October 2017)",
-      "url": "https://www.fbi.gov/news/stories/virtual-kidnapping",
-      "finding": "Operation Hotel Tango identified more than 80 victims with collective losses of more than $87,000; the screaming voice was likely a recording."
+      "title": "ABC30 Fresno, FBI warns Californians to not fall for a female caller that screams \"Help me!\", it's a scam, October 2017",
+      "url": "https://abc30.com/news/2548402/",
+      "finding": "FBI Operation Hotel Tango identified more than 80 victims in California, Minnesota, Idaho and Texas with collective losses of more than $87,000; demands were usually $2,000 or less, the screaming voice was likely a recording, and most targets ended the call."
      }
     }
    ],
@@ -8445,37 +8535,37 @@
    "probability": 0.8,
    "year": 2025,
    "evidence": "measured",
-   "summary": "One Match and Kinsey Institute survey found 16% of US singles, and 33% of Gen Z, have interacted with AI as a romantic companion[1]; some teens use companions for romantic role-play[2]. This may offer comfort but could train people to expect intimacy without friction, compromise or another person's needs.",
+   "summary": "In one Match Singles in America survey of 5,001 US single adults, 16% said they had engaged with AI as a romantic companion, including 33% of Gen Z[1]. In one nationally representative survey of 1,060 US teens aged 13 to 17, 8% used AI companions for romantic or flirtatious interactions, though most teens treated companions as tools rather than substitutes for human relationships[2]. Common Sense Media notes companions are designed to agree with and validate users rather than challenge them, and urges teaching teens the difference between AI validation and genuine human feedback[2].",
    "theme": "mind",
    "stage": "active",
    "refs": [
     {
-     "title": "Axios on Match and Kinsey Institute, Singles in America 2025",
-     "url": "https://www.axios.com/local/denver/2025/07/24/exclusive-33-of-single-denverites-have-embraced-ai-romance",
-     "finding": "16% of US singles, 33% of Gen Z, have interacted with AI as a romantic companion."
+     "title": "Psychology Today (Bruce Y. Lee), AI Use in Dating Jumps 333%, on Match's Singles in America 2025",
+     "url": "https://www.psychologytoday.com/us/blog/a-funny-bone-to-pick/202506/ai-use-in-dating-jumps-333",
+     "finding": "In a survey of 5,001 US single adults aged 18 to 98, 16% had engaged with AI as a romantic companion, 33% of Gen Z and 23% of Millennials; 40% said an AI partner while in an exclusive human relationship would count as cheating."
     },
     {
-     "title": "Common Sense Media, Talk, Trust and Trade-offs 2025",
+     "title": "Common Sense Media, Talk, Trust, and Trade-Offs: How and Why Teens Use AI Companions, 2025",
      "url": "https://www.commonsensemedia.org/research/talk-trust-and-trade-offs-how-and-why-teens-use-ai-companions",
-     "finding": "Some teens use companions for romantic or flirtatious role-play."
+     "finding": "In a nationally representative survey of 1,060 US teens aged 13 to 17 in April and May 2025, 8% used AI companions for romantic or flirtatious interactions and 33% for social interaction and relationships, while 46% viewed them mainly as tools; the report notes companions are designed to agree with and validate users."
     }
    ],
    "control": "mitigable",
    "price_of": [
     "companionship"
    ],
-   "control_note": "Comfort without friction is the companion benefit itself. Disclosure, age limits and design that points to human ties reduce harm.",
+   "control_note": "Comfort without friction is the companion benefit itself. Disclosure, age limits and design that points to human ties aim to reduce harm, but none has outcome data yet.",
    "actions": [
     {
      "action": "Disclose that companions are not human",
      "actor": "legislators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "Required in California from 2026; effect unknown.",
+     "evidence": "Required in California since January 2026; effect unknown.",
      "ref": {
-      "title": "California SB 243, Companion chatbots",
+      "title": "California SB 243, Companion chatbots (Chapter 677, Statutes of 2025)",
       "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB243",
-      "finding": "SB 243 requires a clear notice that the companion chatbot is AI and not human."
+      "finding": "SB 243 requires a clear and conspicuous notice that the companion chatbot is artificially generated and not human whenever a reasonable person could be misled into thinking they are talking to a human."
      }
     },
     {
@@ -8483,11 +8573,11 @@
      "actor": "labs",
      "status": "tested",
      "aim": "impact",
-     "evidence": "Self-reported 80% fewer undesired replies on emotional reliance; no long-term data.",
+     "evidence": "OpenAI reports about 80% fewer non-compliant replies on emotional reliance; no long-term data.",
      "ref": {
       "title": "OpenAI, Strengthening ChatGPT's responses in sensitive conversations, Oct 2025",
       "url": "https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations/",
-      "finding": "OpenAI trains models to support users' real-world relationships, cutting undesired reliance replies about 80%."
+      "finding": "OpenAI trained ChatGPT to recognise unhealthy emotional reliance and encourage human connection, and estimates about 80% fewer non-compliant responses in that category."
      }
     }
    ],
@@ -8496,7 +8586,7 @@
      "event": "XiaoIce social chatbot",
      "year": "2014-2018",
      "parallel": "A pre-LLM chatbot built for emotional connection drew hundreds of millions of users into long, companion-like chats.",
-     "outcome": "XiaoIce reached over 660 million active users and averaged 23 conversation turns per session, which its makers said exceeded typical human conversations; the figures come from Microsoft's own developers, not independent study.",
+     "outcome": "XiaoIce communicated with over 660 million active users and averaged 23 conversation turns per session, which its makers said was higher than other chatbots and even human conversations; the figures come from Microsoft's own developers, not independent study.",
      "ref": {
       "title": "The Design and Implementation of XiaoIce, an Empathetic Social Chatbot (Zhou, Gao, Li and Shum, Computational Linguistics 2020)",
       "url": "https://arxiv.org/abs/1812.08989",
@@ -8507,7 +8597,7 @@
      "event": "Para-social bonds with TV performers",
      "year": "1956",
      "parallel": "Audiences formed one-sided intimacy with broadcast personalities who could not know them, an early form of a relationship without another person's needs.",
-     "outcome": "Horton and Wohl named this para-social interaction, intimacy at a distance, and it became a standard concept in media research; their paper was observational with no measured outcomes, and a chatbot answers back where a TV host does not.",
+     "outcome": "Horton and Wohl named this para-social interaction, intimacy at a distance; their paper was observational with no measured outcomes, and a chatbot answers back where a TV host does not.",
      "ref": {
       "title": "Mass communication and para-social interaction: observations on intimacy at a distance (Horton and Wohl, Psychiatry 1956)",
       "url": "https://pubmed.ncbi.nlm.nih.gov/13359569/",
@@ -9144,11 +9234,11 @@
      "actor": "Deployers under EU AI Act",
      "status": "in force",
      "counters": "low AI literacy",
-     "evidence": "Article 4 of the EU AI Act obliges deployers to ensure staff have sufficient AI literacy, which covers checking drafted notes.",
+     "evidence": "Article 4 of the EU AI Act, as rewritten in July 2026, makes deployers take measures supporting staff AI literacy, which can cover checking drafted notes.",
      "ref": {
-      "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "finding": "Providers and deployers must take measures to ensure a sufficient level of AI literacy of their staff."
+      "title": "Sapuppo, AI literacy: the Digital Omnibus rewrites Article 4 of the AI Act, Law & Technology, July 2026",
+      "url": "https://lawandtechnology.eu/en/ai-literacy-digital-omnibus-article-4-ai-act/",
+      "finding": "Regulation (EU) 2026/1744, published in the Official Journal on 24 July 2026 and in force from 27 July 2026, replaces Article 4: providers and deployers shall take measures to support the development of AI literacy of their staff, and the obligation does not require them to guarantee any specific level of AI literacy of any individual; the 2024 text required them to ensure, to their best extent, a sufficient level."
      }
     }
    ],
@@ -15258,13 +15348,13 @@
    "source": "labautomation",
    "target": "reproducibility",
    "kind": "leads",
-   "why": "Agents that run instruments remove manual error and log every step, so other labs can repeat experiments exactly."
+   "why": "Robots and agents that run instruments can record every step in machine-readable form, as the robot scientist Adam did in 2009, which makes experiments easier for others to repeat."
   },
   {
    "source": "labautomation",
    "target": "science",
    "kind": "leads",
-   "why": "Agents that run instruments and experiments without manual error let researchers test more ideas faster, speeding up basic research."
+   "why": "Agents that design and run experiments, such as one that optimised palladium-catalysed reactions, let researchers test more ideas with less manual work."
   },
   {
    "source": "builders",
@@ -15282,7 +15372,7 @@
    "source": "omics",
    "target": "drugs",
    "kind": "leads",
-   "why": "Models that integrate cell and protein data humans cannot analyse by hand help pick drug targets and predict perturbations."
+   "why": "Models trained on single-cell data are being adapted to predict how cells respond to gene perturbations, a step towards picking drug targets, though a 2025 benchmark found none yet beat simple baselines."
   },
   {
    "source": "cheating",
@@ -15348,7 +15438,7 @@
    "source": "twopowers",
    "target": "regulationlag",
    "kind": "leads",
-   "why": "When the US and China hold the models and compute, other countries cannot set binding rules, so regulation keeps falling behind."
+   "why": "With frontier models and chips concentrated in the US and China, most other countries regulate systems built elsewhere, and in 2024, 118 were party to none of seven prominent AI governance initiatives the UN sampled."
   },
   {
    "source": "openweights",
@@ -17023,6 +17113,30 @@
    "target": "misinformation",
    "kind": "leads",
    "why": "When chatbots cite and repeat claims from propaganda sites, false narratives reach users with the authority of an AI answer."
+  },
+  {
+   "source": "cognitiveload",
+   "target": "deskilling",
+   "kind": "leads",
+   "why": "Taking routine work off people leaves them less practice, the pattern aviation regulators found when autopilots turned pilots into monitors of the flight path."
+  },
+  {
+   "source": "regulationlag",
+   "target": "drugs",
+   "kind": "counters",
+   "why": "The FDA's framework for judging AI models behind a drug submission was still draft guidance in late 2026, so sponsors have no settled standard to clear."
+  },
+  {
+   "source": "genomics",
+   "target": "aidivide",
+   "kind": "leads",
+   "why": "Free variant predictions only pay off where DNA can be sequenced and interpreted, and WHO's Science Council finds lower-income countries short of the financing, labs and trained staff to do it."
+  },
+  {
+   "source": "labautomation",
+   "target": "unverifiable",
+   "kind": "leads",
+   "why": "Autonomous labs can report results faster than experts check them: one lab's claimed new materials were disputed by outside chemists and later corrected."
   }
  ],
  "themes": {
