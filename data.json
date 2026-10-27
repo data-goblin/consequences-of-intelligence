@@ -15443,6 +15443,93 @@
      }
     }
    ]
+  },
+  {
+   "id": "fakehires",
+   "label": "Fake job candidates use AI to get hired",
+   "valence": -3.1,
+   "probability": 0.55,
+   "year": 2025,
+   "evidence": "reported",
+   "summary": "Generative AI helps people apply for and hold remote jobs under false identities. Okta observed North Korean IT worker schemes using AI services to translate and transcribe communications, write and critique CVs and cover letters, run mock interviews and test applications against automated checks, and said individuals strongly suspected to be North Korean personas have been recorded using real-time deepfake video in interviews, though it infers these uses because it cannot see past the login page[1]. CrowdStrike said the North Korea-linked group it calls FAMOUS CHOLLIMA infiltrated over 320 companies in the 12 months before its August 2025 report, a 220% year-over-year increase, using generative AI at every stage of hiring and employment[2]. Microsoft observed such workers using AI tools such as Faceswap to put their pictures on stolen identity documents, and using voice-changing software[3]. In June 2025 US prosecutors announced searches of 29 known or suspected laptop farms across 16 states in schemes that obtained remote jobs at more than 100 US companies[4]. In 2024 the security firm KnowBe4 hired a North Korean fake IT worker who used a stolen US identity and an AI-enhanced photo and passed several video interviews; the company laptop began loading malware on arrival and was contained the same evening with no data lost[5]. Beyond North Korea, 6% of 3,000 job candidates in one Gartner survey said they had taken part in interview fraud, and Gartner predicts 1 in 4 candidate profiles worldwide could be fake by 2028[6]. The schemes predate generative AI: the US government found that over 300 US companies unknowingly employed North Korean IT workers between 2020 and 2022[3].",
+   "refs": [
+    {
+     "title": "Okta Threat Intelligence, How AI services power the DPRK's IT contracting scams, April 2025",
+     "url": "https://sec.okta.com/articles/2025/04/GenAIDPRK/",
+     "finding": "Generative AI plays an integral role in how North Korean nationals obtain remote technical jobs: it helps build personas at many stages of applications and interviews and, once hired, helps workers hold several roles at once. Okta observed AI-enhanced services used to manage the email and phone communications of multiple personas, translate, transcribe and summarise communications, generate and critique CVs and cover letters, conduct mock job interviews and test applications against automated checks. In recent months individuals strongly suspected to be DPRK-created personas have been recorded using real-time deepfake video during interviews. Okta cannot observe the facilitators' activities beyond the login page, so the use cases are inferred. It recommends identity verification in key processes and detecting unauthorised remote management tools."
+    },
+    {
+     "title": "CrowdStrike, CrowdStrike 2025 Threat Hunting Report: AI Becomes a Weapon and a Target, August 2025",
+     "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-2025-threat-hunting-report-ai-weapon-target/",
+     "finding": "CrowdStrike observed the DPRK-nexus adversary FAMOUS CHOLLIMA infiltrate over 320 companies in the last 12 months, a 220% year-over-year increase, by using generative AI at every stage of the hiring and employment process. Its IT workers use generative AI to create attractive resumes, reportedly use real-time deepfake technology to mask their identities in video interviews, and use AI code tools to do their jobs."
+    },
+    {
+     "title": "Microsoft Threat Intelligence, Jasper Sleet: North Korean remote IT workers' evolving tactics to infiltrate organizations, June 2025",
+     "url": "https://www.microsoft.com/en-us/security/blog/2025/06/30/jasper-sleet-north-korean-remote-it-workers-evolving-tactics-to-infiltrate-organizations/",
+     "finding": "Microsoft observed North Korean remote IT workers leveraging AI to improve the scale and sophistication of their operations, using AI tools such as Faceswap to move their pictures onto stolen employment and identity documents, enhancing their photos and using voice-changing software. It suspended 3,000 known Outlook and Hotmail accounts created by these workers. The US government found that over 300 US companies, including several Fortune 500 companies, unknowingly employed such workers between 2020 and 2022. Microsoft recommends stricter pre-employment vetting, having candidates hold identity documents up to the camera, seeing them on camera across multiple sessions, treating video or microphone problems as a red flag, and notarised proof of identity, and notes that deepfakes can show artifacts, fail on partly obscured faces and lag between lip movement and speech."
+    },
+    {
+     "title": "US Department of Justice, Justice Department Announces Coordinated, Nationwide Actions to Combat North Korean Remote Information Technology Workers' Illicit Revenue Generation Schemes, June 2025",
+     "url": "https://www.justice.gov/opa/pr/justice-department-announces-coordinated-nationwide-actions-combat-north-korean-remote",
+     "finding": "Actions announced on 30 June 2025 included two indictments, an information and plea agreement, an arrest, searches of 29 known or suspected laptop farms across 16 states and the seizure of 29 financial accounts and 21 fraudulent websites. The schemes obtained remote jobs at more than 100 US companies using the identities of more than 80 US persons, and caused at least $3 million in losses to victim companies. The charges are allegations, and the release does not mention generative AI or deepfakes."
+    },
+    {
+     "title": "KnowBe4, How a North Korean Fake IT Worker Tried to Infiltrate Us, July 2024",
+     "url": "https://blog.knowbe4.com/how-a-north-korean-fake-it-worker-tried-to-infiltrate-us",
+     "finding": "KnowBe4 hired a software engineer after background checks, references and several video interviews; the person was a real person using a valid but stolen US-based identity with an AI-enhanced photo, and the background check came back clear because of the stolen identity. The company laptop immediately started to load malware on arrival; on 15 July 2024 suspicious activity began at 9:55pm EST and the security team contained the device at around 10:20pm. No illegal access was gained and no data was lost."
+    },
+    {
+     "title": "HR Dive, By 2028, 1 in 4 candidate profiles will be fake, Gartner predicts, August 2025",
+     "url": "https://www.hrdive.com/news/fake-job-candidates-ai/757126/",
+     "finding": "In a Gartner survey of 3,000 job candidates, 6% said they had participated in interview fraud, either by posing as someone else or having someone else pretend to be them, and 4 in 10 said they use AI during the application process. Gartner's 31 July 2025 report says 1 in 4 candidate profiles worldwide could be fake by 2028, a prediction rather than a measurement."
+    }
+   ],
+   "theme": "security",
+   "stage": "active",
+   "control": "mitigable",
+   "price_of": [
+    "translation"
+   ],
+   "control_note": "Remote hiring relies on documents, photos, CVs and video calls that generative AI can now fake or polish, and a single fake hire gets insider access to company systems. Repeated on-camera identity checks, notarised proof of identity and watching company laptops for unauthorised remote-access tools reduce the risk, and prosecuting the people who host laptop farms removes some of the infrastructure, but each check costs employers time.",
+   "actions": [
+    {
+     "action": "Prosecute the people who run laptop farms",
+     "actor": "prosecutors",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "An Arizona woman who hosted company laptops for North Korean IT workers was sentenced in July 2025 to 102 months in prison after helping them get jobs at 309 US companies; it removes one facilitator, not the AI tools the workers use.",
+     "ref": {
+      "title": "IRS Criminal Investigation, Arizona woman sentenced for $17M information technology worker fraud scheme that generated revenue for North Korea, July 2025",
+      "url": "https://www.irs.gov/compliance/criminal-investigation/arizona-woman-sentenced-for-17m-information-technology-worker-fraud-scheme-that-generated-revenue-for-north-korea",
+      "finding": "Christina Chapman was sentenced on 24 July 2025 to 102 months in prison for a years-long scheme in which she helped North Korean IT workers obtain jobs at 309 US companies using 68 identities stolen from US victims, generating more than $17 million in illicit revenue; more than 90 laptops were seized from her home and she shipped 49 laptops and other devices overseas. The release does not mention AI."
+     }
+    },
+    {
+     "action": "Verify identity on camera across several interviews",
+     "actor": "employers",
+     "status": "proposed",
+     "aim": "probability",
+     "evidence": "Microsoft advises having candidates hold identity documents up to the camera, seeing them on camera across multiple sessions, treating video problems as a red flag and requiring notarised proof of identity, and notes that deepfakes can lag between lip movement and speech.",
+     "ref": {
+      "title": "Microsoft Threat Intelligence, Jasper Sleet: North Korean remote IT workers' evolving tactics to infiltrate organizations, June 2025",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/06/30/jasper-sleet-north-korean-remote-it-workers-evolving-tactics-to-infiltrate-organizations/",
+      "finding": "Microsoft observed North Korean remote IT workers leveraging AI to improve the scale and sophistication of their operations, using AI tools such as Faceswap to move their pictures onto stolen employment and identity documents, enhancing their photos and using voice-changing software. It suspended 3,000 known Outlook and Hotmail accounts created by these workers. The US government found that over 300 US companies, including several Fortune 500 companies, unknowingly employed such workers between 2020 and 2022. Microsoft recommends stricter pre-employment vetting, having candidates hold identity documents up to the camera, seeing them on camera across multiple sessions, treating video or microphone problems as a red flag, and notarised proof of identity, and notes that deepfakes can show artifacts, fail on partly obscured faces and lag between lip movement and speech."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "US warning on North Korean IT workers",
+     "year": 2022,
+     "parallel": "Before generative AI tools were widespread, the same workers already won remote contracts under false identities, and the check officials recommended was a video interview, which real-time deepfakes now target.",
+     "outcome": "The State Department, Treasury and FBI warned that North Korea dispatches thousands of IT workers who pose as US-based or non-North Korean teleworkers and prefer text chat to video calls, and advised companies to verify identity with video interviews.",
+     "ref": {
+      "title": "US Department of State, US Department of the Treasury and FBI, Guidance on the Democratic People's Republic of Korea Information Technology Workers, May 2022",
+      "url": "https://ofac.treasury.gov/media/923126/download",
+      "finding": "The DPRK dispatches thousands of highly skilled IT workers around the world who in many cases represent themselves as US-based or non-North Korean teleworkers; some individually earn more than $300,000 a year and teams more than $3 million. They rely on the anonymity of telework and favour text-based chat instead of video calls, and the advisory recommends that companies hiring freelance developers conduct video interviews to verify identity."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -17773,6 +17860,24 @@
    "target": "militarytargeting",
    "kind": "leads",
    "why": "Intelligence sources say Lavender rated almost everyone in Gaza using data collected on most of its 2.3 million residents through mass surveillance."
+  },
+  {
+   "source": "imagegen",
+   "target": "fakehires",
+   "kind": "leads",
+   "why": "AI image tools such as Faceswap let fake applicants put their own faces on stolen identity documents, as Microsoft observed in North Korean IT worker schemes."
+  },
+  {
+   "source": "translation",
+   "target": "fakehires",
+   "kind": "leads",
+   "why": "AI translation and transcription let operatives run the email and phone communications of several English-language personas at once, as Okta observed."
+  },
+  {
+   "source": "fakehires",
+   "target": "fraud",
+   "kind": "twin",
+   "why": "Both use deepfaked faces and voices to pass as someone else on video calls, to win a job in one case and a payment in the other."
   }
  ],
  "themes": {
