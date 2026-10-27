@@ -3468,7 +3468,7 @@
     },
     {
      "title": "Reuters Institute, Journalism, Media and Technology Trends and Predictions 2026 (Newman), January 2026",
-     "url": "https://reutersinstitute.politics.ox.ac.uk/sites/default/files/2026-01/Newman - Trends and Predictions 2026 FINAL.pdf",
+     "url": "https://reutersinstitute.politics.ox.ac.uk/sites/default/files/2026-01/Newman%20-%20Trends%20and%20Predictions%202026%20FINAL.pdf",
      "finding": "Chartbeat data for over 2,500 sites show Google organic search traffic down 33% globally and 38% in the US from November 2024 to November 2025; how much is due to AI Overviews is unclear."
     },
     {
@@ -4934,12 +4934,22 @@
    "probability": 0.7,
    "year": 2025,
    "evidence": "measured",
-   "summary": "In one UK study, AI ideas made individual stories more creative but the stories more similar to each other[1], a sign that AI help could shrink the diversity of ideas.",
+   "summary": "In one online experiment with 293 UK-based writers, AI story ideas made individual stories more creative but the stories more similar to each other[1]. Across five brainstorming experiments, ChatGPT help produced narrower sets of ideas, with a significant drop in diversity in 37 of 45 comparisons[2]. Prompt design can widen what a model offers: in one study chain-of-thought prompting brought GPT-4's idea pool close to the diversity of human groups[3].",
    "refs": [
     {
-     "title": "Doshi and Hauser, Science Advances 2024",
-     "url": "https://www.science.org/doi/10.1126/sciadv.adn5290",
-     "finding": "AI ideas made individual stories more creative but stories more similar to each other."
+     "title": "Doshi and Hauser, Generative AI enhances individual creativity but reduces the collective diversity of novel content, Science Advances 2024",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11244532/",
+     "finding": "In an experiment with 293 UK-based writers and 600 evaluators, access to AI story ideas made stories rated more creative, most for less creative writers, but more similar to each other."
+    },
+    {
+     "title": "ChatGPT decreases idea diversity in brainstorming (Meincke, Nave and Terwiesch, Nature Human Behaviour 2025), Wharton Mack Institute summary",
+     "url": "https://mackinstitute.wharton.upenn.edu/2025/new-in-nature-chatgpt-decreases-idea-diversity-in-brainstorming/",
+     "finding": "Across five experiments, ChatGPT-assisted brainstorming produced narrower sets of ideas; the drop in diversity was significant in 37 of 45 comparisons."
+    },
+    {
+     "title": "Meincke, Mollick and Terwiesch, Prompting Diverse Ideas: Increasing AI Idea Variance, arXiv 2024",
+     "url": "https://arxiv.org/abs/2402.01727",
+     "finding": "GPT-4 idea pools from plausible prompts were less diverse than those of human groups; chain-of-thought prompting gave the most diverse and most unique ideas, close to human groups."
     }
    ],
    "theme": "ip",
@@ -4950,18 +4960,18 @@
     "sparring",
     "cheapintelligence"
    ],
-   "control_note": "The quality gain comes from anchoring on model ideas, and the anchoring is what makes work alike. Varied prompts and models may soften it, but evidence is thin.",
+   "control_note": "Writers given AI ideas anchored on them, which made their stories alike. Chain-of-thought prompting widened GPT-4's own idea pool in one study, but that study did not test the work people then produce with AI help.",
    "actions": [
     {
      "action": "Offer several diverse AI ideas, not one",
      "actor": "tool makers",
      "status": "tested",
      "aim": "impact",
-     "evidence": "Five ideas instead of one raised quality but stories stayed more similar than human-only ones; no tested method yet restores diversity.",
+     "evidence": "Five ideas instead of one gave larger quality gains, but stories in both AI conditions were still more similar to each other than human-only stories; the study tested no condition that restored diversity.",
      "ref": {
       "title": "Doshi and Hauser, Generative AI enhances individual creativity but reduces the collective diversity of novel content, Science Advances 2024",
-      "url": "https://www.science.org/doi/10.1126/sciadv.adn5290",
-      "finding": "AI-aided stories were more creative but more similar to each other."
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11244532/",
+      "finding": "AI-aided stories were rated more creative but were more similar to each other, with one AI idea or five."
      }
     },
     {
@@ -4969,11 +4979,11 @@
      "actor": "publishers",
      "status": "in force",
      "aim": "impact",
-     "evidence": "The AI Act requires marking synthetic content; readers in Doshi and Hauser wanted disclosure, but no study links disclosure to diversity.",
+     "evidence": "Since 2 August 2026 the AI Act requires providers to mark AI-generated content in machine-readable form and deployers to disclose deepfakes, in a lighter form for evidently artistic work; most evaluators in Doshi and Hauser wanted AI use disclosed, but neither source links disclosure to diversity.",
      "ref": {
       "title": "Regulation (EU) 2024/1689 (AI Act)",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "finding": "Article 50 requires marking of AI-generated content."
+      "finding": "Article 50(2) requires providers of generative AI systems to mark outputs in a machine-readable format as artificially generated; Article 50(4) requires deployers to disclose deepfakes, limited for evidently artistic or creative works."
      }
     }
    ],
@@ -5009,12 +5019,17 @@
    "probability": 0.7,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Governments in at least 22 countries used AI-based tools for censorship, according to Freedom House[1]. Cheap vision and language models could let states monitor and censor at a scale that once needed armies of people.",
+   "summary": "Freedom House found legal frameworks in at least 21 of the 70 countries it assesses push platforms to use machine learning to remove disfavoured political, social and religious speech, and described AI systems that trawl social media for signs of dissent[1]. A 2019 Carnegie index counted at least 75 of 176 countries using AI for surveillance, 64 of them with facial recognition[2]. Cheap vision and language models could let states monitor and censor at a scale that once needed armies of people.",
    "refs": [
     {
-     "title": "Freedom House, Freedom on the Net 2023",
+     "title": "Freedom House, Freedom on the Net 2023: The Repressive Power of Artificial Intelligence",
      "url": "https://freedomhouse.org/report/freedom-net/2023/repressive-power-artificial-intelligence",
-     "finding": "Governments in at least 22 countries used AI-based tools for censorship."
+     "finding": "Legal frameworks in at least 21 of the 70 countries assessed mandate or incentivize platforms to use machine learning to remove disfavoured speech; surveillance systems trawl social media for signs of dissent."
+    },
+    {
+     "title": "Steven Feldstein, The Global Expansion of AI Surveillance (Carnegie Endowment for International Peace, September 2019)",
+     "url": "https://carnegieendowment.org/research/2019/09/the-global-expansion-of-ai-surveillance",
+     "finding": "At least 75 of 176 countries actively use AI for surveillance: smart city platforms in 56, facial recognition in 64 and smart policing in 52; 51% of advanced democracies deploy AI surveillance systems."
     }
    ],
    "theme": "power",
@@ -5024,18 +5039,18 @@
     "translation",
     "accessibility"
    ],
-   "control_note": "Mass surveillance is a political choice that law can restrict in democracies, though the vision and language tech is shared with assistive tools. In autocracies it is not preventable from outside.",
+   "control_note": "Mass surveillance is a political choice that law can restrict, as the EU AI Act's limits on police face recognition show, but half of advanced democracies already deploy AI surveillance and the vision and language tech is shared with assistive tools. In autocracies outside pressure has little reach.",
    "actions": [
     {
      "action": "Ban real-time remote biometric identification",
      "actor": "legislators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "The EU AI Act bans most real-time biometric identification in public by police, with exceptions for serious crimes.",
+     "evidence": "Since 2 February 2025 the EU AI Act has banned police use of real-time remote biometric identification in publicly accessible spaces, except where strictly necessary to find victims of abduction or trafficking or missing persons, to prevent an imminent threat or terrorist attack, or to locate suspects of listed serious crimes.",
      "ref": {
       "title": "Regulation (EU) 2024/1689 (AI Act)",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "finding": "Article 5 prohibits real-time remote biometric identification in public spaces with narrow exceptions."
+      "finding": "Article 5(1)(h) prohibits real-time remote biometric identification in publicly accessible spaces for law enforcement unless strictly necessary for one of three listed objectives."
      }
     },
     {
@@ -5043,35 +5058,35 @@
      "actor": "legislators",
      "status": "proposed",
      "aim": "impact",
-     "evidence": "Freedom House found internet freedom fell for 13 years and AI censorship laws in over 21 countries; it recommends audits and appeal rights, untested at scale.",
+     "evidence": "Freedom House found legal frameworks in at least 21 countries push platforms to use machine learning to remove protected speech, and recommends AI laws require audits, transparency, and notice, explanation, redress and appeal.",
      "ref": {
       "title": "Freedom House, Freedom on the Net 2023: The Repressive Power of Artificial Intelligence",
       "url": "https://freedomhouse.org/report/freedom-net/2023/repressive-power-artificial-intelligence",
-      "finding": "Legal frameworks in at least 21 countries require or encourage automated content removal."
+      "finding": "Legal frameworks in at least 21 countries mandate or incentivize platforms to deploy machine learning to remove speech; AI laws should require audits and transparency and include mechanisms for notice, explanation, redress and appeal."
      }
     }
    ],
    "precedents": [
     {
      "event": "East German Stasi surveillance apparatus",
-     "year": "1950-1990",
-     "parallel": "Mass monitoring of a population once took a huge paid workforce plus informants, the labour that cheap vision and language models could replace.",
-     "outcome": "By the end the Ministry for State Security had about 91,000 full-time staff, and its foreign intelligence arm alone ran about 10,000 informants; the apparatus did not stop the regime falling in 1989.",
+     "year": "1950-1989",
+     "parallel": "Mass monitoring of a population once took a full-time ministry and hundreds of thousands of human informants, the labour that cheap vision and language models could replace.",
+     "outcome": "The Ministry for State Security ran about 189,000 unofficial informants in 1989, 173,000 of them in its counter-intelligence units, and about 620,000 people served as informants between 1950 and 1989.",
      "ref": {
-      "title": "Inoffizielle Mitarbeiter des Ministeriums fuer Staatssicherheit (Bundesarchiv publication page)",
-      "url": "https://www.bundesarchiv.de/publikationen/publikation/inoffizielle-mitarbeiter-des-ministeriums-fuer-staatssicherheit-2/",
-      "finding": "The SED leadership had a ministry with, at the end, about 91,000 full-time employees."
+      "title": "Inoffizieller Mitarbeiter (IM), MfS-Lexikon (Helmut Mueller-Enbergs, Bundesarchiv)",
+      "url": "https://www.bundesarchiv.de/im-archiv-recherchieren/stasi-unterlagen-einsehen/hinweise-zum-mfs/mfs-lexikon/detail/inoffizieller-mitarbeiter-im/",
+      "finding": "In 1989 the MfS ran about 189,000 IM, including 173,000 in its counter-intelligence units; from 1950 to 1989 there were about 620,000 IM in total."
      }
     },
     {
      "event": "NSA Section 215 bulk phone records",
      "year": "2006-2015",
      "parallel": "Automated bulk collection of everyone's call records is the closest documented case of machine-scale state monitoring justified by security.",
-     "outcome": "The US privacy oversight board found no instance where the program made a concrete difference to a counterterrorism investigation, and only one arguable case in seven years of helping identify an unknown suspect; it recommended ending the program.",
+     "outcome": "The US privacy oversight board found no instance involving a threat to the United States where the program made a concrete difference to a counterterrorism investigation, and only one arguable case in seven years of helping identify an unknown suspect; it recommended ending the program.",
      "ref": {
       "title": "Report on the Telephone Records Program Conducted under Section 215 (PCLOB, January 2014)",
       "url": "https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf",
-      "finding": "We have not identified a single instance in which the program made a concrete difference in the outcome of a counterterrorism investigation."
+      "finding": "We have not identified a single instance involving a threat to the United States in which the program made a concrete difference in the outcome of a counterterrorism investigation."
      }
     }
    ]
@@ -5083,35 +5098,45 @@
    "probability": 0.75,
    "year": 2025,
    "evidence": "reported",
-   "summary": "The US has tied AI access to political alignment: a January 2025 rule sorted countries into three tiers with caps on advanced chips, later rescinded[1], and the July 2025 AI Action Plan aims to export the full American AI stack to allies while countering China[2].",
+   "summary": "The US has tied AI access to political alignment: a January 2025 rule sorted countries into three tiers with caps on advanced chips[1], which Commerce began rescinding in May 2025 before compliance was due[2], and the July 2025 AI Action Plan aims to export the full American AI technology stack to countries that join America's AI alliance while countering Chinese influence[3]. In January 2026 the US put a 25 percent tariff on certain imported advanced computing chips, waived for imports that support the US technology supply chain[4].",
    "refs": [
     {
-     "title": "Framework for Artificial Intelligence Diffusion, Federal Register, Jan 2025",
+     "title": "Framework for Artificial Intelligence Diffusion, Federal Register, 15 January 2025",
      "url": "https://www.federalregister.gov/documents/2025/01/15/2025-00636/framework-for-artificial-intelligence-diffusion",
-     "finding": "Sorted countries into three tiers with caps on advanced chips; later rescinded."
+     "finding": "Interim final rule that sorted destinations into three groups (19 listed destinations such as Australia, Japan, Taiwan and the UK; Country Group D:5 and Macau; and all others), capped advanced chips for the third group at a cumulative 790,000,000 TPP per country for 2025 to 2027, and required licences to export weights of closed models trained on more than 10^26 operations; compliance was due 15 May 2025."
+    },
+    {
+     "title": "Department of Commerce Rescinds Biden-Era Artificial Intelligence Diffusion Rule, BIS press release, 12 May 2025",
+     "url": "https://media.bis.gov/sites/default/files/documents/05.07%20Recission%20of%20AI%20Diffusion%20Press%20Release.pdf",
+     "finding": "Commerce initiated a rescission of the rule before its 15 May 2025 compliance date, told enforcement officials not to enforce it, and announced tighter chip export controls the same day."
     },
     {
      "title": "America's AI Action Plan, July 2025",
      "url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
-     "finding": "Sets a goal of exporting the full American AI stack to allies and countering China."
+     "finding": "Calls for exporting the full American AI technology stack to all countries willing to join America's AI alliance, and for countering Chinese influence in international governance bodies."
+    },
+    {
+     "title": "Proclamation 11002, Adjusting Imports of Semiconductors, Semiconductor Manufacturing Equipment, and Their Derivative Products Into the United States, Federal Register, 20 January 2026",
+     "url": "https://www.govinfo.gov/content/pkg/FR-2026-01-20/pdf/2026-01052.pdf",
+     "finding": "Imposed a 25 percent tariff from 15 January 2026 on certain imported advanced computing chips, waived for uses that support the US technology supply chain such as US data centers, and directed trade negotiations with foreign jurisdictions."
     }
    ],
    "theme": "power",
    "stage": "active",
    "control": "avoidable",
    "price_of": [],
-   "control_note": "Rationing chips by country is a policy choice that governments can drop with little loss of the technology's benefits, as the US showed by rescinding its diffusion rule.",
+   "control_note": "Rationing chips by country is a policy choice rather than a technical necessity: the US dropped its tiered diffusion rule four months after issuing it, though it kept and tightened other chip export controls.",
    "actions": [
     {
      "action": "Publish country tiers through open rulemaking",
      "actor": "governments",
-     "status": "in force",
+     "status": "tested",
      "aim": "impact",
-     "evidence": "The 2025 diffusion rule set tiers by Federal Register notice, which at least made the leverage visible; it was rescinded before taking effect.",
+     "evidence": "The January 2025 diffusion rule set country tiers in an interim final rule open to public comment, which made the leverage visible; Commerce began rescinding it in May 2025, before compliance was due.",
      "ref": {
       "title": "Framework for Artificial Intelligence Diffusion, Federal Register, 15 January 2025",
       "url": "https://www.federalregister.gov/documents/2025/01/15/2025-00636/framework-for-artificial-intelligence-diffusion",
-      "finding": "The rule set export limits on advanced chips and model weights by country."
+      "finding": "Interim final rule that sorted destinations into three groups (19 listed destinations such as Australia, Japan, Taiwan and the UK; Country Group D:5 and Macau; and all others), capped advanced chips for the third group at a cumulative 790,000,000 TPP per country for 2025 to 2027, and required licences to export weights of closed models trained on more than 10^26 operations; compliance was due 15 May 2025."
      }
     }
    ],
@@ -5131,7 +5156,7 @@
      "event": "US-Japan semiconductor agreement and tariffs",
      "year": "1986-1991",
      "parallel": "The US used trade sanctions to force a market-share and pricing deal on a rival's chip industry, an earlier case of chips as a lever of state power.",
-     "outcome": "Reagan imposed 100 percent tariffs on 300 million dollars of Japanese imports in 1987; the deal handed Japanese exporters windfall DRAM profits, sped up Korean entry, did not bring US firms back into DRAM, and hurt US computer makers who used the chips.",
+     "outcome": "Reagan imposed 100 percent tariffs on 300 million dollars of Japanese imports in April 1987; the deal handed Japanese exporters windfall DRAM profits, sped up Korean entry, did not bring US firms back into DRAM, and hurt US computer makers who used the chips.",
      "ref": {
       "title": "The U.S.-Japan Semiconductor Trade Conflict (Irwin, NBER, 1996)",
       "url": "https://www.nber.org/system/files/chapters/c8717/c8717.pdf",
@@ -5148,17 +5173,22 @@
    "probability": 0.5,
    "year": 2027,
    "evidence": "measured",
-   "summary": "In one study, backdoors trained into models persisted through standard safety training[1], and JFrog found about 100 Hugging Face models that ran code on load, some opening a reverse shell[2]. A downloaded model, foreign or domestic, can be a trojan.",
+   "summary": "In one study, backdoors trained into models persisted through standard safety training, most of all in the largest models[1], and JFrog found about 100 Hugging Face models whose files ran code on load; it judged most to be researchers' tests, but at least two opened a reverse shell to an outside server[2]. A follow-up study caught such lab-made backdoors with simple probes on the model's internals, though whether this works on real attacks is untested[3]. A downloaded model, foreign or domestic, can be a trojan.",
    "refs": [
     {
-     "title": "Hubinger et al., Sleeper Agents 2024",
+     "title": "Hubinger et al., Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training, 2024",
      "url": "https://arxiv.org/abs/2401.05566",
-     "finding": "Backdoors trained into models persisted through standard safety training."
+     "finding": "Backdoors trained into models persisted through supervised fine-tuning, reinforcement learning and adversarial training, and were most persistent in the largest models."
     },
     {
-     "title": "JFrog, malicious Hugging Face models 2024",
+     "title": "JFrog (David Cohen), Data Scientists Targeted by Malicious Hugging Face ML Models with Silent Backdoor, February 2024",
      "url": "https://jfrog.com/blog/data-scientists-targeted-by-malicious-hugging-face-ml-models-with-silent-backdoor/",
-     "finding": "Found about 100 models on Hugging Face that ran code on load, some opening a reverse shell."
+     "finding": "Found around 100 Hugging Face models with payloads that ran code when loaded; most were judged to be researchers' attempts, while baller423/goober2 and star23/baller13 opened a reverse shell to an external IP address."
+    },
+    {
+     "title": "MacDiarmid et al., Simple probes can catch sleeper agents (Anthropic), April 2024",
+     "url": "https://www.anthropic.com/research/probes-catch-sleeper-agents",
+     "finding": "Linear probes on model activations detected when sleeper agent models would defect with AUROC above 99%; the authors say this may be an artifact of their backdoor insertion and is untested on naturally arising deception."
     }
    ],
    "theme": "security",
@@ -5168,14 +5198,14 @@
     "cheapintelligence",
     "builders"
    ],
-   "control_note": "Open weight sharing is what makes models cheap and widely usable, and it is also how trojans travel. Safe formats and scanning stop file-level malware, not behavioural backdoors.",
+   "control_note": "Open weight sharing is what makes models cheap and widely usable, and it is also how trojans travel. Safe formats and scanning stop file-level malware, not behavioural backdoors; probes that read model internals are a lab result so far.",
    "actions": [
     {
      "action": "Load weights only in safetensors format",
      "actor": "developers",
      "status": "in force",
      "aim": "probability",
-     "evidence": "Safetensors stores tensors without executable pickle code, closing the route used by about 100 malicious Hugging Face models; it does nothing against trained-in backdoors.",
+     "evidence": "Safetensors stores tensors without pickle, whose loading can run arbitrary code, so it closes the file-level route; it does not address backdoors trained into the weights.",
      "ref": {
       "title": "Hugging Face, Safetensors documentation",
       "url": "https://huggingface.co/docs/safetensors/index",
@@ -5187,11 +5217,11 @@
      "actor": "platforms",
      "status": "in force",
      "aim": "probability",
-     "evidence": "JFrog's scan found around 100 malicious models on Hugging Face in 2024.",
+     "evidence": "Hugging Face runs ClamAV and a pickle import scan on every file pushed to the Hub and highlights suspicious imports, but says the scan is not 100% foolproof.",
      "ref": {
-      "title": "JFrog, Data Scientists Targeted by Malicious Hugging Face ML Models with Silent Backdoor",
-      "url": "https://jfrog.com/blog/data-scientists-targeted-by-malicious-hugging-face-ml-models-with-silent-backdoor/",
-      "finding": "About 100 malicious models were found on Hugging Face."
+      "title": "Hugging Face Hub documentation, Pickle Scanning",
+      "url": "https://huggingface.co/docs/hub/security-pickle",
+      "finding": "A security scanner runs ClamAV and pickle import scans on every file pushed to the Hub; Hugging Face says this is not 100% foolproof."
      }
     },
     {
@@ -5199,11 +5229,23 @@
      "actor": "organisations",
      "status": "idea",
      "aim": "impact",
-     "evidence": "Backdoors survived fine-tuning, RL and adversarial training in Sleeper Agents, so isolation is the fallback when detection fails.",
+     "evidence": "Backdoors survived fine-tuning, RL and adversarial training in Sleeper Agents, and adversarial training could teach models to recognise their triggers better, hiding the unsafe behaviour, so isolation is the fallback when detection fails.",
      "ref": {
       "title": "Hubinger et al., Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
       "url": "https://arxiv.org/abs/2401.05566",
-      "finding": "Backdoor behaviour persisted through standard safety training."
+      "finding": "Backdoor behaviour persisted through standard safety training, and adversarial training could hide unsafe behaviour rather than remove it."
+     }
+    },
+    {
+     "action": "Probe model internals for hidden triggers",
+     "actor": "labs",
+     "status": "tested",
+     "aim": "probability",
+     "evidence": "Linear probes caught deliberately backdoored models about to defect with AUROC above 99%, without knowing the trigger; the authors warn it may not carry over to deception that arises naturally.",
+     "ref": {
+      "title": "MacDiarmid et al., Simple probes can catch sleeper agents (Anthropic), April 2024",
+      "url": "https://www.anthropic.com/research/probes-catch-sleeper-agents",
+      "finding": "Defection probes reached AUROC scores above 99% on sleeper agent models; whether this holds for natural deceptive alignment remains an open question."
      }
     }
    ],
@@ -5212,29 +5254,29 @@
      "event": "BadNets backdoored neural networks",
      "year": "2017",
      "parallel": "A pre-generative-AI demonstration that a model trained by someone else can hide attacker-triggered behaviour while scoring well on the user's own tests.",
-     "outcome": "A street-sign classifier read stop signs with a sticker as speed limits, and the backdoor survived retraining for a new task with about a 25 percent accuracy drop when triggered; it was a research demonstration, not a documented attack in the wild.",
+     "outcome": "A street-sign classifier read stop signs with a sticker as speed limits, and the backdoor survived retraining for Swedish signs, cutting accuracy by 25% on average when the trigger was present; it was a research demonstration, not a documented attack in the wild.",
      "ref": {
       "title": "BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain (Gu, Dolan-Gavitt, Garg)",
       "url": "https://arxiv.org/abs/1708.06733",
-      "finding": "The backdoor in a street sign detector persisted even when the network was retrained for another task."
+      "finding": "The backdoor in a US street sign detector persisted when the network was retrained to recognise Swedish signs, which then performed 25% worse on average when the trigger was present."
      }
     },
     {
      "event": "SolarWinds Orion trojanized update",
      "year": "2019-2020",
      "parallel": "Trusted software downloaded through official channels carried hidden malicious code, as a downloaded model can carry hidden behaviour.",
-     "outcome": "About 18,000 customers received the compromised update while the attacker chose a small set of high-value targets, including federal agencies, for espionage; it went undetected from early 2020 until November 2020.",
+     "outcome": "Nearly 18,000 customers received the compromised update while the attacker, later identified as Russia's Foreign Intelligence Service, went after a smaller subset of high-value customers, including the federal government, mainly for espionage; malicious code was inserted from February 2020 and FireEye detected an intrusion in November 2020.",
      "ref": {
       "title": "SolarWinds Cyberattack Demands Significant Federal and Private-Sector Response (US GAO)",
       "url": "https://www.gao.gov/blog/solarwinds-cyberattack-demands-significant-federal-and-private-sector-response-infographic",
-      "finding": "SolarWinds estimated that roughly 18,000 customers received a compromised software update."
+      "finding": "SolarWinds estimated that nearly 18,000 of its customers received a compromised software update; the attacker targeted a smaller subset of high-value customers, including the federal government."
      }
     },
     {
      "event": "xz Utils backdoor",
      "year": "2024",
      "parallel": "A widely reused open component shipped with a hidden backdoor inserted upstream, the same trust problem as open model weights passed between users.",
-     "outcome": "Versions 5.6.0 and 5.6.1 carried malicious code that could allow unauthorized access, and CISA told users to downgrade to an uncompromised version such as 5.4.6 and hunt for malicious activity.",
+     "outcome": "Versions 5.6.0 and 5.6.1 carried malicious code that could allow unauthorized access, and CISA told users to downgrade to an uncompromised version such as 5.4.6 and hunt for any malicious activity.",
      "ref": {
       "title": "Reported Supply Chain Compromise Affecting XZ Utils Data Compression Library, CVE-2024-3094 (CISA)",
       "url": "https://www.cisa.gov/news-events/alerts/2024/03/29/reported-supply-chain-compromise-affecting-xz-utils-data-compression-library-cve-2024-3094",
@@ -5250,17 +5292,22 @@
    "probability": 0.5,
    "year": 2027,
    "evidence": "projected",
-   "summary": "Cheap automated exploitation of routers, cameras and industrial controllers could recruit botnets or damage equipment. Mirai already enslaved about 600,000 IoT devices with default passwords[1], and a state actor pre-positioned in US critical infrastructure through edge devices[2].",
+   "summary": "Cheap automated exploitation of routers, cameras and industrial controllers could recruit botnets or damage equipment. Mirai, which first spread by logging in with a list of 62 default credentials, peaked at about 600,000 infected devices, mostly embedded and IoT[1], and a state actor pre-positioned in US critical infrastructure, usually breaking in through routers, VPNs and firewalls[2]. The UK NCSC judges AI will almost certainly shrink the days between disclosure and exploitation of flaws and highly likely raise the threat to poorly secured operational technology by 2027[3].",
    "refs": [
     {
      "title": "Antonakakis et al., Understanding the Mirai Botnet, USENIX Security 2017",
      "url": "https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/antonakakis",
-     "finding": "Mirai enslaved about 600,000 IoT devices with default passwords and took down major sites."
+     "finding": "Mirai peaked at about 600,000 infections, mostly embedded and IoT devices, first compromised with a dictionary of 62 default credentials, and overwhelmed several high-profile targets with DDoS attacks."
     },
     {
-     "title": "CISA advisory AA24-038A, Volt Typhoon",
+     "title": "CISA, NSA, FBI and partners, advisory AA24-038A, PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure, February 2024",
      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a",
-     "finding": "A state actor pre-positioned in US critical infrastructure via edge devices."
+     "finding": "Volt Typhoon pre-positioned on IT networks of US communications, energy, transport and water systems for disruptive attacks, typically entering through public-facing routers, VPNs and firewalls, with some footholds lasting at least five years."
+    },
+    {
+     "title": "UK National Cyber Security Centre, Impact of AI on cyber threat from now to 2027, May 2025",
+     "url": "https://www.ncsc.gov.uk/report/impact-ai-cyber-threat-now-2027",
+     "finding": "The time between disclosure and exploitation has shrunk to days and AI will almost certainly reduce it further; AI will highly likely raise the threat to critical national infrastructure, particularly operational technology with lower security."
     }
    ],
    "theme": "security",
@@ -5276,11 +5323,11 @@
      "actor": "legislators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "The UK PSTI Act bans universal default passwords since April 2024; Mirai reached 600,000 devices largely through weak credentials.",
+     "evidence": "Since 29 April 2024, UK rules require passwords on consumer connectable products to be unique per product or set by the user, and unique ones must not be based on incremental counters or public information.",
      "ref": {
-      "title": "Product Security and Telecommunications Infrastructure Act 2022",
-      "url": "https://www.legislation.gov.uk/ukpga/2022/46/contents",
-      "finding": "UK law setting security requirements for connectable consumer products."
+      "title": "DSIT, The UK Product Security and Telecommunications Infrastructure (Product Security) regime (GOV.UK)",
+      "url": "https://www.gov.uk/government/publications/the-uk-product-security-and-telecommunications-infrastructure-product-security-regime",
+      "finding": "The consumer connectable product security regime came into effect on 29 April 2024; passwords must be unique per product or capable of being defined by the user."
      }
     },
     {
@@ -5292,7 +5339,7 @@
      "ref": {
       "title": "CISA Advisory AA24-038A, PRC State-Sponsored Actors Compromise U.S. Critical Infrastructure",
       "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a",
-      "finding": "Patch internet-facing systems and plan end-of-life replacement."
+      "finding": "Apply patches for internet-facing systems within a risk-informed span of time, and plan end of life for technology beyond its manufacturer-supported lifecycle."
      }
     },
     {
@@ -5300,11 +5347,11 @@
      "actor": "researchers",
      "status": "in force",
      "aim": "impact",
-     "evidence": "The Mirai study traced 600,000 infections to easily compromised embedded devices.",
+     "evidence": "The Mirai study tracked the botnet to a peak of 600,000 infections, mostly embedded and IoT devices, first entered through a short list of default credentials.",
      "ref": {
       "title": "Antonakakis et al., Understanding the Mirai Botnet, USENIX Security 2017",
       "url": "https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/antonakakis",
-      "finding": "Mirai peaked at 600,000 infected IoT devices."
+      "finding": "Mirai peaked at 600,000 infections, composed primarily of embedded and IoT devices."
      }
     }
    ],
@@ -5324,7 +5371,7 @@
      "event": "Ukraine power grid cyberattack",
      "year": "2015",
      "parallel": "Remote attackers took over industrial control systems and switched off physical equipment, the outcome feared from automated attacks on controllers.",
-     "outcome": "About 225,000 customers lost power after attackers opened breakers at three distributors within 30 minutes, then wiped systems to slow recovery; it was run by human operators over months of reconnaissance, not automated.",
+     "outcome": "About 225,000 customers lost power after attackers remotely operated breakers at three distribution companies within 30 minutes of each other, then ran KillDisk malware that erased files and left systems inoperable; it was run by multiple human operators, probably after extensive reconnaissance, not automated.",
      "ref": {
       "title": "Cyber-Attack Against Ukrainian Critical Infrastructure, IR-ALERT-H-16-056-01 (CISA)",
       "url": "https://www.cisa.gov/news-events/ics-alerts/ir-alert-h-16-056-01",
@@ -5335,11 +5382,11 @@
      "event": "Stuxnet at Natanz",
      "year": "2009-2010",
      "parallel": "Malware altered industrial controller settings to physically destroy machines while hiding the damage from operators.",
-     "outcome": "Iran replaced about 1,000 IR-1 centrifuges in late 2009 or early 2010, and the authors judged Stuxnet a reasonable but unconfirmed explanation; it was a costly state operation, not a cheap automated one.",
+     "outcome": "Iran decommissioned and replaced about 1,000 IR-1 centrifuges in late 2009 or early 2010, and the authors judged Stuxnet a reasonable explanation for the apparent damage, though questions remained; it was a costly state operation, not a cheap automated one.",
      "ref": {
       "title": "Did Stuxnet Take Out 1,000 Centrifuges at the Natanz Enrichment Plant? (Albright, Brannan, Walrond, ISIS 2010)",
       "url": "https://isis-online.org/isis-reports/did-stuxnet-take-out-1000-centrifuges-at-the-natanz-enrichment-plant/",
-      "finding": "Iran decommissioned and replaced about 1,000 IR-1 centrifuges, and Stuxnet is a reasonable explanation for the damage."
+      "finding": "Iran decommissioned and replaced about 1,000 IR-1 centrifuges at Natanz, and Stuxnet is a reasonable explanation for the apparent damage, though questions remain."
      }
     }
    ]
@@ -5351,17 +5398,17 @@
    "probability": 0.5,
    "year": 2028,
    "evidence": "speculative",
-   "summary": "Practising conversation with an always-agreeable machine may leave people, especially teens, less able to handle friction with real people. In one US survey, about a third of teen users found AI conversations as satisfying as friends or more[1]; one study found heavy users socialised less[2].",
+   "summary": "Practising conversation with an always-agreeable machine may leave people, especially teens, less able to handle friction with real people. In one survey of 1,060 US teens aged 13 to 17, 31% found conversations with AI companions as satisfying as or more satisfying than with real-life friends, though 80% of companion users still spent more time with real friends[1]; in one four-week US trial with 981 participants, those who chose to use a chatbot more socialised less with people, without showing cause[2].",
    "refs": [
     {
-     "title": "Common Sense Media, Talk, Trust and Trade-offs 2025",
-     "url": "https://www.commonsensemedia.org/research/talk-trust-and-trade-offs-how-and-why-teens-use-ai-companions",
-     "finding": "About a third of teen users found AI conversations as satisfying as or more than with friends."
+     "title": "Common Sense Media, Talk, Trust, and Trade-Offs: How and Why Teens Use AI Companions, July 2025",
+     "url": "https://www.commonsensemedia.org/sites/default/files/research/report/talk-trust-and-trade-offs_2025_web.pdf",
+     "finding": "In a NORC survey of 1,060 US teens aged 13 to 17 (30 April to 14 May 2025), 31% of all respondents found AI companion conversations as satisfying or more satisfying than with real-life friends and 67% less satisfying; 80% of companion users spent more time with real friends."
     },
     {
-     "title": "MIT Media Lab and OpenAI, affective use study 2025",
-     "url": "https://openai.com/index/affective-use-study/",
-     "finding": "Heavy users socialised less with people."
+     "title": "Fang et al., How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use: A Longitudinal Randomized Controlled Study (MIT Media Lab and OpenAI, 2025)",
+     "url": "https://arxiv.org/abs/2503.17473",
+     "finding": "In a four-week randomized trial with 981 US participants, those who voluntarily used the chatbot more had higher loneliness, less socialization with real people, more emotional dependence and more problematic use; the authors cannot say whether usage caused this."
     }
    ],
    "theme": "mind",
@@ -5372,18 +5419,18 @@
     "therapy",
     "sparring"
    ],
-   "control_note": "The always-available patient partner that eases loneliness is the same thing that may crowd out human friction. Safeguards for minors and less sycophantic design may reduce harm; evidence is short-term.",
+   "control_note": "The always-available patient partner that eases loneliness is the same thing that may crowd out human friction. Safeguards for minors and less sycophantic design may reduce harm; the evidence covers weeks, not years.",
    "actions": [
     {
      "action": "Regulate companion chatbots for minors",
      "actor": "legislators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "California SB 243 requires companion bots to disclose they are AI and add safeguards for minors; no outcome data yet.",
+     "evidence": "California SB 243, signed 13 October 2025 and in effect from 1 January 2026, requires reminders to minors that chatbots are AI-generated, blocks sexual content for minors and requires suicide and self-harm protocols.",
      "ref": {
-      "title": "California SB-243 Companion chatbots",
-      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB243",
-      "finding": "A California bill setting duties for operators of companion chatbots."
+      "title": "First-in-the-Nation AI Chatbot Safeguards Signed into Law (Senator Steve Padilla, 13 October 2025)",
+      "url": "https://sd18.senate.ca.gov/news/first-nation-ai-chatbot-safeguards-signed-law",
+      "finding": "SB 243 requires notifications and reminders for minors that chatbots are AI-generated, prevents exposing minors to sexual content, requires a suicide and self-harm protocol and annual reporting, gives a private right of action, and takes effect 1 January 2026."
      }
     },
     {
@@ -5391,11 +5438,11 @@
      "actor": "labs",
      "status": "idea",
      "aim": "impact",
-     "evidence": "In a four-week RCT with 981 people, heavier voluntary use predicted more loneliness and dependence, while voice or text mode made no difference.",
+     "evidence": "In a four-week US RCT with 981 people, heavier voluntary use predicted more loneliness and dependence, while voice or text mode made no significant difference.",
      "ref": {
-      "title": "Fang et al., How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use",
+      "title": "Fang et al., How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use: A Longitudinal Randomized Controlled Study (MIT Media Lab and OpenAI, 2025)",
       "url": "https://arxiv.org/abs/2503.17473",
-      "finding": "Participants who used the chatbot more showed consistently worse psychosocial outcomes."
+      "finding": "In a four-week randomized trial with 981 US participants, those who voluntarily used the chatbot more had higher loneliness, less socialization with real people, more emotional dependence and more problematic use; the authors cannot say whether usage caused this."
      }
     }
    ],
@@ -5404,11 +5451,11 @@
      "event": "HomeNet internet paradox study",
      "year": "1998-2001",
      "parallel": "A new communication technology was feared to crowd out real relationships, and an early study seemed to confirm it.",
-     "outcome": "The 1998 study of 93 Pittsburgh families found small but reliable drops in social involvement and well-being, but in the follow-up those effects faded, and later results showed benefits for extraverts and harm mainly for introverts and the less supported.",
+     "outcome": "The 1998 study of 93 Pittsburgh families found small but reliable negative social effects, with some users more lonely and depressed, but a three-year follow-up of the original 208 users found those effects faded, with better outcomes for extraverts and those with more support and worse outcomes for introverts and the less supported.",
      "ref": {
       "title": "Internet Paradox Revisited coverage (Carnegie Mellon News, 6 September 2001)",
       "url": "https://www.cmu.edu/cmnews/010906/010906_internet.html",
-      "finding": "The negative social effects seen in the original HomeNet sample faded over three years, with a rich get richer pattern by personality."
+      "finding": "A three-year follow-up of the original 208 HomeNet users found the negative effects dissipated, consistent with a rich get richer model by personality and social support."
      }
     },
     {
@@ -5431,17 +5478,22 @@
    "probability": 0.6,
    "year": 2028,
    "evidence": "projected",
-   "summary": "AI adds emissions through data centres: Google reported its emissions rose 48% since 2019, driven by data-centre energy[2]. The IEA says widespread AI applications could cut more emissions than data centres add, if adopted[1]. Which side wins is still open.",
+   "summary": "AI adds emissions through data centres: Google reported its 2023 emissions were 48% above 2019, mainly from data-centre energy use and supply-chain emissions[2], and its 2026 report put them 81% above 2019, driven mainly by supply-chain activity such as hardware manufacturing and data-centre construction[3]. The IEA says wider use of existing AI applications could cut emissions by far more than data centres add, though by far less than tackling climate change needs[1]. Which side wins is still open.",
    "refs": [
     {
-     "title": "IEA, Energy and AI 2025",
-     "url": "https://www.iea.org/reports/energy-and-ai",
-     "finding": "Widespread AI applications could cut emissions by more than data centres add, if adopted."
+     "title": "Energy and AI, Executive summary, IEA 2025",
+     "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+     "finding": "Widespread adoption of existing AI applications could bring emissions reductions far larger than emissions from data centres, but far smaller than what is needed to address climate change."
     },
     {
-     "title": "Google Environmental Report 2024",
+     "title": "Google 2024 Environmental Report",
      "url": "https://www.gstatic.com/gumdrop/sustainability/google-2024-environmental-report.pdf",
-     "finding": "Google's emissions rose 48% since 2019, driven by data-centre energy."
+     "finding": "Google's 2023 emissions were 48% above 2019 and 13% above 2022, primarily due to increases in data center energy consumption and supply chain emissions."
+    },
+    {
+     "title": "Google's emissions continue to climb due to AI buildout (ESG Dive, 2026)",
+     "url": "https://esgdive.com/news/googles-emissions-continue-to-climb-due-to-ai-buildout/824373",
+     "finding": "Google's July 2026 environmental report showed emissions up 18% year over year and 81% above its 2019 baseline, driven mainly by supply-chain activity; its electricity use rose 37%."
     }
    ],
    "theme": "world",
@@ -5450,21 +5502,21 @@
     {
      "limit": "data centre power growth",
      "kind": "infrastructure",
-     "evidence": "Data centre use may rise from 415 TWh in 2024 to 945 TWh by 2030.",
+     "evidence": "Data centre electricity use grew 17% in 2025 to 485 TWh and is projected to roughly double to 950 TWh by 2030.",
      "ref": {
-      "title": "Energy and AI, Executive summary, IEA 2025",
-      "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
-      "finding": "Data centre power use may rise from 415 TWh in 2024 to 945 TWh by 2030; existing AI uses could cut about 5% of energy emissions by 2035."
+      "title": "Key Questions on Energy and AI, Executive summary, IEA 2026",
+      "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+      "finding": "Global data centre electricity use grew 17% in 2025 and is projected to roughly double from 485 TWh in 2025 to 950 TWh in 2030."
      }
     },
     {
      "limit": "slow institutional adoption",
      "kind": "incentives",
-     "evidence": "IEA estimates existing AI uses could cut about 5% of energy emissions by 2035, only if broadly applied.",
+     "evidence": "The IEA's estimate that existing AI uses could cut about 5% of energy-related emissions in 2035 assumes widespread adoption, and it says barriers to adoption must be overcome first.",
      "ref": {
       "title": "Energy and AI, Executive summary, IEA 2025",
       "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
-      "finding": "Data centre power use may rise from 415 TWh in 2024 to 945 TWh by 2030; existing AI uses could cut about 5% of energy emissions by 2035."
+      "finding": "Widespread adoption of existing AI applications could cut emissions by around 5% of energy-related emissions in 2035; various barriers to AI adoption will need to be overcome to unlock these gains."
      }
     }
    ],
@@ -5474,11 +5526,11 @@
      "actor": "utilities and industry",
      "status": "tested",
      "counters": "slow institutional adoption",
-     "evidence": "Broad use of existing AI solutions could cut about 5% of energy-related emissions by 2035.",
+     "evidence": "Widespread use of existing AI applications could cut about 5% of energy-related emissions in 2035, and AI grid tools could unlock up to 175 GW of transmission capacity.",
      "ref": {
       "title": "Energy and AI, Executive summary, IEA 2025",
       "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
-      "finding": "Data centre power use may rise from 415 TWh in 2024 to 945 TWh by 2030; existing AI uses could cut about 5% of energy emissions by 2035."
+      "finding": "Widespread adoption of existing AI applications could cut emissions by around 5% of energy-related emissions in 2035; up to 175 GW of transmission capacity could be unlocked if AI grid tools are applied."
      }
     },
     {
@@ -5486,11 +5538,11 @@
      "actor": "chip makers",
      "status": "in force",
      "counters": "data centre power growth",
-     "evidence": "Hardware energy efficiency improved about 40% a year.",
+     "evidence": "At the hardware level, AI energy efficiency has improved about 40% a year.",
      "ref": {
       "title": "The 2025 AI Index Report, Stanford HAI",
       "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report",
-      "finding": "GPT-3.5-level inference cost fell over 280-fold in two years; fewer than half of US CS teachers feel equipped to teach AI."
+      "finding": "At the hardware level, costs have declined by 30% annually, while energy efficiency has improved by 40% each year."
      }
     }
    ],
@@ -5499,22 +5551,22 @@
      "event": "Internet-begins-with-coal electricity scare",
      "year": "1999-2001",
      "parallel": "A 1999 claim that internet equipment was eating a large and fast-growing share of US electricity mirrors today's projections that AI data centres will swamp the grid.",
-     "outcome": "LBNL measured office and network equipment at about 74 TWh a year, roughly 2% of US electricity (3% with telecom and manufacturing), against claims of 8% to 13%; correcting Mills' assumptions cut his estimate about eightfold, though AI training loads are denser than 1990s PCs.",
+     "outcome": "LBNL measured office and network equipment at about 74 TWh in 1999, roughly 2% of US electricity (3% with telephone switching and chip and computer manufacturing), against widely reported claims of 13% for that equipment and Mills' 8% for the Internet alone; correcting Mills' assumptions cut his estimate about eightfold, though AI training loads are denser than 1990s PCs.",
      "ref": {
-      "title": "Berkeley Lab studies refute claims of Internet energy consumption (LBNL, 2001)",
+      "title": "Internet Electricity Usage Study by Koomey Group (Berkeley Lab, 2001)",
       "url": "https://www2.lbl.gov/Science-Articles/Archive/net-energy-studies.html",
-      "finding": "Office and network equipment used about 2% of US electricity in 1999, not the 8% to 13% widely reported; Mills overestimated, in places more than tenfold."
+      "finding": "Office and network equipment used about 74 TWh, roughly 2% of US electricity, in 1999, against widely reported claims of 13%; adjusting Mills' assumptions cut his Internet total about eightfold, in places by more than an order of magnitude."
      }
     },
     {
      "event": "Data centre energy decoupling from demand",
      "year": "2010-2018",
      "parallel": "Forecasts that data centre energy would double or quadruple with demand resemble current AI energy extrapolations that ignore efficiency gains.",
-     "outcome": "Masanet and colleagues found global data centre energy use grew far more modestly than the doubling claimed, staying around 1% of world electricity because efficiency gains ran in parallel; this held before the AI build-out and says nothing about whether AI's optimisation benefits outweigh its load.",
+     "outcome": "Masanet and colleagues found global data centre energy use grew more modestly than the claimed doubling, at around 1% of world electricity, because efficiency gains offset demand growth; this held before the AI build-out and says nothing about whether AI's optimisation benefits outweigh its load.",
      "ref": {
-      "title": "Recalibrating global data center energy-use estimates (Science, 2020)",
+      "title": "Recalibrating global data center energy-use estimates (Masanet et al., Science, 2020)",
       "url": "https://www.science.org/doi/10.1126/science.aba3758",
-      "finding": "Simplistic extrapolations overlooked strong efficiency trends; new data suggest more modest growth in global data center energy use, at around 1% of worldwide electricity."
+      "finding": "Simplistic extrapolations from service demand overlooked strong countervailing efficiency trends; newer data suggest more modest growth in global data center energy use, estimated at around 1% of worldwide electricity."
      }
     }
    ]
@@ -5525,18 +5577,28 @@
    "valence": -3.81,
    "probability": 0.3,
    "year": 2027,
-   "evidence": "speculative",
-   "summary": "Anger at job loss and AI companies could turn into sabotage of robotaxis and data centres or attacks on people; one Pew survey found 51% of US adults more concerned than excited about AI[1]. Violent incidents, real or staged, could also justify wider surveillance and control.",
+   "evidence": "reported",
+   "summary": "Anger at job loss and AI companies could turn into sabotage of robotaxis and data centres or attacks on people; one Pew survey of 3,488 US adults in June 2026 found 52% more concerned than excited about AI, up from 37% in 2021, and 71% expecting fewer jobs over the next 20 years[1]. In April 2026 a man allegedly threw a Molotov cocktail at OpenAI chief executive Sam Altman's San Francisco home and threatened to burn OpenAI's headquarters, carrying a document about AI's risk to humanity[2], and days earlier 13 shots were fired into the front door of the home of an Indianapolis councillor who had backed a data centre, with a note reading \"NO DATA CENTERS\"[3]. CSIS still judges anti-AI terrorism rare, with no broader campaign begun[3]. Fear of such violence already feeds monitoring: a Philadelphia police intelligence bulletin listed \"disruptive First Amendment activity\" against AI data centres as a risk indicator for violent extremism[4].",
    "refs": [
     {
-     "title": "Pew Research Center, US public and AI experts, April 2025",
-     "url": "https://www.pewresearch.org/internet/2025/04/03/how-the-us-public-and-ai-experts-view-artificial-intelligence/",
-     "finding": "51% of US adults are more concerned than excited about AI, versus 15% of experts."
+     "title": "Pew Research Center (McClain and Park), Young adults in the U.S. are increasingly wary of AI, concerned it will take jobs, August 2026",
+     "url": "https://www.pewresearch.org/short-reads/2026/08/18/young-adults-in-the-us-are-increasingly-wary-of-ai/",
+     "finding": "In a June 22-28, 2026 survey of 3,488 US adults, 52% were more concerned than excited about AI, up from 37% in 2021, and 71% expected AI to mean fewer jobs over the next 20 years, up from 64% in 2024."
     },
     {
-     "title": "AI 2027 (main scenario)",
-     "url": "https://ai-2027.com/",
-     "finding": "OpenBrain net approval -35% in July 2027 after Agent-3-mini release."
+     "title": "Associated Press via NPR/VPM, Man accused in Molotov cocktail attack of OpenAI CEO's home charged with attempted murder, April 2026",
+     "url": "https://www.vpm.org/npr-news/2026-04-13/man-accused-in-molotov-cocktail-attack-of-openai-ceos-home-charged-with-attempted-murder",
+     "finding": "Daniel Moreno-Gama, 20, allegedly threw a Molotov cocktail at Sam Altman's San Francisco home and threatened to burn OpenAI's headquarters; a document he carried discussed AI's risk to humanity and \"our impending extinction\"; no one was hurt."
+    },
+    {
+     "title": "Byman and McCabe, Will AI Concerns Become a New Source of Terrorism? (CSIS), October 2026",
+     "url": "https://www.csis.org/analysis/will-ai-concerns-become-new-source-terrorism",
+     "finding": "On April 6, 2026, 13 rounds were fired into the home of an Indianapolis councilor who had backed a data center, with a note reading \"NO DATA CENTERS\"; terrorism motivated by opposition to AI remains rare and a broader campaign has not begun, but the threat would grow if attackers copied one another or opponents concluded peaceful politics cannot stop AI risks."
+    },
+    {
+     "title": "Sledge and Biddle, Philly Cops Admit That They're Tracking \"First Amendment Activity\" Critical of AI (The Intercept), June 2026",
+     "url": "https://theintercept.com/2026/06/01/ai-data-center-protest-police-surveillance/",
+     "finding": "A bulletin from a fusion center inside the Philadelphia Police Department named \"disruptive First Amendment activity\" against AI data centers as a risk indicator for domestic violent extremists, while acknowledging a lack of specific attack plans in the area."
     }
    ],
    "theme": "power",
@@ -5546,18 +5608,18 @@
     "productivity",
     "robotcare"
    ],
-   "control_note": "Job displacement comes with productivity gains, so some anger is likely. Sharing gains and giving people a say may lower the risk; evidence is indirect.",
+   "control_note": "Job displacement comes with productivity gains, so some anger is likely. Sharing gains and giving people a say may lower the risk; evidence is indirect, though CSIS warns the threat grows if opponents conclude peaceful politics cannot stop AI risks.",
    "actions": [
     {
      "action": "Fund retraining for workers displaced by automation",
      "actor": "governments",
      "status": "in force",
      "aim": "probability",
-     "evidence": "The EGF co-finances retraining after mass layoffs; it reports no reemployment rates and no study links it to reduced unrest.",
+     "evidence": "The EGF co-finances job search, training and allowances after layoffs of over 200 workers; final reports received in 2023-2024 showed 64% of 5,313 assisted workers back in work by the end of the measures, but no outcome on unrest is measured.",
      "ref": {
-      "title": "European Globalisation Adjustment Fund for Displaced Workers (EGF)",
-      "url": "https://employment-social-affairs.ec.europa.eu/policies-and-activities/funding/european-globalisation-adjustment-fund-displaced-workers-egf_en",
-      "finding": "The EGF funds job search, training and allowances for displaced workers."
+      "title": "European Commission, Report on the activities of the European Globalisation Adjustment Fund for Displaced Workers (EGF) in 2023 and 2024, COM(2025) 683 final",
+      "url": "https://data.consilium.europa.eu/doc/document/ST-15505-2025-INIT/en/pdf",
+      "finding": "Final reports showed that 64% of the 5,313 assisted workers had found new jobs by the end of the EGF implementation period."
      }
     },
     {
@@ -5565,35 +5627,35 @@
      "actor": "legislators",
      "status": "proposed",
      "aim": "probability",
-     "evidence": "Pew found most US adults want more control over AI in their lives and fear job loss more than experts do; whether control reduces violence is untested.",
+     "evidence": "In one 2024 Pew survey of 5,410 US adults, 55% wanted more control over how AI is used in their lives, and 64% expected fewer jobs over 20 years versus 39% of AI experts; whether more control reduces violence is untested.",
      "ref": {
       "title": "Pew Research Center, How the US Public and AI Experts View Artificial Intelligence, April 2025",
       "url": "https://www.pewresearch.org/internet/2025/04/03/how-the-us-public-and-ai-experts-view-artificial-intelligence/",
-      "finding": "The public is far more pessimistic than experts about AI and jobs."
+      "finding": "55% of US adults want more control over how AI is used in their lives; 64% of the public expect AI to lead to fewer jobs over the next 20 years, versus 39% of experts."
      }
     }
    ],
    "precedents": [
     {
      "event": "Luddite machine breaking",
-     "year": "1811-1816",
+     "year": "1811-1813",
      "parallel": "Textile workers who smashed the frames threatening their livelihoods match the risk of sabotage against robotaxis and data centres by people losing work to AI.",
-     "outcome": "Troops were sent to Nottinghamshire, Yorkshire and Lancashire, machine breaking was made a capital crime, and a York Special Commission in January 1813 hanged 17 men and transported others; the movement was crushed and mechanisation went ahead.",
+     "outcome": "Troops were sent to the affected areas, machine breaking was made a capital crime, and at a Special Commission in York in January 1813, 17 men were hanged and others transported to the British colonies.",
      "ref": {
       "title": "The proclamation of Ned Ludd (The National Archives, UK)",
       "url": "https://www.nationalarchives.gov.uk/explore-the-collection/stories/the-proclamation-of-ned-ludd/",
-      "finding": "Government responded with troops and made machine breaking a capital crime; 17 men were hanged at York in January 1813 and others transported."
+      "finding": "Disturbances began in Nottinghamshire in 1811 and spread to Yorkshire and Lancashire in 1812; troops were sent, machine breaking was made a capital crime, and 17 men were hanged at York in January 1813 while others were transported."
      }
     },
     {
      "event": "Swing riots against threshing machines",
      "year": "1830-1831",
      "parallel": "Farm labourers attacking labour-saving threshing machines show that automation-driven unrest is measurable and depends on whether displaced workers have other options.",
-     "outcome": "Parishes that adopted threshing machines saw significantly more riots, and rioting was lower where other jobs cushioned the shock and higher where enclosure had already impoverished workers; the riots were put down and did not stop mechanisation.",
+     "outcome": "Areas with more threshing machines saw more riots, and instrumental-variable estimates show the machines were an important cause; rioting was lower where other jobs softened the blow and higher where enclosure had already impoverished workers.",
      "ref": {
       "title": "Rage against the Machines: Labor-Saving Technology and Unrest in Industrializing England (Caprettini and Voth, AER: Insights, 2020)",
       "url": "https://www.aeaweb.org/articles?id=10.1257/aeri.20190385",
-      "finding": "Using soil type as an instrument, threshing machine adoption was a significant cause of Swing riots; outside job options reduced unrest and enclosure increased it."
+      "finding": "Instrumenting adoption with the share of heavy soils in a parish, threshing machines were an important cause of the Swing riots; alternative employment reduced unrest and enclosure amplified it."
      }
     }
    ]
@@ -5605,12 +5667,27 @@
    "probability": 0.85,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Knowing how to prompt, check and direct models is becoming a workplace skill, and the EU AI Act has required providers and deployers to ensure sufficient AI literacy among staff since February 2025[1].",
+   "summary": "Knowing how to prompt, check and direct models is becoming a workplace skill: in one series of nationally representative US surveys, 23% of employed respondents had used generative AI for work in the previous week by late 2024[4]. The EU AI Act has made staff AI literacy a legal duty for providers and deployers since 2 February 2025[2]; an amendment in force from 27 July 2026 recast it as taking measures to support that literacy, without requiring a particular level from any individual[1][3].",
    "refs": [
     {
-     "title": "EU AI Act, Article 4",
+     "title": "EU AI Act, Article 4: AI literacy (artificialintelligenceact.eu)",
      "url": "https://artificialintelligenceact.eu/article/4/",
-     "finding": "Providers and deployers must ensure sufficient AI literacy among their staff since Feb 2025."
+     "finding": "As amended, providers and deployers must take measures to support the AI literacy of their staff and others operating AI systems on their behalf; the obligation does not require a particular level of AI literacy from any individual."
+    },
+    {
+     "title": "AI Act, European Commission (Shaping Europe's digital future)",
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+     "finding": "Prohibited AI practices and AI literacy obligations entered into application from 2 February 2025."
+    },
+    {
+     "title": "The Digital Omnibus on AI enters into force today (Lewis Silkin, 27 July 2026)",
+     "url": "https://www.lewissilkin.com/insights/2026/07/27/the-digital-omnibus-on-ai-enters-into-force-today-102nedo",
+     "finding": "The Digital Omnibus on AI was published in the Official Journal on 24 July 2026 and entered into force on 27 July 2026; Article 4 now requires providers and deployers to take measures supporting AI literacy."
+    },
+    {
+     "title": "The Rapid Adoption of Generative AI (Bick, Blandin and Deming, NBER w32966)",
+     "url": "https://www.nber.org/papers/w32966",
+     "finding": "In nationally representative US surveys, nearly 40% of people aged 18 to 64 used generative AI by late 2024; 23% of employed respondents had used it for work in the previous week, 9% every work day, and it assisted 1% to 5% of all work hours."
     }
    ],
    "theme": "work",
@@ -5619,31 +5696,31 @@
     {
      "limit": "teachers not trained",
      "kind": "skills",
-     "evidence": "Fewer than half of US CS teachers feel equipped to teach AI.",
+     "evidence": "In the US, fewer than half of K-12 CS teachers feel equipped to teach AI.",
      "ref": {
       "title": "The 2025 AI Index Report, Stanford HAI",
       "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report",
-      "finding": "GPT-3.5-level inference cost fell over 280-fold in two years; fewer than half of US CS teachers feel equipped to teach AI."
+      "finding": "In the US, 81% of K-12 CS teachers say AI should be part of foundational CS education, but less than half feel equipped to teach it."
      }
     },
     {
      "limit": "poor connectivity",
      "kind": "infrastructure",
-     "evidence": "2.6 billion people are offline.",
+     "evidence": "2.2 billion people were offline in 2025, and only 23% of people in low-income countries use the internet.",
      "ref": {
-      "title": "ITU Facts and Figures 2024: Internet use",
-      "url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-internet-use/",
-      "finding": "2.6 billion people, a third of the world, are offline; only 27% use the internet in low-income countries."
+      "title": "Global number of Internet users increases, but disparities deepen key digital divides (ITU, 17 November 2025)",
+      "url": "https://www.itu.int/en/mediacentre/Pages/PR-2025-11-17-Facts-and-Figures.aspx",
+      "finding": "About 6 billion people use the internet in 2025 and 2.2 billion remain offline, against a revised 2.3 billion in 2024; only 23% are online in low-income countries."
      }
     },
     {
-     "limit": "unequal access to paid AI plans",
-     "kind": "cost",
-     "evidence": "AI is used in only 1% to 5% of work hours even where adoption is high.",
+     "limit": "little daily practice at work",
+     "kind": "other",
+     "evidence": "In one US survey series, only 9% of employed respondents used generative AI every work day in late 2024, and it assisted 1% to 5% of work hours.",
      "ref": {
-      "title": "The Rapid Adoption of Generative AI, NBER w32966",
+      "title": "The Rapid Adoption of Generative AI (Bick, Blandin and Deming, NBER w32966)",
       "url": "https://www.nber.org/papers/w32966",
-      "finding": "About 40% of US adults used generative AI by late 2024, but it assisted only 1% to 5% of work hours."
+      "finding": "In nationally representative US surveys, nearly 40% of people aged 18 to 64 used generative AI by late 2024; 23% of employed respondents had used it for work in the previous week, 9% every work day, and it assisted 1% to 5% of all work hours."
      }
     }
    ],
@@ -5652,12 +5729,12 @@
      "action": "Require AI literacy for staff",
      "actor": "EU",
      "status": "in force",
-     "counters": "teachers not trained",
-     "evidence": "Article 4 of the AI Act requires deployers to ensure staff AI literacy.",
+     "counters": "little daily practice at work",
+     "evidence": "Article 4 of the AI Act requires providers and deployers to take measures supporting their staff's AI literacy, though since July 2026 without requiring a particular level from any individual.",
      "ref": {
-      "title": "EU AI Act, Article 4: AI literacy",
+      "title": "EU AI Act, Article 4: AI literacy (artificialintelligenceact.eu)",
       "url": "https://artificialintelligenceact.eu/article/4/",
-      "finding": "Providers and deployers must ensure a sufficient level of AI literacy among staff who use AI."
+      "finding": "As amended, providers and deployers must take measures to support the AI literacy of their staff and others operating AI systems on their behalf; the obligation does not require them to guarantee any specific level of AI literacy of any individual."
      }
     },
     {
@@ -5665,11 +5742,11 @@
      "actor": "ministries of education",
      "status": "proposed",
      "counters": "teachers not trained",
-     "evidence": "81% of US CS teachers say AI belongs in foundational CS education.",
+     "evidence": "81% of US K-12 CS teachers say AI should be part of foundational CS education.",
      "ref": {
       "title": "The 2025 AI Index Report, Stanford HAI",
       "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report",
-      "finding": "GPT-3.5-level inference cost fell over 280-fold in two years; fewer than half of US CS teachers feel equipped to teach AI."
+      "finding": "In the US, 81% of K-12 CS teachers say AI should be part of foundational CS education, but less than half feel equipped to teach it."
      }
     }
    ],
@@ -5678,22 +5755,22 @@
      "event": "Computer skills become a wage premium",
      "year": "1984-1989",
      "parallel": "Knowing how to use a computer at work turned into a paid, then expected, skill, the way prompting and checking models may now.",
-     "outcome": "Workers using computers on the job earned 10% to 15% more, and spreading computer use explained between a third and a half of the 1980s rise in the return to education.",
+     "outcome": "In US survey data, workers using computers on the job earned roughly 10% to 15% more, and wider computer use could account for a third to a half of the 1980s rise in the return to education.",
      "ref": {
       "title": "How Computers Have Changed the Wage Structure: Evidence From Microdata, 1984-1989 (Krueger, NBER w3858, QJE 1993)",
       "url": "https://www.nber.org/papers/w3858",
-      "finding": "Workers who use computers at work earn a 10 to 15 percent higher wage; computer use explains one-third to one-half of the rise in the return to education."
+      "finding": "Workers who use computers on the job earn roughly a 10 to 15 percent higher wage; the expansion of computer use in the 1980s can account for one-third to one-half of the rise in the return to education."
      }
     },
     {
      "event": "Elementary Education Acts, England and Wales",
-     "year": "1870-1899",
-     "parallel": "A skill pushed by industrial demand became a legal duty, as AI literacy obligations are now appearing in law.",
-     "outcome": "The 1870 Act set up school boards nationally, the 1880 Act made attendance compulsory from five to ten, yet attendance was still only 82% in the early 1890s and fees lasted until 1891; mandates took decades to reach everyone.",
+     "year": "1870-1890s",
+     "parallel": "A basic skill became a legal duty, the way AI literacy obligations are now appearing in law.",
+     "outcome": "The 1870 Act for the first time required adequate provision for elementary education across the country and attendance from five to ten became compulsory in 1880, yet by the early 1890s only 82% of that age group attended regularly, as many children worked and families relied on their income; two decades on, the mandate still had not reached everyone.",
      "ref": {
-      "title": "The 1870 Education Act (UK Parliament, Living Heritage)",
-      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/livinglearning/school/overview/1870educationact/",
-      "finding": "Industrialists argued mass education was vital to manufacturing; compulsory attendance came in 1880 but attendance was 82% by the early 1890s."
+      "title": "Victorian Schooldays (University of Leicester Library, Special Collections)",
+      "url": "https://leicester.omeka.net/exhibits/show/victorianschooldays",
+      "finding": "The 1870 Education Act for the first time required adequate provision for elementary education; attendance from 5 to 10 became mandatory in 1880, but by the early 1890s only 82% of that group attended school regularly."
      }
     }
    ]
@@ -5705,30 +5782,35 @@
    "probability": 0.9,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Rules diverge by region. The EU passed the first comprehensive AI law, the AI Act, which phases in from 2025 to 2027[1].",
+   "summary": "Rules diverge by region. The EU's AI Act, which the European Commission calls the first comprehensive legal framework on AI, has applied in stages since February 2025, and a 2026 amendment pushed its high-risk rules back to December 2027 and August 2028[1]. In the US, a December 2025 executive order called the more than 1,000 state AI bills a patchwork and set up a task force to challenge state AI laws[2].",
    "refs": [
     {
-     "title": "Regulation (EU) 2024/1689, the AI Act",
-     "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
-     "finding": "The first comprehensive AI law, phasing in from 2025 to 2027."
+     "title": "AI Act, European Commission (Shaping Europe's digital future)",
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+     "finding": "The AI Act, the first-ever comprehensive legal framework on AI worldwide, entered into force on 1 August 2024; prohibitions and AI literacy applied from 2 February 2025, and the AI Omnibus, in force from 27 July 2026, moved Annex III high-risk rules to 2 December 2027 and Annex I rules to 2 August 2028."
+    },
+    {
+     "title": "Fact Sheet: President Donald J. Trump Ensures a National Policy Framework for Artificial Intelligence (White House, 11 December 2025)",
+     "url": "https://www.whitehouse.gov/fact-sheets/2025/12/fact-sheet-president-donald-j-trump-ensures-a-national-policy-framework-for-artificial-intelligence/",
+     "finding": "State legislatures have introduced over 1,000 AI bills, creating a patchwork of rules; the order sets up an AI Litigation Task Force to challenge state AI laws and calls for a national framework that would preempt them."
     }
    ],
    "theme": "power",
    "stage": "active",
    "control": "mitigable",
    "price_of": [],
-   "control_note": "Divergent rules come from different political systems and will not converge fully. Shared standards and treaties can narrow the gaps.",
+   "control_note": "Divergent rules come from different political systems: the EU legislates by risk tier while the US executive seeks to override state laws. Shared standards and treaties can narrow the gaps, but the main binding AI treaty is not yet in force.",
    "actions": [
     {
      "action": "Ratify a common binding AI treaty",
      "actor": "governments",
-     "status": "in force",
+     "status": "proposed",
      "aim": "probability",
-     "evidence": "The treaty is open to non-European states, but ratification is slow and its effect on convergence is not yet measured.",
+     "evidence": "Signatories include the US, UK, Canada, Japan and Israel, but only the EU has ratified, so the treaty is not yet in force and its effect on convergence is unmeasured.",
      "ref": {
-      "title": "Council of Europe, Framework Convention on Artificial Intelligence",
-      "url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
-      "finding": "The Council of Europe Framework Convention is the first binding international treaty on AI and human rights."
+      "title": "Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (Dutch government treaty database)",
+      "url": "https://verdragenbank.overheid.nl/en/Treaty/Details/013947_p.html",
+      "finding": "21 parties have signed since 5 September 2024, among them the US, UK, Canada, Japan and the EU; only the EU's ratification (15 May 2026) is recorded and no entry into force is listed."
      }
     },
     {
@@ -5736,11 +5818,11 @@
      "actor": "governments",
      "status": "in force",
      "aim": "probability",
-     "evidence": "47 countries adhere, yet the principles carry no enforcement, so evidence of real convergence is weak.",
+     "evidence": "The principles have 47 adherents, but no source here measures whether they made national rules converge.",
      "ref": {
       "title": "OECD AI Principles overview",
       "url": "https://oecd.ai/en/ai-principles",
-      "finding": "The OECD Recommendation on AI is the first intergovernmental standard on AI, with 47 adherents."
+      "finding": "The OECD Recommendation on AI, adopted in May 2019 and updated in May 2024, is the first intergovernmental standard on AI, with 47 adherents."
      }
     },
     {
@@ -5748,11 +5830,11 @@
      "actor": "companies",
      "status": "in force",
      "aim": "impact",
-     "evidence": "Using one voluntary framework lets firms meet several regimes with one process; uptake is not tracked.",
+     "evidence": "NIST says the voluntary framework is meant to align with others' AI risk efforts; it is being revised under the White House AI Action Plan, and NIST gives no uptake figures.",
      "ref": {
       "title": "NIST, AI Risk Management Framework",
       "url": "https://www.nist.gov/itl/ai-risk-management-framework",
-      "finding": "The NIST AI RMF is a voluntary framework for managing AI risk."
+      "finding": "The AI RMF 1.0, released on 26 January 2023, is intended for voluntary use and is being revised as part of the White House AI Action Plan."
      }
     }
    ],
@@ -5765,7 +5847,7 @@
      "ref": {
       "title": "CJEU Press Release No 91/20, Judgment in Case C-311/18 (Schrems II)",
       "url": "https://curia.europa.eu/jcms/upload/docs/application/pdf/2020-07/cp200091en.pdf",
-      "finding": "On 16 July 2020 the Court invalidated the EU-US Privacy Shield adequacy decision, after declaring Safe Harbour invalid in October 2015."
+      "finding": "On 16 July 2020 the Court invalidated the EU-US Privacy Shield adequacy decision and upheld the standard contractual clauses decision, after declaring the Safe Harbour decision invalid on 6 October 2015."
      }
     },
     {
@@ -5774,7 +5856,7 @@
      "parallel": "Without a federal law, each US state wrote its own breach notification rules, the same path US AI rules are taking state by state.",
      "outcome": "California passed the first law in 2002 and Alabama and South Dakota the last in 2018, giving 50 differing laws on deadlines, covered data, enforcement and credit monitoring.",
      "ref": {
-      "title": "State Data Breach Notification Laws: Overview of the Patchwork (Jackson Lewis, 2018)",
+      "title": "State Data Breach Notification Laws: Overview of the Patchwork (Lazzarotti and Gavejian, Jackson Lewis, 2018)",
       "url": "https://www.jacksonlewis.com/insights/state-data-breach-notification-laws-overview-patchwork",
       "finding": "All 50 states have breach notification laws after Alabama and South Dakota in March 2018; California's 2002 law was first, and deadlines, enforcement and covered data vary."
      }
@@ -5788,17 +5870,27 @@
    "probability": 0.9,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Most jobs may change in part rather than vanish: one study estimated about 80% of US workers have at least 10% of tasks exposed, and 19% half or more[1]. Anthropic's usage data splits between automation and augmentation, varying by occupation[2].",
+   "summary": "Most jobs may change in part rather than vanish: the ILO judges transformation the most likely effect of generative AI because most occupations include tasks that need human input[3]. One study estimated about 80% of US workers could have at least 10% of their tasks affected by language models, and 19% at least half[1]. In Anthropic's November 2025 Claude.ai data, 52% of conversations were classed as augmentation and 45% as automation[2]. In Denmark, linked survey and administrative records show chatbots creating new tasks but precise null effects on earnings and hours two years after ChatGPT's launch[4].",
    "refs": [
     {
      "title": "Eloundou et al., GPTs are GPTs 2023",
      "url": "https://arxiv.org/abs/2303.10130",
-     "finding": "About 80% of US workers have at least 10% of tasks exposed; 19% have half or more."
+     "finding": "Around 80% of the US workforce could have at least 10% of their work tasks affected by LLMs; about 19% may see at least 50% affected."
     },
     {
-     "title": "Anthropic Economic Index",
-     "url": "https://www.anthropic.com/economic-index",
-     "finding": "Usage splits between automation and augmentation, varying by occupation."
+     "title": "Anthropic Economic Index report: Economic primitives (Anthropic, January 2026)",
+     "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
+     "finding": "In November 2025 data, 52% of Claude.ai conversations were classed as augmented and 45% as automated, while about three-quarters of first-party API interactions were automation."
+    },
+    {
+     "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure, ILO 2025",
+     "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+     "finding": "One in four workers globally is in an occupation with some generative AI exposure; as most occupations consist of tasks that require human input, transformation of jobs is the most likely impact."
+    },
+    {
+     "title": "Humlum and Vestergaard, Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI, NBER w33777 (2025, revised 2026)",
+     "url": "https://www.nber.org/papers/w33777",
+     "finding": "In Denmark, most employers in exposed occupations adopted chatbot initiatives and new AI-related tasks were widespread, yet earnings and recorded hours showed precise null effects, ruling out effects larger than 2% two years after ChatGPT's launch."
     }
    ],
    "theme": "work",
@@ -5807,31 +5899,31 @@
     {
      "limit": "exposure uneven by income",
      "kind": "access",
-     "evidence": "Exposure is 11% of jobs in low-income countries and 34% in high-income ones.",
+     "evidence": "11% of total employment in low-income countries is in exposed occupations, versus 34% in high-income countries.",
      "ref": {
       "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure, ILO 2025",
       "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
-      "finding": "One in four workers is in an exposed occupation; exposure is 11% in low-income and 34% in high-income countries."
+      "finding": "One in four workers globally is in an occupation with some generative AI exposure; the share is 11% of total employment in low-income countries and 34% in high-income countries."
      }
     },
     {
      "limit": "women more exposed",
      "kind": "other",
-     "evidence": "In high-income countries 9.6% of female jobs are in the top exposure group versus 3.5% of male.",
+     "evidence": "Globally 4.7% of female employment is in the highest exposure gradient versus 2.4% of male, and in high-income countries the gap widens to 9.6% versus 3.5%.",
      "ref": {
       "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure, ILO 2025",
       "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
-      "finding": "One in four workers is in an exposed occupation; exposure is 11% in low-income and 34% in high-income countries."
+      "finding": "3.3% of global employment is in the highest exposure gradient, 4.7% of female and 2.4% of male employment; the gap rises to 9.6% versus 3.5% in high-income countries."
      }
     },
     {
-     "limit": "slow institutional adoption",
-     "kind": "incentives",
-     "evidence": "Only 1.8% of jobs have over half their tasks exposed with today's simple interfaces.",
+     "limit": "needs complementary software",
+     "kind": "infrastructure",
+     "evidence": "Only about 1.8% of jobs could have over half their tasks affected by LLMs with simple interfaces and general training.",
      "ref": {
-      "title": "GPTs are GPTs: Labor market impact potential of LLMs, Science 2024",
-      "url": "https://www.science.org/doi/10.1126/science.adj0998",
-      "finding": "About 1.8% of jobs have over half their tasks exposed today, rising to 46% with complementary software."
+      "title": "GPTs are GPTs: Labor market impact potential of LLMs (Eloundou, Manning, Mishkin and Rock, Science 2024), GovAI summary",
+      "url": "https://www.governance.ai/research-paper/gpts-are-gpts-labor-market-impact-potential-of-llms",
+      "finding": "Roughly 1.8% of jobs could have over half their tasks affected by LLMs with simple interfaces and general training, rising to just over 46% of jobs when current and likely future complementary software is counted."
      }
     }
    ],
@@ -5841,23 +5933,23 @@
      "actor": "governments and employers",
      "status": "proposed",
      "counters": "women more exposed",
-     "evidence": "ILO finds exposure concentrated in clerical jobs held more by women.",
+     "evidence": "The ILO finds clerical occupations the most exposed and women more exposed than men, and offers its index as a basis for targeted policy responses; it names no retraining scheme.",
      "ref": {
       "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure, ILO 2025",
       "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
-      "finding": "One in four workers is in an exposed occupation; exposure is 11% in low-income and 34% in high-income countries."
+      "finding": "Clerical occupations have the highest exposure; transformation of jobs is the most likely impact, and the index offers a foundation for social dialogue and targeted policy responses."
      }
     },
     {
      "action": "Build complementary software around models",
      "actor": "firms",
      "status": "in force",
-     "counters": "slow institutional adoption",
-     "evidence": "With complementary software, exposed jobs rise from 1.8% to 46%.",
+     "counters": "needs complementary software",
+     "evidence": "Counting current and likely future complementary software lifts the share of jobs with over half their tasks affected from about 1.8% to just over 46%.",
      "ref": {
-      "title": "GPTs are GPTs: Labor market impact potential of LLMs, Science 2024",
-      "url": "https://www.science.org/doi/10.1126/science.adj0998",
-      "finding": "About 1.8% of jobs have over half their tasks exposed today, rising to 46% with complementary software."
+      "title": "GPTs are GPTs: Labor market impact potential of LLMs (Eloundou, Manning, Mishkin and Rock, Science 2024), GovAI summary",
+      "url": "https://www.governance.ai/research-paper/gpts-are-gpts-labor-market-impact-potential-of-llms",
+      "finding": "Roughly 1.8% of jobs could have over half their tasks affected by LLMs with simple interfaces and general training, rising to just over 46% of jobs when current and likely future complementary software is counted."
      }
     }
    ],
@@ -5870,18 +5962,18 @@
      "ref": {
       "title": "Toil and Technology (James Bessen, IMF Finance and Development, March 2015)",
       "url": "https://www.imf.org/external/pubs/ft/fandd/2015/03/bessen.htm",
-      "finding": "Tellers per branch fell from 20 to 13 (1988 to 2004) while urban branches rose 43 percent; teller jobs did not decrease as ATMs spread."
+      "finding": "Tellers per branch in the average urban market fell from 20 to 13 between 1988 and 2004 while urban branches rose 43 percent; teller jobs did not decrease as ATMs were rolled out."
      }
     },
     {
      "event": "Computerisation shifts task content",
      "year": "1960-1998",
      "parallel": "Computers replaced routine tasks and complemented problem-solving ones inside the same jobs, the task-by-task reshaping expected from AI.",
-     "outcome": "Changes in task mix within nominally identical occupations explained more than half of the demand shift caused by computerisation, and within-industry task change explained 30% to 40% of the shift toward college labour from 1970 to 1998.",
+     "outcome": "Changes in task content within nominally identical occupations explained more than half of the demand shift induced by computerisation, and within-industry and within-occupation task changes together explained 30% to 40% of the shift toward college labour from 1970 to 1998.",
      "ref": {
-      "title": "The Skill Content of Recent Technological Change: An Empirical Exploration (Autor, Levy and Murnane, NBER w8337)",
+      "title": "The Skill Content of Recent Technological Change: An Empirical Exploration (Autor, Levy and Murnane, NBER w8337, 2001)",
       "url": "https://www.nber.org/papers/w8337",
-      "finding": "Computers substitute for routine tasks and complement non-routine ones; task change within occupations explains over half of the computer-induced demand shift."
+      "finding": "Computers substitute for routine tasks and complement non-routine ones; task change within nominally identical occupations explains more than half of the computer-induced demand shift."
      }
     }
    ]
@@ -5893,22 +5985,37 @@
    "probability": 0.6,
    "year": 2026,
    "evidence": "reported",
-   "summary": "Content credentials such as C2PA[1] and invisible watermarks such as SynthID[2] are spreading, but coverage is partial: SynthID marks only Google models' output[2]. One study showed pixel-level invisible watermarks can be removed with generative AI[3].",
+   "summary": "Content credentials such as C2PA[1] and invisible watermarks such as SynthID[2] are spreading: SynthID's detector checks media from Google and partners including OpenAI, NVIDIA and Kakao[2], and the EU AI Act requires machine-readable marking of generated output from 2 August 2026[4], with until 2 December 2026 for systems already on the market[5]. Marks are fragile: C2PA says metadata carrying credentials can be removed inadvertently or intentionally[6], and one study showed regeneration attacks remove pixel-level invisible watermarks[3].",
    "refs": [
     {
      "title": "C2PA, Coalition for Content Provenance and Authenticity",
      "url": "https://c2pa.org/",
-     "finding": "An open standard for signing the origin and edit history of media."
+     "finding": "An open technical standard, Content Credentials, for establishing the origin and edits of digital content."
     },
     {
      "title": "Google DeepMind, SynthID",
      "url": "https://deepmind.google/science/synthid/",
-     "finding": "Watermarks text, images, audio and video generated by Google models."
+     "finding": "Embeds invisible watermarks in AI-generated images, audio, text and video across Google's generative AI consumer products; the SynthID Detector checks media made with AI from Google or partners including OpenAI, NVIDIA and Kakao."
     },
     {
-     "title": "Zhao et al., Invisible Image Watermarks Are Provably Removable Using Generative AI 2023",
+     "title": "Zhao et al., Invisible Image Watermarks Are Provably Removable Using Generative AI (NeurIPS 2024)",
      "url": "https://arxiv.org/abs/2306.01953",
-     "finding": "Regeneration attacks that add noise and reconstruct the image remove pixel-level invisible watermarks."
+     "finding": "Regeneration attacks that add noise and reconstruct the image removed four pixel-level invisible watermarking schemes; the authors suggest semantic-preserving watermarks may resist them."
+    },
+    {
+     "title": "EU AI Act, Article 50: Transparency obligations",
+     "url": "https://artificialintelligenceact.eu/article/50/",
+     "finding": "Providers of systems generating synthetic audio, image, video or text must mark outputs in a machine-readable, detectable format, with robust solutions as far as technically feasible; applies from 2 August 2026 under Article 113."
+    },
+    {
+     "title": "EU AI Act, Article 111: AI systems already placed on the market (as amended by the Digital Omnibus on AI)",
+     "url": "https://artificialintelligenceact.eu/article/111/",
+     "finding": "Providers of generative AI systems placed on the market before 2 August 2026 must comply with Article 50(2) by 2 December 2026."
+    },
+    {
+     "title": "C2PA, Frequently Asked Questions",
+     "url": "https://c2pa.org/faqs/",
+     "finding": "Manifests can be separated from an asset because metadata can be removed inadvertently or intentionally; soft bindings such as invisible watermarks or fingerprints help rediscover them."
     }
    ],
    "theme": "ip",
@@ -5917,21 +6024,21 @@
     {
      "limit": "labels easy to strip",
      "kind": "quality",
-     "evidence": "Article 50 asks for robust marking only where technically feasible.",
+     "evidence": "C2PA says metadata carrying Content Credentials can be removed inadvertently or intentionally, so recovery depends on watermarks or fingerprints.",
      "ref": {
-      "title": "EU AI Act, Article 50: Transparency obligations",
-      "url": "https://artificialintelligenceact.eu/article/50/",
-      "finding": "Generative AI providers must mark outputs in a machine-readable, detectable way from 2 August 2026."
+      "title": "C2PA, Frequently Asked Questions",
+      "url": "https://c2pa.org/faqs/",
+      "finding": "Manifests can be separated from an asset because metadata can be removed inadvertently or intentionally; soft bindings such as invisible watermarks or fingerprints help rediscover them."
      }
     },
     {
      "limit": "partial coverage",
      "kind": "regulation",
-     "evidence": "C2PA is voluntary and depends on each platform keeping credentials.",
+     "evidence": "Article 50 asks for robust marking only as far as technically feasible and exempts AI that assists standard editing or does not substantially alter the input.",
      "ref": {
-      "title": "Coalition for Content Provenance and Authenticity",
-      "url": "https://c2pa.org/",
-      "finding": "An open standard, Content Credentials, records origin and edits of media; backed by Adobe, Google, Microsoft, OpenAI and others."
+      "title": "EU AI Act, Article 50: Transparency obligations",
+      "url": "https://artificialintelligenceact.eu/article/50/",
+      "finding": "Providers of systems generating synthetic audio, image, video or text must mark outputs in a machine-readable, detectable format, with robust solutions as far as technically feasible; applies from 2 August 2026 under Article 113."
      }
     }
    ],
@@ -5941,11 +6048,11 @@
      "actor": "EU",
      "status": "in force",
      "counters": "partial coverage",
-     "evidence": "AI Act Article 50 applies from 2 August 2026.",
+     "evidence": "AI Act Article 50(2) applies from 2 August 2026.",
      "ref": {
       "title": "EU AI Act, Article 50: Transparency obligations",
       "url": "https://artificialintelligenceact.eu/article/50/",
-      "finding": "Generative AI providers must mark outputs in a machine-readable, detectable way from 2 August 2026."
+      "finding": "Providers of systems generating synthetic audio, image, video or text must mark outputs in a machine-readable, detectable format, with robust solutions as far as technically feasible; applies from 2 August 2026 under Article 113."
      }
     },
     {
@@ -5953,11 +6060,11 @@
      "actor": "tech firms",
      "status": "in force",
      "counters": "labels easy to strip",
-     "evidence": "C2PA is backed by Adobe, Google, Microsoft, OpenAI and the BBC.",
+     "evidence": "The C2PA steering committee includes Adobe, Amazon, the BBC, Google, Meta, Microsoft, OpenAI, Sony and TikTok.",
      "ref": {
-      "title": "Coalition for Content Provenance and Authenticity",
-      "url": "https://c2pa.org/",
-      "finding": "An open standard, Content Credentials, records origin and edits of media; backed by Adobe, Google, Microsoft, OpenAI and others."
+      "title": "C2PA, Membership",
+      "url": "https://c2pa.org/membership/",
+      "finding": "The C2PA steering committee lists Adobe, Amazon, BBC, Google, Meta, Microsoft, OpenAI, Publicis Groupe, Sony, TikTok and Truepic."
      }
     }
    ],
@@ -5966,22 +6073,22 @@
      "event": "SDMI audio watermark challenge",
      "year": 2000,
      "parallel": "The music industry's invisible watermarks to mark protected audio are the direct ancestor of invisible AI-content watermarks.",
-     "outcome": "In a three-week public challenge, Princeton and Rice researchers defeated all four SDMI audio watermarking schemes, with some debate over audio damage.",
+     "outcome": "In a roughly three-week public challenge, Princeton and Rice researchers reported defeating all four SDMI audio watermarking schemes, with some debate left over whether their attacks damaged the audio.",
      "ref": {
       "title": "Reading Between the Lines: Lessons from the SDMI Challenge (Craver et al., USENIX Security 2001)",
       "url": "https://www.usenix.org/events/sec01/craver.pdf",
-      "finding": "We have defeated all four of their audio watermarking technologies, in a challenge run 15 September to 8 October 2000."
+      "finding": "The authors defeated all four SDMI audio watermarking technologies in a challenge run 15 September to 8 October 2000; some debate remained over whether the attacks damaged the audio beyond golden-ear standards."
      }
     },
     {
      "event": "Extended Validation browser indicators",
      "year": 2007,
      "parallel": "The green address bar promised users a visible trust label for real sites, as content credentials promise one for real media.",
-     "outcome": "In a controlled study of 27 users classifying 12 sites, EV indicators did not help anyone identify phishing attacks, and reading the help file made users trust fake sites more. Small sample.",
+     "outcome": "In a controlled study of 27 users classifying 12 sites, EV indicators did not help users identify either phishing attack, and reading the browser help file made users more likely to judge both real and fake sites legitimate. Small sample.",
      "ref": {
       "title": "An Evaluation of Extended Validation and Picture-in-Picture Phishing Attacks (Jackson, Simon, Tan and Barth, Usable Security 2007)",
       "url": "https://microsoft.com/en-us/research/wp-content/uploads/2016/02/usec2007-evandpip.pdf",
-      "finding": "Extended validation did not help users identify either attack; the help file made users more likely to classify both real and fake sites as legitimate."
+      "finding": "Extended validation did not help users identify either attack; reading the help file made users more likely to classify both real and fake sites as legitimate when no phishing warning appeared."
      }
     }
    ]
@@ -14615,7 +14722,7 @@
    "source": "regulation",
    "target": "literacy",
    "kind": "leads",
-   "why": "The EU AI Act obliges providers and deployers to ensure staff AI literacy, turning a useful skill into a legal requirement."
+   "why": "The EU AI Act requires providers and deployers to take measures supporting staff AI literacy, turning a useful skill into a legal duty."
   },
   {
    "source": "openweights",
@@ -15725,13 +15832,13 @@
    "source": "backlash",
    "target": "surveillance",
    "kind": "leads",
-   "why": "Violent incidents against AI, real or staged, give authorities a pretext to expand automated monitoring and control."
+   "why": "Police have already listed protest against AI data centres as an extremism risk indicator, so backlash can be used to justify more monitoring of opponents."
   },
   {
    "source": "backlash",
    "target": "concentration",
    "kind": "leads",
-   "why": "Violent incidents, real or staged, give authorities a pretext to expand surveillance and control, concentrating power further in few hands."
+   "why": "Security responses to attacks and protests against AI can widen surveillance and control, concentrating power further in few hands."
   },
   {
    "source": "aibubble",
@@ -16386,6 +16493,42 @@
    "target": "insecurecode",
    "kind": "twin",
    "why": "Both are security holes that come built into AI-assisted systems themselves, rather than from attackers gaining new skills."
+  },
+  {
+   "source": "aigeopolitics",
+   "target": "aidivide",
+   "kind": "leads",
+   "why": "The 2025 diffusion rule capped advanced chips for most countries outside a list of 19 destinations, limiting the compute most developing countries could buy."
+  },
+  {
+   "source": "backdoors",
+   "target": "deceptivemisalign",
+   "kind": "twin",
+   "why": "Sleeper Agents used deliberately trained backdoors to study whether a deceptive AI could be fixed by safety training, and the hidden behaviour persisted, so a planted trojan and a model that turns deceptive on its own defeat the same checks."
+  },
+  {
+   "source": "energy",
+   "target": "backlash",
+   "kind": "leads",
+   "why": "Local objections to data centres' water and power demands preceded the April 2026 shooting at the home of an Indianapolis councillor who backed one, which left a note reading \"NO DATA CENTERS\"."
+  },
+  {
+   "source": "youthangst",
+   "target": "backlash",
+   "kind": "leads",
+   "why": "CSIS reports that the belief that AI threatens human survival sustains a growing movement, and a 20-year-old attacked Sam Altman's home in April 2026 because he believed AI would destroy humanity."
+  },
+  {
+   "source": "regulation",
+   "target": "labels",
+   "kind": "leads",
+   "why": "The EU AI Act's Article 50 requires providers of systems that generate synthetic content to mark their output in a machine-readable format, pushing watermarks and content credentials."
+  },
+  {
+   "source": "regulation",
+   "target": "ncii",
+   "kind": "counters",
+   "why": "The 2026 AI Omnibus adds an EU ban on AI systems that generate non-consensual sexually explicit content or child abuse material, including nudification apps, from December 2026."
   }
  ],
  "themes": {
