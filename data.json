@@ -8614,17 +8614,17 @@
    "probability": 0.25,
    "year": 2035,
    "evidence": "speculative",
-   "summary": "Advocacy groups warn that if AI companions substitute for human partners, fewer couples could form and birth rates fall further[1][2]; one argues AI productivity could also ease the cost of children[1]. No population-level study shows this yet.",
+   "summary": "Two US think tanks warn that if AI companions draw young people away from dating and marriage, fewer couples could form and birth rates could fall further[1][2]; one also expects AI to weaken young adults' job prospects and doubts robots can ease childcare soon[1]. No population-level study shows this yet.",
    "theme": "mind",
    "stage": "expected",
    "refs": [
     {
-     "title": "Institute for Family Studies, AI and fertility",
+     "title": "What Will Artificial Intelligence Do to Birthrates? (Dan Hess, Institute for Family Studies, 2026)",
      "url": "https://ifstudies.org/blog/what-will-artificial-intelligence-do-to-birthrates",
-     "finding": "Argues AI companions could reduce pairing while AI productivity could also ease the cost of children."
+     "finding": "Argues AI will more likely lower than raise birthrates, through weaker job prospects for young adults and AI companions pulling people out of dating and marriage; it doubts robots can soon substitute for human childcare."
     },
     {
-     "title": "Ethics and Public Policy Center, Fertility Report 2026",
+     "title": "The Impacts of Digital Technology on Human Relationships: How Smartphones, Social Media, Pornography, and AI Chatbots Threaten Sex, Marriage, and Fertility (Morell and Lawrence, Ethics and Public Policy Center, 2026)",
      "url": "https://media.eppc.org/2026/05/Fertility-Report.pdf",
      "finding": "Warns AI companions threaten to deepen declines in sex, marriage and fertility; an advocacy report, not causal research."
     }
@@ -8633,54 +8633,54 @@
    "price_of": [
     "companionship"
    ],
-   "control_note": "The link is speculative and births fall for many reasons. Only general family policy, with modest measured effects, works against it.",
+   "control_note": "The link is speculative and births fall for many reasons. Only general family policy works against it, and a review of quasi-experiments found childcare and universal child transfers do the most to raise fertility.",
    "actions": [
     {
      "action": "Expand public childcare",
      "actor": "governments",
      "status": "in force",
      "aim": "impact",
-     "evidence": "Quasi-experiments find childcare and universal transfers raise fertility most, but effects are modest.",
+     "evidence": "A review of 57 (quasi)experimental studies from Europe, the US, Canada and Australia found childcare and universal transfers have the most positive effects on fertility.",
      "ref": {
-      "title": "Bergsvik, Fauske and Hart, Effects of policy on fertility: a systematic review of (quasi)experiments, Statistics Norway DP 922, 2020",
+      "title": "Effects of policy on fertility: a systematic review of (quasi)experiments (Bergsvik, Fauske and Hart, Statistics Norway Discussion Paper 922, 2020)",
       "url": "https://swopec.hhs.se/dispap/abs/dispap922.htm",
-      "finding": "A review of quasi-experiments found childcare and universal transfers have the most positive effects on fertility."
+      "finding": "A review of 57 published and working papers with (quasi)experimental designs found childcare and universal transfers have the most positive effects on fertility; parental leave showed few effects."
      }
     },
     {
-     "action": "Limit companion bots for minors",
+     "action": "Require safeguards on companion bots for minors",
      "actor": "legislators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "Targets early habits; no evidence on partnering or births.",
+     "evidence": "California's law has applied since January 2026 and targets early habits; there is no evidence on partnering or births.",
      "ref": {
-      "title": "California SB 243, Companion chatbots",
-      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB243",
-      "finding": "SB 243 adds protections for minors using companion chatbots."
+      "title": "First-in-the-Nation AI Chatbot Safeguards Signed into Law (Office of Senator Steve Padilla, California Senate, 2025)",
+      "url": "https://sd18.senate.ca.gov/node/359",
+      "finding": "SB 243, signed on 13 October 2025 and in force from 1 January 2026, requires companion chatbots to block sexual content for minors, remind minors they are talking to an AI, and follow self-harm protocols."
      }
     }
    ],
    "precedents": [
     {
      "event": "Telenovelas reach Brazilian homes",
-     "year": 2012,
-     "parallel": "A new screen medium offering appealing models of small families and private life changed how people formed families, much as AI partners might reshape partnering.",
-     "outcome": "Women in areas reached by the Globo network had significantly lower fertility, most strongly among poorer women; the mechanism was changed aspirations, not substitution of a screen for a partner, so it shows media can move birth rates without showing AI will.",
+     "year": "1970-1991",
+     "parallel": "A new screen medium portraying small families and private life changed family size, much as AI partners might reshape partnering.",
+     "outcome": "Women in areas reached by the Globo network had significantly lower fertility, most strongly among women of lower socioeconomic status, and children's names and novela content point to the soap operas rather than TV access alone; it shows media can move birth rates, not that AI partners will.",
      "ref": {
-      "title": "Soap Operas and Fertility: Evidence from Brazil (La Ferrara, Chong, Duryea, AEJ: Applied 2012)",
+      "title": "Soap Operas and Fertility: Evidence from Brazil (La Ferrara, Chong and Duryea, American Economic Journal: Applied Economics, 2012)",
       "url": "https://www.aeaweb.org/articles?id=10.1257/app.4.4.1",
-      "finding": "Women living in areas covered by Globo have significantly lower fertility, especially women of lower socioeconomic status."
+      "finding": "Using census data for 1970-1991, women living in areas covered by Globo have significantly lower fertility, especially women of lower socioeconomic status."
      }
     },
     {
      "event": "Cable TV arrives in rural India",
-     "year": 2007,
+     "year": "2001-2003",
      "parallel": "Exposure to a new medium shifted household attitudes and family size in a few years, a measured case of technology reaching into reproductive decisions.",
      "outcome": "Cable arrival was followed by more female autonomy, more girls in school and lower fertility, mostly through longer gaps between births; the effect ran through women's status, a different and largely welcome channel than AI substituting for partners.",
      "ref": {
-      "title": "The Power of TV: Cable Television and Women's Status in India (Jensen and Oster, NBER w13305, QJE 2009)",
+      "title": "The Power of TV: Cable Television and Women's Status in India (Jensen and Oster, NBER Working Paper 13305, 2007; QJE 2009)",
       "url": "https://www.nber.org/papers/w13305",
-      "finding": "Introduction of cable TV is associated with higher female autonomy and school enrollment and declining fertility, mainly via increased birth spacing."
+      "finding": "In a 2001-2003 panel of rural Indian households, cable TV's introduction is associated with higher female autonomy and school enrollment and lower fertility, mainly via increased birth spacing."
      }
     }
    ]
@@ -8692,27 +8692,27 @@
    "probability": 0.5,
    "year": 2030,
    "evidence": "projected",
-   "summary": "AI that can control bodies could extend automation from desks to construction, warehouses, farms and care work; Morgan Stanley projects 8 million US humanoids by 2040, affecting $357 billion in wages[1].",
+   "summary": "AI that can control bodies could extend automation from desks to construction, warehouses, farms and care work; Morgan Stanley projected in 2024 that the US could have 8 million working humanoids by 2040, with a $357 billion impact on wages[1].",
    "theme": "work",
    "stage": "expected",
    "refs": [
     {
-     "title": "Morgan Stanley, Humanoid robot market outlook",
+     "title": "Could AI Robots Help Fill the Labor Gap? (Morgan Stanley, 2024)",
      "url": "https://morganstanley.com/ideas/humanoid-robot-market-outlook-2024",
-     "finding": "Projects 8 million US humanoids by 2040 affecting $357 billion in wages, and 63 million by 2050 touching 75% of occupations."
+     "finding": "Projects 8 million working humanoid robots in the US by 2040 with a $357 billion wage impact, and 63 million by 2050, potentially affecting 75% of occupations and 40% of employees."
     },
     {
-     "title": "AI 2027: slowdown ending",
+     "title": "AI 2027, Slowdown ending (AI Futures Project, 2025)",
      "url": "https://ai-2027.com/slowdown",
-     "finding": "Robots match most human dexterity by mid 2028 in the scenario."
+     "finding": "In the scenario, new robots match or exceed human dexterity for most movement types by May 2028, and most are built for factories and construction sites."
     },
     {
-     "title": "AI 2027 takeoff forecast",
+     "title": "AI 2027, Takeoff Forecast (Kokotajlo and Lifland, AI Futures Project, 2025)",
      "url": "https://ai-2027.com/research/takeoff-forecast",
      "finding": "Median about one year from superhuman coder to superintelligence, with wide error margins."
     },
     {
-     "title": "AI Futures Project, Q2.5 2026 Timelines Update",
+     "title": "Q2.5 2026 Timelines Update: Uplift and Revenue (Lifland, Kokotajlo and Halstead, AI Futures Project, 2026)",
      "url": "https://blog.aifutures.org/p/q25-2026-timelines-update-uplift",
      "finding": "August 2026 superintelligence medians: Kokotajlo March 2029, Lifland July 2033."
     }
@@ -8729,11 +8729,11 @@
      "actor": "governments",
      "status": "tested",
      "aim": "impact",
-     "evidence": "US trade-displaced workers gained about $50,000 over ten years, though yearly gains faded.",
+     "evidence": "US trade-displaced workers approved for Trade Adjustment Assistance earned about $50,000 more over ten years, though yearly gains faded.",
      "ref": {
-      "title": "Hyman, Can Displaced Labor Be Retrained? Census CES-WP-22-05, 2022",
+      "title": "Can Displaced Labor Be Retrained? Evidence from Quasi-Random Assignment to Trade Adjustment Assistance (Benjamin Hyman, US Census Bureau CES Working Paper 22-05, 2022)",
       "url": "https://www.census.gov/library/working-papers/2022/adrm/CES-WP-22-05.html",
-      "finding": "TAA approval raised cumulative earnings by about $50,000 ten years out."
+      "finding": "TAA approval raised cumulative earnings by about $50,000 ten years out, while annual gains faded fully over the same period."
      }
     }
    ],
@@ -8744,7 +8744,7 @@
      "parallel": "Programmable machines took over physical production tasks in manufacturing, the closest measured case of robots displacing manual labour.",
      "outcome": "Each extra robot per thousand workers cut the local employment-to-population ratio by about 0.18 to 0.34 points and wages by 0.25 to 0.5 percent; these were fixed-task arms in factories, not general-purpose humanoids.",
      "ref": {
-      "title": "Robots and Jobs: Evidence from US Labor Markets (Acemoglu and Restrepo, NBER w23285)",
+      "title": "Robots and Jobs: Evidence from US Labor Markets (Acemoglu and Restrepo, NBER Working Paper 23285, 2017; Journal of Political Economy 2020)",
       "url": "https://www.nber.org/papers/w23285",
       "finding": "One more robot per thousand workers reduces the employment-to-population ratio by about 0.18-0.34 percentage points and wages by 0.25-0.5 percent."
      }
@@ -8752,12 +8752,12 @@
     {
      "event": "Robots in German manufacturing",
      "year": "1994-2014",
-     "parallel": "The same robot wave in a country with strong unions and training shows how the displacement can be absorbed rather than simply lost.",
-     "outcome": "Manufacturing job losses from robots were fully offset by new service jobs, but the cost fell on young entrants who never got factory jobs, so aggregate stability hid a generational shift.",
+     "parallel": "The same robot wave in Germany shows how the displacement can be absorbed rather than simply lost.",
+     "outcome": "Manufacturing job losses from robots were fully offset by new service jobs and incumbent workers mostly moved to new tasks in their original plants, but the cost fell on young entrants who never got factory jobs, so aggregate stability hid a generational shift.",
      "ref": {
-      "title": "The Adjustment of Labor Markets to Robots (Dauth, Findeisen, Suedekum, Woessner, JEEA 2021)",
+      "title": "The Adjustment of Labor Markets to Robots (Dauth, Findeisen, Suedekum and Woessner, Journal of the European Economic Association, 2021)",
       "url": "https://kops.uni-konstanz.de/handle/123456789/53615",
-      "finding": "Robot exposure causes displacement in manufacturing that is fully offset by new jobs in services; young labour-market entrants bear most of the impact."
+      "finding": "Robot exposure causes displacement in manufacturing that is fully offset by new jobs in services; young labour-market entrants bear most of the impact, while incumbents take on new tasks in their original plants."
      }
     },
     {
@@ -8766,7 +8766,7 @@
      "parallel": "Tractors, harvesters and other machines took over outdoor physical labour across a whole sector, the scale humanoid robots would need to reach in construction, warehouses and farms.",
      "outcome": "Self-employed and family farmworkers fell from 7.60 million to 2.06 million and hired farmworkers from 2.33 million to 1.13 million, a decline spread over half a century rather than a few years.",
      "ref": {
-      "title": "USDA Economic Research Service: Farm Labor",
+      "title": "Farm Labor (USDA Economic Research Service)",
       "url": "https://www.ers.usda.gov/topics/farm-economy/farm-labor",
       "finding": "Self-employed and family farmworkers declined from 7.60 million in 1950 to 2.06 million in 2000; hired workers from 2.33 million to 1.13 million."
      }
@@ -8780,55 +8780,60 @@
    "probability": 0.45,
    "year": 2031,
    "evidence": "projected",
-   "summary": "In ageing societies, robots could take on dangerous, dull and care work there are not enough people to do; Goldman Sachs expects humanoids to fill 2% of global elderly-care demand by 2035[1].",
+   "summary": "In ageing societies, robots could take on dangerous, dull and care work there are not enough people to do; Goldman Sachs projected in 2022 that humanoids could fill 2% of global elderly-care demand by 2035[1]. Japan's public push points the other way so far: by 2019 about 10% of over 9,000 elder-care facilities had introduced any care robot, and robots tended to create more work for caregivers[4].",
    "theme": "work",
    "stage": "expected",
    "refs": [
     {
-     "title": "Goldman Sachs, Humanoid robot: the AI accelerant",
+     "title": "Humanoid robot: The AI accelerant (Goldman Sachs Research, 2022)",
      "url": "https://www.goldmansachs.com/insights/goldman-sachs-research/global-automation-humanoid-robot-the-ai-accelerant",
-     "finding": "Expects humanoids to fill 4% of the US manufacturing labour gap by 2030 and 2% of global elderly-care demand by 2035."
+     "finding": "Base case expects humanoids to fill 4% of the US manufacturing labour gap by 2030 and 2% of global elderly-care demand by 2035."
     },
     {
-     "title": "AI 2027 takeoff forecast",
+     "title": "AI 2027, Takeoff Forecast (Kokotajlo and Lifland, AI Futures Project, 2025)",
      "url": "https://ai-2027.com/research/takeoff-forecast",
      "finding": "Median about one year from superhuman coder to superintelligence, with wide error margins."
     },
     {
-     "title": "AI Futures Project, Q2.5 2026 Timelines Update",
+     "title": "Q2.5 2026 Timelines Update: Uplift and Revenue (Lifland, Kokotajlo and Halstead, AI Futures Project, 2026)",
      "url": "https://blog.aifutures.org/p/q25-2026-timelines-update-uplift",
      "finding": "August 2026 superintelligence medians: Kokotajlo March 2029, Lifland July 2033."
+    },
+    {
+     "title": "Inside Japan's long experiment in automating elder care (James Wright, MIT Technology Review, 2023)",
+     "url": "https://www.technologyreview.com/2023/01/09/1065135/japan-automating-eldercare-robots/",
+     "finding": "Japan spent well over $300 million on care robot R&D by 2018, yet a 2019 national survey of over 9,000 elder-care facilities found about 10% had introduced any care robot; robots tend to create more work for caregivers."
     }
    ],
    "limiters": [
     {
      "limit": "Robots add work instead of replacing it",
      "kind": "quality",
-     "evidence": "Ethnographic fieldwork in a Japanese care home trialling three robots questions whether they ease the care shortage, despite large public spending.",
+     "evidence": "In a Japanese care home trialling robots, staff stopped using a lifting robot after a few days and a humanoid after a few weeks; the researcher concludes the machines failed to save labour.",
      "ref": {
-      "title": "Are robots the solution to Japan's care crisis? (Oxford Internet Institute, 2023)",
-      "url": "https://www.oii.ox.ac.uk/news-events/videos/are-robots-the-solution-to-japans-care-crisis/",
-      "finding": "James Wright's ethnography questions robots as a fix for elder care shortages after a decade of investment."
+      "title": "Inside Japan's long experiment in automating elder care (James Wright, MIT Technology Review, 2023)",
+      "url": "https://www.technologyreview.com/2023/01/09/1065135/japan-automating-eldercare-robots/",
+      "finding": "Staff stopped using the Hug lifting robot after only a few days and Pepper's use declined after a few weeks; robots tend to end up creating more work for caregivers."
      }
     },
     {
      "limit": "High purchase cost for care homes",
      "kind": "cost",
-     "evidence": "Adoption in Japanese nursing homes tracked regional robot subsidies, which suggests cost is a binding constraint without public money.",
+     "evidence": "Care robots are generally expensive to buy or lease even with government subsidies, and their prices make them hard to afford at small scale.",
      "ref": {
-      "title": "Robots and Labor in the Service Sector: Evidence from Nursing Homes (NBER Working Paper 28322, 2021)",
-      "url": "https://www.nber.org/papers/w28322",
-      "finding": "Uses geographic variation in robot subsidies as an instrument for adoption."
+      "title": "Inside Japan's long experiment in automating elder care (James Wright, MIT Technology Review, 2023)",
+      "url": "https://www.technologyreview.com/2023/01/09/1065135/japan-automating-eldercare-robots/",
+      "finding": "Care robots are generally expensive to buy or lease even with government subsidies; larger, standardised facilities would be needed for economies of scale."
      }
     },
     {
      "limit": "slow institutional adoption",
      "kind": "incentives",
-     "evidence": "Care robots have been promoted in Japan for over a decade yet remain a small part of daily care work.",
+     "evidence": "Despite well over $300 million in national spending by 2018, about 10% of over 9,000 Japanese elder-care facilities had introduced any care robot by 2019.",
      "ref": {
-      "title": "Are robots the solution to Japan's care crisis? (Oxford Internet Institute, 2023)",
-      "url": "https://www.oii.ox.ac.uk/news-events/videos/are-robots-the-solution-to-japans-care-crisis/",
-      "finding": "Large sums invested in development and implementation over the past decade."
+      "title": "Inside Japan's long experiment in automating elder care (James Wright, MIT Technology Review, 2023)",
+      "url": "https://www.technologyreview.com/2023/01/09/1065135/japan-automating-eldercare-robots/",
+      "finding": "A 2019 national survey of over 9,000 elder-care institutions found about 10% had introduced any care robot."
      }
     }
    ],
@@ -8838,23 +8843,23 @@
      "actor": "Governments",
      "status": "in force",
      "counters": "High purchase cost for care homes",
-     "evidence": "Japanese homes that adopted robots with subsidy support employed more care workers and nurses and had less trouble retaining staff.",
+     "evidence": "In Japanese nursing homes, robot adoption, using regional subsidies as an instrument, raised employment of care workers and nurses on flexible contracts and eased staff retention.",
      "ref": {
-      "title": "Robots and Labor in the Service Sector: Evidence from Nursing Homes (NBER Working Paper 28322, 2021)",
+      "title": "Robots and Labor in the Service Sector: Evidence from Nursing Homes (Eggleston, Lee and Iizuka, NBER Working Paper 28322, 2021)",
       "url": "https://www.nber.org/papers/w28322",
-      "finding": "Robot adoption increased employment on flexible contracts and reduced staff retention difficulty."
+      "finding": "Using geographic variation in robot subsidies as an instrument, robot adoption increased employment of care workers and nurses on flexible contracts and reduced staff retention difficulty."
      }
     },
     {
-     "action": "Design robots with care staff in trials",
+     "action": "Design robots with carers and residents",
      "actor": "Developers and care homes",
-     "status": "tested",
+     "status": "proposed",
      "counters": "Robots add work instead of replacing it",
-     "evidence": "Six-week trials in a working care home exposed practical failures that lab testing missed.",
+     "evidence": "After fieldwork in a Japanese care home where staff dropped robots that did not fit their routines, the researcher calls for development with the active involvement of carers and the people they care for.",
      "ref": {
-      "title": "Are robots the solution to Japan's care crisis? (Oxford Internet Institute, 2023)",
-      "url": "https://www.oii.ox.ac.uk/news-events/videos/are-robots-the-solution-to-japans-care-crisis/",
-      "finding": "Fieldwork followed an elder care home introducing three different care robots."
+      "title": "Inside Japan's long experiment in automating elder care (James Wright, MIT Technology Review, 2023)",
+      "url": "https://www.technologyreview.com/2023/01/09/1065135/japan-automating-eldercare-robots/",
+      "finding": "Recommends developing care technology with the active involvement of the people being cared for as well as the people caring for them."
      }
     }
    ],
@@ -8863,20 +8868,20 @@
      "event": "Japan's national care robot push",
      "year": "2010-2019",
      "parallel": "An ageing country bet public money on robots to cover a shortage of care workers, the exact scenario this consequence describes.",
-     "outcome": "The national government spent well over $300 million by 2018, yet a 2019 survey of over 9,000 care facilities found only about 10 percent had introduced any care robot, and robots often created more work for caregivers.",
+     "outcome": "The national government spent well over $300 million on care robot research and development by 2018, yet a 2019 national survey of over 9,000 elder-care facilities found about 10 percent had introduced any care robot, and a growing body of evidence suggests robots tend to create more work for caregivers.",
      "ref": {
       "title": "Inside Japan's long experiment in automating elder care (James Wright, MIT Technology Review, 2023)",
       "url": "https://www.technologyreview.com/2023/01/09/1065135/japan-automating-eldercare-robots/",
-      "finding": "Over $300 million in government spending by 2018; about 10% of 9,000+ facilities reported introducing any care robot; robots tend to create more work for caregivers."
+      "finding": "Well over $300 million in national R&D spending by 2018; about 10% of over 9,000 facilities reported introducing any care robot; robots tend to create more work for caregivers."
      }
     },
     {
      "event": "Robot subsidies in Japanese nursing homes",
      "year": 2021,
      "parallel": "Where care robots were actually adopted, the effect on staffing shows whether robots replace or support scarce carers.",
-     "outcome": "Robot adoption raised employment of care workers and nurses on flexible contracts and eased staff retention, while monthly wages of regular nurses fell; the effect sizes are not in the abstract.",
+     "outcome": "Robot adoption raised employment of care workers and nurses on flexible contracts and eased staff retention, while monthly wages of regular nurses fell.",
      "ref": {
-      "title": "Robots and Labor in the Service Sector: Evidence from Nursing Homes (Eggleston, Lee, Iizuka, NBER w28322)",
+      "title": "Robots and Labor in the Service Sector: Evidence from Nursing Homes (Eggleston, Lee and Iizuka, NBER Working Paper 28322, 2021)",
       "url": "https://www.nber.org/papers/w28322",
       "finding": "Robot adoption increases employment of care workers and nurses, eases retention and lowers regular nurses' monthly wages."
      }
@@ -8885,9 +8890,9 @@
      "event": "Mississippi flood drives farm mechanisation",
      "year": "1927-1970",
      "parallel": "A sudden labour shortage pushed employers to substitute machines for workers, the same pull ageing societies exert on robots.",
-     "outcome": "Flooded counties lost Black workers to out-migration and landowners there mechanised and raised capital intensity more than in similar unflooded counties, after resisting the change while cheap labour lasted.",
+     "outcome": "Flooded counties lost Black workers to out-migration, and landowners there mechanised and raised capital intensity more than in similar unflooded counties; they had resisted the out-migration, suggesting they preferred the labour-intensive system while cheap labour lasted.",
      "ref": {
-      "title": "When the Levee Breaks: Black Migration and Economic Development in the American South (Hornbeck and Naidu, NBER w18296, AER 2014)",
+      "title": "When the Levee Breaks: Black Migration and Economic Development in the American South (Hornbeck and Naidu, NBER Working Paper 18296, 2012; American Economic Review 2014)",
       "url": "https://www.nber.org/papers/w18296",
       "finding": "Flooded counties saw persistent Black out-migration, after which landowners modernised and mechanised agriculture relative to non-flooded counties."
      }
@@ -8901,14 +8906,19 @@
    "probability": 0.85,
    "year": 2024,
    "evidence": "measured",
-   "summary": "Networks of fake personas powered by language models post and reply like people; one study found 1,140 ChatGPT-driven accounts promoting scam sites, and LLM text detectors failed to flag them[1].",
+   "summary": "Networks of fake personas powered by language models post and reply like people. One case study found 1,140 Twitter accounts apparently run with ChatGPT that promoted suspicious websites, mostly about cryptocurrency, and that state-of-the-art LLM text detectors could not reliably tell from human accounts[1]. Reach is so far limited: OpenAI said in May 2024 that five covert influence operations using its models, from Russia, China, Iran and Israel, did not gain significant traction with real people[2].",
    "theme": "information",
    "stage": "active",
    "refs": [
     {
-     "title": "Yang and Menczer, Anatomy of an AI-powered malicious social botnet 2023",
+     "title": "Anatomy of an AI-powered malicious social botnet (Yang and Menczer, arXiv 2023)",
      "url": "https://arxiv.org/abs/2307.16336",
-     "finding": "Found 1,140 ChatGPT-driven accounts promoting scam sites; LLM text detectors failed to flag them."
+     "finding": "Identified 1,140 accounts in the fox8 Twitter botnet that appear to use ChatGPT; they promoted suspicious websites and spread harmful comments, and current state-of-the-art LLM content classifiers failed to tell them from human accounts in the wild."
+    },
+    {
+     "title": "In a first, OpenAI removes influence operations tied to Russia, China and Israel (Shannon Bond, NPR, 2024)",
+     "url": "https://www.wgbh.org/news/2024-05-31/in-a-first-openai-removes-influence-operations-tied-to-russia-china-and-israel",
+     "finding": "OpenAI banned accounts linked to five covert influence operations based in Russia, China, Iran and Israel; it said they did not gain significant traction with real people or reach large audiences."
     }
    ],
    "control": "mitigable",
@@ -8916,18 +8926,18 @@
     "cheapintelligence",
     "translation"
    ],
-   "control_note": "Cheap fluent text powers both tools and fake personas, and detectors fail. Disclosure law and platform duties raise costs for operators.",
+   "control_note": "Cheap fluent text powers both tools and fake personas, and text detectors miss them. Disclosure law and platform duties raise costs for operators.",
    "actions": [
     {
      "action": "Require bots to disclose they are bots",
      "actor": "legislators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "Applies to bots that influence sales or votes; enforcement is rare.",
+     "evidence": "Applies only to bots used online to mislead people in California about sales or votes; disclosing the bot avoids liability.",
      "ref": {
       "title": "California SB 1001, Bots: disclosure",
       "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201720180SB1001",
-      "finding": "California SB 1001 makes it unlawful to use an undisclosed bot to mislead people for sales or votes."
+      "finding": "Business and Professions Code section 17941 makes it unlawful to use a bot to communicate with a person in California online with intent to mislead them about its artificial identity to influence a sale or a vote; disclosing that it is a bot avoids liability."
      }
     },
     {
@@ -8939,7 +8949,7 @@
      "ref": {
       "title": "Regulation (EU) 2022/2065, the Digital Services Act",
       "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj/eng",
-      "finding": "The DSA requires very large platforms to assess and mitigate systemic risks including manipulation."
+      "finding": "Article 34 requires very large platforms and search engines to assess systemic risks, including intentional manipulation of the service by inauthentic use or automated exploitation; Article 35 requires mitigation."
      }
     },
     {
@@ -8947,11 +8957,11 @@
      "actor": "legislators",
      "status": "in force",
      "aim": "impact",
-     "evidence": "Applies from August 2026; text marking is easy to strip.",
+     "evidence": "Applies from 2 August 2026; exempts text that has had human review and for which a person holds editorial responsibility.",
      "ref": {
       "title": "Regulation (EU) 2024/1689, the AI Act",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "finding": "Article 50 requires disclosure of AI-generated text published to inform the public."
+      "finding": "Article 50(4) requires deployers to disclose AI-generated or manipulated text published to inform the public on matters of public interest, unless it has had human review or editorial control."
      }
     }
    ],
@@ -8960,7 +8970,7 @@
      "event": "Social bots in the 2016 US election",
      "year": 2016,
      "parallel": "Automated accounts posted political content at scale and blended into the human conversation, the template that language models make far more convincing.",
-     "outcome": "Bots produced about one fifth of the election conversation studied; those bots were crude by today's standards, so this is a floor on what generated personas can do.",
+     "outcome": "Bots produced about one fifth of the entire election conversation the study analysed.",
      "ref": {
       "title": "Social bots distort the 2016 U.S. Presidential election online discussion (Bessi and Ferrara, First Monday 2016)",
       "url": "https://firstmonday.org/ojs/index.php/fm/article/view/7090",
@@ -8971,7 +8981,7 @@
      "event": "Measuring bot share on Twitter",
      "year": 2017,
      "parallel": "Researchers trained machine-learning detectors to tell bots from people, the arms race that LLM-run personas now tilt toward the bots.",
-     "outcome": "Detectors estimated that 9 to 15 percent of active Twitter accounts were bots, a measurement that worked only because pre-LLM bots left detectable patterns.",
+     "outcome": "Detectors estimated that 9 to 15 percent of active Twitter accounts were bots.",
      "ref": {
       "title": "Online Human-Bot Interactions: Detection, Estimation, and Characterization (Varol et al., ICWSM 2017)",
       "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/14871",
@@ -8982,7 +8992,7 @@
      "event": "Russian Internet Research Agency trolls",
      "year": 2017,
      "parallel": "A state-funded operation ran fake American personas to argue and inflame, a human-staffed version of an AI botnet.",
-     "outcome": "A study of 1,239 US Twitter users in late 2017 found no evidence that interacting with IRA accounts substantially changed six measures of political attitudes and behaviour, mainly because the trolls reached people already highly polarised; it could not assess the 2016 election.",
+     "outcome": "A study of 1,239 US Twitter users in late 2017 found no evidence that interacting with IRA accounts substantially changed six measures of political attitudes and behaviour over one month; the authors suggest the trolls mostly reached people already highly polarised, and the study could not assess the 2016 election.",
      "ref": {
       "title": "Assessing the Russian Internet Research Agency's impact on the political attitudes and behaviors of American Twitter users in late 2017 (Bail et al., PNAS 2020)",
       "url": "https://scholars.duke.edu/publication/1422398",
@@ -8999,19 +9009,29 @@
    "probability": 0.45,
    "year": 2028,
    "evidence": "measured",
-   "summary": "Content farms, bots and generated pages could crowd out human work until search, reviews and forums are not worth using. NewsGuard tracked unreliable AI-generated news sites growing from 49 to over 700 in under a year[1]; one report put automated traffic at 51% of the web[2].",
+   "summary": "Content farms, bots and generated pages could crowd out human work until search, reviews and forums are not worth using. NewsGuard counted 49 unreliable AI-generated news sites in May 2023[1] and 3,749 AI content farm sites by June 2026[2]. Imperva's 2026 Bad Bot Report found bots made up most web traffic in 2025[3]. One year-long study of 7,392 product-review searches found that ranking updates, especially Google's, improved results only temporarily and that search engines seem to be losing to SEO spam[4].",
    "theme": "information",
    "stage": "emerging",
    "refs": [
     {
-     "title": "NewsGuard, tracking centre for AI-generated news",
+     "title": "NewsGuard Launches Tracking Center for AI-Generated News (NewsGuard, 2023)",
      "url": "https://www.newsguardtech.com/press/newsguard-launches-tracking-center-for-ai-generated-news/",
-     "finding": "Tracked unreliable AI-generated news sites growing from 49 to over 700 in under a year."
+     "finding": "NewsGuard's first count in early May 2023 found 49 unreliable AI-generated news sites in seven languages; by 8 June 2023 it had identified 150."
     },
     {
-     "title": "Imperva Bad Bot Report 2025",
-     "url": "https://www.imperva.com/resources/resource-library/reports/2025-bad-bot-report/",
-     "finding": "Automated traffic passed human traffic at 51% of the web."
+     "title": "Tracking AI-enabled Misinformation: 3,749 AI Content Farm sites (and Counting) (NewsGuard, updated 2026)",
+     "url": "https://www.newsguardtech.com/special-reports/ai-tracking-center/",
+     "finding": "As of 23 June 2026 NewsGuard had identified 3,749 AI content farm news and information sites in 16 languages, defined as sites with substantial AI-produced content published without significant human oversight and without disclosure."
+    },
+    {
+     "title": "2026 Bad Bot Report (Thales Imperva, 2026)",
+     "url": "https://www.imperva.com/resources/resource-library/reports/2026-bad-bot-report/",
+     "finding": "Bots accounted for the majority of global web traffic in full-year 2025 data; the 2025 edition had put automated traffic at 51%."
+    },
+    {
+     "title": "Is Google Getting Worse? A Longitudinal Investigation of SEO Spam in Search Engines (Bevendorff et al., ECIR 2024)",
+     "url": "https://downloads.webis.de/publications/papers/bevendorff_2024a.pdf",
+     "finding": "Monitoring Google, Bing and DuckDuckGo for a year on 7,392 product review queries, the authors found all three have significant problems with affiliate SEO spam; ranking updates, especially Google's, had a temporary positive effect, but search engines seem to lose the cat-and-mouse game."
     }
    ],
    "control": "mitigable",
@@ -9027,9 +9047,9 @@
      "aim": "probability",
      "evidence": "Self-reported by Google; no independent measure of spam reduction.",
      "ref": {
-      "title": "Google Search Central, March 2024 core update and new spam policies",
+      "title": "What web creators should know about our March 2024 core update and new spam policies (Google Search Central Blog, 2024)",
       "url": "https://developers.google.com/search/blog/2024/03/core-update-spam-policies",
-      "finding": "Google added a scaled content abuse spam policy in March 2024."
+      "finding": "Google added a scaled content abuse spam policy in March 2024, covering many pages generated to manipulate rankings, no matter how they are created."
      }
     },
     {
@@ -9049,11 +9069,11 @@
      "actor": "publishers",
      "status": "in force",
      "aim": "impact",
-     "evidence": "Lets users filter for verified work; adoption is partial.",
+     "evidence": "Shows a file's origin and history to anyone who checks; it does not demote or remove spam pages.",
      "ref": {
       "title": "C2PA, Coalition for Content Provenance and Authenticity",
       "url": "https://c2pa.org/",
-      "finding": "C2PA content credentials show where content came from."
+      "finding": "C2PA Content Credentials work like a nutrition label for digital content, showing its history to anyone who checks."
      }
     }
    ],
@@ -9061,23 +9081,23 @@
     {
      "event": "Email spam epidemic",
      "year": "2000s",
-     "parallel": "Near-free automated content flooded a shared channel until its usefulness depended on filtering, as generated pages now threaten search and forums.",
-     "outcome": "Spam cost US firms and consumers about $20 billion a year against about $200 million in spammer revenue worldwide, a 100 to 1 ratio; email stayed usable because filtering absorbed most of it, not because spam stopped.",
+     "parallel": "Near-free automated content flooded a shared channel, as generated pages now threaten search and forums.",
+     "outcome": "Spam cost American firms and consumers almost $20 billion a year against about $200 million in spammers' worldwide revenue, a ratio of about 100 to 1.",
      "ref": {
       "title": "The Economics of Spam (Rao and Reiley, Journal of Economic Perspectives 2012)",
       "url": "https://www.aeaweb.org/articles?id=10.1257/jep.26.3.87",
-      "finding": "Spam imposes about $20 billion a year in costs on Americans versus about $200 million in worldwide revenue to spammers, an externality ratio of about 100:1."
+      "finding": "Spam imposes almost $20 billion a year in costs on American firms and consumers versus about $200 million a year in worldwide revenue to spammers, an externality ratio of about 100:1."
      }
     },
     {
      "event": "Content farms and Google Panda",
      "year": 2011,
      "parallel": "Cheap, copied, low-value pages written to rank in search crowded out original work, the pre-AI version of generated SEO filler.",
-     "outcome": "Google changed its ranking to demote low-quality and copied sites, affecting 11.8 percent of US queries and covering 84 percent of the domains users blocked most; the fix held for years but needed repeated updates.",
+     "outcome": "Google changed its ranking to demote low-quality and copied sites, noticeably affecting 11.8 percent of queries at its US launch; it addressed 84 percent of the few dozen domains users blocked most with Google's Chrome blocklist extension.",
      "ref": {
-      "title": "Finding more high-quality sites in search (Official Google Blog, Singhal and Cutts, 2011)",
+      "title": "Finding more high-quality sites in search (Amit Singhal and Matt Cutts, Official Google Blog, 2011)",
       "url": "https://googleblog.blogspot.com/2011/02/finding-more-high-quality-sites-in.html",
-      "finding": "The update noticeably impacts 11.8% of queries and reduces rankings for low-quality sites that copy content; it addressed 84% of the most-blocked domains."
+      "finding": "The update, launched in the U.S. first, noticeably impacts 11.8% of queries and reduces rankings for low-quality sites that copy content; it addresses 84% of the top several dozen most-blocked domains from the Chrome extension."
      }
     }
    ]
@@ -9089,14 +9109,19 @@
    "probability": 0.7,
    "year": 2025,
    "evidence": "measured",
-   "summary": "When any image or song might be generated, audiences may doubt and devalue human work. In one study, the same artworks were liked less and judged less meaningful when labelled AI-made rather than human-made[1].",
+   "summary": "When any image or song might be generated, audiences may doubt and devalue human work. In two online studies of about 300 participants, the same images, all in fact AI-generated, were rated lower for liking, beauty, profundity and worth when labelled AI-made rather than human-made[1]. In a Deezer-commissioned Ipsos survey of 9,000 adults in eight countries, 97% could not tell fully AI-generated tracks from human-made music in a blind test, and 52% were uncomfortable not being able to tell[2].",
    "theme": "ip",
    "stage": "active",
    "refs": [
     {
-     "title": "Bellaiche et al., Cognitive Research 2023",
+     "title": "Humans versus AI: whether and why we prefer human-created compared to AI-created artwork (Bellaiche et al., Cognitive Research: Principles and Implications, 2023)",
      "url": "https://link.springer.com/article/10.1186/s41235-023-00499-6",
-     "finding": "The same artworks were liked less and judged less meaningful when labelled AI-made rather than human-made."
+     "finding": "In two studies (149 MTurk and 148 Prolific participants analysed), artworks that were all AI-generated were rated higher on liking, beauty, profundity and worth when randomly labelled human-created than when labelled AI-created."
+    },
+    {
+     "title": "Deezer/Ipsos survey: 97% of people can't tell the difference between fully AI-generated and human made music (Deezer, 2025)",
+     "url": "https://newsroom-deezer.com/2025/11/deezer-ipsos-survey-ai-music/",
+     "finding": "In an online Ipsos survey of 9,000 adults aged 18 to 65 in eight countries, fielded 6 to 10 October 2025, 97% could not tell fully AI-generated tracks from human-made ones and 52% felt uncomfortable about it; about 50,000 fully AI-generated tracks, 34% of daily deliveries, reach Deezer each day."
     }
    ],
    "control": "inevitable",
@@ -9111,7 +9136,7 @@
      "actor": "artists",
      "status": "in force",
      "aim": "impact",
-     "evidence": "Proves origin when kept intact; often stripped by platforms.",
+     "evidence": "Records how a work was made and edited for anyone who checks, but only while the credential stays attached.",
      "ref": {
       "title": "C2PA, Coalition for Content Provenance and Authenticity",
       "url": "https://c2pa.org/",
@@ -9123,11 +9148,11 @@
      "actor": "industry",
      "status": "in force",
      "aim": "impact",
-     "evidence": "Voluntary and small; no data on audience trust.",
+     "evidence": "Voluntary; 19 companies, products and models certified; no data on audience trust.",
      "ref": {
       "title": "Fairly Trained certification",
       "url": "https://www.fairlytrained.org/",
-      "finding": "Fairly Trained certifies companies that license training data."
+      "finding": "Fairly Trained certifies AI companies that do not use copyrighted work without a license; its certified list shows 19 companies, products and models."
      }
     }
    ],
@@ -9136,9 +9161,9 @@
      "event": "Photography dismissed as mechanical",
      "year": "1888-1917",
      "parallel": "A machine that made images cheaply led critics to deny the art of anyone using it, and photographers had to prove a human hand was involved.",
-     "outcome": "Pictorialists such as Stieglitz's Photo-Secession (1902) used labour-intensive hand processes to counter the charge that photography was entirely mechanical, and over decades won it a place among the fine arts.",
+     "outcome": "Pictorialists, among them Stieglitz's Photo-Secession of 1902, used labour-intensive hand processes to counter the charge that photography was entirely mechanical and to stake its claim to a place among the fine arts.",
      "ref": {
-      "title": "Pictorialism in America (The Metropolitan Museum of Art, Heilbrunn Timeline of Art History)",
+      "title": "Pictorialism in America (Lisa Hostetler, The Metropolitan Museum of Art, Heilbrunn Timeline of Art History, 2004)",
       "url": "https://www.metmuseum.org/essays/pictorialism-in-america",
       "finding": "Pictorialists embraced labour-intensive processes that emphasised the photographer as craftsman and countered the argument that photography was an entirely mechanical medium."
      }
@@ -9147,22 +9172,22 @@
      "event": "Gallery vs computer label experiment",
      "year": 2009,
      "parallel": "Telling viewers an image was computer-made lowered how much they valued it, before generative AI existed, which is the mechanism behind doubting human art.",
-     "outcome": "The same artworks were rated significantly higher when labelled as from a gallery than when labelled computer-generated, in a small fMRI lab study.",
+     "outcome": "Images from the same database, randomly labelled, were rated significantly more aesthetically valuable when labelled as from a gallery than when labelled computer-generated, in an fMRI lab study.",
      "ref": {
       "title": "Modulation of aesthetic value by semantic context: an fMRI study (Kirk et al., NeuroImage 2009)",
       "url": "https://pubmed.ncbi.nlm.nih.gov/19010423/",
-      "finding": "Subjects' aesthetic ratings were significantly higher for stimuli viewed in the gallery than the computer context."
+      "finding": "Images from one database were randomly labelled as gallery or computer-generated; subjects' aesthetic ratings were significantly higher in the gallery than the computer context."
      }
     },
     {
      "event": "Milli Vanilli lip-sync scandal",
      "year": 1990,
      "parallel": "Revealing that performers did not make the work they were credited with collapsed audience trust and value, as AI suspicion does for artists.",
-     "outcome": "Their Best New Artist Grammy was revoked a week after the November 1990 admission, sales of an album that had sold seven million US copies plunged, and more than two dozen lawsuits followed; unlike today's falsely accused artists, the deception here was real.",
+     "outcome": "Their Best New Artist Grammy was revoked a week after the November 1990 admission, sales of an album that eventually hit seven million US sales plummeted, and more than two dozen lawsuits followed; unlike today's falsely accused artists, the deception here was real.",
      "ref": {
-      "title": "Lip-Synching Duo Milli Vanilli Lose Grammy Award (EBSCO Research Starters)",
+      "title": "Lip-Synching Duo Milli Vanilli Lose Grammy Award (Andy Argyrakis, EBSCO Research Starters, 2022)",
       "url": "https://www.ebsco.com/research-starters/music/lip-synching-duo-milli-vanilli-lose-grammy-award",
-      "finding": "The academy revoked the Best New Artist award on 19 November 1990; album sales plummeted and more than two dozen lawsuits followed."
+      "finding": "Producer Frank Farian admitted on 12 November 1990 that the duo did not sing on the album; the academy revoked the Best New Artist award on 19 November 1990, album sales plummeted and more than two dozen lawsuits followed."
      }
     }
    ]
@@ -9175,12 +9200,17 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "work",
-   "summary": "Ambient AI scribes draft clinical notes from what is said in the visit. In one study of 263 clinicians in six US health systems, burnout fell from 51.9% to 38.8% after 30 days[1]; it had no control group, and the vendor helped collect the data.",
+   "summary": "Ambient AI scribes draft clinical notes from what is said in the visit. In one pre-post study at six US health systems, burnout among the 186 clinicians asked about it fell from 51.9% to 38.8% after 30 days[1]; it had no control group, and the vendor helped collect the data. A randomised trial of 238 physicians at one California academic health system found smaller effects: over two months one of two scribes cut time spent writing notes by 9.5% against usual care and the other had no significant effect, burnout and task-load scores improved modestly, and physicians rated clinically significant errors in the notes as occasional[2].",
    "refs": [
     {
      "title": "Olson et al., Use of Ambient AI Scribes to Reduce Administrative Burden and Professional Burnout, JAMA Network Open 2025",
      "url": "https://pubmed.ncbi.nlm.nih.gov/41037268/",
-     "finding": "Across 263 clinicians in six US health systems, burnout fell from 51.9% to 38.8% after 30 days of using an ambient scribe."
+     "finding": "Of 263 clinicians included at six US health systems, the 186 in the burnout analysis saw burnout fall from 51.9% to 38.8% after 30 days of using an ambient scribe (adjusted odds ratio 0.26)."
+    },
+    {
+     "title": "Lukac et al., Ambient AI Scribes in Clinical Practice: A Randomized Trial, NEJM AI 2025",
+     "url": "https://ai.nejm.org/doi/full/10.1056/AIoa2501000",
+     "finding": "238 outpatient physicians in 14 specialties at one California academic health system were randomised to DAX Copilot, Nabla or usual care for two months; Nabla cut time in notes by 9.5% against usual care (p=.02), DAX showed no significant change (-1.7%, p=.66), work exhaustion fell by 0.27 on a 0 to 4 scale across both scribes, and clinically significant inaccuracies were rated as occurring occasionally."
     }
    ],
    "valence": 2.43,
@@ -9188,52 +9218,62 @@
     {
      "limit": "Weak evidence from uncontrolled vendor-linked studies",
      "kind": "quality",
-     "evidence": "Burnout fell from 51.9% to 38.8% after 30 days among 186 clinicians, but there was no control group and the vendor collected the data.",
+     "evidence": "Burnout fell from 51.9% to 38.8% after 30 days among 186 clinicians, but there was no control group and the vendor distributed the surveys at five of the six sites.",
      "ref": {
       "title": "Use of Ambient AI Scribes to Reduce Administrative Burden and Professional Burnout (JAMA Network Open, 2025)",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12492056/",
-      "finding": "Pre-post quality improvement study at six US health systems; Abridge facilitated data collection and some authors had Abridge ties."
+      "finding": "Pre-post quality improvement study at six US health systems with no control group; Abridge facilitated data collection, two authors worked for Abridge and a third volunteered on its research advisory committee."
      }
     },
     {
-     "limit": "Licence cost paid per clinician",
+     "limit": "Licence costs without a clear financial return",
      "kind": "cost",
-     "evidence": "Each health system paid for the tool itself, which leaves smaller or poorer practices behind.",
+     "evidence": "A 2025 report from a health-system taskforce found scribe costs remain significant with no clear return on investment at current prices; some systems rationed licences, and one was not seeing enough efficiency gains to justify scaling.",
      "ref": {
-      "title": "Use of Ambient AI Scribes to Reduce Administrative Burden and Professional Burnout (JAMA Network Open, 2025)",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12492056/",
-      "finding": "The intervention was funded by the individual participating institutions."
+      "title": "Adoption of Artificial Intelligence in Healthcare Delivery Systems: Early Applications and Impacts, Peterson Health Technology Institute AI Taskforce, March 2025",
+      "url": "https://phti.org/wp-content/uploads/sites/3/2025/03/PHTI-Adoption-of-AI-in-Healthcare-Delivery-Systems-Early-Applications-Impacts.pdf",
+      "finding": "As costs remain significant, health systems will need to demonstrate a clear return on investment, particularly at current prices; one taskforce organisation was not seeing sufficient efficiency gains to argue for scaling enterprise-wide."
      }
     },
     {
      "limit": "limited language coverage",
      "kind": "access",
-     "evidence": "Speech and translation quality drops for low-resource languages, which limits scribes outside major languages.",
+     "evidence": "In one preprint test of one ambient tool on 24 reenacted primary care conversations, the overall median error rate was 4%, but Mandarin-English conversations had a median of 9% with outliers up to 67%, and words were often dropped where speakers switched language.",
      "ref": {
-      "title": "Scaling neural machine translation to 200 languages (Nature, 2024)",
-      "url": "https://www.nature.com/articles/s41586-024-07335-x",
-      "finding": "NLLB-200 extends translation to 200 languages because most lack the data that high-resource languages have."
+      "title": "Hu et al., Ambient AI Documentation in Mixed-Language Encounters: A Heuristic Evaluation of Reenacted Mandarin-English and Spanish-English Clinical Conversations, medRxiv preprint 2026",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.05.19.26353603v2",
+      "finding": "Across 12 Mandarin-English and 12 Spanish-English reenacted conversations, median mixed error rate was 4% overall and 9% for Mandarin-English, with outliers reaching 67%; Spanish-English showed less variation."
+     }
+    },
+    {
+     "limit": "Drafted notes contain occasional clinically significant errors",
+     "kind": "quality",
+     "evidence": "In a randomised trial of 238 physicians, users of both scribes rated clinically significant inaccuracies as occurring occasionally, 2.7 and 2.8 on a five-point scale, and one mild patient-safety event was reported.",
+     "ref": {
+      "title": "Lukac et al., Ambient AI Scribes in Clinical Practice: A Randomized Trial, NEJM AI 2025",
+      "url": "https://ai.nejm.org/doi/full/10.1056/AIoa2501000",
+      "finding": "238 outpatient physicians in 14 specialties at one California academic health system were randomised to DAX Copilot, Nabla or usual care for two months; Nabla cut time in notes by 9.5% against usual care (p=.02), DAX showed no significant change (-1.7%, p=.66), work exhaustion fell by 0.27 on a 0 to 4 scale across both scribes, and clinically significant inaccuracies were rated as occurring occasionally."
      }
     }
    ],
    "enablers": [
     {
-     "action": "Run independent randomised trials of scribes",
+     "action": "Run randomised trials of scribes",
      "actor": "Health systems and researchers",
      "status": "tested",
      "counters": "Weak evidence from uncontrolled vendor-linked studies",
-     "evidence": "The pre-post study itself had analysts with no vendor pay, but authors note controlled designs are needed to confirm effects.",
+     "evidence": "A three-arm randomised trial of 238 physicians at a California academic health system found one scribe cut time in notes by 9.5% against usual care and the other had no significant effect, with modest gains in burnout and task-load scores.",
      "ref": {
-      "title": "Use of Ambient AI Scribes to Reduce Administrative Burden and Professional Burnout (JAMA Network Open, 2025)",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12492056/",
-      "finding": "No control group; statistical analysts were independent of the vendor."
+      "title": "Lukac et al., Ambient AI Scribes in Clinical Practice: A Randomized Trial, NEJM AI 2025",
+      "url": "https://ai.nejm.org/doi/full/10.1056/AIoa2501000",
+      "finding": "238 outpatient physicians in 14 specialties at one California academic health system were randomised to DAX Copilot, Nabla or usual care for two months; Nabla cut time in notes by 9.5% against usual care (p=.02), DAX showed no significant change (-1.7%, p=.66), work exhaustion fell by 0.27 on a 0 to 4 scale across both scribes, and clinically significant inaccuracies were rated as occurring occasionally."
      }
     },
     {
      "action": "Require AI literacy training for clinical users",
      "actor": "Deployers under EU AI Act",
      "status": "in force",
-     "counters": "low AI literacy",
+     "counters": "Drafted notes contain occasional clinically significant errors",
      "evidence": "Article 4 of the EU AI Act, as rewritten in July 2026, makes deployers take measures supporting staff AI literacy, which can cover checking drafted notes.",
      "ref": {
       "title": "Sapuppo, AI literacy: the Digital Omnibus rewrites Article 4 of the AI Act, Law & Technology, July 2026",
@@ -9256,7 +9296,7 @@
     },
     {
      "event": "Electronic health records add clerical load",
-     "year": "2009-2016",
+     "year": "2016",
      "parallel": "The documentation burden AI scribes target was itself created by an earlier technology sold as an efficiency gain.",
      "outcome": "A time-and-motion study of 57 US physicians found 27% of the office day went to face time with patients and 49.2% to EHR and desk work, plus 1 to 2 hours of after-hours work a night; the study used self-selected high-performing practices and was AMA-funded.",
      "ref": {
@@ -9275,18 +9315,28 @@
    "stage": "active",
    "evidence": "reported",
    "theme": "power",
-   "summary": "One US Senate majority staff report found that in 2022 Humana denied post-acute care 16 times more often than care overall, and UnitedHealthcare's prior-authorization denials rose year after year as it automated reviews[1].",
+   "summary": "One report by the US Senate Permanent Subcommittee on Investigations found that in 2022 Humana's denial rate for post-acute care was 16 times its overall prior-authorization denial rate, and that UnitedHealthcare's post-acute denial rate rose from 10.9% in 2020 to 22.7% in 2022[1], a rise that coincided with automated systems designed to speed up review[2]. Since January 2026 traditional Medicare has tested AI-assisted prior authorization in six states, paying contractors a percentage of the value of denied requests, with a human clinician reviewing every denial[3].",
    "refs": [
     {
-     "title": "AJMC, Insurers' AI Denials of Postacute Care Face Senate Scrutiny, 2024",
+     "title": "Shaw, Insurers' AI Denials of Postacute Care Face Senate Scrutiny, AJMC, October 2024",
      "url": "https://www.ajmc.com/view/insurers-ai-denials-of-postacute-care-face-senate-scrutiny",
-     "finding": "A Senate PSI report found that in 2022 Humana denied post-acute care 16 times more often than care overall, and UnitedHealthcare's prior-authorization denials rose year after year as it automated reviews."
+     "finding": "A Senate Permanent Subcommittee on Investigations report found Humana's 2022 post-acute denial rate was 16 times its overall prior-authorization denial rate, and UnitedHealthcare's post-acute denial rate more than doubled from 10.9% in 2020 to 22.7% in 2022."
+    },
+    {
+     "title": "Siddiqi, U.S. Senate Subcommittee Raises Alarm Over Medicare Advantage's Denial of Post-Acute Care, Skilled Nursing News, October 2024",
+     "url": "https://skillednursingnews.com/2024/10/u-s-senate-subcommittee-cites-serious-concerns-on-medicare-advantages-denial-of-post-acute-care/",
+     "finding": "UnitedHealthcare's post-acute denial rate rose over the years, coinciding with automated systems designed to expedite review; internal documents indicated the automation brought faster reviews and a higher rate of adverse decisions."
+    },
+    {
+     "title": "Overview of the Medicare Wasteful and Inappropriate Service Reduction (WISeR) Model, Congressional Research Service IF13133, updated May 2026",
+     "url": "https://www.everycrsreport.com/files/2026-05-12_IF13133_1b7af5c4cb1305bfa031b37cfcf21ca5739edb1a.html",
+     "finding": "The model runs from 1 January 2026 to 31 December 2031 in Arizona, New Jersey, Ohio, Oklahoma, Texas and Washington; contractors use AI and machine learning with human clinical review, a human clinician must review every denial, and CMS pays contractors a percentage of the dollar value of denied requests."
     }
    ],
    "valence": -3.76,
    "control": "preventable",
    "price_of": [],
-   "control_note": "Denials driven by a model score can be stopped by rules that require a clinician's review of each case and a stated reason, while insurers keep using tools for triage.",
+   "control_note": "Denials driven by a model score can be curbed by rules that require a clinician's review of each case, a decision based on the individual patient and a stated reason, while insurers keep using tools for triage.",
    "actions": [
     {
      "action": "Require a licensed physician for medical-necessity denials",
@@ -9305,11 +9355,23 @@
      "actor": "regulators",
      "aim": "impact",
      "status": "in force",
-     "evidence": "Federal payers must give specific denial reasons from 2026 and post yearly prior-authorization metrics. This adds transparency and makes appeals easier, but has no measured effect on denial rates yet.",
+     "evidence": "Medicare Advantage, Medicaid, CHIP and federal-exchange plans must give a specific reason for denied prior-authorization requests from 2026 and post prior-authorization metrics each year, the first by 31 March 2026. This adds transparency and makes appeals easier, but has no measured effect on denial rates yet.",
      "ref": {
       "title": "CMS Interoperability and Prior Authorization Final Rule (CMS-0057-F) fact sheet",
       "url": "https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-and-prior-authorization-final-rule-cms-0057-f",
-      "finding": "Payers must decide within 72 hours for urgent and 7 days for standard requests, give a specific reason for every denial, and publish metrics each year."
+      "finding": "From 1 January 2026, impacted payers must decide within 72 hours for urgent and 7 calendar days for standard requests (exchange plans excepted), give a specific reason for every denial except for drugs, and publish prior-authorization metrics annually."
+     }
+    },
+    {
+     "action": "Bar Medicare Advantage denials based on an algorithm alone",
+     "actor": "regulators",
+     "aim": "probability",
+     "status": "in force",
+     "evidence": "Since 2024 CMS has told Medicare Advantage plans that an algorithm may assist coverage decisions, but each decision must rest on the individual patient's circumstances and a predicted length of stay alone cannot end post-acute care; the plan is responsible for the tool's compliance.",
+     "ref": {
+      "title": "CMS, Frequently Asked Questions related to Coverage Criteria and Utilization Management Requirements in CMS Final Rule (CMS-4201-F), memo to Medicare Advantage organizations, 6 February 2024",
+      "url": "https://www.aha.org/system/files/media/file/2024/02/faqs-related-to-coverage-criteria-and-utilization-management-requirements-in-cms-final-rule-cms-4201-f.pdf",
+      "finding": "An algorithm that determines coverage from a larger data set instead of the individual patient's medical history, the physician's recommendations or clinical notes would not comply with 42 CFR 422.101(c); a length-of-stay prediction alone cannot be the basis to terminate post-acute care."
      }
     }
    ],
@@ -9318,28 +9380,28 @@
      "event": "Australia's Robodebt automated debt scheme",
      "year": "2015-2019",
      "parallel": "A government ran an automated data-matching rule that flagged people at scale and shifted the burden of disproving the result onto them.",
-     "outcome": "The Commonwealth admitted it had no legal basis for income-averaged debts, which totalled at least A$1.763 billion against about 433,000 people, and had recovered about A$751 million from 381,000 of them before refunding it and paying a further A$112 million settlement; it was a simple averaging rule, not machine learning.",
+     "outcome": "The Federal Court found the Commonwealth had unlawfully asserted at least A$1.763 billion in debts against about 433,000 people between July 2015 and November 2019 and had recovered about A$751 million from about 381,000 of them, and approved a settlement reported at A$1.8 billion; it was a simple income-averaging rule, not machine learning.",
      "ref": {
-      "title": "Prygodicz v Commonwealth of Australia (No 2) [2021] FCA 634, Federal Court summary",
-      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2021/2021fca0634/summaries/2021fca0634-summary",
-      "finding": "The Commonwealth unlawfully asserted debts of at least $1.763 billion against about 433,000 Australians using income averaging."
+      "title": "Robodebt failures 'should have been obvious' to senior public servants, judge finds, The Mandarin, June 2021",
+      "url": "https://www.themandarin.com.au/160061-robodebt-failures-should-have-been-obvious-to-senior-public-servants-judge-finds",
+      "finding": "Justice Murphy found the Commonwealth unlawfully asserted at least $1.763 billion in debts against roughly 433,000 Australians between July 2015 and November 2019, recovering about $751 million from about 381,000 of them."
      }
     },
     {
      "event": "Medicare Advantage denials audit",
      "year": "2019-2022",
      "parallel": "Insurers applied their own screening criteria to prior authorization requests and denied care that the public program would have covered.",
-     "outcome": "The HHS inspector general found that 13% of sampled prior authorization denials and 18% of payment denials by 15 large Medicare Advantage plans met Medicare rules; the denials came from internal clinical criteria, not specifically from predictive algorithms.",
+     "outcome": "The HHS inspector general found that 13% of sampled prior authorization denials by 15 large Medicare Advantage plans met Medicare coverage rules, and 18% of payment denials met Medicare and plan billing rules; the prior-authorization errors came from internal clinical criteria and requests for documentation the records already held, and the payment errors from human and system error, not from predictive algorithms.",
      "ref": {
       "title": "Some Medicare Advantage Organization Denials of Prior Authorization Requests Raise Concerns About Beneficiary Access to Medically Necessary Care (HHS OIG, OEI-09-18-00260, 2022)",
       "url": "https://oig.hhs.gov/oei/reports/OEI-09-18-00260.asp",
-      "finding": "13 percent of prior authorization denials met Medicare coverage rules, based on a sample of denials issued in June 2019."
+      "finding": "13 percent of 250 sampled prior authorization denials met Medicare coverage rules, based on denials issued from 1 to 7 June 2019."
      }
     },
     {
      "event": "Cost-based care-management algorithm bias",
      "year": "2019",
-     "parallel": "A commercial prediction tool used cost as a proxy for need, the same design choice behind tools that flag expensive requests.",
+     "parallel": "A widely used commercial prediction tool used cost as a stand-in for need, a design choice that quietly shortchanged one group of patients.",
      "outcome": "At a given risk score Black patients were considerably sicker than White patients, and fixing the proxy would raise the share of Black patients getting extra help from 17.7% to 46.5%; this tool allocated extra care rather than denying coverage.",
      "ref": {
       "title": "Dissecting racial bias in an algorithm used to manage the health of populations (Science, 2019)",
@@ -9351,18 +9413,18 @@
   },
   {
    "id": "medchatbotgap",
-   "label": "Health chatbots fail real patients",
+   "label": "Health chatbots fail lay users",
    "probability": 0.6,
    "year": 2025,
    "stage": "active",
    "evidence": "measured",
    "theme": "information",
-   "summary": "Alone, LLMs identified the right conditions in about 95% of cases, yet in one UK lab study of fictional scenarios, 1,298 participants using them found the relevant conditions in under 34.5% of cases, no better than a control group[1].",
+   "summary": "Tested alone, three 2024 LLMs identified a relevant condition in 94.9% of cases across ten doctor-designed medical scenarios, yet in one randomised UK online study the 1,298 members of the public using them did so in under 34.5% of cases and chose the right course of action in under 44.2%, no better than a control group using their usual sources, which was better at identifying conditions[1].",
    "refs": [
     {
-     "title": "Bean et al., Clinical knowledge in LLMs does not translate to human interactions, arXiv 2025",
-     "url": "https://arxiv.org/abs/2504.18919",
-     "finding": "Alone, the LLMs identified the right conditions in about 95% of cases, but the 1,298 participants using them found the relevant conditions in under 34.5% of cases, no better than the control group."
+     "title": "Bean et al., Reliability of LLMs as medical assistants for the general public: a randomized preregistered study, Nature Medicine 2026",
+     "url": "https://www.nature.com/articles/s41591-025-04074-y",
+     "finding": "Alone, GPT-4o, Llama 3 and Command R+ identified conditions in 94.9% of cases, but the 1,298 UK participants using them identified relevant conditions in under 34.5% and the right disposition in under 44.2%, no better than controls, who had 1.76 times the odds of identifying a relevant condition."
     }
    ],
    "valence": -3.07,
@@ -9371,18 +9433,18 @@
     "betteranswers",
     "medicine"
    ],
-   "control_note": "The gap sits in how people talk to the model, so it comes with any public health chatbot. Testing with real users finds it, but it does not remove it.",
+   "control_note": "In the one study that measured it, the gap came from the conversation: users often gave the models too little information and did not carry the models' correct suggestions into their answers. Testing with real users finds it, but does not by itself remove it.",
    "actions": [
     {
      "action": "Test health chatbots with real users before release",
      "actor": "labs",
      "aim": "probability",
      "status": "tested",
-     "evidence": "In a study of 1,298 people, the models alone named the condition in 94.9% of cases, but people using them did so in under 34.5%. Simulated-patient tests did not predict this failure, so benchmark scores are a weak proxy. This is one lab study of fictional scenarios.",
+     "evidence": "In one UK study of 1,298 people, the models alone named a relevant condition in 94.9% of cases, but people using them did so in under 34.5%. Simulated users scored higher than real ones and their results bore no relationship to real users' success at identifying conditions, so benchmark scores are a weak proxy. This is one online study of ten written scenarios with 2024 models.",
      "ref": {
-      "title": "Bean et al., Clinical knowledge in LLMs does not translate to human interactions (arXiv 2504.18919)",
-      "url": "https://arxiv.org/abs/2504.18919",
-      "finding": "Participants with LLMs did no better than controls, and simulated interactions did not predict the failures with real people."
+      "title": "Bean et al., Reliability of LLMs as medical assistants for the general public: a randomized preregistered study, Nature Medicine 2026",
+      "url": "https://www.nature.com/articles/s41591-025-04074-y",
+      "finding": "Participants with LLMs did no better than controls, and simulated users were only weakly predictive of human disposition accuracy and showed no relationship with human performance on identifying conditions."
      }
     }
    ],
@@ -9402,7 +9464,7 @@
      "event": "Epic Sepsis Model external validation",
      "year": "2018-2021",
      "parallel": "A widely deployed clinical prediction model looked strong in its developer's testing and weak once checked in a real hospital.",
-     "outcome": "In 38,455 Michigan hospitalizations the model had an AUC of 0.63 against a developer-reported 0.76 to 0.83, missed 67% of sepsis cases and alerted on 18% of all patients; this is a clinician-facing tool, not a patient chatbot.",
+     "outcome": "In 38,455 Michigan hospitalizations the model had an AUC of 0.63 against a developer-reported 0.76 to 0.83, missed 67% of sepsis cases and alerted in 18% of all hospitalizations; this is a clinician-facing tool, not a patient chatbot.",
      "ref": {
       "title": "External Validation of a Widely Implemented Proprietary Sepsis Prediction Model in Hospitalized Patients (JAMA Internal Medicine, 2021)",
       "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2781307",
@@ -9419,7 +9481,7 @@
    "stage": "emerging",
    "evidence": "measured",
    "theme": "world",
-   "summary": "AI decoders turn neural signals from people with paralysis into text or a speaking avatar: one participant with ALS reached 62 words per minute[1], and a woman paralysed by a stroke about 78[2]. So far the results come from single trial participants with surgical implants.",
+   "summary": "AI decoders turn neural signals from people with paralysis into text or a speaking avatar: one participant with ALS reached 62 words per minute[1], a woman paralysed by a brainstem stroke a median of 78[2], and another man with ALS kept 97.5% accuracy in self-paced conversation for over 248 hours across 8.4 months[3]. Each of these results comes from a single trial participant with surgically implanted electrodes[1][2][3].",
    "refs": [
     {
      "title": "Willett et al., A high-performance speech neuroprosthesis, Nature 2023",
@@ -9429,7 +9491,12 @@
     {
      "title": "Metzger et al., A high-performance neuroprosthesis for speech decoding and avatar control, Nature 2023",
      "url": "https://www.nature.com/articles/s41586-023-06443-4",
-     "finding": "A woman with paralysis after a stroke reached about 78 words per minute of decoded text, with a speaking avatar."
+     "finding": "A woman with severe paralysis from a brainstem stroke reached a median of 78 words per minute of decoded text with a median 25% word error rate, and also drove a speaking avatar."
+    },
+    {
+     "title": "Card et al., An Accurate and Rapidly Calibrating Speech Neuroprosthesis, New England Journal of Medicine 2024",
+     "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2314132",
+     "finding": "A man with ALS reached 99.6% accuracy on a 50-word vocabulary after 30 minutes of calibration, and sustained 97.5% accuracy for self-paced conversations over 248 cumulative hours across 8.4 months."
     }
    ],
    "valence": 3.46,
@@ -9437,29 +9504,29 @@
     {
      "limit": "Evidence from single trial participants",
      "kind": "quality",
-     "evidence": "Both landmark BrainGate2 speech studies report one participant each, and the authors say results must be confirmed in more people.",
+     "evidence": "The 2024 BrainGate2 study and the one earlier BrainGate2 speech report each involved a single participant, and the authors say it is uncertain whether similar results can be expected in future users.",
      "ref": {
-      "title": "An Accurate and Rapidly Calibrating Speech Neuroprosthesis (NEJM, 2024)",
+      "title": "Card et al., An Accurate and Rapidly Calibrating Speech Neuroprosthesis, New England Journal of Medicine 2024",
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2314132",
-      "finding": "This study involved a single participant; whether similar results can be expected in future users is uncertain."
+      "finding": "This study involved a single participant and it is uncertain if similar results can be expected in future users."
      }
     },
     {
      "limit": "Brain surgery and percutaneous hardware",
      "kind": "infrastructure",
-     "evidence": "The system needed a 5 cm craniotomy, two skull-mounted pedestals wired by HDMI to a cart of computers, and a researcher to connect it.",
+     "evidence": "The system needed a 5 x 5 cm craniotomy, two skull-mounted percutaneous pedestals connected by HDMI cables to computers on a wheeled cart, and a researcher to connect and launch it.",
      "ref": {
-      "title": "An Accurate and Rapidly Calibrating Speech Neuroprosthesis (NEJM, 2024)",
+      "title": "Card et al., An Accurate and Rapidly Calibrating Speech Neuroprosthesis, New England Journal of Medicine 2024",
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2314132",
-      "finding": "A researcher's assistance was required to connect and launch the system."
+      "finding": "Implantation was through a 5 x 5 cm craniotomy; a researcher's assistance was required to connect and launch the system."
      }
     },
     {
      "limit": "Accuracy and durability still unproven",
      "kind": "quality",
-     "evidence": "The 2023 system had a 23.8% word error rate on a large vocabulary, which the authors call too high for everyday use, and array longevity needs more demonstration.",
+     "evidence": "The 2023 system had a 23.8% word error rate on a 125,000-word vocabulary, which the authors call probably not yet low enough for everyday use, and they say the arrays need further demonstrations of longevity.",
      "ref": {
-      "title": "A high-performance speech neuroprosthesis (Nature, 2023)",
+      "title": "Willett et al., A high-performance speech neuroprosthesis, Nature 2023",
       "url": "https://www.nature.com/articles/s41586-023-06377-x",
       "finding": "A 24% word error rate is probably not yet sufficiently low for everyday use."
      }
@@ -9471,11 +9538,11 @@
      "actor": "research teams",
      "status": "tested",
      "counters": "Accuracy and durability still unproven",
-     "evidence": "Calibration fell to 30 minutes of data for 99.6% accuracy on 50 words, versus about 17 hours in earlier work.",
+     "evidence": "After 30 minutes of calibration data the 2024 system reached 99.6% accuracy on 50 words, and 90.2% on a 125,000-word vocabulary after 1.4 more hours; two earlier speech decoders needed about 17 hours of training data.",
      "ref": {
-      "title": "An Accurate and Rapidly Calibrating Speech Neuroprosthesis (NEJM, 2024)",
+      "title": "Card et al., An Accurate and Rapidly Calibrating Speech Neuroprosthesis, New England Journal of Medicine 2024",
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2314132",
-      "finding": "99.6% accuracy with a 50-word vocabulary on the first day after 30 minutes of calibration."
+      "finding": "Earlier brain-to-text studies needed approximately 17 hours of recordings; this system reached 99.6% accuracy on 50 words after 30 minutes."
      }
     },
     {
@@ -9485,9 +9552,21 @@
      "counters": "Accuracy and durability still unproven",
      "evidence": "Offline analysis found doubling electrodes cut word error rate by a factor of about 0.57.",
      "ref": {
-      "title": "A high-performance speech neuroprosthesis (Nature, 2023)",
+      "title": "Willett et al., A high-performance speech neuroprosthesis, Nature 2023",
       "url": "https://www.nature.com/articles/s41586-023-06377-x",
       "finding": "Doubling the electrode count cuts word error rate by nearly half."
+     }
+    },
+    {
+     "action": "Move to implants that transmit wirelessly through the skin",
+     "actor": "device makers",
+     "status": "tested",
+     "counters": "Brain surgery and percutaneous hardware",
+     "evidence": "Under an FDA investigational device exemption granted in November 2025, Paradromics implanted its first speech-trial participant in June 2026; its implant sends neural signals to a transceiver in the chest, which transmits them wirelessly through the skin.",
+     "ref": {
+      "title": "Paradromics and University of Michigan Complete First Connexus BCI Implantation for the FDA-Approved Connect-One Clinical Study (Paradromics, 2026)",
+      "url": "https://paradromics.com/news/paradromics-completes-first-human-brain-computer-interface-bci-implantation/",
+      "finding": "The first Connect-One participant, a woman with motor neuron disease, was implanted; the study aims to evaluate whether the device can safely restore speech."
      }
     },
     {
@@ -9495,9 +9574,9 @@
      "actor": "research teams",
      "status": "in force",
      "counters": null,
-     "evidence": "The Stanford team published 10,850 sentences of neural data on Dryad and decoder code on GitHub.",
+     "evidence": "The Stanford team published neural data for 10,850 attempted sentences on Dryad and its decoder code on GitHub.",
      "ref": {
-      "title": "A high-performance speech neuroprosthesis (Nature, 2023)",
+      "title": "Willett et al., A high-performance speech neuroprosthesis, Nature 2023",
       "url": "https://www.nature.com/articles/s41586-023-06377-x",
       "finding": "All neural data needed to reproduce the findings are publicly available on Dryad."
      }
@@ -9507,8 +9586,8 @@
     {
      "event": "BrainGate robotic arm control",
      "year": "2011-2012",
-     "parallel": "An earlier generation of implanted brain-computer interfaces decoded motor intent in a handful of people with paralysis.",
-     "outcome": "Two people with tetraplegia from brainstem stroke reached and grasped objects with a robotic arm, and one drank coffee unaided for the first time in nearly 15 years, succeeding on 4 of 6 attempts; over a decade later such systems are still not a routine clinical product.",
+     "parallel": "An earlier implanted brain-computer interface decoded motor intent in two people with paralysis.",
+     "outcome": "Two people with tetraplegia from brainstem stroke reached and grasped objects with a robotic arm; one drank coffee from a bottle on 4 of 6 attempts, the first time since her stroke more than 14 years earlier that she could drink of her own volition.",
      "ref": {
       "title": "Reach and grasp by people with tetraplegia using a neurally controlled robotic arm (Nature, 2012)",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3640850/",
@@ -9536,39 +9615,49 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "mind",
-   "summary": "Detectors used to police cheating can wrongly flag non-native English writing: in one study, seven detectors flagged 61.22% of 91 TOEFL essays as AI-generated, against near-zero for 88 US eighth-graders' essays[1]. False accusations can land on those students.",
+   "summary": "Detectors used to police cheating can wrongly flag non-native English writing: in one 2023 study, seven detectors misclassified on average 61.22% of 91 TOEFL essays as AI-generated, against near-perfect accuracy on 88 US eighth-graders' essays, which puts students who write in a second language at risk of false accusations[1]. Later work is mixed: an ETS review reports that carefully built detectors tested on a large dataset did not necessarily disadvantage non-native English speakers[2], and a 2026 study of Czech texts found no systematic bias across three detector families[3].",
    "refs": [
     {
      "title": "Liang et al., GPT detectors are biased against non-native English writers, Patterns/arXiv 2023",
      "url": "https://arxiv.org/abs/2304.02819",
-     "finding": "Seven detectors misclassified 61.3% of TOEFL essays by non-native writers as AI-generated, against near-zero for essays by US eighth-graders."
+     "finding": "Seven detectors misclassified 91 TOEFL essays by non-native writers as AI-generated at an average false positive rate of 61.22%, while classifying 88 US eighth-grade essays near-perfectly; 97.8% of the TOEFL essays were flagged by at least one detector. The authors call their sample sizes relatively small."
+    },
+    {
+     "title": "Hao, Detecting AI-Generated Essays in Writing Assessment: Responsible Use and Generalizability Across LLMs, ETS Research Institute/arXiv 2026",
+     "url": "https://arxiv.org/abs/2603.02353",
+     "finding": "Liang et al. reported higher false positives for non-native writers on a small dataset; later ETS studies by Jiang et al. (2024) on a large dataset showed carefully developed detectors do not necessarily bias against non-native English speakers."
+    },
+    {
+     "title": "Al Ali, Helcl and Libovicky, Different Time, Different Language: Revisiting the Bias Against Non-Native Speakers in GPT Detectors, EACL 2026 Student Research Workshop",
+     "url": "https://aclanthology.org/2026.eacl-srw.20.pdf",
+     "finding": "The perplexity of texts by non-native speakers of Czech was not lower than that of native speakers, and detectors from three separate families showed no systematic bias against non-native speakers."
     }
    ],
    "valence": -2.49,
    "control": "avoidable",
    "price_of": [],
-   "control_note": "The harm comes from using detectors to punish students. Schools can stop doing that and lose little, because the detectors are unreliable anyway.",
+   "control_note": "The harm comes from using detector scores to punish students. Schools can stop doing that at little cost, because detection is easy to evade and accuracy varies widely between detectors.",
    "actions": [
     {
      "action": "Disable AI-text detectors in grading tools",
      "actor": "schools",
      "aim": "probability",
      "status": "in force",
-     "evidence": "Vanderbilt turned off Turnitin's detector. It noted that even a 1% false-positive rate across its 75,000 papers a year would flag about 750 students wrongly.",
+     "evidence": "Vanderbilt turned off Turnitin's detector in August 2023. It noted that Turnitin's claimed 1% false-positive rate, applied to the 75,000 papers it submitted in 2022, would have mislabelled around 750 student papers.",
      "ref": {
       "title": "Vanderbilt University, Guidance on AI Detection and Why We're Disabling Turnitin's AI Detector (2023)",
       "url": "https://www.vanderbilt.edu/brightspace/2023/08/16/guidance-on-ai-detection-and-why-were-disabling-turnitins-ai-detector/",
-      "finding": "Vanderbilt disabled the detector, citing opacity, bias against non-native writers and doubts that detection works."
+      "finding": "Vanderbilt disabled the detector for the foreseeable future, citing its opacity, research showing detectors more often label non-native English writing as AI-written, and doubts that AI detection is effective."
      }
     },
     {
      "action": "Never use a detector score as sole evidence",
      "actor": "schools",
      "aim": "impact",
-     "status": "in force",
-     "evidence": "OpenAI's own classifier caught only 26% of AI text and flagged 9% of human text. OpenAI withdrew it in July 2023 and said it should not be a primary decision tool.",
+     "status": "proposed",
+     "evidence": "OpenAI's own classifier caught only 26% of AI-written text and flagged 9% of human text. OpenAI said it should not be used as a primary decision-making tool and withdrew it on 20 July 2023 for low accuracy.",
      "ref": {
-      "title": "OpenAI, New AI classifier for indicating AI-written text",
+      "title": "OpenAI, New AI classifier for indicating AI-written text (2023)",
       "url": "https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text/",
       "finding": "The classifier was withdrawn on 20 July 2023 for low accuracy, at a 26% true-positive and 9% false-positive rate."
      }
@@ -9578,11 +9667,11 @@
      "actor": "vendors",
      "aim": "probability",
      "status": "tested",
-     "evidence": "Seven detectors often misclassified TOEFL essays by non-native writers as AI-generated. The test sets were small.",
+     "evidence": "Turnitin tested its detector on writing by English language learners and reported no statistically significant difference in false positives for documents of 300 words or more, but a larger gap for shorter texts; the test was the vendor's own.",
      "ref": {
-      "title": "Liang et al., GPT detectors are biased against non-native English writers, Patterns 2023",
-      "url": "https://www.cell.com/patterns/fulltext/S2666-3899(23)00130-7",
-      "finding": "The detectors frequently misclassified TOEFL essays by non-native English authors as AI-generated."
+      "title": "Turnitin, New research: Turnitin's AI detector shows no statistically significant bias against English Language Learners (2023)",
+      "url": "https://www.turnitin.ca/blog/new-research-turnitin-s-ai-detector-shows-no-statistically-significant-bias-against-english-language-learners",
+      "finding": "For documents of at least 300 words, the false-positive gap between English learners and native writers was small and not statistically significant; below 300 words the gap was greater."
      }
     }
    ],
@@ -9591,7 +9680,7 @@
      "event": "UK TOEIC voice-recognition cheating purge",
      "year": "2014-2019",
      "parallel": "An automated detector run by a test provider flagged non-native English speakers as cheats, and authorities acted on the flags.",
-     "outcome": "ETS voice recognition and listeners labelled 97% of 58,458 UK tests invalid or questionable, 25,115 people faced Home Office action, at least 11,356 left the UK, and 3,714 won first-tier appeals; the NAO found the error rate could not be determined because there was no pilot or control group.",
+     "outcome": "ETS used voice recognition, checked by human listeners, to label 97% of 58,458 UK tests invalid or questionable; 25,115 people with a flag faced some form of Home Office action, at least 11,356 left the UK, and individuals won 3,714 First-tier appeals. The NAO said the degree of error was difficult to determine accurately without piloting or a control group.",
      "ref": {
       "title": "Investigation into the response to cheating in English language tests (National Audit Office, 2019)",
       "url": "https://www.nao.org.uk/wp-content/uploads/2019/05/Investigation-into-the-response-to-cheating-in-English-language-tests-Summary.pdf",
@@ -9602,11 +9691,11 @@
      "event": "Polygraph screening review",
      "year": "2002-2003",
      "parallel": "A detector with modest accuracy, applied to a population where real cheats are rare, produces far more false accusations than true catches.",
-     "outcome": "The National Research Council calculated that screening 10,000 employees with 10 spies at a setting that catches 8 of them would also fail about 1,598 loyal employees, and judged polygraph accuracy insufficient to justify reliance on it for screening.",
+     "outcome": "The National Research Council calculated that screening 10,000 employees including 10 spies, at a setting that catches 8 of them, would also flag 1,598 loyal employees, and judged polygraph accuracy insufficient to justify reliance on it for employee security screening in federal agencies.",
      "ref": {
       "title": "The Polygraph and Lie Detection (National Research Council, 2003)",
       "url": "https://www.nationalacademies.org/read/10420/chapter/2",
-      "finding": "Polygraph accuracy is insufficient to justify reliance on it for security screening because of the false positive versus missed threat tradeoff."
+      "finding": "Polygraph accuracy is insufficient to justify reliance on its use in employee security screening in federal agencies."
      }
     }
    ]
@@ -9617,14 +9706,19 @@
    "probability": 0.7,
    "year": 2025,
    "stage": "active",
-   "evidence": "reported",
+   "evidence": "measured",
    "theme": "work",
-   "summary": "In one Gallup poll of 2,232 US public school teachers, weekly AI users estimated they save 5.9 hours a week, about six weeks per school year[1], and 57% to 74% said work quality improved, depending on task[1]. The savings are self-reported, and only three in ten teachers use AI weekly[1].",
+   "summary": "In one Gallup poll of 2,232 US public school teachers, those using AI weekly estimated they save 5.9 hours a week, about six weeks per school year, and 57% to 74% of AI users said it improved the quality of their work, depending on the task[1]. The savings are self-reported, and only about three in ten teachers use AI weekly[1]. In one school-randomised trial of 259 Year 7 and 8 science teachers in 68 schools, ChatGPT with a guide cut lesson and resource planning from 81.5 to about 56.2 minutes a week, with no evidence of a difference in resource quality[2].",
    "refs": [
     {
      "title": "Gallup / Walton Family Foundation, Three in 10 Teachers Use AI Weekly, Saving Six Weeks a Year, 2025",
      "url": "https://news.gallup.com/poll/691967/three-teachers-weekly-saving-six-weeks-year.aspx",
-     "finding": "Of 2,232 US public school teachers, weekly AI users estimated they save 5.9 hours a week, about six weeks per school year."
+     "finding": "Of 2,232 US public K-12 teachers surveyed in March and April 2025, weekly AI users estimated they save 5.9 hours a week, about six weeks per school year; 32% used AI at least weekly."
+    },
+    {
+     "title": "NFER, ChatGPT in lesson preparation - A Teacher Choices Trial (2024)",
+     "url": "https://www.nfer.ac.uk/publications/chatgpt-in-lesson-preparation-a-teacher-choices-trial/",
+     "finding": "In a ten-week school-randomised trial of 259 Year 7 and 8 science teachers from 68 schools, the ChatGPT group spent about 56.2 minutes a week on lesson and resource planning against 81.5 minutes for teachers barred from generative AI, and an expert panel found no evidence that resource quality differed."
     }
    ],
    "valence": 2.06,
@@ -9632,21 +9726,21 @@
     {
      "limit": "low AI literacy",
      "kind": "literacy",
-     "evidence": "Over 80% of US students said teachers had not taught them how to use AI for schoolwork, and teacher training lags use.",
+     "evidence": "In 2024-25, 68% of US public school teachers had not taken any school or district training on AI, and more taught themselves to use it (52%) than were trained by their school or district (31%).",
      "ref": {
-      "title": "AI Use in Schools Is Quickly Increasing but Guidance Lags Behind (RAND, 2025)",
-      "url": "https://www.rand.org/pubs/research_reports/RRA4180-1.html",
-      "finding": "Professional development for teachers and training for students on AI lag behind use."
+      "title": "Gallup / Walton Family Foundation, Teaching for Tomorrow: Unlocking Six Weeks a Year With AI (2025)",
+      "url": "https://www.gallup.com/file/analytics/691922/Walton-Family-Foundation-Gallup-Teachers-AI-Report.pdf",
+      "finding": "Most teachers (68%) have not engaged in any training provided by their school or district on how to use AI or AI tools."
      }
     },
     {
      "limit": "slow institutional adoption",
      "kind": "regulation",
-     "evidence": "Only 45% of principals reported school or district AI guidance, and 34% of teachers had academic-integrity policies on AI.",
+     "evidence": "Only 19% of US public school teachers said their school had a policy on how to use AI.",
      "ref": {
-      "title": "AI Use in Schools Is Quickly Increasing but Guidance Lags Behind (RAND, 2025)",
-      "url": "https://www.rand.org/pubs/research_reports/RRA4180-1.html",
-      "finding": "45 percent of principals reported having school or district policies or guidance on AI."
+      "title": "Gallup / Walton Family Foundation, Teaching for Tomorrow: Unlocking Six Weeks a Year With AI (2025)",
+      "url": "https://www.gallup.com/file/analytics/691922/Walton-Family-Foundation-Gallup-Teachers-AI-Report.pdf",
+      "finding": "Only about one in five teachers (19%) are employed at schools with an AI policy."
      }
     },
     {
@@ -9654,9 +9748,9 @@
      "kind": "skills",
      "evidence": "About 32% of US teachers use AI weekly, and the 5.9 hours saved is self-reported by those users.",
      "ref": {
-      "title": "Three in 10 Teachers Use AI Weekly, Saving Six Weeks a Year (Gallup)",
+      "title": "Gallup / Walton Family Foundation, Three in 10 Teachers Use AI Weekly, Saving Six Weeks a Year, 2025",
       "url": "https://news.gallup.com/poll/691967/three-teachers-weekly-saving-six-weeks-year.aspx",
-      "finding": "Teachers who use AI at least weekly estimate they save an average of 5.9 hours per week."
+      "finding": "Teachers who use AI tools at least weekly estimate they save 5.9 hours per week, on average; 32% of teachers use AI tools at least weekly."
      }
     }
    ],
@@ -9666,35 +9760,35 @@
      "actor": "school districts",
      "status": "proposed",
      "counters": "low AI literacy",
-     "evidence": "RAND recommends districts train teachers and students, distinguishing AI that complements learning from AI that supplants it.",
+     "evidence": "Gallup and the Walton Family Foundation warn that schools unable to support teachers with training and schoolwide AI policies risk widening the gap between teachers with and without AI skills.",
      "ref": {
-      "title": "AI Use in Schools Is Quickly Increasing but Guidance Lags Behind (RAND, 2025)",
-      "url": "https://www.rand.org/pubs/research_reports/RRA4180-1.html",
-      "finding": "School district leaders should create a coherent policy on AI use and train teachers and students."
+      "title": "Gallup / Walton Family Foundation, Teaching for Tomorrow: Unlocking Six Weeks a Year With AI (2025)",
+      "url": "https://www.gallup.com/file/analytics/691922/Walton-Family-Foundation-Gallup-Teachers-AI-Report.pdf",
+      "finding": "Schools that are unable to support their teachers with training and schoolwide policies on AI may risk widening the gaps between teachers with and without AI skills."
      }
     },
     {
-     "action": "Publish state guidance on AI policy",
-     "actor": "state education agencies",
-     "status": "proposed",
+     "action": "Adopt a school AI policy",
+     "actor": "schools",
+     "status": "in force",
      "counters": "slow institutional adoption",
-     "evidence": "RAND recommends states act as trusted sources of regularly updated AI guidance.",
+     "evidence": "Teachers at schools with an AI policy were more likely to have used AI in the past year (70% vs. 60%), and those schools reported 2.3 rather than 1.7 hours saved per teacher per week; the survey shows a correlation, not a cause.",
      "ref": {
-      "title": "AI Use in Schools Is Quickly Increasing but Guidance Lags Behind (RAND, 2025)",
-      "url": "https://www.rand.org/pubs/research_reports/RRA4180-1.html",
-      "finding": "Trusted sources, such as states, should provide guidance on what effective AI policies and training look like."
+      "title": "Gallup / Walton Family Foundation, Teaching for Tomorrow: Unlocking Six Weeks a Year With AI (2025)",
+      "url": "https://www.gallup.com/file/analytics/691922/Walton-Family-Foundation-Gallup-Teachers-AI-Report.pdf",
+      "finding": "Schools with an AI policy are earning an AI dividend that is 26% greater than schools without an AI policy (2.3 vs. 1.7 hours saved per week per teacher)."
      }
     },
     {
      "action": "Measure time savings beyond self-report",
      "actor": "researchers",
-     "status": "idea",
+     "status": "tested",
      "counters": "Only a minority use AI weekly",
-     "evidence": "The Gallup estimate rests on teacher self-report, so independent time-use measurement would test it.",
+     "evidence": "One school-randomised trial measured planning time directly and found a saving of about 25 minutes a week on Year 7 and 8 science lesson and resource planning, a narrower task than the six in the Gallup estimate.",
      "ref": {
-      "title": "Three in 10 Teachers Use AI Weekly, Saving Six Weeks a Year (Gallup)",
-      "url": "https://news.gallup.com/poll/691967/three-teachers-weekly-saving-six-weeks-year.aspx",
-      "finding": "Weekly AI users estimate 5.9 hours saved per week, about six weeks a year."
+      "title": "NFER, ChatGPT in lesson preparation - A Teacher Choices Trial (2024)",
+      "url": "https://www.nfer.ac.uk/publications/chatgpt-in-lesson-preparation-a-teacher-choices-trial/",
+      "finding": "Teachers using ChatGPT spent around 56.2 minutes per week on lesson and resource planning, against 81.5 minutes in the group not using generative AI."
      }
     }
    ],
@@ -9703,20 +9797,20 @@
      "event": "Labour-saving household appliances",
      "year": "1920s-1997",
      "parallel": "Technologies sold as time-savers for routine work often fail to shrink the hours spent on that work once rising standards absorb the gain.",
-     "outcome": "Using the 1997 Australian Time Use Survey with appliance inventories, the authors found appliances seldom reduced women's unpaid work time and in some cases slightly increased it; housework differs from paid teaching, which has fixed contract hours.",
+     "outcome": "Using the 1997 Australian Time Use Survey with appliance inventories, the authors found domestic technology rarely reduced women's unpaid working time and may even have increased some domestic labour; housework differs from paid teaching, which has fixed contract hours.",
      "ref": {
-      "title": "Appliances and their impact: the ownership of domestic technology and time spent on household work (British Journal of Sociology, 2004)",
+      "title": "Bittman, Rice and Wajcman, Appliances and their impact: the ownership of domestic technology and time spent on household work (British Journal of Sociology, 2004)",
       "url": "https://openresearch-repository.anu.edu.au/items/69e28c23-1065-4788-a26f-39fc09408f25",
-      "finding": "Domestic technology rarely reduced women's unpaid working time and sometimes increased domestic labour."
+      "finding": "Domestic technology rarely reduces women's unpaid working time and may even increase some domestic labour."
      }
     },
     {
      "event": "Self-reported versus diary work hours",
-     "year": "1985-2011",
+     "year": "2011-2014",
      "parallel": "Time savings that teachers report about themselves are estimates, and time estimates drift from what diaries record.",
-     "outcome": "Employed respondents overestimated their work hours by 5 to 10% compared with time diaries, mostly among those claiming long hours; a later BLS article disputed parts of this analysis, so the size of the bias is contested.",
+     "outcome": "In US and Belgian data, employed respondents overestimated their work hours by 5 to 10% compared with their time diaries, mostly among those estimating long hours; a 2014 BLS article disputed this analysis and found any bias in the main US hours survey to be small, so the size of the bias is contested.",
      "ref": {
-      "title": "The overestimated workweek revisited (Monthly Labor Review, US Bureau of Labor Statistics, 2011)",
+      "title": "Robinson, Martin, Glorieux and Minnen, The overestimated workweek revisited (Monthly Labor Review, US Bureau of Labor Statistics, 2011)",
       "url": "https://www.bls.gov/opub/mlr/2011/06/art3full.pdf",
       "finding": "Respondents overestimated work hours by 5 to 10 percent relative to their time diaries, mostly those estimating longer hours."
      }
@@ -15659,7 +15753,7 @@
    "source": "bots",
    "target": "unusableweb",
    "kind": "leads",
-   "why": "Bots now making up most traffic flood search, reviews and forums with automated content until human work gets crowded out."
+   "why": "Bots now make up most web traffic, and automated accounts that post at scale add to the generated content crowding out human work."
   },
   {
    "source": "unusableweb",
@@ -15683,7 +15777,7 @@
    "source": "artauthenticity",
    "target": "artists",
    "kind": "leads",
-   "why": "When audiences doubt and value human work less, clients pay less for it and switch to generators instead."
+   "why": "Work labelled AI-made is rated lower, including on worth, so suspicion that human work is generated lowers what audiences think it is worth."
   },
   {
    "source": "aiscribes",
@@ -16721,7 +16815,7 @@
    "source": "hallucinations",
    "target": "medchatbotgap",
    "kind": "leads",
-   "why": "Confident but wrong medical answers are one reason health chatbots fail real patients."
+   "why": "Wrong suggestions are part of the failure: in one study, chatbots offered 2.21 possible conditions per conversation on average and only 34.0% of them were correct."
   },
   {
    "source": "hallucinations",
@@ -17303,7 +17397,37 @@
    "source": "aidevicerecalls",
    "target": "medchatbotgap",
    "kind": "twin",
-   "why": "Both show medical AI doing worse with real patients than its premarket or laboratory results suggest."
+   "why": "Both show medical AI doing worse in real use than its premarket or benchmark results suggest."
+  },
+  {
+   "source": "aiscribes",
+   "target": "jevons",
+   "kind": "leads",
+   "why": "Some health-system leaders expect clinics to add patients as scribe use grows, and a 2025 taskforce report warned that reporting on patient throughput may reverse the burnout gains."
+  },
+  {
+   "source": "aimusicflood",
+   "target": "artauthenticity",
+   "kind": "leads",
+   "why": "Fully AI-generated tracks make up 34% of Deezer's daily uploads and 97% of listeners in one survey could not tell them from human music, so listeners cannot know which songs a person made."
+  },
+  {
+   "source": "claimdenials",
+   "target": "welfarealgorithm",
+   "kind": "twin",
+   "why": "Both use automated rules to deny or claw back benefits at scale, leaving people to contest a machine's result, as Robodebt did in Australia."
+  },
+  {
+   "source": "cheating",
+   "target": "detectorbias",
+   "kind": "leads",
+   "why": "Schools turned on AI-text detectors to catch AI-written schoolwork, and those detectors can misclassify non-native English writing as AI-generated."
+  },
+  {
+   "source": "literacy",
+   "target": "teachertime",
+   "kind": "leads",
+   "why": "Gallup finds teachers must invest in learning AI tools to earn time savings, and weekly users estimate 5.9 hours saved a week against 2.9 for monthly users."
   }
  ],
  "themes": {
