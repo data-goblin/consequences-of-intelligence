@@ -14491,6 +14491,127 @@
      }
     }
    ]
+  },
+  {
+   "id": "ancienttexts",
+   "label": "AI reads lost ancient texts",
+   "valence": 2.76,
+   "probability": 0.55,
+   "year": 2025,
+   "evidence": "measured",
+   "summary": "Machine learning is recovering writing that people could not read. In 2023 a team using machine-learning ink detection on scans of one of the Herculaneum scrolls read more than 2,000 characters, about 5% of the scroll[1]; in 2025 the same approach recovered a title, Philodemus's On Vices, from a scroll that is still rolled, though the book number is uncertain[2], and in June 2026 the team reported in a preprint that it had deciphered all surviving text of another scroll, about 20 columns of Stoic philosophy[3]. For Latin inscriptions, one Nature study found historians judged the AI's suggested parallels useful starting points in 90% of cases, and historians working with it restored and located texts better than humans or the AI alone[4]. Its suggestions are not answers: the right restoration is among its top 20 guesses 73% of the time for gaps of up to ten characters and 58% when the gap length is unknown[5].",
+   "refs": [
+    {
+     "title": "Vesuvius Challenge, 2023 Grand Prize awarded: we can read the scrolls!, February 2024",
+     "url": "https://scrollprize.org/grandprize",
+     "finding": "Youssef Nader, Luke Farritor and Julian Schilliger shared the $700,000 Grand Prize for reading four passages of 140 characters plus 11 more columns, more than 2,000 characters, using machine-learning ink detection and automatic segmentation of the CT scan; about 5% of the first scroll was read and about 95% remained unread."
+    },
+    {
+     "title": "Vesuvius Challenge, $60,000 First Title Prize Awarded, May 2025",
+     "url": "https://scrollprize.substack.com/p/60000-first-title-prize-awarded",
+     "finding": "Marcel Roth and Micha Nowak won the first $60,000 First Title Prize for PHerc. 172, held by the Bodleian Libraries; an ink detection model run on autosegmentation revealed the title, which papyrologists read as Philodemus, On Vices, probably Book 1, the first title of a still-rolled Herculaneum scroll ever recovered noninvasively. The book number is less certain and segmentation still sometimes jumps between sheets."
+    },
+    {
+     "title": "Smithsonian Magazine, Scientists Have Deciphered the Surviving Fragments of a 2,000-Year-Old Philosophical Treatise Frozen in Time by Mount Vesuvius' Eruption, June 2026",
+     "url": "https://www.smithsonianmag.com/smart-news/scientists-have-deciphered-the-surviving-fragments-of-a-2000-year-old-philosophical-treatise-frozen-in-time-by-mount-vesuvius-eruption-180989036/",
+     "finding": "The Vesuvius Challenge team led by Brent Seales used X-ray imaging, virtual unwrapping and AI to decipher all surviving text of PHerc. 1667, roughly 20 columns of Stoic philosophy; more than half of the scroll had been lost to earlier attempts to open it, and the findings are in a team preprint."
+    },
+    {
+     "title": "Assael et al., Contextualizing ancient texts with generative neural networks, Nature 2025",
+     "url": "https://ideas.repec.org/a/nat/nature/v645y2025i8079d10.1038_s41586-025-09292-5.html",
+     "finding": "Aeneas, a generative neural network, retrieves parallels between inscriptions, uses images and restores text of any length; in a large study historians found its parallels useful research starting points in 90% of cases, their confidence in key tasks rose 44%, historians paired with it beat both humans and AI alone on restoration and geographical attribution, and its dates fell within 13 years of ground-truth ranges."
+    },
+    {
+     "title": "Google DeepMind, Aeneas transforms how historians connect the past, July 2025",
+     "url": "https://deepmind.google/blog/aeneas-transforms-how-historians-connect-the-past/",
+     "finding": "Trained on the Latin Epigraphic Dataset of over 176,000 Latin inscriptions, Aeneas reaches top-20 restoration accuracy of 73% in gaps of up to ten characters and 58% when the gap length is unknown, attributes texts to one of 62 Roman provinces with 72% accuracy, and was tested with 23 historians."
+    }
+   ],
+   "theme": "world",
+   "stage": "emerging",
+   "limiters": [
+    {
+     "limit": "Most of the text is still unread",
+     "kind": "pace",
+     "evidence": "After the 2023 breakthrough about 95% of the first scroll remained unread, and the project aims to read all 300 scrolls in its collection.",
+     "ref": {
+      "title": "Vesuvius Challenge, 2023 Grand Prize awarded: we can read the scrolls!, February 2024",
+      "url": "https://scrollprize.org/grandprize",
+      "finding": "About 5% of the first scroll had been unwrapped and read; the next goal was 90% of four scanned scrolls and eventually all 300 scrolls."
+     }
+    },
+    {
+     "limit": "Restorations are guesses to check",
+     "kind": "quality",
+     "evidence": "Even among its top 20 suggestions, the inscription model finds the right text only 58% of the time when the gap length is unknown.",
+     "ref": {
+      "title": "Google DeepMind, Aeneas transforms how historians connect the past, July 2025",
+      "url": "https://deepmind.google/blog/aeneas-transforms-how-historians-connect-the-past/",
+      "finding": "Top-20 restoration accuracy is 73% in gaps of up to ten characters and 58% when the restoration length is unknown."
+     }
+    },
+    {
+     "limit": "Readings from scans stay uncertain",
+     "kind": "quality",
+     "evidence": "The book number in the first recovered title is less certain, and segmentation of the scan still sometimes jumps to an adjacent sheet.",
+     "ref": {
+      "title": "Vesuvius Challenge, $60,000 First Title Prize Awarded, May 2025",
+      "url": "https://scrollprize.substack.com/p/60000-first-title-prize-awarded",
+      "finding": "The book number is less certain for now, the book does not match On Flattery as expected, and sheet switches still occur in segmentation, though they are improving."
+     }
+    }
+   ],
+   "enablers": [
+    {
+     "action": "Fund open prizes for reading the scrolls",
+     "actor": "Vesuvius Challenge",
+     "status": "in force",
+     "counters": "Most of the text is still unread",
+     "evidence": "A $700,000 Grand Prize in 2023 and a $60,000 First Title Prize in 2025 went to outside contestants who improved segmentation and ink detection.",
+     "ref": {
+      "title": "Vesuvius Challenge, 2023 Grand Prize awarded: we can read the scrolls!, February 2024",
+      "url": "https://scrollprize.org/grandprize",
+      "finding": "The 2023 Grand Prize of $700,000 went to three contestants; the project set further goals to read 90% of four scanned scrolls."
+     }
+    },
+    {
+     "action": "Have papyrologists review each AI reading",
+     "actor": "papyrologists",
+     "status": "in force",
+     "counters": "Readings from scans stay uncertain",
+     "evidence": "The papyrological team independently reviewed the ink detection output before the title of PHerc. 172 was announced, and flagged which parts of the reading were uncertain.",
+     "ref": {
+      "title": "Vesuvius Challenge, $60,000 First Title Prize Awarded, May 2025",
+      "url": "https://scrollprize.substack.com/p/60000-first-title-prize-awarded",
+      "finding": "The papyrological team led by Federica Nicolardi independently reviewed the output and unanimously read the author as Philodemus and the title as On Vices, while marking the book number as less certain."
+     }
+    },
+    {
+     "action": "Release models and datasets openly",
+     "actor": "Google DeepMind",
+     "status": "in force",
+     "counters": null,
+     "evidence": "An interactive version of the inscription model is free to use, and its code and dataset are open source, so other historians can test its suggestions.",
+     "ref": {
+      "title": "Google DeepMind, Aeneas transforms how historians connect the past, July 2025",
+      "url": "https://deepmind.google/blog/aeneas-transforms-how-historians-connect-the-past/",
+      "finding": "An interactive version of Aeneas is free to use, and the team is open-sourcing its code and dataset on GitHub."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "Virtual unwrapping of the En-Gedi scroll",
+     "year": 2016,
+     "parallel": "Before machine learning, scanning and software already let researchers read a charred scroll that could never be opened by hand.",
+     "outcome": "A team led by Brent Seales scanned a burned scroll excavated in 1970 at the synagogue of En Gedi, Israel, and virtually unwrapped it to reveal Leviticus, 35 lines across five wraps with 18 preserved and 17 reconstructed; it was the first severely damaged, ink-based scroll unrolled and identified noninvasively.",
+     "ref": {
+      "title": "University of Kentucky, Virtually Unwrapping the En-Gedi Scroll, September 2016",
+      "url": "https://research.uky.edu/news/virtually-unwrapping-en-gedi-scroll",
+      "finding": "Published in Science Advances on 21 September 2016: virtual unwrapping of high-resolution scans revealed Leviticus in a charred scroll that likely will never be physically opened, the earliest copy of a Pentateuchal book ever found in a Holy Ark."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -16641,6 +16762,18 @@
    "target": "powerbills",
    "kind": "twin",
    "why": "Both pass a cost of powering AI data centres onto nearby households, through their lungs or their power bills."
+  },
+  {
+   "source": "ancienttexts",
+   "target": "endangeredlang",
+   "kind": "twin",
+   "why": "Both use AI to recover human language and writing that would otherwise be lost."
+  },
+  {
+   "source": "ancienttexts",
+   "target": "preservation",
+   "kind": "twin",
+   "why": "Both use AI to recover what is locked inside artefacts no one can read directly, charred scrolls or compiled legacy software."
   }
  ],
  "themes": {
