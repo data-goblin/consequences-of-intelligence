@@ -15677,6 +15677,111 @@
      }
     }
    ]
+  },
+  {
+   "id": "chatexposure",
+   "label": "Private chatbot conversations exposed",
+   "valence": -3.66,
+   "probability": 0.55,
+   "year": 2025,
+   "evidence": "reported",
+   "summary": "People tell chatbots sensitive things: in one study of English conversations with GPT models from the WildChat dataset, almost 15% of queries mentioned a sensitive topic such as sexual preferences or drug use[1]. Those chats have leaked. In August 2025 Forbes found more than 370,000 Grok conversations indexed by Google, because shared chats got public links with no warning to users; some held medical questions, names and at least one password[2]. Over 4,500 shared ChatGPT chats had appeared in Google after users ticked a box to make them discoverable, and OpenAI removed the option[3]. Users of Meta's AI app posted chats about tax evasion, legal trouble and home addresses to a public feed, some apparently unaware it was public[4]. Security researchers found browser extensions with more than 8 million users capturing chats on ChatGPT, Gemini and other AI platforms, with no option to turn it off; they advise assuming chats since July 2025 were taken[5], and a US magistrate judge ordered OpenAI to hand about 20 million de-identified ChatGPT logs to The New York Times in its copyright suit[6]. In the ChatGPT and Meta cases nothing was public by default: users had to choose to share and publish[3][7], and the extensions' privacy policy disclosed the collection[5].",
+   "refs": [
+    {
+     "title": "Mireshghallah, Antoniak, More, Choi and Farnadi, Trust No Bot: Discovering Personal Disclosures in Human-LLM Conversations in the Wild, arXiv 2024",
+     "url": "https://arxiv.org/abs/2407.11438",
+     "finding": "The authors annotate a random sample of 5,000 English WildChat conversations, from one million user-GPT interactions collected with consent; personally identifiable information appears in unexpected contexts such as translation (48% of the time) and code editing (16%), and the paper says almost 15% of queries mention a non-PII sensitive topic such as sexual preferences or drug use. They call for nudging mechanisms that help users moderate what they share."
+    },
+    {
+     "title": "Forbes Australia, Elon Musk's xAI published hundreds of thousands of Grok chatbot conversations, August 2025",
+     "url": "https://www.forbes.com.au/news/innovation/xai-published-hundreds-of-thousands-of-grok-chatbot-conversations/",
+     "finding": "Clicking share on a Grok chat creates a unique URL that is also available to search engines such as Google, Bing and DuckDuckGo, with no warning to users; a Google search showed more than 370,000 indexed Grok conversations, some with intimate medical and psychology questions, names, personal details and at least one password, plus uploaded files. xAI did not respond to a request for comment."
+    },
+    {
+     "title": "Search Engine Journal, OpenAI Is Pulling Shared ChatGPT Chats From Google Search, July 2025",
+     "url": "https://www.searchenginejournal.com/openai-is-pulling-shared-chatgpt-chats-from-google-search/552671/",
+     "finding": "Shared ChatGPT links were private by default, but users could tick a checkbox to make a shared chat discoverable by search engines; Fast Company found over 4,500 shared links indexed by Google. OpenAI disabled the option, which it called a short-lived experiment to help people discover useful conversations, and said it was working with search engines to remove indexed links, though cached copies may appear for a while and deleting a chat does not delete its share link."
+    },
+    {
+     "title": "TechCrunch, The Meta AI app is a privacy disaster, June 2025",
+     "url": "https://techcrunch.com/2025/06/12/the-meta-ai-app-is-a-privacy-disaster",
+     "finding": "A share button in the Meta AI app lets users preview and publish an exchange to a public feed, and some users seemed unaware they were making text chats, audio and images public; posts included requests for help with tax evasion, questions about relatives' links to white-collar crime, a reference letter naming an employee facing legal trouble, and home addresses and court details. The app had about 6.5 million downloads since its April 2025 launch, per Appfigures."
+    },
+    {
+     "title": "The Register, Browser 'privacy' extensions have eye on your AI, log all your chats, December 2025",
+     "url": "https://www.theregister.com/2025/12/16/chrome_edge_privacy_extensions_quietly/",
+     "finding": "Koi Security found that Urban VPN Proxy, 1ClickVPN Proxy, Urban Browser Guard and Urban Ad Blocker, with more than 8 million users on Chrome and Edge, capture chatbot conversations on platforms including ChatGPT, Gemini, Copilot, Perplexity, DeepSeek, Grok and Meta AI. Harvesting is set by a hardcoded flag with no user toggle; the consent prompt came in a silent update that users who installed before July 2025 never saw, and the researcher advises assuming conversations since July 2025 were captured. Urban VPN's privacy policy discloses AI data collection, which Koi calls misleading framing."
+    },
+    {
+     "title": "Decrypt, OpenAI Ordered to Hand Over 20M ChatGPT Logs in NYT Copyright Case, December 2025",
+     "url": "https://decrypt.co/351000/openai-ordered-20m-chatgpt-logs-nyt-copyright-case",
+     "finding": "US Magistrate Judge Ona T. Wang ordered OpenAI to produce roughly 20 million de-identified ChatGPT user logs under a protective framework in The New York Times' copyright suit, finding the sample proportional to the needs of the case; OpenAI objected that the order would force disclosure of millions of private user conversations."
+    },
+    {
+     "title": "Engadget, Meta warns users to 'avoid sharing personal or sensitive information' in its AI app, June 2025",
+     "url": "https://engadget.com/social-media/meta-warns-users-to-avoid-sharing-personal-or-sensitive-information-in-its-ai-app-233900625.html",
+     "finding": "Meta AI does not share chat histories by default, but many users shared chats to the public discover feed without realising they would become public. Meta added a disclaimer, shown only on the first share, that prompts posted are public and visible to everyone and that users should avoid sharing personal or sensitive information; a spokesperson said posting is a multi-step process designed to add friction."
+    }
+   ],
+   "theme": "security",
+   "stage": "active",
+   "control": "mitigable",
+   "price_of": [
+    "therapy",
+    "betteranswers"
+   ],
+   "control_note": "Chatbots give better help the more people tell them, so chat logs hold health, legal and money worries in one place. Private-by-default sharing, clear warnings and keeping share pages out of search limit the leaks, but every stored copy, whether held by a vendor, an extension or a court, is another place they can surface.",
+   "actions": [
+    {
+     "action": "Keep shared chats out of search engines",
+     "actor": "AI companies",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "OpenAI removed the option that let shared ChatGPT chats be found by search engines and said it was working with search engines to remove indexed links; cached copies may linger, and deleting a chat does not delete its share link.",
+     "ref": {
+      "title": "Search Engine Journal, OpenAI Is Pulling Shared ChatGPT Chats From Google Search, July 2025",
+      "url": "https://www.searchenginejournal.com/openai-is-pulling-shared-chatgpt-chats-from-google-search/552671/",
+      "finding": "Shared ChatGPT links were private by default, but users could tick a checkbox to make a shared chat discoverable by search engines; Fast Company found over 4,500 shared links indexed by Google. OpenAI disabled the option, which it called a short-lived experiment to help people discover useful conversations, and said it was working with search engines to remove indexed links, though cached copies may appear for a while and deleting a chat does not delete its share link."
+     }
+    },
+    {
+     "action": "Warn users before a chat goes public",
+     "actor": "AI companies",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "Meta added a notice that prompts posted to its AI app's feed are public and visible to everyone, but it appears only on the first share.",
+     "ref": {
+      "title": "Engadget, Meta warns users to 'avoid sharing personal or sensitive information' in its AI app, June 2025",
+      "url": "https://engadget.com/social-media/meta-warns-users-to-avoid-sharing-personal-or-sensitive-information-in-its-ai-app-233900625.html",
+      "finding": "Meta AI does not share chat histories by default, but many users shared chats to the public discover feed without realising they would become public. Meta added a disclaimer, shown only on the first share, that prompts posted are public and visible to everyone and that users should avoid sharing personal or sensitive information; a spokesperson said posting is a multi-step process designed to add friction."
+     }
+    },
+    {
+     "action": "Nudge users to share less with chatbots",
+     "actor": "developers",
+     "status": "idea",
+     "aim": "impact",
+     "evidence": "The authors of one study of real chatbot conversations call for nudging mechanisms that help users moderate what they share, since detecting identifying details alone misses sensitive topics.",
+     "ref": {
+      "title": "Mireshghallah, Antoniak, More, Choi and Farnadi, Trust No Bot: Discovering Personal Disclosures in Human-LLM Conversations in the Wild, arXiv 2024",
+      "url": "https://arxiv.org/abs/2407.11438",
+      "finding": "The authors annotate a random sample of 5,000 English WildChat conversations, from one million user-GPT interactions collected with consent; personally identifiable information appears in unexpected contexts such as translation (48% of the time) and code editing (16%), and the paper says almost 15% of queries mention a non-PII sensitive topic such as sexual preferences or drug use. They call for nudging mechanisms that help users moderate what they share."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "AOL search log release",
+     "year": 2006,
+     "parallel": "Records of what people typed into a service, released with usernames swapped for numbers, still revealed who they were and what worried them.",
+     "outcome": "AOL released about 19 million searches from more than 650,000 subscribers; The New York Times traced one user to a 62-year-old woman in Georgia, two employees were fired, the chief technology officer resigned and subscribers filed a class action under the Electronic Communications Privacy Act.",
+     "ref": {
+      "title": "Associated Press via NBC News, Subscribers sue AOL over data release, September 2006",
+      "url": "https://www.nbcnews.com/id/wbna15004643",
+      "finding": "AOL released about 19 million search requests from more than 650,000 subscribers over three months, replacing usernames with numbers; The New York Times traced user 4417749 to Thelma Arnold, 62, of Lilburn, Georgia. The researcher and another employee were fired, the chief technology officer resigned, and three subscribers filed a class action alleging violations of the Electronic Communications Privacy Act."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -18049,6 +18154,18 @@
    "target": "biasedsentencing",
    "kind": "twin",
    "why": "Both use risk scores to steer state decisions about people and flagged Black people more often than white people: 32.5% against 20.8% of children reported for neglect in Allegheny County, and 44.9% against 23.5% of defendants who did not reoffend in Broward County."
+  },
+  {
+   "source": "therapy",
+   "target": "chatexposure",
+   "kind": "leads",
+   "why": "When people bring medical and psychological questions to chatbots, those intimate conversations are what surface when shared chats are indexed by search engines."
+  },
+  {
+   "source": "datagrab",
+   "target": "chatexposure",
+   "kind": "twin",
+   "why": "Both take what people type into chatbots out of their control, one by reusing it for training and the other by exposing it to search engines, extensions or courts."
   }
  ],
  "themes": {
