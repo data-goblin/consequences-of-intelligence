@@ -9825,12 +9825,17 @@
    "stage": "active",
    "evidence": "reported",
    "theme": "world",
-   "summary": "Camera sprayers recognise individual weeds and spray only those. John Deere says farmers using See & Spray on more than five million acres in 2025 cut non-residual herbicide use by almost 50%, saving nearly 31 million gallons of herbicide mix[1].",
+   "summary": "Camera sprayers recognise individual weeds and spray only those[2]. John Deere says farmers using See & Spray on more than five million acres in 2025 cut non-residual herbicide use by almost 50% on average, saving nearly 31 million gallons of herbicide mix[1]. A three-year University of Arkansas soybean trial found 43 to 59% less herbicide than broadcast spraying at the lowest sensitivity setting, but that setting let Palmer amaranth populations grow 280% a year, and the researchers advise the high setting[2].",
    "refs": [
     {
-     "title": "Farms.com, John Deere See and Spray saves millions, 2025",
+     "title": "John Deere See and Spray saves millions (Farms.com, 2025)",
      "url": "https://www.farms.com/news/john-deere-see-and-spray-saves-millions-234493.aspx",
-     "finding": "In 2025, farmers using See & Spray cut non-residual herbicide use by almost 50%, saving nearly 31 million gallons of herbicide mix."
+     "finding": "Deere-reported 2025 results: See & Spray was used on more than five million acres, cutting non-residual herbicide use by almost 50 percent and saving nearly 31 million gallons of herbicide mix."
+    },
+    {
+     "title": "Precision agriculture research measures effectiveness of See & Spray technology (University of Arkansas System Division of Agriculture, 2025)",
+     "url": "https://uaex.uada.edu/media-resources/news/2025/march/03-10-2025-see-and-spray-research.aspx",
+     "finding": "A three-year Arkansas soybean field trial found the system allows a 43-59 percent reduction in herbicide use compared to broadcast applications at the lowest sensitivity setting; the low setting increased the Palmer amaranth population by 280 percent each year, and the lead researcher found the high-sensitivity setting best in most scenarios."
     }
    ],
    "valence": 3.46,
@@ -9838,31 +9843,31 @@
     {
      "limit": "High upfront equipment cost",
      "kind": "cost",
-     "evidence": "A $25,000 upgrade pays back after about 819 acres and a $75,000 upgrade after about 2,460 acres, which favors large farms.",
+     "evidence": "Arkansas researchers estimate a $25,000 upgrade pays back after about 819 acres and a $75,000 upgrade after about 2,460 acres, assuming early and mid post-emergence spraying in one season.",
      "ref": {
-      "title": "Precision agriculture research measures effectiveness of See & Spray technology (University of Arkansas Division of Agriculture, 2025)",
+      "title": "Precision agriculture research measures effectiveness of See & Spray technology (University of Arkansas System Division of Agriculture, 2025)",
       "url": "https://uaex.uada.edu/media-resources/news/2025/march/03-10-2025-see-and-spray-research.aspx",
-      "finding": "For a $75,000 upgrade, the payback point was about 2,460 acres."
+      "finding": "The sprayer would pay for itself after treating 819 acres for a $25,000 upgrade and 2,460 acres for a $75,000 upgrade."
      }
     },
     {
      "limit": "Wrong settings grow weed seed banks",
      "kind": "quality",
-     "evidence": "At low sensitivity, missed Palmer amaranth rose 280% a year, risking herbicide resistance and over $60 million a year in Arkansas.",
+     "evidence": "At the low sensitivity setting, Palmer amaranth populations grew 280% a year; misuse could speed herbicide resistance or force extra sprays, costing Arkansas growers upwards of $60 million a year.",
      "ref": {
-      "title": "Precision agriculture research measures effectiveness of See & Spray technology (University of Arkansas Division of Agriculture, 2025)",
+      "title": "Precision agriculture research measures effectiveness of See & Spray technology (University of Arkansas System Division of Agriculture, 2025)",
       "url": "https://uaex.uada.edu/media-resources/news/2025/march/03-10-2025-see-and-spray-research.aspx",
-      "finding": "Low sensitivity setting increased the weed seed bank by 280 percent per year."
+      "finding": "Operating at a low sensitivity setting increased the Palmer amaranth population by 280 percent each year; improper use could cost Arkansas producers upwards of $60 million per year."
      }
     },
     {
      "limit": "Learning curve for operators",
      "kind": "skills",
-     "evidence": "Arkansas researchers note the technology takes time to master and that residual herbicides may need a separate broadcast pass.",
+     "evidence": "Arkansas researchers note a learning curve to using the technology correctly, and residual herbicides ideally need to be broadcast at planting, which on the single-tank Premium model means extra passes.",
      "ref": {
-      "title": "Precision agriculture research measures effectiveness of See & Spray technology (University of Arkansas Division of Agriculture, 2025)",
+      "title": "Precision agriculture research measures effectiveness of See & Spray technology (University of Arkansas System Division of Agriculture, 2025)",
       "url": "https://uaex.uada.edu/media-resources/news/2025/march/03-10-2025-see-and-spray-research.aspx",
-      "finding": "Using the technology correctly takes time to master."
+      "finding": "Like any new technology, there is a learning curve to using it correctly; if a Premium is used, growers need to make multiple passes."
      }
     }
    ],
@@ -9872,11 +9877,11 @@
      "actor": "extension services",
      "status": "tested",
      "counters": "Wrong settings grow weed seed banks",
-     "evidence": "High sensitivity saved about $30.49 per acre over a season with no added risk versus broadcasting.",
+     "evidence": "Assuming a $25,000 upgrade, the high sensitivity setting saved $30.49 per acre over the season and posed no increased risk relative to broadcast spraying.",
      "ref": {
-      "title": "Precision agriculture research measures effectiveness of See & Spray technology (University of Arkansas Division of Agriculture, 2025)",
+      "title": "Precision agriculture research measures effectiveness of See & Spray technology (University of Arkansas System Division of Agriculture, 2025)",
       "url": "https://uaex.uada.edu/media-resources/news/2025/march/03-10-2025-see-and-spray-research.aspx",
-      "finding": "High sensitivity setting saved about $30.49 per acre with no added risk."
+      "finding": "Assuming a $25,000 upgrade cost, the high sensitivity setting saved $30.49 per acre over the entire season with no increased risk relative to the broadcast method."
      }
     },
     {
@@ -9884,11 +9889,11 @@
      "actor": "land-grant universities",
      "status": "tested",
      "counters": null,
-     "evidence": "A three-year Arkansas soybean trial found 43% to 59% less herbicide than broadcast spraying.",
+     "evidence": "A three-year Arkansas soybean trial found 43% to 59% less herbicide than broadcast spraying at the lowest sensitivity setting.",
      "ref": {
-      "title": "Precision agriculture research measures effectiveness of See & Spray technology (University of Arkansas Division of Agriculture, 2025)",
+      "title": "Precision agriculture research measures effectiveness of See & Spray technology (University of Arkansas System Division of Agriculture, 2025)",
       "url": "https://uaex.uada.edu/media-resources/news/2025/march/03-10-2025-see-and-spray-research.aspx",
-      "finding": "Targeted spraying reduced herbicide use by 43 to 59 percent."
+      "finding": "Targeted spraying at the lowest sensitivity setting allowed a 43-59 percent reduction in herbicide use compared to broadcast applications."
      }
     },
     {
@@ -9898,9 +9903,9 @@
      "counters": "High upfront equipment cost",
      "evidence": "The cheaper Premium model is more widely adopted in Arkansas than the Ultimate model.",
      "ref": {
-      "title": "Precision agriculture research measures effectiveness of See & Spray technology (University of Arkansas Division of Agriculture, 2025)",
+      "title": "Precision agriculture research measures effectiveness of See & Spray technology (University of Arkansas System Division of Agriculture, 2025)",
       "url": "https://uaex.uada.edu/media-resources/news/2025/march/03-10-2025-see-and-spray-research.aspx",
-      "finding": "The Premium model is less expensive and more widely adopted in Arkansas."
+      "finding": "The Premium model is the more affordable and more widely adopted option in Arkansas."
      }
     }
    ],
@@ -9909,11 +9914,11 @@
      "event": "GE crops promised less pesticide",
      "year": "1996-2011",
      "parallel": "Herbicide-tolerant and Bt crops were sold partly on the promise that targeted technology would cut chemical use, as vision sprayers are now.",
-     "outcome": "Bt crops cut insecticide use by about 56 million kg, but herbicide-tolerant crops added about 239 million kg of herbicide as glyphosate-resistant weeds spread, a net rise of about 7 percent; this is one modelled estimate by an author critical of GE crops, and spot spraying does not select for resistance in the same way.",
+     "outcome": "Bt crops cut insecticide use by about 56 million kg, but herbicide-tolerant crops added about 239 million kg of herbicide as glyphosate-resistant weeds spread, a net rise of about 7 percent; this is one modelled estimate by an author critical of GE crops.",
      "ref": {
-      "title": "Impacts of genetically engineered crops on pesticide use in the U.S. -- the first sixteen years (Benbrook, Environmental Sciences Europe 2012)",
+      "title": "Impacts of genetically engineered crops on pesticide use in the U.S. -- the first sixteen years (Benbrook, Environmental Sciences Europe, 2012)",
       "url": "https://link.springer.com/article/10.1186/2190-4715-24-24",
-      "finding": "Herbicide-resistant crops raised US herbicide use by 239 million kg in 1996-2011 while Bt crops cut insecticide use by 56 million kg; overall pesticide use rose about 183 million kg, roughly 7 percent."
+      "finding": "Herbicide-resistant crops raised US herbicide use by 239 million kg in 1996-2011 while Bt crops cut insecticide applications by 56 million kg; overall pesticide use rose an estimated 183 million kg, about 7 percent."
      }
     }
    ]
@@ -9926,12 +9931,17 @@
    "stage": "emerging",
    "evidence": "projected",
    "theme": "world",
-   "summary": "Data centres consume freshwater for cooling and, indirectly, for power generation, which may strain water-stressed regions. One modelled study projects global AI demand at 4.2 to 6.6 billion cubic metres of water withdrawal in 2027, more than half the UK's annual total[1].",
+   "summary": "Data centres use freshwater on site for cooling and, indirectly, at the power plants that supply them, which may strain water-stressed regions. One modelled study projects global AI demand at 4.2 to 6.6 billion cubic metres of water withdrawal in 2027, more than half the UK's annual total, though most of that is withdrawn for power generation and only 0.38 to 0.60 billion cubic metres would be consumed[1]. Google reports that a median Gemini text prompt used about 0.26 millilitres of water in May 2025, estimated from its data-centre water efficiency and not independently verified[2].",
    "refs": [
     {
-     "title": "Li et al., Making AI Less Thirsty: Uncovering and Addressing the Secret Water Footprint of AI Models, arXiv 2023",
+     "title": "Making AI Less 'Thirsty': Uncovering and Addressing the Secret Water Footprint of AI Models (Li, Yang, Islam and Ren, arXiv 2023, revised 2025; published in Communications of the ACM, 2025)",
      "url": "https://arxiv.org/abs/2304.03271",
-     "finding": "Global AI demand is projected to account for 4.2 to 6.6 billion cubic metres of water withdrawal in 2027, more than half of the UK's annual total."
+     "finding": "The combined scope-1 and scope-2 water withdrawal of global AI is projected to reach 4.2 to 6.6 billion cubic metres in 2027, more than half of the UK's annual withdrawal; scope-2 (power generation) accounts for 4.10 to 6.46 billion, and total consumption is 0.38 to 0.60 billion cubic metres."
+    },
+    {
+     "title": "How much energy does Google's AI use? We did the math (Google Cloud Blog, 2025)",
+     "url": "https://cloud.google.com/blog/products/infrastructure/measuring-the-environmental-impact-of-ai-inference",
+     "finding": "The median Gemini Apps text prompt in May 2025 used 0.24 Wh and consumed 0.26 millilitres of water, estimated from Google's 2024 fleetwide water usage effectiveness; the data have not been verified by an independent third party."
     }
    ],
    "valence": -2.98,
@@ -9940,18 +9950,18 @@
     "cheapintelligence",
     "science"
    ],
-   "control_note": "Any growth in compute uses water for cooling and power. Siting, timing and cooling choices can reduce the strain, but cannot remove it.",
+   "control_note": "Any growth in compute uses water for cooling and power. Siting, timing and cooling choices can reduce the strain, since dry and direct-liquid cooling use little or no water on site, but water used to generate the power remains.",
    "actions": [
     {
      "action": "Require data centres to meter and report water",
      "actor": "regulators",
      "aim": "probability",
      "status": "in force",
-     "evidence": "EU data centres of 500 kW or more must report total and potable water input and WUE every year. This produces data but sets no limits, and the data is published only in aggregate.",
+     "evidence": "EU data centres with at least 500 kW of IT power must report water input every year, from which WUE is calculated. In the first round 770 data centres reported, about 36% of those covered, with an average WUE of 0.58 cubic metres per MWh. Data is published only anonymised and sets no limits; a rating label was adopted in 2026 and minimum standards that could include WUE are at consultation stage.",
      "ref": {
-      "title": "Commission Delegated Regulation (EU) 2024/1364 on a rating scheme for data centres",
-      "url": "https://eur-lex.europa.eu/eli/reg_del/2024/1364/oj/eng",
-      "finding": "Operators of data centres of 500 kW or more must report total water input, from which WUE is calculated, to an EU database."
+      "title": "Report from the Commission to the European Parliament and the Council on the energy efficiency of data centres in the EU, COM(2026) 500 final (European Commission, 2026)",
+      "url": "https://data.consilium.europa.eu/doc/document/ST-13443-2026-INIT/en/pdf",
+      "finding": "Data centres of at least 500 kW must report KPIs including water consumption to the European database, first by 15 September 2024, then by 15 May 2025 and every year after; 770 reported in the first period, about 36% of those covered; reported data are anonymised; average 2024 WUE was 0.58 m3/MWh; a rating scheme regulation has been adopted and minimum performance standards are at consultation."
      }
     },
     {
@@ -9959,11 +9969,11 @@
      "actor": "cloud operators",
      "aim": "impact",
      "status": "idea",
-     "evidence": "Modelled only. Water efficiency varies by site and hour, and demand is projected at 4.2 to 6.6 billion cubic metres of withdrawal in 2027. No measured gains from scheduling have been reported.",
+     "evidence": "Modelled only. One study finds water efficiency varies by site and hour and argues that choosing when and where to train models can cut the water footprint, but it reports no measured gains from scheduling.",
      "ref": {
-      "title": "Li et al., Making AI Less Thirsty (arXiv 2304.03271)",
+      "title": "Making AI Less 'Thirsty': Uncovering and Addressing the Secret Water Footprint of AI Models (Li, Yang, Islam and Ren, arXiv 2023, revised 2025; published in Communications of the ACM, 2025)",
       "url": "https://arxiv.org/abs/2304.03271",
-      "finding": "AI's water efficiency varies across place and time, and the authors argue that water should be managed together with carbon."
+      "finding": "Water efficiency exhibits a spatial-temporal diversity; judiciously deciding when and where to train a large AI model can significantly affect the water footprint, and the authors argue water should be addressed together with carbon."
      }
     }
    ],
@@ -9972,11 +9982,11 @@
      "event": "Thermoelectric power plant cooling water",
      "year": "2020",
      "parallel": "Power plants, like data centres, draw large volumes of water for cooling, and the gap between water withdrawn and water actually consumed drives very different headline numbers.",
-     "outcome": "In 2020 US thermoelectric plants withdrew about 59,889 million gallons of freshwater a day, yet only about 3.9 percent of withdrawals were consumed; power cooling is a far larger and older load than data centres, and USGS figures are partly estimated too.",
+     "outcome": "In 2020 thermoelectric plants in the lower 48 US states withdrew about 59,889 million gallons of freshwater a day, yet only about 3.9 percent of withdrawals were consumed; power cooling is a far larger and older load than data centres, and the 2020 USGS figures are modelled estimates.",
      "ref": {
       "title": "Thermoelectric Power Water Use (U.S. Geological Survey)",
       "url": "https://www.usgs.gov/mission-areas/water-resources/science/thermoelectric-power-water-use",
-      "finding": "Thermoelectric power is one of the two largest US water use categories; in 2020 about 3.9 percent of its withdrawals (2,359 million gallons per day) was consumptive use."
+      "finding": "Thermoelectric power is one of the top two US water use categories; in 2020 about 59,889 million gallons per day of freshwater was withdrawn across the lower 48 states and about 3.9 percent (2,359 million gallons per day) was consumptive use; 2020 values are modelled estimates."
      }
     }
    ]
@@ -9989,12 +9999,17 @@
    "stage": "expected",
    "evidence": "projected",
    "theme": "world",
-   "summary": "By one estimate, generative AI could add 1.2 to 5.0 million tonnes of cumulative e-waste between 2020 and 2030 as GPUs are replaced quickly[1]. Circular-economy measures could cut that by up to 86%[1].",
+   "summary": "By one modelled estimate, generative AI could add 1.2 to 5.0 million tonnes of cumulative e-waste between 2020 and 2030, with rapid server turnover and limits on chip imports making it worse[1]. Circular-economy measures could cut that by 16 to 86%[1]. For scale, the world produced 62 million tonnes of e-waste in 2022 alone[2].",
    "refs": [
     {
-     "title": "Wang et al., E-waste challenges of generative artificial intelligence, Nature Computational Science 2024",
+     "title": "E-waste challenges of generative artificial intelligence (Wang, Zhang, Tzachor and Chen, Nature Computational Science, 2024)",
      "url": "https://www.nature.com/articles/s43588-024-00712-6",
-     "finding": "Generative AI could add 1.2 to 5.0 million tonnes of cumulative e-waste between 2020 and 2030, and circular-economy measures could cut that by up to 86%."
+     "finding": "Under different scenarios, generative AI e-waste could accumulate to 1.2 to 5.0 million tonnes during 2020 to 2030, aggravated by rapid server turnover and restrictions on semiconductor imports; circular economy strategies along the value chain could reduce it by 16 to 86%."
+    },
+    {
+     "title": "The Global E-waste Monitor 2024: Electronic Waste Rising Five Times Faster than Documented E-waste Recycling (ITU and UNITAR, 2024)",
+     "url": "https://ewastemonitor.info/the-global-e-waste-monitor-2024/",
+     "finding": "A record 62 million tonnes of e-waste was produced in 2022, up 82 percent from 2010, and 22.3 percent was documented as properly collected and recycled."
     }
    ],
    "valence": -2.57,
@@ -10003,18 +10018,18 @@
     "cheapintelligence",
     "productivity"
    ],
-   "control_note": "More AI compute means more servers that wear out. Longer use, reuse and recycling reduce the volume but do not remove it.",
+   "control_note": "More AI compute means more servers, and operators replace them quickly to cut running costs. Longer use, reuse and recycling reduce the volume but do not remove it.",
    "actions": [
     {
      "action": "Extend server lifetimes and reuse components",
      "actor": "cloud operators",
      "aim": "impact",
      "status": "idea",
-     "evidence": "Modelled only. Accumulated e-waste could reach 1.2 to 5.0 million tonnes over 2020 to 2030, and circular strategies cut it by 16 to 86% depending on the scenario.",
+     "evidence": "Modelled only. One study estimates 1.2 to 5.0 million tonnes of accumulated e-waste over 2020 to 2030 and finds circular-economy strategies along the generative-AI value chain could cut it by 16 to 86%.",
      "ref": {
-      "title": "Wang et al., E-waste challenges of generative artificial intelligence, Nature Computational Science 2024",
+      "title": "E-waste challenges of generative artificial intelligence (Wang, Zhang, Tzachor and Chen, Nature Computational Science, 2024)",
       "url": "https://www.nature.com/articles/s43588-024-00712-6",
-      "finding": "Circular economy strategies along the value chain could reduce generative-AI e-waste by 16 to 86%."
+      "finding": "Circular economy strategies along the generative-AI value chain could reduce e-waste generation by 16 to 86%."
      }
     }
    ],
@@ -10022,12 +10037,12 @@
     {
      "event": "Bitcoin mining ASIC churn",
      "year": "2021",
-     "parallel": "Bitcoin miners, like AI labs, replace specialised chips quickly as faster ones arrive, and the old chips cannot be repurposed.",
-     "outcome": "Researchers estimated bitcoin mining produced about 30.7 thousand tonnes of e-waste a year as of May 2021, possibly above 64.4 thousand tonnes at peak prices; AI accelerators are more reusable than mining ASICs, so this is an upper-bound analogue.",
+     "parallel": "Bitcoin miners, like AI data centres, cycle through short-lived specialised hardware as faster generations arrive.",
+     "outcome": "Researchers estimated bitcoin mining produced about 30.7 thousand tonnes of e-waste a year as of May 2021, possibly above 64.4 thousand tonnes in the midterm at the peak prices of early 2021; mining hardware differs from AI servers, so the figure does not transfer directly.",
      "ref": {
-      "title": "Bitcoin's growing e-waste problem (Stoll and de Vries, summarised by TU Munich)",
+      "title": "Bitcoin's growing e-waste problem (Technical University of Munich, 2021, summarising de Vries and Stoll, Resources, Conservation and Recycling)",
       "url": "https://www.fa.mgt.tum.de/controlling/singleview-news/article/bitcoins-growing-e-waste-problem/",
-      "finding": "Bitcoin mining generates about 30.7 metric kilotons of e-waste annually as of May 2021, and could exceed 64.4 kilotons in the midterm."
+      "finding": "Bitcoin's e-waste adds up to 30.7 metric kilotons annually as of May 2021, and at peak Bitcoin price levels seen early in 2021 may grow beyond 64.4 metric kilotons in the midterm."
      }
     },
     {
@@ -10036,9 +10051,9 @@
      "parallel": "Fast replacement of phones, laptops and screens created a waste stream that grew much faster than recycling, which is the path GPU refresh cycles could follow.",
      "outcome": "Global e-waste reached 62 million tonnes in 2022, up 82 percent since 2010, and only 22.3 percent was documented as properly collected and recycled.",
      "ref": {
-      "title": "The Global E-waste Monitor 2024 (ITU and UNITAR)",
+      "title": "The Global E-waste Monitor 2024: Electronic Waste Rising Five Times Faster than Documented E-waste Recycling (ITU and UNITAR, 2024)",
       "url": "https://ewastemonitor.info/the-global-e-waste-monitor-2024/",
-      "finding": "62 million tonnes of e-waste were generated in 2022, an 82 percent increase from 2010, with 22.3 percent documented as collected and recycled."
+      "finding": "A record 62 million tonnes of e-waste was produced in 2022, up 82 percent from 2010, with 22.3 percent documented as properly collected and recycled; e-waste is rising five times faster than documented recycling."
      }
     }
    ]
@@ -10051,12 +10066,27 @@
    "stage": "emerging",
    "evidence": "measured",
    "theme": "world",
-   "summary": "Machine learning on bioacoustic datasets is revealing structure in animal calls: one analysis of about 8,700 sperm whale codas found combinable features forming a far larger repertoire than the roughly 21 known coda types[1]. This could change conservation and views of animal minds, but structure is not meaning.",
+   "summary": "Analysis of animal call recordings is revealing hidden structure: one study of 8,719 sperm whale codas from a single Caribbean clan found combinable features that form a repertoire of nearly an order of magnitude more distinguishable codas than the 21 known coda types[1], and a 2025 study of codas recorded off Dominica found vowel-like spectral patterns[2]. In one study of wild African elephants in Kenya, machine learning predicted who a call was addressed to from its acoustic structure, and in playbacks elephants responded differently to calls originally addressed to them[3]. Structure is not yet meaning: no referential meaning has been established for sperm whale codas[2], and critics warn that machine learning is prone to spurious correlations, so any inferred meaning has to be checked in experiments with the animals[4].",
    "refs": [
     {
      "title": "Sharma et al., Contextual and combinatorial structure in sperm whale vocalisations, Nature Communications 2024",
      "url": "https://www.nature.com/articles/s41467-024-47221-8",
-     "finding": "Analysis of about 8,700 sperm whale codas found combinable features (rhythm, tempo, rubato, ornamentation) that make up a far larger repertoire than the roughly 21 previously known coda types."
+     "finding": "Analysis of 8,719 codas from the Eastern Caribbean 1 clan found two context-sensitive features, rubato and ornamentation, that combine with rhythm and tempo into a repertoire of nearly an order of magnitude more distinguishable codas than the 21 previously defined coda types; the analysis used statistical tests, not machine learning."
+    },
+    {
+     "title": "Beguš, Sprouse, Leban, Silva and Gero, Vowel- and Diphthong-Like Spectral Patterns in Sperm Whale Codas, Open Mind 2025",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12594577/",
+     "finding": "Analysis of 1,214 codas recorded off Dominica between 2005 and 2018 found two recurring vowel-like spectral patterns and diphthong-like formant changes; the authors write that no referential meaning has yet been established for sperm whale codas."
+    },
+    {
+     "title": "Pardo et al., African elephants address one another with individually specific name-like calls, Nature Ecology & Evolution 2024",
+     "url": "https://www.nature.com/articles/s41559-024-02420-w",
+     "finding": "Machine learning predicted the receiver of wild elephant calls in Kenya from their acoustic structure, and elephants responded differently to playbacks of calls originally addressed to them; a 2025 author correction fixed playback data errors and said none of the results changed qualitatively."
+    },
+    {
+     "title": "Yovel and Rechavi, AI and the Doctor Dolittle challenge, Current Biology 2023",
+     "url": "https://doi.org/10.1016/j.cub.2023.06.063",
+     "finding": "AI can generate animal signals, but their context is very difficult to determine, AI is prone to finding spurious correlations, so inferred context must be validated with controlled experiments on animal responses, and animal communication covers only a narrow set of contexts such as alarm and courtship."
     }
    ],
    "valence": 2.71,
@@ -10066,29 +10096,29 @@
      "kind": "quality",
      "evidence": "The sperm whale study describes structure only, with no semantics and no playback experiments.",
      "ref": {
-      "title": "Contextual and combinatorial structure in sperm whale vocalisations (Nature Communications, 2024)",
+      "title": "Sharma et al., Contextual and combinatorial structure in sperm whale vocalisations, Nature Communications 2024",
       "url": "https://www.nature.com/articles/s41467-024-47221-8",
-      "finding": "Our study investigates the basic structural elements, and not the semantics."
+      "finding": "Our study investigates the basic structural elements, and not the semantics, of the sperm whale communication system; the study features no playback experiments."
      }
     },
     {
      "limit": "Small, slow-to-collect datasets",
      "kind": "infrastructure",
-     "evidence": "The analysis rests on 8,719 codas from one clan, collected from 2005 to 2018 with 42 tags on 25 whales.",
+     "evidence": "The analysis rests on 8,719 codas from one clan recorded from 2005 to 2018, including recordings from 42 tags deployed on 25 whales.",
      "ref": {
-      "title": "Contextual and combinatorial structure in sperm whale vocalisations (Nature Communications, 2024)",
+      "title": "Sharma et al., Contextual and combinatorial structure in sperm whale vocalisations, Nature Communications 2024",
       "url": "https://www.nature.com/articles/s41467-024-47221-8",
-      "finding": "The EC-1 dataset comprises 8719 codas making up 21 coda types."
+      "finding": "The Eastern Caribbean 1 clan dataset comprises 8,719 codas making up 21 previously defined coda types, recorded between 2005 and 2018; 42 tags were deployed on 25 individuals."
      }
     },
     {
      "limit": "Vulnerable populations limit experiments",
-     "kind": "regulation",
-     "evidence": "Authors warn whale-in-the-loop tests could affect an extremely vulnerable population.",
+     "kind": "other",
+     "evidence": "The authors warn that whale-in-the-loop experiments could have long-term effects on an extremely vulnerable population.",
      "ref": {
-      "title": "Contextual and combinatorial structure in sperm whale vocalisations (Nature Communications, 2024)",
+      "title": "Sharma et al., Contextual and combinatorial structure in sperm whale vocalisations, Nature Communications 2024",
       "url": "https://www.nature.com/articles/s41467-024-47221-8",
-      "finding": "Experiments with potentially long-term effects on the population, which is extremely vulnerable."
+      "finding": "Whale-in-the-loop experiments with potentially long-term effects on the population, which in this case is extremely vulnerable, require a deep understanding of the communication system first."
      }
     }
    ],
@@ -10100,21 +10130,21 @@
      "counters": "Small, slow-to-collect datasets",
      "evidence": "The coda dataset and analysis code are public on GitHub.",
      "ref": {
-      "title": "Contextual and combinatorial structure in sperm whale vocalisations (Nature Communications, 2024)",
+      "title": "Sharma et al., Contextual and combinatorial structure in sperm whale vocalisations, Nature Communications 2024",
       "url": "https://www.nature.com/articles/s41467-024-47221-8",
-      "finding": "All data generated in this study has been deposited on GitHub."
+      "finding": "All data generated in this study has been deposited on GitHub, and the custom scripts used are available at github.com/pratyushasharma/sw-combinatoriality."
      }
     },
     {
-     "action": "Run careful, permitted playback studies",
+     "action": "Run careful playback studies with wild whales",
      "actor": "marine biologists",
      "status": "proposed",
      "counters": "No semantics without playback experiments",
-     "evidence": "The authors say interactive playback is needed to ground semantic hypotheses, once structure is well understood.",
+     "evidence": "The authors say interactive playback experiments with wild whales are needed to ground hypotheses about meaning, once the communication system is well understood.",
      "ref": {
-      "title": "Contextual and combinatorial structure in sperm whale vocalisations (Nature Communications, 2024)",
+      "title": "Sharma et al., Contextual and combinatorial structure in sperm whale vocalisations, Nature Communications 2024",
       "url": "https://www.nature.com/articles/s41467-024-47221-8",
-      "finding": "Future research requires interactive playback experiments with whales in the wild."
+      "finding": "Future research requires interactive playback experiments with whales in the wild to ground hypotheses about the meaning and function of codas."
      }
     },
     {
@@ -10122,35 +10152,35 @@
      "actor": "philanthropies and governments",
      "status": "in force",
      "counters": "Small, slow-to-collect datasets",
-     "evidence": "Project CETI and the Dominica Sperm Whale Project fund the multi-year tagging behind the dataset.",
+     "evidence": "The Dominica Sperm Whale Project collected the multi-year recordings with fieldwork grants, and Project CETI funded the analysis through philanthropic grants.",
      "ref": {
-      "title": "Contextual and combinatorial structure in sperm whale vocalisations (Nature Communications, 2024)",
+      "title": "Sharma et al., Contextual and combinatorial structure in sperm whale vocalisations, Nature Communications 2024",
       "url": "https://www.nature.com/articles/s41467-024-47221-8",
-      "finding": "Funded by Project CETI via grants from Dalio Philanthropies, Ocean X and others."
+      "finding": "The Dominica Sperm Whale Project team collected the data; this analysis was funded by Project CETI via grants from Dalio Philanthropies and Ocean X, with further support named in the acknowledgements."
      }
     }
    ],
    "precedents": [
     {
      "event": "Von Frisch decodes the bee dance",
-     "year": "1940s-1973",
+     "year": "1923-1973",
      "parallel": "Patient analysis of a structured animal signal led to a claim about what it means, the step machine learning on whale and bird calls has not yet reached.",
-     "outcome": "Von Frisch showed the waggle dance encodes the direction and distance of food and shared the 1973 Nobel Prize; his first 1923 interpretation was wrong and had to be revised, and it took decades of experiments, not pattern-finding alone.",
+     "outcome": "Von Frisch showed that the angle and speed of the dance encode the direction and distance of food and shared the 1973 Nobel Prize with Tinbergen and Lorenz; the theory in his 1923 book, that the round dance meant nectar and the waggle dance pollen, later proved incorrect and was revised during the Second World War.",
      "ref": {
-      "title": "The Nobel Prize in Physiology or Medicine 1973, press release (NobelPrize.org)",
-      "url": "https://www.nobelprize.org/prizes/medicine/1973/press-release/",
-      "finding": "Von Frisch elucidated how bees communicate: a round dance for nearby food and a waggle dance for food beyond about 50 m whose direction encodes the location of the source."
+      "title": "Karl von Frisch, Scientist of the Day (Tania Munz, Linda Hall Library, 2017)",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/karl-von-frisch/",
+      "finding": "Von Frisch published his first theory of the bee dances in a 1923 book, a theory that later proved incorrect; he worked out the second version during the Second World War, showing that dance speed and angle encode distance and direction, and won a share of the 1973 Nobel Prize with Niko Tinbergen and Konrad Lorenz."
      }
     },
     {
      "event": "Project Nim ape-language study",
      "year": "1979",
      "parallel": "Ape sign-language projects found apparent structure in animal output and read meaning and grammar into it, a warning for claims that detected patterns are language.",
-     "outcome": "Analysis of more than 19,000 multisign utterances first suggested syntax, but videotape showed most were prompted by the teacher's prior signs, and the authors withdrew the grammar claim.",
+     "outcome": "Analysis of more than 19,000 multisign utterances first suggested structural constraints, but videotape analyses showed most were prompted by the teacher's prior utterance, and the authors concluded the videotapes invalidated the structure claim.",
      "ref": {
-      "title": "Can an ape create a sentence? (Terrace et al., Science 1979)",
+      "title": "Terrace, Petitto, Sanders and Bever, Can an ape create a sentence?, Science 1979",
       "url": "https://pubmed.ncbi.nlm.nih.gov/504995/",
-      "finding": "Apparent structural regularities in Nim's signing were invalidated by videotape analyses showing most utterances were prompted by the teacher's prior utterance."
+      "finding": "Regularities in more than 19,000 of Nim's multisign utterances suggested structural constraint, a conclusion invalidated by videotape analyses showing most utterances were prompted by the teacher's prior utterance."
      }
     }
    ]
@@ -10163,29 +10193,34 @@
    "stage": "active",
    "evidence": "reported",
    "theme": "security",
-   "summary": "Police have arrested people on erroneous face-recognition matches; the ACLU of Georgia lists at least 13 US cases, most of them Black people[1]. These are only the publicly known cases, so the true count is likely higher.",
+   "summary": "Police have arrested people on erroneous face-recognition matches: an April 2026 ACLU count lists 14 publicly known wrongful arrests in the US, most of them of Black people[1]. A 2025 Washington Post investigation found at least 15 police departments in 12 states had arrested people identified through AI matches without independent evidence, often against their own policies, and that authorities routinely failed to tell defendants facial recognition was used, which limits their ability to challenge a match[2].",
    "refs": [
     {
-     "title": "ACLU of Georgia, More than a dozen wrongful arrests due to police reliance on facial recognition technology",
+     "title": "ACLU of Georgia, More than a Dozen Wrongful Arrests Due to Police Reliance on Facial Recognition Technology, 2026",
      "url": "https://www.acluga.org/news/more-than-a-dozen-wrongful-arrests-due-to-police-reliance-on-facial-recognition-technology/",
-     "finding": "ACLU of Georgia lists at least 13 people in the US who were wrongfully arrested after erroneous facial recognition matches."
+     "finding": "Kimberlee Williams, an Oklahoma grandmother jailed for six months on Maryland warrants after a facial recognition lead, is the fourteenth person publicly known to have been wrongfully arrested in the US after a facial recognition match; most known cases were Black people, and some were white."
+    },
+    {
+     "title": "Arrested by AI (The Washington Post, 2025), Online Journalism Awards entry, Online News Association",
+     "url": "https://awards.journalists.org/entries/arrested-by-ai/",
+     "finding": "At least 15 police departments in 12 states arrested suspects identified through AI matches without any independent evidence connecting them to the crime, often against their own policies; at least eight people were wrongfully arrested in the US, and authorities routinely failed to inform defendants about their use of facial recognition."
     }
    ],
    "valence": -2.89,
    "control": "preventable",
    "price_of": [],
-   "control_note": "An arrest on a face match alone is a policy choice, so rules that demand independent evidence can largely stop it. The matching itself will still err, and some police still rely on it.",
+   "control_note": "An arrest on a face match alone is a policy choice, and rules that demand independent evidence target it directly. Written rules are not enough on their own: departments have arrested on uncorroborated matches against their own policies, and the matching itself will still err.",
    "actions": [
     {
      "action": "Bar arrests based only on face matches",
      "actor": "police departments, courts",
      "aim": "probability",
      "status": "in force",
-     "evidence": "Detroit adopted this rule in a 2024 court settlement with four years of court enforcement; no published outcome data yet.",
+     "evidence": "Detroit adopted this rule in a June 2024 court settlement that the court enforces for four years; no published audit results or outcome data were found.",
      "ref": {
       "title": "ACLU, Civil Rights Advocates Achieve the Nation's Strongest Police Department Policy on Facial Recognition Technology, 2024",
       "url": "https://www.aclu.org/press-releases/civil-rights-advocates-achieve-the-nations-strongest-police-department-policy-on-facial-recognition-technology",
-      "finding": "The Detroit settlement bars arrests based solely on facial recognition results and requires independent evidence, training and a case audit back to 2017."
+      "finding": "The Detroit settlement bars arrests based solely on facial recognition results, bars lineups from a facial recognition lead without independent and reliable evidence, requires training, and orders an audit of all cases since 2017 in which facial recognition was used to obtain an arrest warrant; the court retains jurisdiction for four years."
      }
     },
     {
@@ -10193,11 +10228,11 @@
      "actor": "police procurement, vendors",
      "aim": "probability",
      "status": "tested",
-     "evidence": "NIST found false positive rates differ by factors of 10 to over 100 across demographic groups, but vary a lot by algorithm, so choice of algorithm matters.",
+     "evidence": "NIST found false positive rates often differ by factors of 10 to over 100 across demographic groups, but some highly accurate identification algorithms showed no detectable false positive differentials, so the choice of algorithm matters.",
      "ref": {
-      "title": "NIST, NISTIR 8280 Face Recognition Vendor Test Part 3: Demographic Effects, 2019",
+      "title": "NIST, NISTIR 8280 Face Recognition Vendor Test (FRVT) Part 3: Demographic Effects (Grother, Ngan and Hanaoka), 2019",
       "url": "https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8280.pdf",
-      "finding": "Across demographics, false positive rates often vary by factors of 10 to beyond 100 times, and differ across algorithms."
+      "finding": "Across demographics, false positive rates often vary by factors of 10 to beyond 100 times, across many but not all algorithms; some developers supplied highly accurate identification algorithms for which false positive differentials are undetectable."
      }
     },
     {
@@ -10207,9 +10242,9 @@
      "status": "proposed",
      "evidence": "Advocates argue disclosure lets defendants challenge a bad match early; no evaluation of effect exists.",
      "ref": {
-      "title": "Innocence Project, When Artificial Intelligence Gets It Wrong, 2023",
+      "title": "Christina Swarns, When Artificial Intelligence Gets It Wrong (Innocence Project, 2023)",
       "url": "https://www.innocenceproject.org/when-artificial-intelligence-gets-it-wrong/",
-      "finding": "Calls for immediate disclosure to the defense of any AI use in a case, and notes all six known falsely accused people were Black."
+      "finding": "Calls for any AI use in a criminal case to be immediately disclosed to the defense, and notes that, as of September 2023, all six people known to have been falsely accused after a facial recognition match were Black."
      }
     }
    ],
@@ -10217,23 +10252,23 @@
     {
      "event": "Brandon Mayfield fingerprint misidentification",
      "year": "2004",
-     "parallel": "An automated database search returned a close but wrong candidate, and examiners' trust in the match led to the detention of an innocent man, as with face-recognition hits.",
-     "outcome": "The FBI wrongly tied Mayfield, a Muslim lawyer, to the Madrid bombing print and held him for about two weeks until Spanish police identified the real source; the Inspector General blamed the unusual similarity of the prints, circular reasoning from his known prints and excessive faith in the IAFIS system.",
+     "parallel": "A computer database search put a close but wrong candidate in front of examiners, and their trust in the match led to the detention of an innocent man, as with uncorroborated face-recognition hits.",
+     "outcome": "The FBI wrongly matched Mayfield, a Muslim lawyer in Oregon, to a print from the 2004 Madrid train bombings; he was arrested as a material witness on May 6 and released on May 20 after Spanish police identified an Algerian national as the source. The Inspector General blamed the unusual similarity of the prints, bias from Mayfield's known prints and examiner errors, and found that excessive faith in the IAFIS database did not contribute to the error.",
      "ref": {
-      "title": "A Review of the FBI's Handling of the Brandon Mayfield Case, executive summary (US DOJ Office of the Inspector General, 2006)",
+      "title": "A Review of the FBI's Handling of the Brandon Mayfield Case (US DOJ Office of the Inspector General, March 2006)",
       "url": "https://oig.justice.gov/sites/default/files/legacy/special/s0601/Chapter1.pdf",
-      "finding": "Causes of the misidentification included the unusual similarity of the prints, bias from Mayfield's known prints, and excessive faith in IAFIS technology; he was released on May 20, 2004 after the SNP identified another man."
+      "finding": "Primary causes of the misidentification were the unusual similarity of the prints, bias from Mayfield's known prints and reliance on tiny Level 3 details; excessive faith in IAFIS technology is listed among explanations found not to have contributed. Mayfield was released on May 20, 2004, after the Spanish National Police identified Ouhnane Daoud, an Algerian national."
      }
     },
     {
      "event": "Eyewitness misidentification",
-     "year": "1989-present",
+     "year": "1989-2020",
      "parallel": "Human identification of strangers, especially across races, was trusted as evidence long before face recognition and produced wrongful convictions that came to light only later.",
-     "outcome": "Eyewitness misidentification contributed to the overwhelming majority of wrongful convictions overturned by DNA testing, and cross-racial identification is a known risk factor; unlike face recognition, the error source is human memory.",
+     "outcome": "Eyewitness misidentification was involved in 69% of the 375 US DNA exonerations from 1989 to 2020, and 42% of those misidentifications were cross-racial; unlike face recognition, the error source is human memory.",
      "ref": {
-      "title": "Eyewitness Misidentification (Innocence Project)",
-      "url": "https://innocenceproject.org/eyewitness-misidentification/",
-      "finding": "Eyewitness misidentification contributed to an overwhelming majority of wrongful convictions overturned by DNA evidence; cross-racial identification is listed as a reliability risk."
+      "title": "DNA Exonerations in the United States (1989 - 2020) (Innocence Project)",
+      "url": "https://innocenceproject.org/dna-exonerations-in-the-united-states/",
+      "finding": "The first DNA exoneration took place in 1989; of 375 DNA exonerations, 69% involved eyewitness misidentification, and 42% of those involved a cross-racial misidentification."
      }
     }
    ]
@@ -10246,12 +10281,17 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "information",
-   "summary": "Across five US survey experiments with over 15,000 adults, politicians who falsely called real scandal reports fake news or deepfakes gained support[1]. The effect worked against text reports but was largely ineffective against video evidence[1].",
+   "summary": "Across five US survey experiments with over 15,000 adults, politicians who falsely claimed that text reports of their scandals were misinformation or fake news gained support across partisan groups[1]. Claiming that a scandal video was a deepfake was largely ineffective, and in one study a fact-check removed the gain[1]. The move is already being tried in US courts: Tesla's lawyers suggested a recorded Elon Musk statement could be a deepfake, and two January 6 defendants claimed Capitol video could have been manipulated by AI; the judge rejected Tesla's argument and both defendants were found guilty[2].",
    "refs": [
     {
-     "title": "Schiff, Schiff and Bueno, The Liar's Dividend: Can Politicians Claim Misinformation to Evade Accountability? (APSR), 2024",
+     "title": "Schiff, Schiff and Bueno, The Liar's Dividend: Can Politicians Claim Misinformation to Evade Accountability?, American Political Science Review 2025 (online 2024)",
      "url": "https://isps.yale.edu/research/publications/isps24-07",
-     "finding": "Across 5 survey experiments with over 15,000 US adults, false claims of misinformation raised support for politicians caught in text-reported scandals, across partisan groups."
+     "finding": "Across 5 survey experiments with over 15,000 American adults, false claims of misinformation raised support for politicians across partisan subgroups when scandals were reported in text, were largely ineffective against video evidence, and did not reduce general trust in media."
+    },
+    {
+     "title": "Shannon Bond, People are trying to claim real videos are deepfakes. The courts are not amused (NPR, 2023)",
+     "url": "https://www.wamc.org/2023-05-08/people-are-trying-to-claim-real-videos-are-deepfakes-the-courts-are-not-amused",
+     "finding": "Tesla's lawyers argued Musk is the subject of many deepfake videos when a family cited his 2016 self-driving remarks; Judge Evette Pennypacker called this deeply troubling and ordered him to testify. Two January 6 defendants who claimed video could have been manipulated by AI were found guilty."
     }
    ],
    "valence": -3.04,
@@ -10259,18 +10299,18 @@
    "price_of": [
     "labels"
    ],
-   "control_note": "Once realistic fakes exist, anyone can claim real evidence is fake, so the claim can only be blunted. Provenance labels help, but every label scheme also makes unlabelled real media easier to doubt.",
+   "control_note": "Once realistic fakes exist, anyone can claim real evidence is fake, so the claim can only be blunted, not prevented. Fast fact-checks and provenance labels help in experiments, but neither has been tested against the liar's dividend in real scandals.",
    "actions": [
     {
      "action": "Attach signed provenance credentials to authentic media",
      "actor": "camera makers, newsrooms, platforms",
      "aim": "probability",
      "status": "tested",
-     "evidence": "One experiment with 6,114 people found C2PA labels raised perceived credibility and trust; it did not test the liar's dividend directly.",
+     "evidence": "One online experiment with 6,114 people in the US, UK and Norway found C2PA labels on news images raised perceived transparency, credibility and trust in the source; it did not test the liar's dividend directly.",
      "ref": {
-      "title": "Trattner et al., C2PA Provenance Labels Increase Trust in Digital News Platforms Across Western Countries, ICWSM 2026",
+      "title": "Trattner, Forstner, Starke and Knudsen, C2PA Provenance Labels Increase Trust in Digital News Platforms Across Western Countries, ICWSM 2026",
       "url": "https://ojs.aaai.org/index.php/ICWSM/article/view/42749",
-      "finding": "Provenance labels on news images improved perceived transparency and credibility and trust in the source."
+      "finding": "In an online experiment with 6,114 participants reflecting the audiences of six news sources in the US, UK and Norway, provenance labels on news images improved perceived transparency and credibility of the image and trust in the news source."
      }
     },
     {
@@ -10278,11 +10318,11 @@
      "actor": "journalists, fact-checkers",
      "aim": "impact",
      "status": "tested",
-     "evidence": "In survey experiments a fact-check removed the support gain from a fake-news claim, but rebuttals came almost at once, a best case.",
+     "evidence": "In one survey experiment a fact-check removed the support gain from a misinformation claim about a text scandal, but the rebuttal came almost at once, which the authors call a best case.",
      "ref": {
-      "title": "Schiff, Schiff and Bueno, The Liar's Dividend: Can Politicians Claim Misinformation to Evade Accountability?, APSR 2024",
+      "title": "Schiff, Schiff and Bueno, The Liar's Dividend: Can Politicians Claim Misinformation to Evade Accountability?, American Political Science Review 2025 (online 2024)",
       "url": "https://www.cambridge.org/core/journals/american-political-science-review/article/liars-dividend-can-politicians-claim-misinformation-to-evade-accountability/687FEE54DBD7ED0C96D72B26606AA073",
-      "finding": "A fact-check rejecting the misinformation claim eliminated the support gain, and claims were largely ineffective against video."
+      "finding": "In Study 2, a fact-check of the politician's misinformation claim about a text scandal eliminated the support gain; the design used near-simultaneous scandals and rebuttals, a best-case scenario."
      }
     },
     {
@@ -10290,11 +10330,11 @@
      "actor": "legislators",
      "aim": "probability",
      "status": "in force",
-     "evidence": "The EU duty applies from August 2026; no evidence yet on whether it changes public trust.",
+     "evidence": "The EU duty applies from 2 August 2026, with until 2 December 2026 for generative systems already on the market; there is no evidence yet on whether it changes public trust.",
      "ref": {
       "title": "EU AI Act, Article 50: Transparency obligations",
       "url": "https://artificialintelligenceact.eu/article/50/",
-      "finding": "Providers must mark synthetic output machine-readably and deployers must disclose deepfakes."
+      "finding": "Providers must mark synthetic output in a machine-readable format detectable as artificially generated or manipulated, and deployers must disclose deepfakes; applies from 2 August 2026."
      }
     }
    ],
@@ -10303,11 +10343,11 @@
      "event": "Eisenhower documents the camps",
      "year": "1945",
      "parallel": "Eisenhower expected that real evidence of atrocities would later be waved away as fabrication, the same move the liar's dividend describes.",
-     "outcome": "He visited Ohrdruf deliberately to be a first-hand witness, ordered photographs and brought editors and members of Congress to see the camps; Holocaust denial still emerged later, and the source does not measure how far the witnesses blunted it.",
+     "outcome": "He toured Ohrdruf on April 12, 1945 so he could give first-hand evidence, ordered troops to photograph the camp and urged that reporters and members of Congress see the camps, and Marshall organised trips for congressional leaders and eighteen newspaper editors; the source does not measure whether this later blunted claims that the atrocities were propaganda.",
      "ref": {
       "title": "Documenting History: Eisenhower and the Holocaust (U.S. National Park Service)",
       "url": "https://home.nps.gov/articles/000/eisenhower-and-the-holocaust.htm",
-      "finding": "Eisenhower wrote on April 15, 1945 that he made the visit to be able to give firsthand evidence if the allegations were ever charged to be propaganda, and pushed for press and Congressional visits."
+      "finding": "Eisenhower toured Ohrdruf on April 12, 1945 and wrote to Marshall on April 15 that he made the visit to be able to give firsthand evidence if the atrocities were ever dismissed as propaganda; he ordered troops to photograph the camp and urged more press and Congressional visits, which Marshall organised."
      }
     }
    ]
@@ -10320,12 +10360,22 @@
    "stage": "emerging",
    "evidence": "measured",
    "theme": "power",
-   "summary": "In experiments with over 5,000 UK participants, statements written by an LLM mediator were preferred over human mediators' about 56% of the time and left groups less divided on issues such as Brexit and immigration[1]. The results come from these UK experiments only.",
+   "summary": "In experiments with 5,734 UK participants, people preferred group statements written by an AI mediator, the Habermas Machine, over those written by human mediators 56% of the time[1], and AI-mediated deliberation reduced division within groups on issues such as Brexit and immigration[2][3]. Outside judges also rated the AI statements higher for quality, clarity, informativeness and perceived fairness[3]. The results come from these UK experiments only; participants were not explicitly told an AI wrote the statements, and a DeepMind author said the model cannot fact-check, keep discussion on topic or moderate it[1].",
    "refs": [
     {
-     "title": "Complexity Digest, AI can help humans find common ground in democratic deliberation (on Tessler et al., Science), 2024",
+     "title": "MIT Technology Review (Rhiannon Williams), AI could help people find common ground during deliberations, 2024",
+     "url": "https://www.technologyreview.com/2024/10/17/1105810/ai-could-help-people-find-common-ground-during-deliberations/",
+     "finding": "Across experiments with 5,734 UK participants, people chose the AI-generated statement over the human mediator's 56% of the time; participants were not explicitly told an AI would write the statements, and the lead author said the model lacks fact-checking, staying on topic and moderating discourse."
+    },
+    {
+     "title": "Complexity Digest, AI can help humans find common ground in democratic deliberation (summary of Tessler et al., Science), 2024",
      "url": "https://comdig.cssociety.org/2024/10/27/ai-can-help-humans-find-common-ground-in-democratic-deliberation/",
-     "finding": "In experiments with over 5,000 UK participants, statements from the Habermas Machine were preferred over human mediators' about 56% of the time and reduced group division on issues such as Brexit and immigration."
+     "finding": "An LLM mediator helped small UK groups find common ground on issues including Brexit, immigration, the minimum wage, climate change and universal childcare, producing statements that won wide agreement and left groups less divided."
+    },
+    {
+     "title": "Tessler et al., AI can help humans find common ground in democratic deliberation (Science, 2024)",
+     "url": "https://www.science.org/doi/10.1126/science.adq2852",
+     "finding": "Participants (N = 5734) preferred AI-generated statements to those written by human mediators, rating them more informative, clear and unbiased; external judges also rated them higher, AI-mediated deliberation reduced division within groups, and results replicated in a virtual citizens' assembly with a demographically representative UK sample."
     }
    ],
    "valence": 1.51,
@@ -10333,9 +10383,9 @@
     {
      "limit": "Tested only in UK samples",
      "kind": "quality",
-     "evidence": "All experiments used about 5,734 UK participants, including one virtual citizens' assembly.",
+     "evidence": "All experiments used 5,734 UK participants, including one virtual citizens' assembly.",
      "ref": {
-      "title": "AI can help humans find common ground in democratic deliberation (Science, 2024)",
+      "title": "Tessler et al., AI can help humans find common ground in democratic deliberation (Science, 2024)",
       "url": "https://www.science.org/doi/10.1126/science.adq2852",
       "finding": "Participants (N = 5734) preferred AI-generated statements to those written by human mediators."
      }
@@ -10345,19 +10395,29 @@
      "kind": "trust",
      "evidence": "The authors say fair debate requires representative users who contribute in good faith.",
      "ref": {
-      "title": "AI can help humans find common ground in democratic deliberation (Science, 2024)",
+      "title": "Tessler et al., AI can help humans find common ground in democratic deliberation (Science, 2024)",
       "url": "https://www.science.org/doi/10.1126/science.adq2852",
-      "finding": "Steps must be taken to ensure users are representative and contribute in good faith."
+      "finding": "Steps must be taken to ensure users are representative of the target population and prepared to contribute in good faith."
      }
     },
     {
      "limit": "limited language coverage",
      "kind": "access",
-     "evidence": "The model was trained and tested on English statements from UK residents only.",
+     "evidence": "All experiments were run with UK residents; no other country or language was tested.",
      "ref": {
-      "title": "AI can help humans find common ground in democratic deliberation (Science, 2024)",
+      "title": "Tessler et al., AI can help humans find common ground in democratic deliberation (Science, 2024)",
       "url": "https://www.science.org/doi/10.1126/science.adq2852",
       "finding": "Experiments with over 5000 participants from the United Kingdom."
+     }
+    },
+    {
+     "limit": "No fact-checking or moderation",
+     "kind": "quality",
+     "evidence": "The lead author said the model lacks mediation capacities such as fact-checking, staying on topic and moderating discourse.",
+     "ref": {
+      "title": "MIT Technology Review (Rhiannon Williams), AI could help people find common ground during deliberations, 2024",
+      "url": "https://www.technologyreview.com/2024/10/17/1105810/ai-could-help-people-find-common-ground-during-deliberations/",
+      "finding": "Tessler said the model does not have the mediation-relevant capacities of fact-checking, staying on topic or moderating the discourse."
      }
     }
    ],
@@ -10369,9 +10429,9 @@
      "counters": "Unrepresentative or bad-faith participants",
      "evidence": "Results replicated in a virtual citizens' assembly drawn from a representative UK sample.",
      "ref": {
-      "title": "AI can help humans find common ground in democratic deliberation (Science, 2024)",
+      "title": "Tessler et al., AI can help humans find common ground in democratic deliberation (Science, 2024)",
       "url": "https://www.science.org/doi/10.1126/science.adq2852",
-      "finding": "Findings were replicated in a virtual citizens' assembly with a representative UK sample."
+      "finding": "Findings were replicated in a virtual citizens' assembly with a demographically representative UK sample."
      }
     },
     {
@@ -10379,11 +10439,11 @@
      "actor": "AI labs",
      "status": "in force",
      "counters": null,
-     "evidence": "DeepMind published the question set and human feedback data for the Habermas Machine on GitHub.",
+     "evidence": "DeepMind published the dataset used to train and evaluate the Habermas Machine on GitHub, with code for a prompted version.",
      "ref": {
-      "title": "AI can help humans find common ground in democratic deliberation (Science, 2024)",
-      "url": "https://www.science.org/doi/10.1126/science.adq2852",
-      "finding": "Human feedback data are publicly available on GitHub."
+      "title": "Google DeepMind, habermas_machine repository (GitHub)",
+      "url": "https://github.com/google-deepmind/habermas_machine",
+      "finding": "Contains the Habermas Machine dataset used in the Science paper (candidate comparisons, preference rankings, statement ratings and survey responses); software under Apache 2.0, other materials under CC-BY 4.0."
      }
     },
     {
@@ -10393,9 +10453,9 @@
      "counters": "limited language coverage",
      "evidence": "No trial outside the UK has been reported in the paper.",
      "ref": {
-      "title": "AI can help humans find common ground in democratic deliberation (Science, 2024)",
+      "title": "Tessler et al., AI can help humans find common ground in democratic deliberation (Science, 2024)",
       "url": "https://www.science.org/doi/10.1126/science.adq2852",
-      "finding": "AI-mediated deliberation tested with UK participants on Brexit, immigration and other issues."
+      "finding": "Experiments with over 5000 participants from the United Kingdom; replication used a representative UK sample."
      }
     }
    ],
@@ -10403,12 +10463,12 @@
     {
      "event": "Irish Citizens' Assembly on abortion",
      "year": "2016-2018",
-     "parallel": "A randomly selected citizen body produced a consensus recommendation on a divisive issue that elected politicians had avoided, the role AI mediators aim to support.",
-     "outcome": "99 randomly chosen citizens met over five weekends, a parliamentary committee then recommended a referendum, and repeal passed 66.4 to 33.6 percent in May 2018; this used human facilitation, expert testimony and months of time, and nobody can isolate the assembly's causal effect on the vote.",
+     "parallel": "A randomly selected citizen body produced recommendations on a divisive issue, the role AI mediators aim to support.",
+     "outcome": "99 randomly chosen citizens met over five weekends between November 2016 and April 2017 and heard medical, legal and ethical specialists; their recommendations went to a parliamentary committee, a referendum bill followed, and 66.4% voted for repeal in 2018. The process relied on a secretariat, expert testimony and five months of meetings, and the source notes only that the Assembly and referendum results were similar, not that one caused the other.",
      "ref": {
-      "title": "Ireland: public debate concerning abortion and the repeal of the eighth amendment (Council of Europe)",
-      "url": "https://www.coe.int/en/web/human-rights-and-biomedicine/-/ireland-public-debate-concerning-abortion-and-the-repeal-of-the-eighth-amendment-to-the-constitution",
-      "finding": "99 random citizens met five weekends between October 2016 and April 2017; their report led to a committee recommendation and a referendum that passed 66.4 percent to 33.6 percent."
+      "title": "Government Communications (UK Cabinet Office), Ireland's Citizens' Assembly on abortion rights, 2026",
+      "url": "https://www.communications.gov.uk/case-study/irelands-citizens-assembly-on-abortion-rights/",
+      "finding": "99 members chosen at random met over five weekends between November 2016 and April 2017; the Joint Committee on the Eighth Amendment reported to the Oireachtas, and 66.4% voted to repeal the Eighth Amendment."
      }
     }
    ]
@@ -10421,17 +10481,27 @@
    "stage": "emerging",
    "evidence": "speculative",
    "theme": "mind",
-   "summary": "Chatbots built from a dead person's digital traces are already sold commercially[2]. Cambridge researchers warn of prolonged grief, ads delivered in a loved one's voice, and harm to children, drawing on three design scenarios, so evidence of harm is so far scenario-based[1][2].",
+   "summary": "Chatbots that imitate dead people from their digital traces are already sold, including Project December and HereAfter, and similar services have appeared in China[2]. Cambridge researchers used three speculative design scenarios to warn of psychological harm, advertising delivered in the manner of a dead loved one and distress to children[1][2]. Direct evidence on users is small and qualitative: interviews with 10 mourners found chatbots helped them cope with grief[3], and interviews with 26 deadbot users found the bots gave a private space to grieve but raised concerns about memory distortion and dependency[4].",
    "refs": [
     {
-     "title": "Leverhulme Centre for the Future of Intelligence (Hollanek and Nowaczyk-Basinska), Deathbots, griefbots and the digital afterlife, 2024",
-     "url": "https://lcfi.ac.uk/news-events/news/deathbots-griefbots-and-the-digital-afterlife",
-     "finding": "Cambridge researchers lay out 3 design scenarios showing psychological and commercial harms from deadbots, and call for opt-outs and age restrictions."
+     "title": "Hollanek and Nowaczyk-Basinska, Griefbots, Deadbots, Postmortem Avatars: on Responsible Applications of Generative AI in the Digital Afterlife Industry (Philosophy and Technology), 2024",
+     "url": "https://doi.org/10.1007/s13347-024-00744-w",
+     "finding": "Three speculative design scenarios map ethical concerns about re-creation services and recommend procedures for retiring deadbots, meaningful transparency, limiting access to adults and mutual consent between data donors and interactants."
     },
     {
      "title": "University of Cambridge, Call for safeguards to prevent unwanted 'hauntings' by AI chatbots of dead loved ones, 2024",
      "url": "https://www.cam.ac.uk/research/news/call-for-safeguards-to-prevent-unwanted-hauntings-by-ai-chatbots-of-dead-loved-ones",
-     "finding": "Some companies already offer deadbot services; researchers warn of psychological harm and overwhelming emotional weight, advertising in the manner of a departed loved one, and distress to children."
+     "finding": "Some companies already offer deadbots, such as Project December and HereAfter, and similar services have begun to emerge in China; researchers warn of psychological harm, an overwhelming emotional weight, advertising in the manner of a departed loved one, and distress to children."
+    },
+    {
+     "title": "Xygkou et al., The 'Conversation' about Loss: Understanding How Chatbot Technology was Used in Supporting People in Grief (CHI 2023)",
+     "url": "https://doi.org/10.1145/3544548.3581154",
+     "finding": "Semi-structured interviews with 10 mourners who used chatbots found seven ways of coping, with chatbots acting as a listener, a simulation of the deceased, a romantic partner, a friend or an emotion coach."
+    },
+    {
+     "title": "Li and Lan, Remember You: Understanding How Users Use Deadbots to Reconstruct Memories of the Deceased (arXiv preprint), 2026",
+     "url": "https://arxiv.org/abs/2603.01017",
+     "finding": "In-depth interviews with 26 deadbot users found the bots gave mourners a private space to grieve, but AI-generated memories came to blur with real ones; the authors raise concerns about memory distortion and dependency and call for clinical research."
     }
    ],
    "valence": -2.52,
@@ -10439,18 +10509,18 @@
    "price_of": [
     "companionship"
    ],
-   "control_note": "The same companion chatbots that ease loneliness can imitate a dead person from their messages, and a ban is not seen as feasible. Design rules on consent and endings can reduce the harm.",
+   "control_note": "Chatbots can be set up to imitate a dead person from their messages, and the Cambridge authors argue that banning bots built without the dead person's consent would be unfeasible. Consent, age limits, transparency and ways to retire a bot are proposed to reduce the harm, but their effect has not been tested.",
    "actions": [
     {
      "action": "Require consent from the person before death",
      "actor": "companies, legislators",
      "aim": "probability",
      "status": "proposed",
-     "evidence": "Recommended by ethicists from scenario analysis; untested, and the authors think a ban on non-consensual bots is not feasible.",
+     "evidence": "Recommended by ethicists from scenario analysis; untested, and the authors judge a ban on bots built without the dead person's consent unfeasible.",
      "ref": {
-      "title": "University of Cambridge, Call for safeguards to prevent unwanted hauntings by AI chatbots of dead loved ones, 2024",
+      "title": "University of Cambridge, Call for safeguards to prevent unwanted 'hauntings' by AI chatbots of dead loved ones, 2024",
       "url": "https://www.cam.ac.uk/research/news/call-for-safeguards-to-prevent-unwanted-hauntings-by-ai-chatbots-of-dead-loved-ones",
-      "finding": "Hollanek and Nowaczyk-Basinska (Philosophy and Technology) urge consent, age limits, no advertising use and clear AI disclosure."
+      "finding": "Hollanek and Nowaczyk-Basinska (Philosophy and Technology) urge seeking consent before death, age restrictions, no use for advertising and meaningful transparency that users are talking to an AI."
      }
     },
     {
@@ -10460,9 +10530,9 @@
      "status": "proposed",
      "evidence": "Proposed to give users emotional closure; no outcome data.",
      "ref": {
-      "title": "University of Cambridge, Call for safeguards to prevent unwanted hauntings by AI chatbots of dead loved ones, 2024",
+      "title": "University of Cambridge, Call for safeguards to prevent unwanted 'hauntings' by AI chatbots of dead loved ones, 2024",
       "url": "https://www.cam.ac.uk/research/news/call-for-safeguards-to-prevent-unwanted-hauntings-by-ai-chatbots-of-dead-loved-ones",
-      "finding": "Recommends ways to end the relationship, such as a digital funeral, and protecting the people who interact with the bot."
+      "finding": "Recommends dignified ways to retire deadbots, such as a digital funeral, opt-out protocols that let users end the relationship with closure, and safeguarding the rights of those who interact with the bot."
      }
     }
    ],
@@ -10471,22 +10541,22 @@
      "event": "Seance boom after the First World War",
      "year": "1914-1920s",
      "parallel": "Mass bereavement created a market for contact with the dead through mediums, the same need grief bots now sell to.",
-     "outcome": "Demand for mediums surged after nearly 9 million soldiers died, Oliver Lodge's book about contacting his dead son spawned dozens of copycats, and fraud was common; the historian argues it also comforted families, so harm and solace coexisted.",
+     "outcome": "Spiritualist mediums were in high demand after nearly 9 million soldiers died, Oliver Lodge's 1916 book Raymond, based on seances with the medium Mrs Leonard, ran to many editions and spawned dozens of copycat publications, and the history of seances is rife with fraud; the author argues seances also eased the suffering of many, so harm and solace coexisted.",
      "ref": {
-      "title": "Article by historian Alice Vernon on the post-WWI seance boom (Aberystwyth University news, from The Conversation, 2025)",
+      "title": "Alice Vernon, After the first world war, seances boomed - and dead soldiers 'wrote' home (The Conversation, republished by Aberystwyth University), 2025",
       "url": "https://www.aber.ac.uk/en/news/archive/2025/10/title-284739-en.html",
-      "finding": "After the war spiritualism was reinvigorated as bereaved families sought contact with dead sons and husbands; critics saw mediums exploiting grief and fraud was common."
+      "finding": "Spiritualism was reinvigorated after the war and mediums were in high demand as grieving families sought contact with loved ones; the author notes it is easy to dismiss mediums as charlatans exploiting grief and that the history is rife with fraud, but says it eased the suffering of many."
      }
     },
     {
      "event": "ELIZA and the Eliza effect",
      "year": "1966",
      "parallel": "Even a trivially simple chatbot drew people into private emotional conversations, the attachment that grief bots build on.",
-     "outcome": "Weizenbaum's secretary asked him to leave the room so she could talk to ELIZA alone, and he spent the rest of his career warning about it; ELIZA impersonated a therapist, not a dead relative.",
+     "outcome": "Weizenbaum's secretary asked him to leave the room after a few exchanges with ELIZA, and he went on criticising AI until his death in 2008; ELIZA imitated a psychotherapist, not a dead relative.",
      "ref": {
-      "title": "Why Joseph Weizenbaum Invented the Eliza Chatbot (Smithsonian Magazine)",
-      "url": "https://www.smithsonianmag.com/history/why-the-computer-scientist-behind-the-worlds-first-chatbot-dedicated-his-life-to-publicizing-the-threat-posed-by-ai-180987971/",
-      "finding": "When Weizenbaum's secretary first tested ELIZA she asked him to leave the room so she could continue privately; projecting human qualities onto a machine became known as the Eliza effect."
+      "title": "99% Invisible, episode 382: The ELIZA Effect, 2019",
+      "url": "https://99percentinvisible.org/episode/the-eliza-effect/transcript",
+      "finding": "After a few exchanges with ELIZA, Weizenbaum's secretary asked him to leave the room; the ELIZA effect names our tendency to anthropomorphise computers and believe programs understand when they do not."
      }
     }
    ]
@@ -10499,29 +10569,49 @@
    "stage": "active",
    "evidence": "reported",
    "theme": "security",
-   "summary": "AI decision support can produce strike targets faster than people can meaningfully review them. Six anonymous Israeli intelligence sources said one system flagged up to 37,000 Palestinians as suspected militants, with officers spending about 20 seconds per target[1]; the IDF denies much of this[1].",
+   "summary": "Israeli intelligence officers told +972 Magazine and Local Call that an AI system called Lavender, fed by mass surveillance of Gaza's residents, marked suspected militants; four of the six interviewed said it marked as many as 37,000 Palestinians, and a senior officer said he spent about 20 seconds on each target before a strike was approved[1]. The IDF denied using an AI system that identifies terrorist operatives and called Lavender a database for cross-referencing intelligence sources[2]. In the 2026 US-Iran war, Defense News, citing The Washington Post, reported that the US Maven targeting system generated hundreds of strike coordinates in the first 24 hours, enabling more than 1,000 targets to be hit; lawmakers asked whether AI helped identify a school in Minab where UN and Iranian officials said at least 168 people were killed, the Pentagon had given no explanation, and former officials blamed outdated human-curated data[3]. NATO bought an AI system that supports targeting in 2025[4], and the US, Israel and Russia voted against the 2025 UN General Assembly resolution on autonomous weapons, which passed 164 to 6[5].",
    "refs": [
     {
-     "title": "+972 Magazine (Yuval Abraham), 'Lavender': The AI machine directing Israel's bombing spree in Gaza, 2024",
+     "title": "+972 Magazine and Local Call (Yuval Abraham), 'Lavender': The AI machine directing Israel's bombing spree in Gaza, 2024",
      "url": "https://www.972mag.com/lavender-ai-israeli-army-gaza/",
-     "finding": "Intelligence sources said the system flagged up to 37,000 Palestinians as suspected militants, and officers spent about 20 seconds reviewing each target."
+     "finding": "Six Israeli intelligence officers described the system; four said it marked some 37,000 Palestinians as suspected militants, one said he spent about 20 seconds per target, and sources said it erred in about 10 percent of cases; the IDF denied the existence of a kill list."
+    },
+    {
+     "title": "Fortune (David Meyer), Israel's reported use of AI in its Gaza war may explain thousands of civilian deaths, 2024",
+     "url": "https://fortune.com/2024/04/04/israel-idf-ai-warfare-gaza-palestinian-hamas-lavender-972/",
+     "finding": "In a statement to the Guardian, the IDF said Lavender is a database whose purpose is to cross-reference intelligence sources and denied using an AI system that identifies terrorist operatives or tries to predict whether a person is a terrorist."
+    },
+    {
+     "title": "Defense News (Katie Livingstone), Deadly Iran school strike casts shadow over Pentagon's AI targeting push, 2026",
+     "url": "https://www.defensenews.com/news/your-military/2026/03/24/deadly-iran-school-strike-casts-shadow-over-pentagons-ai-targeting-push/",
+     "finding": "The Washington Post reported that Maven generated hundreds of strike coordinates in the first 24 hours, enabling more than 1,000 targets to be hit; a strike on a school in Minab killed at least 168 people per UN and Iranian officials; lawmakers asked whether AI was used to identify it, the Pentagon had not explained, and former officials blamed stale human-curated data."
+    },
+    {
+     "title": "The Defense Post, NATO Finalizes Rapid Procurement of AI Warfighting Platform, 2025",
+     "url": "https://www.thedefensepost.com/2025/04/16/nato-palantir-ai-warfighting-platform",
+     "finding": "NATO finalised acquisition of the Maven Smart System NATO on 25 March 2025; it supports intelligence fusion, targeting, situational awareness, planning and faster decision-making."
+    },
+    {
+     "title": "UN Project, Lethal autonomous weapons systems (A/RES/80/57) vote record, 2025",
+     "url": "https://un-project.org/votes/resolution/A-RES-80-57/",
+     "finding": "Adopted 1 December 2025 by 164 votes to 6 with 7 abstentions; Belarus, Burundi, North Korea, Israel, Russia and the United States voted against, and China abstained."
     }
    ],
    "valence": -4.33,
    "control": "mitigable",
    "price_of": [],
-   "control_note": "States are adopting AI for intelligence and targeting and no binding ban exists, so only limits and real human review can reduce errors. Agreement is slow and the main users abstain or stay outside.",
+   "control_note": "States are adopting AI for intelligence and targeting, and no treaty limits it, so only agreed limits and real human review can reduce errors. Agreement is slow: the US, Israel and Russia voted against the 2025 UN resolution on autonomous weapons, and treaty talks have not started.",
    "actions": [
     {
      "action": "Negotiate binding limits on autonomous weapons",
      "actor": "states, UN",
      "aim": "probability",
      "status": "proposed",
-     "evidence": "A 2024 UN First Committee resolution passed 161 to 3, but it only calls for consultations, not a treaty.",
+     "evidence": "A CCW expert group adopted a report in September 2026 that recognises the need for human judgement and control but lacks specific prohibitions, including on anti-personnel autonomous weapons, according to the Stop Killer Robots campaign; states decide at the November 2026 Review Conference whether to open negotiations.",
      "ref": {
-      "title": "Stop Killer Robots, 161 states vote against the machine at the UN General Assembly, 2024",
-      "url": "https://stopkillerrobots.org/news/161-states-vote-against-the-machine-at-the-un-general-assembly",
-      "finding": "Resolution L.77 was adopted 161 in favour, 3 against and 13 abstentions."
+      "title": "Stop Killer Robots, Nothing less than negotiations, 2026",
+      "url": "https://www.stopkillerrobots.org/news/nothing-less-than-negotiations/",
+      "finding": "The 31 August to 4 September 2026 GGE session adopted its final report by consensus; it characterises autonomous weapons and recognises the need for human control, but proposed prohibitions were not strengthened; negotiations have not begun."
      }
     },
     {
@@ -10529,11 +10619,11 @@
      "actor": "armed forces, states",
      "aim": "impact",
      "status": "proposed",
-     "evidence": "The ICRC position sets out concrete limits; there is no evidence on how well human review works under time pressure.",
+     "evidence": "The ICRC set out these limits in 2021 for autonomous weapon systems; no treaty has adopted them.",
      "ref": {
-      "title": "ICRC, ICRC position on autonomous weapon systems",
+      "title": "ICRC position on autonomous weapon systems, 2021",
       "url": "https://www.icrc.org/en/document/icrc-position-autonomous-weapon-systems",
-      "finding": "Calls to ban unpredictable and anti-personnel systems and to require human oversight with timely intervention for the rest."
+      "finding": "Calls to ban unpredictable and anti-personnel autonomous weapons and, for the rest, to limit target types, duration, area and situations of use and require effective human supervision with timely intervention and deactivation."
      }
     }
    ],
@@ -10542,11 +10632,11 @@
      "event": "Patriot fratricides in Iraq",
      "year": "2003",
      "parallel": "Patriot batteries ran a largely automatic engagement protocol with operators trained to trust the software, compressing human review as AI targeting is said to.",
-     "outcome": "Patriot was involved in three fratricide incidents, two of them shootdowns of coalition aircraft that killed three aircrew, amid a 4,000-to-1 ratio of friendly sorties to enemy missiles; the review called for more operator involvement and control.",
+     "outcome": "Patriot was involved in three fratricide incidents; two were firings at coalition aircraft in which three aircrew were lost, amid a 4,000-to-1 ratio of friendly sorties to enemy missiles, and the review called for more operator involvement and control.",
      "ref": {
-      "title": "Report of the Defense Science Board Task Force on Patriot System Performance, report summary (2005)",
+      "title": "Report of the Defense Science Board Task Force on Patriot System Performance, Report Summary (January 2005)",
       "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D-PURL-LPS66633/pdf/GOVPUB-D-PURL-LPS66633.pdf",
-      "finding": "The operating protocol was largely automatic and operators were trained to trust the system's software; the solution is more operator involvement and control."
+      "finding": "Patriot was involved in three fratricide incidents and three aircrew were lost in two of them; the operating protocol was largely automatic and operators were trained to trust the system's software; the solution is more operator involvement and control."
      }
     },
     {
@@ -10571,12 +10661,17 @@
    "stage": "emerging",
    "evidence": "reported",
    "theme": "world",
-   "summary": "Communities are building speech models for Indigenous languages while keeping data sovereignty; in New Zealand, Te Hiku Media reports 92% accuracy for its te reo Maori speech recognition, and 82% on mixed English and Maori speech[1]. These figures are self-reported, not independently evaluated.",
+   "summary": "Some Indigenous communities are building their own speech models while keeping control of their data; in New Zealand, Te Hiku Media reports 92% accuracy for its te reo Maori speech recognition, and 82% on mixed English and Maori speech[1]. These figures are self-reported, not independently evaluated. Large multilingual speech models still perform poorly on most languages, because accuracy tracks the amount of training data per language and most languages have under 1,000 hours[2].",
    "refs": [
     {
-     "title": "NVIDIA Blog, Maori speech AI model helps preserve and promote New Zealand Indigenous language, 2023",
+     "title": "NVIDIA Blog, Maori Speech AI Model Helps Preserve and Promote New Zealand Indigenous Language, 2024",
      "url": "https://blogs.nvidia.com/blog/te-hiku-media-maori-speech-ai/",
-     "finding": "Te Hiku Media's te reo Maori speech recognition reaches 92% accuracy, and 82% on mixed English and Maori speech."
+     "finding": "Te Hiku Media's speech recognition transcribes te reo Maori with 92% accuracy and bilingual English and te reo speech with 82% accuracy; the organisation uses its Kaitiakitanga license to maintain data sovereignty."
+    },
+    {
+     "title": "Radford et al., Robust Speech Recognition via Large-Scale Weak Supervision (arXiv), 2022",
+     "url": "https://arxiv.org/abs/2212.04356",
+     "finding": "Of Whisper's 680,000 training hours, 117,000 cover 96 languages other than English; most languages have less than 1,000 hours, performance on a language is very well predicted by its amount of training data (squared correlation 0.83 between log error rate and log hours), and recognition is still quite poor on many languages."
     }
    ],
    "valence": 2.34,
@@ -10584,31 +10679,31 @@
     {
      "limit": "limited language coverage",
      "kind": "quality",
-     "evidence": "Large speech models trained on 680,000 hours of mostly high-resource audio say little about tiny Indigenous corpora.",
+     "evidence": "Whisper's 680,000 training hours are English-heavy and most languages get under 1,000 hours; error rates track training data per language, so languages with tiny corpora fare worst.",
      "ref": {
-      "title": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "title": "Radford et al., Robust Speech Recognition via Large-Scale Weak Supervision (arXiv), 2022",
       "url": "https://arxiv.org/abs/2212.04356",
-      "finding": "Whisper trained on 680,000 hours of multilingual supervision."
+      "finding": "117,000 of 680,000 hours cover 96 non-English languages; most languages have less than 1,000 hours; performance on a language is very well predicted by its amount of training data."
      }
     },
     {
      "limit": "Data sovereignty disputes over archives",
      "kind": "trust",
-     "evidence": "Te Hiku built its own licence because communities fear outside firms taking their recordings.",
+     "evidence": "Te Hiku licenses all content on its site under its own Kaitiakitanga License and points to concerns about Big Tech, digital colonisation and the appropriation of culture by AI.",
      "ref": {
-      "title": "Data Sovereignty and the Kaitiakitanga License",
+      "title": "Data Sovereignty and the Kaitiakitanga License (Te Hiku Media), 2022",
       "url": "https://tehiku.nz/te-hiku-tech/te-hiku-dev-korero/25141/data-sovereignty-and-the-kaitiakitanga-license",
-      "finding": "All tehiku.nz content is under a stewardship licence tied to Maori data sovereignty principles."
+      "finding": "All content hosted on tehiku.nz is protected under the Kaitiakitanga License; the page links to writing on the threat of Big Tech to Indigenous data and the dangers of digital colonisation."
      }
     },
     {
      "limit": "poor connectivity",
      "kind": "infrastructure",
-     "evidence": "About 2.6 billion people, 32% of the world, were offline in 2024, many in remote language communities.",
+     "evidence": "About 2.6 billion people, 32% of the world, were offline in 2024, 1.8 billion of them in rural areas.",
      "ref": {
-      "title": "Global Internet use continues to rise but disparities remain, especially in low-income regions",
+      "title": "ITU, Global Internet use continues to rise but disparities remain, especially in low-income regions, 2024",
       "url": "https://www.itu.int/en/mediacentre/Pages/PR-2024-11-27-facts-and-figures.aspx",
-      "finding": "2.6 billion people offline in 2024."
+      "finding": "An estimated 2.6 billion people, 32% of the world population, were offline in 2024; 1.8 billion of them live in rural areas, where 48% of people are online versus 83% in cities."
      }
     }
    ],
@@ -10620,9 +10715,9 @@
      "counters": "Data sovereignty disputes over archives",
      "evidence": "Te Hiku applies the Kaitiakitanga licence to its content and prioritises Indigenous requesters.",
      "ref": {
-      "title": "Data Sovereignty and the Kaitiakitanga License",
+      "title": "Data Sovereignty and the Kaitiakitanga License (Te Hiku Media), 2022",
       "url": "https://tehiku.nz/te-hiku-tech/te-hiku-dev-korero/25141/data-sovereignty-and-the-kaitiakitanga-license",
-      "finding": "Licensing prioritised for Indigenous groups revitalising their language."
+      "finding": "Te Hiku prioritises licence requests from Indigenous communities and from people and organisations committed to helping Indigenous communities revitalise their language and culture."
      }
     },
     {
@@ -10630,24 +10725,24 @@
      "actor": "Mozilla Common Voice and communities",
      "status": "tested",
      "counters": "limited language coverage",
-     "evidence": "Common Voice collects volunteer recordings per language for open reuse; no independent accuracy evaluation for small languages is cited here.",
+     "evidence": "Common Voice's December 2025 release covers 289 languages and 38,932 hours of volunteer recordings, including a Dholuo dataset under a community licence; no independent accuracy evaluation for small languages is cited here.",
      "ref": {
-      "title": "Common Voice",
-      "url": "https://commonvoice.mozilla.org/en/languages",
-      "finding": "Open platform for contributing voice data by language."
+      "title": "Release live: MCV Scripted Speech 24.0 and Spontaneous Speech 2.0 (Mozilla Discourse), 2025",
+      "url": "https://discourse.mozilla.org/t/release-live-mcv-scripted-speech-24-0-and-spontaneous-speech-2-0/146740",
+      "finding": "Scripted Speech 24.0 covers 289 languages with 38,932 total hours (25,886 validated), released on Mozilla Data Collective; the Dholuo set is CC-0 and a separate DhoNam Dholuo set uses the Nwulite Obodo Open Data License."
      }
     }
    ],
    "precedents": [
     {
      "event": "Passamaquoddy 1890 wax cylinders",
-     "year": "1890-2015",
+     "year": "1890-2024",
      "parallel": "Archive recordings made with new technology were later restored and returned to the community for language revival, the same pipeline speech models now extend.",
-     "outcome": "Fewkes's 31 surviving cylinders, the oldest known ethnographic field recordings, have been digitised since 2015 and worked through with the Passamaquoddy, with the tribe deciding what is released; the source gives no measure of speakers gained.",
+     "outcome": "Fewkes's 31 Passamaquoddy recordings are the oldest ethnographic field recordings known to survive anywhere; the Library has digitised and restored early Native field recordings since 2015 and works with the Passamaquoddy to recover language and culture from them, releasing recordings selectively because communities do not want all of them public. The source gives no measure of speakers gained.",
      "ref": {
-      "title": "Language is Life and Native American Historical Voices (Library of Congress blog)",
+      "title": "\"Language is Life\" and Native American Historical Voices (Library of Congress blog), 2024",
       "url": "https://blogs.loc.gov/loc/2024/04/language-is-life-and-native-american-historical-voices/",
-      "finding": "The Library worked with the Passamaquoddy to recover language from the 1890 cylinders; communities decide what is released; projections suggest only 20 Native North American languages may be spoken by 2050, versus more than 300 in 1492."
+      "finding": "Fewkes recorded Passamaquoddy folktales, origin stories and vocabulary on wax cylinders in 1890; the 31 recordings are the oldest ethnographic field recordings known to survive; the Library collaborates with the Passamaquoddy to recover language and cultural practices from them; NAVCC has digitised and restored early Native field recordings since 2015 and releases them selectively because communities do not want all materials public; linguists predict only 20 Native languages will be spoken in North America by 2050, down from more than 300 in 1492."
      }
     }
    ]
@@ -10660,44 +10755,59 @@
    "stage": "active",
    "evidence": "reported",
    "theme": "security",
-   "summary": "Thorn reports its Safer tools detected 4.16 million suspected abuse files in 2024, 2.24 million of them flagged by classifiers rather than matched to known hashes[1]. This could help investigators find victims sooner; the counts are vendor-reported with no published precision.",
+   "summary": "Thorn reports that its detection work with tech platforms flagged 4.16 million suspected abuse files in 2024, 2.24 million of them classified as suspected abuse material and 1.98 million matched to known files[1]. Classifiers can find new material that hash matching misses, but at higher error rates; the only public precision figure, cited in the EU impact assessment from vendor tests, is 99.9% precision while finding 80% of the material in a test set, and EU data protection authorities say such figures cannot be verified[2]. In the EU, rules allowing voluntary scanning lapsed on 3 April 2026 and were reinstated until 3 April 2028, excluding end-to-end encrypted chats[3]. More flagged files also add to US tipline volume, which already overwhelms law enforcement according to AP reporting on a 2024 Stanford study[4].",
    "refs": [
     {
-     "title": "Thorn, 2024 Impact Report, 2025",
+     "title": "Thorn, 2024 Impact Report",
      "url": "https://www.thorn.org/about/our-impact/2024-impact-report/",
-     "finding": "Thorn's Safer tools detected 4.16 million suspected CSAM files in 2024, 2.24 million of them flagged by classifiers rather than matched to known hashes."
+     "finding": "In 2024: 4,162,256 total suspected CSAM files detected, 2,237,225 files classified as suspected CSAM and 1,979,406 known CSAM files matched; 60+ companies use Thorn's CSAM detection products. No precision or accuracy figures are given."
+    },
+    {
+     "title": "EDPB-EDPS Joint Opinion 04/2022 on the Proposal for a Regulation to prevent and combat child sexual abuse, 2022",
+     "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/edpbedps-joint-opinion/edpb-edps-joint-opinion-042022-proposal_en",
+     "finding": "Hash matching has an estimated false positive rate of no more than 1 in 50 billion; classifiers for new CSAM have generally significantly higher error rates, with one able to be set at 99.9% precision while identifying only 80% of the CSAM in the data set; there is no information on the tests or benchmarks vendors used, so the figures cannot be replicated or validated."
+    },
+    {
+     "title": "eucrim, Interim Rules on Voluntary CSAM Detection Reinstated Until 2028, 2026",
+     "url": "https://eucrim.eu/news/interim-rules-on-voluntary-csam-detection-reinstated-until-2028/",
+     "finding": "The interim regime expired on 3 April 2026 after Parliament rejected an extension; Regulation (EU) 2026/1881 reinstates it until 3 April 2028 and does not apply to end-to-end encrypted interpersonal communications; the permanent CSA Regulation is still in trilogue."
+    },
+    {
+     "title": "Associated Press, Report urges fixes to online child exploitation CyberTipline before AI makes it worse (Bangor Daily News), 2024",
+     "url": "https://www.bangordailynews.com/2024/04/22/nation/report-urges-fixes-to-online-child-exploitation-cybertipline-before-ai-makes-it-worse/",
+     "finding": "A Stanford Internet Observatory report found the sheer amount of CyberTipline reports is overwhelming law enforcement and makes it hard to know which to prioritise; a single detective may be responsible for 2,000 reports a year; the tipline received more than 36 million reports in 2023."
     }
    ],
    "valence": 3.71,
    "limiters": [
     {
-     "limit": "No published precision for classifiers",
+     "limit": "Classifier accuracy is unverified",
      "kind": "quality",
-     "evidence": "Vendors describe novel CSAM classifiers but publish no figures on files classified or error rates.",
+     "evidence": "The only public figure, from vendor tests cited in the EU impact assessment, is a classifier that at 99.9% precision finds 80% of the abuse material in a test set; EU data protection authorities say no test details exist to verify it.",
      "ref": {
-      "title": "CSAM Detection from Experts in Child Safety Technology | Safer by Thorn",
-      "url": "https://safer.io/",
-      "finding": "Offers predictive classifiers for novel CSAM; page gives no accuracy figures."
+      "title": "EDPB-EDPS Joint Opinion 04/2022 on the Proposal for a Regulation to prevent and combat child sexual abuse, 2022",
+      "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/edpbedps-joint-opinion/edpb-edps-joint-opinion-042022-proposal_en",
+      "finding": "New-CSAM classifiers have generally significantly higher error rates than hash matching; one can be set at 99.9% precision but then identifies only 80% of the CSAM in the data set; there is no information on the tests or benchmarks vendors used to measure performance."
      }
     },
     {
      "limit": "Report volume overwhelms investigators",
      "kind": "infrastructure",
-     "evidence": "NCMEC received 21.3 million CyberTipline reports in 2025, more than police can triage.",
+     "evidence": "NCMEC received 21.3 million CyberTipline reports in 2025 and referred more than 18.8 million to law enforcement; more than 10% of industry reports lacked the information needed to determine where the offence occurred.",
      "ref": {
-      "title": "CyberTipline Data",
+      "title": "NCMEC, CyberTipline Data (2025 CyberTipline Report)",
       "url": "https://www.missingkids.org/cybertiplinedata",
-      "finding": "21.3 million reports in 2025."
+      "finding": "21,351,493 reports in 2025 covering 61.8 million files; more than 18.8 million referred to law enforcement and more than 4.5 million designated informational; more than 10% of tech industry reports contained inadequate information to determine where the offence occurred."
      }
     },
     {
      "limit": "Privacy law limits scanning",
      "kind": "regulation",
-     "evidence": "EU data protection authorities issued a formal joint opinion challenging the proposed detection regulation.",
+     "evidence": "EU data protection authorities found that orders to detect unknown abuse material and grooming in private messages, given their intrusiveness, probabilistic nature and error rates, go beyond what is necessary and proportionate.",
      "ref": {
-      "title": "EDPB-EDPS Joint Opinion 04/2022 on the Proposal for a Regulation to prevent and combat child sexual abuse",
+      "title": "EDPB-EDPS Joint Opinion 04/2022 on the Proposal for a Regulation to prevent and combat child sexual abuse, 2022",
       "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/edpbedps-joint-opinion/edpb-edps-joint-opinion-042022-proposal_en",
-      "finding": "Joint opinion of 28 July 2022 on the CSA proposal."
+      "finding": "Adopted 28 July 2022; detection of unknown CSAM and grooming in interpersonal communications goes beyond what is necessary and proportionate due to intrusiveness, probabilistic nature and error rates; grooming provisions should be removed."
      }
     }
    ],
@@ -10707,11 +10817,11 @@
      "actor": "Governments and platforms",
      "status": "in force",
      "counters": "Report volume overwhelms investigators",
-     "evidence": "IWF assessed 424,047 reports in 2024 and confirmed 291,273 contained abuse imagery.",
+     "evidence": "IWF received 424,047 reports suspected to contain child sexual abuse imagery in 2024 and confirmed that 291,273 did.",
      "ref": {
       "title": "IWF Annual Data & Insights Report 2024",
       "url": "https://www.iwf.org.uk/annual-data-insights-report-2024/",
-      "finding": "291,273 confirmed reports in 2024."
+      "finding": "424,047 reports suspected to contain child sexual abuse imagery in 2024; 291,273 reports confirmed to contain child sexual abuse imagery."
      }
     },
     {
@@ -10723,7 +10833,19 @@
      "ref": {
       "title": "CSAM Detection from Experts in Child Safety Technology | Safer by Thorn",
       "url": "https://safer.io/",
-      "finding": "Self-hosted option shares limited data."
+      "finding": "With the self-hosted option customers share limited data; a secure API-based deployment is also available."
+     }
+    },
+    {
+     "action": "Give platforms a time-limited legal basis for voluntary scanning",
+     "actor": "European Union",
+     "status": "in force",
+     "counters": "Privacy law limits scanning",
+     "evidence": "Regulation (EU) 2026/1881 reinstated voluntary detection until 3 April 2028 after the earlier rules lapsed on 3 April 2026, but it does not cover end-to-end encrypted communications.",
+     "ref": {
+      "title": "eucrim, Interim Rules on Voluntary CSAM Detection Reinstated Until 2028, 2026",
+      "url": "https://eucrim.eu/news/interim-rules-on-voluntary-csam-detection-reinstated-until-2028/",
+      "finding": "Regulation (EU) 2026/1881 of 24 July 2026 applies until 3 April 2028 and does not apply to interpersonal communications to which end-to-end encryption is applied."
      }
     }
    ],
@@ -10732,11 +10854,11 @@
      "event": "PhotoDNA hash matching",
      "year": "2009",
      "parallel": "Microsoft and NCMEC deployed automated matching to find abuse images at platform scale, the step before classifiers that flag unseen images.",
-     "outcome": "PhotoDNA matched resized or altered copies of already-known images and was shared with platforms; NCMEC had reviewed almost 30 million images and videos since 2003, but the vendor release gives no accuracy figures and the method cannot find new material.",
+     "outcome": "PhotoDNA was designed to match resized or similarly altered copies of known images, and Microsoft donated it to NCMEC to share with online service providers; NCMEC had reviewed almost 30 million images and videos since 2003, but the release gives no measured accuracy and the method only finds images already identified.",
      "ref": {
-      "title": "Microsoft and National Center for Missing & Exploited Children Push for Action to Fight Child Pornography (Microsoft press release)",
+      "title": "Microsoft and National Center for Missing & Exploited Children Push for Action to Fight Child Pornography (Microsoft press release), 2009",
       "url": "https://news.microsoft.com/2009/12/15/microsoft-and-national-center-for-missing-exploited-children-push-for-action-to-fight-child-pornography/",
-      "finding": "PhotoDNA creates a signature for an image that still matches when resized; NCMEC had reviewed almost 30 million images and videos since 2003 and was reviewing about 250,000 a week."
+      "finding": "PhotoDNA creates a signature for an image that still matches when the image is resized or similarly altered; NCMEC can make it available to online service providers; NCMEC had reviewed almost 30 million photos and videos since 2003 and its victim identification programme reviews 250,000 a week."
      }
     }
    ]
@@ -10749,17 +10871,17 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "world",
-   "summary": "In one Nature study, an AI model extended reliable river flood forecasts to 5 days ahead in ungauged basins, matching or beating the leading global physics-based system[1]. Google says the forecasts cover 80 countries where 460 million people live[2]; whether warnings change behaviour is less proven.",
+   "summary": "In one Nature study across 5,680 river gauges, an AI model's flood forecasts for ungauged basins were as reliable five days ahead as same-day nowcasts from the leading global system[1]. Google says its forecasts now cover 100 countries where 700 million people live, with an updated model as accurate at seven days as the old one was at five[2]; whether warnings change behaviour is less proven, and Google's account of use is anecdotal.",
    "refs": [
     {
      "title": "Nearing et al., Global prediction of extreme floods in ungauged watersheds (Nature), 2024",
      "url": "https://www.nature.com/articles/s41586-024-07145-1",
-     "finding": "An AI model extended reliable riverine flood forecasts to 5 days lead time in ungauged basins, matching or beating the leading global physics-based system."
+     "finding": "Across 5,680 gauges, AI forecasts of extreme riverine events in ungauged watersheds were as reliable at up to five days lead time as same-day nowcasts from the Copernicus Global Flood Awareness System, and accuracy on five-year return period events matched or beat current accuracy on one-year events; the model runs in a free public warning system in over 80 countries."
     },
     {
-     "title": "Google, How Google uses AI to improve global flood forecasting, 2024",
-     "url": "https://blog.google/technology/ai/google-ai-global-flood-forecasting/",
-     "finding": "Google says the forecasts cover 80 countries where 460 million people live."
+     "title": "Google, How we're helping partners with improved and expanded AI-based flood forecasting, 2024",
+     "url": "https://blog.google/technology/ai/expanding-flood-forecasting-coverage-helping-partners/",
+     "finding": "Coverage expanded to 100 countries (up from 80) in areas where 700 million people live (up from 460 million); the improved model has the same accuracy at seven days lead time as the previous model had at five; examples of use in Brazil are anecdotal."
     }
    ],
    "valence": 3.84,
@@ -10767,31 +10889,31 @@
     {
      "limit": "poor connectivity",
      "kind": "infrastructure",
-     "evidence": "2.6 billion people were offline in 2024, so online flood maps miss many people at risk.",
+     "evidence": "2.6 billion people, 32% of the world, were offline in 2024, 1.8 billion of them in rural areas, so online flood maps cannot reach them directly.",
      "ref": {
-      "title": "Global Internet use continues to rise but disparities remain, especially in low-income regions",
+      "title": "ITU, Global Internet use continues to rise but disparities remain, especially in low-income regions, 2024",
       "url": "https://www.itu.int/en/mediacentre/Pages/PR-2024-11-27-facts-and-figures.aspx",
-      "finding": "32% of the world offline in 2024."
+      "finding": "An estimated 2.6 billion people, 32% of the world population, were offline in 2024; 1.8 billion of them live in rural areas."
      }
     },
     {
      "limit": "slow institutional adoption",
      "kind": "incentives",
-     "evidence": "Only half of countries report adequate multi-hazard early warning systems to act on forecasts.",
+     "evidence": "In 2025, 119 countries (60%) reported having a multi-hazard early warning system, only 43% of small island developing states did, and fewer than a third of countries reported risk-knowledge capabilities.",
      "ref": {
-      "title": "Early Warnings for All",
-      "url": "https://wmo.int/activities/early-warnings-all",
-      "finding": "Only half of countries report adequate multi-hazard early warning systems."
+      "title": "WMO, Early warning systems reach new heights, but critical gaps jeopardize global progress, 2025",
+      "url": "https://wmo.int/news/media-centre/early-warning-systems-reach-new-heights-critical-gaps-jeopardize-global-progress",
+      "finding": "119 countries, or 60% of all countries, report a multi-hazard early warning system; 43% of small island developing states do; fewer than a third of countries report risk-knowledge capabilities; funding is not always sustained for operation and maintenance."
      }
     },
     {
-     "limit": "Forecast skill drops past five days",
+     "limit": "Lead time measured in days",
      "kind": "quality",
-     "evidence": "The AI model matched benchmark nowcast reliability up to five days lead time in ungauged basins, not beyond.",
+     "evidence": "Across 5,680 gauges, the AI model matched the benchmark's same-day reliability at up to five days of lead time, giving days rather than weeks of warning.",
      "ref": {
-      "title": "Global prediction of extreme floods in ungauged watersheds",
+      "title": "Nearing et al., Global prediction of extreme floods in ungauged watersheds (Nature, PMC copy), 2024",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10954541/",
-      "finding": "Reliability similar to or better than same-day benchmark up to 5-day lead time."
+      "finding": "Forecasts cover 0 to 7 days; reliability similar to or better than same-day benchmark nowcasts at up to five days lead time; trained and tested across 5,680 streamflow gauges."
      }
     }
    ],
@@ -10801,11 +10923,11 @@
      "actor": "WMO and national met services",
      "status": "in force",
      "counters": "slow institutional adoption",
-     "evidence": "The UN Early Warnings for All push targets full early warning coverage, starting from half of countries.",
+     "evidence": "The UN Early Warnings for All initiative aims to protect everyone on Earth with early warning systems by the end of 2027.",
      "ref": {
-      "title": "Early Warnings for All",
+      "title": "WMO, Early Warnings for All",
       "url": "https://wmo.int/activities/early-warnings-all",
-      "finding": "UN initiative to close early warning gaps."
+      "finding": "UN initiative to protect everyone from hazardous weather, water or climate events through early warning systems by the end of 2027."
      }
     },
     {
@@ -10813,35 +10935,35 @@
      "actor": "Google Research",
      "status": "in force",
      "counters": null,
-     "evidence": "Flood Hub publishes free public river flood forecasts, labelled approximate and informational.",
+     "evidence": "Flood Hub publishes public river flood forecasts, labelled approximate and for informational purposes only, and tells users to check official sources.",
      "ref": {
-      "title": "Flood Hub",
+      "title": "Google, Flood Hub",
       "url": "https://sites.research.google/floods/l/0/0/3",
-      "finding": "Public flood forecast map with informational disclaimer."
+      "finding": "Public flood forecast map; flood conditions are approximate and for informational purposes only; check official sources."
      }
     }
    ],
    "precedents": [
     {
      "event": "Bangladesh Cyclone Preparedness Programme",
-     "year": "1972-2020",
-     "parallel": "An early-warning system built for a poor, exposed coastline paired forecasts with volunteers and shelters so that warnings actually reached people.",
-     "outcome": "After the 1970 Bhola cyclone, which may have killed up to a million people, deaths fell to 138,000 in 1991, 10,000 or more in Sidr in 2007, and under 30 each in Bulbul (2019) and Amphan (2020), with 76,000 volunteers and 5,500 shelters; better forecasts were only one part of this.",
+     "year": "1970-2007",
+     "parallel": "An early-warning system built for a poor, exposed coastline paired warnings with shelters, evacuation plans and volunteers spreading alerts, so that forecasts reached people.",
+     "outcome": "Cyclone deaths in Bangladesh fell from more than 500,000 in 1970 and almost 140,000 in 1991 to 4,234 in 2007, a 100-fold drop the authors credit to early warning, shelters, evacuation plans, embankments, reforestation and awareness; illiteracy and poor communication still hampered evacuation, so better forecasts were only one part of this.",
      "ref": {
-      "title": "Congratulatory message on 50 years of the Cyclone Preparedness Programme (UNDRR)",
-      "url": "https://www.undrr.org/news/congratulatory-message",
-      "finding": "Bhola may have killed up to one million; 138,000 died in 1991 and 10,000 or more in Sidr 2007; Bulbul and Amphan each caused fewer than 30 deaths; the programme has over 76,000 volunteers."
+      "title": "Haque et al., Reduced death rates from cyclones in Bangladesh: what more needs to be done? (Bulletin of the World Health Organization), 2012",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3302549/",
+      "finding": "Cyclone mortality fell more than 100-fold, from 500,000 deaths in 1970 to 4,234 in 2007, with almost 140,000 deaths in 1991; credited to early warning systems, shelters, evacuation plans, embankments, reforestation and awareness; evacuation remains a challenge due to illiteracy, lack of awareness and poor communication; preparedness improved after the Bangladesh Red Crescent Society's Cyclone Preparedness Programme."
      }
     },
     {
      "event": "Somalia famine warnings ignored",
      "year": "2010-2011",
      "parallel": "Famine early-warning systems flagged the crisis in time, but warnings did not turn into action, the gap the AI flood summary flags.",
-     "outcome": "Warnings clearly identified famine risk in South Central Somalia, yet timely action was not taken and about 258,000 people died; war and access restrictions, not forecast quality, were the main barriers.",
+     "outcome": "Warnings clearly identified famine risk in South Central Somalia, yet timely action was not taken and the famine is thought to have killed 258,000 people; the authors blame the war and the tactics of the warring parties, along with problems of access, funding and the aid coordination system, not the warnings.",
      "ref": {
-      "title": "The 2011 Famine in Somalia: lessons learnt from a failed response? (Conflict and Health 2013)",
+      "title": "Seal and Bailey, The 2011 Famine in Somalia: lessons learnt from a failed response? (Conflict and Health), 2013",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3829375/",
-      "finding": "Famine early warning systems clearly identified the risk of famine in 2010-2011 but timely action was not taken; the famine is thought to have cost 258,000 lives."
+      "finding": "Famine early warning systems clearly identified the risk of famine in 2010-2011 but timely action was not taken; the famine is thought to have cost 258,000 lives; the main factor turning drought into famine was the war and the tactics of the belligerents; the coordination and funding system contributed to the failed response."
      }
     }
    ]
@@ -15964,7 +16086,7 @@
    "source": "precisionspray",
    "target": "climate",
    "kind": "leads",
-   "why": "Cutting herbicide use by spraying only the weeds is one AI application that pushes the net climate balance towards savings."
+   "why": "Spot spraying is an environmental gain from AI, though no source here measures its effect on emissions, so its weight in the climate balance is unquantified."
   },
   {
    "source": "aiwater",
@@ -15976,7 +16098,7 @@
    "source": "aiewaste",
    "target": "climate",
    "kind": "leads",
-   "why": "Fast GPU refresh cycles add an environmental cost beyond data-centre emissions, weighing against AI's possible climate gains."
+   "why": "Fast server turnover adds an environmental cost beyond data-centre emissions, weighing against AI's possible climate gains."
   },
   {
    "source": "whalecodes",
@@ -15991,10 +16113,10 @@
    "why": "Cheap face recognition spreads police monitoring, and uncorroborated matches from it put innocent people in cells."
   },
   {
-   "source": "wrongfularrests",
-   "target": "scrapedfaces",
+   "source": "scrapedfaces",
+   "target": "wrongfularrests",
    "kind": "leads",
-   "why": "Police matching suspects against huge scraped face databases makes false matches likely, and uncorroborated matches have led to wrongful arrests."
+   "why": "One wrongful-arrest lawsuit alleges the Louisiana sheriff's office behind the warrant used Clearview AI's search of scraped faces, though Clearview would not confirm it."
   },
   {
    "source": "liarsdividend",
@@ -16042,13 +16164,13 @@
    "source": "endangeredlang",
    "target": "translation",
    "kind": "leads",
-   "why": "Community speech models built from archive recordings add data and tools for languages that translation systems previously could not cover."
+   "why": "Community-built speech data and models add the training data that large multilingual speech systems lack for small languages, whose accuracy tracks data per language."
   },
   {
    "source": "weather",
    "target": "floodwarning",
    "kind": "leads",
-   "why": "Learned weather and hydrology models forecast cheaply, which brings river flood warnings to basins with no gauges."
+   "why": "The AI flood model turns meteorological forecasts into river flood forecasts, so better weather forecasts feed directly into warnings for basins with no gauges."
   },
   {
    "source": "scrapedfaces",
@@ -16654,7 +16776,7 @@
    "source": "csamdetection",
    "target": "csam",
    "kind": "counters",
-   "why": "Classifiers that flag previously unseen abuse imagery can catch generated images too, helping detection keep up with the flood."
+   "why": "Hash matching only finds already-known images, so newly generated abuse imagery can be flagged only by classifiers built to detect unseen material."
   },
   {
    "source": "sparring",
@@ -16852,7 +16974,7 @@
    "source": "biasdata",
    "target": "wrongfularrests",
    "kind": "leads",
-   "why": "Face-recognition systems trained on unbalanced photo sets misidentify darker-skinned faces more often."
+   "why": "NIST found face-recognition false positive rates up to 100 times higher for some demographic groups, while several algorithms developed in China had low false positive rates on East Asian faces, pointing to the role of training data."
   },
   {
    "source": "biasdata",
@@ -17621,6 +17743,36 @@
    "target": "wrongfularrests",
    "kind": "twin",
    "why": "In both, an AI alert sends police to detain someone who did nothing wrong, as when a student was handcuffed over a bag of chips flagged as a gun."
+  },
+  {
+   "source": "csamdetection",
+   "target": "surveillance",
+   "kind": "leads",
+   "why": "Mandatory detection in private messages would mean generalised scanning of communications, which EU data protection authorities judged disproportionate."
+  },
+  {
+   "source": "floodwarning",
+   "target": "aidivide",
+   "kind": "counters",
+   "why": "Floods hit developing countries hardest and they lack stream gauges, yet the AI model forecasts ungauged basins and runs in a free public system in over 80 countries."
+  },
+  {
+   "source": "habermas",
+   "target": "epistemictools",
+   "kind": "leads",
+   "why": "AI mediators that draft common-ground statements are one way AI could support public reasoning at scale, as the Habermas Machine authors argue."
+  },
+  {
+   "source": "imagegen",
+   "target": "liarsdividend",
+   "kind": "leads",
+   "why": "As realistic fakes become common, people can claim real recordings are fakes, as Tesla's lawyers did with a recorded Elon Musk statement."
+  },
+  {
+   "source": "surveillance",
+   "target": "militarytargeting",
+   "kind": "leads",
+   "why": "Intelligence sources say Lavender rated almost everyone in Gaza using data collected on most of its 2.3 million residents through mass surveillance."
   }
  ],
  "themes": {
