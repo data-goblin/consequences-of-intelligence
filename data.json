@@ -15241,6 +15241,86 @@
      }
     }
    ]
+  },
+  {
+   "id": "schoolsurveillance",
+   "label": "AI school surveillance misfires on students",
+   "valence": -3.42,
+   "probability": 0.6,
+   "year": 2025,
+   "evidence": "reported",
+   "summary": "US schools use AI software that scans what students write and search on school devices, and camera systems that look for guns, and many of the alerts are false. Gaggle, used by about 1,500 districts to track about 6 million students, alerted staff in Vancouver, Washington about nearly 2,200 students, about 10% of enrollment, in one year; an AP and Seattle Times investigation found many of those alerts were false alarms, screenshots that potentially outed at least six students for writing about being gay or transgender, and almost 3,500 sensitive student documents released to reporters without password protection[1]. In Lawrence, Kansas, almost two-thirds of more than 1,200 Gaggle alerts in 10 months were judged nonissues and more than 200 were set off by homework, and students sued the district in August 2025 over searches of their files and their free speech; in Tennessee a 13-year-old girl was arrested after a flagged school chat[2]. In October 2025 police handcuffed and searched a Baltimore County student after an AI gun detection system flagged his bag of chips, although the school's security staff had already cancelled the alert[3]. The FTC found that one AI weapons scanner used in over 800 schools missed a seven-inch knife later used to stab a student[4], and a court entered its order against the maker in December 2024[5]. No independent research shows the monitoring software reduces suicide or violence, though officials believe it has saved lives and one student who was potentially being trafficked used it to ask for help[1].",
+   "refs": [
+    {
+     "title": "Associated Press and The Seattle Times, Schools use AI to monitor kids, hoping to prevent violence. Our investigation found security risks, March 2025",
+     "url": "https://www.wsls.com/tech/2025/03/12/schools-use-ai-to-monitor-kids-hoping-to-prevent-violence-our-investigation-found-security-risks/",
+     "finding": "About 1,500 US districts use Gaggle, AI-powered software that tracks roughly 6 million students on school devices. From October 2023 to October 2024 nearly 2,200 Vancouver, Washington students, about 10% of enrollment, were the subject of an alert; many alerts were false alarms, such as an essay about consent. A records request gave reporters almost 3,500 sensitive, unredacted student documents with no password or firewall, and the screenshots potentially outed at least six students to school officials after they wrote about being gay, transgender or struggling with gender dysphoria. There is no independent research showing the tools measurably lower student suicide or violence; a 2023 RAND study found scant evidence of benefits or risks, officials believe the tools have saved lives, and one student who was potentially being trafficked used Gaggle to ask staff for help. Durham, North Carolina's Board of Education voted to stop using Gaggle in 2023, judging it not worth the risk of outing students, after an advocate told the board a self-harm alert had outed a student to unsupportive family."
+    },
+    {
+     "title": "Lawrence Journal-World, Lawrence school district sued in federal court for use of AI-powered surveillance system; students claim Gaggle results in illegal searches, August 2025",
+     "url": "https://www2.ljworld.com/news/schools/2025/aug/07/lawrence-school-district-sued-in-federal-court-for-use-of-ai-powered-surveillance-system-students-claim-gaggle-results-in-illegal-searches/",
+     "finding": "Nine current and former students sued the Lawrence, Kansas school district in federal court, claiming its 2023 decision to use Gaggle violates their First Amendment rights and results in illegal searches and seizures of their files. An AP analysis of public records found Gaggle flagged more than 1,200 incidents in a recent 10-month period, almost two-thirds deemed nonissues by school officials and more than 200 false alarms triggered by homework; officials later adjusted settings to reduce false alerts. In a separate Tennessee case a 13-year-old girl was arrested after a Gaggle-monitored school email chat was flagged."
+    },
+    {
+     "title": "TechCrunch, High school's AI security system confuses Doritos bag for a possible firearm, October 2025",
+     "url": "https://techcrunch.com/2025/10/25/high-schools-ai-security-system-confuses-doritos-bag-for-a-possible-firearm/",
+     "finding": "Kenwood High School student Taki Allen in Baltimore County, Maryland, was handcuffed and searched after an AI security system flagged his bag of chips as a possible firearm. The school's security department had reviewed and cancelled the alert, but the principal did not immediately realise and reported it to the school resource officer, who called police. Omnilert, which runs the gun detection system, said it regretted the incident and that the process functioned as intended."
+    },
+    {
+     "title": "Federal Trade Commission, FTC Takes Action Against Evolv Technologies for Deceiving Users About its AI-Powered Security Screening Systems, November 2024",
+     "url": "https://www.ftc.gov/news-events/news/press-releases/2024/11/ftc-takes-action-against-evolv-technologies-deceiving-users-about-its-ai-powered-security-screening",
+     "finding": "The FTC alleges Evolv falsely claimed its AI-powered Express scanners would detect all weapons and ignore harmless items. The scanners reportedly failed to detect a seven-inch knife brought into a school in October 2022 and used to stab a student; raising sensitivity afterwards produced a 50% false alarm rate, and they flagged laptops, binders and water bottles. The scanners are in over 800 schools in 40 states. The order bars Evolv from misrepresenting weapon detection, accuracy and false alarm rates and requires it to let certain K-12 customers that signed contracts between 1 April 2022 and 30 June 2023 cancel them."
+    },
+    {
+     "title": "US District Court for the District of Massachusetts, FTC v. Evolv Technologies Holdings, Stipulated Order for Permanent Injunction and Other Relief, December 2024",
+     "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/19ORDERenteredgranting2MOTIONforSettlementTOAPPROVEPROPOSEDSTIPULATEDORDER.pdf",
+     "finding": "In case 1:24-cv-12940, the stipulated order for permanent injunction, which orders Evolv to send a notice to customers, was so ordered on 5 December 2024 by Magistrate Judge Paul G. Levenson."
+    }
+   ],
+   "theme": "power",
+   "stage": "active",
+   "control": "mitigable",
+   "price_of": [],
+   "control_note": "Schools buy these tools to catch threats and self-harm early, and the software errs towards flagging, so harmless writing and objects set off alerts that can reach police. Narrower settings, human review that actually stops a response, and locking flagged screenshots behind logins reduce the harm, but no independent research shows the tools prevent suicide or violence.",
+   "actions": [
+    {
+     "action": "Bar unsupported accuracy claims for AI weapons scanners",
+     "actor": "regulators",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "Under an FTC order, Evolv may not misrepresent its scanners' weapon detection or false alarm rates and must let some K-12 customers that signed between April 2022 and June 2023 cancel their contracts; it covers one company.",
+     "ref": {
+      "title": "Federal Trade Commission, FTC Takes Action Against Evolv Technologies for Deceiving Users About its AI-Powered Security Screening Systems, November 2024",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2024/11/ftc-takes-action-against-evolv-technologies-deceiving-users-about-its-ai-powered-security-screening",
+      "finding": "The FTC alleges Evolv falsely claimed its AI-powered Express scanners would detect all weapons and ignore harmless items. The scanners reportedly failed to detect a seven-inch knife brought into a school in October 2022 and used to stab a student; raising sensitivity afterwards produced a 50% false alarm rate, and they flagged laptops, binders and water bottles. The scanners are in over 800 schools in 40 states. The order bars Evolv from misrepresenting weapon detection, accuracy and false alarm rates and requires it to let certain K-12 customers that signed contracts between 1 April 2022 and 30 June 2023 cancel them."
+     }
+    },
+    {
+     "action": "Stop using student monitoring software",
+     "actor": "school boards",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "Durham, North Carolina's Board of Education voted in 2023 to stop using Gaggle, judging it not worth the risk of outing students, after an advocate told the board a self-harm alert had outed a student to unsupportive family.",
+     "ref": {
+      "title": "Associated Press and The Seattle Times, Schools use AI to monitor kids, hoping to prevent violence. Our investigation found security risks, March 2025",
+      "url": "https://www.wsls.com/tech/2025/03/12/schools-use-ai-to-monitor-kids-hoping-to-prevent-violence-our-investigation-found-security-risks/",
+      "finding": "About 1,500 US districts use Gaggle, AI-powered software that tracks roughly 6 million students on school devices. From October 2023 to October 2024 nearly 2,200 Vancouver, Washington students, about 10% of enrollment, were the subject of an alert; many alerts were false alarms, such as an essay about consent. A records request gave reporters almost 3,500 sensitive, unredacted student documents with no password or firewall, and the screenshots potentially outed at least six students to school officials after they wrote about being gay, transgender or struggling with gender dysphoria. There is no independent research showing the tools measurably lower student suicide or violence; a 2023 RAND study found scant evidence of benefits or risks, officials believe the tools have saved lives, and one student who was potentially being trafficked used Gaggle to ask staff for help. Durham, North Carolina's Board of Education voted to stop using Gaggle in 2023, judging it not worth the risk of outing students, after an advocate told the board a self-harm alert had outed a student to unsupportive family."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "Chicago inspector general's review of ShotSpotter",
+     "year": 2021,
+     "parallel": "An automated alert system sent police to scenes on a sensor's say-so, and most of the responses found nothing.",
+     "outcome": "Of 41,830 police responses to ShotSpotter gunshot alerts with a recorded outcome from January 2020 to May 2021, 9.1% found evidence of a gun-related offence, and the inspector general found the technology changed how some officers treated people in areas with frequent alerts.",
+     "ref": {
+      "title": "City of Chicago Office of Inspector General, OIG Finds That ShotSpotter Alerts Rarely Lead to Evidence of a Gun-Related Crime and That Presence of the Technology Changes Police Behavior, August 2021",
+      "url": "https://igchicago.org/2021/08/24/oig-finds-that-shotspotter-alerts-rarely-lead-to-evidence-of-a-gun-related-crime-and-that-presence-of-the-technology-changes-police-behavior/",
+      "finding": "OIG analysed 50,176 confirmed probable gunshot alerts from 1 January 2020 to 31 May 2021; of 41,830 with a recorded disposition, 4,556 (9.1%) found evidence of a gun-related criminal offence, and 1,056 alerts (2.1%) matched an investigatory stop. Some officers relied partly on how often alerts occurred in an area to justify stops or pat-downs."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -17529,6 +17609,18 @@
    "target": "llmgrooming",
    "kind": "twin",
    "why": "Both plant content written for machines rather than people: propaganda sites that steer chatbot answers, and package documentation that ReversingLabs says was aimed at AI coding agents."
+  },
+  {
+   "source": "schoolsurveillance",
+   "target": "surveillance",
+   "kind": "twin",
+   "why": "Both use AI to watch whole populations continuously, here about 6 million US students tracked by one school vendor."
+  },
+  {
+   "source": "schoolsurveillance",
+   "target": "wrongfularrests",
+   "kind": "twin",
+   "why": "In both, an AI alert sends police to detain someone who did nothing wrong, as when a student was handcuffed over a bag of chips flagged as a gun."
   }
  ],
  "themes": {
