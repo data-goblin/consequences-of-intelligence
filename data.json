@@ -14397,6 +14397,100 @@
      }
     }
    ]
+  },
+  {
+   "id": "dcairpollution",
+   "label": "Gas-powered data centres pollute nearby neighbourhoods",
+   "valence": -2.9,
+   "probability": 0.5,
+   "year": 2025,
+   "evidence": "reported",
+   "summary": "Some AI data centres burn gas on site for power. xAI set up 35 temporary gas turbines without air permits at its South Memphis data centre, and in one University of Tennessee analysis of satellite data for TIME, peak nitrogen dioxide levels after June 2024 rose 79% next to the site and 9% in nearby Boxtown, while averages rose 3%; the authors said a nearby power plant and traffic may also have contributed[1]. A study commissioned by the Southern Environmental Law Center estimated that xAI's proposed 41-turbine plant in Southaven, Mississippi would cause $30 million to $44 million a year in health damages[2], and the NAACP sued in April 2026 over 27 turbines running there without a permit[3]. One modelling study projects that the yearly public health burden of US data centres' air pollutant emissions could pass $20 billion by 2028, with the burden per household in the worst-hit counties about seven times the national average[4]. City air tests near the Memphis site on two days in June 2025 found none of 10 pollutants at dangerous levels, though they left out ozone[5].",
+   "refs": [
+    {
+     "title": "TIME, 'We Are the Last of the Forgotten': Inside the Memphis Community Battling Elon Musk's xAI, August 2025",
+     "url": "https://time.com/7308925/elon-musk-memphis-ai-data-center/",
+     "finding": "xAI brought in 35 unpermitted temporary methane gas turbines, which on manufacturer data could emit 1,200 to 2,000 tons of nitrogen oxides a year. University of Tennessee, Knoxville researchers using NASA and ESA satellite data found average nitrogen dioxide up 3% comparing the periods before June 2024 and afterward, and peak concentrations up 79% from pre-xAI levels in areas immediately surrounding the data centre and 9% in Boxtown; they said the changes likely reflect the combined influence of gas-fired sources, including the nearby TVA plant, and that motor vehicles may have contributed."
+    },
+    {
+     "title": "Southern Environmental Law Center, New study finds proposed xAI gas plant could worsen regional air pollution, cause millions of dollars in annual health damages, February 2026",
+     "url": "https://www.selc.org/press-release/new-study-finds-proposed-xai-gas-plant-could-worsen-regional-air-pollution-cause-millions-of-dollars-in-annual-health-damages/",
+     "finding": "A study by EmPower Analytics Group for SELC found the proposed permit for 41 permanent turbines in Southaven would allow nearly 20 tons of fine particle pollution a year plus hundreds of tons of precursor pollutants, raising fine particles by up to 0.5 micrograms per cubic metre in some communities and causing $30 million to $44 million in annual health damages; xAI had already installed 27 unpermitted turbines at the site."
+    },
+    {
+     "title": "Earthjustice, NAACP Sues xAI for Illegal Pollution from Data Center Power Plant, April 2026",
+     "url": "https://earthjustice.org/press/2026/xai-sued-for-illegal-power-plant",
+     "finding": "On 14 April 2026 the NAACP and its Mississippi State Conference sued xAI in federal court in the Northern District of Mississippi for running 27 gas turbines in Southaven without an air permit, with potential yearly emissions of more than 1,700 tons of nitrogen oxides and up to 180 tons of fine particulate matter."
+    },
+    {
+     "title": "Han, Wu, Li, Wierman and Ren, Health-Informed Computing: Estimating and Addressing the Public Health Impact of Data Centers, arXiv 2024, revised June 2026",
+     "url": "https://arxiv.org/abs/2412.06288",
+     "finding": "Modelling of criteria air pollutant emissions projects the total annual public health burden of US data centres could rise to more than $20 billion by 2028; the national impact is modest, but in the most affected counties the per-household burden can reach about seven times the national average."
+    },
+    {
+     "title": "TechCrunch, Air quality tests around xAI's Memphis data center raise questions, June 2025",
+     "url": "https://techcrunch.com/2025/06/25/air-quality-tests-around-xais-memphis-data-center-raise-questions",
+     "finding": "Third-party tests for the City of Memphis on 13 and 16 June 2025 at three sites found none of the 10 pollutants tested at dangerous levels; winds on those days were unlikely to carry pollutants to the sites, the tests did not include ozone, and SELC said monitors placed against buildings could interfere with results."
+    }
+   ],
+   "theme": "world",
+   "stage": "emerging",
+   "control": "mitigable",
+   "price_of": [
+    "cheapintelligence"
+   ],
+   "control_note": "On-site gas turbines let a data centre run before the grid can supply it, and the people living downwind pay in dirtier air. Permits with emission controls and caps, and siting that counts health costs, can cut the harm, but only where regulators treat the turbines as power plants.",
+   "actions": [
+    {
+     "action": "Permit on-site turbines only with emission caps",
+     "actor": "regulators",
+     "status": "in force",
+     "aim": "impact",
+     "evidence": "The Shelby County Health Department approved 15 permanent turbines for xAI in July 2025 with caps on 12-month rolling emissions; most complaints were about the temporary turbines, which the permit did not cover.",
+     "ref": {
+      "title": "Action News 5, Health dept. grants permit for xAI turbines, July 2025",
+      "url": "https://www.actionnews5.com/2025/07/02/health-dept-grants-permit-xai-turbines/",
+      "finding": "The permit approved on 2 July 2025 covers 15 permanent natural gas turbines, caps 12-month rolling emission rates that xAI must record monthly, and lists standards for nitrogen oxide, ammonia and hazardous air pollutants; the health department said most SELC concerns targeted the temporary turbines, due to be removed by the end of July."
+     }
+    },
+    {
+     "action": "Sue under the Clean Air Act over unpermitted turbines",
+     "actor": "civil rights groups",
+     "status": "proposed",
+     "aim": "probability",
+     "evidence": "The NAACP asks a federal court to stop xAI's unpermitted turbines in Southaven, require the best available control technology and impose daily penalties; the case was pending.",
+     "ref": {
+      "title": "Earthjustice, NAACP Sues xAI for Illegal Pollution from Data Center Power Plant, April 2026",
+      "url": "https://earthjustice.org/press/2026/xai-sued-for-illegal-power-plant",
+      "finding": "The suit filed on 14 April 2026 seeks a declaration that xAI violated the Clean Air Act, an order to stop operating unpermitted turbines and install best available control technology, and penalties for each day of violation."
+     }
+    },
+    {
+     "action": "Count health costs when siting data centres and scheduling their load",
+     "actor": "developers",
+     "status": "idea",
+     "aim": "impact",
+     "evidence": "The authors of one modelling study propose health-informed computing, which factors public health costs into where and when data centres run, and reporting of health impacts alongside energy use.",
+     "ref": {
+      "title": "Han, Wu, Li, Wierman and Ren, Health-Informed Computing: Estimating and Addressing the Public Health Impact of Data Centers, arXiv 2024, revised June 2026",
+      "url": "https://arxiv.org/abs/2412.06288",
+      "finding": "Proposes a health-informed computing framework that brings public health costs into data-centre resource management across space and time, and recommends energy reporting that includes public health impacts."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "Greenidge crypto-mining power plant permit denial",
+     "year": 2022,
+     "parallel": "A new kind of computing load revived a fossil-fuel power plant to run its own machines, and regulators had to decide whether the pollution was acceptable.",
+     "outcome": "A gas plant in New York that had sat dormant for six years was repurposed and its owners installed tens of thousands of crypto-mining machines, with carbon dioxide emissions rising roughly tenfold in 2020; on 30 June 2022 New York's environmental regulator denied its Title V air permit as inconsistent with the state's climate goals.",
+     "ref": {
+      "title": "Earthjustice, New York State Denies Air Pollution Permit for Fossil Fuel-burning Crypto mining operation, Citing Energy-Intensity and Environmental Concerns, June 2022",
+      "url": "https://earthjustice.org/press/2022/new-york-state-denies-air-pollution-permit-for-fossil-fuel-burning-crypto-mining-operation-citing-energy",
+      "finding": "On 30 June 2022 the New York State Department of Environmental Conservation denied Greenidge Generation's Title V air permit, finding the energy and climate impacts of proof-of-work mining at the plant inconsistent with New York's climate goals; carbon dioxide emissions rose roughly tenfold in 2020 as mining machines were installed."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -16529,6 +16623,24 @@
    "target": "ncii",
    "kind": "counters",
    "why": "The 2026 AI Omnibus adds an EU ban on AI systems that generate non-consensual sexually explicit content or child abuse material, including nudification apps, from December 2026."
+  },
+  {
+   "source": "energy",
+   "target": "dcairpollution",
+   "kind": "leads",
+   "why": "When data-centre demand grows faster than grid supply, operators turn to gas turbines on site, whose emissions land on the neighbourhoods around them."
+  },
+  {
+   "source": "dcairpollution",
+   "target": "aiwater",
+   "kind": "twin",
+   "why": "Both are local environmental costs of data centres, dirtier air or scarcer water, borne by the communities around them."
+  },
+  {
+   "source": "dcairpollution",
+   "target": "powerbills",
+   "kind": "twin",
+   "why": "Both pass a cost of powering AI data centres onto nearby households, through their lungs or their power bills."
   }
  ],
  "themes": {
