@@ -13954,6 +13954,111 @@
     }
    ],
    "valence": -2.83
+  },
+  {
+   "id": "surveillancepricing",
+   "label": "Surveillance pricing charges each shopper a different price",
+   "valence": -2.7,
+   "probability": 0.6,
+   "year": 2025,
+   "evidence": "reported",
+   "summary": "Pricing firms can tailor what each shopper pays from personal data such as location, browsing history and even mouse movements; intermediaries studied by the US FTC had at least 250 business clients, from grocers to clothing retailers[1][2]. In one Consumer Reports test with 437 volunteers, Instacart's AI pricing tool showed about three in four grocery items at more than one price, with gaps of up to 23% per item; Instacart called the gaps negligible, denied using personal data and later stopped offering the tool[3]. Maryland now bars food retailers and delivery apps from setting prices with personal data[4], and Connecticut passed a similar law in June 2026[5].",
+   "refs": [
+    {
+     "title": "FTC, FTC Issues Orders to Eight Companies Seeking Information on Surveillance Pricing, July 2024",
+     "url": "https://www.ftc.gov/news-events/news/press-releases/2024/07/ftc-issues-orders-eight-companies-seeking-information-surveillance-pricing",
+     "finding": "On 23 July 2024 the FTC ordered Mastercard, Revionics, Bloomreach, JPMorgan Chase, Task Software, PROS, Accenture and McKinsey to report on their surveillance pricing products, data inputs, customers and effects on the prices consumers pay."
+    },
+    {
+     "title": "FTC, Surveillance Pricing Study Indicates Wide Range of Personal Data Used to Set Individualized Consumer Prices, January 2025",
+     "url": "https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-surveillance-pricing-study-indicates-wide-range-personal-data-used-set-individualized-consumer",
+     "finding": "Initial staff findings of 17 January 2025: the intermediaries had at least 250 clients from grocery stores to apparel retailers, and data such as location, demographics, browsing history, mouse movements and items left in a cart can be used to tailor prices; released on a 3-2 vote with only hypothetical examples."
+    },
+    {
+     "title": "Consumer Reports, Instacart's AI-enabled pricing experiments may be inflating your grocery bill, December 2025",
+     "url": "https://www.consumerreports.org/money/questionable-business-practices/instacart-ai-pricing-experiment-inflating-grocery-bills-a1142182490/",
+     "finding": "437 volunteers shopping the same items in September 2025 saw about three-quarters of products at multiple prices, gaps of up to 23% per item and baskets at one Seattle Safeway from $114.34 to $123.93; CR estimated about $1,200 a year for a household of four. Instacart confirmed experiments at 10 retailers via its Eversight AI pricing tools and later stopped offering the technology."
+    },
+    {
+     "title": "Maryland General Assembly, HB 895 (2026), Protection From Predatory Pricing Act",
+     "url": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0895?ys=2026RS",
+     "finding": "Approved 28 April 2026 as Chapter 154, effective 1 October 2026: bars food retailers and third-party delivery services from dynamic pricing or using consumer personal data to set prices, enforced as an unfair, abusive or deceptive trade practice."
+    },
+    {
+     "title": "Consumer Reports, statement on the signing of Connecticut's surveillance pricing bill into law, June 2026",
+     "url": "https://advocacy.consumerreports.org/press_release/consumer-reports-statement-on-the-signing-of-connecticuts-surveillance-pricing-bill-into-law/",
+     "finding": "Governor Lamont signed HB 5563 on 4 June 2026, making Connecticut the second state to curb personalised pricing, effective 1 July 2027; CR notes it still lets firms raise list prices and then give personalised discounts."
+    }
+   ],
+   "theme": "power",
+   "stage": "active",
+   "control": "mitigable",
+   "price_of": [
+    "cheapintelligence"
+   ],
+   "control_note": "Cheap models make per-shopper pricing economical, and the same data drives targeted discounts shoppers like. Bans and labels can limit it, but price tests are hard for buyers to see.",
+   "actions": [
+    {
+     "action": "Ban pricing from personal data in groceries",
+     "actor": "legislators",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "Maryland's ban for food retailers and delivery apps took effect on 1 October 2026; no enforcement figures are published yet and it does not cover other retail.",
+     "ref": {
+      "title": "Maryland General Assembly, HB 895 (2026), Chapter 154",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0895?ys=2026RS",
+      "finding": "Bars food retailers and third-party delivery service providers from dynamic pricing or using personal data to set prices, effective 1 October 2026."
+     }
+    },
+    {
+     "action": "Label prices set from personal data",
+     "actor": "legislators",
+     "status": "in force",
+     "aim": "impact",
+     "evidence": "New York requires a notice next to such prices with civil penalties of up to $1,000 per violation; a label informs shoppers but does not stop the practice.",
+     "ref": {
+      "title": "New York General Business Law section 349-a, algorithmic pricing disclosure",
+      "url": "https://www.nysenate.gov/legislation/laws/GBS/349-A",
+      "finding": "Prices set by personalized algorithmic pricing must carry the notice THIS PRICE WAS SET BY AN ALGORITHM USING YOUR PERSONAL DATA; a court may impose up to $1,000 per violation."
+     }
+    },
+    {
+     "action": "Compel pricing intermediaries to disclose their data use",
+     "actor": "regulators",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "FTC orders to eight firms produced initial findings in January 2025 on a 3-2 vote; the study was ongoing and could publish only hypothetical examples because the data were confidential.",
+     "ref": {
+      "title": "FTC, Surveillance Pricing Study Indicates Wide Range of Personal Data Used to Set Individualized Consumer Prices, January 2025",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-surveillance-pricing-study-indicates-wide-range-personal-data-used-set-individualized-consumer",
+      "finding": "Staff analysed documents from six of the eight firms and found intermediaries with at least 250 retail clients; Commissioners Ferguson and Holyoak dissented from the release."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "Amazon DVD price test",
+     "year": 2000,
+     "parallel": "An online retailer quietly showed different customers different prices for the same goods, and the backlash came when shoppers compared notes.",
+     "outcome": "Over five days Amazon varied discounts of 20% to 40% on 68 DVD titles, then refunded 6,896 customers an average of $3.10 and promised the lowest test price in any future test; Amazon said the prices were random, not based on customer data.",
+     "ref": {
+      "title": "Amazon.com Issues Statement Regarding Random Price Testing (Amazon, September 2000)",
+      "url": "https://press.aboutamazon.com/2000/9/amazon-com-issues-statement-regarding-random-price-testing",
+      "finding": "A five-day test on 68 DVD titles at discounts of 20% to 40%; 6,896 customers were refunded an average of $3.10."
+     }
+    },
+    {
+     "event": "Northeastern audit of price steering on shopping sites",
+     "year": 2014,
+     "parallel": "Researchers using real shoppers' accounts found sites already tailored prices and results to the person, years before AI made it cheap.",
+     "outcome": "Of 16 popular retail and travel sites tested in April and May 2014, four retailers and five travel sites showed some personalisation, such as member-only hotel rates at Orbitz and Cheaptickets and Expedia and Hotels.com steering some users to pricier hotels; most experiments found none.",
+     "ref": {
+      "title": "Study: some online shoppers pay more than others (Northeastern University, October 2014, on Hannak et al., IMC 2014)",
+      "url": "https://news.northeastern.edu/2014/10/23/ecommerce-study",
+      "finding": "Nine of 16 e-commerce sites showed evidence of personalisation, with some prices varying by hundreds of dollars."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -15978,6 +16083,24 @@
    "target": "incentives",
    "kind": "leads",
    "why": "When answers stop sending readers to the sites behind them, writers and publishers earn less from creating new work."
+  },
+  {
+   "source": "datagrab",
+   "target": "surveillancepricing",
+   "kind": "leads",
+   "why": "The same harvested behavioural data that trains models lets retailers estimate what each shopper will pay."
+  },
+  {
+   "source": "surveillancepricing",
+   "target": "pricecollusion",
+   "kind": "twin",
+   "why": "Both hand prices to algorithms that extract more from buyers, one by tailoring prices to each person and the other by aligning prices across rivals."
+  },
+  {
+   "source": "surveillancepricing",
+   "target": "regulation",
+   "kind": "leads",
+   "why": "Maryland, Connecticut and New York each wrote different rules on personal-data pricing, adding to the state-by-state patchwork."
   }
  ],
  "themes": {
