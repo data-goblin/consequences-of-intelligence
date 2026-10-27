@@ -10976,12 +10976,17 @@
    "stage": "active",
    "evidence": "reported",
    "theme": "power",
-   "summary": "Firms scrape public photos into face-search databases offered to police. The Dutch regulator fined Clearview AI 30.5 million euros for an illegal database of over 30 billion scraped facial images, after earlier fines by other European regulators[1].",
+   "summary": "Clearview AI scrapes face photos from the internet into an identity-matching search it sells to customers including law enforcement[1]. In 2024 the Dutch regulator fined it 30.5 million euros over a database of about 30 billion images that it said should never have been built, after 2022 fines by regulators in France, Italy, Greece and the UK[1]. Clearview says it has no place of business in the EU and calls the decision unenforceable[1]; in 2025 the privacy group noyb said it ignores about 100 million euros in fines from four EU regulators and filed a criminal complaint against its managers in Austria[2].",
    "refs": [
     {
-     "title": "Hunton Andrews Kurth, Dutch regulator fines Clearview AI 30.5 million euros, 2024",
-     "url": "https://www.hunton.com/privacy-and-information-security-law/dutch-regulator-fines-clearview-ai-30-5-million-euros",
-     "finding": "The Dutch DPA fined Clearview 30.5 million euros for building an illegal biometric database of over 30 billion scraped facial images."
+     "title": "TechCrunch, Clearview AI hit with its largest GDPR fine yet as Dutch regulator considers holding execs personally liable, 2024",
+     "url": "https://techcrunch.com/2024/09/03/clearview-ai-hit-with-its-largest-gdpr-fine-yet-as-dutch-regulator-considers-holding-execs-personally-liable",
+     "finding": "The Dutch data protection authority fined Clearview 30.5 million euros, plus up to 5.1 million euros for continued non-compliance, over a database of 30 billion scraped images; Clearview said it has no place of business in the Netherlands or the EU and the decision is unenforceable."
+    },
+    {
+     "title": "noyb, Criminal complaint against facial recognition company Clearview AI, 2025",
+     "url": "https://noyb.eu/node/1589",
+     "finding": "French, Greek, Italian and Dutch authorities fined Clearview about 100 million euros combined, which noyb says the company ignores given the lack of enforcement; noyb filed a criminal complaint against Clearview and its managers with Austrian prosecutors on 28 October 2025."
     }
    ],
    "valence": -3.81,
@@ -10994,7 +10999,7 @@
      "actor": "legislators",
      "aim": "probability",
      "status": "in force",
-     "evidence": "The EU ban is in force; its effect on firms outside the EU is untested.",
+     "evidence": "The EU ban applies from 2 February 2025; its effect on firms outside the EU is untested.",
      "ref": {
       "title": "EU AI Act, Article 5: Prohibited AI practices",
       "url": "https://artificialintelligenceact.eu/article/5/",
@@ -11006,11 +11011,11 @@
      "actor": "courts, civil society",
      "aim": "probability",
      "status": "in force",
-     "evidence": "Under Illinois BIPA, a 2022 consent order barred Clearview from selling to most private firms nationwide; police sales outside Illinois continue.",
+     "evidence": "Under Illinois BIPA, a 2022 settlement permanently barred Clearview from selling to most private businesses nationwide and to Illinois government and police for five years; it can still serve federal agencies and police outside Illinois.",
      "ref": {
-      "title": "ACLU, ACLU v. Clearview AI",
-      "url": "https://www.aclu.org/cases/aclu-v-clearview-ai",
-      "finding": "Clearview is permanently barred from selling its faceprint database to most private entities and banned from Illinois sales for five years."
+      "title": "AP via Insurance Journal, Face-Scanner Clearview Agrees to Limits in Court Settlement, 2022",
+      "url": "https://www.insurancejournal.com/news/national/2022/05/11/667122.htm",
+      "finding": "Clearview agreed to permanently stop selling access to its face database to private businesses or individuals around the US and to stop serving Illinois state government and local police for five years, while continuing to serve federal agencies and other law enforcement outside Illinois."
      }
     },
     {
@@ -11018,11 +11023,11 @@
      "actor": "legislators, courts",
      "aim": "impact",
      "status": "in force",
-     "evidence": "EU law allows it only for listed serious cases with prior authorisation; no data on use since.",
+     "evidence": "EU law has allowed it since 2 February 2025 only for listed serious cases with prior authorisation; it covers live identification, not later searches of scraped photos, and no data on its effect have been published.",
      "ref": {
       "title": "EU AI Act, Article 5: Prohibited AI practices",
       "url": "https://artificialintelligenceact.eu/article/5/",
-      "finding": "Real-time remote biometric identification in public spaces is banned for police except narrow cases with judicial or independent authorisation."
+      "finding": "Real-time remote biometric identification in public spaces is banned for law enforcement except for listed serious cases, each needing prior authorisation by a judicial or independent administrative authority, or within 24 hours in urgent cases."
      }
     }
    ],
@@ -11030,12 +11035,12 @@
     {
      "event": "FTC fines Facebook over user data",
      "year": "2019",
-     "parallel": "Facebook let third-party apps harvest users' and friends' data without real consent, a mass collection of personal data that regulators then punished.",
-     "outcome": "The FTC imposed a $5 billion penalty, nearly 20 times the previous largest privacy penalty worldwide; unlike non-EU face-search firms, Facebook had assets inside the regulator's reach, which is what made the fine collectable.",
+     "parallel": "Facebook shared users' friends' data with third-party app developers even when those friends had chosen stricter privacy settings, a mass collection of personal data that a regulator then punished.",
+     "outcome": "The FTC imposed a $5 billion penalty, almost 20 times the largest privacy or data security penalty previously imposed worldwide, together with new privacy restrictions on the company.",
      "ref": {
       "title": "FTC Imposes $5 Billion Penalty and Sweeping New Privacy Restrictions on Facebook (Federal Trade Commission)",
       "url": "https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook",
-      "finding": "The $5 billion penalty, for violating a 2012 order including sharing friends' data with third-party apps, is the largest ever imposed for violating consumers' privacy."
+      "finding": "The $5 billion penalty, for violating a 2012 order including by sharing friends' data with third-party app developers, is the largest ever imposed on any company for violating consumers' privacy."
      }
     }
    ]
@@ -11048,17 +11053,22 @@
    "stage": "emerging",
    "evidence": "measured",
    "theme": "security",
-   "summary": "Police are trialling tools that turn body-camera audio into draft reports. In one randomized trial, Axon Draft One did not significantly cut report-writing time[1]; Anchorage police dropped such a tool after 90 days because review time cancelled out the drafting savings[2].",
+   "summary": "Police are trialling tools that turn body-camera audio into draft reports. In one pre-registered randomized trial with 85 officers and 755 reports in a medium-sized police department, AI assistance from Axon's Draft One did not significantly cut report-writing time[1][3]. Anchorage police dropped Draft One after a free 90-day trial because reviewing the drafts cut into the time saved writing them[2]. In a 2026 preprint, 92 senior US police reviewers could not tell Draft One reports from officer-written ones better than a coin flip and rated them significantly worse on accuracy[3].",
    "refs": [
     {
      "title": "Adams et al., No man's hand: artificial intelligence does not improve police report writing speed (Journal of Experimental Criminology), 2024",
-     "url": "https://rd.springer.com/article/10.1007/s11292-024-09644-7",
-     "finding": "In a randomized trial, Axon Draft One produced no significant reduction in officers' report-writing time."
+     "url": "https://link.springer.com/article/10.1007/s11292-024-09644-7",
+     "finding": "In a pre-registered randomized controlled trial in the patrol division of a medium-sized police department (85 officers, 755 reports), AI assistance did not significantly affect report-writing time; a difference-in-differences analysis of 6,084 reports over a year confirmed the null result."
     },
     {
      "title": "Alaska Public Media, Anchorage police not moving forward with using AI to write reports, for now, 2024",
      "url": "https://alaskapublic.org/news/2024-12-04/anchorage-police-not-moving-forward-with-using-ai-to-write-reports-for-now",
-     "finding": "After a 90-day trial, Anchorage police dropped the tool because review time cancelled out the drafting savings."
+     "finding": "After a free 90-day trial of Axon's Draft One, Anchorage police did not adopt it because the time officers spent reviewing the generated reports cut into the time saved writing them, and audio-only drafts left out details."
+    },
+    {
+     "title": "ACLU, Studies Question Value of AI-Assisted Police Reports, 2026",
+     "url": "https://www.aclu.org/news/privacy-technology/studies-question-value-of-ai-assisted-police-reports",
+     "finding": "Adams et al. (2024) found no time savings from Draft One; in a later preprint, 92 US sergeants and above rating 80 reports, 20 drafted with Draft One, did no better than a coin flip at spotting them and rated them significantly worse on accuracy."
     }
    ],
    "valence": -2.23,
@@ -11066,7 +11076,7 @@
    "price_of": [
     "productivity"
    ],
-   "control_note": "Agencies can choose not to use AI drafting, or require disclosure, review and kept drafts, while keeping the time savings. The harm is tied to the same drafting tools that save clerical time.",
+   "control_note": "Agencies can choose not to use AI drafting, or require disclosure, officer review and retained drafts. The harm comes with the same drafting tools sold to save clerical time, though trials so far found no time saved.",
    "actions": [
     {
      "action": "Label AI-drafted reports and require officer certification",
@@ -11085,11 +11095,11 @@
      "actor": "legislators",
      "aim": "impact",
      "status": "in force",
-     "evidence": "California's law took effect in 2026, so defence lawyers can compare drafts with final reports; its effect is not yet measured.",
+     "evidence": "California's law took effect on 1 January 2026, so the original draft can be compared with the final report; its effect is not yet measured.",
      "ref": {
-      "title": "California SB 524 (2025), Law enforcement agencies: artificial intelligence, Chapter 587",
-      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB524",
-      "finding": "Agencies must disclose AI use in official reports and retain the AI-created draft."
+      "title": "KQED, New State Law Requires Additional Safeguards When Police Use Generative AI, 2025",
+      "url": "https://www.kqed.org/news/12061462/new-state-law-requires-additional-safeguards-when-police-use-generative-ai",
+      "finding": "California's SB 524, signed on 10 October 2025 and in effect from 1 January 2026, requires a disclosure at the bottom of each page of an AI-assisted report and an audit trail that preserves the original draft and identifies the source body-camera footage or audio."
      }
     }
    ],
@@ -11097,8 +11107,8 @@
     {
      "event": "Electronic health records and documentation time",
      "year": "2016",
-     "parallel": "EHRs were adopted partly to make documentation more efficient, as AI report-writing tools are now, yet paperwork did not shrink.",
-     "outcome": "Observed physicians spent 27 percent of the office day with patients and 49.2 percent on EHR and desk work, nearly two hours of screen work per hour of face time plus 1 to 2 hours each night; the study sampled 57 doctors in self-selected practices.",
+     "parallel": "Electronic health records digitised clinical documentation, yet screen and desk work came to take more of the clinic day than patients did; AI report tools likewise shift officers' time from writing to reviewing.",
+     "outcome": "Observed physicians spent 27.0 percent of the office day with patients and 49.2 percent on EHR and desk work, nearly two hours of such work per hour of face time plus 1 to 2 hours each night; the study observed 57 US doctors in self-selected practices in four states.",
      "ref": {
       "title": "Allocation of Physician Time in Ambulatory Practice: A Time and Motion Study in 4 Specialties (Sinsky et al., Annals of Internal Medicine 2016)",
       "url": "https://pubmed.ncbi.nlm.nih.gov/27595430/",
@@ -11106,10 +11116,10 @@
      }
     },
     {
-     "event": "Polygraph evidence in policing",
-     "year": "2002-2003",
-     "parallel": "Police relied on a machine whose output carried an air of objectivity in investigations, the worry defence lawyers raise about AI wording in reports.",
-     "outcome": "The National Academies found polygraph accuracy too low to justify federal screening: in 10,000 employees with 10 spies, a setting that catches 8 would wrongly fail about 1,600 people; the polygraph measures physiology, whereas AI drafts shape narrative wording.",
+     "event": "Polygraph security screening",
+     "year": "2002",
+     "parallel": "Agencies relied on a machine whose output carried an air of objectivity, the concern critics raise about AI wording in police reports.",
+     "outcome": "The National Academies found polygraph accuracy too low to justify federal employee screening: among 10,000 employees with 10 spies, a setting that catches 8 would wrongly fail about 1,600 people; the polygraph records physiology, whereas AI drafts shape narrative wording.",
      "ref": {
       "title": "The Polygraph and Lie Detection (National Academies, statement by committee chair Stephen Fienberg)",
       "url": "https://www.nationalacademies.org/news/2002/10/the-polygraph-and-lie-detection",
@@ -11126,12 +11136,22 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "power",
-   "summary": "In Allegheny County, Pennsylvania, a risk score helps decide which neglect calls get investigated. From 2016 to 2018 it flagged 32.5% of Black children reported for neglect for mandatory investigation, against 20.8% of white children; one study found caseworkers reduced the gap[1].",
+   "summary": "In Allegheny County, Pennsylvania, a risk score helps decide which neglect calls get investigated. A Carnegie Mellon analysis found that from August 2016 to May 2018 its scores flagged 32.5% of Black children reported for neglect for mandatory investigation, against 20.8% of white children, and that caseworkers, who disagreed with the score about a third of the time, reduced the gap[1]. A county-commissioned Stanford evaluation found Black-white disparities in case-opening rates narrowed after the tool arrived[2]. Oregon dropped a tool modelled on Allegheny's in 2022 to reduce disparities in which families are investigated[3].",
    "refs": [
     {
      "title": "AP via KTVZ, An algorithm that screens for child neglect raises concerns, 2022",
      "url": "https://ktvz.com/news/2022/04/28/an-algorithm-that-screens-for-child-neglect-raises-concerns/",
-     "finding": "From 2016 to 2018, the Allegheny tool flagged 32% of Black children reported for neglect for mandatory investigation, against 20.8% of white children."
+     "finding": "Carnegie Mellon researchers found that from August 2016 to May 2018 the Allegheny tool's scores flagged 32.5% of Black children reported for neglect for a mandatory investigation, against 20.8% of white children; social workers disagreed with the score about a third of the time and reduced the disparity."
+    },
+    {
+     "title": "Allegheny County DHS, Impact Evaluation Summary of the Allegheny Family Screening Tool, April 2019",
+     "url": "https://analytics.alleghenycounty.us/wp-content/uploads/2019/05/Impact-Evaluation-Summary-from-16-ACDHS-26_PredictiveRisk_Package_050119_FINAL-5.pdf",
+     "finding": "A Stanford quasi-experimental evaluation of about 31,000 children referred before and 34,000 after the tool found it did not raise the screen-in rate, increased screening-in of children later found to need intervention, and reduced Black-white disparities in case-opening rates."
+    },
+    {
+     "title": "AP via PBS NewsHour, Oregon dropping AI tool used to help decide child abuse cases, 2022",
+     "url": "https://www.pbs.org/newshour/nation/oregon-dropping-ai-tool-used-to-help-decide-child-abuse-cases",
+     "finding": "Oregon told staff its hotline workers would stop using its Safety at Screening Tool, inspired by the Allegheny tool, at the end of June 2022, to reduce disparities in which families are investigated, replacing it with a Structured Decision Making model."
     }
    ],
    "valence": -2.84,
@@ -11144,23 +11164,23 @@
      "actor": "agencies",
      "aim": "impact",
      "status": "tested",
-     "evidence": "A Stanford quasi-experimental evaluation of about 31,000 pre and 34,000 post children found more children in need were screened in without a rise in investigations; it was not a randomised trial and the agency paid for it.",
+     "evidence": "A Stanford quasi-experimental evaluation of about 31,000 pre and 34,000 post children found more children in need were screened in without a rise in investigations; it was not a randomised trial and the county commissioned it.",
      "ref": {
       "title": "Allegheny County DHS, Impact Evaluation Summary of the Allegheny Family Screening Tool, April 2019",
       "url": "https://analytics.alleghenycounty.us/wp-content/uploads/2019/05/Impact-Evaluation-Summary-from-16-ACDHS-26_PredictiveRisk_Package_050119_FINAL-5.pdf",
-      "finding": "The tool did not increase the screen-in rate and increased identification of children needing intervention."
+      "finding": "The tool did not increase the screen-in rate, increased identification of children needing intervention, and reduced Black-white disparities in case-opening rates."
      }
     },
     {
-     "action": "Require bias audits for public-benefit decision tools",
+     "action": "Require bias checks for public-benefit decision tools",
      "actor": "legislators",
      "aim": "probability",
      "status": "in force",
-     "evidence": "The EU AI Act lists systems that assess eligibility for public assistance as high-risk, with risk management and data rules phasing in from 2026; whether child-welfare screening falls under it depends on use, and no effect data exist yet.",
+     "evidence": "The EU AI Act lists systems that public authorities use to evaluate eligibility for essential public assistance as high-risk, which requires providers to examine their data for possible biases; the AI Omnibus amendment, in force since 27 July 2026, moved these duties to 2 December 2027; whether child-welfare screening falls under it depends on use, and no effect data exist yet.",
      "ref": {
-      "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Annex III",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "finding": "Annex III classes AI used by public authorities to evaluate eligibility for essential public assistance benefits and services as high-risk."
+      "title": "EU AI Act, Annex III: High-risk AI systems referred to in Article 6(2)",
+      "url": "https://artificialintelligenceact.eu/annex/3/",
+      "finding": "Annex III point 5(a) classes AI used by or on behalf of public authorities to evaluate people's eligibility for essential public assistance benefits and services, and to grant, reduce, revoke or reclaim them, as high-risk."
      }
     }
    ],
@@ -11169,7 +11189,7 @@
      "event": "COMPAS criminal risk scores",
      "year": "2016",
      "parallel": "A statistical risk score used to guide decisions about people produced unequal error rates by race, as child-neglect screening tools have.",
-     "outcome": "In Broward County, Florida, 44.9 percent of Black defendants who did not reoffend had been labelled higher risk, against 23.5 percent of white defendants; this is journalistic analysis of over 7,000 people in criminal justice, not child welfare.",
+     "outcome": "In Broward County, Florida, 44.9 percent of Black defendants who did not reoffend had been labelled higher risk, against 23.5 percent of white defendants; this is a journalistic analysis of over 7,000 people in criminal justice, not child welfare, and the tool's maker disputes it.",
      "ref": {
       "title": "Machine Bias (ProPublica)",
       "url": "https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing",
@@ -11186,34 +11206,44 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "power",
-   "summary": "In one simulation study, simple pricing algorithms learned to keep prices high and punish price cuts without communicating[1]. The US Justice Department has sued RealPage, alleging landlords used its software to coordinate rents across millions of units[2]. How widespread this is in real markets is still disputed.",
+   "summary": "In one simulation study, simple pricing algorithms learned to keep prices high and punish price cuts without communicating[1], though a later study argues they learn this too slowly, and with too much shared setup, to be a practical cartel risk on their own[2]. In US rental housing, one working paper using 2005 to 2019 data estimates that coordination among landlords using the same pricing software raised markups by about $25 a unit a month across about 4.2 million units[3]. The US Justice Department and a group of states sued RealPage, alleging landlords pooled confidential data through its software, which prices roughly 3 million units; the court entered the Justice Department's settlement in May 2026, while the states' claims continue[4].",
    "refs": [
     {
-     "title": "Calvano et al., Artificial Intelligence, Algorithmic Pricing, and Collusion, AER 2020",
+     "title": "Calvano, Calzolari, Denicolò and Pastorello, Artificial Intelligence, Algorithmic Pricing, and Collusion, American Economic Review, 2020",
      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20190623",
-     "finding": "In simulated markets, simple Q-learning pricing agents consistently learned to charge supracompetitive prices and punished price cuts, all without communicating."
+     "finding": "In simulated markets, Q-learning pricing algorithms consistently learned to charge supracompetitive prices without communicating, sustained by punishing deviations for a limited time before returning to cooperation."
     },
     {
-     "title": "US DOJ, Justice Department sues RealPage for algorithmic pricing scheme that harms millions of American renters, 2024",
-     "url": "https://www.justice.gov/archives/opa/pr/justice-department-sues-realpage-algorithmic-pricing-scheme-harms-millions-american-renters",
-     "finding": "DOJ alleged that landlords pooled nonpublic rent data in RealPage software to coordinate rents across millions of US units."
+     "title": "den Boer, Meylahn and Schinkel, Artificial Collusion: Examining Supracompetitive Pricing by Q-Learning Algorithms, Management Science, 2026",
+     "url": "https://doi.org/10.1287/mnsc.2024.08557",
+     "finding": "Q-learning can learn collusive equilibria only on timescales irrelevant to the firm's objective, and the synchronization it needs (same algorithm, start time and settings) suggests an explicit cartel agreement; the authors see little current reason for suspicion beyond software that implements a cartel."
+    },
+    {
+     "title": "Calder-Wang and Kim, Algorithmic Pricing in Multifamily Rentals: Efficiency Gains or Price Coordination?, Wharton working paper, 2025",
+     "url": "https://faculty.wharton.upenn.edu/?p=48581",
+     "finding": "Using US building-level rent data from 2005 to 2019, adopters cut rents faster in downturns, but markets with more algorithmic pricing had higher rents and lower occupancy in recoveries; coordination among users of the same software raised markups by an estimated $25 per unit per month across about 4.2 million units."
+    },
+    {
+     "title": "US District Court for the Middle District of North Carolina, United States et al. v. RealPage, Inc. et al., No. 1:24-cv-710, Memorandum Opinion and Order, 30 September 2026",
+     "url": "https://www.courthousenews.com/wp-content/uploads/2026/10/usdc-north-carolina-rent-software-antitrust-opinion.pdf",
+     "finding": "The amended complaint alleges landlords shared confidential data through RealPage, whose AIRM and YieldStar price roughly 3 million units; the court entered a Final Judgment resolving the United States' claims against RealPage on 19 May 2026, and the Plaintiff States' claims against RealPage continue."
     }
    ],
    "valence": -2.85,
    "control": "preventable",
    "price_of": [],
-   "control_note": "Pricing software can work from a firm's own data without pooling rivals' private data, so antitrust law can block the harmful version while keeping the tool.",
+   "control_note": "Courts and lawmakers can bar pricing software from pooling rivals' private data while letting firms price from their own data, as the RealPage judgment and California's 2025 law do; collusion that algorithms might learn on their own, without any agreement, is harder to reach under antitrust law.",
    "actions": [
     {
      "action": "Bar pricing software from pooling rivals' private data",
      "actor": "regulators",
      "aim": "probability",
-     "status": "proposed",
-     "evidence": "The proposed RealPage settlement bans live nonpublic competitor data and requires a monitor; it awaits court approval and its effect on rents is unmeasured.",
+     "status": "in force",
+     "evidence": "The court entered the RealPage settlement on 19 May 2026; it still lets RealPage collect landlord data and train on data at least 12 months old, expires after seven years, and its effect on rents is unmeasured.",
      "ref": {
-      "title": "US Department of Justice, Justice Department Requires RealPage to End the Sharing of Competitively Sensitive Information",
-      "url": "https://www.justice.gov/opa/pr/justice-department-requires-realpage-end-sharing-competitively-sensitive-information-and",
-      "finding": "RealPage must stop using competitors' nonpublic data in live pricing, train only on data at least 12 months old, and accept a monitor."
+      "title": "US District Court for the Middle District of North Carolina, United States et al. v. RealPage, Inc. et al., No. 1:24-cv-710, Memorandum Opinion and Order, 30 September 2026",
+      "url": "https://www.courthousenews.com/wp-content/uploads/2026/10/usdc-north-carolina-rent-software-antitrust-opinion.pdf",
+      "finding": "The Final Judgment entered on 19 May 2026 restricts RealPage's revenue management products, requires retraining on compliant data, still permits data collection and training on data at least twelve months old, and expires seven years after entry."
      }
     },
     {
@@ -11223,9 +11253,9 @@
      "status": "in force",
      "evidence": "California's law took effect in 2026; it still needs a conspiracy or coercion, so its added reach may be limited.",
      "ref": {
-      "title": "California AB 325 (2025), Cartwright Act: violations, Chapter 338",
-      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB325",
-      "finding": "Makes it unlawful to use or distribute a common pricing algorithm as part of an anticompetitive contract, combination or conspiracy."
+      "title": "Sheppard Mullin, California Passes Broad Limits On 'Common Pricing Algorithms', 2025",
+      "url": "https://www.legal500.com/intelligence/united-states/consumer-protection/california-passes-broad-limits-on-common-pricing-algorithms",
+      "finding": "AB 325, signed on 6 October 2025 and taking effect in 2026, bars using or distributing a common pricing algorithm in a conspiracy or to coerce price adoption; because a violation requires a conspiracy or price coercion, it may not extend the violations the Cartwright Act already covers."
      }
     }
    ],
@@ -11234,22 +11264,22 @@
      "event": "Airline Tariff Publishing fare signalling",
      "year": "1988-1994",
      "parallel": "Airlines used a shared computerised fare system to signal and coordinate price rises without meeting, the template for shared rent-setting software.",
-     "outcome": "The Justice Department found over 50 price-fixing agreements across hundreds of routes, estimated consumer harm at up to $1.9 billion, and in 1994 a consent decree stripped out the signalling features; the signalling was done by people, not learning algorithms.",
+     "outcome": "The Justice Department identified over 50 price-fixing agreements covering hundreds of routes and estimated consumer harm of up to $1.9 billion; the 1994 settlement removed the system's signalling features, and the signalling was done by people, not learning algorithms.",
      "ref": {
-      "title": "Justice Department press release on the 1994 airline fare settlement (DOJ Antitrust Division)",
-      "url": "https://justice.gov/archive/atr/public/press_releases/1994/211786.htm",
-      "finding": "Six airlines used ATP's system to float trial fare increases and agree on fares; a government economist estimated harm of $238 million to $1.9 billion from 1988 to 1992."
+      "title": "US Department of Justice, Justice Department Settles Airlines Price Fixing Suit, May Save Consumers Hundreds of Millions of Dollars, 1994",
+      "url": "https://www.justice.gov/archive/atr/public/press_releases/1994/211786.htm",
+      "finding": "American, Delta, Northwest, Continental, TWA and Alaska settled (United and USAir had settled in 1992) over using ATP's fare system to float fare increases and agree on fares; a government economist estimated $238 million in extra costs across 300 markets from April 1988 to December 1992, or $1.9 billion if fares rose 5 percent."
      }
     },
     {
      "event": "Algorithmic pricing in German petrol stations",
      "year": "2017",
-     "parallel": "Petrol stations adopted pricing software in a concentrated local market, a real-world test of whether algorithms soften competition.",
+     "parallel": "German petrol stations adopted pricing software once it became widely available in 2017, a real-world test of whether algorithms soften competition.",
      "outcome": "Adoption raised margins only in non-monopoly markets, by about 9 percent, and in duopolies by 28 percent when both stations adopted; the study infers adoption from price patterns rather than observing it.",
      "ref": {
-      "title": "Algorithmic Pricing and Competition: Empirical Evidence from the German Retail Gasoline Market (Assad, Clark, Ershov and Xu, CESifo working paper)",
+      "title": "Assad, Clark, Ershov and Xu, Algorithmic Pricing and Competition: Empirical Evidence from the German Retail Gasoline Market, CESifo Working Paper No. 8521, 2020 (later published in the Journal of Political Economy, 2024)",
       "url": "https://www.ifo.de/en/cesifo/publications/2020/working-paper/algorithmic-pricing-and-competition-empirical-evidence-german",
-      "finding": "Algorithmic pricing adoption raised margins in non-monopoly markets; in duopolies margins rose 28 percent where both stations adopted."
+      "finding": "Adoption raised margins by 9 percent, but only in non-monopoly markets; in duopolies, market margins did not change when one station adopted and rose 28 percent when both did."
      }
     }
    ]
@@ -11262,22 +11292,22 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "work",
-   "summary": "Audit studies show language models ranking otherwise identical CVs differently by name or disability: embedding models favoured white-associated names in 85% of tests[1], GPT-3.5 ranked Black-associated names last more often for several jobs[2], and GPT-4 ranked disability-enhanced CVs first in 15 of 60 trials[3].",
+   "summary": "Audit studies show language models treating otherwise similar CVs differently by name or disability: in one study, embedding models favoured White-associated names in 85% of bias tests[1]; in another, of about 361,000 US resumes scored by five models, Black men scored lower than white men while women of both races scored higher, shifting hiring chances by 1 to 3 percentage points[2]; and GPT-4 ranked CVs with added disability-related honours first only about a quarter of the time in 60 trials[3]. These are simulated screenings, not observed employer decisions.",
    "refs": [
     {
-     "title": "Wilson & Caliskan, Gender, Race, and Intersectional Bias in Resume Screening via Language Model Retrieval, 2024",
+     "title": "Wilson and Caliskan, Gender, Race, and Intersectional Bias in Resume Screening via Language Model Retrieval, AAAI/ACM Conference on AI, Ethics, and Society, 2024",
      "url": "https://arxiv.org/abs/2407.20371",
-     "finding": "Across about 3 million resume/job comparisons, embedding models favoured white-associated names in 85% of tests and Black-associated names in only 9%."
+     "finding": "Using more than three million comparisons between over 500 resumes and 500 job descriptions in nine occupations, embedding models favoured White-associated names in 85.1% of bias tests and Black-associated names in only 8.6%; a 2026 erratum inverted the gender-only results but left the race and intersectional results unchanged and replicated."
     },
     {
-     "title": "Bloomberg, OpenAI GPT Sorts Resume Names With Racial Bias, Test Shows, 2024",
-     "url": "https://www.bloomberg.com/graphics/2024-openai-gpt-hiring-racial-discrimination/",
-     "finding": "Given equally qualified resumes, GPT-3.5 ranked names associated with Black Americans last more often than other groups for several job types."
+     "title": "An, Huang, Lin and Tai, Measuring gender and racial biases in large language models: Intersectional evidence from automated resume evaluation, PNAS Nexus, 2025",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11937954/",
+     "finding": "Five models scored about 361,000 fictitious resumes for 20 entry-level jobs; most favoured female candidates and penalized Black male candidates relative to white men, shifting hiring probabilities by about 1 to 3 percentage points at given score cutoffs."
     },
     {
-     "title": "UW News, ChatGPT is biased against resumes with credentials that imply a disability, 2024",
+     "title": "UW News, ChatGPT is biased against resumes with credentials that imply a disability, but it can improve, 2024",
      "url": "https://www.washington.edu/news/2024/06/21/chatgpt-ai-bias-ableism-disability-resume-cv/",
-     "finding": "GPT-4 ranked the disability-enhanced CVs first in only 15 of 60 trials against an otherwise identical control CV."
+     "finding": "Across 60 trials ranking six disability-enhanced CVs against an otherwise identical control CV, GPT-4 ranked the enhanced CV first only about one quarter of the time; with written anti-ableism instructions it ranked them higher 37 of 60 times."
     }
    ],
    "valence": -3.21,
@@ -11285,7 +11315,7 @@
    "price_of": [
     "productivity"
    ],
-   "control_note": "Screening tools learn from past hiring data, so some bias will persist even with audits. Audits and explanation rights can lower its frequency and give rejected candidates a way to challenge it.",
+   "control_note": "Bias in screening models comes from their training data and varies by model and job, so audits cannot remove it entirely. Audits and explanation rights aim to catch it and give rejected candidates a way to challenge it, though compliance with New York City's audit law has been low.",
    "actions": [
     {
      "action": "Require annual public bias audits of hiring tools",
@@ -11294,9 +11324,9 @@
      "status": "in force",
      "evidence": "Evidence of effect is weak: of 391 NYC employers checked, only 18 posted audit reports and 13 posted notices.",
      "ref": {
-      "title": "Wright et al., Null Compliance: NYC Local Law 144 and the Challenges of Algorithm Accountability, arXiv 2024",
+      "title": "Wright et al., Null Compliance: NYC Local Law 144 and the Challenges of Algorithm Accountability, ACM FAccT 2024",
       "url": "https://arxiv.org/abs/2406.01399",
-      "finding": "Only 18 of 391 employers posted bias audits under Local Law 144."
+      "finding": "Of 391 employers checked by 155 student investigators, 18 posted bias audit reports and 13 posted transparency notices; employers' discretion over whether the law applies makes missing postings hard to read as non-compliance."
      }
     },
     {
@@ -11304,11 +11334,11 @@
      "actor": "legislators",
      "aim": "probability",
      "status": "in force",
-     "evidence": "High-risk obligations in the EU apply from 2026 and later; no outcome data yet.",
+     "evidence": "The AI Act lists CV-sorting and other employment AI as high-risk; after the AI Omnibus amendment, in force since 27 July 2026, these duties apply from 2 December 2027, so there is no outcome data yet.",
      "ref": {
-      "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Annex III point 4(a)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "finding": "AI systems intended for recruitment or selection of natural persons are high-risk."
+      "title": "European Commission, AI Act (Shaping Europe's digital future), 2026",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "finding": "The AI Act lists AI tools for employment, management of workers and access to self-employment, such as CV-sorting software for recruitment, among high-risk uses; the AI Omnibus entered into force on 27 July 2026, and rules for systems in high-risk areas including employment apply from 2 December 2027."
      }
     },
     {
@@ -11316,11 +11346,11 @@
      "actor": "legislators",
      "aim": "impact",
      "status": "in force",
-     "evidence": "Lets affected people contest decisions; how often it is used and whether it changes outcomes is unknown.",
+     "evidence": "Covers decisions based on Annex III high-risk systems such as recruitment tools; how often it is used and whether it changes outcomes is unknown.",
      "ref": {
-      "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Article 86",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "finding": "Article 86 grants a right to explanation of individual decisions made with high-risk AI systems."
+      "title": "EU Artificial Intelligence Act, Article 86: Right to Explanation of Individual Decision-Making",
+      "url": "https://artificialintelligenceact.eu/article/86/",
+      "finding": "People affected by a decision based on an Annex III high-risk AI system that significantly affects them can obtain clear and meaningful explanations of the system's role and the main elements of the decision."
      }
     }
    ],
@@ -11331,9 +11361,9 @@
      "parallel": "Researchers sent identical CVs with names signalling race to real employers, the same audit design now used on language-model screeners.",
      "outcome": "White-sounding names got 50 percent more callbacks than African American-sounding names, and better CVs helped white names far more; unlike the LLM audits, this measured real employer responses.",
      "ref": {
-      "title": "Are Emily and Greg More Employable than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination (Bertrand and Mullainathan, NBER w9873)",
+      "title": "Bertrand and Mullainathan, Are Emily and Greg More Employable than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination, NBER Working Paper 9873, 2003",
       "url": "https://www.nber.org/papers/w9873",
-      "finding": "White names receive 50 percent more callbacks for interviews; discrimination was uniform across occupations and industries, including federal contractors."
+      "finding": "Fictitious resumes sent to help-wanted ads in Boston and Chicago got 50 percent more callbacks with White names; a better resume raised callbacks 30 percent for White names but far less for African American names, and discrimination was similar across occupations, industries and federal contractors."
      }
     }
    ]
@@ -11346,34 +11376,39 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "world",
-   "summary": "Models built on alternative data such as digital footprints can score people who have no credit file; in one study, ten simple digital-footprint variables predicted default about as well as a credit bureau score[1]. This may help the unbanked but could raise privacy and fairness concerns.",
+   "summary": "Models built on alternative data can score people with no credit file: in one study of about 270,000 purchases at a German online furniture retailer, ten simple digital-footprint variables predicted default about as well as a credit bureau score, and as well for customers with no score as for those with one[1]. The same authors note that regulators will watch whether footprints proxy for traits lenders may not legally use[1], and a study of US mortgage data found that machine-learning credit models benefit Black and Hispanic borrowers less than others and widen rate gaps[2].",
    "refs": [
     {
-     "title": "Berg, Burg, Gombovic & Puri, On the Rise of FinTechs: Credit Scoring using Digital Footprints, NBER 2018 (RFS 2020)",
+     "title": "Berg, Burg, Gombović and Puri, On the Rise of FinTechs: Credit Scoring using Digital Footprints, NBER Working Paper 24551, 2018 (Review of Financial Studies, 2020)",
      "url": "https://www.nber.org/papers/w24551",
-     "finding": "Ten simple digital-footprint variables predicted default about as well as a credit bureau score, and they also work for people without a credit history."
+     "finding": "In 270,399 purchases at a German e-commerce furniture company from October 2015 to December 2016, ten digital-footprint variables predicted default with an AUC of 69.6% against 68.3% for the credit bureau score, with similar accuracy for customers who had no bureau score."
+    },
+    {
+     "title": "Fuster, Goldsmith-Pinkham, Ramadorai and Walther, Predictably Unequal? The Effects of Machine Learning on Credit Markets, Journal of Finance, 2022",
+     "url": "https://doi.org/10.1111/jofi.13090",
+     "finding": "Using US mortgage data, Black and Hispanic borrowers are disproportionately less likely to gain from machine-learning default models, and in an equilibrium model machine learning increases rate disparity between and within groups."
     }
    ],
    "valence": 1.4,
    "limiters": [
     {
-     "limit": "unequal access to paid AI",
+     "limit": "no account or digital footprint",
      "kind": "access",
-     "evidence": "About 21% of adults still have no account, so many lack the digital footprint these models need.",
+     "evidence": "About 21% of adults worldwide still have no account, and footprint scoring reaches only people with a phone or online history; 84% of adults in low- and middle-income countries own a mobile phone.",
      "ref": {
-      "title": "The Global Findex Database 2025",
+      "title": "World Bank, The Global Findex Database 2025",
       "url": "https://www.worldbank.org/en/publication/globalfindex",
-      "finding": "79% of adults globally have an account."
+      "finding": "79% of adults globally have an account, and 84% of adults in low- and middle-income countries own a mobile phone."
      }
     },
     {
      "limit": "Opaque models hide unfair denials",
      "kind": "regulation",
-     "evidence": "US regulator says lenders using black-box models still must give specific denial reasons.",
+     "evidence": "On 12 May 2025 the CFPB withdrew its circulars on credit denial notices, including the one on decisions made with complex algorithms, so lenders lose the US regulator's guidance on explaining model-driven denials.",
      "ref": {
-      "title": "CFPB Issues Guidance on Credit Denials by Lenders Using Artificial Intelligence",
-      "url": "https://www.consumerfinance.gov/about-us/newsroom/cfpb-issues-guidance-on-credit-denials-by-lenders-using-artificial-intelligence/",
-      "finding": "There is no special exemption for artificial intelligence."
+      "title": "Consumer Financial Protection Bureau, Withdrawn Guidance",
+      "url": "https://www.consumerfinance.gov/compliance/guidance/withdrawn-guidance/",
+      "finding": "Circular 2022-03 on adverse action notices for credit decisions based on complex algorithms and Circular 2023-03 on proper use of sample forms are listed as withdrawn on 12 May 2025."
      }
     },
     {
@@ -11381,9 +11416,9 @@
      "kind": "cost",
      "evidence": "The EU AI Act lists credit scoring of natural persons as high-risk, adding obligations.",
      "ref": {
-      "title": "Annex III: High-Risk AI Systems Referred to in Article 6(2)",
+      "title": "EU Artificial Intelligence Act, Annex III: High-Risk AI Systems Referred to in Article 6(2)",
       "url": "https://artificialintelligenceact.eu/annex/3/",
-      "finding": "Point 5(b) covers creditworthiness evaluation and credit scores."
+      "finding": "Point 5(b) lists AI systems used to evaluate the creditworthiness of natural persons or establish their credit score, except for detecting financial fraud, as high-risk."
      }
     }
    ],
@@ -11393,23 +11428,23 @@
      "actor": "Lenders",
      "status": "tested",
      "counters": null,
-     "evidence": "Digital footprint data predicted default about as well as bureau scores and complemented them in a German retailer study.",
+     "evidence": "Digital-footprint data predicted default about as well as bureau scores and complemented them in a study of a German online furniture retailer.",
      "ref": {
-      "title": "On the Rise of FinTechs: Credit Scoring Using Digital Footprints",
+      "title": "Berg, Burg, Gombović and Puri, On the Rise of FinTechs: Credit Scoring Using Digital Footprints, Review of Financial Studies, 2020",
       "url": "https://academic.oup.com/rfs/article/33/7/2845/5568311",
-      "finding": "Footprints match bureau scores and widen access while lowering defaults."
+      "finding": "Simple digital-footprint variables match the information content of credit bureau scores, complement rather than substitute for bureau data, and affect access to credit and reduce default rates."
      }
     },
     {
-     "action": "Require specific reasons for AI credit denials",
+     "action": "Require specific reasons for every credit denial",
      "actor": "CFPB",
      "status": "in force",
      "counters": "Opaque models hide unfair denials",
-     "evidence": "Guidance bars lenders from relying on vague checkbox reasons when AI drives decisions.",
+     "evidence": "Regulation B still requires the principal reasons for any denial, and says a failure to reach a qualifying score is not enough, though the CFPB withdrew its AI-specific guidance in 2025.",
      "ref": {
-      "title": "CFPB Issues Guidance on Credit Denials by Lenders Using Artificial Intelligence",
-      "url": "https://www.consumerfinance.gov/about-us/newsroom/cfpb-issues-guidance-on-credit-denials-by-lenders-using-artificial-intelligence/",
-      "finding": "Lenders must give accurate, specific adverse action reasons."
+      "title": "Consumer Financial Protection Bureau, Regulation B, 12 CFR 1002.9 Notifications",
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1002/9/",
+      "finding": "The statement of reasons for adverse action must be specific and indicate the principal reasons; saying the applicant failed to achieve a qualifying score on the creditor's scoring system is insufficient."
      }
     }
    ],
@@ -11418,22 +11453,22 @@
      "event": "Spread of automated credit scoring",
      "year": "1980s-2007",
      "parallel": "Fast, cheap statistical scoring of borrowers was expected to widen access to credit, as alternative-data AI scoring is now.",
-     "outcome": "The Federal Reserve concluded scoring likely contributed to greater availability and affordability of credit and predicted default across demographic groups, though average scores were lower for Black and Hispanic borrowers; it could not isolate scoring's effect precisely.",
+     "outcome": "The Federal Reserve concluded scoring likely contributed to greater availability and affordability of credit and predicted default for all major demographic groups, though average scores were lower for Black and Hispanic consumers; it had only limited direct information on scoring's own contribution.",
      "ref": {
       "title": "Report to the Congress on Credit Scoring and Its Effects on the Availability and Affordability of Credit, executive summary (Federal Reserve Board, 2007)",
       "url": "https://www.federalreserve.gov/boarddocs/rptcongress/creditscore/executivesummary.htm",
-      "finding": "Credit scoring likely contributed to increased availability and affordability of credit; scores predict default risk for all major demographic groups."
+      "finding": "Credit scoring likely contributed to improved availability and affordability of credit; credit history scores predict credit risk for the population as a whole and for all major demographic groups."
      }
     },
     {
      "event": "M-Shwari digital loans in Kenya",
      "year": "2012-2019",
      "parallel": "A loan product delivered fully on mobile phones reached Kenyan households outside formal lending, an earlier version of the fintech inclusion story.",
-     "outcome": "34 percent of eligible people took the loans, which did not crowd out other credit, and borrowing households were 6.3 percentage points less likely to forgo expenses after shocks; the authors call digital loans not a panacea.",
+     "outcome": "34 percent of eligible people took the loans, which did not substitute for other credit, and households were 6.3 percentage points less likely to forgo expenses after shocks; the authors say digital loans are not a panacea for wider credit market failures.",
      "ref": {
       "title": "Fintech and Household Resilience to Shocks: Evidence from Digital Loans in Kenya (Bharadwaj, Jack and Suri, NBER w25604)",
       "url": "https://www.nber.org/papers/w25604",
-      "finding": "Take-up was 34 percent; households were 6.3 percentage points less likely to forgo expenses due to negative shocks."
+      "finding": "Take-up was 34 percent of those eligible; the loans did not substitute for other credit, and households were 6.3 percentage points less likely to forgo expenses due to negative shocks."
      }
     }
    ]
@@ -11446,12 +11481,22 @@
    "stage": "emerging",
    "evidence": "projected",
    "theme": "world",
-   "summary": "Alternative-data credit scoring could use proxies for race or poverty and deny credit with no explanation applicants can contest. The concern comes from an analogous US tax-audit model that selected Black taxpayers at 2.9 to 4.7 times the rate of non-Black taxpayers[1]; direct measurement in credit is scarce.",
+   "summary": "Credit models built on more data and more flexible methods can use proxies for race or poverty that applicants cannot see. A race-blind US tax-audit selection system audited Black taxpayers at 2.9 to 4.7 times the rate of non-Black taxpayers, showing how such proxies arise[1]. In one study of US mortgage data, machine learning default models benefited Black and Hispanic borrowers less than other groups and, in the authors' market model, widened rate gaps between and within groups[2]. Against this, a study of US mortgages found algorithmic FinTech lenders charged Latinx and African-American borrowers extra interest, but 40% less than face-to-face lenders, and did not discriminate in loan approval[3].",
    "refs": [
     {
-     "title": "Elzayn et al., Measuring and Mitigating Racial Disparities in Tax Audits, SIEPR 2023",
+     "title": "Measuring and Mitigating Racial Disparities in Tax Audits (Elzayn, Smith, Hertz, Ramesh, Fisher, Ho and Goldin, Stanford Institute for Economic Policy Research working paper, January 2023)",
      "url": "https://siepr.stanford.edu/publications/working-paper/measuring-and-mitigating-racial-disparities-tax-audits",
-     "finding": "An analogous government risk model selected Black taxpayers for audit at 2.9 to 4.7 times the rate of non-Black taxpayers."
+     "finding": "Despite race-blind audit selection, Black taxpayers were audited at 2.9 to 4.7 times the rate of non-Black taxpayers, driven mainly by audits of Earned Income Tax Credit claims."
+    },
+    {
+     "title": "Predictably Unequal? The Effects of Machine Learning on Credit Markets (Fuster, Goldsmith-Pinkham, Ramadorai and Walther, Journal of Finance 77(1), 2022)",
+     "url": "https://doi.org/10.1111/jofi.13090",
+     "finding": "Using US mortgage data, Black and Hispanic borrowers were less likely to benefit from machine learning default models than from traditional ones; in an equilibrium model, machine learning increased rate disparities between and within groups, mainly because of its greater flexibility."
+    },
+    {
+     "title": "Consumer-Lending Discrimination in the FinTech Era (Bartlett, Morse, Stanton and Wallace, NBER Working Paper 25943, 2019; Journal of Financial Economics 2021)",
+     "url": "https://www.nber.org/papers/w25943",
+     "finding": "Lenders charged Latinx and African-American borrowers 7.9 and 3.6 basis points more for purchase and refinance mortgages, about $765 million a year; FinTech algorithms also discriminated, but 40% less than face-to-face lenders, and did not discriminate in loan approval."
     }
    ],
    "valence": -3.7,
@@ -11459,18 +11504,18 @@
    "price_of": [
     "cheapintelligence"
    ],
-   "control_note": "Lenders will keep using complex models, so some unfair exclusion will occur. Explanation duties and high-risk rules reduce how often it happens and let applicants correct errors.",
+   "control_note": "Lenders will keep using complex models, so some unfair exclusion is likely. Explanation duties and high-risk rules aim to reduce it and let applicants correct errors, but no study has measured their effect.",
    "actions": [
     {
      "action": "Require specific reasons for algorithmic credit denials",
      "actor": "regulators",
      "aim": "impact",
      "status": "in force",
-     "evidence": "Applies existing US adverse action rules to black-box models; no study measures its effect on exclusion.",
+     "evidence": "US Regulation B requires specific principal reasons for any adverse credit action and rules out citing a failed score; no study measures the rule's effect on exclusion.",
      "ref": {
-      "title": "CFPB Circular 2022-03, Adverse action notification requirements in connection with credit decisions based on complex algorithms",
-      "url": "https://www.consumerfinance.gov/compliance/circulars/circular-2022-03-adverse-action-notification-requirements-in-connection-with-credit-decisions-based-on-complex-algorithms/",
-      "finding": "Creditors must give specific principal reasons for denials even when using complex algorithms."
+      "title": "Regulation B (Equal Credit Opportunity Act), 12 CFR 1002.9 Notifications (Consumer Financial Protection Bureau)",
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1002/9/",
+      "finding": "A statement of reasons for adverse action must be specific and indicate the principal reasons; saying the applicant failed to achieve a qualifying score on the creditor's scoring system is insufficient."
      }
     },
     {
@@ -11478,11 +11523,11 @@
      "actor": "legislators",
      "aim": "probability",
      "status": "in force",
-     "evidence": "EU high-risk duties on data quality and oversight phase in from 2026; untested so far.",
+     "evidence": "The AI Act is in force, but after the AI Omnibus amendment, in force since 27 July 2026, its high-risk duties for areas including credit scoring apply only from 2 December 2027; untested so far.",
      "ref": {
-      "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Annex III point 5(b)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "finding": "AI used to evaluate creditworthiness or establish credit scores of natural persons is high-risk."
+      "title": "European Commission, AI Act (Shaping Europe's digital future), 2026",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "finding": "The AI Act lists credit scoring that denies citizens the opportunity to obtain a loan among high-risk uses in access to essential services; the AI Omnibus entered into force on 27 July 2026, and rules for systems in the Annex III high-risk areas apply from 2 December 2027."
      }
     }
    ],
@@ -11493,7 +11538,7 @@
      "parallel": "Government risk maps graded neighbourhoods partly by race, so a lending tool used geography as a proxy that cut off credit, the risk with opaque alternative-data models.",
      "outcome": "The maps led to lower home ownership, house values and rents and more segregation in graded areas for decades, through reduced credit access and disinvestment; the maps were explicit about race, while AI proxies are usually hidden.",
      "ref": {
-      "title": "The Effects of the 1930s HOLC Redlining Maps (Aaronson, Hartley and Mazumder, Federal Reserve Bank of Chicago WP 2017-12)",
+      "title": "The Effects of the 1930s HOLC \"Redlining\" Maps (Aaronson, Hartley and Mazumder, Federal Reserve Bank of Chicago Working Paper 2017-12, revised August 2020)",
       "url": "https://www.chicagofed.org/~/media/publications/working-papers/2017/wp2017-12-pdf",
       "finding": "The maps led to reduced home ownership rates, house values and rents and increased racial segregation in later decades through reduced credit access and disinvestment."
      }
@@ -11502,11 +11547,11 @@
      "event": "Fed review of credit score proxies",
      "year": "2007",
      "parallel": "Regulators tested whether conventional credit scores acted as proxies for race, the same question asked of alternative-data models.",
-     "outcome": "Black and Hispanic borrowers had lower average scores, but rebuilding the model race-neutrally barely changed scores, while length of credit history partly proxied for age and hurt young people and recent immigrants; this cuts against assuming proxies are always present.",
+     "outcome": "Black and Hispanic borrowers had lower average scores, but re-estimating the model race-neutrally had little effect on scores; length of credit history partly proxied for age, and recent immigrants scored somewhat lower than their repayment implied. This cuts against assuming proxies are always present.",
      "ref": {
-      "title": "Report to the Congress on Credit Scoring and Its Effects on the Availability and Affordability of Credit, executive summary (Federal Reserve Board, 2007)",
+      "title": "Report to the Congress on Credit Scoring and Its Effects on the Availability and Affordability of Credit, executive summary (Federal Reserve Board, August 2007)",
       "url": "https://www.federalreserve.gov/boarddocs/rptcongress/creditscore/executivesummary.htm",
-      "finding": "Credit characteristics did not substantially proxy for race, ethnicity or sex, but length of credit history partly proxied for age."
+      "finding": "Credit characteristics did not serve as proxies for race, ethnicity or sex, and a race-neutral re-estimation had little effect on scores; length of credit history served in part as a proxy for age, and recent immigrants had somewhat lower scores than their performance implied."
      }
     }
    ]
@@ -11519,12 +11564,12 @@
    "stage": "active",
    "evidence": "reported",
    "theme": "work",
-   "summary": "Frontier models depend on outsourced annotators in poorer countries; one TIME investigation found Kenyan contractors labelling violent and sexual content for OpenAI took home roughly $1.32 to $2 per hour[1]. The work is low-paid and sometimes traumatic, but it is also a source of jobs.",
+   "summary": "AI developers rely on outsourced workers to label training data. One TIME investigation found Kenyan contractors at Sama labelling text describing sexual abuse, hate speech and violence for OpenAI took home about $1.32 to $2 an hour, and all four workers interviewed described being mentally scarred by the work[1]. Sama disputed the pay figures, saying workers could earn $1.46 to $3.74 an hour after tax, and says it has lifted more than 50,000 people out of poverty, a claim TIME did not verify[1].",
    "refs": [
     {
-     "title": "TIME (Perrigo), OpenAI Used Kenyan Workers on Less Than $2 Per Hour to Make ChatGPT Less Toxic, 2023",
+     "title": "OpenAI Used Kenyan Workers on Less Than $2 Per Hour to Make ChatGPT Less Toxic (Billy Perrigo, TIME, January 2023)",
      "url": "https://time.com/6247678/openai-chatgpt-kenya-workers/",
-     "finding": "Kenyan Sama contractors labelling violent and sexual content for OpenAI took home roughly $1.32 to $2 per hour."
+     "finding": "Sama contractors in Kenya labelling text describing sexual abuse, hate speech and violence for OpenAI took home about $1.32 to $2 per hour depending on seniority and performance; Sama said workers could earn $1.46 to $3.74 after tax. All four employees interviewed described being mentally scarred by the work."
     }
    ],
    "valence": -2.54,
@@ -11540,11 +11585,11 @@
      "actor": "legislators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "The EU Platform Work Directive sets a presumption of employment and human oversight of automated decisions, but it only covers platform work in the EU and its effect is not yet measured.",
+     "evidence": "The EU Platform Work Directive sets a presumption of employment and human oversight of automated decisions, but it covers only platform work in the EU, member states have until 2 December 2026 to transpose it, and its effect is not yet measured.",
      "ref": {
-      "title": "Directive (EU) 2024/2831 on improving working conditions in platform work",
+      "title": "Directive (EU) 2024/2831 of 23 October 2024 on improving working conditions in platform work",
       "url": "https://eur-lex.europa.eu/eli/dir/2024/2831/oj/eng",
-      "finding": "Article 5 creates a legal presumption of employment and Article 10 requires human oversight of automated monitoring and decision systems."
+      "finding": "Article 5 sets a legal presumption of employment and Article 10 requires human oversight of automated monitoring and decision-making systems."
      }
     },
     {
@@ -11552,11 +11597,11 @@
      "actor": "governments",
      "status": "proposed",
      "aim": "impact",
-     "evidence": "Convention No. 193 was adopted in June 2026 and covers online platform work, including pay and review of automated decisions, but it binds no state until ratified.",
+     "evidence": "Convention No. 193 was adopted in June 2026 and covers online platform work, including pay and access to review of automated decisions, but it binds only states that ratify it.",
      "ref": {
-      "title": "ILO, How will the new Convention No.193 promote decent work in the platform economy?",
+      "title": "How will the new Convention No.193 promote decent work in the platform economy? (International Labour Organization, June 2026)",
       "url": "https://www.ilo.org/resource/article/how-will-new-convention-no193-promote-decent-work-platform-economy",
-      "finding": "The convention covers location-based and online platform work and sets principles for transparent use of automated decision systems."
+      "finding": "The convention covers location-based and online platform work, including remuneration, sets principles for transparent use of automated decision systems with access to review, and binds only member states that ratify it."
      }
     }
    ],
@@ -11564,8 +11609,8 @@
     {
      "event": "Amazon Mechanical Turk wages",
      "year": "2014-2017",
-     "parallel": "Crowdworkers on Mechanical Turk did the microtasks, including data labelling, that earlier machine learning depended on.",
-     "outcome": "Logs from 2,676 workers across 3.8 million tasks showed median earnings of about $2 an hour, with only 4 percent above $7.25; the sample was mostly US-based workers using a browser plugin.",
+     "parallel": "Crowdworkers on Mechanical Turk did paid microtasks, including image categorisation, the kind of labelling work machine learning relies on.",
+     "outcome": "Logs from 2,676 workers across 3.8 million tasks from 2014 to 2017 showed median earnings of about $2 an hour, with only 4 percent above $7.25; the sample was workers who opted into a browser plugin, and the logs held no demographics.",
      "ref": {
       "title": "A Data-Driven Analysis of Workers' Earnings on Amazon Mechanical Turk (Hara et al., CHI 2018)",
       "url": "https://arxiv.org/abs/1712.05796",
@@ -11576,11 +11621,11 @@
      "event": "Facebook moderators' PTSD settlement",
      "year": "2018-2020",
      "parallel": "Outsourced content moderators reviewed graphic material for a platform at scale, the same traumatic work some AI data labellers do.",
-     "outcome": "Facebook agreed to pay $52 million to more than 11,000 current and former moderators, at least $1,000 each and up to $50,000, without admitting wrongdoing; these were US contractor workers, so it says little about pay and redress in poorer countries.",
+     "outcome": "Facebook agreed to pay $52 million to more than 11,000 current and former moderators, at least $1,000 each and up to $50,000; these were US contractor workers, so it says little about pay and redress in poorer countries.",
      "ref": {
-      "title": "TechCrunch report on Facebook's $52 million content moderator settlement (May 2020)",
+      "title": "Facebook to pay $52 million to content moderators suffering from PTSD (Zack Whittaker, TechCrunch, May 2020)",
       "url": "https://techcrunch.com/2020/05/12/facebook-moderators-ptsd-settlement/",
-      "finding": "$52 million settlement covering more than 11,000 moderators in four US states; each gets at least $1,000 and up to $50,000."
+      "finding": "$52 million settlement covering more than 11,000 moderators in Arizona, California, Florida and Texas; each gets at least $1,000 and up to $50,000."
      }
     }
    ]
@@ -11593,12 +11638,17 @@
    "stage": "emerging",
    "evidence": "projected",
    "theme": "world",
-   "summary": "About 60% of jobs in advanced economies are exposed to AI, against 40% in emerging markets and 26% in low-income countries, so poorer countries face less disruption now[1]. Many lack the infrastructure and skills to capture the gains, which could widen the gap between countries[1].",
+   "summary": "About 60% of jobs in advanced economies are exposed to AI, against 40% in emerging markets and 26% in low-income countries, and many poorer countries lack the infrastructure and skilled workforces to capture the gains, so AI could worsen inequality between nations[1]. A 2026 UN Secretary-General report found high-income countries held 77% of global co-location data centre capacity in June 2025 and low-income countries less than 0.1%, and fewer than 20% of least developed countries had a national AI strategy[2].",
    "refs": [
     {
-     "title": "IMF (Georgieva), AI Will Transform the Global Economy. Let's Make Sure It Benefits Humanity, 2024",
+     "title": "AI Will Transform the Global Economy. Let's Make Sure It Benefits Humanity. (Kristalina Georgieva, IMF Blog, January 2024)",
      "url": "https://www.imf.org/en/Blogs/Articles/2024/01/14/ai-will-transform-the-global-economy-lets-make-sure-it-benefits-humanity",
-     "finding": "About 60% of jobs in advanced economies are exposed to AI, against 40% in emerging markets and 26% in low-income countries."
+     "finding": "About 60% of jobs in advanced economies may be impacted by AI, against 40% in emerging markets and 26% in low-income countries; many of these countries lack the infrastructure or skilled workforces to harness AI, which could worsen inequality among nations."
+    },
+    {
+     "title": "Secretary-General Calls for Global Fund to Address AI Capacity-Building Gaps in Developing Countries (UN Office for Digital and Emerging Technologies, September 2026)",
+     "url": "https://www.un.org/digital-emerging-technologies/content/secretary-general-calls-global-fund-address-ai-capacity-building-gaps-developing-countries",
+     "finding": "Report A/80/817 finds high-income countries held 77% of global co-location data centre capacity in June 2025 and low-income countries less than 0.1%; about half of member states had a national AI strategy in 2025, but fewer than 20% of least developed countries did."
     }
    ],
    "valence": -2.78,
@@ -11613,21 +11663,21 @@
      "aim": "probability",
      "evidence": "UNCTAD reports that 100 firms account for 40% of global corporate R&D and that 118 countries are absent from major AI governance talks; the shared facility is a proposal with no track record.",
      "ref": {
-      "title": "UNCTAD, AI's $4.8 trillion future: UN Trade and Development alerts on divides, urges action (Technology and Innovation Report 2025)",
+      "title": "AI's $4.8 trillion future: UN Trade and Development alerts on divides, urges action (UNCTAD press release on the Technology and Innovation Report 2025, April 2025)",
       "url": "https://unctad.org/news/ais-48-trillion-future-un-trade-and-development-alerts-divides-urges-action",
-      "finding": "UNCTAD proposes a global shared facility for equitable access to AI infrastructure, plus open data and open source models."
+      "finding": "UNCTAD says a global shared facility could give equitable access to AI infrastructure and that open data and open source can foster inclusive AI innovation; 100 firms account for 40% of global corporate R&D and 118 countries are absent from major AI governance discussions."
      }
     },
     {
-     "action": "Run AI capacity-building programmes",
-     "actor": "governments",
-     "status": "in force",
+     "action": "Fund AI capacity building in developing countries",
+     "actor": "international bodies",
+     "status": "proposed",
      "aim": "impact",
-     "evidence": "The UN General Assembly adopted a resolution on AI capacity building in July 2024 without a vote; it is non-binding and its effect has not been measured.",
+     "evidence": "A September 2026 UN Secretary-General report under General Assembly resolution 78/311 recommends a Global Fund for AI Capacity-Building with initial commitments of about $3 billion over two to four years; it is a recommendation, and no capacity programme's effect has been measured.",
      "ref": {
-      "title": "UN General Assembly resolution A/RES/78/311, Enhancing international cooperation on capacity-building of artificial intelligence",
-      "url": "https://docs.un.org/en/A/RES/78/311",
-      "finding": "Calls for international cooperation to build AI capacity in developing countries."
+      "title": "Secretary-General Calls for Global Fund to Address AI Capacity-Building Gaps in Developing Countries (UN Office for Digital and Emerging Technologies, September 2026)",
+      "url": "https://www.un.org/digital-emerging-technologies/content/secretary-general-calls-global-fund-address-ai-capacity-building-gaps-developing-countries",
+      "finding": "Report A/80/817, submitted under resolution 78/311, asks the General Assembly to endorse a Global Fund for AI Capacity-Building, with indicative initial commitments of about $3 billion over two to four years."
      }
     }
    ],
@@ -11636,9 +11686,9 @@
      "event": "Two centuries of technology diffusion",
      "year": "1820-2000s",
      "parallel": "Poor countries adopted each new technology sooner over time but used it far less intensively, the pattern feared for AI.",
-     "outcome": "Adoption lags converged between rich and poor countries while long-run penetration diverged, and the authors' model attributes 80 percent of the income divergence since 1820 to these diffusion patterns; mobile phones show leapfrogging is possible.",
+     "outcome": "Adoption lags converged between rich and poor countries while long-run penetration diverged, and the authors' model attributes 80 percent of the income divergence since 1820 to these diffusion patterns.",
      "ref": {
-      "title": "If Technology Has Arrived Everywhere, Why has Income Diverged? (Comin and Mestieri, NBER w19010)",
+      "title": "If Technology Has Arrived Everywhere, Why Has Income Diverged? (Comin and Mestieri, NBER Working Paper 19010, 2013; American Economic Journal: Macroeconomics 2018)",
       "url": "https://www.nber.org/papers/w19010",
       "finding": "Adoption lags have converged while penetration rates have diverged; diffusion patterns account for 80 percent of the Great Income Divergence since 1820."
      }
@@ -11653,17 +11703,27 @@
    "stage": "emerging",
    "evidence": "reported",
    "theme": "power",
-   "summary": "The Bank of England said equity valuations appear stretched, particularly for AI-focused technology companies, raising the risk of a sharp correction[1]; the IMF also warned of sharp corrections[2]. A correction could spill into the wider economy; this is a risk assessment, not a forecast.",
+   "summary": "In October 2025 the Bank of England's Financial Policy Committee said equity valuations appeared stretched, particularly for AI-focused technology companies, and that the risk of a sharp market correction had increased[1]; the IMF warned that risk asset prices were well above fundamentals, raising the risk of sharp corrections[2]. AI equity valuations then fell sharply in July 2026 with no spillovers to core markets, and the Bank said the risk of a sharper correction persists[3]. In a hypothetical Bank staff scenario with a 45 percent fall in US equities over six quarters, UK GDP fell 2.2 percentage points, but the Bank judged that an equity shock alone would be unlikely to directly threaten UK financial stability[4].",
    "refs": [
     {
-     "title": "Bank of England, Financial Policy Committee Record, October 2025",
+     "title": "Financial Policy Committee Record, October 2025 (Bank of England, 2025)",
      "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2025/october-2025",
-     "finding": "The FPC said equity valuations appear stretched, particularly for AI-focused technology companies, raising the risk of a sharp market correction."
+     "finding": "The FPC said equity market valuations appear stretched, particularly for technology companies focused on AI, and that the risk of a sharp market correction has increased."
     },
     {
-     "title": "IMF, Global Financial Stability Report, October 2025",
+     "title": "Global Financial Stability Report, October 2025: Shifting Ground beneath the Calm (IMF, 2025)",
      "url": "https://www.imf.org/en/Publications/GFSR/Issues/2025/10/14/global-financial-stability-report-october-2025",
-     "finding": "The IMF found risk-asset prices well above fundamentals and warned of sharp corrections."
+     "finding": "Valuation models show risk asset prices well above fundamentals, raising the risk of sharp corrections."
+    },
+    {
+     "title": "Financial Policy Committee Record, September 2026 (Bank of England, 2026)",
+     "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/september-2026",
+     "finding": "Equity valuations for AI companies fell sharply in July 2026; market functioning remained orderly, with no spillovers to core markets, and the risk of a sharper correction persists, notably if there is a more significant shock to earnings expectations."
+    },
+    {
+     "title": "Financial Stability Report, July 2026 (Bank of England, 2026)",
+     "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/july-2026",
+     "finding": "Bank staff assessed a hypothetical AI-related equity correction with a 45% fall in the US equity market over six quarters and a 2.2 percentage point fall in UK GDP; its macroeconomic impacts are encompassed by the 2025 Bank Capital Stress Test and 2024 Desk-Based Stress Test scenarios, to which UK banks were resilient, and an equity shock in isolation would be unlikely to present a direct risk to UK financial stability."
     }
    ],
    "valence": -2.87,
@@ -11672,43 +11732,43 @@
     "cheapintelligence",
     "productivity"
    ],
-   "control_note": "Heavy investment comes with expectations that may not be met, so some repricing is likely. Regulators can limit how far a crash spreads, not whether valuations fall.",
+   "control_note": "AI-related valuations rest on forecasts of strong long-term earnings growth that the Bank of England calls highly uncertain, so a repricing cannot be ruled out. Regulators can limit how far a crash spreads, not whether valuations fall.",
    "actions": [
     {
      "action": "Monitor and warn on stretched AI valuations",
      "actor": "central banks",
      "status": "in force",
      "aim": "probability",
-     "evidence": "The Bank of England flagged stretched AI valuations in October 2025; AI equities then fell sharply in July 2026 with no spillover to core markets, so warnings did not prevent the fall.",
+     "evidence": "The Bank of England flagged stretched AI valuations in October 2025; AI equity valuations still fell sharply in July 2026, though with no spillovers to core markets.",
      "ref": {
-      "title": "Bank of England, Financial Policy Committee Record, September 2026",
+      "title": "Financial Policy Committee Record, September 2026 (Bank of England, 2026)",
       "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/september-2026",
-      "finding": "Equity valuations for AI companies fell sharply in July, there were no spillovers to core markets, and the risk of a sharper correction persists."
+      "finding": "Equity valuations for AI companies fell sharply in July 2026, there were no spillovers to core markets, and the risk of a sharper correction persists."
      }
     },
     {
-     "action": "Stress test banks against an AI equity correction",
+     "action": "Test bank resilience to an AI equity correction",
      "actor": "regulators",
      "status": "in force",
      "aim": "impact",
-     "evidence": "Bank staff modelled an AI-driven equity correction scenario; stress tests show resilience to past shock types, but no test can show resilience to an untested scenario.",
+     "evidence": "Bank of England staff assessed a hypothetical AI-related correction with a 45 percent fall in US equities over six quarters; its macroeconomic effects fall within past stress test scenarios that UK banks withstood, though concentrated, leveraged positions could amplify a fall.",
      "ref": {
-      "title": "Bank of England, Financial Stability Report, July 2026",
+      "title": "Financial Stability Report, July 2026 (Bank of England, 2026)",
       "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/july-2026",
-      "finding": "A reassessment of AI prospects could trigger a fall in equity prices, made worse by concentrated, leveraged positions."
+      "finding": "Bank staff assessed a hypothetical AI-related equity correction with a 45% fall in the US equity market over six quarters and a 2.2 percentage point fall in UK GDP; its macroeconomic impacts are encompassed by the 2025 Bank Capital Stress Test and 2024 Desk-Based Stress Test scenarios, to which UK banks were resilient, and an equity shock in isolation would be unlikely to present a direct risk to UK financial stability."
      }
     }
    ],
    "precedents": [
     {
      "event": "British Railway Mania",
-     "year": "1844-1850s",
-     "parallel": "Investors poured money into a transformative technology on revenue expectations that the numbers already contradicted, as some fear with AI capex.",
-     "outcome": "Railway revenues were about 6 million pounds in 1845, investors implicitly expected about 60 million by 1850-52, and they reached only 15 million in 1852, one of the greatest crashes; yet almost all lines kept running and Britain probably gained overall.",
+     "year": "1843-1850",
+     "parallel": "Investors bid up shares in a transformative technology on expectations of rising payouts and projected thousands of new lines, as some fear with AI capital spending.",
+     "outcome": "Railway share prices almost doubled between January 1843 and August 1845, then fell 57.5 percent from peak to trough by April 1850; many lines were abandoned, but others opened and trebled the network to 6,123 miles, while industry dividends fell from 7.0 percent of par in 1847 to 2.4 percent by 1852.",
      "ref": {
-      "title": "Collective hallucinations and inefficient markets: The British Railway Mania of the 1840s (Odlyzko, University of Minnesota)",
-      "url": "https://www-users.cse.umn.edu/~odlyzko/doc/hallucinations.pdf",
-      "finding": "Investors ignored trustworthy measures showing demand could not support expected revenues; shareholders lost heavily but almost all lines continued in service."
+      "title": "Government Policy during the British Railway Mania and the 1847 Commercial Crisis (Gareth Campbell, Queen's University Belfast; in British Financial Crises since 1825, Oxford University Press, 2014)",
+      "url": "https://pureadmin.qub.ac.uk/ws/files/18161511/RailwayCrisis.pdf",
+      "finding": "Railway share prices almost doubled between January 1843 and August 1845, then fell 57.5 per cent from peak to trough by April 1850; many lines were abandoned or suspended, others opened and trebled the network to 6,123 miles by 1850, and the industry dividend/par ratio fell from 7.0 per cent in 1847 to 2.4 per cent by 1852, leaving a legacy of low returns on capital."
      }
     }
    ]
@@ -11721,12 +11781,22 @@
    "stage": "active",
    "evidence": "reported",
    "theme": "power",
-   "summary": "The US Treasury reported more than $4 billion in fraud prevented and recovered in fiscal year 2024, including about $1 billion in check fraud recovered with machine-learning AI[1]. The figures are self-reported.",
+   "summary": "The US Treasury reported preventing and recovering more than $4 billion in fraud and improper payments in fiscal year 2024, up from $652.7 million in fiscal year 2023, including $1 billion in check fraud recovered with machine-learning AI[1]; in January 2026 it told Congress it had prevented and recovered over $1.9 billion in check fraud across fiscal years 2024 and 2025 using such techniques[2]. The figures are self-reported, and small against GAO's estimate that the federal government loses $233 billion to $521 billion a year to fraud[3].",
    "refs": [
     {
-     "title": "US Treasury, Enhanced Fraud Detection Processes, Including Machine Learning AI, Prevented and Recovered Over $4 Billion in Fiscal Year 2024",
+     "title": "Treasury Announces Enhanced Fraud Detection Processes, Including Machine Learning AI, Prevented and Recovered Over $4 Billion in Fiscal Year 2024 (US Treasury, 2024)",
      "url": "https://home.treasury.gov/news/press-releases/jy2650",
-     "finding": "Treasury reported more than $4 billion in fraud prevented and recovered in FY2024, including about $1 billion in check fraud recovered with machine-learning AI."
+     "finding": "Treasury said it prevented and recovered over $4 billion in fraud and improper payments in FY2024, up from $652.7 million in FY2023; expediting the identification of Treasury check fraud with machine learning AI resulted in $1 billion in recovery."
+    },
+    {
+     "title": "Statement of Renata Miskell, US Department of the Treasury, before the House Oversight and Government Reform Subcommittee on Government Operations (13 January 2026)",
+     "url": "https://oversight.house.gov/wp-content/uploads/2026/01/Miskell-Treasury-Written-Testimony.pdf",
+     "finding": "Treasury tested and implemented AI techniques like machine learning to mitigate check fraud in near real time, and prevented and recovered over $1.9 billion in check fraud in fiscal years 2024 and 2025 combined; in fiscal year 2024 only four percent of federal programs had completed the legal requirements to access all the databases in Do Not Pay."
+    },
+    {
+     "title": "Fraud Risk Management: 2018-2022 Data Show Federal Government Loses an Estimated $233 Billion to $521 Billion Annually to Fraud, Based on Various Risk Environments (GAO-24-105833, 2024)",
+     "url": "https://www.gao.gov/products/gao-24-105833",
+     "finding": "GAO estimated direct annual fraud losses of $233 billion to $521 billion, based on fiscal years 2018-2022, or 3 to 7 percent of average federal obligations."
     }
    ],
    "valence": 2.6,
@@ -11734,31 +11804,31 @@
     {
      "limit": "Recoveries small against total fraud",
      "kind": "quality",
-     "evidence": "GAO estimates federal fraud losses of $233 to $521 billion a year, against $1 billion recovered with machine learning at Treasury.",
+     "evidence": "GAO estimates federal fraud losses of $233 billion to $521 billion a year, based on fiscal years 2018-2022, against $1 billion recovered with machine learning at Treasury in fiscal year 2024.",
      "ref": {
-      "title": "Fraud Risk Management: 2018-2022 Data Show Federal Government Loses an Estimated $233 Billion to $521 Billion",
+      "title": "Fraud Risk Management: 2018-2022 Data Show Federal Government Loses an Estimated $233 Billion to $521 Billion Annually to Fraud, Based on Various Risk Environments (GAO-24-105833, 2024)",
       "url": "https://www.gao.gov/products/gao-24-105833",
-      "finding": "$233-521 billion lost per year, FY2018-2022."
+      "finding": "$233 billion to $521 billion lost to fraud per year, based on fiscal years 2018-2022."
      }
     },
     {
      "limit": "Self-reported agency figures",
      "kind": "trust",
-     "evidence": "Treasury's $1 billion recovery figure is from its own press release, not an audit.",
+     "evidence": "Treasury's check fraud figures come from its own press release and congressional testimony, not an independent audit.",
      "ref": {
-      "title": "Treasury Announces Enhanced Fraud Detection Processes, Including Machine Learning AI",
+      "title": "Treasury Announces Enhanced Fraud Detection Processes, Including Machine Learning AI, Prevented and Recovered Over $4 Billion in Fiscal Year 2024 (US Treasury, 2024)",
       "url": "https://home.treasury.gov/news/press-releases/jy2650",
-      "finding": "Machine learning on check fraud resulted in $1 billion in recovery."
+      "finding": "Expediting the identification of Treasury check fraud with machine learning AI resulted in $1 billion in recovery."
      }
     },
     {
-     "limit": "slow institutional adoption",
+     "limit": "Slow institutional adoption",
      "kind": "incentives",
-     "evidence": "GAO's estimate covers all programs, implying uneven fraud controls across agencies.",
+     "evidence": "Treasury told Congress that in fiscal year 2024 only four percent of federal programs had completed the legal requirements to access all the databases in its Do Not Pay screening service.",
      "ref": {
-      "title": "Fraud Risk Management: 2018-2022 Data Show Federal Government Loses an Estimated $233 Billion to $521 Billion",
-      "url": "https://www.gao.gov/products/gao-24-105833",
-      "finding": "Losses equal 3 to 7 percent of average obligations."
+      "title": "Statement of Renata Miskell, US Department of the Treasury, before the House Oversight and Government Reform Subcommittee on Government Operations (13 January 2026)",
+      "url": "https://oversight.house.gov/wp-content/uploads/2026/01/Miskell-Treasury-Written-Testimony.pdf",
+      "finding": "Do Not Pay has been underutilized by agencies due to complex legal and administrative barriers; in fiscal year 2024 only four percent of federal programs completed the legal requirements to access all its databases."
      }
     }
    ],
@@ -11768,11 +11838,11 @@
      "actor": "US Treasury",
      "status": "in force",
      "counters": null,
-     "evidence": "Treasury reported $1 billion recovered from check fraud using machine learning.",
+     "evidence": "Treasury told Congress in January 2026 that machine learning applied to check fraud in near real time helped it prevent and recover over $1.9 billion across fiscal years 2024 and 2025.",
      "ref": {
-      "title": "Treasury Announces Enhanced Fraud Detection Processes, Including Machine Learning AI",
-      "url": "https://home.treasury.gov/news/press-releases/jy2650",
-      "finding": "$1 billion recovery attributed to machine learning."
+      "title": "Statement of Renata Miskell, US Department of the Treasury, before the House Oversight and Government Reform Subcommittee on Government Operations (13 January 2026)",
+      "url": "https://oversight.house.gov/wp-content/uploads/2026/01/Miskell-Treasury-Written-Testimony.pdf",
+      "finding": "Treasury tested and implemented AI techniques like machine learning to mitigate check fraud in near real time, and prevented and recovered over $1.9 billion in check fraud in fiscal years 2024 and 2025 combined."
      }
     },
     {
@@ -11782,9 +11852,9 @@
      "counters": "Self-reported agency figures",
      "evidence": "GAO built a government-wide fraud estimate that gives a baseline for judging agency claims.",
      "ref": {
-      "title": "Fraud Risk Management: 2018-2022 Data Show Federal Government Loses an Estimated $233 Billion to $521 Billion",
+      "title": "Fraud Risk Management: 2018-2022 Data Show Federal Government Loses an Estimated $233 Billion to $521 Billion Annually to Fraud, Based on Various Risk Environments (GAO-24-105833, 2024)",
       "url": "https://www.gao.gov/products/gao-24-105833",
-      "finding": "Independent estimate of federal fraud losses."
+      "finding": "Government-wide estimate of direct annual fraud losses of $233 billion to $521 billion."
      }
     }
    ],
@@ -11793,11 +11863,11 @@
      "event": "Medicare Fraud Prevention System",
      "year": "2011-2014",
      "parallel": "The US Medicare programme ran predictive models over claims to stop improper payments, a pre-generative case of machine learning against fraud on the public purse.",
-     "outcome": "The inspector general certified $133.2 million in savings in the third year, a return of $2.84 per dollar, against $454 million the agency itself identified, and found contractor guidance too weak to produce accurate savings estimates.",
+     "outcome": "The inspector general certified $133.2 million in actual and projected savings in the system's third year, a return of $2.84 per dollar spent, and $454 million in unadjusted savings the system identified, and found the agency's directives to contractors were not sufficient to ensure accurate savings estimates.",
      "ref": {
-      "title": "The Fraud Prevention System Increased Recovery and Prevention of Improper Medicare Payments, but Updated Procedures Would Improve Reported Savings (HHS OIG, 2015)",
+      "title": "The Fraud Prevention System Increased Recovery and Prevention of Improper Medicare Payments, but Updated Procedures Would Improve Reported Savings (HHS OIG, A-01-14-00503, 2015)",
       "url": "https://oig.hhs.gov/reports/all/2015/the-fraud-prevention-system-increased-recovery-and-prevention-of-improper-medicare-payments-but-updated-procedures-would-improve-reported-savings/",
-      "finding": "OIG certified $133.2 million in actual and projected savings (ROI $2.84) and $454 million unadjusted; directives were not sufficient to ensure accurate savings estimates."
+      "finding": "OIG certified $133.2 million in actual and projected savings for the third implementation year (a return of $2.84 per dollar spent) and the $454 million in unadjusted savings the FPS identified; the Department's written directives to contractors were not sufficient to ensure accurate savings estimates."
      }
     }
    ]
@@ -11808,19 +11878,19 @@
    "probability": 0.55,
    "year": 2025,
    "stage": "active",
-   "evidence": "measured",
+   "evidence": "reported",
    "theme": "power",
-   "summary": "Australia's automated debt-raising unlawfully asserted debts against about 433,000 people[1], and the Dutch Tax Administration was fined for using nationality to flag childcare benefit claims as risky[2]. These scandals predate generative AI; agents could repeat them at greater scale.",
+   "summary": "Australia's automated debt-raising scheme, Robodebt, unlawfully asserted debts against about 433,000 people[1], and the Dutch Tax Administration was fined for using applicants' nationality as a risk indicator for childcare benefit claims[2]. These scandals predate generative AI; agents could repeat them at greater scale.",
    "refs": [
     {
      "title": "Prygodicz v Commonwealth of Australia (No 2) [2021] FCA 634, Federal Court of Australia",
      "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2021/2021fca0634",
-     "finding": "The Commonwealth unlawfully asserted debts of at least $1.763 billion against about 433,000 people, recovered about $751 million from about 381,000 of them, and settled for a further $112 million."
+     "finding": "The Commonwealth raised debts of at least $1.763 billion against about 433,000 people by income averaging without a proper legal basis, recovered about $751 million from about 381,000 of them, and settled the class action for a further $112 million."
     },
     {
      "title": "Dutch Data Protection Authority, Tax Administration fined for discriminatory and unlawful data processing, 2021",
      "url": "https://www.autoriteitpersoonsgegevens.nl/en/current/tax-administration-fined-for-discriminatory-and-unlawful-data-processing",
-     "finding": "The Tax Administration was fined 2.75 million euros for using applicants' nationality (Dutch or not) as an indicator in a system that flagged childcare benefit applications as risky."
+     "finding": "The Tax Administration was fined 2.75 million euros because its use of applicants' (dual) nationality data as a risk indicator in assessing childcare benefit applications was unlawful and discriminatory."
     }
    ],
    "valence": -3.8,
@@ -11835,11 +11905,11 @@
      "actor": "legislators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "The EU AI Act lists AI used to assess eligibility for public assistance benefits as high-risk, with risk management and human oversight duties; effects are not yet measured.",
+     "evidence": "The EU AI Act lists AI used by public authorities to evaluate eligibility for public assistance benefits, or to grant, reduce, revoke or reclaim them, as high-risk, with risk management and human oversight duties; the AI Omnibus amendment, in force since 27 July 2026, moved these duties to 2 December 2027, so effects are not yet measured.",
      "ref": {
-      "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Annex III",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "finding": "Annex III lists AI systems used by public authorities to evaluate eligibility for public assistance benefits as high-risk."
+      "title": "EU AI Act, Annex III: High-risk AI systems referred to in Article 6(2)",
+      "url": "https://artificialintelligenceact.eu/annex/3/",
+      "finding": "Annex III point 5(a) lists AI systems used by or on behalf of public authorities to evaluate eligibility for essential public assistance benefits and services, or to grant, reduce, revoke or reclaim them, as high-risk."
      }
     },
     {
@@ -11847,7 +11917,7 @@
      "actor": "regulators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "The Dutch DPA fined the Tax Administration 2.75 million euros; the agency had already stopped using nationality for risk in 2018, so the fine came after the harm.",
+     "evidence": "The Dutch DPA fined the Tax Administration 2.75 million euros; the agency had already stopped using nationality in its risk classification model in October 2018, so the fine came after the harm.",
      "ref": {
       "title": "Dutch Data Protection Authority, Tax Administration fined for discriminatory and unlawful data processing, 2021",
       "url": "https://www.autoriteitpersoonsgegevens.nl/en/current/tax-administration-fined-for-discriminatory-and-unlawful-data-processing",
@@ -11859,11 +11929,11 @@
      "actor": "legislators",
      "status": "proposed",
      "aim": "impact",
-     "evidence": "The Royal Commission made 57 recommendations, including a chapter on automated decision making; adoption is partial and unmeasured.",
+     "evidence": "The Royal Commission recommended a legal framework for automated decision-making and a body to monitor it; the government accepted both, but in September 2026 independent MP Kate Chaney, whose Automated Decision-Making (Safeguards and Transparency) Bill 2026 would implement them, said the government had not.",
      "ref": {
-      "title": "Report of the Royal Commission into the Robodebt Scheme, 2023",
-      "url": "https://robodebt.royalcommission.gov.au/publications/report",
-      "finding": "The report sets out 57 recommendations, including on data matching and automated decision making."
+      "title": "No more Robodebt: new push for guardrails on government algorithms (The Medical Republic, 2026)",
+      "url": "https://www.medicalrepublic.com.au/no-more-robodebt-new-push-for-guardrails-on-government-algorithms/128891",
+      "finding": "Kate Chaney's Automated Decision-Making (Safeguards and Transparency) Bill 2026 would implement Robodebt Royal Commission recommendations 17.1 and 17.2, a legal framework for automated decision-making and a body to monitor it, which the government accepted; Chaney said the government has not implemented them."
      }
     }
    ],
@@ -11872,22 +11942,22 @@
      "event": "Michigan MiDAS fraud system",
      "year": "2013-2015",
      "parallel": "An automated system issued unemployment fraud findings with no human review, the kind of enforcement agents could repeat at scale.",
-     "outcome": "Computer-only fraud findings had a 93 percent error rate and more than 20,000 people were wrongly accused and hit with steep penalties; by late 2016 the state had refunded $5.4 million to 2,571 claimants.",
+     "outcome": "Of 40,195 fraud findings the algorithm made alone, 85 percent were wrong; more than 34,000 people were wrongly accused, facing a 400 percent penalty on the claimed fraud, and the agency stopped purely automated fraud assessment in September 2015.",
      "ref": {
-      "title": "Michigan Public report on false MiDAS unemployment fraud penalties (January 2017)",
-      "url": "https://www.michiganpublic.org/politics-government/2017-01-11/state-falsely-penalizes-thousands-for-unemployment-benefits-fraud-now-victims-want-their-money-back",
-      "finding": "The automated system's fraud findings had an error rate of 93 percent; more than 20,000 people were wrongly accused."
+      "title": "Michigan's MiDAS Unemployment System: Algorithm Alchemy Created Lead, Not Gold (IEEE Spectrum, 2018)",
+      "url": "https://spectrum.ieee.org/michigans-midas-unemployment-system-algorithm-alchemy-that-created-lead-not-gold",
+      "finding": "From October 2013 to September 2015 MiDAS adjudicated 40,195 fraud cases by algorithm alone, 85 percent of them incorrectly; more than 34,000 people were wrongfully accused and faced a 400 percent penalty on the claimed amount of fraud."
      }
     },
     {
      "event": "Post Office Horizon prosecutions",
      "year": "1999-2015",
-     "parallel": "Faulty accounting software was treated as reliable evidence and used to pursue hundreds of subpostmasters, showing how institutions defend a system over the people it flags.",
+     "parallel": "Faulty accounting software was treated as reliable evidence and used to pursue hundreds of subpostmasters, showing the cost of treating a system's output as proof.",
      "outcome": "By September 2026, 620 people in England and Wales had at least one conviction quashed by the 2024 Act, covering 2,250 convictions; Horizon was bookkeeping software, not a risk model.",
      "ref": {
       "title": "Post Office (Horizon System) Offences Act 2024: quashed convictions management information, 24 September 2026 (GOV.UK)",
       "url": "https://www.gov.uk/government/publications/post-office-horizon-system-offences-act-2024-quashed-convictions-management-information/quashed-convictions-management-information-24-september-2026",
-      "finding": "620 individuals identified as having at least one conviction quashed by the Act, and 2,250 convictions quashed, out of 1,011 assessed."
+      "finding": "620 individuals identified as having at least one conviction quashed by the Act, and 2,250 convictions quashed, after all 1,011 cases were assessed."
      }
     }
    ]
@@ -16340,37 +16410,37 @@
    "source": "scrapedfaces",
    "target": "surveillance",
    "kind": "leads",
-   "why": "Billions of scraped faces sold to police let states identify and track people automatically, without armies of human watchers."
+   "why": "Clearview sells law enforcement and other government agencies an identity-matching search over about 30 billion scraped face images, putting automated identification of people pictured online in state hands."
   },
   {
    "source": "pricecollusion",
    "target": "markets",
    "kind": "leads",
-   "why": "When many firms rely on similar algorithms, they react to the same signals together, whether holding prices up or selling at once."
+   "why": "Landlords using the same pricing software moved their prices together, the same shared-algorithm mechanism that drives herding in markets."
   },
   {
    "source": "pricecollusion",
    "target": "concentration",
    "kind": "leads",
-   "why": "Shared pricing software keeps prices high without agreement, moving money from customers to the firms that own the algorithms and data."
+   "why": "Shared pricing software raised markups for its users in one study, and the RealPage complaint alleges its pooled data reaches about 16 million units against fewer than 250,000 for its two main rivals, concentrating both rents and data."
   },
   {
    "source": "pricecollusion",
    "target": "regulationlag",
    "kind": "leads",
-   "why": "Algorithms that raise prices without any explicit agreement fall outside rules written for human cartels, so law trails the harm."
+   "why": "Antitrust law needs an agreement or coercion, so collusion that algorithms learn on their own falls outside it; even California's 2025 algorithm law keeps that requirement."
   },
   {
    "source": "hiringbias",
    "target": "entryjobs",
    "kind": "leads",
-   "why": "Screening models that rank identical CVs differently by name or disability shut some applicants out at the first step of a career."
+   "why": "In an audit of 20 entry-level jobs, model screening shifted hiring chances by race and gender, adding a barrier for some groups at the first step of a career."
   },
   {
    "source": "creditinclusion",
    "target": "creditexclusion",
    "kind": "twin",
-   "why": "Scoring people from digital footprints reaches those with no credit file, but the same data can hide proxies for race or poverty."
+   "why": "Scoring people from digital footprints reaches some who have no credit file, but the same data can proxy for traits lenders may not legally use, and machine-learning credit models have widened rate gaps for Black and Hispanic borrowers."
   },
   {
    "source": "aidivide",
@@ -16388,7 +16458,7 @@
    "source": "aibubble",
    "target": "markets",
    "kind": "leads",
-   "why": "If stretched AI valuations correct sharply, firms trading on similar models may all sell at once, amplifying the fall."
+   "why": "The Bank of England warns that a fall in AI-related equities could be amplified by concentrated, momentum-driven positions and leveraged hedge funds pursuing similar trading strategies."
   },
   {
    "source": "aibubble",
@@ -16400,7 +16470,7 @@
    "source": "fraudrecovery",
    "target": "welfarealgorithm",
    "kind": "twin",
-   "why": "Risk scoring that flags fraudulent payments recovers public money, but the same scoring has wrongly pursued hundreds of thousands of citizens."
+   "why": "Automated checks that flag fraudulent payments recover public money, but similar automated enforcement has wrongly pursued hundreds of thousands of people, as Australia's Robodebt did."
   },
   {
    "source": "welfarealgorithm",
@@ -17120,7 +17190,7 @@
    "source": "biasdata",
    "target": "hiringbias",
    "kind": "leads",
-   "why": "Models that learned historical hiring patterns rank candidates by name and background."
+   "why": "Embedding models trained on text carry name associations, and resume screening built on them reproduces known patterns of employment bias by race and gender."
   },
   {
    "source": "biasdata",
@@ -17564,7 +17634,7 @@
    "source": "datalabour",
    "target": "concentration",
    "kind": "leads",
-   "why": "Training data cleaned by low-paid workers in the Global South turns into an asset owned entirely by the firms that commissioned it."
+   "why": "Labelling paid at under $2 an hour feeds products that make money for the firms that commission the work, not for the workers who do it."
   },
   {
    "source": "intelexplosion",
@@ -17702,7 +17772,7 @@
    "source": "aigeopolitics",
    "target": "aidivide",
    "kind": "leads",
-   "why": "The 2025 diffusion rule capped advanced chips for most countries outside a list of 19 destinations, limiting the compute most developing countries could buy."
+   "why": "The January 2025 AI diffusion rule would have capped advanced chip exports to most countries before it was rescinded in May 2025, showing how export policy can limit the compute developing countries can buy."
   },
   {
    "source": "backdoors",
@@ -17792,7 +17862,7 @@
    "source": "cheapintelligence",
    "target": "creditinclusion",
    "kind": "leads",
-   "why": "As model capability gets cheaper, lenders can afford to score borrowers from digital footprints, spreading models into everyday finance."
+   "why": "Footprint scoring uses simple, easily collected variables that can partly replace costlier data, so cheaper data and models let more lenders score people without a credit file."
   },
   {
    "source": "dctaxbreaks",
@@ -17918,7 +17988,7 @@
    "source": "floodwarning",
    "target": "aidivide",
    "kind": "counters",
-   "why": "Floods hit developing countries hardest and they lack stream gauges, yet the AI model forecasts ungauged basins and runs in a free public system in over 80 countries."
+   "why": "Floods hit developing countries hardest and they lack stream gauges, yet the AI model forecasts ungauged basins and its free public forecasts cover 100 countries."
   },
   {
    "source": "habermas",
@@ -17967,6 +18037,18 @@
    "target": "regulation",
    "kind": "leads",
    "why": "Unsafe chatbot toys prompted California's state-level moratorium, one more rule that differs from place to place."
+  },
+  {
+   "source": "aiscribes",
+   "target": "aipolicereports",
+   "kind": "twin",
+   "why": "Both draft professional records from recorded speech, but AI clinical scribes saved modest time while one randomised police trial of Draft One found none."
+  },
+  {
+   "source": "childwelfarealgo",
+   "target": "biasedsentencing",
+   "kind": "twin",
+   "why": "Both use risk scores to steer state decisions about people and flagged Black people more often than white people: 32.5% against 20.8% of children reported for neglect in Allegheny County, and 44.9% against 23.5% of defendants who did not reoffend in Broward County."
   }
  ],
  "themes": {
