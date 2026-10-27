@@ -14748,6 +14748,83 @@
      }
     }
    ]
+  },
+  {
+   "id": "llmgrooming",
+   "label": "Propaganda networks seed chatbot answers",
+   "valence": -3.09,
+   "probability": 0.4,
+   "year": 2025,
+   "evidence": "measured",
+   "summary": "Propaganda sites can be written for machines rather than people, so that chatbots that train on or search the web repeat their claims[1]. The American Sunlight Project estimates the pro-Russia Pravda network publishes at least 3.6 million articles a year across 182 domains and subdomains, and argues it targets crawlers and training-data scrapers rather than human readers[1]. In one NewsGuard audit in March 2025, the 10 leading generative AI tools repeated false narratives laundered by the network 33% of the time[2]. In an ISD test of 300 questions about the war in Ukraine in five languages, Russian state-attributed sources appeared in 18% of answers from four chatbots, rising from 11% for neutral questions to 24% for malicious ones, though only two links came from the Pravda network[3]. One peer-reviewed audit of 416 answers from four chatbots found 5% supported disinformation and 8% cited Pravda sites, mostly for niche questions, and its authors attribute this to data voids, topics with little credible coverage, rather than deliberate grooming[4].",
+   "refs": [
+    {
+     "title": "Newport and Jankowicz (American Sunlight Project), Russian networks flood the Internet with propaganda, aiming to corrupt AI chatbots, Bulletin of the Atomic Scientists, March 2025",
+     "url": "https://thebulletin.org/2025/03/russian-networks-flood-the-internet-with-propaganda-aiming-to-corrupt-ai-chatbots/",
+     "finding": "The American Sunlight Project estimates the pro-Russia Pravda network publishes at least 3.6 million articles a year, likely an underestimate, across 182 domains and subdomains targeting at least 74 countries and regions in 12 languages; the authors believe the network targets an automated audience of search-optimisation crawlers and scrapers that collect training data rather than human readers. NewsGuard and the Atlantic Council's DFRLab confirmed that some major AI chatbots cited Pravda network content."
+    },
+    {
+     "title": "NewsGuard, A Well-funded Moscow-based Global 'News' Network has Infected Western Artificial Intelligence Tools Worldwide with Russian Propaganda, March 2025",
+     "url": "https://www.newsguardtech.com/special-reports/moscow-based-global-news-network-infected-western-artificial-intelligence-russian-propaganda/",
+     "finding": "An audit of the 10 leading generative AI tools found they repeated false narratives laundered by the Pravda network 33% of the time; the network published 3,600,000 articles in 2024."
+    },
+    {
+     "title": "Institute for Strategic Dialogue, Talking points: When chatbots surface Russian state media, October 2025",
+     "url": "https://www.isdglobal.org/?p=25635",
+     "finding": "Across 300 queries about the war in Ukraine in English, Spanish, French, German and Italian, Russian state-attributed content appeared in 18% of responses from ChatGPT, Gemini, Grok and DeepSeek: 11% for neutral queries, 18% for biased and 24% for malicious ones. ChatGPT cited the most Russian sources, Gemini the fewest and was the only one to show safety warnings, and only two links came from the Pravda network; ISD says limited data access makes it impossible to tell whether LLM grooming happens at scale."
+    },
+    {
+     "title": "Alyukov, Makhortykh, Voronovici and Sydorova, LLMs grooming or data voids? LLM-powered chatbot references to Kremlin disinformation reflect information gaps, not manipulation, HKS Misinformation Review 2025",
+     "url": "https://misinforeview.hks.harvard.edu/article/llms-grooming-or-data-voids-llm-powered-chatbot-references-to-kremlin-disinformation-reflect-information-gaps-not-manipulation",
+     "finding": "Of 416 responses from ChatGPT-4o, Gemini 2.5 Flash, Copilot and Grok-2 to 13 prompts, collected in Manchester and Bern in April 2025, 5% (21) supported disinformation and 8% referenced Pravda domains, almost all from Copilot, mostly in reply to niche prompts; of the 30 answers that cited Pravda without supporting disinformation, about two-thirds cautioned that the claims were unverified or tied them to disinformation outlets. The authors attribute this to data voids, gaps in credible information, rather than foreign manipulation, and call their study preliminary and narrow."
+    }
+   ],
+   "theme": "information",
+   "stage": "emerging",
+   "control": "mitigable",
+   "price_of": [
+    "betteranswers"
+   ],
+   "control_note": "Chatbots that answer from the web take in whatever covers a question, so a network that floods thinly covered topics can get its claims cited. Labelling or excluding state-attributed sources and filling data voids with credible coverage reduce the exposure, but cannot vet every new site.",
+   "actions": [
+    {
+     "action": "Label or exclude state-attributed sources in answers",
+     "actor": "AI companies",
+     "status": "proposed",
+     "aim": "probability",
+     "evidence": "ISD urges AI companies to build a shared list of state-attributed sources and blacklist or clearly label them; in its test only Gemini showed safety warnings for biased or malicious prompts.",
+     "ref": {
+      "title": "Institute for Strategic Dialogue, Talking points: When chatbots surface Russian state media, October 2025",
+      "url": "https://www.isdglobal.org/?p=25635",
+      "finding": "Recommends that AI companies build a shared repository of state-attributed sources, blacklist or clearly label them, and sign the EU Code of Conduct on Disinformation, and that the European Commission clarify how EU sanctions on state media apply to chatbot outputs under the Digital Services Act."
+     }
+    },
+    {
+     "action": "Warn on data-void queries and fill the gaps with credible coverage",
+     "actor": "search engines",
+     "status": "idea",
+     "aim": "probability",
+     "evidence": "The authors of one audit propose warning banners for questions that fall into data voids, passed on to chatbots that use search, and working with news organisations to fill those gaps in advance.",
+     "ref": {
+      "title": "Alyukov, Makhortykh, Voronovici and Sydorova, LLMs grooming or data voids? LLM-powered chatbot references to Kremlin disinformation reflect information gaps, not manipulation, HKS Misinformation Review 2025",
+      "url": "https://misinforeview.hks.harvard.edu/article/llms-grooming-or-data-voids-llm-powered-chatbot-references-to-kremlin-disinformation-reflect-information-gaps-not-manipulation",
+      "finding": "Recommends that search engines show warning banners for data-void queries and pass these warnings to integrated chatbots, that search developers work with reputable news organisations to fill data voids in advance, and that AI companies share aggregated usage data and be more transparent about how sources shape answers."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "Google demotes hoaxes and conspiracy pages in Search",
+     "year": 2017,
+     "parallel": "Before chatbots answered from the web, search engines surfaced hoaxes and unsupported conspiracy theories for some queries and had to change how they weigh sources.",
+     "outcome": "Google said around 0.25% of its daily queries had been returning offensive or clearly misleading content, and adjusted its ranking signals to surface more authoritative pages and demote low-quality content.",
+     "ref": {
+      "title": "Google, Our latest quality improvements for Search, April 2017",
+      "url": "https://blog.google/products/search/our-latest-quality-improvements-search/",
+      "finding": "A small set of queries in Google's daily traffic, around 0.25%, had been returning offensive or clearly misleading content, including hoaxes and unsupported conspiracy theories; Google adjusted ranking signals to surface more authoritative pages and demote low-quality content, updated its Search Quality Rater Guidelines, and made it easier to flag Autocomplete predictions and Featured Snippets."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -16940,6 +17017,12 @@
    "target": "powerbills",
    "kind": "twin",
    "why": "Both shift a cost of the AI data-centre build-out onto residents, through tax revenue the state gives up or higher power bills."
+  },
+  {
+   "source": "llmgrooming",
+   "target": "misinformation",
+   "kind": "leads",
+   "why": "When chatbots cite and repeat claims from propaganda sites, false narratives reach users with the authority of an AI answer."
   }
  ],
  "themes": {
