@@ -16270,6 +16270,127 @@
      }
     }
    ]
+  },
+  {
+   "id": "darkfleets",
+   "label": "AI satellite monitoring exposes hidden fishing fleets",
+   "valence": 3.06,
+   "probability": 0.6,
+   "year": 2025,
+   "evidence": "measured",
+   "summary": "Machine learning run on radar and optical satellite images can find ships that do not broadcast their positions. Using imagery from 2017 to 2021, one Nature study by Global Fishing Watch and university researchers found about 75 percent of the world's industrial fishing vessels are not publicly tracked, much of that fishing around Africa and south Asia, and more than 25 percent of transport and energy vessel activity is missing from public tracking[1]. Applying AI models to radar images of 1,380 marine protected areas that ban industrial fishing, one Science study found 78.5% recorded no commercial fishing and strongly protected areas had nine times fewer fishing vessels per square kilometre than unprotected coastal waters[2]; position broadcasts missed almost 90% of the vessels radar found, and the study cannot tell whether the areas keep boats out or were placed where little fishing happens[3]. A companion study of a wider set of coastal protected areas, including areas that still allow some fishing, detected industrial fishing in 47% of them from 2022 to 2024, with two-thirds of the vessels absent from public monitoring and estimated fishing effort 28% higher once they were counted[4][5].",
+   "refs": [
+    {
+     "title": "Global Fishing Watch, New research harnesses AI and satellite imagery to reveal the expanding footprint of human activity at sea, January 2024",
+     "url": "https://globalfishingwatch.org/press-release/new-research-harnesses-ai-and-satellite-imagery-to-reveal-the-expanding-footprint-of-human-activity-at-sea/",
+     "finding": "A study in Nature by researchers at Global Fishing Watch, the University of Wisconsin-Madison, Duke, UC Santa Barbara and SkyTruth combined vessel GPS data with five years (2017 to 2021) of radar and optical satellite imagery, 2 million gigabytes, and used machine learning to judge which vessels were likely fishing. About 75 percent of the world's industrial fishing vessels are not publicly tracked, with much of that fishing around Africa and south Asia, and more than 25 percent of transport and energy vessel activity is missing from public tracking. Not all boats are legally required to broadcast their position; the monitoring is freely available to all nations."
+    },
+    {
+     "title": "National Geographic Pristine Seas (EurekAlert), New research: Satellite imagery detects illegal fishing activity, shows strict protections work, July 2025",
+     "url": "https://www.eurekalert.org/news-releases/1091617",
+     "finding": "Raynor et al., 'Little-to-no industrial fishing occurs in fully and highly protected marine areas', Science: of 1,380 marine protected areas studied, 78.5% recorded no commercial fishing; among those where satellites detected illegal fishing, 82% averaged under 24 hours of it a year; strongly protected areas had nine times fewer fishing vessels per square kilometre than unprotected coastal areas. About five billion AIS positions were paired with radar images, and AI models developed by Global Fishing Watch detected most fishing vessels over 15 metres, including those not broadcasting their location."
+    },
+    {
+     "title": "UC Santa Barbara, The Current, Satellites show that strictly protected marine areas exclude industrial fishing, July 2025",
+     "url": "https://news.ucsb.edu/2025/021965/satellites-show-strictly-protected-marine-areas-exclude-industrial-fishing",
+     "finding": "Radar imagery analysed with AI found dark vessels absent from AIS, which missed almost 90% of the vessels detected by radar. The study does not establish why fishing is absent: further research is needed to tell whether protected areas exclude vessels or were designated where fishing demand is low. Lead author Jennifer Raynor suggests satellite tracking can help countries predict illegal activity and target patrols, and that resource-limited nations could partner with nonprofits such as Global Fishing Watch."
+    },
+    {
+     "title": "Seguin, Le Manach, Devillers, Velez and Mouillot, Global patterns and drivers of untracked industrial fishing in coastal marine protected areas, Science 2025",
+     "url": "https://www.documentation.ird.fr/hor/fdi:010094403",
+     "finding": "Combining vessel GPS data with satellite imagery, the authors detected industrial fishing in 47% of coastal marine protected areas worldwide from 2022 to 2024; two-thirds of detected vessels did not appear in public monitoring systems, rising to 80% in the strictest management category. Counting untracked vessels raised estimated fishing effort inside the areas by 28%, and vessel presence depended mainly on an area's size and remoteness, not its management category."
+    },
+    {
+     "title": "NPR (Alabama Public Radio), New technology shows how illegal fishing has impacted oceans across the world, July 2025",
+     "url": "https://www.apr.org/2025-07-26/new-technology-shows-how-illegal-fishing-has-impacted-oceans-across-the-world",
+     "finding": "Raynor's team found almost 80% of protected areas had no industrial fishing; Raphael Seguin's study looked at a larger group of protected areas that still allow some fishing and found industrial fishing in about half of them, two-thirds of it untracked. Seguin said the satellite technology could help enforcement by tracking illegal fishing in real time."
+    }
+   ],
+   "theme": "world",
+   "stage": "emerging",
+   "limiters": [
+    {
+     "limit": "Small vessels go unseen",
+     "kind": "technical",
+     "evidence": "The AI models used in one 2025 study detect most fishing vessels over 15 metres, not every vessel.",
+     "ref": {
+      "title": "National Geographic Pristine Seas (EurekAlert), New research: Satellite imagery detects illegal fishing activity, shows strict protections work, July 2025",
+      "url": "https://www.eurekalert.org/news-releases/1091617",
+      "finding": "Raynor et al., 'Little-to-no industrial fishing occurs in fully and highly protected marine areas', Science: of 1,380 marine protected areas studied, 78.5% recorded no commercial fishing; among those where satellites detected illegal fishing, 82% averaged under 24 hours of it a year; strongly protected areas had nine times fewer fishing vessels per square kilometre than unprotected coastal areas. About five billion AIS positions were paired with radar images, and AI models developed by Global Fishing Watch detected most fishing vessels over 15 metres, including those not broadcasting their location."
+     }
+    },
+    {
+     "limit": "A hidden vessel is not proof of a crime",
+     "kind": "evidence",
+     "evidence": "Not all boats are legally required to broadcast their position, so a vessel missing from public tracking is not by itself fishing illegally.",
+     "ref": {
+      "title": "Global Fishing Watch, New research harnesses AI and satellite imagery to reveal the expanding footprint of human activity at sea, January 2024",
+      "url": "https://globalfishingwatch.org/press-release/new-research-harnesses-ai-and-satellite-imagery-to-reveal-the-expanding-footprint-of-human-activity-at-sea/",
+      "finding": "A study in Nature by researchers at Global Fishing Watch, the University of Wisconsin-Madison, Duke, UC Santa Barbara and SkyTruth combined vessel GPS data with five years (2017 to 2021) of radar and optical satellite imagery, 2 million gigabytes, and used machine learning to judge which vessels were likely fishing. About 75 percent of the world's industrial fishing vessels are not publicly tracked, with much of that fishing around Africa and south Asia, and more than 25 percent of transport and energy vessel activity is missing from public tracking. Not all boats are legally required to broadcast their position; the monitoring is freely available to all nations."
+     }
+    },
+    {
+     "limit": "Seeing boats does not remove them",
+     "kind": "governance",
+     "evidence": "Satellites detected industrial fishing in 47% of coastal protected areas from 2022 to 2024, and untracked vessels made up 80% of detections in the strictest category.",
+     "ref": {
+      "title": "Seguin, Le Manach, Devillers, Velez and Mouillot, Global patterns and drivers of untracked industrial fishing in coastal marine protected areas, Science 2025",
+      "url": "https://www.documentation.ird.fr/hor/fdi:010094403",
+      "finding": "Combining vessel GPS data with satellite imagery, the authors detected industrial fishing in 47% of coastal marine protected areas worldwide from 2022 to 2024; two-thirds of detected vessels did not appear in public monitoring systems, rising to 80% in the strictest management category. Counting untracked vessels raised estimated fishing effort inside the areas by 28%, and vessel presence depended mainly on an area's size and remoteness, not its management category."
+     }
+    }
+   ],
+   "enablers": [
+    {
+     "action": "Make vessel detections free to every nation",
+     "actor": "Global Fishing Watch",
+     "status": "in force",
+     "counters": null,
+     "evidence": "The satellite monitoring behind the 2024 study is freely available to all nations, with its datasets and code published.",
+     "ref": {
+      "title": "Global Fishing Watch, New research harnesses AI and satellite imagery to reveal the expanding footprint of human activity at sea, January 2024",
+      "url": "https://globalfishingwatch.org/press-release/new-research-harnesses-ai-and-satellite-imagery-to-reveal-the-expanding-footprint-of-human-activity-at-sea/",
+      "finding": "A study in Nature by researchers at Global Fishing Watch, the University of Wisconsin-Madison, Duke, UC Santa Barbara and SkyTruth combined vessel GPS data with five years (2017 to 2021) of radar and optical satellite imagery, 2 million gigabytes, and used machine learning to judge which vessels were likely fishing. About 75 percent of the world's industrial fishing vessels are not publicly tracked, with much of that fishing around Africa and south Asia, and more than 25 percent of transport and energy vessel activity is missing from public tracking. Not all boats are legally required to broadcast their position; the monitoring is freely available to all nations."
+     }
+    },
+    {
+     "action": "Send real-time fishing alerts to patrols",
+     "actor": "coast guards",
+     "status": "in force",
+     "counters": "Seeing boats does not remove them",
+     "evidence": "In one case reported by the platform that issued the alerts, Argentina's Coast Guard redirected a nearby vessel after speed and fishing alerts on a foreign fishing vessel inside its exclusive economic zone, and the vessel paid the fine and operational costs.",
+     "ref": {
+      "title": "Skylight (Allen Institute for AI), Real-Time Intelligence Powers Argentina's Fight Against Illegal Fishing, 2025",
+      "url": "https://skylight.global/news/argentina-success-story",
+      "finding": "A speed alert flagged the Vanuatu-flagged XINRUN 579 sailing under 6 knots inside Argentina's exclusive economic zone, a speed local rules associate with trawling, and a fishing alert followed about 40 minutes later; analysts redirected a nearby Coast Guard vessel, the vessel was intercepted, and it paid the fine and the authorities' operational costs. The account comes from the platform that issued the alerts."
+     }
+    },
+    {
+     "action": "Target patrols where satellites predict poaching",
+     "actor": "governments",
+     "status": "proposed",
+     "counters": "Seeing boats does not remove them",
+     "evidence": "The lead author of one 2025 study suggests countries use satellite tracking to predict illegal activity and target patrols, with resource-limited nations partnering with nonprofits such as Global Fishing Watch.",
+     "ref": {
+      "title": "UC Santa Barbara, The Current, Satellites show that strictly protected marine areas exclude industrial fishing, July 2025",
+      "url": "https://news.ucsb.edu/2025/021965/satellites-show-strictly-protected-marine-areas-exclude-industrial-fishing",
+      "finding": "Radar imagery analysed with AI found dark vessels absent from AIS, which missed almost 90% of the vessels detected by radar. The study does not establish why fishing is absent: further research is needed to tell whether protected areas exclude vessels or were designated where fishing demand is low. Lead author Jennifer Raynor suggests satellite tracking can help countries predict illegal activity and target patrols, and that resource-limited nations could partner with nonprofits such as Global Fishing Watch."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "Brazil's DETER satellite deforestation alerts",
+     "year": 2004,
+     "parallel": "Near-real-time alerts from satellite imagery let a government with weak enforcement aim its inspectors at illegal activity across a vast area.",
+     "outcome": "Using clouds that blocked detection as a natural experiment, one study of 2006 to 2016 found monitoring and enforcement curbed Amazon deforestation, avoiding the clearing of an average of 27 thousand square kilometres of forest a year, without pushing clearing into neighbouring areas.",
+     "ref": {
+      "title": "Assunção, Gandour and Rocha, DETERring Deforestation in the Amazon: Environmental Monitoring and Law Enforcement, Climate Policy Initiative Working Paper 003, 2019",
+      "url": "https://www.climatepolicyinitiative.org/wp-content/uploads/2021/12/WP003-DETERing-Deforestation-in-the-Amazon.pdf",
+      "finding": "DETER, in use since 2004, processes satellite imagery and issues near-real-time deforestation alerts to target environmental enforcement in the Amazon. Using clouds that limit its detection as an instrument across 2006 to 2016, the authors find monitoring and enforcement curbed deforestation, avoiding the clearing of an average of 27 thousand square kilometres of forest a year, with results not driven by displacement into neighbouring areas."
+     }
+    }
+   ]
   }
  ],
  "links": [
