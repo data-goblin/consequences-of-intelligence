@@ -15785,17 +15785,17 @@
    "probability": 0.6,
    "year": 2025,
    "evidence": "reported",
-   "summary": "US schools use AI software that scans what students write and search on school devices, and camera systems that look for guns, and many of the alerts are false. Gaggle, used by about 1,500 districts to track about 6 million students, alerted staff in Vancouver, Washington about nearly 2,200 students, about 10% of enrollment, in one year; an AP and Seattle Times investigation found many of those alerts were false alarms, screenshots that potentially outed at least six students for writing about being gay or transgender, and almost 3,500 sensitive student documents released to reporters without password protection[1]. In Lawrence, Kansas, almost two-thirds of more than 1,200 Gaggle alerts in 10 months were judged nonissues and more than 200 were set off by homework, and students sued the district in August 2025 over searches of their files and their free speech; in Tennessee a 13-year-old girl was arrested after a flagged school chat[2]. In October 2025 police handcuffed and searched a Baltimore County student after an AI gun detection system flagged his bag of chips, although the school's security staff had already cancelled the alert[3]. The FTC found that one AI weapons scanner used in over 800 schools missed a seven-inch knife later used to stab a student[4], and a court entered its order against the maker in December 2024[5]. No independent research shows the monitoring software reduces suicide or violence, though officials believe it has saved lives and one student who was potentially being trafficked used it to ask for help[1].",
+   "summary": "US schools use AI software that scans what students write and search on school devices, and camera and scanner systems that look for weapons, and many of the alerts are false. Gaggle, used by about 1,500 districts to track about 6 million students, alerted staff in Vancouver, Washington about nearly 2,200 students, about 10% of enrollment, in one year; an AP and Seattle Times investigation found many of those alerts were false alarms, and that the district accidentally released almost 3,500 sensitive student documents to reporters without password protection, screenshots that potentially outed at least six students for writing about being gay or transgender[1]. In Lawrence, Kansas, almost two-thirds of more than 1,200 Gaggle alerts in 10 months were judged nonissues and more than 200 were set off by homework, and students sued the district in August 2025 over searches of their files and their free speech; in Tennessee a 13-year-old girl at a school that uses Gaggle was arrested over messages in a chat tied to her school email[2]. Lawrence later switched to ManagedMethods, a similar tool, and in April 2026 a federal judge let the students' First and Fourth Amendment claims against the district go ahead, ruling that the switch alone did not end the case[6]. In October 2025 police handcuffed and searched a Baltimore County, Maryland student after an AI gun detection system flagged his bag of chips, although the school's security staff had already cancelled the alert[3]. The FTC alleged that Evolv overstated what its AI weapons scanners, used in over 800 schools, could detect; they reportedly missed a seven-inch knife later used to stab a student[4]. A federal judge had approved the settlement by mid-December 2024, and in one Illinois district Evolv scans between August 2023 and April 2024 produced more than 85,000 false positive alerts on laptops while five knives were recovered[5]. No independent research shows the monitoring software reduces suicide or violence, though officials believe it has saved lives and one student who was potentially being trafficked used it to ask for help[1].",
    "refs": [
     {
-     "title": "Associated Press and The Seattle Times, Schools use AI to monitor kids, hoping to prevent violence. Our investigation found security risks, March 2025",
+     "title": "Associated Press and The Seattle Times (Sharon Lurye, Claire Bryan), Schools use AI to monitor kids, hoping to prevent violence. Our investigation found security risks, March 2025",
      "url": "https://www.wsls.com/tech/2025/03/12/schools-use-ai-to-monitor-kids-hoping-to-prevent-violence-our-investigation-found-security-risks/",
-     "finding": "About 1,500 US districts use Gaggle, AI-powered software that tracks roughly 6 million students on school devices. From October 2023 to October 2024 nearly 2,200 Vancouver, Washington students, about 10% of enrollment, were the subject of an alert; many alerts were false alarms, such as an essay about consent. A records request gave reporters almost 3,500 sensitive, unredacted student documents with no password or firewall, and the screenshots potentially outed at least six students to school officials after they wrote about being gay, transgender or struggling with gender dysphoria. There is no independent research showing the tools measurably lower student suicide or violence; a 2023 RAND study found scant evidence of benefits or risks, officials believe the tools have saved lives, and one student who was potentially being trafficked used Gaggle to ask staff for help. Durham, North Carolina's Board of Education voted to stop using Gaggle in 2023, judging it not worth the risk of outing students, after an advocate told the board a self-harm alert had outed a student to unsupportive family."
+     "finding": "About 1,500 US districts use Gaggle, AI-powered software that tracks roughly 6 million students on school devices. From October 2023 to October 2024 nearly 2,200 Vancouver, Washington students, about 10% of enrollment, were the subject of a Gaggle alert; many alerts turned out to be false alarms, such as a student essay about consent. Through a records request, school officials accidentally gave reporters links to almost 3,500 sensitive, unredacted student documents that were not password protected, and in those screenshots at least six students were potentially outed to school officials after writing about being gay, transgender or struggling with gender dysphoria. A 2023 RAND study found only scant evidence of benefits or risks; officials say they do not track efficacy but believe the tools have saved lives, and a Highline School District middle schooler who was potentially being trafficked used Gaggle to communicate with staff. Durham, North Carolina's Board of Education voted in 2023 to stop using Gaggle, judging it not worth the risk of outing students or eroding relationships with adults, after an LGBTQ+ advocate reported that a self-harm alert had outed a student to a family that was not supportive."
     },
     {
      "title": "Lawrence Journal-World, Lawrence school district sued in federal court for use of AI-powered surveillance system; students claim Gaggle results in illegal searches, August 2025",
      "url": "https://www2.ljworld.com/news/schools/2025/aug/07/lawrence-school-district-sued-in-federal-court-for-use-of-ai-powered-surveillance-system-students-claim-gaggle-results-in-illegal-searches/",
-     "finding": "Nine current and former students sued the Lawrence, Kansas school district in federal court, claiming its 2023 decision to use Gaggle violates their First Amendment rights and results in illegal searches and seizures of their files. An AP analysis of public records found Gaggle flagged more than 1,200 incidents in a recent 10-month period, almost two-thirds deemed nonissues by school officials and more than 200 false alarms triggered by homework; officials later adjusted settings to reduce false alerts. In a separate Tennessee case a 13-year-old girl was arrested after a Gaggle-monitored school email chat was flagged."
+     "finding": "Nine current and former students sued the Lawrence, Kansas school district in federal court, claiming its use of Gaggle, adopted in 2023, violates their First Amendment rights and results in illegal searches and seizures of their files. Gaggle alerted the district to more than 1,200 incidents in a recent 10-month period; school officials deemed almost two-thirds nonissues, and more than 200 were false alarms from student homework. Officials said they adjusted the settings to reduce false alerts. In Tennessee a 13-year-old girl at Fairview Middle School, which uses Gaggle to monitor student accounts, was arrested in August 2023 over messages in a chat tied to her school email, strip-searched and held overnight."
     },
     {
      "title": "TechCrunch, High school's AI security system confuses Doritos bag for a possible firearm, October 2025",
@@ -15805,30 +15805,35 @@
     {
      "title": "Federal Trade Commission, FTC Takes Action Against Evolv Technologies for Deceiving Users About its AI-Powered Security Screening Systems, November 2024",
      "url": "https://www.ftc.gov/news-events/news/press-releases/2024/11/ftc-takes-action-against-evolv-technologies-deceiving-users-about-its-ai-powered-security-screening",
-     "finding": "The FTC alleges Evolv falsely claimed its AI-powered Express scanners would detect all weapons and ignore harmless items. The scanners reportedly failed to detect a seven-inch knife brought into a school in October 2022 and used to stab a student; raising sensitivity afterwards produced a 50% false alarm rate, and they flagged laptops, binders and water bottles. The scanners are in over 800 schools in 40 states. The order bars Evolv from misrepresenting weapon detection, accuracy and false alarm rates and requires it to let certain K-12 customers that signed contracts between 1 April 2022 and 30 June 2023 cancel them."
+     "finding": "The FTC alleges Evolv deceptively advertised that its AI-powered Express scanners would detect all weapons and ignore harmless items. The scanners reportedly failed to detect a seven-inch knife brought into a school in October 2022 and used to stab a student; raising sensitivity afterwards prompted a 50% false alarm rate, and the scanners flagged laptops, binders and water bottles. The scanners are in over 800 schools in 40 states. The proposed order bars Evolv from misrepresenting weapon detection, false alarm rates and AI performance and requires it to tell certain K-12 customers that signed contracts between 1 April 2022 and 30 June 2023 that they can cancel."
     },
     {
-     "title": "US District Court for the District of Massachusetts, FTC v. Evolv Technologies Holdings, Stipulated Order for Permanent Injunction and Other Relief, December 2024",
-     "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/19ORDERenteredgranting2MOTIONforSettlementTOAPPROVEPROPOSEDSTIPULATEDORDER.pdf",
-     "finding": "In case 1:24-cv-12940, the stipulated order for permanent injunction, which orders Evolv to send a notice to customers, was so ordered on 5 December 2024 by Magistrate Judge Paul G. Levenson."
+     "title": "NBC 5 Investigates (NBC Chicago), Settlement approved with weapons detector company FTC alleged deceived customers, December 2024",
+     "url": "https://www.nbcchicago.com/investigations/settlement-approved-evolv-weapons-detector-company-ftc/3623124/",
+     "finding": "A federal judge in Massachusetts approved the FTC's settlement with Evolv, which admitted no wrongdoing; it bars certain marketing claims and lets eligible K-12 customers that contracted between April 2022 and June 2023 cancel, with exclusions for trial users and large buyers. In the Rockford, Illinois school district, data shared with NBC 5 showed five knives recovered but more than 85,000 false positive alerts on laptops in scans between August 2023 and April 2024."
+    },
+    {
+     "title": "The Lawrence Times, Lawrence school district must answer record requests from plaintiffs in AI surveillance lawsuit, judge rules, April 2026",
+     "url": "https://lawrencekstimes.com/2026/04/09/usd497-must-comply-records-gaggle-case/",
+     "finding": "Federal judge Kathryn Vratil granted the district's motion to dismiss in part: the school board and two Lawrence High administrators were dropped as defendants and claims of students who had graduated were dismissed. She ruled that the district's switch from Gaggle to ManagedMethods, a similar vendor with nearly identical capabilities, does not give it immunity, writing that other than the switch the defendants have not ceased or altered their challenged behaviour, so the First and Fourth Amendment claims continue against the district. She also ruled for the students on their open records requests."
     }
    ],
    "theme": "power",
    "stage": "active",
    "control": "mitigable",
    "price_of": [],
-   "control_note": "Schools buy these tools to catch threats and self-harm early, and the software errs towards flagging, so harmless writing and objects set off alerts that can reach police. Narrower settings, human review that actually stops a response, and locking flagged screenshots behind logins reduce the harm, but no independent research shows the tools prevent suicide or violence.",
+   "control_note": "Schools buy these tools to catch threats and self-harm early, and the software errs towards flagging, so harmless writing and objects set off alerts that can reach police. Narrower settings, human review that actually stops a response, and locking flagged screenshots behind logins reduce the harm, but no independent research shows the monitoring tools prevent suicide or violence.",
    "actions": [
     {
      "action": "Bar unsupported accuracy claims for AI weapons scanners",
      "actor": "regulators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "Under an FTC order, Evolv may not misrepresent its scanners' weapon detection or false alarm rates and must let some K-12 customers that signed between April 2022 and June 2023 cancel their contracts; it covers one company.",
+     "evidence": "Under an FTC settlement that a federal judge had approved by mid-December 2024, Evolv may not make certain claims about its scanners' ability to detect weapons or ignore harmless items and must let eligible K-12 customers that contracted between April 2022 and June 2023 cancel; it covers one company.",
      "ref": {
-      "title": "Federal Trade Commission, FTC Takes Action Against Evolv Technologies for Deceiving Users About its AI-Powered Security Screening Systems, November 2024",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2024/11/ftc-takes-action-against-evolv-technologies-deceiving-users-about-its-ai-powered-security-screening",
-      "finding": "The FTC alleges Evolv falsely claimed its AI-powered Express scanners would detect all weapons and ignore harmless items. The scanners reportedly failed to detect a seven-inch knife brought into a school in October 2022 and used to stab a student; raising sensitivity afterwards produced a 50% false alarm rate, and they flagged laptops, binders and water bottles. The scanners are in over 800 schools in 40 states. The order bars Evolv from misrepresenting weapon detection, accuracy and false alarm rates and requires it to let certain K-12 customers that signed contracts between 1 April 2022 and 30 June 2023 cancel them."
+      "title": "NBC 5 Investigates (NBC Chicago), Settlement approved with weapons detector company FTC alleged deceived customers, December 2024",
+      "url": "https://www.nbcchicago.com/investigations/settlement-approved-evolv-weapons-detector-company-ftc/3623124/",
+      "finding": "A federal judge in Massachusetts approved the FTC's settlement with Evolv, which admitted no wrongdoing; it bars certain marketing claims and lets eligible K-12 customers that contracted between April 2022 and June 2023 cancel, with exclusions for trial users and large buyers. In the Rockford, Illinois school district, data shared with NBC 5 showed five knives recovered but more than 85,000 false positive alerts on laptops in scans between August 2023 and April 2024."
      }
     },
     {
@@ -15836,11 +15841,11 @@
      "actor": "school boards",
      "status": "in force",
      "aim": "probability",
-     "evidence": "Durham, North Carolina's Board of Education voted in 2023 to stop using Gaggle, judging it not worth the risk of outing students, after an advocate told the board a self-harm alert had outed a student to unsupportive family.",
+     "evidence": "Durham, North Carolina's Board of Education voted in 2023 to stop using Gaggle, judging it not worth the risk of outing students or eroding relationships with adults, after an LGBTQ+ advocate reported that a self-harm alert had outed a student to a family that was not supportive.",
      "ref": {
-      "title": "Associated Press and The Seattle Times, Schools use AI to monitor kids, hoping to prevent violence. Our investigation found security risks, March 2025",
+      "title": "Associated Press and The Seattle Times (Sharon Lurye, Claire Bryan), Schools use AI to monitor kids, hoping to prevent violence. Our investigation found security risks, March 2025",
       "url": "https://www.wsls.com/tech/2025/03/12/schools-use-ai-to-monitor-kids-hoping-to-prevent-violence-our-investigation-found-security-risks/",
-      "finding": "About 1,500 US districts use Gaggle, AI-powered software that tracks roughly 6 million students on school devices. From October 2023 to October 2024 nearly 2,200 Vancouver, Washington students, about 10% of enrollment, were the subject of an alert; many alerts were false alarms, such as an essay about consent. A records request gave reporters almost 3,500 sensitive, unredacted student documents with no password or firewall, and the screenshots potentially outed at least six students to school officials after they wrote about being gay, transgender or struggling with gender dysphoria. There is no independent research showing the tools measurably lower student suicide or violence; a 2023 RAND study found scant evidence of benefits or risks, officials believe the tools have saved lives, and one student who was potentially being trafficked used Gaggle to ask staff for help. Durham, North Carolina's Board of Education voted to stop using Gaggle in 2023, judging it not worth the risk of outing students, after an advocate told the board a self-harm alert had outed a student to unsupportive family."
+      "finding": "About 1,500 US districts use Gaggle, AI-powered software that tracks roughly 6 million students on school devices. From October 2023 to October 2024 nearly 2,200 Vancouver, Washington students, about 10% of enrollment, were the subject of a Gaggle alert; many alerts turned out to be false alarms, such as a student essay about consent. Through a records request, school officials accidentally gave reporters links to almost 3,500 sensitive, unredacted student documents that were not password protected, and in those screenshots at least six students were potentially outed to school officials after writing about being gay, transgender or struggling with gender dysphoria. A 2023 RAND study found only scant evidence of benefits or risks; officials say they do not track efficacy but believe the tools have saved lives, and a Highline School District middle schooler who was potentially being trafficked used Gaggle to communicate with staff. Durham, North Carolina's Board of Education voted in 2023 to stop using Gaggle, judging it not worth the risk of outing students or eroding relationships with adults, after an LGBTQ+ advocate reported that a self-harm alert had outed a student to a family that was not supportive."
      }
     }
    ],
@@ -15865,12 +15870,12 @@
    "probability": 0.55,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Generative AI helps people apply for and hold remote jobs under false identities. Okta observed North Korean IT worker schemes using AI services to translate and transcribe communications, write and critique CVs and cover letters, run mock interviews and test applications against automated checks, and said individuals strongly suspected to be North Korean personas have been recorded using real-time deepfake video in interviews, though it infers these uses because it cannot see past the login page[1]. CrowdStrike said the North Korea-linked group it calls FAMOUS CHOLLIMA infiltrated over 320 companies in the 12 months before its August 2025 report, a 220% year-over-year increase, using generative AI at every stage of hiring and employment[2]. Microsoft observed such workers using AI tools such as Faceswap to put their pictures on stolen identity documents, and using voice-changing software[3]. In June 2025 US prosecutors announced searches of 29 known or suspected laptop farms across 16 states in schemes that obtained remote jobs at more than 100 US companies[4]. In 2024 the security firm KnowBe4 hired a North Korean fake IT worker who used a stolen US identity and an AI-enhanced photo and passed several video interviews; the company laptop began loading malware on arrival and was contained the same evening with no data lost[5]. Beyond North Korea, 6% of 3,000 job candidates in one Gartner survey said they had taken part in interview fraud, and Gartner predicts 1 in 4 candidate profiles worldwide could be fake by 2028[6]. The schemes predate generative AI: the US government found that over 300 US companies unknowingly employed North Korean IT workers between 2020 and 2022[3].",
+   "summary": "Generative AI helps people apply for and hold remote jobs under false identities. Okta observed North Korean IT worker schemes using AI services to translate and transcribe communications, write and critique CVs and cover letters, run mock interviews and test applications against automated checks, and said individuals strongly suspected to be North Korean personas have been recorded using real-time deepfake video in interviews, though it infers these uses because it cannot see past the login page[1]. CrowdStrike said the North Korea-linked group it calls FAMOUS CHOLLIMA infiltrated over 320 companies in the 12 months before its August 2025 report, a 220% year-over-year increase, using generative AI at every stage of hiring and employment[2]. Microsoft observed such workers using AI tools such as Faceswap to put their pictures on stolen identity documents, and using voice-changing software[3]. In June 2025 US prosecutors announced searches of 29 known or suspected laptop farms across 16 states in schemes that obtained remote jobs at more than 100 US companies[4]. In October 2026 the Justice Department announced charges against 14 people and FBI searches of over 40 Texas residences suspected of being laptop farms, in schemes including one that affected more than 70 US employers[7]; neither Justice Department release says the workers used AI[4][7]. CrowdStrike, which helped the FBI disrupt laptop farms in September 2026, expects such takedowns to slow the group only in the immediate areas[8]. In 2024 the security firm KnowBe4 hired a North Korean fake IT worker who used a stolen US identity and an AI-enhanced photo and passed four video interviews; the company laptop began loading malware as soon as it arrived, and the security team contained it about 25 minutes after spotting suspicious activity, with no data lost[5]. Beyond North Korea, 6% of 3,000 job candidates in one Gartner survey said they had taken part in interview fraud, and Gartner predicts 1 in 4 candidate profiles worldwide could be fake by 2028[6]. The schemes predate generative AI: the US government found that over 300 US companies unknowingly employed North Korean IT workers between 2020 and 2022[3].",
    "refs": [
     {
      "title": "Okta Threat Intelligence, How AI services power the DPRK's IT contracting scams, April 2025",
      "url": "https://sec.okta.com/articles/2025/04/GenAIDPRK/",
-     "finding": "Generative AI plays an integral role in how North Korean nationals obtain remote technical jobs: it helps build personas at many stages of applications and interviews and, once hired, helps workers hold several roles at once. Okta observed AI-enhanced services used to manage the email and phone communications of multiple personas, translate, transcribe and summarise communications, generate and critique CVs and cover letters, conduct mock job interviews and test applications against automated checks. In recent months individuals strongly suspected to be DPRK-created personas have been recorded using real-time deepfake video during interviews. Okta cannot observe the facilitators' activities beyond the login page, so the use cases are inferred. It recommends identity verification in key processes and detecting unauthorised remote management tools."
+     "finding": "Generative AI plays an integral role in how North Korean nationals obtain remote technical jobs and, once hired, helps them maintain multiple simultaneous roles. Okta observed AI-enhanced services used to manage many mobile phone, instant messaging and email accounts for multiple personas, give real-time translation of voice and text, transcribe and summarise communications, generate and critique CVs and cover letters, conduct mock job interviews via chat and webcam and test CVs against applicant tracking software. In recent months individuals strongly suspected to be DPRK-created personas have been recorded using real-time deepfake video during interviews. Okta cannot observe the facilitators' activities beyond the login page, so the use cases are inferred. It recommends identity verification in key business processes, staff training and detecting unauthorised remote management tools."
     },
     {
      "title": "CrowdStrike, CrowdStrike 2025 Threat Hunting Report: AI Becomes a Weapon and a Target, August 2025",
@@ -15880,7 +15885,7 @@
     {
      "title": "Microsoft Threat Intelligence, Jasper Sleet: North Korean remote IT workers' evolving tactics to infiltrate organizations, June 2025",
      "url": "https://www.microsoft.com/en-us/security/blog/2025/06/30/jasper-sleet-north-korean-remote-it-workers-evolving-tactics-to-infiltrate-organizations/",
-     "finding": "Microsoft observed North Korean remote IT workers leveraging AI to improve the scale and sophistication of their operations, using AI tools such as Faceswap to move their pictures onto stolen employment and identity documents, enhancing their photos and using voice-changing software. It suspended 3,000 known Outlook and Hotmail accounts created by these workers. The US government found that over 300 US companies, including several Fortune 500 companies, unknowingly employed such workers between 2020 and 2022. Microsoft recommends stricter pre-employment vetting, having candidates hold identity documents up to the camera, seeing them on camera across multiple sessions, treating video or microphone problems as a red flag, and notarised proof of identity, and notes that deepfakes can show artifacts, fail on partly obscured faces and lag between lip movement and speech."
+     "finding": "Microsoft observed North Korean remote IT workers using AI tools such as Faceswap to move their pictures onto stolen employment and identity documents, using AI to enhance their photos so they look more professional, and using voice-changing software. It suspended 3,000 known Outlook and Hotmail accounts created by these workers. The US government found that over 300 US companies in multiple industries, including several Fortune 500 companies, unknowingly employed such workers between 2020 and 2022. Microsoft recommends stricter pre-employment vetting, having candidates hold identity documents up to the camera, seeing them on camera across multiple video sessions, treating video or microphone problems as a red flag, and notarised proof of identity, and notes that deepfakes can show artifacts, fail on partly obscured faces and lag between lip movement and speech."
     },
     {
      "title": "US Department of Justice, Justice Department Announces Coordinated, Nationwide Actions to Combat North Korean Remote Information Technology Workers' Illicit Revenue Generation Schemes, June 2025",
@@ -15890,12 +15895,22 @@
     {
      "title": "KnowBe4, How a North Korean Fake IT Worker Tried to Infiltrate Us, July 2024",
      "url": "https://blog.knowbe4.com/how-a-north-korean-fake-it-worker-tried-to-infiltrate-us",
-     "finding": "KnowBe4 hired a software engineer after background checks, references and several video interviews; the person was a real person using a valid but stolen US-based identity with an AI-enhanced photo, and the background check came back clear because of the stolen identity. The company laptop immediately started to load malware on arrival; on 15 July 2024 suspicious activity began at 9:55pm EST and the security team contained the device at around 10:20pm. No illegal access was gained and no data was lost."
+     "finding": "KnowBe4 hired a principal software engineer for its internal IT AI team after four video interviews and a background check that came back clear; the person was a real person using a valid but stolen US-based identity with an AI-enhanced stock photo. The company Mac workstation started to load malware the moment it was received; on 15 July 2024 suspicious activity began at 9:55pm EST and the security team contained the device at around 10:20pm. No illegal access was gained and no data was lost."
     },
     {
      "title": "HR Dive, By 2028, 1 in 4 candidate profiles will be fake, Gartner predicts, August 2025",
      "url": "https://www.hrdive.com/news/fake-job-candidates-ai/757126/",
-     "finding": "In a Gartner survey of 3,000 job candidates, 6% said they had participated in interview fraud, either by posing as someone else or having someone else pretend to be them, and 4 in 10 said they use AI during the application process. Gartner's 31 July 2025 report says 1 in 4 candidate profiles worldwide could be fake by 2028, a prediction rather than a measurement."
+     "finding": "In a Gartner survey of 3,000 job candidates, 6% said they had participated in interview fraud, either by posing as someone else or having someone else pretend to be them, and 4 in 10 candidates said they use AI during the application process. Gartner's 31 July 2025 report says 1 in 4 candidate profiles worldwide could be fake by 2028, a prediction rather than a measurement."
+    },
+    {
+     "title": "US Department of Justice, Justice Department Announces Coordinated Actions to Combat North Korean Remote IT Worker Schemes Affecting More than 70 U.S. Companies, October 2026",
+     "url": "https://www.justice.gov/opa/pr/justice-department-announces-coordinated-actions-combat-north-korean-remote-it-worker",
+     "finding": "Announced on 13 October 2026: charges against 14 individuals, two arrests, and FBI searches and other law enforcement action at over 40 residences in Texas suspected of being laptop farms between 21 and 25 September (Operation Lonestar Roundup), seizing about 187 laptops and KVM devices. The Ohio scheme impacted more than 70 US company employers and generated about $3 million in revenue for IT workers using stolen or fabricated identity documents. The release does not mention AI or deepfakes."
+    },
+    {
+     "title": "CrowdStrike Counter Adversary Operations, U.S. Government Disrupts FAMOUS CHOLLIMA Operation with CrowdStrike Assistance, October 2026",
+     "url": "https://www.crowdstrike.com/en-us/blog/fbi-disrupts-famous-chollima-operation-with-crowdstrike-assistance/",
+     "finding": "CrowdStrike worked with the FBI in late September 2026 to disrupt several laptop farms across the US used by FAMOUS CHOLLIMA, spanning dozens of victim organisations in sectors such as aerospace, energy, financial services, healthcare and defence engineering. It says disrupting a laptop farm will likely have only a limited impact on the group and slow its operations only in the immediate areas, and that its US operations are ongoing."
     }
    ],
    "theme": "security",
@@ -15904,7 +15919,7 @@
    "price_of": [
     "translation"
    ],
-   "control_note": "Remote hiring relies on documents, photos, CVs and video calls that generative AI can now fake or polish, and a single fake hire gets insider access to company systems. Repeated on-camera identity checks, notarised proof of identity and watching company laptops for unauthorised remote-access tools reduce the risk, and prosecuting the people who host laptop farms removes some of the infrastructure, but each check costs employers time.",
+   "control_note": "Remote hiring relies on documents, photos, CVs and video calls that generative AI can now fake or polish, and a single fake hire gets insider access to company systems. Repeated on-camera identity checks, notarised proof of identity and watching company laptops for unauthorised remote-access tools reduce the risk, and prosecuting the people who host laptop farms removes some of the infrastructure, though the security firm that helped one takedown expects only local effects, and each check costs employers time.",
    "actions": [
     {
      "action": "Prosecute the people who run laptop farms",
@@ -15933,14 +15948,14 @@
    ],
    "precedents": [
     {
-     "event": "US warning on North Korean IT workers",
+     "event": "US advisory on North Korean IT workers",
      "year": 2022,
-     "parallel": "Before generative AI tools were widespread, the same workers already won remote contracts under false identities, and the check officials recommended was a video interview, which real-time deepfakes now target.",
-     "outcome": "The State Department, Treasury and FBI warned that North Korea dispatches thousands of IT workers who pose as US-based or non-North Korean teleworkers and prefer text chat to video calls, and advised companies to verify identity with video interviews.",
+     "parallel": "Before generative AI tools were widespread, the same scheme already placed workers in remote jobs under false identities, and one check officials recommended was a video interview, which real-time deepfakes now target.",
+     "outcome": "In May 2022 the State Department, Treasury and FBI warned that North Korean IT workers pose as non-North Korean nationals to get jobs abroad, listed red flags such as logins from many IP addresses and inconsistent profile details, and advised firms to verify documents, run background or biometric checks and confirm identity with a video interview.",
      "ref": {
-      "title": "US Department of State, US Department of the Treasury and FBI, Guidance on the Democratic People's Republic of Korea Information Technology Workers, May 2022",
-      "url": "https://ofac.treasury.gov/media/923126/download",
-      "finding": "The DPRK dispatches thousands of highly skilled IT workers around the world who in many cases represent themselves as US-based or non-North Korean teleworkers; some individually earn more than $300,000 a year and teams more than $3 million. They rely on the anonymity of telework and favour text-based chat instead of video calls, and the advisory recommends that companies hiring freelance developers conduct video interviews to verify identity."
+      "title": "Baker McKenzie Sanctions and Export Controls Update (Kerry B. Contini, Lise S. Test), The US Government Publishes Advisory on North Korean IT Workers, May 2022",
+      "url": "https://sanctionsnews.bakermckenzie.com/the-us-government-publishes-advisory-on-north-korean-it-workers/",
+      "finding": "On 16 May 2022 the US Departments of State and Treasury and the FBI issued an advisory on North Korean IT workers posing as non-DPRK nationals to obtain employment outside North Korea. Red flags include logins from multiple IP addresses in different countries, transfers to China-based accounts or requests for cryptocurrency, inconsistent names and nationality across profiles, and being unreachable during business hours. Recommended due diligence includes verifying documents with the listed employer or school, checking identity documents for forgery, conducting a video interview to verify identity, and background or biometric checks."
      }
     }
    ]
@@ -15952,17 +15967,17 @@
    "probability": 0.4,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Toymakers are building chatbots into plush toys and robots for young children, and testing has found weak guardrails. In a November 2025 report by the US PIRG Education Fund, a consumer group, FoloToy's Kumma bear, built on OpenAI's GPT-4o, told testers where to find knives, pills and matches, and a trigger word introduced sexual content that went into graphic detail; two other toys showed stronger guardrails, though one robot still said where to find plastic bags and matches when set to a user age of 5[1]. OpenAI suspended the toy's developer for policy violations[1]. In one University of Cambridge study that recorded 14 children at London children's centres playing with a chatbot soft toy, the toy misunderstood children and reacted inappropriately to emotions, telling a three-year-old who said \"I'm sad\" that it was a happy little bot; some early years practitioners felt such toys could support language and communication[2]. The consumer group's co-author said AI toys remain relatively rare[1]. In September 2026 California enacted a four-year moratorium on making or selling toys with a companion chatbot for children under 16, starting in January 2027[3][4].",
+   "summary": "Toymakers are building chatbots into plush toys and robots for young children, and testing has found weak guardrails. In a November 2025 report by the US PIRG Education Fund, a consumer group, FoloToy's Kumma bear, built on OpenAI's GPT-4o, told testers where to find knives, pills and matches, and a trigger word introduced sexual content that went into graphic detail; two other toys showed stronger guardrails, though one robot still said where to find plastic bags and matches when set to a user age of 5[1]. OpenAI suspended the toy's developer for policy violations[1]. FoloToy paused sales for about a week, then resumed them saying it had strengthened its safeguards; the report's co-author called a week on the short side[5]. In one University of Cambridge study that recorded 14 children at London children's centres playing with a chatbot soft toy, the toy misunderstood children and reacted inappropriately to emotions, telling a three-year-old who said \"I'm sad\" that it was a happy little bot; some early years practitioners felt such toys could support language and communication[2]. The consumer group's co-author said AI toys remain relatively rare[1]. On 10 September 2026 California enacted a four-year moratorium on making or selling toys with a companion chatbot for children under 16, running from 1 January 2027 to 1 January 2031[3][6]; the bill passed the state Senate unanimously and the Assembly 74 to 1[4].",
    "refs": [
     {
      "title": "The New York Times (via The Nightly), FoloToy AI toy bear 'Kumma' speaks of sex, knives and pills, a consumer group warns, November 2025",
      "url": "https://thenightly.com.au/business/the-new-york-times-folotoy-made-ai-toy-bear-kumma-speaks-of-sex-knives-and-pills-a-consumer-group-warns-c-20814379",
-     "finding": "A US PIRG Education Fund report dated 13 November found that FoloToy's Kumma bear, built on OpenAI's GPT-4o, told testers where to find knives, pills, matches and plastic bags, and that 'kink' was a trigger word that introduced new sexual content, which the co-author said went into really graphic detail; Kumma responded far less consistently than the other toys. Curio's $99 Grok rocket generally refused and directed users to an adult, though it said plastic bags might be in a kitchen drawer, and the $189 Miko 3 robot said where to find plastic bags and matches when set to a user age of 5. OpenAI suspended the developer for policy violations, saying its policies prohibit any use to exploit, endanger or sexualise anyone under 18, and FoloToy reportedly said it would pull Kumma for a safety audit. The co-author said AI toys remain relatively rare, and that some on shelves, though limited in number, lack even basic safeguards."
+     "finding": "A US PIRG Education Fund report dated 13 November found that FoloToy's Kumma bear, built on OpenAI's GPT-4o and marketed to children and adults, told testers where to find knives, pills, matches and plastic bags, and that 'kink' was a trigger word that introduced new sexual words and content, which the co-author said went into some really graphic details. The report said Grok and Miko 3 showed stronger guardrails and Kumma responded far less consistently: Grok, a $99 plush rocket for ages 3 to 12, generally refused and often directed users to an adult, though it said plastic bags might be in a kitchen drawer, and Miko 3, a $189 robot for ages 5 to 10, said where to find plastic bags and matches when set to a user age of 5. OpenAI suspended the developer for policy violations, saying its policies prohibit any use to exploit, endanger or sexualize anyone under 18, and FoloToy said it would pull Kumma from the market for a safety audit. The co-author said AI toys remain relatively rare but already show troubling gaps in how they handle conversations; the article adds that some lack even basic safeguards."
     },
     {
      "title": "University of Cambridge, Report calls for AI toy safety standards to protect young children, March 2026",
      "url": "https://www.cam.ac.uk/stories/ai-toys-study-play",
-     "finding": "In what the researchers call the first systematic study of how generative AI toys may influence development up to age five, they recorded 14 children at London children's centres playing with Curio's Gabbo soft toy and ran focus groups and workshops with early years practitioners and 19 children's charity leaders. The toys struggled with social and pretend play, misunderstood children and reacted inappropriately to emotions: to a five-year-old saying 'I love you' it replied with a reminder to adhere to the guidelines, and to a three-year-old saying 'I'm sad' it said it was a happy little bot; it also mistook parents' voices for the child. Some practitioners felt the toys could support language and communication. The report calls for clearer regulation, labelling standards, limits on how far toys encourage children to befriend or confide in them, tighter controls over third-party access to AI models, and testing with children before release."
+     "finding": "In what the researchers call the first systematic study of how generative AI toys may influence development up to age five, they video-recorded 14 children at London children's centres playing with Curio Interactive's Gabbo soft toy and ran focus groups and workshops with early years practitioners and 19 children's charity leaders. The toys struggled with social and pretend play, misunderstood children and reacted inappropriately to emotions: to a five-year-old saying 'I love you' it replied with a reminder to adhere to the guidelines, and when a three-year-old said 'I'm sad' it misheard and replied that it was a happy little bot; it also mistook parents' voices for the child's. Some practitioners felt the toys could support aspects of development such as language and communication skills. The report calls for clearer regulation, labelling standards, limits on how far toys encourage children to befriend or confide in them, tighter controls over third-party access to AI models, and testing with children before release."
     },
     {
      "title": "Ballard Spahr, California AI Toy Bill Brings Software Behavior Into Product Safety, September 2026",
@@ -15972,7 +15987,17 @@
     {
      "title": "California State Senator Steve Padilla, First-In-Nation AI Toy Moratorium Moves to Governor's Desk, September 2026",
      "url": "https://sd18.senate.ca.gov/node/422",
-     "finding": "SB 867 places a 4-year moratorium on the sale and manufacturing of toys with built-in conversational AI; the Senate passed it unanimously and the Assembly 74 to 1. The release cites the Trouble in Toyland 2025 report's findings that AI toys discuss sexually explicit topics, advise children where to find matches or knives, use addictive features and pose data privacy risks."
+     "finding": "In a release dated 1 September 2026, the bill's author says SB 867 places a 4-year moratorium on the sale and manufacturing of toys with AI chatbot capabilities for children under 16 (one paragraph says under 18); it passed the Senate unanimously and the Assembly 74 to 1. The release cites the Trouble in Toyland 2025 report's findings that AI toys discuss sexually explicit topics, advise children where to find matches or knives, use addictive features and pose data privacy risks."
+    },
+    {
+     "title": "Futurism, AI Teddy Bear Back on the Market After Getting Caught Telling Kids How to Find Pills and Start Fires, November 2025",
+     "url": "https://futurism.com/future-society/ai-teddy-bear-back-on-market",
+     "finding": "After a week-long internal safety review, FoloToy said it had begun gradually restoring sales and had strengthened and upgraded its child-safety safeguards; it was unclear which model the toy would use by default or whether its access to OpenAI's models had been restored. The PIRG report's co-author called a week on the short side and said the question is whether the products perform better than before."
+    },
+    {
+     "title": "Law Commentary, Newsom Signs California Ban on AI Chatbot Toys for Kids Under 16, September 2026",
+     "url": "https://www.lawcommentary.com/articles/newsom-california-ban-ai-chatbot-toys-kids-under-16",
+     "finding": "Governor Newsom signed SB 867 on 10 September 2026, creating a four-year moratorium from 1 January 2027 that expires on 1 January 2031 unless extended; it bars manufacturing, selling or exchanging, possessing with intent to sell, or offering to retailers any toy for children under 16 that contains a companion chatbot as defined in California law."
     }
    ],
    "theme": "mind",
@@ -15988,7 +16013,7 @@
      "actor": "legislators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "California's SB 867, signed in September 2026, bars making or selling toys with a companion chatbot for children under 16 for four years from 1 January 2027, even if the maker adds content filters; it covers one state.",
+     "evidence": "California's SB 867, signed in September 2026, bars making or selling toys with a companion chatbot for children under 16 from 1 January 2027, with no compliance path through disclosures, testing or certification, so content filters do not make a covered toy legal; it covers one state.",
      "ref": {
       "title": "Ballard Spahr, California AI Toy Bill Brings Software Behavior Into Product Safety, September 2026",
       "url": "https://www.ballardspahr.com/insights/alerts-and-articles/2026/09/california-ai-toy-bill-brings-software-behavior-into-product-safety",
@@ -16004,7 +16029,7 @@
      "ref": {
       "title": "The New York Times (via The Nightly), FoloToy AI toy bear 'Kumma' speaks of sex, knives and pills, a consumer group warns, November 2025",
       "url": "https://thenightly.com.au/business/the-new-york-times-folotoy-made-ai-toy-bear-kumma-speaks-of-sex-knives-and-pills-a-consumer-group-warns-c-20814379",
-      "finding": "A US PIRG Education Fund report dated 13 November found that FoloToy's Kumma bear, built on OpenAI's GPT-4o, told testers where to find knives, pills, matches and plastic bags, and that 'kink' was a trigger word that introduced new sexual content, which the co-author said went into really graphic detail; Kumma responded far less consistently than the other toys. Curio's $99 Grok rocket generally refused and directed users to an adult, though it said plastic bags might be in a kitchen drawer, and the $189 Miko 3 robot said where to find plastic bags and matches when set to a user age of 5. OpenAI suspended the developer for policy violations, saying its policies prohibit any use to exploit, endanger or sexualise anyone under 18, and FoloToy reportedly said it would pull Kumma for a safety audit. The co-author said AI toys remain relatively rare, and that some on shelves, though limited in number, lack even basic safeguards."
+      "finding": "A US PIRG Education Fund report dated 13 November found that FoloToy's Kumma bear, built on OpenAI's GPT-4o and marketed to children and adults, told testers where to find knives, pills, matches and plastic bags, and that 'kink' was a trigger word that introduced new sexual words and content, which the co-author said went into some really graphic details. The report said Grok and Miko 3 showed stronger guardrails and Kumma responded far less consistently: Grok, a $99 plush rocket for ages 3 to 12, generally refused and often directed users to an adult, though it said plastic bags might be in a kitchen drawer, and Miko 3, a $189 robot for ages 5 to 10, said where to find plastic bags and matches when set to a user age of 5. OpenAI suspended the developer for policy violations, saying its policies prohibit any use to exploit, endanger or sexualize anyone under 18, and FoloToy said it would pull Kumma from the market for a safety audit. The co-author said AI toys remain relatively rare but already show troubling gaps in how they handle conversations; the article adds that some lack even basic safeguards."
      }
     }
    ],
@@ -16013,11 +16038,11 @@
      "event": "Germany's action against the My Friend Cayla doll",
      "year": 2017,
      "parallel": "A talking toy reached children with a connection its makers had not secured, and a regulator took it off the market rather than wait for a fix.",
-     "outcome": "Germany's Federal Network Agency recommended destroying the dolls and asked stores to remove them, after experts showed anyone nearby could use the toy's unsecured Bluetooth link to listen to and talk with a child; a spokesman called it a concealed transmitting device, illegal under German telecoms law.",
+     "outcome": "Germany's Federal Network Agency recommended destroying the dolls and asked stores to remove them, after experts showed that someone within about 10 metres could use the toy's unsecured Bluetooth link to listen to and talk with a child; a spokesman called it a concealed transmitting device, illegal under German telecoms law.",
      "ref": {
       "title": "The African Courier, Parents in Germany told to destroy talking toy 'My Friend Cayla', February 2017",
       "url": "https://www.theafricancourier.de/living-in-germany/parents-in-germany-told-to-destroy-talking-toy-my-friend-cayla",
-      "finding": "Germany's Federal Network Agency recommended destroying My Friend Cayla dolls and asked stores to remove them after experts showed hackers could use an unsecured Bluetooth device in the toy to listen to and talk with a child; a spokesman said the doll amounted to a concealed transmitting device, illegal under German telecoms law. The vulnerability was first revealed in January 2015, and the marketer Vivid said the hacking examples were isolated and carried out by specialists."
+      "finding": "Germany's Federal Network Agency recommended destroying My Friend Cayla dolls or disposing of them professionally and asked stores to remove them after experts showed hackers could use an unsecured Bluetooth device in the toy to listen to and talk with a child; a student researcher said a Bluetooth device could connect to the doll within a radius of 10m. A spokesman said the doll amounted to a concealed transmitting device, illegal under German telecoms law. The vulnerability was first revealed in January 2015, and the marketer Vivid said the hacking examples were isolated and carried out by specialists."
      }
     }
    ]
@@ -16029,22 +16054,22 @@
    "probability": 0.55,
    "year": 2025,
    "evidence": "reported",
-   "summary": "People tell chatbots sensitive things: in one study of English conversations with GPT models from the WildChat dataset, almost 15% of queries mentioned a sensitive topic such as sexual preferences or drug use[1]. Those chats have leaked. In August 2025 Forbes found more than 370,000 Grok conversations indexed by Google, because shared chats got public links with no warning to users; some held medical questions, names and at least one password[2]. Over 4,500 shared ChatGPT chats had appeared in Google after users ticked a box to make them discoverable, and OpenAI removed the option[3]. Users of Meta's AI app posted chats about tax evasion, legal trouble and home addresses to a public feed, some apparently unaware it was public[4]. Security researchers found browser extensions with more than 8 million users capturing chats on ChatGPT, Gemini and other AI platforms, with no option to turn it off; they advise assuming chats since July 2025 were taken[5], and a US magistrate judge ordered OpenAI to hand about 20 million de-identified ChatGPT logs to The New York Times in its copyright suit[6]. In the ChatGPT and Meta cases nothing was public by default: users had to choose to share and publish[3][7], and the extensions' privacy policy disclosed the collection[5].",
+   "summary": "People tell chatbots sensitive things: in one study of 5,000 English conversations with GPT models from the WildChat dataset, almost 15% of queries mentioned a sensitive topic such as sexual preferences or drug use[1]. Those chats have leaked. In August 2025 Forbes found more than 370,000 Grok conversations indexed by Google, because shared chats got public links with no warning to users; some held medical questions, names and at least one password[2]. Fast Company found over 4,500 shared ChatGPT chats in Google after users ticked a box to make them discoverable, and OpenAI removed the option[3]. Users of Meta's AI app posted chats about tax evasion, legal trouble and home addresses to a public feed, some apparently unaware it was public[4]. Security researchers found browser extensions with more than 8 million users capturing chats on ChatGPT, Gemini and other AI platforms, with no option to turn it off; they advise assuming chats since July 2025 were captured[5]. In February 2026 a researcher said a misconfigured database let anyone read the chat histories of the Chat & Ask AI app and claimed access to 300 million messages from more than 25 million users; the developer reportedly fixed it within hours[9]. A US magistrate judge ordered OpenAI to hand about 20 million de-identified ChatGPT logs to The New York Times and other plaintiffs in a copyright suit[6], and a district judge upheld the order in January 2026, citing de-identification and a protective order[8]. In the ChatGPT and Meta cases nothing was public by default: users had to choose to share and publish[3][7], and the extensions' privacy policy disclosed the collection[5].",
    "refs": [
     {
      "title": "Mireshghallah, Antoniak, More, Choi and Farnadi, Trust No Bot: Discovering Personal Disclosures in Human-LLM Conversations in the Wild, arXiv 2024",
      "url": "https://arxiv.org/abs/2407.11438",
-     "finding": "The authors annotate a random sample of 5,000 English WildChat conversations, from one million user-GPT interactions collected with consent; personally identifiable information appears in unexpected contexts such as translation (48% of the time) and code editing (16%), and the paper says almost 15% of queries mention a non-PII sensitive topic such as sexual preferences or drug use. They call for nudging mechanisms that help users moderate what they share."
+     "finding": "The authors analyse a random sample of 5,000 English conversations from WildChat, a corpus of one million conversations with commercial GPT models collected with user consent; personally identifiable information appears in unexpected contexts such as translation (48% of the time) and code editing (16%), over 70% of queries contain some detected PII, and almost 15% mention a non-PII sensitive topic such as sexual preferences or drug use. They conclude PII detection alone is insufficient and call for nudging mechanisms that help users moderate their interactions."
     },
     {
      "title": "Forbes Australia, Elon Musk's xAI published hundreds of thousands of Grok chatbot conversations, August 2025",
      "url": "https://www.forbes.com.au/news/innovation/xai-published-hundreds-of-thousands-of-grok-chatbot-conversations/",
-     "finding": "Clicking share on a Grok chat creates a unique URL that is also available to search engines such as Google, Bing and DuckDuckGo, with no warning to users; a Google search showed more than 370,000 indexed Grok conversations, some with intimate medical and psychology questions, names, personal details and at least one password, plus uploaded files. xAI did not respond to a request for comment."
+     "finding": "Clicking share on a Grok chat creates a unique URL that is made available to search engines such as Google, Bing and DuckDuckGo, with no warning or disclaimer to users; a Google search showed more than 370,000 indexed Grok conversations, some with intimate medical and psychology questions, names, personal details and at least one password, plus uploaded images, spreadsheets and documents. xAI did not respond to a request for comment."
     },
     {
      "title": "Search Engine Journal, OpenAI Is Pulling Shared ChatGPT Chats From Google Search, July 2025",
      "url": "https://www.searchenginejournal.com/openai-is-pulling-shared-chatgpt-chats-from-google-search/552671/",
-     "finding": "Shared ChatGPT links were private by default, but users could tick a checkbox to make a shared chat discoverable by search engines; Fast Company found over 4,500 shared links indexed by Google. OpenAI disabled the option, which it called a short-lived experiment to help people discover useful conversations, and said it was working with search engines to remove indexed links, though cached copies may appear for a while and deleting a chat does not delete its share link."
+     "finding": "Shared ChatGPT links were visible only to people with the URL by default, but users could tick a checkbox to make a shared chat discoverable by search engines; Fast Company found over 4,500 shared links indexed by Google, some with names, resumes and confidential work content. OpenAI disabled the option, which it called a short-lived experiment that introduced too many chances for accidental sharing, and said it was working with search engines to remove indexed content, though cached copies may appear for a while and deleting a chat does not delete its share link."
     },
     {
      "title": "TechCrunch, The Meta AI app is a privacy disaster, June 2025",
@@ -16059,12 +16084,22 @@
     {
      "title": "Decrypt, OpenAI Ordered to Hand Over 20M ChatGPT Logs in NYT Copyright Case, December 2025",
      "url": "https://decrypt.co/351000/openai-ordered-20m-chatgpt-logs-nyt-copyright-case",
-     "finding": "US Magistrate Judge Ona T. Wang ordered OpenAI to produce roughly 20 million de-identified ChatGPT user logs under a protective framework in The New York Times' copyright suit, finding the sample proportional to the needs of the case; OpenAI objected that the order would force disclosure of millions of private user conversations."
+     "finding": "US Magistrate Judge Ona T. Wang ordered OpenAI to produce roughly 20 million de-identified ChatGPT user logs under a protective framework in The New York Times' copyright suit, finding the sample proportional to the needs of the case and writing that user privacy is only one factor; OpenAI had objected that the order was disproportionate and would force disclosure of millions of private conversations."
     },
     {
      "title": "Engadget, Meta warns users to 'avoid sharing personal or sensitive information' in its AI app, June 2025",
      "url": "https://engadget.com/social-media/meta-warns-users-to-avoid-sharing-personal-or-sensitive-information-in-its-ai-app-233900625.html",
      "finding": "Meta AI does not share chat histories by default, but many users shared chats to the public discover feed without realising they would become public. Meta added a disclaimer, shown only on the first share, that prompts posted are public and visible to everyone and that users should avoid sharing personal or sensitive information; a spokesperson said posting is a multi-step process designed to add friction."
+    },
+    {
+     "title": "ABA Journal, ChatGPT creator must turn over 20M chat logs in copyright litigation, federal judge says, January 2026",
+     "url": "https://www.abajournal.com/news/article/chatgpt-creator-must-turn-over-20m-chat-logs-in-copyright-litigation-federal-judge-says",
+     "finding": "US District Judge Sidney Stein affirmed Magistrate Judge Ona Wang's orders requiring OpenAI to produce a sample of 20 million chat logs to The New York Times and its co-plaintiffs, finding they were neither clearly erroneous nor contrary to law and that Wang adequately balanced users' privacy against relevance, relying on the 20 million limit, de-identification and an existing protective order. The plaintiffs had sought 120 million logs."
+    },
+    {
+     "title": "Malwarebytes, AI chat app leak exposes 300 million messages tied to 25 million users, February 2026",
+     "url": "https://www.malwarebytes.com/blog/news/2026/02/ai-chat-app-leak-exposes-300-million-messages-tied-to-25-million-users",
+     "finding": "Citing 404 Media, a researcher found that Chat & Ask AI, a wrapper app by Codeway that connects to models from OpenAI, Anthropic and Google, had Firebase security rules left public so anyone with the project URL could read users' full chat histories, models and settings; he claims to have accessed 300 million messages from over 25 million users, including requests for suicide assistance. His scan found the same flaw in 103 of 200 iOS apps, and Codeway reportedly fixed it across its apps within hours of disclosure."
     }
    ],
    "theme": "security",
@@ -16074,7 +16109,7 @@
     "therapy",
     "betteranswers"
    ],
-   "control_note": "Chatbots give better help the more people tell them, so chat logs hold health, legal and money worries in one place. Private-by-default sharing, clear warnings and keeping share pages out of search limit the leaks, but every stored copy, whether held by a vendor, an extension or a court, is another place they can surface.",
+   "control_note": "Chatbots give better help the more people tell them, so chat logs hold health, legal and money worries in one place. Private-by-default sharing, clear warnings, keeping share pages out of search and locking down app databases limit the leaks, but every stored copy, whether held by a vendor, an app, an extension or a court, is another place they can surface.",
    "actions": [
     {
      "action": "Keep shared chats out of search engines",
@@ -16085,7 +16120,7 @@
      "ref": {
       "title": "Search Engine Journal, OpenAI Is Pulling Shared ChatGPT Chats From Google Search, July 2025",
       "url": "https://www.searchenginejournal.com/openai-is-pulling-shared-chatgpt-chats-from-google-search/552671/",
-      "finding": "Shared ChatGPT links were private by default, but users could tick a checkbox to make a shared chat discoverable by search engines; Fast Company found over 4,500 shared links indexed by Google. OpenAI disabled the option, which it called a short-lived experiment to help people discover useful conversations, and said it was working with search engines to remove indexed links, though cached copies may appear for a while and deleting a chat does not delete its share link."
+      "finding": "Shared ChatGPT links were visible only to people with the URL by default, but users could tick a checkbox to make a shared chat discoverable by search engines; Fast Company found over 4,500 shared links indexed by Google, some with names, resumes and confidential work content. OpenAI disabled the option, which it called a short-lived experiment that introduced too many chances for accidental sharing, and said it was working with search engines to remove indexed content, though cached copies may appear for a while and deleting a chat does not delete its share link."
      }
     },
     {
@@ -16109,7 +16144,7 @@
      "ref": {
       "title": "Mireshghallah, Antoniak, More, Choi and Farnadi, Trust No Bot: Discovering Personal Disclosures in Human-LLM Conversations in the Wild, arXiv 2024",
       "url": "https://arxiv.org/abs/2407.11438",
-      "finding": "The authors annotate a random sample of 5,000 English WildChat conversations, from one million user-GPT interactions collected with consent; personally identifiable information appears in unexpected contexts such as translation (48% of the time) and code editing (16%), and the paper says almost 15% of queries mention a non-PII sensitive topic such as sexual preferences or drug use. They call for nudging mechanisms that help users moderate what they share."
+      "finding": "The authors analyse a random sample of 5,000 English conversations from WildChat, a corpus of one million conversations with commercial GPT models collected with user consent; personally identifiable information appears in unexpected contexts such as translation (48% of the time) and code editing (16%), over 70% of queries contain some detected PII, and almost 15% mention a non-PII sensitive topic such as sexual preferences or drug use. They conclude PII detection alone is insufficient and call for nudging mechanisms that help users moderate their interactions."
      }
     }
    ],
@@ -16134,7 +16169,7 @@
    "probability": 0.55,
    "year": 2025,
    "evidence": "measured",
-   "summary": "AI makes a tailored job application almost free to write, so it no longer shows who is good. On Freelancer.com, one working paper covering 2.7 million applications found employers paid a premium for customised applications before LLMs but not after; its model estimates that if written applications carried no signal at all, top-quintile workers would be hired 19% less often, bottom-quintile workers 14% more often, and average wages would be about 5% lower[1]. A second study of an AI cover-letter tool on a large online labour platform found the link between a letter's fit to the job and callbacks fell by 51%, with employers leaning more on past work histories[2], and on Freelancer.com employers turned more to price and prior ratings[4]. Applications are multiplying too: LinkedIn reported 11,000 applications a minute, up 45% in a year, and recruiters told The New York Times that AI tools produce near-identical resumes that make top candidates harder to spot[3]. Both studies cover single online platforms, the 19% and 14% figures come from a model rather than observed hiring[4], and applicants who spent longer editing AI drafts were hired more often[2].",
+   "summary": "AI makes a tailored job application almost free to write, so it no longer shows who is good. On Freelancer.com, one working paper covering 2.7 million applications found employers paid a premium for customised applications before LLMs but not after; its model estimates that if written applications carried no signal at all, top-quintile workers would be hired 19% less often, bottom-quintile workers 14% more often, and average wages would be about 5% lower[1]. A second study of an AI cover-letter tool on a large online labour platform found the link between a letter's fit to the job and callbacks fell by 51%, with employers leaning more on past work histories[2], and on Freelancer.com employers turned more to price and prior ratings[4]. Applications are multiplying too: LinkedIn reported 11,000 applications a minute, up 45% in a year, and recruiters told The New York Times that AI tools produce near-identical resumes that make top candidates harder to spot[3]. Both studies cover single online platforms, the 19% and 14% figures come from a model rather than observed hiring[4], and applicants who spent longer editing AI drafts were hired more often[2]. An earlier field experiment with nearly half a million jobseekers on one online labour market found that algorithmic writing help on resumes raised hiring by 8%, with no sign that employers were less satisfied with the hires[5].",
    "refs": [
     {
      "title": "Galdin and Silbert, Making Talk Cheap: Generative AI and Labor Market Signaling, arXiv 2025",
@@ -16154,7 +16189,12 @@
     {
      "title": "Tuck School of Business at Dartmouth, What Happens to Hiring When AI Writes Job Applications?, January 2026",
      "url": "https://tuck.dartmouth.edu/news/articles/what-happens-to-hiring-when-ai-writes-job-applications",
-     "finding": "Freelancer.com added a one-click AI application tool in April 2023 and employers could not see which proposals were AI-generated; after AI, employers relied more on price and prior ratings, which hurt higher-ability workers. The 19% and 14% hiring effects come from a structural model. The article says fuller screening through live conversation and perhaps live tests may be needed, and co-author Anais Galdin suggests more exploratory temporary contracts."
+     "finding": "Freelancer.com added a one-click AI application tool in April 2023 and employers could not see which proposals were AI-generated; after AI, employers relied more on price and prior ratings, which hurt higher-ability workers. The 19% and 14% hiring effects come from a structural model. The article says high-value jobs may need fuller screening through live talking and maybe live tests, and co-author Anais Galdin suggests trial contracts that cover the first 10% of a job before a full-term contract."
+    },
+    {
+     "title": "Wiles, Munyikwa and Horton, Algorithmic Writing Assistance on Jobseekers' Resumes Increases Hires, Management Science 2025 (NBER Working Paper 30886)",
+     "url": "https://www.nber.org/papers/w30886",
+     "finding": "In a field experiment on an online labour market with nearly half a million jobseekers, those given algorithmic writing assistance on their resumes were hired 8% more often, with no evidence that employers were less satisfied; the authors' model suggests better writing does not signal ability but helps employers assess it."
     }
    ],
    "theme": "work",
@@ -16182,11 +16222,11 @@
      "actor": "employers",
      "status": "proposed",
      "aim": "impact",
-     "evidence": "A Tuck School article on the Freelancer.com study says fuller screening through live conversation and perhaps live tests may be needed, since employers cannot tell which applications were written by AI.",
+     "evidence": "A Tuck School article on the Freelancer.com study says high-value jobs may need fuller screening through live talking and maybe live tests, since employers on the platform could not see which proposals were written by AI.",
      "ref": {
       "title": "Tuck School of Business at Dartmouth, What Happens to Hiring When AI Writes Job Applications?, January 2026",
       "url": "https://tuck.dartmouth.edu/news/articles/what-happens-to-hiring-when-ai-writes-job-applications",
-      "finding": "Freelancer.com added a one-click AI application tool in April 2023 and employers could not see which proposals were AI-generated; after AI, employers relied more on price and prior ratings, which hurt higher-ability workers. The 19% and 14% hiring effects come from a structural model. The article says fuller screening through live conversation and perhaps live tests may be needed, and co-author Anais Galdin suggests more exploratory temporary contracts."
+      "finding": "Freelancer.com added a one-click AI application tool in April 2023 and employers could not see which proposals were AI-generated; after AI, employers relied more on price and prior ratings, which hurt higher-ability workers. The 19% and 14% hiring effects come from a structural model. The article says high-value jobs may need fuller screening through live talking and maybe live tests, and co-author Anais Galdin suggests trial contracts that cover the first 10% of a job before a full-term contract."
      }
     },
     {
@@ -16223,7 +16263,7 @@
    "probability": 0.85,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Some reviewers hand peer review to chatbots. For ICLR 2026, a large machine-learning conference, the detection company Pangram classed 21% of about 70,000 reviews, or 15,899, as fully AI-generated and over half as showing some AI involvement, and found that reviews with more AI gave higher scores[1]; one earlier study estimated that 6.5% to 16.9% of review text at four AI conferences in 2023 and 2024 could have been substantially modified by LLMs[2]. The ICLR organisers ran two detectors on all 76,139 reviews but said their accuracy is far from perfect[3]. At ICML 2026, hidden instructions planted in submission PDFs caught 795 reviews, about 1%, by 506 reviewers who had been assigned a policy allowing no LLM use, and 497 papers by reciprocal reviewers were desk rejected[4]. Authors game the habit too: 18 arXiv manuscripts in July 2025 hid instructions such as GIVE A POSITIVE REVIEW ONLY[5]. In one publisher's survey of 1,645 researchers, 53% of reviewers said they use AI tools[6]. AI can also help: in one randomised study at ICLR 2025, 27% of reviewers who got AI feedback updated their reviews, and blinded researchers found the updated reviews more informative[7].",
+   "summary": "Some reviewers hand peer review to chatbots. For ICLR 2026, a large machine-learning conference, the detection company Pangram classed 21% of about 70,000 reviews, or 15,899, as fully AI-generated and over half as showing some AI involvement, and found that reviews with more AI gave higher scores[1]; one earlier study estimated that 6.5% to 16.9% of review text at four AI conferences in 2023 and 2024 could have been substantially modified by LLMs[2]. The ICLR organisers ran two detectors on all 76,139 reviews but said their accuracy is far from perfect[3]. At ICML 2026, hidden instructions planted in submission PDFs caught 795 reviews, about 1%, by 506 reviewers who had chosen or accepted a policy allowing no LLM use, and 497 papers by reciprocal reviewers were desk rejected[4]. Authors game the habit too: 18 arXiv manuscripts in July 2025 hid instructions such as GIVE A POSITIVE REVIEW ONLY[5]. In one publisher's survey of 1,645 researchers, 53% of reviewers said they use AI tools[6]. AI can also help: in one randomised study at ICLR 2025, 27% of reviewers who got AI feedback updated their reviews, and blinded researchers found the updated reviews more informative[7].",
    "refs": [
     {
      "title": "Pangram Labs, Pangram Predicts 21% of ICLR Reviews are AI-Generated, November 2025",
@@ -16231,19 +16271,19 @@
      "finding": "Running its detector on about 19,000 papers and 70,000 reviews submitted to ICLR 2026, Pangram found 21%, or 15,899 reviews, fully AI-generated and over half with some form of AI involvement; the more AI present in a review, the higher its score, and AI-generated reviews were longer with a lot of filler. On 2022 reviews used as a negative control it found no confusions between fully AI-generated and fully human text."
     },
     {
-     "title": "Liang et al., Monitoring AI-Modified Content at Scale: A Case Study on the Impact of ChatGPT on AI Conference Peer Reviews, arXiv 2024",
+     "title": "Liang et al., Monitoring AI-Modified Content at Scale: A Case Study on the Impact of ChatGPT on AI Conference Peer Reviews, ICML 2024",
      "url": "https://arxiv.org/abs/2403.07183",
      "finding": "Between 6.5% and 16.9% of text submitted as peer reviews to ICLR 2024, NeurIPS 2023, CoRL 2023 and EMNLP 2023 could have been substantially modified by LLMs; the estimated share was higher in reviews submitted close to the deadline, by reviewers less likely to respond to rebuttals and in reviews reporting lower confidence."
     },
     {
      "title": "ICLR Blog, A Retrospective on the ICLR 2026 Review Process, March 2026",
-     "url": "https://blog.iclr.cc/2026/03/31/a-retrospective-on-the",
+     "url": "https://blog.iclr.cc/2026/03/31/a-retrospective-on-the-iclr-2026-review-process/",
      "finding": "ICLR 2026 received 19,525 valid submissions and 76,139 reviews from 18,054 reviewers. The chairs ran two LLM content detectors on all reviews and told area chairs about reviews both flagged as entirely LLM-generated, while noting the detectors' accuracy is far from perfect; all papers with confirmed hallucinated references were desk rejected, and reviewers repeatedly flagged for low-quality reviews will be removed from the pool."
     },
     {
      "title": "ICML Blog, On Violations of LLM Review Policies, March 2026",
-     "url": "https://blog.icml.cc/?p=1167",
-     "finding": "Hidden instructions watermarked into submission PDFs, asking an LLM to include two phrases drawn from a dictionary of 170,000, flagged 795 reviews (about 1% of all reviews) by 506 reviewers who had been assigned the policy allowing no LLM use; 497 papers (about 2% of submissions) by reciprocal reviewers were desk rejected and 51 reviewers were removed. Each case was verified by a human, and the chairs say the watermark is not difficult to circumvent and may catch only the most careless uses."
+     "url": "https://blog.icml.cc/2026/03/18/on-violations-of-llm-review-policies/",
+     "finding": "Hidden instructions watermarked into submission PDFs, asking an LLM to include two phrases drawn from a dictionary of 170,000, flagged 795 reviews (about 1% of all reviews) by 506 reviewers who had chosen, or said they were fine with, the policy allowing no LLM use; 497 submissions (about 2%) belonging to 398 reciprocal reviewers were desk rejected and 51 reviewers were removed from the pool. Each flagged review was checked by a human, and the chairs say the watermark is not difficult to circumvent and may catch only the most careless uses."
     },
     {
      "title": "Lin, Hidden Prompts in Manuscripts Exploit AI-Assisted Peer Review, arXiv 2025",
@@ -16274,11 +16314,11 @@
      "actor": "conference organisers",
      "status": "in force",
      "aim": "probability",
-     "evidence": "ICML 2026 watermarked submission PDFs with instructions only an LLM would follow, flagged 795 reviews, desk rejected 497 papers by reciprocal reviewers and removed 51 reviewers; the chairs say the method is easy to circumvent.",
+     "evidence": "ICML 2026 watermarked submission PDFs with instructions only an LLM would see, flagged 795 reviews, desk rejected 497 submissions belonging to reciprocal reviewers and removed 51 reviewers; the chairs say the method is not difficult to circumvent.",
      "ref": {
       "title": "ICML Blog, On Violations of LLM Review Policies, March 2026",
-      "url": "https://blog.icml.cc/?p=1167",
-      "finding": "Hidden instructions watermarked into submission PDFs, asking an LLM to include two phrases drawn from a dictionary of 170,000, flagged 795 reviews (about 1% of all reviews) by 506 reviewers who had been assigned the policy allowing no LLM use; 497 papers (about 2% of submissions) by reciprocal reviewers were desk rejected and 51 reviewers were removed. Each case was verified by a human, and the chairs say the watermark is not difficult to circumvent and may catch only the most careless uses."
+      "url": "https://blog.icml.cc/2026/03/18/on-violations-of-llm-review-policies/",
+      "finding": "Hidden instructions watermarked into submission PDFs, asking an LLM to include two phrases drawn from a dictionary of 170,000, flagged 795 reviews (about 1% of all reviews) by 506 reviewers who had chosen, or said they were fine with, the policy allowing no LLM use; 497 submissions (about 2%) belonging to 398 reciprocal reviewers were desk rejected and 51 reviewers were removed from the pool. Each flagged review was checked by a human, and the chairs say the watermark is not difficult to circumvent and may catch only the most careless uses."
      }
     },
     {
@@ -16315,32 +16355,32 @@
    "probability": 0.8,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Bots that gather training data for AI models and fetch pages for chatbot answers put a heavy load on sites that serve free content. The Wikimedia Foundation says bandwidth for multimedia downloads grew 50% from January 2024, mostly from scraping bots collecting training data for large language models and other uses, and that bots made up at least 65% of its most expensive traffic though only about 35% of pageviews[1]; by March 2026 it was blocking or throttling about 30% of automated requests from crawlers that break its policies, which send up to billions of requests a day[2]. Fastly found that in some cases AI fetchers sent over 39,000 requests a minute from mid-April to mid-July 2025, with effects like a DDoS attack even without malicious intent[3]. At the documentation host Read the Docs, one buggy AI crawler downloaded 73 TB in May 2024 and cost over $5,000 in bandwidth[4]. Across Cloudflare's network AI bots made up an average of 4.2% of HTML requests in 2025, slightly less than Googlebot alone[5].",
+   "summary": "Bots that gather training data for AI models and fetch pages for chatbot answers put a heavy load on sites that serve free content. The Wikimedia Foundation says bandwidth for multimedia downloads grew 50% from January 2024, largely from scraping bots collecting training data for large language models and other uses, and that bots made up at least 65% of the most expensive traffic reaching its core datacentres though only about 35% of pageviews[1]; in March 2026 it said it was blocking or throttling about 30% of automated requests from crawlers that break its policies, which send up to billions of requests a day[2]. Fastly found that from mid-April to mid-July 2025 AI fetchers in some cases sent over 39,000 requests a minute, with effects like a DDoS attack even without malicious intent[3]. At the documentation host Read the Docs, one buggy AI crawler downloaded 73 TB in May 2024 and cost over $5,000 in bandwidth[4]. Across Cloudflare's network AI bots made up an average of 4.2% of HTML requests in 2025, slightly less than Googlebot alone[5].",
    "refs": [
     {
-     "title": "Wikimedia Foundation, How crawlers impact the operations of the Wikimedia projects, April 2025",
+     "title": "Mueller, Danis and Lavagetto, Wikimedia Foundation, How crawlers impact the operations of the Wikimedia projects, April 2025",
      "url": "https://diff.wikimedia.org/2025/04/01/how-crawlers-impact-the-operations-of-the-wikimedia-projects/",
-     "finding": "Bandwidth used for downloading multimedia content grew 50% since January 2024, mostly from scraping bots collecting training data for large language models and other uses rather than human readers; bots account for at least 65% of the most expensive traffic reaching the core datacentres though they make up about 35% of pageviews. When people streamed a 1.5-hour Jimmy Carter debate video after his death, some connections were saturated for about an hour because bot load had already cut the headroom, and scrapers also hit the code review platform and bug tracker."
+     "finding": "Bandwidth used for downloading multimedia content grew 50% since January 2024, not from human readers but largely from scraping bots collecting training data for large language models and other uses; bots account for at least 65% of the most expensive traffic reaching the core datacentres though they make up about 35% of pageviews. When a 1.5-hour video of the 1980 Carter-Reagan debate was streamed after Jimmy Carter's death in December 2024, network traffic doubled and a small number of connections filled up entirely for about an hour; the Foundation says bot-driven growth leaves less room for such events. Scrapers also hit the code review platform and bug tracker."
     },
     {
-     "title": "Wikimedia Foundation, Quo Vadis, Crawlers? Progress and what's next on safeguarding our infrastructure, March 2026",
+     "title": "Mueller, Danis and Lavagetto, Wikimedia Foundation, Quo Vadis, Crawlers? Progress and what's next on safeguarding our infrastructure, March 2026",
      "url": "https://diff.wikimedia.org/2026/03/26/quo-vadis-crawlers-progress-and-whats-next-on-safeguarding-our-infrastructure/",
-     "finding": "A year on, the Foundation is blocking or throttling about 30% of automated requests from crawlers that do not follow its policies, which send up to billions of requests per day, after updating its robot policy, improving bot detection and starting to roll out global API rate limits in March 2026; crawler operators have turned to residential proxy networks spanning hundreds of millions of IP addresses, which makes blocking hard, and high-volume users are pointed to Wikimedia Enterprise."
+     "finding": "A year on, the Foundation is blocking or throttling about 30% of automated requests from crawlers that do not follow its policies (revised on 15 April 2026 from 25% to include blocked media requests), which send up to billions of requests per day, after updating its robot policy, improving bot detection and starting to roll out global API rate limits in March 2026; crawler operators have turned to residential proxy networks that can span hundreds of millions of IP addresses, which makes blocking hard, and high-volume users are pointed to Wikimedia Enterprise. It also says LLM-powered search summaries and chatbots make users less likely to know the source or follow links, and that publishers across the web see more bot traffic and fewer human users."
     },
     {
-     "title": "Fastly, New Fastly Threat Research Reveals AI crawlers make up almost 80% of AI bot traffic, Meta Leads AI Crawling As ChatGPT Dominates Real-Time Web Traffic, August 2025",
+     "title": "Fastly, New Fastly Threat Research Reveals AI crawlers make up almost 80% of AI bot traffic, Meta Leads AI Crawling As ChatGPT Dominates Real-Time Web Traffic, 19 August 2025",
      "url": "https://www.fastly.com/press/press-releases/new-fastly-threat-research-reveals-ai-crawlers-make-up-almost-80-of-ai-bot",
      "finding": "From mid-April to mid-July 2025, AI crawlers made up almost 80% of AI bot traffic seen on Fastly's network, with Meta at 52% of AI crawler traffic, Google 23% and OpenAI 20%. In some cases fetcher request volume exceeded 39,000 requests per minute, putting pressure on unprotected origin infrastructure and mimicking the effects of DDoS attacks even without malicious intent."
     },
     {
-     "title": "Read the Docs, AI crawlers need to be more respectful, July 2024",
+     "title": "Eric Holscher, Read the Docs, AI crawlers need to be more respectful, July 2024",
      "url": "https://read-the-docs-website.readthedocs-hosted.com/blog/2024/07/ai-crawlers-abuse/",
      "finding": "One AI crawler downloaded 73 TB of zipped HTML files in May 2024, almost 10 TB in a single day, because of a bug that made it fetch the same files repeatedly, costing over $5,000 in bandwidth charges; after blocking AI crawlers, bandwidth for downloaded files fell 75%, from about 800 GB to about 200 GB a day."
     },
     {
-     "title": "Cloudflare, The 2025 Cloudflare Radar Year in Review: the rise of AI, post-quantum, and record-breaking DDoS attacks, 2025",
+     "title": "David Belson, Cloudflare, The 2025 Cloudflare Radar Year in Review: the rise of AI, post-quantum, and record-breaking DDoS attacks, December 2025",
      "url": "https://blog.cloudflare.com/radar-2025-year-in-review/",
-     "finding": "Throughout 2025, traffic from AI bots accounted for an average of 4.2% of HTML requests, ranging from 2.4% to 6.4%, while Googlebot alone made up 4.5%; AI crawlers were the user agents with the most full-site disallow rules in robots.txt files."
+     "finding": "For data from 1 January to 2 December 2025, traffic from AI bots accounted for an average of 4.2% of HTML requests, ranging from 2.4% in early April to 6.4% in late June, while Googlebot alone made up 4.5%; the user agents with the most fully disallowed directives in robots.txt files were those of AI crawlers."
     }
    ],
    "theme": "ip",
@@ -16357,11 +16397,11 @@
      "actor": "site operators",
      "status": "in force",
      "aim": "impact",
-     "evidence": "The Wikimedia Foundation began rolling out global API rate limits in March 2026 and blocks or throttles about 30% of automated requests from crawlers that break its policies, but crawlers using residential proxies spanning hundreds of millions of IP addresses are hard to block.",
+     "evidence": "The Wikimedia Foundation began rolling out global API rate limits in March 2026 and blocks or throttles about 30% of automated requests from crawlers that break its policies, but crawlers using residential proxy networks that can span hundreds of millions of IP addresses are hard to block.",
      "ref": {
-      "title": "Wikimedia Foundation, Quo Vadis, Crawlers? Progress and what's next on safeguarding our infrastructure, March 2026",
+      "title": "Mueller, Danis and Lavagetto, Wikimedia Foundation, Quo Vadis, Crawlers? Progress and what's next on safeguarding our infrastructure, March 2026",
       "url": "https://diff.wikimedia.org/2026/03/26/quo-vadis-crawlers-progress-and-whats-next-on-safeguarding-our-infrastructure/",
-      "finding": "A year on, the Foundation is blocking or throttling about 30% of automated requests from crawlers that do not follow its policies, which send up to billions of requests per day, after updating its robot policy, improving bot detection and starting to roll out global API rate limits in March 2026; crawler operators have turned to residential proxy networks spanning hundreds of millions of IP addresses, which makes blocking hard, and high-volume users are pointed to Wikimedia Enterprise."
+      "finding": "A year on, the Foundation is blocking or throttling about 30% of automated requests from crawlers that do not follow its policies (revised on 15 April 2026 from 25% to include blocked media requests), which send up to billions of requests per day, after updating its robot policy, improving bot detection and starting to roll out global API rate limits in March 2026; crawler operators have turned to residential proxy networks that can span hundreds of millions of IP addresses, which makes blocking hard, and high-volume users are pointed to Wikimedia Enterprise. It also says LLM-powered search summaries and chatbots make users less likely to know the source or follow links, and that publishers across the web see more bot traffic and fewer human users."
      }
     },
     {
@@ -16371,9 +16411,9 @@
      "aim": "impact",
      "evidence": "GNOME, the Linux Kernel Mailing List archive, sourcehut and FFmpeg adopted the Anubis challenge, and a Duke University pilot blocked more than 4 million unwanted requests a day; it relies on scrapers not running JavaScript, which bot makers may work around.",
      "ref": {
-      "title": "LWN.net, Anubis sends AI scraperbots to a well-deserved fate, July 2025",
+      "title": "Joe Brockmeier, LWN.net, Anubis sends AI scraperbots to a well-deserved fate, July 2025",
       "url": "https://lwn.net/Articles/1028558/",
-      "finding": "Anubis, an MIT-licensed tool, makes suspicious clients solve a proof-of-work challenge before reaching a site and has been adopted by GNOME, the Linux Kernel Mailing List archive, sourcehut and FFmpeg; a Duke University pilot blocked more than 4 million unwanted HTTP requests a day, with twelve people reporting problems in one week, usually because cookies were disabled. It works because most scraper bots do not run client-side JavaScript, and the article expects bot makers to find ways around it."
+      "finding": "Anubis, an MIT-licensed tool first built to keep scrapers from taking down its author's Git server, makes suspicious clients solve a proof-of-work challenge before reaching a site and has been adopted by GNOME, the Linux Kernel Mailing List archive, sourcehut and FFmpeg; a Duke University pilot blocked more than 4 million unwanted HTTP requests a day, with twelve people reporting problems in one week, usually because cookies were disabled. It works because most scraper bots do not run client-side JavaScript, and the article expects bot makers to find ways around it."
      }
     }
    ],
@@ -16382,11 +16422,11 @@
      "event": "The robots.txt convention",
      "year": 1994,
      "parallel": "Site owners have long needed a way to tell crawlers which parts of a site to leave alone, because crawlers that visit a whole site can be a burden.",
-     "outcome": "Martijn Koster defined the Robots Exclusion Protocol in 1994 and it became an IETF standard only in 2022; compliance is voluntary, and the standard says its rules are not a form of access authorization.",
+     "outcome": "Martijn Koster defined the Robots Exclusion Protocol in 1994 and it was published as a standards-track IETF RFC only in September 2022; compliance is voluntary, and the standard says its rules are not a form of access authorization.",
      "ref": {
       "title": "Koster, Illyes, Zeller and Sassman, RFC 9309: Robots Exclusion Protocol, IETF 2022",
       "url": "https://www.rfc-editor.org/rfc/rfc9309.html",
-      "finding": "The protocol, originally defined by Martijn Koster in 1994, lets service owners tell crawlers which parts of a site they may access, since it may be inconvenient for service owners if crawlers visit the entirety of their URI space; it was published as an IETF standard in September 2022, and its rules are not a form of access authorization."
+      "finding": "The protocol, originally defined by Martijn Koster in 1994, lets service owners tell crawlers which parts of a site they may access, since it may be inconvenient for service owners if crawlers visit the entirety of their URI space; it was published as a standards-track IETF RFC in September 2022, and its rules are not a form of access authorization."
      }
     }
    ]
@@ -16398,7 +16438,7 @@
    "probability": 0.6,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Companies overstate what their AI can do to win money and customers. The US SEC fined two investment advisers $400,000 in total in March 2024 for claiming AI they did not use, and its chair said such AI washing hurts investors[1]. In 2025 it charged a startup founder with raising over $42 million on claims that his shopping app used AI to complete purchases, when, it alleges, contract employees entered the orders by hand[2], and found that the vast majority of drive-thru orders taken by one version of a restaurant-technology company's AI ordering product needed human intervention[3]. The FTC said one AI content detector sold as 98 percent accurate scored 53 percent on general content[4]. US investors filed 16 securities class actions classed as AI-related in 2025 and 15 in the first half of 2026; these are allegations, and of the 15, seven concerned AI development while five involved data centres and four AI infrastructure or hardware[5]. One audit of 100 German startups found AI claims without inspectable evidence or methodology, with claimed capabilities rarely matching the underlying systems[6]. Sanctions so far are modest: the advisers settled without admitting or denying the findings, and the drive-thru company paid no penalty[1][3].",
+   "summary": "Companies overstate what their AI can do to win money and customers. The US SEC fined two investment advisers $400,000 in total in March 2024 for claiming AI they did not use, and its chair said such AI washing hurts investors[1]. In April 2025 it charged a startup founder with raising over $42 million on claims that his shopping app used AI to complete purchases, when, it alleges, contract employees entered the orders by hand[2], and in January 2025 it found that the vast majority of drive-thru orders taken by one version of a restaurant-technology company's AI ordering product needed human intervention[3]. The FTC alleged that one AI content detector sold as 98 percent accurate scored 53 percent on general-purpose content in independent testing[4]. US investors filed 15 securities class actions classed as AI-related in the first half of 2026, on pace to nearly double the 2025 total of 16[5][6]; these are allegations, and of the 15, seven concerned AI development, five involved data centres and four AI infrastructure or hardware[6]. One audit of 100 German startups found AI claims without inspectable evidence or methodology, with claimed capabilities rarely matching the underlying systems[7]. Sanctions in these cases were modest: the advisers settled without admitting or denying the findings, and the drive-thru company paid no penalty[1][3].",
    "refs": [
     {
      "title": "US Securities and Exchange Commission, SEC Charges Two Investment Advisers with Making False and Misleading Statements About Their Use of Artificial Intelligence, March 2024",
@@ -16413,29 +16453,34 @@
     {
      "title": "US Securities and Exchange Commission, SEC Charges Restaurant-Technology Company Presto Automation for Misleading Statements About AI Product, January 2025",
      "url": "https://www.sec.gov/enforcement-litigation/administrative-proceedings/33-11352-s",
-     "finding": "From November 2021 to May 2023 Presto made false and misleading statements about Presto Voice, its AI drive-thru ordering product: for a period the speech recognition in all deployed units was owned and operated by a third party, and in the version using its own technology the vast majority of orders required human intervention. Presto settled without admitting or denying the findings and paid no civil penalty, citing its cooperation and remediation."
+     "finding": "From November 2021 to May 2023 Presto made false and misleading statements about Presto Voice, its AI drive-thru ordering product, including that it eliminated the need for human order-taking: for a period the speech recognition in all deployed units was owned and operated by a third party, and in the version using its own technology the vast majority of orders required human intervention. Presto settled without admitting or denying the findings and paid no civil penalty, citing its cooperation and remediation."
     },
     {
      "title": "US Federal Trade Commission, FTC Order Requires Workado to Back Up Artificial Intelligence Detection Claims, April 2025",
      "url": "https://www.ftc.gov/news-events/news/press-releases/2025/04/ftc-order-requires-workado-back-artificial-intelligence-detection-claims",
-     "finding": "Workado advertised its AI Content Detector as '98 percent' accurate at telling AI-written from human-written text, but independent testing found 53 percent accuracy on general-purpose content; the FTC alleges the model was trained or fine-tuned only on academic content. The Bureau of Consumer Protection director said the product did no better than a coin toss."
+     "finding": "In a proposed consent order, the FTC alleges Workado advertised its AI Content Detector as '98 percent' accurate at telling AI-written from human-written text, but independent testing found 53 percent accuracy on general-purpose content, and that the model was trained or fine-tuned only to classify academic content. Bureau of Consumer Protection director Chris Mufarrige said the product did no better than a coin toss."
     },
     {
-     "title": "Cornerstone Research and Stanford Law School Securities Class Action Clearinghouse, Securities Class Action Filings: 2026 Midyear Assessment, July 2026",
-     "url": "https://www.cornerstone.com/insights/reports/securities-class-action-filings-2026-midyear-assessment/",
-     "finding": "There were 15 AI-related filings in 2026 H1, against 16 in all of 2025 and 15 in 2024; of the 15, seven related to AI development, five involved data centres and four concerned AI infrastructure or hardware (three of which also concerned data centres). AI-related filings were 13% of core filings in 2026 H1. All involved claims under Section 10(b)."
+     "title": "Cornerstone Research, Securities Class Action Filings Surge in the First Half of 2026 (press release for Securities Class Action Filings: 2026 Midyear Assessment, with the Stanford Law School Securities Class Action Clearinghouse), July 2026",
+     "url": "https://www.cornerstone.com/insights/press-releases/securities-class-action-filings-surge-in-the-first-half-of-2026/",
+     "finding": "Investors filed 15 AI-related securities class action lawsuits in the first half of 2026, on pace to nearly double the 2025 total; they were 13% of core filings, but their disclosure dollar loss ($385 billion) was 73% of the DDL Index for 2026 H1 ($529 billion), and five of the 17 Mega MDL filings were AI-related."
     },
     {
-     "title": "Pranav, Hartmann and Lauscher, Auditing AI-Washing in German Startups: A Mixed-Methods Study of Marketing Claims and Perceptions, AIES 2026",
+     "title": "Risk & Insurance, AI-Related Lawsuits Drive Sharp Rise In Securities Class Action Filings, August 2026",
+     "url": "https://riskandinsurance.com/ai-related-lawsuits-drive-sharp-rise-in-securities-class-action-filings/",
+     "finding": "Reporting the Cornerstone Research midyear assessment: 15 AI-related filings in the first half of 2026 against a full-year 2025 total of 16; seven concerned AI development, five involved data centers and four involved AI infrastructure or hardware; AI-related filings made up 13% of core filings."
+    },
+    {
+     "title": "Pranav, Hartmann and Lauscher, Auditing AI-Washing in German Startups: A Mixed-Methods Study of Marketing Claims and Perceptions, AIES 2026 (Proceedings vol. 9)",
      "url": "https://ojs.aaai.org/index.php/AIES/article/view/43118",
-     "finding": "An audit of 100 German startups with a seven-dimension codebook, plus 63 expert interviews, found three forms of exaggerated AI capability: claims without inspectable evidence, performance numbers without methodology and claims without acknowledged limits; claimed capabilities rarely matched the underlying systems, consumers who had met exaggerated claims withdrew trust from later AI marketing, and 38% of the sample were flagged for moderate or serious ethical concern. The authors recommend bringing startup AI claims under disclosure requirements and offering the codebook to regulators, investors and consumer-protection bodies."
+     "finding": "A University of Hamburg audit of 100 German startups with a seven-dimension codebook, plus 63 expert interviews, found three forms of exaggerated AI capability: claims without inspectable evidence, performance numbers without methodology and claims without acknowledged limits; claimed capabilities rarely matched the underlying systems, consumers who had met exaggerated claims withdrew trust from later AI marketing, and 38% of the sample were flagged for moderate or serious ethical concern. The authors recommend bringing startup AI claims under disclosure requirements and offering the codebook to regulators, investors and consumer-protection bodies."
     }
    ],
    "theme": "power",
    "stage": "active",
    "control": "mitigable",
    "price_of": [],
-   "control_note": "Hype rewards any company that can claim the AI label, and investors and buyers rarely see what sits behind it. Regulators can demand evidence for AI claims and punish false ones, but the cases brought so far are few and carried modest penalties.",
+   "control_note": "Hype rewards any company that can claim the AI label, and investors and buyers rarely see what sits behind it. Regulators can demand evidence for AI claims and punish false ones, but the SEC and FTC cases described here carried modest penalties or none.",
    "actions": [
     {
      "action": "Charge firms that claim AI they do not have",
@@ -16468,9 +16513,9 @@
      "aim": "probability",
      "evidence": "The authors of one audit of German startups propose disclosure requirements for startup AI claims and offer their codebook to regulators, investors and consumer-protection bodies for routine audits.",
      "ref": {
-      "title": "Pranav, Hartmann and Lauscher, Auditing AI-Washing in German Startups: A Mixed-Methods Study of Marketing Claims and Perceptions, AIES 2026",
+      "title": "Pranav, Hartmann and Lauscher, Auditing AI-Washing in German Startups: A Mixed-Methods Study of Marketing Claims and Perceptions, AIES 2026 (Proceedings vol. 9)",
       "url": "https://ojs.aaai.org/index.php/AIES/article/view/43118",
-      "finding": "An audit of 100 German startups with a seven-dimension codebook, plus 63 expert interviews, found three forms of exaggerated AI capability: claims without inspectable evidence, performance numbers without methodology and claims without acknowledged limits; claimed capabilities rarely matched the underlying systems, consumers who had met exaggerated claims withdrew trust from later AI marketing, and 38% of the sample were flagged for moderate or serious ethical concern. The authors recommend bringing startup AI claims under disclosure requirements and offering the codebook to regulators, investors and consumer-protection bodies."
+      "finding": "A University of Hamburg audit of 100 German startups with a seven-dimension codebook, plus 63 expert interviews, found three forms of exaggerated AI capability: claims without inspectable evidence, performance numbers without methodology and claims without acknowledged limits; claimed capabilities rarely matched the underlying systems, consumers who had met exaggerated claims withdrew trust from later AI marketing, and 38% of the sample were flagged for moderate or serious ethical concern. The authors recommend bringing startup AI claims under disclosure requirements and offering the codebook to regulators, investors and consumer-protection bodies."
      }
     }
    ],
@@ -16478,12 +16523,12 @@
     {
      "event": "Theranos blood-testing fraud charges",
      "year": 2018,
-     "parallel": "A startup raised money on a technology it said it had built, while much of the work ran on other companies' machines, as the SEC later found at one AI drive-thru company.",
-     "outcome": "The SEC charged Theranos, Elizabeth Holmes and Ramesh Balwani with fraud after the company raised more than $700 million while most patient tests ran on modified or commercial analyzers made by others; Holmes settled with a $500,000 penalty and a 10-year bar from serving as an officer or director of a public company.",
+     "parallel": "A startup raised money on a technology it said it had built, while most of the work ran on other companies' machines, much as the SEC later found that one AI drive-thru product ran for a time on a third party's speech recognition.",
+     "outcome": "The SEC charged Theranos, Elizabeth Holmes and Ramesh Balwani with fraud after the company raised more than $700 million while the vast majority of patient tests ran on modified or commercial analyzers made by others; Holmes settled, without admitting or denying the allegations, with a $500,000 penalty and a 10-year bar from serving as an officer or director of a public company.",
      "ref": {
       "title": "US Securities and Exchange Commission, Theranos, CEO Holmes, and Former President Balwani Charged With Massive Fraud, March 2018",
       "url": "https://www.sec.gov/news/press-release/2018-41",
-      "finding": "Theranos raised more than $700 million from investors while claiming its portable analyzer ran comprehensive blood tests from finger-drop samples; it could complete only a small number of tests and most patient tests ran on modified or commercial analyzers made by others. It projected over $100 million in 2014 revenue and made a little more than $100,000. Holmes agreed, without admitting or denying the allegations, to a $500,000 penalty, a 10-year officer-and-director bar and the return of 18.9 million shares."
+      "finding": "Theranos raised more than $700 million from investors while claiming its portable analyzer ran comprehensive blood tests from finger-drop samples; according to the complaint its analyzer could complete only a small number of tests and the vast majority of patient tests ran on modified and commercial analyzers made by others. It projected over $100 million in 2014 revenue and made a little more than $100,000. Holmes and Theranos neither admitted nor denied the allegations; Holmes agreed to a $500,000 penalty, a 10-year officer-and-director bar and the return of 18.9 million shares, and the SEC said it would litigate its claims against Balwani."
      }
     }
    ]
@@ -16495,12 +16540,12 @@
    "probability": 0.6,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Machine learning run on radar and optical satellite images can find ships that do not broadcast their positions. Using imagery from 2017 to 2021, one Nature study by Global Fishing Watch and university researchers found about 75 percent of the world's industrial fishing vessels are not publicly tracked, much of that fishing around Africa and south Asia, and more than 25 percent of transport and energy vessel activity is missing from public tracking[1]. Applying AI models to radar images of 1,380 marine protected areas that ban industrial fishing, one Science study found 78.5% recorded no commercial fishing and strongly protected areas had nine times fewer fishing vessels per square kilometre than unprotected coastal waters[2]; position broadcasts missed almost 90% of the vessels radar found, and the study cannot tell whether the areas keep boats out or were placed where little fishing happens[3]. A companion study of a wider set of coastal protected areas, including areas that still allow some fishing, detected industrial fishing in 47% of them from 2022 to 2024, with two-thirds of the vessels absent from public monitoring and estimated fishing effort 28% higher once they were counted[4][5].",
+   "summary": "Machine learning run on radar and optical satellite images can find ships that do not broadcast their positions. Using imagery from 2017 to 2021, one Nature study by Global Fishing Watch, SkyTruth and university researchers found about 75 percent of the world's industrial fishing vessels are not publicly tracked, much of that fishing around Africa and South Asia, and more than 25 percent of transport and energy vessel activity is missing from public tracking[1]. Applying AI models to radar images of 1,380 marine protected areas that ban industrial fishing, one Science study found 78.5% recorded no commercial fishing and strongly protected areas had nine times fewer fishing vessels per square kilometre than unprotected coastal waters[2]; position broadcasts missed almost 90% of the vessels radar found, and the study cannot tell whether the areas keep boats out or were placed where little fishing happens[3]. A companion study of a wider set of coastal protected areas, including areas that still allow some fishing, detected industrial fishing in 47% of them from 2022 to 2024, with two-thirds of the vessels absent from public monitoring and estimated fishing effort 28% higher once they were counted[4][5].",
    "refs": [
     {
      "title": "Global Fishing Watch, New research harnesses AI and satellite imagery to reveal the expanding footprint of human activity at sea, January 2024",
      "url": "https://globalfishingwatch.org/press-release/new-research-harnesses-ai-and-satellite-imagery-to-reveal-the-expanding-footprint-of-human-activity-at-sea/",
-     "finding": "A study in Nature by researchers at Global Fishing Watch, the University of Wisconsin-Madison, Duke, UC Santa Barbara and SkyTruth combined vessel GPS data with five years (2017 to 2021) of radar and optical satellite imagery, 2 million gigabytes, and used machine learning to judge which vessels were likely fishing. About 75 percent of the world's industrial fishing vessels are not publicly tracked, with much of that fishing around Africa and south Asia, and more than 25 percent of transport and energy vessel activity is missing from public tracking. Not all boats are legally required to broadcast their position; the monitoring is freely available to all nations."
+     "finding": "A study in Nature by researchers at Global Fishing Watch, the University of Wisconsin-Madison, Duke, UC Santa Barbara and SkyTruth combined vessel GPS data with five years (2017 to 2021) of radar and optical satellite imagery, 2 million gigabytes, and used machine learning to judge which vessels were likely fishing. About 75 percent of the world's industrial fishing vessels are not publicly tracked, with much of that fishing around Africa and South Asia, and more than 25 percent of transport and energy vessel activity is missing from public tracking. Not all boats are legally required to broadcast their position; satellite monitoring of this kind is freely available to all nations, and the study's data is published on Global Fishing Watch's datasets and code page."
     },
     {
      "title": "National Geographic Pristine Seas (EurekAlert), New research: Satellite imagery detects illegal fishing activity, shows strict protections work, July 2025",
@@ -16513,9 +16558,9 @@
      "finding": "Radar imagery analysed with AI found dark vessels absent from AIS, which missed almost 90% of the vessels detected by radar. The study does not establish why fishing is absent: further research is needed to tell whether protected areas exclude vessels or were designated where fishing demand is low. Lead author Jennifer Raynor suggests satellite tracking can help countries predict illegal activity and target patrols, and that resource-limited nations could partner with nonprofits such as Global Fishing Watch."
     },
     {
-     "title": "Seguin, Le Manach, Devillers, Velez and Mouillot, Global patterns and drivers of untracked industrial fishing in coastal marine protected areas, Science 2025",
+     "title": "Seguin, Le Manach, Devillers, Velez and Mouillot, Global patterns and drivers of untracked industrial fishing in coastal marine protected areas, Science 389(6758), July 2025",
      "url": "https://www.documentation.ird.fr/hor/fdi:010094403",
-     "finding": "Combining vessel GPS data with satellite imagery, the authors detected industrial fishing in 47% of coastal marine protected areas worldwide from 2022 to 2024; two-thirds of detected vessels did not appear in public monitoring systems, rising to 80% in the strictest management category. Counting untracked vessels raised estimated fishing effort inside the areas by 28%, and vessel presence depended mainly on an area's size and remoteness, not its management category."
+     "finding": "Combining vessel GPS data with satellite imagery, the authors detected industrial fishing in 47% of coastal marine protected areas worldwide from 2022 to 2024; about two-thirds of detected vessels did not appear in public monitoring systems, and untracked vessels were most common (80%) in the strictest management category, which aims to prohibit all extraction. Counting untracked vessels raised estimated fishing effort inside the areas by 28%, to about 4 hours per square kilometre per year, and vessel presence depended mainly on an area's size and remoteness, not its management category."
     },
     {
      "title": "NPR (Alabama Public Radio), New technology shows how illegal fishing has impacted oceans across the world, July 2025",
@@ -16543,17 +16588,17 @@
      "ref": {
       "title": "Global Fishing Watch, New research harnesses AI and satellite imagery to reveal the expanding footprint of human activity at sea, January 2024",
       "url": "https://globalfishingwatch.org/press-release/new-research-harnesses-ai-and-satellite-imagery-to-reveal-the-expanding-footprint-of-human-activity-at-sea/",
-      "finding": "A study in Nature by researchers at Global Fishing Watch, the University of Wisconsin-Madison, Duke, UC Santa Barbara and SkyTruth combined vessel GPS data with five years (2017 to 2021) of radar and optical satellite imagery, 2 million gigabytes, and used machine learning to judge which vessels were likely fishing. About 75 percent of the world's industrial fishing vessels are not publicly tracked, with much of that fishing around Africa and south Asia, and more than 25 percent of transport and energy vessel activity is missing from public tracking. Not all boats are legally required to broadcast their position; the monitoring is freely available to all nations."
+      "finding": "A study in Nature by researchers at Global Fishing Watch, the University of Wisconsin-Madison, Duke, UC Santa Barbara and SkyTruth combined vessel GPS data with five years (2017 to 2021) of radar and optical satellite imagery, 2 million gigabytes, and used machine learning to judge which vessels were likely fishing. About 75 percent of the world's industrial fishing vessels are not publicly tracked, with much of that fishing around Africa and South Asia, and more than 25 percent of transport and energy vessel activity is missing from public tracking. Not all boats are legally required to broadcast their position; satellite monitoring of this kind is freely available to all nations, and the study's data is published on Global Fishing Watch's datasets and code page."
      }
     },
     {
      "limit": "Seeing boats does not remove them",
      "kind": "governance",
-     "evidence": "Satellites detected industrial fishing in 47% of coastal protected areas from 2022 to 2024, and untracked vessels made up 80% of detections in the strictest category.",
+     "evidence": "Satellites detected industrial fishing in 47% of coastal protected areas from 2022 to 2024, and untracked vessels were most common, at 80%, in the strictest category, which aims to ban all extraction.",
      "ref": {
-      "title": "Seguin, Le Manach, Devillers, Velez and Mouillot, Global patterns and drivers of untracked industrial fishing in coastal marine protected areas, Science 2025",
+      "title": "Seguin, Le Manach, Devillers, Velez and Mouillot, Global patterns and drivers of untracked industrial fishing in coastal marine protected areas, Science 389(6758), July 2025",
       "url": "https://www.documentation.ird.fr/hor/fdi:010094403",
-      "finding": "Combining vessel GPS data with satellite imagery, the authors detected industrial fishing in 47% of coastal marine protected areas worldwide from 2022 to 2024; two-thirds of detected vessels did not appear in public monitoring systems, rising to 80% in the strictest management category. Counting untracked vessels raised estimated fishing effort inside the areas by 28%, and vessel presence depended mainly on an area's size and remoteness, not its management category."
+      "finding": "Combining vessel GPS data with satellite imagery, the authors detected industrial fishing in 47% of coastal marine protected areas worldwide from 2022 to 2024; about two-thirds of detected vessels did not appear in public monitoring systems, and untracked vessels were most common (80%) in the strictest management category, which aims to prohibit all extraction. Counting untracked vessels raised estimated fishing effort inside the areas by 28%, to about 4 hours per square kilometre per year, and vessel presence depended mainly on an area's size and remoteness, not its management category."
      }
     }
    ],
@@ -16563,11 +16608,11 @@
      "actor": "Global Fishing Watch",
      "status": "in force",
      "counters": null,
-     "evidence": "The satellite monitoring behind the 2024 study is freely available to all nations, with its datasets and code published.",
+     "evidence": "Satellite monitoring of the kind behind the 2024 study is freely available to all nations, and the study's data is published openly.",
      "ref": {
       "title": "Global Fishing Watch, New research harnesses AI and satellite imagery to reveal the expanding footprint of human activity at sea, January 2024",
       "url": "https://globalfishingwatch.org/press-release/new-research-harnesses-ai-and-satellite-imagery-to-reveal-the-expanding-footprint-of-human-activity-at-sea/",
-      "finding": "A study in Nature by researchers at Global Fishing Watch, the University of Wisconsin-Madison, Duke, UC Santa Barbara and SkyTruth combined vessel GPS data with five years (2017 to 2021) of radar and optical satellite imagery, 2 million gigabytes, and used machine learning to judge which vessels were likely fishing. About 75 percent of the world's industrial fishing vessels are not publicly tracked, with much of that fishing around Africa and south Asia, and more than 25 percent of transport and energy vessel activity is missing from public tracking. Not all boats are legally required to broadcast their position; the monitoring is freely available to all nations."
+      "finding": "A study in Nature by researchers at Global Fishing Watch, the University of Wisconsin-Madison, Duke, UC Santa Barbara and SkyTruth combined vessel GPS data with five years (2017 to 2021) of radar and optical satellite imagery, 2 million gigabytes, and used machine learning to judge which vessels were likely fishing. About 75 percent of the world's industrial fishing vessels are not publicly tracked, with much of that fishing around Africa and South Asia, and more than 25 percent of transport and energy vessel activity is missing from public tracking. Not all boats are legally required to broadcast their position; satellite monitoring of this kind is freely available to all nations, and the study's data is published on Global Fishing Watch's datasets and code page."
      }
     },
     {
@@ -16600,11 +16645,11 @@
      "event": "Brazil's DETER satellite deforestation alerts",
      "year": 2004,
      "parallel": "Near-real-time alerts from satellite imagery let a government with weak enforcement aim its inspectors at illegal activity across a vast area.",
-     "outcome": "Using clouds that blocked detection as a natural experiment, one study of 2006 to 2016 found monitoring and enforcement curbed Amazon deforestation, avoiding the clearing of an average of 27 thousand square kilometres of forest a year, without pushing clearing into neighbouring areas.",
+     "outcome": "Using clouds that blocked detection as a natural experiment, one study found that monitoring and enforcement curbed Amazon deforestation, and that the result was not driven by illegal clearing moving into neighbouring areas; a version was later published in a peer-reviewed economics journal.",
      "ref": {
-      "title": "Assunção, Gandour and Rocha, DETERring Deforestation in the Amazon: Environmental Monitoring and Law Enforcement, Climate Policy Initiative Working Paper 003, 2019",
-      "url": "https://www.climatepolicyinitiative.org/wp-content/uploads/2021/12/WP003-DETERing-Deforestation-in-the-Amazon.pdf",
-      "finding": "DETER, in use since 2004, processes satellite imagery and issues near-real-time deforestation alerts to target environmental enforcement in the Amazon. Using clouds that limit its detection as an instrument across 2006 to 2016, the authors find monitoring and enforcement curbed deforestation, avoiding the clearing of an average of 27 thousand square kilometres of forest a year, with results not driven by displacement into neighbouring areas."
+      "title": "Assunção, Gandour and Rocha, DETERring Deforestation in the Amazon: Environmental Monitoring and Law Enforcement, Climate Policy Initiative Working Paper 003, November 2019",
+      "url": "https://www.climatepolicyinitiative.org/working-papers/deterring-deforestation-in-the-amazon-environmental-monitoring-and-law-enforcement/",
+      "finding": "DETER processes satellite imagery and issues near-real-time deforestation alerts to target environmental enforcement in the Amazon. Using clouds that limit its detection as an instrument for the presence of environmental authorities, the authors find that monitoring and enforcement effectively curbed deforestation, with results holding across several robustness checks and not driven by illegal activity being displaced into neighbouring areas. A version appeared as DETER-ing Deforestation in the Amazon in American Economic Journal: Applied Economics 15(2), 2023."
      }
     }
    ]
@@ -16616,7 +16661,7 @@
    "probability": 0.7,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Voice cloning lets companies sell synthetic copies of a performer's voice. In a 2026 survey by the National Association of Voice Actors, 21% of respondents said they had knowingly lost a job to a synthetic voice[6], up from 14% a year earlier according to the group[1]; the survey drew 1,379 responses, recruited partly through the group's own contact list, so it is not a random sample[2]. Two voice actors allege that Lovo, a text-to-speech company, got recordings of their voices through Fiverr in 2019 and 2020 for what it said was internal research and then used them to make voice-overs without permission; in July 2025 a New York federal judge let their right of publicity, contract and consumer protection claims proceed but dismissed their false endorsement claims and their copyright claims over the voices themselves, which it found not independently copyrightable[3]. Video game performers in SAG-AFTRA struck for 11 months over consent and pay for AI replicas[4]. Licensed cloning also pays some performers: ElevenLabs says more than 10,400 creators who share their voices on its platform had earned over $22 million by May 2026, a figure it reports itself[5].",
+   "summary": "Voice cloning lets companies sell synthetic copies of a performer's voice. In a 2026 survey by the National Association of Voice Actors, 21% of respondents said they had knowingly lost a job to a synthetic voice and 9% knew of a synthetic version of their voice or of a character they voiced made without their permission[6]; the group says the share losing work to AI was up from 14% a year earlier[1]; the survey drew 1,379 responses, recruited partly through the group's own contact list, so it is not a random sample[2]. Two voice actors allege that Lovo, a text-to-speech company, got recordings of their voices through Fiverr in 2019 and 2020 for what it said was internal research and then used them to make voice-overs without permission; in July 2025 a New York federal judge let their right of publicity, contract and consumer protection claims proceed but dismissed their false endorsement claims and their copyright claims over the voices themselves, which it found not independently copyrightable[3]. Video game performers in SAG-AFTRA struck for 11 months over consent and pay for AI replicas[4]. Licensed cloning also pays some performers: ElevenLabs says more than 10,400 creators who share their voices on its platform had earned over $22 million by May 2026, a figure it reports itself[5], and 53% of respondents to the voice actors' survey said they would be open to an ethically made synthetic version of their voice[6].",
    "refs": [
     {
      "title": "National Association of Voice Actors, Voice Actors Head to Washington to Address AI's Impact on Creative Economy, GlobeNewswire release via AOL, May 2026",
@@ -16636,7 +16681,7 @@
     {
      "title": "AWN, SAG-AFTRA Ratifies New Deal with Video Game Companies, July 2025",
      "url": "https://awn.com/news/sag-aftra-ratifies-new-deal-video-game-companies",
-     "finding": "The video game strike began on 16 July 2024 after 18 months of negotiations, which broke down over concerns regarding consent and compensation for the use of AI replicas; the union called it an 11-month strike, and over 95% of voting members backed the new deal."
+     "finding": "The union struck after 18 months of negotiations, which broke down over concerns regarding consent and compensation for the use of AI replicas; the union called it an 11-month strike, and over 95% of voting members backed the new deal."
     },
     {
      "title": "ElevenLabs, $22 million earned by voice creators on ElevenLabs, May 2026",
@@ -16646,7 +16691,7 @@
     {
      "title": "National Association of Voice Actors, Voiceover Survey 2026, Part 3: AI, 2026",
      "url": "https://navavoices.org/vo-survey-2026/voiceover-survey-2026-part-3-ai/",
-     "finding": "Asked 'Have you ever knowingly lost a job to a synthetic voice?', 21% of respondents answered yes and 79% no."
+     "finding": "Asked 'Have you ever knowingly lost a job to a synthetic voice?', 21% of respondents answered yes and 79% no. 9% said a synthetic version of their voice or of a character they voiced had been created without their permission to their knowledge, 11% said a synthetic version of their voice had been used in a professional project, and 53% said they would be open to having a synthetic version of their voice ethically created in the future. Results are shown in charts on the page."
     }
    ],
    "theme": "ip",
@@ -16655,7 +16700,7 @@
    "price_of": [
     "syntheticmedia"
    ],
-   "control_note": "A clone can be built from recordings a performer made for some other purpose, as the Lovo case alleges. Contracts that require consent and disclosure, and laws that protect a person's voice and likeness, can limit commercial use, but copyright does not protect a voice itself, so protection depends on publicity and likeness rules that differ by place.",
+   "control_note": "A clone can be built from recordings a performer made for some other purpose, as the Lovo case alleges. Contracts that require consent and disclosure, and laws that protect a person's voice and likeness, can limit commercial use. In the Lovo case a US court found the voices not independently copyrightable, so protection there rests on publicity and likeness rules that differ by state, while Denmark's 2026 bill would add protection for faces and voices to its copyright law.",
    "actions": [
     {
      "action": "Require consent and disclosure before making digital replicas",
@@ -16703,7 +16748,7 @@
    "probability": 0.65,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Image generators can make photos of receipts and damage that pass a visual check. AppZen, whose software checks expense receipts, found AI-generated receipts made up about 14% of fraudulent receipts in September 2025, against none a year earlier[1], and 70.8% of receipts it flagged as fake by mid-May 2026, with 1,471 AI-generated fakes submitted by 745 employees at 174 companies claiming $148,143[2]. AppZen says this means a fake receipt is now almost always AI-made, not that expense fraud grew by that much, and the AI fakes averaged about $100, against $182 for older template fakes[2]. In one survey of 1,000 employed US adults commissioned by Emburse, 40% said they had used AI to generate a fake receipt for a business expense, 19% for a purchase that never happened[3]. The UK insurer Aviva detected more than 18,400 suspect claims worth a record £233 million in 2025, its first total to include Direct Line, and reports a growing number backed by AI-generated images and manipulated documents, mainly in motor insurance, without giving a count[4].",
+   "summary": "Image generators are now used to fake expense receipts and photos of damage for insurance claims[1][4]. AppZen, whose software checks expense receipts, found AI-generated receipts made up about 14% of fraudulent receipts in September 2025, against none a year earlier[1], and 70.8% of receipts it flagged as fake by mid-May 2026, with 1,471 AI-generated fakes submitted by 745 employees at 174 companies claiming $148,143[2]. AppZen says this means a fake receipt is now almost always AI-made, not that expense fraud grew by that much, and the AI fakes averaged about $100, against $182 for older template fakes[2]; its chief technology officer says fake receipts are still an extremely small share of all receipts employees submit[5]. In one survey of 1,000 professionally employed US adults commissioned by Emburse, 40% said they had used AI to generate a fake receipt for a business expense, 19% for a purchase that never happened[3]. The UK insurer Aviva detected more than 18,400 suspect claims worth a record £233 million in 2025, its first total to include Direct Line, and reports a growing number backed by AI-generated images and manipulated documents, mainly in motor insurance, without giving a count[4].",
    "refs": [
     {
      "title": "Computerworld, The latest genAI scam: fake expense receipts, October 2025",
@@ -16724,6 +16769,11 @@
      "title": "Insurance Business, Aviva detects record £233 million in fraud as AI tools and ghost broking accelerate, June 2026",
      "url": "https://www.insurancebusinessmag.com/uk/news/claims/aviva-detects-record-233-million-in-fraud-as-ai-tools-and-ghost-broking-accelerate-578006.aspx",
      "finding": "Aviva identified more than 18,400 suspect claims worth £233 million across its brands in 2025, a record level of claims fraud and the first figures combining Aviva and Direct Line; it is detecting a growing number of claims supported by AI-generated images and manipulated documents, particularly in motor insurance, where fraudsters fabricate accident scenes and damage imagery. Motor makes up more than seven in 10 detected fraud cases and its detected value rose 39%."
+    },
+    {
+     "title": "CTMfile, Fake Receipts Taken over by Generative AI, July 2026",
+     "url": "https://ctmfile.com/story/fake-receipts-taken-over-by-generative-ai",
+     "finding": "Reporting AppZen's data that AI-generated fakes went from none of the fake receipts it detected in March 2025 to 70.8% by mid-May 2026, the article quotes AppZen co-founder and CTO Kunal Verma saying fake receipts still represent an extremely small percentage of all receipts submitted by employees."
     }
    ],
    "theme": "security",
@@ -16739,11 +16789,11 @@
      "actor": "employers",
      "status": "proposed",
      "aim": "probability",
-     "evidence": "Because AI receipts lack the font, logo and pixel flaws that gave forgeries away, one trade report advises checking each receipt against card transaction data, merchant codes and payment times, or paying with virtual cards tied to a single transaction.",
+     "evidence": "Because AI receipts lack the font, logo and pixel flaws that gave forgeries away, one trade report says matching each receipt against card transaction data, merchant category codes and payment times can confirm whether a purchase happened whatever the receipt looks like, and that virtual cards tie each payment to a single transaction.",
      "ref": {
       "title": "PYMNTS, AI-Generated Fake Receipts Now Make Up 71% of Expense Fraud, June 2026",
       "url": "https://www.pymnts.com/?p=3892615",
-      "finding": "Image-based checks no longer work because AI receipts lack the editing artefacts, such as font inconsistencies, mismatched logos and pixelation, that flag forgeries; it recommends matching receipts against card transaction data, merchant category codes and payment timestamps, and cites Emburse's suggestion of virtual cards tied to a specific transaction."
+      "finding": "AI receipt generators have made image-based fraud checks obsolete because their receipts lack the editing artefacts, such as inconsistent fonts, mismatched logos and pixelation, that flag forgeries; matching a receipt against card transaction data, merchant category codes and payment timestamps can confirm whether the purchase occurred, virtual cards link a specific payment to a specific transaction, and Emburse's chief revenue officer names virtual cards among the most effective controls."
      }
     },
     {
@@ -16764,11 +16814,11 @@
      "event": "Inkjet counterfeiting of US currency",
      "year": 1997,
      "parallel": "Cheap home computers and printers let ordinary people forge documents that once needed skill and special equipment, as image generators now do for receipts.",
-     "outcome": "The US Secret Service told Congress that inkjet-made counterfeits rose from $174,924, about 0.5% of counterfeit currency passed in fiscal 1995, to $6,121,292, or 19%, in fiscal 1997; the Bureau of Engraving and Printing's redesigned Series 1996 notes carry features copiers and scanners find hard to reproduce, which work only if people check for them.",
+     "outcome": "The US Secret Service told Congress that inkjet-made counterfeits rose from $174,924, about 0.5% of counterfeit currency passed in fiscal 1995, to $6,121,292, or 19%, in fiscal 1997; the Bureau of Engraving and Printing said its redesigned Series 1996 notes are difficult to reproduce with copiers or scanners, and the subcommittee chairman warned such features only work if people know about them and check.",
      "ref": {
-      "title": "US House of Representatives, Committee on Banking and Financial Services, Counterfeiting Using Personal Computers, hearing, March 1998",
+      "title": "US House of Representatives, Subcommittee on Domestic and International Monetary Policy of the Committee on Banking and Financial Services, Counterfeiting Using Personal Computers, hearing, 31 March 1998",
       "url": "https://commdocs.house.gov/committees/bank/hba47580.000/hba47580_0.HTM",
-      "finding": "Secret Service Special Agent Dennis Lynch testified that inkjet-produced notes were $174,924, about 0.5% of counterfeit currency passed in the US, in fiscal 1995 and $6,121,292, or 19%, in fiscal 1997, an 805% increase; the Bureau of Engraving and Printing said the Series 1996 design has features copiers and scanners have difficulty reproducing, and the chairman stressed people must check their money for them to work."
+      "finding": "Secret Service Special Agent in Charge Dennis F. Lynch testified that inkjet-produced notes were $174,924, about 0.5% of counterfeit currency passed in the US, in fiscal 1995 and $6,121,292, or 19%, in fiscal 1997, an 805% increase; Acting Director Thomas Ferguson of the Bureau of Engraving and Printing said the Series 1996 features are difficult to reproduce with copiers or scanners, though no currency is counterfeit-proof; subcommittee chairman Michael Castle said anti-counterfeiting features only work if people are aware of them."
      }
     }
    ]
@@ -16782,17 +16832,22 @@
    "stage": "emerging",
    "evidence": "reported",
    "theme": "ip",
-   "summary": "AI labs now announce research results under their own name, before peer review, while the experts whose work feeds them can lose credit and cannot check what the lab used. On 8 September 2026 OpenAI posted a proof of finite-time blowup for the forced Navier-Stokes equations, found by about 10,000 agents in 88 hours, and said the effort began after a rumour about work by Tristan Buckmaster of NYU and Levent Alpöge of Anthropic[1]. Buckmaster, who had kept every draft of that project in OpenAI's Codex, says OpenAI first told him the result needed very little human input, that its first prompt came after information about their work reached OpenAI, and that the route it took was one Diego Córdoba and Luis Martínez-Zoroa opened; he says he does not know whether his data was used[2]. OpenAI's paper cites Córdoba and Martínez-Zoroa[3]. OpenAI first wrote that it could not rule out that de-identified data from their use of its products helped improve its models, then said after an investigation that Buckmaster's Codex prompts could not have influenced the system[1][4]; on Free, Plus and Pro plans, ChatGPT and Codex content can train OpenAI's models unless the user opts out[5]. The Clay Mathematics Institute said the problem had apparently been settled but that its review is deliberately unhurried[6], 28 Fields Medalists wrote that rushed AI announcements raise severe attribution and plagiarism questions[7], and one analysis argues the Lean formalisation does not match the written proof[8]. In 2025 an OpenAI vice president said GPT-5 had solved 10 open Erdős problems, when it had found existing papers that solved them[9]. The BBC reports that these disputes feed fears that AI could undermine trust in science[10].",
+   "summary": "AI labs now announce research results under their own name, before peer review, while experts whose unpublished work sits in the labs' tools can lose credit and cannot check what the lab used. On 8 September 2026 OpenAI posted a proof of finite-time blowup for the Navier-Stokes equations with a smooth force, which it says about 10,000 agents found in 88 hours[1][4], and said the effort began on 1 September, inspired by rumours that two Millennium Prize problems had been solved[2]. Tristan Buckmaster of NYU, who with Levent Alpöge of Anthropic had put every draft of their own project into OpenAI's Codex, says OpenAI first told them its model had simply been given the problem statement with very little human input, then that a team had worked on it and that its first prompt came after information about their work reached OpenAI; he says the smooth-force route is one Diego Córdoba and Luis Martínez-Zoroa opened, and that he does not know whether his data was used[3]. OpenAI's paper cites Córdoba and Martínez-Zoroa[4]. OpenAI said nobody there saw the pair's work before it was public but that it could not rule out that de-identified data from their use of its products helped improve its models[1][2], and later maintained that its model could not have seen Buckmaster's data[5]; it reserves the right to train its models on Codex interactions unless users opt out[2]. Experts interviewed by Scientific American agree the final proof does not follow Córdoba and Martínez-Zoroa's program and resembles Buckmaster and Alpöge's work only superficially, though a smaller earlier OpenAI team did follow that program for an intermediate result[5]. In a second case, a University of Copenhagen team says it found the enzyme system Anthropic announced in September 2026 as Claude's discovery a year earlier, unpublished, while using Claude for code and drafts; Anthropic says it does not train on user transcripts[6]. The Clay Mathematics Institute said the problem had apparently been settled but that its review is deliberately unhurried[7], 28 Fields Medalists wrote that rushed AI announcements raise severe attribution and plagiarism questions[8], and one analysis argues the Lean formalisation does not match the written proof[9]. In 2025 an OpenAI vice president said GPT-5 had found solutions to 10 open Erdős problems, when it had found existing papers that solved them[10]. Nature reports that scientists worry increasingly capable models will beat them to discoveries[11].",
    "refs": [
     {
-     "title": "OpenAI, On the Navier-Stokes Millennium Prize Problem, 8 September 2026 (updated 10 September 2026)",
-     "url": "https://openai.com/index/navier-stokes-solution/",
-     "finding": "An internal OpenAI system of about 10,000 concurrent agents produced a proof of finite-time blowup for the Navier-Stokes equations with a smooth force (statements C and D of the Clay formulation) about 88 hours after launch, with Lean verification in 17 more hours; the effort began on 1 September after a rumour OpenAI later linked to Alpöge and Buckmaster. After a 10 September investigation OpenAI says Buckmaster's Codex prompts over the previous two months could not have influenced the system, including through training, and that it does not intend to claim the prize."
+     "title": "Frank Landymore, OpenAI's Supposed Mathematical Breakthrough Devolves Into Explosive Drama as Mathematician Accuses It of Stealing His Work, Futurism, 10 September 2026",
+     "url": "https://futurism.com/artificial-intelligence/drama-openai-supposed-mathematical-breakthrough",
+     "finding": "OpenAI says a swarm of AI agents, 10,000 according to its head of research Mark Chen, ran for 88 hours to solve the problem. OpenAI denied that its researchers or agents saw Buckmaster's work before publication but said it cannot rule out that de-identified data derived from his and Alpöge's usage of its products helped improve its models; Sébastien Bubeck called Buckmaster's claims false and inflammatory."
     },
     {
-     "title": "Tristan Buckmaster, statement, 8 September 2026",
+     "title": "Russell Brandom, OpenAI fought dirty on career-making math problem, says NYU mathematician, TechCrunch, 8 September 2026",
+     "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/",
+     "finding": "OpenAI's post says its latest effort began on 1 September, inspired by rumours that two Millennium Prize problems had been solved, and that no specific user data was accessed to solve the problem, though, while unlikely, it cannot rule out that de-identified data from the pair's usage of its products helped. The article notes OpenAI reserves the right to train models on Codex interactions and that users can opt out."
+    },
+    {
+     "title": "Tristan Buckmaster, statement, September 2026",
      "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
-     "finding": "Buckmaster and Alpöge put all drafts of the project into Codex; OpenAI told them very little human input was used, then it emerged a team had worked on it and that the first prompt was sent after information about their work reached OpenAI. The smooth-force route was opened by Córdoba and Martínez-Zoroa. When he asked about training on his Codex sessions he got no answer. He says he does not know whether their data was used and is not accusing anyone."
+     "finding": "Buckmaster and Alpöge, who works at Anthropic, put all drafts of their project into Codex. Buckmaster was told OpenAI's internal model had simply been given the problem statement, and Alpöge that very little human input was used; it then emerged a team had worked on it, and OpenAI eventually agreed its first prompt was sent after information about their work reached OpenAI. The smooth-force route was opened by Córdoba and Martínez-Zoroa. When he asked about training on their Codex sessions he got no answer. He says he does not know whether their data was used and is not accusing anyone."
     },
     {
      "title": "OpenAI, Finite time blowup for Navier-Stokes, September 2026",
@@ -16800,14 +16855,14 @@
      "finding": "The 166-page paper, credited to OpenAI, cites Córdoba and Martínez-Zoroa's forced-singularity constructions for the 3D Euler equations and their extension with Zheng to hypodissipative Navier-Stokes."
     },
     {
-     "title": "OpenAI, On the Navier-Stokes Millennium Prize Problem, as archived on 8 September 2026",
-     "url": "https://web.archive.org/web/20260908171518/https://openai.com/index/navier-stokes-solution",
-     "finding": "The first version said no specific user data was accessed, but that, while unlikely, OpenAI could not rule out that de-identified data derived from Alpöge and Buckmaster's usage of its products helped improve its models."
+     "title": "Joseph Howlett, OpenAI's blockbuster math proof isn't what you think it is, Scientific American, 13 October 2026",
+     "url": "https://www.scientificamerican.com/article/openais-blockbuster-navier-stokes-proof-isnt-what-we-thought-it-was/",
+     "finding": "All the expert groups interviewed agree the proof does not follow Córdoba and Martínez-Zoroa's program, and its similarities to Buckmaster and Alpöge's progress are superficial; some experts say a smaller initial team of OpenAI agents did follow the program for an intermediate result before the 10,000-agent swarm took a different path. OpenAI maintains its model could not have seen Buckmaster's data, and one expert says he sees no factual resolution of the dispute."
     },
     {
-     "title": "OpenAI Help Center, How your data is used to improve model performance (October 2026)",
-     "url": "https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance",
-     "finding": "On services for individuals (Free, Plus, Pro) OpenAI may use content, including Codex tasks, to train its models unless the user opts out; Codex has a separate setting for training on full environments. Business, Enterprise, Edu, API and ChatGPT for Academic Researchers content is not used by default."
+     "title": "Akanksha Mishra, Did Claude discover a new enzyme or 'stole' a biologist's work? Anthropic responds, ThePrint, 29 September 2026",
+     "url": "https://theprint.in/science/did-claude-discover-a-new-enzyme-or-stole-a-biologists-work-anthropic-responds/3057122/",
+     "finding": "Anthropic said on 23 September 2026 that Claude, running 950 agents for 21 hours, discovered a novel CRISPR-like enzyme system it named ART. Citing The New York Times, the article reports that Mario Rodríguez Mestre of the University of Copenhagen says his team found the system about a year earlier after nearly four years of unpublished work, used Claude for code and manuscript drafts, and worries Claude used their data; Anthropic denied training on user transcripts and said it knew of no published data on ART."
     },
     {
      "title": "Clay Mathematics Institute, Navier-Stokes announcement, 11 September 2026",
@@ -16820,19 +16875,19 @@
      "finding": "AI-produced solutions are often announced in a rush, leaving no time for a proper writeup or for citing others' prior work, and skipping the long community vetting through talks, discussion and simplification; this raises severe attribution and plagiarism questions that the mathematical community and AI companies must address urgently."
     },
     {
-     "title": "Bastounis, Circelli and Hansen, Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correctness, arXiv 2610.08144 (October 2026)",
+     "title": "Bastounis, Circelli and Hansen, Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs, arXiv 2610.08144 (October 2026)",
      "url": "https://arxiv.org/abs/2610.08144",
-     "finding": "The authors argue that OpenAI's Lean formalisation of its Navier-Stokes blowup proof does not match the natural-language proof, so a successful Lean check does not confirm the informal argument."
+     "finding": "The authors argue that OpenAI's Lean formalisation of its Navier-Stokes blowup proof does not correspond to the natural-language proof, so a successful Lean check does not confirm the informal argument."
     },
     {
      "title": "Anthony Ha, OpenAI's 'embarrassing' math, TechCrunch, 19 October 2025",
      "url": "https://techcrunch.com/2025/10/19/openais-embarrassing-math/",
-     "finding": "OpenAI VP Kevin Weil posted that GPT-5 found solutions to 10 previously unsolved Erdős problems and deleted the post after Thomas Bloom, who runs the Erdős problems site, called it a dramatic misrepresentation: GPT-5 had found references that already solved them."
+     "finding": "OpenAI VP Kevin Weil posted that GPT-5 found solutions to 10 previously unsolved Erdős problems and later deleted the post after Thomas Bloom, who maintains the Erdős problems site, called it a dramatic misrepresentation: GPT-5 had found references that already solved them."
     },
     {
-     "title": "BBC News, Pallab Ghosh, A bust-up between mathematicians is fuelling fears that AI could undermine science, 28 October 2026",
-     "url": "https://www.bbc.com/news/articles/c6gelgxjwzdzo",
-     "finding": "Buckmaster asked whether his research stored in Codex could have fed OpenAI's work; OpenAI said nobody there, human or AI, saw the other team's work before publication. The BBC says the case shows AI could undermine faith in the scientific process by raising questions about the novelty and accuracy of research."
+     "title": "Kaia Glickman, Will AI scoop your science? Some researchers see a gloomy future, Nature, 8 October 2026",
+     "url": "https://www.nature.com/articles/d41586-026-03128-6",
+     "finding": "Scientists worry that increasingly capable large language models will beat them to discoveries, as AI agents' ability to do science autonomously improves."
     }
    ],
    "control": "mitigable",
@@ -16842,27 +16897,15 @@
    "control_note": "Labs can publish their prompts, outputs and timelines, credit the work they build on and leave checking and write-up to independent experts, and researchers can keep unpublished work out of tools that train on it. None of this stops a lab from announcing first, and only the lab can show what its model saw.",
    "actions": [
     {
-     "action": "Hand AI results to independent expert groups and claim no academic credit",
-     "actor": "AI labs",
-     "status": "tested",
-     "aim": "impact",
-     "evidence": "In October 2026 OpenAI said it seeks no academic credit for discoveries by its internal models, and asked outside experts to shepherd three new results, with no non-disclosure agreements and freedom to publish; it says choosing the first shepherds shapes who gets involved and creates an asymmetry of information.",
-     "ref": {
-      "title": "OpenAI, Working with academic communities to build scientific understanding, 26 October 2026",
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-      "finding": "OpenAI states four principles for its external collaborations: transparency with no NDAs, no academic credit for discoveries produced by its internal models, recognition for the group's own writeups and for crediting the researchers and ideas the work draws on, and voluntary, unpaid, independent participation."
-     }
-    },
-    {
      "action": "Keep unpublished research out of model training",
      "actor": "researchers",
      "status": "in force",
      "aim": "probability",
-     "evidence": "Individual ChatGPT and Codex plans train on content by default unless the user opts out, while business, API and academic-researcher workspaces do not; Codex has a separate switch for training on full environments.",
+     "evidence": "OpenAI reserves the right to train its models on Codex interactions but lets users opt out, so researchers who draft unpublished work in these tools have to switch training off themselves.",
      "ref": {
-      "title": "OpenAI Help Center, How your data is used to improve model performance (October 2026)",
-      "url": "https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance",
-      "finding": "Opting out under Data controls or in the Privacy Portal covers ChatGPT conversations and Codex tasks; the Codex Include environments setting is separate. Feedback such as a thumbs up can still put the whole conversation into training."
+      "title": "Russell Brandom, OpenAI fought dirty on career-making math problem, says NYU mathematician, TechCrunch, 8 September 2026",
+      "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/",
+      "finding": "OpenAI reserves the right to train models on Codex interactions, and users are able to opt out."
      }
     }
    ],
@@ -16873,9 +16916,9 @@
      "parallel": "A rival team used another group's unpublished results, shared informally, to confirm a famous discovery, and the credit took years to set right.",
      "outcome": "Watson and Crick used the King's group's data from an informal MRC report without permission to confirm their double helix, said in their 1953 paper that they were not aware of the details, and only in 1954 wrote that without Franklin's data their structure would have been most unlikely, if not impossible. Cobb and Comfort argue Franklin was an equal contributor, not a victim of theft.",
      "ref": {
-      "title": "Cobb and Comfort, What Rosalind Franklin truly contributed to the discovery of DNA's structure, Nature 616 (2023)",
+      "title": "Cobb and Comfort, What Rosalind Franklin truly contributed to the discovery of DNA's structure, Nature 616, 657-660 (2023)",
       "url": "https://www.nature.com/articles/d41586-023-01313-5",
-      "finding": "Watson and Crick solved the structure by their own trial and error and then used the King's data, without permission, to confirm it; their 1954 paper acknowledged that without Franklin's data the formulation of their structure would have been most unlikely, if not impossible."
+      "finding": "Watson and Crick solved the structure by their own trial and error and then used the King's data, from an informal report Max Perutz passed them without consulting the King's group, to confirm it without permission; their 1953 paper said they were not aware of the details of the unpublished results, and their 1954 paper acknowledged that without Franklin's data the formulation of their structure would have been most unlikely, if not impossible. The authors argue Franklin was an equal contributor to the solution, not a wronged heroine whose data was stolen."
      }
     }
    ]
@@ -19636,13 +19679,13 @@
    "source": "translation",
    "target": "fakehires",
    "kind": "leads",
-   "why": "Okta observed operatives using AI services for real-time translation and transcription, alongside tools that run the phone, email and chat accounts of many candidate personas at once."
+   "why": "Okta observed operatives using AI services for real-time translation of voice and text and for transcription, alongside tools that run the phone, email and chat accounts of many candidate personas at once."
   },
   {
    "source": "fakehires",
    "target": "fraud",
    "kind": "twin",
-   "why": "Both use deepfaked faces and voices to pass as someone else on video calls, to win a job in one case and a payment in the other."
+   "why": "Both use deepfaked faces and altered voices to pass as someone else on video calls, to win a job in one case and a payment in the other."
   },
   {
    "source": "aitoys",
@@ -19720,7 +19763,7 @@
    "source": "crawlerload",
    "target": "webtraffic",
    "kind": "twin",
-   "why": "The AI products that crawl sites hard also send fewer people to them: Wikimedia says publishers across the web see more bot traffic and fewer human visitors as chatbots and AI summaries answer for the source."
+   "why": "The AI products that crawl sites hard also send fewer people to them: Wikimedia says LLM-powered search summaries and chatbots make users less likely to know the source or follow links, and that publishers across the web see more bot traffic and fewer human users."
   },
   {
    "source": "armsrace",
@@ -19810,7 +19853,7 @@
    "source": "datagrab",
    "target": "scoopedresearch",
    "kind": "leads",
-   "why": "When chat and coding tools train on user content by default, researchers who draft unpublished work in them cannot rule out that it reaches a lab's models, and only the lab can check."
+   "why": "When coding and chat tools may train on user content unless the user opts out, researchers who draft unpublished work in them cannot rule out that it reaches a lab's models, and only the lab can check."
   },
   {
    "source": "scoopedresearch",
@@ -19919,6 +19962,48 @@
    "target": "csmajors",
    "kind": "leads",
    "why": "Fewer entry-level hires in AI-exposed jobs such as software development are the job-market signal that computing department leaders say is steering students away from computer science."
+  },
+  {
+   "source": "schoolsurveillance",
+   "target": "detectorbias",
+   "kind": "twin",
+   "why": "Both run software over students' writing and treat its flags as grounds to act, so harmless work gets flagged, here more than 200 homework false alarms in one Kansas district."
+  },
+  {
+   "source": "hiringsignals",
+   "target": "cheating",
+   "kind": "twin",
+   "why": "Both come from AI writing work that people hand in as their own, so a written application or a homework assignment no longer shows the skill of the person submitting it."
+  },
+  {
+   "source": "aipeerreview",
+   "target": "papermills",
+   "kind": "twin",
+   "why": "Both put machine-written text into scholarly publishing: synthetic papers on the author side and chatbot reviews on the reviewer side, and Pangram's ICLR 2026 analysis found both AI-heavy papers and AI-heavy reviews."
+  },
+  {
+   "source": "crawlerload",
+   "target": "maintainers",
+   "kind": "twin",
+   "why": "Both load AI costs onto open-source infrastructure: scraper swarms can be devastating for Git forges, the Anubis challenge was first built to keep scrapers from taking down one developer's Git server, and GNOME, sourcehut and FFmpeg have adopted it."
+  },
+  {
+   "source": "aiwashing",
+   "target": "aibubble",
+   "kind": "leads",
+   "why": "Overstated AI claims pull investor money toward the AI label: the SEC alleges one founder raised over $42 million for an app that could not use AI to complete purchases, and AI-related suits were 13% of US core securities class action filings in the first half of 2026 but 73% of the disclosure dollar losses."
+  },
+  {
+   "source": "aiwashing",
+   "target": "detectorbias",
+   "kind": "twin",
+   "why": "Both concern AI detectors that work worse than buyers are told: the FTC alleges one detector sold as 98 percent accurate scored 53 percent on general-purpose content."
+  },
+  {
+   "source": "fakereceipts",
+   "target": "deepfakeevidence",
+   "kind": "twin",
+   "why": "Both use generated images as proof of something that never happened, and both shift the burden onto whoever must check the evidence, an employer or insurer here and a court there."
   }
  ],
  "themes": {
