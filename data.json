@@ -16426,6 +16426,93 @@
      }
     }
    ]
+  },
+  {
+   "id": "voiceclones",
+   "label": "Performers' voices cloned and sold without consent",
+   "valence": -2.69,
+   "probability": 0.7,
+   "year": 2025,
+   "evidence": "reported",
+   "summary": "Voice cloning lets companies sell synthetic copies of a performer's voice. In a 2026 survey by the National Association of Voice Actors, 21% of respondents said they had knowingly lost a job to a synthetic voice[6], up from 14% a year earlier according to the group[1]; the survey drew 1,379 responses, recruited partly through the group's own contact list, so it is not a random sample[2]. Two voice actors allege that Lovo, a text-to-speech company, got recordings of their voices through Fiverr in 2019 and 2020 for what it said was internal research and then used them to make voice-overs without permission; in July 2025 a New York federal judge let their right of publicity, contract and consumer protection claims proceed but dismissed their false endorsement claims and their copyright claims over the voices themselves, which it found not independently copyrightable[3]. Video game performers in SAG-AFTRA struck for 11 months over consent and pay for AI replicas[4]. Licensed cloning also pays some performers: ElevenLabs says more than 10,400 creators who share their voices on its platform had earned over $22 million by May 2026, a figure it reports itself[5].",
+   "refs": [
+    {
+     "title": "National Association of Voice Actors, Voice Actors Head to Washington to Address AI's Impact on Creative Economy, GlobeNewswire release via AOL, May 2026",
+     "url": "https://lite.aol.com/politics/story/0022/20260505/9712987.htm",
+     "finding": "About 21 percent of voice actors surveyed by NAVA this year reported losing work directly to AI, up from 14 percent one year earlier; NAVA leaders took the findings to panels in Washington, D.C. on 12 and 13 May 2026."
+    },
+    {
+     "title": "National Association of Voice Actors, 2026 State of Voiceover Survey by NAVA, 2026",
+     "url": "https://navavoices.org/vo-survey-2026/",
+     "finding": "The survey was published on 22 January 2026 and closed on 22 February 2026 with 1,379 responses; NAVA's contact list of about 4,000 voice actors and voiceover professionals was one of three sources used to recruit participants."
+    },
+    {
+     "title": "The Fashion Law, A Case Over AI Voice Clones Poses First-of-Its-Kind Questions, July 2025",
+     "url": "https://www.thefashionlaw.com/a-lawsuit-over-cloned-voices-poses-first-of-its-kind-legal-questions-over-ai/",
+     "finding": "In Lehrman et al. v. Lovo, Inc. (SDNY), voice actors Paul Lehrman and Linnea Sage allege Lovo obtained recordings of their voices through Fiverr in 2019 and 2020, saying they were for internal research only, then used them to create millions of voice-over productions without permission. On 10 July 2025 Judge Paul Oetken let right of publicity, breach of contract and state consumer protection claims proceed and dismissed false endorsement claims, finding the voices were the product being sold rather than source identifiers, and dismissed copyright claims because the voices were not independently copyrightable; misappropriating a voice could be actionable under New York's Civil Rights Law."
+    },
+    {
+     "title": "AWN, SAG-AFTRA Ratifies New Deal with Video Game Companies, July 2025",
+     "url": "https://awn.com/news/sag-aftra-ratifies-new-deal-video-game-companies",
+     "finding": "The video game strike began on 16 July 2024 after 18 months of negotiations, which broke down over concerns regarding consent and compensation for the use of AI replicas; the union called it an 11-month strike, and over 95% of voting members backed the new deal."
+    },
+    {
+     "title": "ElevenLabs, $22 million earned by voice creators on ElevenLabs, May 2026",
+     "url": "https://elevenlabs.io/blog/22-million-earned-by-voice-creators-on-elevenlabs",
+     "finding": "More than 10,400 voice creators have earned over $22 million from Professional Voice Clones shared in the ElevenLabs Voice Library, up from $11 million in November 2025; creators set use cases, price tier and a notice period, and can restrict use or remove their voice."
+    },
+    {
+     "title": "National Association of Voice Actors, Voiceover Survey 2026, Part 3: AI, 2026",
+     "url": "https://navavoices.org/vo-survey-2026/voiceover-survey-2026-part-3-ai/",
+     "finding": "Asked 'Have you ever knowingly lost a job to a synthetic voice?', 21% of respondents answered yes and 79% no."
+    }
+   ],
+   "theme": "ip",
+   "stage": "active",
+   "control": "mitigable",
+   "price_of": [
+    "syntheticmedia"
+   ],
+   "control_note": "A clone can be built from recordings a performer made for some other purpose, as the Lovo case alleges. Contracts that require consent and disclosure, and laws that protect a person's voice and likeness, can limit commercial use, but copyright does not protect a voice itself, so protection depends on publicity and likeness rules that differ by place.",
+   "actions": [
+    {
+     "action": "Require consent and disclosure before making digital replicas",
+     "actor": "unions",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "SAG-AFTRA's 2025 Interactive Media Agreement, approved by 95.04% of voting members, requires consent and disclosure for AI digital replica use and lets performers withdraw consent for new material during a strike; it covers only video game work under that union contract.",
+     "ref": {
+      "title": "GamesBeat, SAG-AFTRA union members approve end of strike with game firms over AI, July 2025",
+      "url": "https://gamesbeat.com/sag-aftra-union-members-approve-to-end-strike-with-game-firms-over-ai/",
+      "finding": "Members approved the 2025 SAG-AFTRA Interactive Media Agreement by 95.04% to 4.96% on 9 July 2025, ending an 11-month strike; the deal includes consent and disclosure requirements for AI digital replica use, the ability to suspend consent for generating new material during a strike, and a 15.17% compounded pay rise on ratification."
+     }
+    },
+    {
+     "action": "Ban sharing realistic imitations of a person's face or voice without consent",
+     "actor": "legislators",
+     "status": "proposed",
+     "aim": "probability",
+     "evidence": "Denmark's government introduced a bill on 8 October 2026 that would amend copyright law to ban sharing realistic AI imitations of a person's face or voice made without permission, covering artists' performances too, with exceptions for satire and parody; the minister hopes it takes effect at the start of 2027.",
+     "ref": {
+      "title": "Euronews, Denmark introduces bill to protect people's faces and voices from deepfakes, October 2026",
+      "url": "https://www.euronews.com/2026/10/08/denmark-introduces-a-bill-protecting-peoples-faces-and-voices-from-deepfakes",
+      "finding": "The bill amends Denmark's copyright law to prohibit sharing realistic AI-generated or manipulated imitations of a person's face or voice made without their permission, covers ordinary people and artists including imitations of their performances, aims to make platforms take down manipulated content quickly, and keeps exceptions for satire, parody, caricature and criticism; the culture minister hopes it takes effect at the start of 2027."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "Midler v. Ford sound-alike advert",
+     "year": 1988,
+     "parallel": "An advertiser that could not hire a famous singer copied her voice instead, the same use of a voice without consent that cloning now automates.",
+     "outcome": "After Bette Midler declined to sing in a Ford commercial, its agency hired a former backup singer to sound as much like her recording as possible; the Ninth Circuit held that deliberately imitating a widely known, distinctive professional voice to sell a product is a tort in California, and sent the case to trial.",
+     "ref": {
+      "title": "Midler v. Ford Motor Co., 849 F.2d 460, US Court of Appeals for the Ninth Circuit, June 1988 (Caselaw Access Project)",
+      "url": "https://static.case.law/f2d/849/cases/0460-01.json",
+      "finding": "Young & Rubicam hired Ula Hedwig to imitate Midler's recording of Do You Want To Dance after Midler declined; many people believed Midler was singing. The court reversed summary judgment, holding that when a distinctive voice of a professional singer is widely known and is deliberately imitated in order to sell a product, the sellers have appropriated what is not theirs and committed a tort in California."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -18918,6 +19005,18 @@
    "target": "unverifiable",
    "kind": "leads",
    "why": "Fabricated citations from language models reached at least 51 accepted NeurIPS 2025 papers after peer review."
+  },
+  {
+   "source": "voiceclones",
+   "target": "artists",
+   "kind": "twin",
+   "why": "Voice actors, like illustrators, are losing paid work to generators, with about 21% in one 2026 survey saying they lost work directly to AI."
+  },
+  {
+   "source": "voiceclones",
+   "target": "voicescams",
+   "kind": "twin",
+   "why": "Both rest on cheap voice cloning, used in one case to sell a performer's voice without consent and in the other to impersonate a relative."
   }
  ],
  "themes": {
