@@ -14688,7 +14688,7 @@
    "stage": "emerging",
    "evidence": "measured",
    "theme": "world",
-   "summary": "About 1.16 million people die in road crashes each year[1]. Over 271 million driverless miles in five US metro areas, Waymo reports 82% fewer injury crashes and 95% fewer serious-injury crashes than human drivers on the same roads[2]; one claims study with the insurer Swiss Re found 92% fewer bodily injury claims over 25.3 million miles[3]. Both analyses come from the company, and US regulators opened an investigation after a driverless car passed a stopped school bus[4].",
+   "summary": "About 1.16 million people die in road crashes each year[1]. Over 271 million driverless miles on surface streets in five US metro areas through June 2026, Waymo reports 82% fewer injury crashes and 95% fewer serious-injury crashes than human drivers on the same kinds of roads[2]; a claims study with the insurer Swiss Re found 92% fewer bodily injury claims over 25.3 million miles[3]. Both analyses were published by Waymo. An independent study of California crash reports found that cars with automated driving systems generally had lower odds of crashing than human drivers in matched scenarios, but higher odds at dawn or dusk and when turning[4]. US regulators opened investigations after a driverless Waymo drove around a stopped school bus in Atlanta[5] and after one struck a child near a Santa Monica school, causing minor injuries[6], and the NTSB is investigating Waymo cars passing stopped school buses in Austin, Texas[7].",
    "refs": [
     {
      "title": "WHO, Road traffic injuries fact sheet, 2026",
@@ -14698,7 +14698,7 @@
     {
      "title": "Waymo, Safety Impact data hub, data through June 2026",
      "url": "https://waymo.com/safety/impact/",
-     "finding": "Over 271.3 million rider-only miles in Los Angeles, the San Francisco Bay Area, Phoenix, Austin and Atlanta, Waymo reports 82% fewer injury-causing crashes, 95% fewer serious-injury-or-worse crashes and 93% fewer pedestrian injury crashes than a human benchmark on the same roads."
+     "finding": "Over 271.3 million rider-only miles through June 2026 in Los Angeles, the San Francisco Bay Area, Phoenix, Austin and Atlanta, Waymo reports 82% fewer any-injury-reported crashes, 95% fewer serious-injury-or-worse crashes and 93% fewer pedestrian injury crashes than a human benchmark for the surface streets it drives in those cities."
     },
     {
      "title": "Waymo, New Swiss Re study: Waymo is safer than even the most advanced human-driven vehicles, 2024",
@@ -14706,20 +14706,35 @@
      "finding": "Over 25.3 million miles, Waymo had 9 property damage and 2 bodily injury claims against 78 and 26 expected for human drivers, 88% and 92% fewer."
     },
     {
+     "title": "Abdel-Aty and Ding, A matched case-control analysis of autonomous vs human-driven vehicle accidents, Nature Communications, 2024",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11189485/",
+     "finding": "In California crash reports matched by location, time and road type, vehicles with Advanced Driving Systems generally had a lower chance of a crash than human-driven vehicles in similar scenarios, but 5.25 times the odds at dawn or dusk and 1.98 times when turning; the authors note exposure between the two groups is extremely unbalanced."
+    },
+    {
      "title": "NHTSA Office of Defects Investigation, PE25013 resume, 2025",
      "url": "https://static.nhtsa.gov/odi/inv/2025/INOA-PE25013-23069.pdf",
-     "finding": "NHTSA opened a preliminary evaluation on 17 October 2025 into about 2,000 Waymo vehicles after one drove around a stopped school bus."
+     "finding": "NHTSA opened a preliminary evaluation on 17 October 2025 into about 2,000 Waymo vehicles after one drove around a stopped school bus in Atlanta on 22 September 2025."
+    },
+    {
+     "title": "NHTSA Office of Defects Investigation, PE26001 resume, 2026",
+     "url": "https://static.nhtsa.gov/odi/inv/2026/INOA-PE26001-10005.pdf",
+     "finding": "NHTSA opened a preliminary evaluation on 28 January 2026 into about 3,067 Waymo vehicles after a driverless Waymo struck a child within two blocks of a Santa Monica, California elementary school during drop-off on 23 January 2026; Waymo reported minor injuries."
+    },
+    {
+     "title": "NTSB, HWY26FH007: Automated Driving System-Equipped Vehicle Passed School Bus Loading Student Passengers, 2026",
+     "url": "https://www.ntsb.gov/investigations/Pages/HWY26FH007.aspx",
+     "finding": "On 12 January 2026 in Austin, Texas, a driverless Waymo stopped for a school bus loading students, asked remote assistance whether the bus had active signals, was told no, and drove past with the stop arms extended; the NTSB is also investigating other incidents with Austin ISD buses this school year. Status ongoing."
     }
    ],
    "limiters": [
     {
-     "limit": "Service limited to a few mapped cities",
+     "limit": "Service and safety data limited to a few US cities",
      "kind": "access",
-     "evidence": "The safety figures cover rider-only service in five US metro areas.",
+     "evidence": "The safety figures cover rider-only service on surface streets in five US metro areas.",
      "ref": {
       "title": "Waymo, Safety Impact data hub, data through June 2026",
       "url": "https://waymo.com/safety/impact/",
-      "finding": "Data covers Los Angeles, the San Francisco Bay Area, Phoenix, Austin and Atlanta."
+      "finding": "Data covers surface streets in Los Angeles, the San Francisco Bay Area, Phoenix, Austin and Atlanta, and excludes freeways."
      }
     },
     {
@@ -14739,7 +14754,7 @@
      "actor": "Waymo",
      "status": "in force",
      "counters": null,
-     "evidence": "Waymo publishes crash rates by outcome for its rider-only miles, compared with human drivers on the same roads.",
+     "evidence": "Waymo publishes crash rates by outcome for its rider-only miles, compared with a human benchmark for the same kinds of city streets.",
      "ref": {
       "title": "Waymo, Safety Impact data hub, data through June 2026",
       "url": "https://waymo.com/safety/impact/",
@@ -14768,17 +14783,27 @@
    "probability": 0.9,
    "year": 2026,
    "evidence": "reported",
-   "summary": "At Deezer, fully AI-generated tracks passed half of new uploads on peak days in June 2026, about 90,000 a day, but drew only 1 to 3% of streams, and up to 85% of those streams in 2025 were fraudulent[1]. In one US case, a man whose bots streamed hundreds of thousands of AI-generated songs billions of times pleaded guilty to wire fraud conspiracy and agreed to forfeit about $8 million[2]. In one Ipsos survey of 9,000 people in 8 countries commissioned by Deezer, 97% could not tell fully AI-generated music from human-made music in a blind test[1].",
+   "summary": "At Deezer, fully AI-generated tracks passed half of new uploads on peak days in June 2026, about 90,000 a day, but drew only 1 to 3% of streams, and up to 85% of those streams in 2025 were fraudulent[1]. In one US case, a man whose bots streamed hundreds of thousands of AI-generated songs billions of times pleaded guilty to wire fraud conspiracy[2]; in October 2026 he was sentenced to 18 months in prison and ordered to forfeit about $8.1 million[3]. In one Ipsos survey of 9,000 people in 8 countries, commissioned by Deezer in November 2025, 97% could not tell fully AI-generated music from human-made music in a blind test[1]. Spotify, announcing new AI protections in September 2025, said it had removed over 75 million spammy tracks in the previous 12 months[4].",
    "refs": [
     {
      "title": "Deezer, AI music has surpassed 50% of new music uploads for the first time, July 2026",
      "url": "https://newsroom-deezer.com/2026/07/ai-music-exceeds-50-percent-daily-uploads-deezer/",
-     "finding": "About 90,000 fully AI-generated tracks a day were over 50% of new uploads at peak in June 2026; they make up 1 to 3% of streams, and up to 85% of their streams in 2025 were fraudulent, against 8% across the catalogue."
+     "finding": "About 90,000 fully AI-generated tracks a day were over 50% of new uploads on peak days in June 2026; they make up 1 to 3% of streams, and up to 85% of their streams in 2025 were fraudulent, against 8% across the catalogue. In a November 2025 Ipsos survey of 9,000 people in 8 countries, 97% could not tell AI from human music in a blind test."
     },
     {
      "title": "Bloomberg Law, AI music maker who faked streams pleads guilty on fraud count, March 2026",
      "url": "https://news.bloomberglaw.com/ip-law/ai-music-maker-who-faked-streams-pleads-guilty-on-fraud-count",
      "finding": "Michael Smith pleaded guilty to one count of conspiracy to commit wire fraud over bots that streamed hundreds of thousands of AI-generated songs billions of times, and agreed to pay about $8 million."
+    },
+    {
+     "title": "Music Business Worldwide, Michael Smith, man behind $8M AI song and bot streaming fraud, sentenced to 18 months in prison, October 2026",
+     "url": "https://www.musicbusinessworldwide.com/man-behind-8m-ai-song-and-bot-streaming-fraud-is-sentenced-to-18-months-in-prison/",
+     "finding": "On 6 October 2026 a Manhattan federal judge sentenced Smith to 18 months in prison and two years of supervised release and ordered forfeiture of $8,091,843.64; prosecutors said thousands of fake accounts streamed hundreds of thousands of AI-generated songs billions of times from 2017 to 2024."
+    },
+    {
+     "title": "Spotify, Spotify strengthens AI protections for artists, songwriters, and producers, September 2025",
+     "url": "https://newsroom.spotify.com/2025-09-25/spotify-strengthens-ai-protections/",
+     "finding": "Spotify removed over 75 million spammy tracks in the past 12 months and announced a spam filter for mass uploads, duplicates and artificially short tracks, AI disclosures in credits through DDEX, and a policy against unauthorized vocal impersonation."
     }
    ],
    "theme": "ip",
@@ -14794,7 +14819,7 @@
      "actor": "streaming platforms",
      "status": "in force",
      "aim": "impact",
-     "evidence": "Deezer tags AI tracks, keeps them out of algorithmic and editorial playlists, excludes fraudulent streams from royalties and will remove AI tracks used for fraud; the effect on fraud volume is not published.",
+     "evidence": "Deezer tags AI tracks, keeps them out of algorithmic recommendations and editorial playlists, excludes fraudulent streams from royalties and will remove AI tracks used for fraud; the effect on fraud volume is not published.",
      "ref": {
       "title": "Deezer, AI music has surpassed 50% of new music uploads for the first time, July 2026",
       "url": "https://newsroom-deezer.com/2026/07/ai-music-exceeds-50-percent-daily-uploads-deezer/",
@@ -14806,11 +14831,11 @@
      "actor": "prosecutors",
      "status": "in force",
      "aim": "probability",
-     "evidence": "US prosecutors brought a criminal case that ended in a guilty plea; one case does not show deterrence.",
+     "evidence": "US prosecutors brought a criminal case that ended in an 18-month prison sentence and forfeiture of about $8.1 million; one case does not show deterrence.",
      "ref": {
-      "title": "Bloomberg Law, AI music maker who faked streams pleads guilty on fraud count, March 2026",
-      "url": "https://news.bloomberglaw.com/ip-law/ai-music-maker-who-faked-streams-pleads-guilty-on-fraud-count",
-      "finding": "Guilty plea to conspiracy to commit wire fraud, with about $8 million to be paid."
+      "title": "Music Business Worldwide, Michael Smith, man behind $8M AI song and bot streaming fraud, sentenced to 18 months in prison, October 2026",
+      "url": "https://www.musicbusinessworldwide.com/man-behind-8m-ai-song-and-bot-streaming-fraud-is-sentenced-to-18-months-in-prison/",
+      "finding": "Sentenced on 6 October 2026 to 18 months in prison and two years of supervised release, with $8,091,843.64 forfeited."
      }
     }
    ],
@@ -14823,7 +14848,7 @@
    "probability": 0.6,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Pricing firms can tailor what each shopper pays from personal data such as location, browsing history and even mouse movements; intermediaries studied by the US FTC had at least 250 business clients, from grocers to clothing retailers[1][2]. In one Consumer Reports test with 437 volunteers, Instacart's AI pricing tool showed about three in four grocery items at more than one price, with gaps of up to 23% per item; Instacart called the gaps negligible, denied using personal data and later stopped offering the tool[3]. Maryland now bars food retailers and delivery apps from setting prices with personal data[4], and Connecticut passed a similar law in June 2026[5].",
+   "summary": "Pricing firms can tailor what each shopper pays from personal data such as location, browsing history and even mouse movements; intermediaries studied by the US FTC had at least 250 business clients, from grocers to clothing retailers, though FTC staff could publish only hypothetical examples[1][2]. In one Consumer Reports test with 437 volunteers, Instacart's AI pricing tool showed about three in four grocery items at more than one price, with gaps of up to 23% per item; Instacart called the gaps negligible, said shoppers were put into tests at random rather than by personal data, and later stopped offering the tool[3]. Maryland's ban on food retailers and delivery apps setting prices from personal data took effect on 1 October 2026[4]. Connecticut followed in June 2026 with a wider ban covering retailers and delivery services from July 2027[5][6], New Jersey banned the practice for groceries in July 2026[7], and New York's legislature passed a broad ban in June 2026 that has not yet been signed into law[8]. In October 2026 the FTC, saying its 2024 study of intermediaries taught it nothing about actual pricing decisions, ordered nine airlines, ride-hail, delivery and retail firms, including Uber, Instacart and Walmart, to report whether their prices and worker pay vary from person to person[9].",
    "refs": [
     {
      "title": "FTC, FTC Issues Orders to Eight Companies Seeking Information on Surveillance Pricing, July 2024",
@@ -14838,7 +14863,7 @@
     {
      "title": "Consumer Reports, Instacart's AI-enabled pricing experiments may be inflating your grocery bill, December 2025",
      "url": "https://www.consumerreports.org/money/questionable-business-practices/instacart-ai-pricing-experiment-inflating-grocery-bills-a1142182490/",
-     "finding": "437 volunteers shopping the same items in September 2025 saw about three-quarters of products at multiple prices, gaps of up to 23% per item and baskets at one Seattle Safeway from $114.34 to $123.93; CR estimated about $1,200 a year for a household of four. Instacart confirmed experiments at 10 retailers via its Eversight AI pricing tools and later stopped offering the technology."
+     "finding": "437 volunteers shopping the same items in September 2025 saw about three-quarters of products at multiple prices, gaps of up to 23% per item and baskets at one Seattle Safeway from $114.34 to $123.93; CR estimated about $1,200 a year for a household of four. Instacart said it ran experiments at 10 retailers using its Eversight pricing tools, called the differences negligible and said shoppers were assigned to tests at random without personal or demographic data; a 22 December 2025 update says Instacart stopped offering the technology."
     },
     {
      "title": "Maryland General Assembly, HB 895 (2026), Protection From Predatory Pricing Act",
@@ -14849,6 +14874,26 @@
      "title": "Consumer Reports, statement on the signing of Connecticut's surveillance pricing bill into law, June 2026",
      "url": "https://advocacy.consumerreports.org/press_release/consumer-reports-statement-on-the-signing-of-connecticuts-surveillance-pricing-bill-into-law/",
      "finding": "Governor Lamont signed HB 5563 on 4 June 2026, making Connecticut the second state to curb personalised pricing, effective 1 July 2027; CR notes it still lets firms raise list prices and then give personalised discounts."
+    },
+    {
+     "title": "ICSC, Surveillance pricing legislation gains momentum as states wrap up 2026 sessions, July 2026",
+     "url": "https://www.icsc.com/news-and-views/icsc-exchange/surveillance-pricing-legislation-gains-momentum-as-states-wrap-up-2026-sessions",
+     "finding": "Connecticut's law covers retail sellers, including retail food establishments, and third-party delivery services, which from 1 July 2027 may not set customized prices based on a consumer's personal data; it protects group discounts and voluntary loyalty programs. Colorado's governor vetoed HB 1210, which would have restricted individualized price and wage setting, on 2 June 2026."
+    },
+    {
+     "title": "Office of the Governor of New Jersey, Governor Sherrill Signs the Fair Price Protection Act to Shield New Jersey Grocery Shoppers from Surveillance Pricing, July 2026",
+     "url": "https://www.nj.gov/governor/news/2026/20260723a.shtml",
+     "finding": "Posted 23 July 2026: the law bars retailers from using personal data to set individualized prices on groceries and other necessities, does not ban loyalty programs or discounts, and pauses new electronic shelf labels for one year while the state studies them."
+    },
+    {
+     "title": "New York State Senate, Assembly Bill A9349B (2025-2026), prohibiting the use of surveillance pricing",
+     "url": "https://www.nysenate.gov/legislation/bills/2025/A9349/amendment/B",
+     "finding": "Passed the Senate 39 to 21 and the Assembly on 4 June 2026; bars setting prices through algorithms that use personal data to charge different customers different prices for the same goods or services, allows uniformly offered discounts, and takes effect 180 days after becoming law. The record shows no delivery to or signature by the governor."
+    },
+    {
+     "title": "FTC, FTC Launches Personalized Pricing and Compensation Inquiry, October 2026",
+     "url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-launches-personalized-pricing-compensation-inquiry",
+     "finding": "On 28 October 2026 the FTC voted 2-0 to order Delta, United, JetBlue, Lyft, Uber, DoorDash, Instacart, Target and Walmart to report whether prices vary from person to person and, for ride-sharing and delivery firms, whether worker pay is personalized; it said the 2024 study examined only middlemen and 'learned nothing about actual pricing decisions'."
     }
    ],
    "theme": "power",
@@ -14857,7 +14902,7 @@
    "price_of": [
     "cheapintelligence"
    ],
-   "control_note": "Cheap models make per-shopper pricing economical, and the same data drives targeted discounts shoppers like. Bans and labels can limit it, but price tests are hard for buyers to see.",
+   "control_note": "Automated pricing tools make per-shopper prices cheap to set, and the same data drives targeted discounts that shoppers like and that most new laws protect. Bans and labels can limit it, but price tests are hard for buyers to see.",
    "actions": [
     {
      "action": "Ban pricing from personal data in groceries",
@@ -14884,15 +14929,27 @@
      }
     },
     {
-     "action": "Compel pricing intermediaries to disclose their data use",
+     "action": "Compel firms to disclose personalised pricing and pay",
      "actor": "regulators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "FTC orders to eight firms produced initial findings in January 2025 on a 3-2 vote; the study was ongoing and could publish only hypothetical examples because the data were confidential.",
+     "evidence": "The FTC's 2024 orders to eight intermediaries produced only initial findings with hypothetical examples; in October 2026 it ordered nine airlines, ride-hail, delivery and retail firms to report on personalised prices and worker pay within 45 days.",
      "ref": {
-      "title": "FTC, Surveillance Pricing Study Indicates Wide Range of Personal Data Used to Set Individualized Consumer Prices, January 2025",
-      "url": "https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-surveillance-pricing-study-indicates-wide-range-personal-data-used-set-individualized-consumer",
-      "finding": "Staff analysed documents from six of the eight firms and found intermediaries with at least 250 retail clients; Commissioners Ferguson and Holyoak dissented from the release."
+      "title": "FTC, FTC Launches Personalized Pricing and Compensation Inquiry, October 2026",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-launches-personalized-pricing-compensation-inquiry",
+      "finding": "Special orders approved 2-0 on 28 October 2026 to Delta, United, JetBlue, Lyft, Uber, DoorDash, Instacart, Target and Walmart; recipients have 45 days to respond, and the FTC said the 2024 study of middlemen taught it nothing about actual pricing decisions."
+     }
+    },
+    {
+     "action": "Treat undisclosed personal-data pricing as deceptive",
+     "actor": "regulators",
+     "status": "proposed",
+     "aim": "impact",
+     "evidence": "The FTC proposed an enforcement policy statement in August 2026 saying undisclosed use of personal data to set prices could violate the FTC Act; the chairman said the agency cannot ban personalised pricing outright.",
+     "ref": {
+      "title": "FTC, FTC Seeks Comment on Enforcement Policy Statement Regarding Personalized Pricing, August 2026",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-seeks-comment-enforcement-policy-statement-regarding-personalized-pricing",
+      "finding": "Published for comment on a 2-0 vote on 19 August 2026, with comments due 18 September 2026; undisclosed collection or use of personal data for personalized pricing could violate the FTC Act's ban on unfair or deceptive practices, and the FTC lacks authority to ban personalized pricing in all circumstances."
      }
     }
    ],
@@ -14901,7 +14958,7 @@
      "event": "Amazon DVD price test",
      "year": 2000,
      "parallel": "An online retailer quietly showed different customers different prices for the same goods, and the backlash came when shoppers compared notes.",
-     "outcome": "Over five days Amazon varied discounts of 20% to 40% on 68 DVD titles, then refunded 6,896 customers an average of $3.10 and promised the lowest test price in any future test; Amazon said the prices were random, not based on customer data.",
+     "outcome": "Over five days Amazon varied discounts of 20% to 40% on 68 DVD titles, then refunded 6,896 customers an average of $3.10 and promised that any future test would give buyers the lowest test price; Amazon said the discounts were random, not based on customer demographic information.",
      "ref": {
       "title": "Amazon.com Issues Statement Regarding Random Price Testing (Amazon, September 2000)",
       "url": "https://press.aboutamazon.com/2000/9/amazon-com-issues-statement-regarding-random-price-testing",
@@ -14911,7 +14968,7 @@
     {
      "event": "Northeastern audit of price steering on shopping sites",
      "year": 2014,
-     "parallel": "Researchers using real shoppers' accounts found sites already tailored prices and results to the person, years before AI made it cheap.",
+     "parallel": "Researchers using hundreds of real shoppers and many fake accounts found sites already tailored prices and results to the person, years before AI made it cheap.",
      "outcome": "Of 16 popular retail and travel sites tested in April and May 2014, four retailers and five travel sites showed some personalisation, such as member-only hotel rates at Orbitz and Cheaptickets and Expedia and Hotels.com steering some users to pricier hotels; most experiments found none.",
      "ref": {
       "title": "Study: some online shoppers pay more than others (Northeastern University, October 2014, on Hannak et al., IMC 2014)",
@@ -14928,7 +14985,7 @@
    "probability": 0.6,
    "year": 2025,
    "evidence": "measured",
-   "summary": "On PJM, a US regional grid, the market monitor attributes $29.4 billion, or 46.2%, of capacity charges across the four auctions for 2025/2026 to 2028/2029 to data-centre load, and estimates that data centres raised the total wholesale cost of power in the first half of 2026 by $11.11 per MWh, or 9.7%[1]. Maryland's consumer advocate estimated the 2025/2026 and 2026/2027 auctions together added $10.43 to $20.81 a month to residential bills at four Maryland utilities, with most of the new demand coming from data centres[2]. One Berkeley Lab and Brattle review found that from 2019 to 2025 the states with the fastest load growth mostly saw real retail prices fall, a pattern data-centre growth did not change, but it names PJM as a case where growth on a constrained grid raised prices[3].",
+   "summary": "On PJM, a US regional grid, the market monitor attributes $29.4 billion, or 46.2%, of capacity charges across the four auctions for 2025/2026 to 2028/2029 to data-centre load, and estimates that data centres added $11.11 per MWh to the total wholesale cost of power in the first half of 2026, 9.7% of the $114.50 total[1]. Maryland's consumer advocate estimated the 2025/2026 and 2026/2027 auctions together added $10.43 to $20.81 a month to residential bills at five Maryland utilities, with most of the new demand behind the higher prices coming from data centres[2]. One Berkeley Lab and Brattle review found that from 2019 to 2025 the states with the fastest load growth mostly saw real average retail prices fall, a pattern data-centre growth did not change, though the link was weaker for residential prices; it names PJM as a case where growth on a constrained grid raised prices[3].",
    "refs": [
     {
      "title": "Monitoring Analytics (PJM Independent Market Monitor), Market Monitor Report, MC Information Webinar, July 2026",
@@ -14938,12 +14995,12 @@
     {
      "title": "Maryland Office of People's Counsel, Data center power demands drive record power auction prices with varying impacts on Maryland customers, July 2025",
      "url": "https://content.govdelivery.com/accounts/MDOPC/bulletins/3ead2f8",
-     "finding": "The 2026/2027 PJM capacity auction cleared at a record $329 per MW-day, and would have cleared at $389 without the cap; most of the increase in demand came from data centres, more than 5,400 MW above the year before. Estimated cumulative residential monthly bill increases from the last two auctions, against 2024/2025, were $16.49 at BGE, $17.68 at Pepco and SMECO, $10.43 at Delmarva Power and $20.81 at Potomac Edison."
+     "finding": "The 2026/2027 PJM capacity auction cleared at a record $329 per MW-day, and would have cleared at $389 without the cap; most of the increase in demand, more than 5,400 MW above the year before, came from data centres. Estimated cumulative residential monthly bill increases from the last two auctions, against 2024/2025, were $16.49 at BGE, $17.68 at Pepco and SMECO, $10.43 at Delmarva Power and $20.81 at Potomac Edison."
     },
     {
      "title": "Lawrence Berkeley National Laboratory and The Brattle Group, Retail Electricity Price Trends and Drivers: Data Update, 2026 edition, April 2026",
      "url": "https://emp.lbl.gov/sites/default/files/2026-03/Retail%20Price%20Trends_2026%20edition.pdf",
-     "finding": "US all-sector average retail prices rose 5.3% in nominal terms in 2025; in real terms they were 3% above 2019. From 2019 to 2025 the states with the highest load growth generally saw real prices decline, and the presence of significant data-centre load does not appear to alter that conclusion. A PJM case study shows accelerated load growth with supply and delivery constraints leading to significant price increases, with data-centre load growth linked to a 174% increase in auction revenues."
+     "finding": "US all-sector average retail prices rose 5.3% in nominal terms in 2025; in real terms they were 3% above 2019. From 2019 to 2025 the states with the highest load growth generally saw real all-sector prices decline, and the presence of significant data-centre load does not appear to alter that conclusion; the relationship for residential prices is less clear. A PJM case study shows accelerated load growth with supply and delivery constraints leading to significant price increases, with data-centre load growth linked to a 174% increase in revenues from the 2025/2026 capacity auction."
     }
    ],
    "theme": "power",
@@ -14952,7 +15009,7 @@
    "price_of": [
     "cheapintelligence"
    ],
-   "control_note": "Data centres draw on the same grid as homes, so their demand lands on shared prices where supply is tight. Tariffs that make large new loads pay for the capacity they need can keep much of it off household bills, but they do not add supply.",
+   "control_note": "Data centres draw on the same grid as homes, so their demand lands on shared prices where supply is tight. Tariffs that make large new loads pay for the capacity they reserve shield other customers from paying for unused grid investment, but they do not add supply or take data centres out of the shared capacity market.",
    "actions": [
     {
      "action": "Make large new loads pay for the capacity they reserve",
@@ -14984,11 +15041,11 @@
      "event": "Crypto-mining power rates in upstate New York",
      "year": 2018,
      "parallel": "A new kind of computing load arrived in small towns with finite cheap power and pushed up what households paid.",
-     "outcome": "New York regulators let municipal utilities charge separate rates to customers above 300 kW and 250 kWh per square foot a year, after average residential bills in Plattsburgh rose $10 a month in January that regulators blamed on two mining firms.",
+     "outcome": "New York regulators let municipal utilities charge separate rates to customers above 300 kW and 250 kWh per square foot a year, after average residential bills in Plattsburgh rose $10 a month in January, which regulators blamed on two mining firms.",
      "ref": {
-      "title": "Utility Dive, Munis to charge bitcoin miners higher power prices in New York, March 2018",
+      "title": "Utility Dive, Munis to charge cryptocurrency miners higher power prices in New York, March 2018",
       "url": "https://www.utilitydive.com/news/munis-to-charge-bitcoin-miners-higher-power-prices-in-new-york/519275/",
-      "finding": "The New York PSC allowed municipal utilities to create a tariff for high-density load customers with maximum demand above 300 kW and load density above 250 kWh per square foot per year; regulators said average Plattsburgh residential bills jumped $10 a month in January because of two cryptocurrency companies, which would have paid over 60% more under the new rates."
+      "finding": "The New York PSC allowed municipal utilities to create a tariff for high-density load customers with maximum demand above 300 kW and load density above 250 kWh per square foot per year; regulators said average Plattsburgh residential bills jumped $10 a month in January because of two cryptocurrency companies, whose monthly electricity costs would have risen more than 60% had the new rates applied."
      }
     }
    ]
@@ -15000,12 +15057,12 @@
    "probability": 0.6,
    "year": 2026,
    "evidence": "measured",
-   "summary": "AI agents that read email, web pages or documents can be steered by instructions hidden in that content. In one public red-teaming competition sponsored by the UK AI Security Institute, about 1.8 million attacks on 22 frontier agents produced over 60,000 policy violations such as unauthorised data access, and nearly all agents broke policy for most behaviours within 10 to 100 queries[1]. Researchers showed that a single crafted email could make Microsoft 365 Copilot leak data with no user interaction[2]. Google's scans of the public web found detections of malicious injections rose by a relative 32% from November 2025 to February 2026, though the attacks seen so far show limited sophistication[3]. The UK NCSC says prompt injection may never be fully mitigated the way SQL injection can be[4].",
+   "summary": "AI agents that read email, web pages or documents can be steered by instructions hidden in that content. In one public red-teaming competition sponsored by the UK AI Security Institute, about 1.8 million attacks on 22 frontier agents in 44 simulated deployment scenarios produced over 60,000 policy violations such as unauthorised data access, and nearly all agents broke policy for most behaviours within 10 to 100 queries[1]. Researchers showed that a single crafted email could make Microsoft 365 Copilot leak data with no user interaction[2]; Microsoft said it had fully fixed that flaw with no action needed by customers, and Aim Security, which found it, said there was no evidence any customers were targeted[3]. Google's scans of the public web found detections of malicious injections rose by a relative 32% from November 2025 to February 2026, though the attacks seen so far show limited sophistication[4]. The UK NCSC says prompt injection may never be fully mitigated the way SQL injection can be[5].",
    "refs": [
     {
      "title": "Zou et al., Security Challenges in AI Agent Deployment: Insights from a Large Scale Public Competition, arXiv 2025",
      "url": "https://arxiv.org/abs/2507.20526",
-     "finding": "A competition run on Gray Swan Arena and sponsored by the UK AI Security Institute targeted 22 frontier agents across 44 deployment scenarios; 1.8 million prompt-injection attacks produced over 60,000 successful policy violations such as unauthorised data access and illicit financial actions. Nearly all agents showed violations for most behaviours within 10 to 100 queries, attacks transferred across models, and robustness correlated little with model size, capability or inference-time compute."
+     "finding": "The AI Agent Red Teaming Challenge, run on Gray Swan Arena from 8 March to 6 April 2025 and sponsored by the UK AI Security Institute alongside OpenAI, Anthropic and Google DeepMind, targeted 22 frontier agents across 44 simulated deployment scenarios; 1.8 million prompt-injection attacks produced over 60,000 successful policy violations such as unauthorised data access and illicit financial actions. Nearly all agents showed violations for most behaviours within 10 to 100 queries, attacks transferred across models, and robustness correlated little with model size, capability or inference-time compute."
     },
     {
      "title": "Reddy and Gujral, EchoLeak: The First Real-World Zero-Click Prompt Injection Exploit in a Production LLM System, arXiv 2025",
@@ -15013,14 +15070,19 @@
      "finding": "CVE-2025-32711 in Microsoft 365 Copilot allowed remote, unauthenticated data exfiltration via a single crafted email with no user interaction, bypassing Microsoft's cross-prompt-injection classifier, link redaction and the content security policy."
     },
     {
-     "title": "Google, AI threats in the wild: The current state of prompt injections on the web, April 2026",
-     "url": "https://blog.google/security/prompt-injections-web/",
-     "finding": "Scanning Common Crawl snapshots of 2 to 3 billion pages each, Google's threat intelligence teams found a relative increase of 32% in the malicious category between November 2025 and February 2026, including attempts at data exfiltration and file deletion; observed attacks showed limited sophistication, and the authors expect the threat to grow in scale and complexity."
+     "title": "Cybersecurity Dive, Critical flaw in Microsoft Copilot could have allowed zero-click attack, June 2025",
+     "url": "https://cybersecuritydive.com/news/flaw-microsoft-copilot-zero-click-attack/750456",
+     "finding": "Microsoft's advisory said the EchoLeak issue (CVE-2025-32711) was fully addressed and no further action was necessary by customers; Adir Gruss, CTO of Aim Security, whose researchers found the flaw, said there was no evidence any customers were actually targeted."
     },
     {
-     "title": "NCSC, Prompt injection is not SQL injection (it may be worse), December 2025",
+     "title": "Brunner, Liu and Pande, Google, AI threats in the wild: The current state of prompt injections on the web, April 2026",
+     "url": "https://blog.google/security/prompt-injections-web/",
+     "finding": "Scanning Common Crawl snapshots of 2 to 3 billion pages each, Google Threat Intelligence Group and Google DeepMind researchers found a relative increase of 32% in detections in the malicious category between November 2025 and February 2026; malicious injections included data exfiltration and destruction attempts such as file deletion. Observed activity showed limited sophistication, with no significant amounts of advanced attacks, and the authors expect both the scale and sophistication of attempts to grow."
+    },
+    {
+     "title": "NCSC, Prompt injection is not SQL injection (it may be worse), 8 December 2025",
      "url": "https://www.ncsc.gov.uk/blog-post/prompt-injection-is-not-sql-injection",
-     "finding": "Because LLMs make no distinction between data and instructions, prompt injection may never be totally mitigated in the way SQL injection can be; the NCSC advises treating it as a residual risk, limiting what LLM systems can do with deterministic controls and logging tool calls."
+     "finding": "Because LLMs do not distinguish between data and instructions, prompt injection may never be totally mitigated in the way SQL injection can be; the NCSC advises treating it as a residual risk that no product or appliance fully removes, constraining what LLM systems can do with deterministic safeguards and logging tool and API calls."
     }
    ],
    "theme": "security",
@@ -15048,11 +15110,11 @@
      "actor": "deployers",
      "status": "proposed",
      "aim": "impact",
-     "evidence": "The UK NCSC advises deployers to rely on deterministic, non-LLM controls on what a system can do and to log tool and API calls, since detection and training only make attacks harder.",
+     "evidence": "The UK NCSC advises deployers to rely on deterministic, non-LLM controls on what a system can do and to log tool and API calls, since detection and model training can only reduce the chance an attack works.",
      "ref": {
-      "title": "NCSC, Prompt injection is not SQL injection (it may be worse), December 2025",
+      "title": "NCSC, Prompt injection is not SQL injection (it may be worse), 8 December 2025",
       "url": "https://www.ncsc.gov.uk/blog-post/prompt-injection-is-not-sql-injection",
-      "finding": "Recommends secure design with deterministic controls, dropping an LLM's privileges to those of any untrusted party whose content it processes, and monitoring inputs, outputs and tool calls; deny-lists of malicious phrases are easy to evade."
+      "finding": "Recommends secure design with deterministic, non-LLM safeguards that constrain the system's actions, cites the principle that an LLM's privileges should drop to those of any party whose content it processes, and advises logging inputs, outputs, tool and API calls; warns against deny-listing known-bad content because attacks can be rephrased in endless ways."
      }
     }
    ],
@@ -15061,11 +15123,11 @@
      "event": "SQL injection breaches of card processors",
      "year": 2007,
      "parallel": "Software that mixed untrusted input with commands let attackers take over databases, the flaw class the NCSC compares prompt injection with.",
-     "outcome": "A US federal indictment charged Albert Gonzalez and two unnamed hackers over SQL injection attacks on Heartland Payment Systems, 7-Eleven and Hannaford; the Heartland attack led to the theft of more than about 130 million card numbers and the Hannaford attack about 4.2 million.",
+     "outcome": "A 2009 US federal indictment charged Albert Gonzalez and two unnamed hackers in a conspiracy built on SQL injection attacks against Heartland Payment Systems, 7-Eleven, Hannaford and two other retailers; the Heartland attack led to the theft of more than about 130 million card numbers and the Hannaford attack about 4.2 million.",
      "ref": {
       "title": "United States v. Albert Gonzalez, indictment, US District Court for the District of New Jersey, 2009",
       "url": "https://justice.gov/archive/usao/nj/Press/files/pdffiles/2009/GonzIndictment.pdf",
-      "finding": "Beginning on or about 26 December 2007 Heartland was the victim of a SQL Injection Attack that resulted in the theft of more than approximately 130 million credit and debit card numbers; 7-Eleven (about August 2007) and Hannaford, with about 4.2 million card numbers stolen, were also hit by SQL Injection Attacks."
+      "finding": "Beginning on or about 26 December 2007 Heartland was the victim of a SQL Injection Attack that resulted in the theft of more than approximately 130 million credit and debit card numbers; 7-Eleven (from about August 2007) was also hit by a SQL Injection Attack, and an attack on a company related to Hannaford in about early November 2007 led to malware on Hannaford's network and the theft of about 4.2 million card numbers."
      }
     }
    ]
@@ -15077,22 +15139,32 @@
    "probability": 0.5,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Some AI data centres burn gas on site for power. xAI set up 35 temporary gas turbines without air permits at its South Memphis data centre, and in one University of Tennessee analysis of satellite data for TIME, peak nitrogen dioxide levels after June 2024 rose 79% next to the site and 9% in nearby Boxtown, while averages rose 3%; the authors said a nearby power plant and traffic may also have contributed[1]. A study commissioned by the Southern Environmental Law Center estimated that xAI's proposed 41-turbine plant in Southaven, Mississippi would cause $30 million to $44 million a year in health damages[2], and the NAACP sued in April 2026 over 27 turbines running there without a permit[3]. One modelling study projects that the yearly public health burden of US data centres' air pollutant emissions could pass $20 billion by 2028, with the burden per household in the worst-hit counties about seven times the national average[4]. City air tests near the Memphis site on two days in June 2025 found none of 10 pollutants at dangerous levels, though they left out ozone[5].",
+   "summary": "Some AI data centres burn gas on site for power. xAI set up 35 temporary gas turbines without air permits at its South Memphis data centre, saying they were legal and temporary, and in one University of Tennessee analysis of satellite data for TIME, peak nitrogen dioxide levels after June 2024 rose 79% next to the site and 9% in nearby Boxtown, while averages rose 3%; the authors said a nearby power plant and traffic may also have contributed[1]. A study commissioned by the Southern Environmental Law Center estimated that xAI's proposed 41-turbine plant in Southaven, Mississippi would cause $30 million to $44 million a year in health damages[2]. Mississippi regulators approved that plant in March 2026, with officials arguing that the required emissions modelling showed its limits would keep it within air quality standards[3]. The NAACP sued in April 2026 over 27 turbines it says ran there without an air permit[4], and in October 2026 a federal judge refused the US Justice Department's request to dismiss the case[5]. One modelling study projects that the yearly public health burden of US data centres' air pollutant emissions could pass $20 billion by 2028, with the burden per household in the worst-hit counties about seven times the national average[6]. City air tests near the Memphis site on two days in June 2025 found none of 10 pollutants at dangerous levels, though they left out ozone[7].",
    "refs": [
     {
      "title": "TIME, 'We Are the Last of the Forgotten': Inside the Memphis Community Battling Elon Musk's xAI, August 2025",
      "url": "https://time.com/7308925/elon-musk-memphis-ai-data-center/",
-     "finding": "xAI brought in 35 unpermitted temporary methane gas turbines, which on manufacturer data could emit 1,200 to 2,000 tons of nitrogen oxides a year. University of Tennessee, Knoxville researchers using NASA and ESA satellite data found average nitrogen dioxide up 3% comparing the periods before June 2024 and afterward, and peak concentrations up 79% from pre-xAI levels in areas immediately surrounding the data centre and 9% in Boxtown; they said the changes likely reflect the combined influence of gas-fired sources, including the nearby TVA plant, and that motor vehicles may have contributed."
+     "finding": "xAI brought in 35 unpermitted temporary methane gas turbines, which on manufacturer data could emit 1,200 to 2,000 tons of nitrogen oxides a year; xAI insisted they were legal, generated negligible pollution and were only temporary. University of Tennessee, Knoxville researchers, at TIME's request, used NASA and ESA satellite data and found average nitrogen dioxide up 3% comparing the periods before June 2024 and afterward, and peak concentrations up 79% from pre-xAI levels in areas immediately surrounding the data centre and 9% in Boxtown; they said the changes likely reflect the combined influence of gas-fired sources, including the nearby TVA plant, and that motor vehicles may have contributed."
     },
     {
      "title": "Southern Environmental Law Center, New study finds proposed xAI gas plant could worsen regional air pollution, cause millions of dollars in annual health damages, February 2026",
      "url": "https://www.selc.org/press-release/new-study-finds-proposed-xai-gas-plant-could-worsen-regional-air-pollution-cause-millions-of-dollars-in-annual-health-damages/",
-     "finding": "A study by EmPower Analytics Group for SELC found the proposed permit for 41 permanent turbines in Southaven would allow nearly 20 tons of fine particle pollution a year plus hundreds of tons of precursor pollutants, raising fine particles by up to 0.5 micrograms per cubic metre in some communities and causing $30 million to $44 million in annual health damages; xAI had already installed 27 unpermitted turbines at the site."
+     "finding": "A study by EmPower Analytics Group for SELC found the proposed permit for 41 permanent turbines in Southaven would allow nearly 20 tons of fine particle pollution a year plus hundreds of tons of precursor pollutants, raising fine particles by up to 0.5 micrograms per cubic metre in some communities and causing $30 million to $44 million in annual health damages; xAI had already installed 27 unpermitted turbines at a nearby location in Southaven."
+    },
+    {
+     "title": "Mississippi Free Press, Mississippi Permit Board Grants xAI's Request for 41 Southaven Gas Turbines to Power Memphis Data Center, March 2026",
+     "url": "https://www.mississippifreepress.org/mississippi-permit-board-grants-xais-request-for-41-southaven-gas-turbines-to-power-memphis-data-center/",
+     "finding": "On 10 March 2026 the Mississippi Environmental Quality Permit Board unanimously approved a construction permit for xAI affiliate MZX Tech to install 41 methane gas-fired turbines, replacing the 27 unpermitted turbines at the facility; the permit requires control technologies and pollution modelling, regulators and company officials argued the required emissions modelling shows its limits keep xAI compliant with air quality standards, and MDEQ has said the earlier turbines need no permit because they are temporary-mobile."
     },
     {
      "title": "Earthjustice, NAACP Sues xAI for Illegal Pollution from Data Center Power Plant, April 2026",
      "url": "https://earthjustice.org/press/2026/xai-sued-for-illegal-power-plant",
      "finding": "On 14 April 2026 the NAACP and its Mississippi State Conference sued xAI in federal court in the Northern District of Mississippi for running 27 gas turbines in Southaven without an air permit, with potential yearly emissions of more than 1,700 tons of nitrogen oxides and up to 180 tons of fine particulate matter."
+    },
+    {
+     "title": "Mississippi Today (Daily Journal), Judge denies Trump administration request to dismiss NAACP lawsuit against xAI, October 2026",
+     "url": "https://www.djournal.com/mississippi-today/judge-denies-trump-administration-request-to-dismiss-naacp-lawsuit-against-xai/article_50d1cb5c-bccd-4297-b56e-5cf120d87184.html",
+     "finding": "US District Judge Debra Brown let the Trump administration intervene in the NAACP's lawsuit against xAI but denied the Justice Department's request to dismiss it, writing that the EPA's enforcement role does not mean the federal government retains complete control over Clean Air Act litigation; the NAACP has asked the court to bar the turbines unless they go through state permitting."
     },
     {
      "title": "Han, Wu, Li, Wierman and Ren, Health-Informed Computing: Estimating and Addressing the Public Health Impact of Data Centers, arXiv 2024, revised June 2026",
@@ -15154,12 +15226,12 @@
     {
      "event": "Greenidge crypto-mining power plant permit denial",
      "year": 2022,
-     "parallel": "A new kind of computing load revived a fossil-fuel power plant to run its own machines, and regulators had to decide whether the pollution was acceptable.",
-     "outcome": "A gas plant in New York that had sat dormant for six years was repurposed and its owners installed tens of thousands of crypto-mining machines, with carbon dioxide emissions rising roughly tenfold in 2020; on 30 June 2022 New York's environmental regulator denied its Title V air permit as inconsistent with the state's climate goals.",
+     "parallel": "A new kind of computing load turned a gas power plant into the power source for its owner's own machines, and regulators had to decide whether the pollution was acceptable.",
+     "outcome": "Greenidge began proof-of-work crypto mining at its retrofitted gas plant on Seneca Lake in 2019; New York's environmental regulator denied its air permit in 2022 for not complying with the state's climate law, but in November 2025 signed an agreement ending the legal fight that requires a 44% cut in permitted greenhouse gas emissions by 2030 and a 25% cut in actual emissions under a renewed permit.",
      "ref": {
-      "title": "Earthjustice, New York State Denies Air Pollution Permit for Fossil Fuel-burning Crypto mining operation, Citing Energy-Intensity and Environmental Concerns, June 2022",
-      "url": "https://earthjustice.org/press/2022/new-york-state-denies-air-pollution-permit-for-fossil-fuel-burning-crypto-mining-operation-citing-energy",
-      "finding": "On 30 June 2022 the New York State Department of Environmental Conservation denied Greenidge Generation's Title V air permit, finding the energy and climate impacts of proof-of-work mining at the plant inconsistent with New York's climate goals; carbon dioxide emissions rose roughly tenfold in 2020 as mining machines were installed."
+      "title": "Rochester Beacon, DEC signs agreement with Greenidge, ends legal battle, November 2025",
+      "url": "https://rochesterbeacon.com/2025/11/11/dec-signs-agreement-with-greenidge-ends-legal-battle/",
+      "finding": "Greenidge took over the site in 2017 and began proof-of-work crypto mining in 2019 at the retrofitted natural gas plant; DEC denied its air permit in 2022 for noncompliance with New York's climate law, and in November 2025 DEC signed an agreement under which Greenidge must cut permitted greenhouse gas emissions by 44% by 2030 and actual emissions by 25%, submit a permit modification application, and both sides withdraw their appeals."
      }
     }
    ]
@@ -15171,7 +15243,7 @@
    "probability": 0.55,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Machine learning is recovering writing that people could not read. In 2023 a team using machine-learning ink detection on scans of one of the Herculaneum scrolls read more than 2,000 characters, about 5% of the scroll[1]; in 2025 the same approach recovered a title, Philodemus's On Vices, from a scroll that is still rolled, though the book number is uncertain[2], and in June 2026 the team reported in a preprint that it had deciphered all surviving text of another scroll, about 20 columns of Stoic philosophy[3]. For Latin inscriptions, one Nature study found historians judged the AI's suggested parallels useful starting points in 90% of cases, and historians working with it restored and located texts better than humans or the AI alone[4]. Its suggestions are not answers: the right restoration is among its top 20 guesses 73% of the time for gaps of up to ten characters and 58% when the gap length is unknown[5].",
+   "summary": "Machine learning is recovering writing that people could not read. For the 2023 Vesuvius Challenge Grand Prize a team using machine-learning ink detection on scans of one of the Herculaneum scrolls read more than 2,000 characters, about 5% of the scroll[1]; in 2025 the same approach recovered a title, Philodemus's On Vices, from a scroll that is still rolled, though the book number is uncertain[2], and in June 2026 the team reported in a preprint that it had virtually unwrapped and read a whole rolled scroll, PHerc. 1667, the first Herculaneum papyrus read in full without opening it[3]. Press coverage describes about 20 columns of Greek philosophy on ideas central to Stoicism, from a scroll that had lost more than half its text to earlier attempts to open it[4]. For Latin inscriptions, one Nature study found historians judged the AI's suggested parallels useful starting points in 90% of cases, and historians working with it restored and located texts better than humans or the AI alone[5]. Its suggestions are not answers: the right restoration is among its top 20 guesses 73% of the time for gaps of up to ten characters and 58% when the gap length is unknown[6].",
    "refs": [
     {
      "title": "Vesuvius Challenge, 2023 Grand Prize awarded: we can read the scrolls!, February 2024",
@@ -15184,14 +15256,19 @@
      "finding": "Marcel Roth and Micha Nowak won the first $60,000 First Title Prize for PHerc. 172, held by the Bodleian Libraries; an ink detection model run on autosegmentation revealed the title, which papyrologists read as Philodemus, On Vices, probably Book 1, the first title of a still-rolled Herculaneum scroll ever recovered noninvasively. The book number is less certain and segmentation still sometimes jumps between sheets."
     },
     {
-     "title": "Smithsonian Magazine, Scientists Have Deciphered the Surviving Fragments of a 2,000-Year-Old Philosophical Treatise Frozen in Time by Mount Vesuvius' Eruption, June 2026",
-     "url": "https://www.smithsonianmag.com/smart-news/scientists-have-deciphered-the-surviving-fragments-of-a-2000-year-old-philosophical-treatise-frozen-in-time-by-mount-vesuvius-eruption-180989036/",
-     "finding": "The Vesuvius Challenge team led by Brent Seales used X-ray imaging, virtual unwrapping and AI to decipher all surviving text of PHerc. 1667, roughly 20 columns of Stoic philosophy; more than half of the scroll had been lost to earlier attempts to open it, and the findings are in a team preprint."
+     "title": "Angelotti et al., Complete virtual unwrapping and reading of a rolled Herculaneum papyrus, arXiv preprint, June 2026",
+     "url": "https://arxiv.org/abs/2606.29085",
+     "finding": "A 27-author team including Vesuvius Challenge papyrologists and Brent Seales used phase-contrast X-ray microtomography at the ESRF BM18 beamline, improved unrolling software and machine learning to virtually unwrap and read PHerc. 1667, which they describe as the first Herculaneum papyrus fully unrolled and read without physical opening; they also recovered the title of PHerc. 139 as Philodemus, On Gods, Book 8. The paper is a preprint, not yet peer reviewed."
     },
     {
-     "title": "Assael et al., Contextualizing ancient texts with generative neural networks, Nature 2025",
-     "url": "https://ideas.repec.org/a/nat/nature/v645y2025i8079d10.1038_s41586-025-09292-5.html",
-     "finding": "Aeneas, a generative neural network, retrieves parallels between inscriptions, uses images and restores text of any length; in a large study historians found its parallels useful research starting points in 90% of cases, their confidence in key tasks rose 44%, historians paired with it beat both humans and AI alone on restoration and geographical attribution, and its dates fell within 13 years of ground-truth ranges."
+     "title": "Smithsonian Magazine, Scientists Have Deciphered the Surviving Fragments of a 2,000-Year-Old Philosophical Treatise Frozen in Time by Mount Vesuvius' Eruption, June 2026",
+     "url": "https://www.smithsonianmag.com/smart-news/scientists-have-deciphered-the-surviving-fragments-of-a-2000-year-old-philosophical-treatise-frozen-in-time-by-mount-vesuvius-eruption-180989036/",
+     "finding": "The Vesuvius Challenge, launched in 2023 by University of Kentucky computer scientist Brent Seales with two Silicon Valley investors, used X-ray imaging, virtual unwrapping and AI to recover all surviving text of PHerc. 1667, roughly 20 columns of ancient Greek discussing ideas central to Stoicism; more than half of the scroll had been lost to earlier attempts to open it, and the findings are in a team preprint."
+    },
+    {
+     "title": "Assael et al., Contextualizing ancient texts with generative neural networks, Nature, July 2025",
+     "url": "https://doi.org/10.1038/s41586-025-09292-5",
+     "finding": "Aeneas, a generative neural network, retrieves parallels between inscriptions, uses images and restores text of any length; in a large study historians found its parallels useful research starting points in 90% of cases, their confidence in key tasks rose 44%, historians paired with it beat both humans and AI alone on restoration and geographical attribution, and its dates were on average 13 years from ground-truth ranges."
     },
     {
      "title": "Google DeepMind, Aeneas transforms how historians connect the past, July 2025",
@@ -15205,11 +15282,11 @@
     {
      "limit": "Most of the text is still unread",
      "kind": "pace",
-     "evidence": "After the 2023 breakthrough about 95% of the first scroll remained unread, and the project aims to read all 300 scrolls in its collection.",
+     "evidence": "After the 2023 breakthrough about 95% of the first scroll remained unread; the next goals were 90% of four scanned scrolls and laying the foundation to read all 300 scrolls, and the first rolled scroll was read in full only in June 2026.",
      "ref": {
       "title": "Vesuvius Challenge, 2023 Grand Prize awarded: we can read the scrolls!, February 2024",
       "url": "https://scrollprize.org/grandprize",
-      "finding": "About 5% of the first scroll had been unwrapped and read; the next goal was 90% of four scanned scrolls and eventually all 300 scrolls."
+      "finding": "About 5% of the first scroll had been unwrapped and read; the next goal was 90% of the four scrolls scanned so far, laying the foundation to read all 300 scrolls."
      }
     },
     {
@@ -15292,7 +15369,7 @@
    "probability": 0.6,
    "year": 2025,
    "evidence": "measured",
-   "summary": "US states court the data-centre boom that AI's demand for computing power is driving with sales tax exemptions on construction and servers, and the cost has outrun forecasts[2]. Ohio's exemption cost $554.9 million in 2024, about four times the forecast, and $1.6 billion in 2025, eleven times the original estimate of $136 million[1]. Texas forecast in 2025 that it would lose $3.2 billion in sales tax over two years, a figure its Comptroller's Office called almost certainly an underestimate, and had audited only 20 of 138 qualifying data centres, six of them in breach[2]. An evaluation for Georgia's state auditor put forgone state revenue at $474.2 million in FY 2025, judged that 70% of the state's data centres would exist without the exemption and counted $34.6 million in state tax from the construction and $6.9 million from the operations it attributed to the break, though it also found the gain to the state economy significantly higher than the revenue forgone[3]. Virginia's legislative auditor found its exemption saved data centres $928 million in FY23 and returned 48 cents in state revenue per dollar, close to the 41-cent average for the state's other incentives, with most of the economic benefit coming from construction[4].",
+   "summary": "US states court the data-centre boom that AI's demand for computing power is driving with sales tax exemptions on construction materials and servers[2][3], and the cost has outrun forecasts[1][2]. Ohio's exemption cost $554.9 million in 2024, about four times the forecast, and $1.6 billion in 2025, eleven times the original estimate of $136 million[1]. Texas forecast in 2025 that it would lose $3.2 billion in sales tax over two years, a figure its Comptroller's Office called almost certainly an underestimate, and had audited only 20 of 138 qualifying data centres, six of them in breach[2]. An evaluation for Georgia's state auditor put forgone state revenue at $474.2 million in FY 2025, judged that 70% of the state's data centres would exist without the exemption and counted $34.6 million in state tax from the construction and $6.9 million from the operations it attributed to the break, though it also found the gain to the state economy significantly higher than the revenue forgone[3]. Virginia's legislative auditor found its exemption saved data centres $928 million in FY23 and returned 48 cents in state revenue per dollar, close to the 41-cent average for the state's other incentives, so like most incentives it does not pay for itself; most of the industry's economic benefit comes from construction rather than operations[4]. Many states do not know the cost: of the 38 states with dedicated data-centre tax incentives, a Good Jobs First review in April 2026 found 14 that did not disclose the revenue they lose[5].",
    "refs": [
     {
      "title": "Signal Ohio via WTOP News, Ohio data center tax break cost $1.4 billion more than expected in 2025, May 2026",
@@ -15300,9 +15377,9 @@
      "finding": "Figures from the Ohio Department of Taxation show the data-centre sales tax exemption cost the state $554.9 million in 2024, about four times the department's forecast, plus $166.8 million in lost local sales taxes; in 2025 it cost $1.6 billion, eleven times the original estimate of $136 million. Lawmakers voted to end the break and Governor Mike DeWine vetoed the repeal."
     },
     {
-     "title": "Texas Tribune, Texas' multibillion-dollar sales tax exemption for data centers is growing, while audits lag, July 2026",
+     "title": "Paul Cobler, Texas Tribune, Texas' multibillion-dollar sales tax exemption for data centers is growing, while audits lag, July 2026",
      "url": "https://www.texastribune.org/2026/07/27/texas-data-centers-sales-tax-break-audits/",
-     "finding": "The state forecast in 2025 that it would lose $3.2 billion in sales tax revenue over two years from data centres, a figure the Comptroller's Office said is almost certainly an underestimate; the exemption cost $5.4 million in 2015. Of 138 qualified data centres only 20 had been audited, and six were breaching the terms, at least four of them by failing to create the required jobs; those out of compliance must pay back the money. The article ties the growth in data centres to artificial intelligence raising demand for computing power."
+     "finding": "The state forecast in 2025 that it would lose $3.2 billion in sales tax revenue over the next two years from data centres, a total the Comptroller's Office acknowledged was almost certainly an underestimate because more data centres are applying for the exemption; the exemption cost $5.4 million in 2015. Of 138 qualified data centres only 20 had been audited, and six were breaching the terms: four missed job-creation requirements, one fell short on square footage and one lost its required power agreement; those out of compliance must repay the waived taxes. The article ties the growth in data centres to artificial intelligence raising demand for computing power."
     },
     {
      "title": "Georgia Department of Audits and Accounts, Tax Incentive Evaluation: Georgia Data Center Sales & Use Tax Exemption, December 2025, revised January 2026",
@@ -15312,7 +15389,12 @@
     {
      "title": "Joint Legislative Audit and Review Commission, Data Centers in Virginia, Report 598, December 2024",
      "url": "https://jlarc.virginia.gov/pdfs/reports/Rpt598.pdf",
-     "finding": "Since 2010 Virginia has exempted data centres from its retail sales and use tax; the exemption provided $928 million in tax savings in FY23 and about 90% of the industry uses it. The industry is estimated to contribute 74,000 jobs, $5.5 billion in labour income and $9.1 billion in GDP a year, mostly from construction rather than ongoing operations. The exemption returns 48 cents in state revenue per $1 spent, against 41 cents for the average Virginia incentive, and like most incentives does not pay for itself."
+     "finding": "Since 2010 Virginia has exempted data centres from its retail sales and use tax; the exemption provided $928 million in tax savings in FY23 and about 90% of the industry uses it. The industry is estimated to contribute 74,000 jobs, $5.5 billion in labour income and $9.1 billion in GDP a year, mostly from the construction phase rather than ongoing operations. The exemption returns 48 cents in state revenue per $1 spent, against 41 cents for the average Virginia incentive, and like most incentives does not pay for itself; companies report it is an important factor in where they locate."
+    },
+    {
+     "title": "Kevin Hardy, Stateline via KOTA, Many states don't report losses from data center tax breaks, study says, April 2026",
+     "url": "https://www.kotatv.com/2026/04/16/many-states-dont-report-losses-data-center-tax-breaks-study-says/",
+     "finding": "A Good Jobs First report found 14 states (Alabama, Arkansas, Idaho, Iowa, Indiana, Louisiana, Maryland, Missouri, Mississippi, North Carolina, North Dakota, Oklahoma, South Carolina and Utah) failed to disclose revenue lost to data-centre incentives, in most cases in violation of Governmental Accounting Standards Board rules; Georgia, Virginia and Texas report losing $1 billion or more a year; 38 states offer dedicated data-centre tax incentives, according to the National Conference of State Legislatures."
     }
    ],
    "theme": "power",
@@ -15321,7 +15403,7 @@
    "price_of": [
     "cheapintelligence"
    ],
-   "control_note": "States offer the breaks because rival states do and companies say they weigh them when choosing a site, so no state wants to drop them first. Caps, pauses on new approvals, audits with clawbacks and taxes on data-centre power use can limit the cost, but breaks already granted run for years.",
+   "control_note": "States offer the breaks because rival states do and companies say they weigh them when choosing a site, so no state wants to drop them first. Pauses on new approvals, audits with clawbacks and taxes on data-centre power use can limit the cost, but projects already approved keep their breaks.",
    "actions": [
     {
      "action": "Pause approvals of new exemptions",
@@ -15369,12 +15451,17 @@
    "probability": 0.4,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Propaganda sites can be written for machines rather than people, so that chatbots that train on or search the web repeat their claims[1]. The American Sunlight Project estimates the pro-Russia Pravda network publishes at least 3.6 million articles a year across 182 domains and subdomains, and argues it targets crawlers and training-data scrapers rather than human readers[1]. In one NewsGuard audit in March 2025, the 10 leading generative AI tools repeated false narratives laundered by the network 33% of the time[2]. In an ISD test of 300 questions about the war in Ukraine in five languages, Russian state-attributed sources appeared in 18% of answers from four chatbots, rising from 11% for neutral questions to 24% for malicious ones, though only two links came from the Pravda network[3]. One peer-reviewed audit of 416 answers from four chatbots found 5% supported disinformation and 8% cited Pravda sites, mostly for niche questions, and its authors attribute this to data voids, topics with little credible coverage, rather than deliberate grooming[4].",
+   "summary": "Propaganda sites can be written for machines rather than people, so that chatbots that train on or search the web repeat their claims[1]. The American Sunlight Project estimates the pro-Russia Pravda network publishes at least 3.6 million articles a year across 182 domains and subdomains, and argues it targets crawlers and training-data scrapers rather than human readers[1]; NewsGuard counted 6.3 million Pravda network articles repeating 115 false claims in 2025[2]. In one NewsGuard audit in March 2025, the 10 leading generative AI tools repeated false narratives laundered by the network 33% of the time[3]. In an ISD test of 300 questions about the war in Ukraine in five languages, Russian state-attributed sources appeared in 18% of answers from four chatbots, rising from 11% for neutral questions to 24% for malicious ones, though only two links came from the Pravda network[4]. One peer-reviewed audit of 416 answers from four chatbots found 5% supported disinformation and 8% cited Pravda sites, mostly for niche questions, and its authors attribute this to data voids, topics with little credible coverage, rather than deliberate grooming[5].",
    "refs": [
     {
      "title": "Newport and Jankowicz (American Sunlight Project), Russian networks flood the Internet with propaganda, aiming to corrupt AI chatbots, Bulletin of the Atomic Scientists, March 2025",
      "url": "https://thebulletin.org/2025/03/russian-networks-flood-the-internet-with-propaganda-aiming-to-corrupt-ai-chatbots/",
      "finding": "The American Sunlight Project estimates the pro-Russia Pravda network publishes at least 3.6 million articles a year, likely an underestimate, across 182 domains and subdomains targeting at least 74 countries and regions in 12 languages; the authors believe the network targets an automated audience of search-optimisation crawlers and scrapers that collect training data rather than human readers. NewsGuard and the Atlantic Council's DFRLab confirmed that some major AI chatbots cited Pravda network content."
+    },
+    {
+     "title": "NewsGuard (Marchl, Chomnalez and Blachez), Anthropic's AI Chatbot Is Leaning More on Russian and Iranian Propaganda Sources, NewsGuard Audit Finds, May 2026",
+     "url": "https://www.newsguardtech.com/special-reports/anthropic-ai-chatbot-claude-russia-iran-propaganda/",
+     "finding": "NewsGuard reports that the Pravda network published 6.3 million articles repeating 115 false claims in 2025. In a late April 2026 test of the free version of Claude on 10 Russian false claims from January to April 2026, the chatbot repeated the false claims in 3 of 20 typical-user prompts (15%)."
     },
     {
      "title": "NewsGuard, A Well-funded Moscow-based Global 'News' Network has Infected Western Artificial Intelligence Tools Worldwide with Russian Propaganda, March 2025",
@@ -15405,11 +15492,11 @@
      "actor": "AI companies",
      "status": "proposed",
      "aim": "probability",
-     "evidence": "ISD urges AI companies to build a shared list of state-attributed sources and blacklist or clearly label them; in its test only Gemini showed safety warnings for biased or malicious prompts.",
+     "evidence": "ISD urges AI companies to build a shared list of state-attributed sources and either blacklist them or label them with context; in its test only Gemini showed safety warnings for biased or malicious prompts.",
      "ref": {
       "title": "Institute for Strategic Dialogue, Talking points: When chatbots surface Russian state media, October 2025",
       "url": "https://www.isdglobal.org/?p=25635",
-      "finding": "Recommends that AI companies build a shared repository of state-attributed sources, blacklist or clearly label them, and sign the EU Code of Conduct on Disinformation, and that the European Commission clarify how EU sanctions on state media apply to chatbot outputs under the Digital Services Act."
+      "finding": "Recommends that AI companies build a shared repository of state-attributed sources, blacklist them or clearly label them with context on their origin and ownership, and sign the EU Code of Conduct on Disinformation, and that the European Commission clarify how sanctions on state media apply to chatbot outputs and how they are enforced under the Digital Services Act."
      }
     },
     {
@@ -15429,12 +15516,12 @@
     {
      "event": "Google demotes hoaxes and conspiracy pages in Search",
      "year": 2017,
-     "parallel": "Before chatbots answered from the web, search engines surfaced hoaxes and unsupported conspiracy theories for some queries and had to change how they weigh sources.",
+     "parallel": "Before chatbots answered from the web, search engines returned offensive or clearly misleading results for some queries, such as Holocaust denial pages, and had to change how they weigh sources.",
      "outcome": "Google said around 0.25% of its daily queries had been returning offensive or clearly misleading content, and adjusted its ranking signals to surface more authoritative pages and demote low-quality content.",
      "ref": {
-      "title": "Google, Our latest quality improvements for Search, April 2017",
+      "title": "Ben Gomes (Google), Our latest quality improvements for Search, April 2017",
       "url": "https://blog.google/products/search/our-latest-quality-improvements-search/",
-      "finding": "A small set of queries in Google's daily traffic, around 0.25%, had been returning offensive or clearly misleading content, including hoaxes and unsupported conspiracy theories; Google adjusted ranking signals to surface more authoritative pages and demote low-quality content, updated its Search Quality Rater Guidelines, and made it easier to flag Autocomplete predictions and Featured Snippets."
+      "finding": "Around 0.25% of Google's daily queries had been returning offensive or clearly misleading content; after Holocaust denial results surfaced in December 2016, Google adjusted ranking signals to surface more authoritative pages and demote low-quality content, updated its Search Quality Rater Guidelines with examples of misleading information, hoaxes and unsupported conspiracy theories for raters to flag, and made it easier to flag Autocomplete predictions and Featured Snippets."
      }
     }
    ]
@@ -15446,7 +15533,7 @@
    "probability": 0.5,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Data centres protect their servers by switching to backup power when grid voltage dips, so a single fault can make many of them leave the grid at the same moment[1]. In July 2024 a fault on a 230 kV line in the US Eastern Interconnection led data centres to drop about 1,500 MW of demand at once, a load loss of a size the grid had not historically seen after a fault; frequency rose to 60.047 Hz and operators had to bring voltage back down, though NERC found it caused no significant operating issues[1]. In July 2026 nearly 4,000 MW of data-centre load in Northern Virginia tripped offline after a properly cleared fault, the largest such event in PJM's history, and PJM brought its system back within limits in nine minutes[2]. Load losses of 1,000 MW or more have occurred in the Eastern and Texas interconnections, mostly in 2024 and 2025, and NERC says the rise in such events coincides with a growing share of large loads; its response covers data centres for artificial intelligence[3]. The risk is not unique to AI: in 26 events in Texas, crypto-mining sites lost 17% to 95% of their consumption within milliseconds of normally cleared faults[4].",
+   "summary": "Data centres protect their servers by switching to backup power when grid voltage dips, so a single fault can make many of them leave the grid at the same moment[1]. In July 2024 a fault on a 230 kV line in the US Eastern Interconnection led data centres to drop about 1,500 MW of demand at once, a load loss of a size the grid had not historically seen after a fault; frequency rose to 60.047 Hz and operators had to bring voltage back down, though NERC found it caused no significant operating issues[1]. In July 2026 nearly 4,000 MW of data-centre load in Northern Virginia tripped offline after a properly cleared fault, the largest such event in PJM's history, following drops of about 1,500 MW in the same zone in July 2024 and February 2025; PJM brought its area control error back within limits in nine minutes, inside NERC's 30-minute standard[2]. Load losses of 1,000 MW or more have occurred in the Eastern and Texas interconnections, mostly in 2024 and 2025, and NERC says the rise in such events coincides with a growing share of large loads; its response covers data centres for artificial intelligence[3]. The risk is not unique to AI: a NERC review of 26 events in Texas found crypto-mining sites can lose 17% to 95% of their consumption within milliseconds of normally cleared faults[4]. Fixes can work: after some data centres changed the settings that trigger the switch to backup power, a similar fault near the 2024 site in April 2026 caused only 500 MW of sustained load loss, though NERC says the July 2026 event shows the risk is increasing, not abating[5].",
    "refs": [
     {
      "title": "NERC, Incident Review: Considering Simultaneous Voltage-Sensitive Load Reductions, January 2025",
@@ -15454,9 +15541,9 @@
      "finding": "On 10 July 2024 a lightning arrestor failed on a 230 kV line in the Eastern Interconnection, causing six successive faults in 82 seconds, all cleared properly; coincident with them about 1,500 MW of load, exclusively data-centre load, was disconnected on the customer side as data centres transferred to backup power. The grid has not historically experienced simultaneous load losses of this magnitude in response to a fault. Frequency rose to 60.047 Hz and voltage to 1.07 per unit, and operators removed shunt capacitor banks to bring voltage back to normal; about 1,260 MW did not return for hours. NERC says the disturbance did not cause significant operating issues, but the risk could quickly increase as data-centre loads grow."
     },
     {
-     "title": "American Public Power Association, PJM, Dominion Review Large Load Transfer Event, August 2026",
-     "url": "https://www.publicpower.org/periodical/article/pjm-dominion-review-large-load-transfer-event",
-     "finding": "On 22 July 2026 nearly 4,000 MW of data-centre load in Northern Virginia, in the Dominion zone, tripped offline, about 3,800 MW by Dominion's count and the largest such event in PJM history; a mechanical failure removed a 230 kV line and data centres disconnected although the fault was properly cleared, in a first drop of 2,970 MW and a second of 1,099 MW. PJM load fell from 99,984 MW to 96,205 MW, and PJM recovered its area control error limit within nine minutes, inside NERC's 30-minute standard."
+     "title": "PJM Inside Lines, PJM, Dominion Review Large Load Transfer Event, August 2026",
+     "url": "https://insidelines.pjm.com/pjm-dominion-review-large-load-transfer-event/",
+     "finding": "On 22 July 2026 nearly 4,000 MW of data-centre load in Northern Virginia, in the Dominion zone, tripped offline, approximately 3,800 MW by the detailed timeline and the largest such event in PJM history; a mechanical failure removed a 230 kV line and the fault was properly cleared, but data centres disconnected in a first drop of 2,970 MW and a second wave of 1,099 MW. PJM load fell from 99,984 MW to 96,205 MW, and PJM recovered its area control error limit within nine minutes, well within NERC's 30-minute standard. Similar events in the Dominion zone caused load transfers of about 1,500 MW each on 10 July 2024 and 17 February 2025."
     },
     {
      "title": "Utility Dive, Sudden data center load losses prompt NERC alert, recommendations, April 2026",
@@ -15466,7 +15553,12 @@
     {
      "title": "POWER Magazine, FERC Orders Mandatory NERC Reliability Standards for Data Center and Other Computational Loads, July 2026",
      "url": "https://www.powermag.com/ferc-orders-mandatory-nerc-reliability-standards-for-data-center-and-other-computational-loads/",
-     "finding": "On 16 July 2026 FERC directed NERC to file one or more mandatory reliability standards for integrating computational loads, a category covering generative-AI data centres, cryptocurrency mines and other IT facilities, by 31 December 2026, without itself setting a size threshold or compliance obligations; Chairman Laura Swett said winning the AI race must not threaten reliability. A NERC review found that across 26 events in ERCOT from January 2023 to September 2025, crypto-mining facilities lost 17% to 95% of their consumption within milliseconds of a normally cleared transmission fault."
+     "finding": "On 16 July 2026 FERC directed NERC to file one or more mandatory reliability standards for integrating computational loads, a category covering generative-AI data centres, cryptocurrency mines and other IT facilities, by 31 December 2026, without itself setting a size threshold or compliance obligations; Chairman Laura Swett said winning the AI race must not threaten reliability. A NERC review of 26 events in ERCOT from January 2023 to September 2025 found that crypto-mining facilities can lose 17% to 95% of their pre-disturbance consumption within milliseconds of a normally cleared transmission fault."
+    },
+    {
+     "title": "NERC, Reliability Insights: Large Computational Load Risks Due to Voltage Sensitivity, September 2026",
+     "url": "https://www.nerc.com/globalassets/who-we-are/news/2026/09/reliability-insights_large-computational-load-risks-due-to-voltage-sensitivity.pdf",
+     "finding": "Certain data centres lengthened the time over which voltage dips are counted and changed how many dips trigger disconnection; on 18 April 2026 a fault in the same vicinity and with similar characteristics to the July 2024 event saw only 500 MW of sustained data-centre load loss, which may be attributable to those changes. In July 2026 a nearly 4 GW customer-initiated load reduction in Virginia showed the risk is increasing, not abating. FERC directed NERC to complete registry criteria and foundational standards on commissioning, communications and modelling by the end of 2026; ride-through requirements are to be considered later."
     }
    ],
    "theme": "world",
@@ -15475,7 +15567,7 @@
    "price_of": [
     "cheapintelligence"
    ],
-   "control_note": "Data centres are set to switch to backup power when grid voltage dips, which protects their servers but can remove their demand all at once. Requirements to ride through normal faults, with models and tests of each large load before it connects, can contain the risk, but mandatory standards are only due at the end of 2026 while the loads keep growing.",
+   "control_note": "Data centres are set to switch to backup power when grid voltage dips, which protects their servers but can remove their demand all at once. Settings that ride through normal faults, with models and tests of each large load before it connects, can contain the risk, but the first mandatory standards, due at the end of 2026, cover registration, commissioning, communications and modelling, and ride-through requirements come later while the loads keep growing.",
    "actions": [
     {
      "action": "Write mandatory reliability standards for computational loads",
@@ -15486,7 +15578,7 @@
      "ref": {
       "title": "POWER Magazine, FERC Orders Mandatory NERC Reliability Standards for Data Center and Other Computational Loads, July 2026",
       "url": "https://www.powermag.com/ferc-orders-mandatory-nerc-reliability-standards-for-data-center-and-other-computational-loads/",
-      "finding": "On 16 July 2026 FERC directed NERC to file one or more mandatory reliability standards for integrating computational loads, a category covering generative-AI data centres, cryptocurrency mines and other IT facilities, by 31 December 2026, without itself setting a size threshold or compliance obligations; Chairman Laura Swett said winning the AI race must not threaten reliability. A NERC review found that across 26 events in ERCOT from January 2023 to September 2025, crypto-mining facilities lost 17% to 95% of their consumption within milliseconds of a normally cleared transmission fault."
+      "finding": "On 16 July 2026 FERC directed NERC to file one or more mandatory reliability standards for integrating computational loads, a category covering generative-AI data centres, cryptocurrency mines and other IT facilities, by 31 December 2026, without itself setting a size threshold or compliance obligations; Chairman Laura Swett said winning the AI race must not threaten reliability. A NERC review of 26 events in ERCOT from January 2023 to September 2025 found that crypto-mining facilities can lose 17% to 95% of their pre-disturbance consumption within milliseconds of a normally cleared transmission fault."
      }
     },
     {
@@ -15494,7 +15586,7 @@
      "actor": "NERC",
      "status": "in force",
      "aim": "probability",
-     "evidence": "NERC's Level 3 alert of May 2026 asks transmission entities to model computational loads, study aggregate load losses, test facilities before energisation and prevent loss of firm load in normally cleared faults; it is not a mandatory standard and carries no penalties.",
+     "evidence": "NERC's Level 3 alert of May 2026 asks transmission owners, operators and planners to model computational loads, study aggregate load losses, test facilities before energisation and prevent unnecessary loss of firm computational load during normally cleared faults; it is not a mandatory standard and carries no direct penalties.",
      "ref": {
       "title": "Data Center Frontier, Why NERC Now Sees AI Data Centers as Grid Actors, May 2026",
       "url": "https://www.datacenterfrontier.com/energy/article/55376679/why-nerc-now-sees-ai-data-centers-as-grid-actors",
@@ -15523,7 +15615,7 @@
    "probability": 0.5,
    "year": 2025,
    "evidence": "measured",
-   "summary": "AI-enabled medical devices cleared through the FDA's 510(k) route reach the US market without prospective testing on people, which that route does not require, and some fail soon after[1]. In one study of 950 FDA-cleared AI devices, 60 (6.3%) were tied to 182 recalls, 43.4% of them within a year of clearance and most for diagnostic or measurement errors; devices without clinical validation had higher odds of recall (odds ratio 2.8), as did those from public companies (5.9), which made 53.2% of the devices but 91.8% of the recalls[1]. Recalls are still uncommon: 91.8% of the devices stayed recall-free for five years[1]. Reuters reported that after AI was added to one sinus-surgery navigation system, the FDA received more than 100 malfunction reports and at least 10 reports of injured patients, against seven unconfirmed malfunction reports in its three years before; the FDA has not attributed the injuries to AI and the device's owner denies a causal link[2]. One analysis of the FDA's adverse-event database finds it insufficient to judge AI device safety, with more than 98% of reported events falling on fewer than five devices[3].",
+   "summary": "AI-enabled medical devices cleared through the FDA's 510(k) route reach the US market without prospective testing on people, which that route does not require, and some fail soon after[1]. In one study of 950 FDA-cleared AI devices, 60 (6.3%) were tied to 182 recalls, 43.4% of them within a year of clearance and most for diagnostic or measurement errors; devices without clinical validation had higher adjusted odds of recall (odds ratio 2.8), as did those from public companies (5.9), which made 53.2% of the devices but 91.8% of the recalls[1]. Recalls are still uncommon: 91.8% of the devices stayed recall-free for five years[1]. A 2026 study of 903 FDA-authorised AI devices found a lower rate, 43 devices (4.8%) recalled after a median of 458 days, and again more recalls among devices without a clinical performance study (7.8%) than among those with one (2.6%)[4]. Reuters reported that after AI was added to one sinus-surgery navigation system, the FDA received more than 100 malfunction reports and at least 10 reports of injured patients, against seven unconfirmed malfunction reports in its three years before; the FDA has not attributed the injuries to AI and the device's owner denies a causal link[2]. One analysis of 943 adverse-event reports for 823 AI devices finds the FDA's adverse-event database insufficient to judge their safety, with more than 98% of reported events falling on fewer than five devices and basic details often missing[3]. The FDA's draft guidance asking makers to monitor AI device performance after launch, issued in January 2025, was still not final in October 2026, when the agency listed finishing it as a priority for fiscal year 2027[5].",
    "refs": [
     {
      "title": "Lee et al., Early Recalls and Clinical Validation Gaps in Artificial Intelligence-Enabled Medical Devices, JAMA Health Forum 2025",
@@ -15531,14 +15623,24 @@
      "finding": "Of 950 FDA-cleared AI-enabled medical devices, 60 (6.3%) were associated with 182 recalls; 109 recalls were for diagnostic or measurement errors and 44 for functionality delay, and 79 (43.4%) came within 12 months of clearance. Lack of clinical validation (adjusted odds ratio 2.8) and public company status (5.9) were associated with recalls; public companies made 53.2% of the devices but accounted for 91.8% of recalls. Recall-free survival was 96.6% at one year and 91.8% at five years. Because 510(k) clearance does not require prospective human testing, the authors say it may overlook early failures, and suggest prospective evaluation or time-limited clearances that lapse without confirmatory data."
     },
     {
-     "title": "Gizmodo, The Last 'Person' You Want Handling Your Surgery Is a Hallucinating Robot, February 2026",
+     "title": "Gizmodo, The Last 'Person' You Want Handling Your Surgery Is a Hallucinating Robot, 9 February 2026",
      "url": "https://gizmodo.com/the-last-person-you-want-handling-your-surgery-is-a-hallucinating-robot-2000719802",
-     "finding": "Summarising a Reuters investigation: the TruDi Navigation System for chronic sinusitis had seven unconfirmed malfunction reports in three years on the market, and after AI was added the FDA received more than 100 malfunction notifications and at least 10 reports of injured patients, including a punctured skull base, cerebrospinal fluid leaks and strokes. The FDA has not attributed the injuries to AI because the incidents are under review, and owner Integra LifeSciences says there is no credible evidence of a causal connection. Reuters counted 1,357 FDA-authorised devices using AI and reported that cuts removed 15 of the 40 scientists in the FDA unit that reviews AI-enabled devices."
+     "finding": "Summarising a Reuters investigation of 9 February 2026: the TruDi Navigation System for chronic sinusitis had seven unconfirmed malfunction reports in three years on the market, and after AI was added the FDA received more than 100 malfunction notifications and at least 10 reports of injured patients, including a punctured skull base, cerebrospinal fluid leaks and strokes. The FDA has not attributed the injuries to AI because the incidents are under review, and owner Integra LifeSciences says there is no credible evidence of a causal connection. Reuters counted 1,357 FDA-authorised devices using AI and reported that cuts removed 15 of the 40 scientists in the FDA unit that reviews AI-enabled devices."
     },
     {
      "title": "Babic, Cohen, Stern, Li and Ouellet, A general framework for governing marketed AI/ML medical devices, npj Digital Medicine 2025",
      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12126487/",
-     "finding": "Analysing 943 adverse event reports linked to AI/ML devices approved from 2010 to 2023 in the FDA's MAUDE database, the authors find more than 98% of adverse events in AI/ML devices are borne by fewer than five devices, against about 85% for other devices, and conclude the existing system is insufficient for properly assessing the safety and effectiveness of AI/ML devices."
+     "finding": "Analysing 943 adverse event reports in the FDA's MAUDE database linked to 823 510(k)-cleared AI/ML devices approved from 2010 to 2023, the authors find more than 98% of adverse events in AI/ML devices are borne by fewer than five devices, against about 85% for other devices. Basic fields were often missing, for example whether the reporter was a health professional (73% of AI/ML reports against 43% for all devices), and the system does not capture AI-specific failures such as drift. They conclude the existing system is insufficient for properly assessing the safety and effectiveness of AI/ML devices."
+    },
+    {
+     "title": "Ren et al., Clinical Evidence and FDA Recalls of Artificial Intelligence-Enabled Medical Devices, JAMA Network Open 2026",
+     "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2850190",
+     "finding": "Of 903 FDA-authorised AI-enabled medical devices authorised up to 31 August 2024, 43 (4.8%) were recalled, after a median of 458 days. 7.8% (17 of 218) of devices without a clinical performance study were recalled, against 2.6% (13 of 505) with one and 7.2% (13 of 180) with missing information; missing clinical study information was associated with a higher chance of recall (hazard ratio 1.39, 95% credible interval 0.84 to 3.52), as were use-related problems."
+    },
+    {
+     "title": "RAPS, FDA's device center releases guidance agenda for FY 2027, 2 October 2026",
+     "url": "https://www.raps.org/resource/fda-s-device-center-releases-guidance-agenda-for-fy-2027.html",
+     "finding": "The FDA's device centre lists finalising guidance on lifecycle management recommendations for AI-enabled device software functions as a top priority for fiscal year 2027; the draft guidance, issued in January 2025, applies a total product lifecycle approach to AI-enabled devices."
     }
    ],
    "theme": "world",
@@ -15595,32 +15697,37 @@
    "probability": 0.5,
    "year": 2026,
    "evidence": "measured",
-   "summary": "Coding models often recommend software packages that do not exist, and anyone can register those names on a public registry and put malicious code behind them. In one USENIX Security 2025 study of 16 models and 576,000 code samples, 19.7% of recommended packages were hallucinations, at least 5.2% for commercial models and 21.7% for open-source ones, and 43% of the invented names came back in all 10 re-runs of the same prompt, which makes them predictable[1]. One 2026 replication on five newer models found lower and narrower rates of 4.62% to 6.10%, but 127 names that all five invented identically, 53 of them still registrable after disclosure to the registries[2]. In January 2026 a security researcher registered react-codeshift, an npm name invented in AI-generated agent skills that was referenced in 237 repositories; it kept drawing a few downloads a day where unused names usually drop to none, and no one was harmed because he claimed it first[3]. Attackers also aim at agents directly: ReversingLabs tied 60 malicious packages published over seven months to a North Korean-linked group, found one pulled into a crypto trading project by a commit co-authored by an AI model, and suggested the packages' documentation was written to attract AI coding agents[4]. No attack on a hallucinated name has been proven: one researcher's harmless package under an invented name drew more than 30,000 downloads in three months in 2024, and one malicious npm package may have been a deliberate attempt, though its intent could not be shown[5].",
+   "summary": "Coding models often recommend software packages that do not exist, and anyone can register those names on a public registry and put malicious code behind them. In one USENIX Security 2025 study of 16 models and 576,000 code samples, 19.7% of recommended packages were hallucinations, at least 5.2% for commercial models and 21.7% for open-source ones, and 43% of the invented names came back in all 10 re-runs of the same prompt, which makes them predictable[1]. One 2026 single-author preprint replicating that method on five newer models found lower and narrower rates of 4.62% to 6.10%, but 127 names that all five invented identically, 53 of them still registrable despite each registry's existing defences[2]. In January 2026 a security researcher registered react-codeshift, an npm name invented in AI-generated agent skills that was referenced in 237 repositories; it kept drawing a few downloads a day where unused names usually drop to almost none, and no one was harmed because he claimed it first[3]. Attackers also aim at agents directly: ReversingLabs tied 60 malicious packages published over seven months to a North Korean-linked group, found one pulled into a crypto trading project by a commit co-authored by an AI model, and suggested the packages' documentation was written to attract AI coding agents[4]. A deliberate attack on a hallucinated name has not been proven: one researcher's harmless package under an invented name drew more than 30,000 downloads in three months, reported in March 2024[6], and one malicious npm package may have been a deliberate attempt, though its intent could not be shown[5].",
    "refs": [
     {
      "title": "Spracklen et al., We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs, USENIX Security 2025",
-     "url": "https://arxiv.org/html/2406.10279v3",
+     "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/spracklen",
      "finding": "Across 16 code-generating models, two prompt datasets and 576,000 code samples in Python and JavaScript, 440,445 of about 2.23 million recommended packages (19.7%) were hallucinations, at least 5.2% for commercial models and 21.7% for open-source models, with 205,474 unique invented names. In 10 re-runs of 500 prompts, 43% of hallucinated packages were repeated in all 10 queries and 39% did not repeat at all. Fine-tuning cut DeepSeek's hallucination rate from 16.14% to 2.66% (83%), but its HumanEval pass@1 fell from 51.4% to 25.3%."
     },
     {
-     "title": "Churilov, The Range Shrinks, the Threat Remains: Re-evaluating LLM Package Hallucinations on the 2026 Frontier-Model Cohort, arXiv 2026",
+     "title": "Churilov, The Range Shrinks, the Threat Remains: Re-evaluating LLM Package Hallucinations on the 2026 Frontier-Model Cohort, arXiv preprint 2026",
      "url": "https://arxiv.org/abs/2605.17062",
-     "finding": "A single-author replication of the USENIX Security 2025 method on five models released from October 2025 to March 2026, across 199,845 paired Python and JavaScript prompts, found overall hallucination rates of 4.62% to 6.10%, a much narrower spread than in 2024. 127 hallucinated names (109 on PyPI, 18 on npm) were invented identically by all five models, and after coordinated disclosure to PyPI Security and Socket.dev 53 of them (41 PyPI, 12 npm) remained registrable by an attacker."
+     "finding": "A single-author replication of the USENIX Security 2025 method on five models (Claude Sonnet 4.6, Claude Haiku 4.5, GPT-5.4-mini, Gemini 2.5 Pro and DeepSeek V3.2), across 199,845 paired Python and JavaScript prompts, found overall hallucination rates of 4.62% to 6.10%, a much narrower spread than in 2024. 127 hallucinated names (109 on PyPI, 18 on npm) were invented identically by all five models, and 53 of them (41 PyPI, 12 npm) remained registrable after each registry's existing defences; the findings were disclosed to PyPI Security and Socket.dev."
     },
     {
      "title": "Aikido Security, Agent Skills Are Spreading Hallucinated npx Commands, January 2026",
      "url": "https://www.aikido.dev/blog/agent-skills-spreading-hallucinated-npx-commands",
-     "finding": "On 14 January 2026 researcher Charlie Eriksen registered react-codeshift on npm, a name an LLM appears to have blended from jscodeshift and react-codemod. It first appeared in a commit of 17 October 2025 that added 47 LLM-generated agent skills with no apparent human review, and 237 GitHub repositories referenced it when he claimed it. After the claim it drew about 74 downloads on day zero and then 1 to 4 a day, where phantom packages typically drop to zero after day zero. Nobody was harmed and the package is now a safe placeholder, but an attacker could have claimed it first."
+     "finding": "On 14 January 2026 researcher Charlie Eriksen registered react-codeshift on npm, a name an LLM appears to have blended from jscodeshift and react-codemod. It first appeared in a commit of 17 October 2025 that added 47 LLM-generated agent skills with no apparent human review, and 237 GitHub repositories referenced it when he claimed it. After the claim it drew about 74 downloads on day zero and then 1 to 4 a day, where phantom packages typically get 60 to 100 downloads on day one, mostly from mirrors and scanners, and then almost none. Nobody was harmed and the package is now a safe placeholder, but an attacker could have claimed it first."
     },
     {
      "title": "ReversingLabs, Claude adds malware to crypto agent, April 2026",
      "url": "https://www.reversinglabs.com/blog/claude-promptmink-malware-crypto",
-     "finding": "The npm package @validate-sdk/v2 poses as a data validation tool but steals .env and .json files, wallet credentials and system information, and later versions install attacker SSH keys. A 28 February 2026 commit to openpaw-graveyard, an autonomous crypto trading agent, added a dependency that pulls it in, and the commit was co-authored by an LLM. ReversingLabs attributes the campaign, which it named PromptMink, to the North Korean-linked group Famous Chollima and counted 60 unique packages and over 300 versions across seven months from September 2025; it says the real targets might have been AI coding agents looking for packages, a combination of LLM optimisation abuse and knowledge injection."
+     "finding": "The npm package @validate-sdk/v2 poses as a data validation tool but steals .env and .json files, crypto-related files and system information, and adds an attacker SSH key for remote access. A 28 February 2026 commit to openpaw-graveyard, an autonomous crypto trading agent, added a dependency that pulls it in, and the commit was co-authored by an LLM. ReversingLabs attributes the campaign, which it named PromptMink, to the North Korean-linked group Famous Chollima and counted 60 unique packages and over 300 versions across seven months from September 2025; it says the packages' documentation is designed to get coding agents to recommend them, a combination of LLM optimisation abuse and knowledge injection, and that the real targets might have been AI coding agents."
     },
     {
      "title": "Aikido Security, What is Slopsquatting? The AI Package Hallucination Attack Already Happening, February 2026",
      "url": "https://www.aikido.dev/blog/slopsquatting-ai-package-hallucination-attacks",
-     "finding": "In early 2024 Bar Lanyado of Lasso Security uploaded an empty package under huggingface-cli, a name AI models repeatedly invented, and it received more than 30,000 authentic downloads in three months; Alibaba had copied the hallucinated command into a public README. The npm package unused-imports is a real malicious package that was potentially an intentional slopsquatting attack, under a security hold and still drawing 233 downloads a week in early February 2026, but the authors say they cannot prove what the attackers intended with the names."
+     "finding": "The npm package unused-imports, whose name resembles the real eslint-plugin-unused-imports, is a real malicious package that was potentially an intentional slopsquatting attack; it is under a security hold and was still drawing 233 downloads a week in early February 2026, but the authors say they cannot prove what the attackers intended with the names. The post also recounts Bar Lanyado's 2024 huggingface-cli experiment."
+    },
+    {
+     "title": "Lanyado, Diving Deeper into AI Package Hallucinations, Lasso Security, March 2024",
+     "url": "https://lasso.security/blog/ai-package-hallucinations",
+     "finding": "After finding that AI models repeatedly suggested a non-existent Python package, huggingface-cli, the author uploaded an empty package under that name, plus a dummy package to gauge scanner traffic; in three months the empty package got more than 30,000 authentic downloads, and installation instructions for it appeared in the README of an Alibaba research repository."
     }
    ],
    "theme": "security",
@@ -15640,7 +15747,7 @@
      "evidence": "In the USENIX Security 2025 study, fine-tuning cut one model's hallucinated-package rate from 16.14% to 2.66%, but its pass rate on a standard coding benchmark fell from 51.4% to 25.3%.",
      "ref": {
       "title": "Spracklen et al., We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs, USENIX Security 2025",
-      "url": "https://arxiv.org/html/2406.10279v3",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/spracklen",
       "finding": "Across 16 code-generating models, two prompt datasets and 576,000 code samples in Python and JavaScript, 440,445 of about 2.23 million recommended packages (19.7%) were hallucinations, at least 5.2% for commercial models and 21.7% for open-source models, with 205,474 unique invented names. In 10 re-runs of 500 prompts, 43% of hallucinated packages were repeated in all 10 queries and 39% did not repeat at all. Fine-tuning cut DeepSeek's hallucination rate from 16.14% to 2.66% (83%), but its HumanEval pass@1 fell from 51.4% to 25.3%."
      }
     },
@@ -15653,7 +15760,7 @@
      "ref": {
       "title": "Aikido Security, Agent Skills Are Spreading Hallucinated npx Commands, January 2026",
       "url": "https://www.aikido.dev/blog/agent-skills-spreading-hallucinated-npx-commands",
-      "finding": "On 14 January 2026 researcher Charlie Eriksen registered react-codeshift on npm, a name an LLM appears to have blended from jscodeshift and react-codemod. It first appeared in a commit of 17 October 2025 that added 47 LLM-generated agent skills with no apparent human review, and 237 GitHub repositories referenced it when he claimed it. After the claim it drew about 74 downloads on day zero and then 1 to 4 a day, where phantom packages typically drop to zero after day zero. Nobody was harmed and the package is now a safe placeholder, but an attacker could have claimed it first."
+      "finding": "On 14 January 2026 researcher Charlie Eriksen registered react-codeshift on npm, a name an LLM appears to have blended from jscodeshift and react-codemod. It first appeared in a commit of 17 October 2025 that added 47 LLM-generated agent skills with no apparent human review, and 237 GitHub repositories referenced it when he claimed it. After the claim it drew about 74 downloads on day zero and then 1 to 4 a day, where phantom packages typically get 60 to 100 downloads on day one, mostly from mirrors and scanners, and then almost none. Nobody was harmed and the package is now a safe placeholder, but an attacker could have claimed it first."
      }
     }
    ],
@@ -18979,7 +19086,7 @@
    "source": "robotaxisafety",
    "target": "backlash",
    "kind": "leads",
-   "why": "Driverless taxis that take paid driving work are a visible target for the sabotage the backlash describes."
+   "why": "Driverless taxis are visible, unattended targets: during protests in Los Angeles in June 2025, five Waymo cars were attacked and set on fire."
   },
   {
    "source": "thinking",
@@ -19129,7 +19236,7 @@
    "source": "datagrab",
    "target": "surveillancepricing",
    "kind": "leads",
-   "why": "The same harvested behavioural data that trains models lets retailers estimate what each shopper will pay."
+   "why": "Personal data that platforms collect, such as location, browsing history and cart activity, is the input pricing tools use to estimate what each shopper will pay."
   },
   {
    "source": "surveillancepricing",
@@ -19141,7 +19248,7 @@
    "source": "surveillancepricing",
    "target": "regulation",
    "kind": "leads",
-   "why": "Maryland, Connecticut and New York each wrote different rules on personal-data pricing, adding to the state-by-state patchwork."
+   "why": "Maryland, Connecticut, New Jersey and New York each wrote different rules on personal-data pricing, adding to the state-by-state patchwork."
   },
   {
    "source": "agentcommerce",
@@ -19357,7 +19464,7 @@
    "source": "aimusicflood",
    "target": "artauthenticity",
    "kind": "leads",
-   "why": "Fully AI-generated tracks make up 34% of Deezer's daily uploads and 97% of listeners in one survey could not tell them from human music, so listeners cannot know which songs a person made."
+   "why": "Fully AI-generated tracks passed half of Deezer's new uploads on peak days in June 2026 and 97% of listeners in one survey could not tell them from human music, so listeners cannot know which songs a person made."
   },
   {
    "source": "claimdenials",
@@ -19393,7 +19500,7 @@
    "source": "slopsquatting",
    "target": "llmgrooming",
    "kind": "twin",
-   "why": "Both plant content written for machines rather than people: propaganda sites that steer chatbot answers, and package documentation that ReversingLabs says was aimed at AI coding agents."
+   "why": "Both plant content written for machines rather than people: propaganda sites that the American Sunlight Project argues are aimed at chatbots, and package documentation that ReversingLabs suggests may have been aimed at AI coding agents."
   },
   {
    "source": "schoolsurveillance",
@@ -19657,13 +19764,13 @@
    "source": "robotaxisafety",
    "target": "driverassist",
    "kind": "twin",
-   "why": "Driving automation that runs with no human driver cut injury crashes in Waymo's data, while systems that still need a watching driver invite that driver to stop watching."
+   "why": "Driving automation that runs with no human driver cut injury crashes in Waymo's own data, while systems that still need a watching driver invite that driver to stop watching."
   },
   {
    "source": "surveillancepricing",
    "target": "algorithmicpay",
    "kind": "twin",
-   "why": "Both use personal data and automated systems to set a different rate for each person, prices for shoppers and pay for workers, and one Colorado bill tried to ban both."
+   "why": "Both use personal data and automated systems to set a different rate for each person, prices for shoppers and pay for workers; a vetoed 2026 Colorado bill tried to restrict both, and the FTC's October 2026 inquiry covers both."
   },
   {
    "source": "expertdeferral",
@@ -19700,6 +19807,30 @@
    "target": "hallucinatedlaw",
    "kind": "twin",
    "why": "Both bring AI fabrications into court filings; the California judge who dismissed a deepfake case treated it as going beyond the fictitious citations courts already sanction."
+  },
+  {
+   "source": "bots",
+   "target": "aimusicflood",
+   "kind": "leads",
+   "why": "Cheap fake accounts are what make generated music pay: one US fraudster used thousands of bot accounts to stream hundreds of thousands of AI-generated songs billions of times."
+  },
+  {
+   "source": "ancienttexts",
+   "target": "science",
+   "kind": "twin",
+   "why": "Both are AI speeding up research: one in the sciences, the other in history and classics by reading texts scholars could not."
+  },
+  {
+   "source": "regulationlag",
+   "target": "aidevicerecalls",
+   "kind": "leads",
+   "why": "AI devices reach patients through a clearance route that does not require prospective human testing, and the FDA's guidance on monitoring them after launch was still a draft in October 2026."
+  },
+  {
+   "source": "slopsquatting",
+   "target": "promptinjection",
+   "kind": "twin",
+   "why": "Both turn an agent's trust in what it reads against its user: hidden instructions in content in one case, invented or planted package names in agent skills and documentation in the other."
   }
  ],
  "themes": {
