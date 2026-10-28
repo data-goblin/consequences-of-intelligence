@@ -14335,7 +14335,7 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "information",
-   "summary": "Models produce plausible but false statements instead of admitting uncertainty, partly because most benchmarks score a confident guess above saying it does not know[1]. Even when summarising a document they were given, the models on one leaderboard produced summaries not factually consistent with it in 1.8% to 24.2% of cases[2]. By 27 October 2026 one database listed 2,225 decisions worldwide in which a court or tribunal found or implied that a party relied on hallucinated content, 1,514 of them in the US[3].",
+   "summary": "Models produce plausible but false statements instead of admitting uncertainty, partly because most benchmarks score a confident guess above saying it does not know[1]. Even when summarising a document they were given, the models on one leaderboard produced summaries not factually consistent with it in 1.8% to 24.2% of cases[2]. By 27 October 2026 one database listed 2,225 decisions worldwide in which a court or tribunal found or implied that a party relied on hallucinated content, 1,514 of them in the US[3]. In science, a Cornell-led preprint that checked 111 million references in 2.5 million papers on arXiv, bioRxiv, SSRN and PubMed Central found unmatched references rising above the pre-2023 baseline to 0.21% to 1.91% of references by August 2025; extrapolating those rates to year end gives 146,932 hallucinated citations in 2025 in those four corpora alone, which the authors call a lower bound, and most such references on arXiv passed moderation[4].",
    "refs": [
     {
      "title": "Kalai, Nachum, Vempala and Zhang, Why Language Models Hallucinate (2025)",
@@ -14351,6 +14351,11 @@
      "title": "Damien Charlotin, AI Hallucination Cases Database (updated 27 October 2026)",
      "url": "https://www.damiencharlotin.com/hallucinations/",
      "finding": "The database tracks legal decisions where a court or tribunal explicitly found or implied that a party relied on hallucinated content, not mere allegations; it listed 2,225 cases, 1,514 of them in the US, with 879 involving lawyers and 1,283 pro se litigants."
+    },
+    {
+     "title": "Zhao, Wang, Stuart, De Vaan, Ginsparg and Yin, LLM hallucinations in the wild: Large-scale evidence from non-existent citations, arXiv 2605.07723 (May 2026)",
+     "url": "https://arxiv.org/abs/2605.07723",
+     "finding": "Hallucinated citations, measured as the excess of unmatched references over the pre-LLM baseline, reached 0.39% of references on arXiv, 0.21% on bioRxiv, 1.91% on SSRN and 0.27% on PubMed Central by August 2025; assuming the trend held to year end, the four corpora would hold 146,932 hallucinated citations in 2025, very likely a lower bound. Most non-existent references on arXiv still pass moderation."
     }
    ],
    "control": "mitigable",
