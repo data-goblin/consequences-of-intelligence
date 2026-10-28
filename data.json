@@ -16956,6 +16956,64 @@
      }
     }
    ]
+  },
+  {
+   "id": "expertdeferral",
+   "label": "Experts let AI agents settle their judgment calls",
+   "valence": -2.98,
+   "probability": 0.6,
+   "year": 2026,
+   "stage": "emerging",
+   "evidence": "measured",
+   "theme": "mind",
+   "summary": "As agents take over routine analysis, the calls left to experts, such as which method to use or how to read ambiguous evidence, can quietly go the agent's way. In one Anthropic randomised trial, 50 causal-inference practitioners analysed data with an AI coding agent whose lean on each of four analytical choices was set by coin flip; they went with the agent's lean 86% of the time against 50% by chance, and neither experience nor expertise predicted who deferred[1]. When they had already taken a side, they switched 60% of the time if the agent argued the other way[2]. Afterwards 77% repeated the agent's arguments, sometimes nearly verbatim, but only 15% mentioned the agent in any answer, and more than half rated the final recommendation as more their own than the agent's[2]. The shift in that final recommendation was not statistically significant under the registered estimator, the agents were prompted to hold their lean more firmly than a stock agent would, and the study covered one task[2]; working with the agent also cut serious errors, 3 of 50 against 6 of 11 without it, in a comparison that was not randomised[2]. Experience does not protect against wrong advice either: in one experiment with 27 radiologists, incorrect AI suggestions cut correct mammogram ratings from 79.7% to 19.8% for inexperienced readers and from 82.3% to 45.5% for very experienced ones[3].",
+   "refs": [
+    {
+     "title": "Anthropic, How AI agents shape experts' judgment calls, 27 October 2026",
+     "url": "https://www.anthropic.com/research/agents-judgment-calls",
+     "finding": "In a randomised trial with 50 analysts using an AI coding agent, analysts matched the agent's coin-flip lean on four analytical decisions 86% of the time against about 50% by chance, and experience and expertise did not predict deferral; the authors say the leans were deliberately strengthened and only one task, field and model were studied."
+    },
+    {
+     "title": "Herdağdelen, Joren and Tamkin, Who's Aligned to Whom? How AI Agents Shape Experts' Research Judgment Calls, Anthropic (October 2026)",
+     "url": "https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf",
+     "finding": "61 practitioners completed the task, 11 without the agent; of the 50 with it, choices matched the agent's lean 86% of the time, those who had taken a side switched 60% of the time when the agent voiced the opposite lean, 77% repeated its talking points and 15% mentioned it. The policy shift was 17% of the distance from discontinue to roll out, not significant under the registered estimator (95% CI -6% to 40%). Serious errors: 6 of 11 without AI against 3 of 50 with it, not randomly assigned."
+    },
+    {
+     "title": "Dratsch et al., Automation Bias in Mammography: The Impact of Artificial Intelligence BI-RADS Suggestions on Reader Performance, Radiology 307(4), 2023",
+     "url": "https://doi.org/10.1148/radiol.222176",
+     "finding": "In a prospective experiment, 27 radiologists rated mammograms with purported AI BI-RADS suggestions; correct ratings fell from 79.7% with correct suggestions to 19.8% with incorrect ones for inexperienced readers, 81.3% to 24.8% for moderately experienced and 82.3% to 45.5% for very experienced readers."
+    }
+   ],
+   "control": "mitigable",
+   "price_of": [],
+   "control_note": "Agents that do the analysis well are the ones experts stop second-guessing, and the deferral leaves little trace in the expert's own account. Agents that lay out the case for each defensible option, and institutions that name which decisions need a person's own judgment, can keep the check meaningful, but neither has been tested at scale.",
+   "actions": [
+    {
+     "action": "Have agents argue each defensible option, not one",
+     "actor": "AI developers",
+     "status": "idea",
+     "aim": "probability",
+     "evidence": "The authors suggest designing agents that make a strong case for each option on a judgment call, since in their trial the agent voiced its lean first on 77% of decisions, before the expert had taken a side.",
+     "ref": {
+      "title": "Herdağdelen, Joren and Tamkin, Who's Aligned to Whom? How AI Agents Shape Experts' Research Judgment Calls, Anthropic (October 2026)",
+      "url": "https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf",
+      "finding": "On most decisions (77%) the agent voiced its lean before the participant had taken a side; with only one side argued, participants could adopt the agent's assumptions without articulating their own. The authors call for ways to measure deferral and help experts recognise it."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "Automation bias in glass-cockpit pilots",
+     "year": 1998,
+     "parallel": "Professionals given an automated aid used its cues in place of their own checks and later misremembered how they had decided, as analysts in the agent trial rarely mentioned the agent.",
+     "outcome": "Pilots in flight scenarios made automation-related omission and commission errors; imposed accountability did not help, but pilots who felt accountable for their own performance double-checked the automation more and erred less, and pilots erroneously remembered expected cues being present.",
+     "ref": {
+      "title": "Mosier, Skitka, Heers and Burdick, Automation Bias: Decision Making and Performance in High-Tech Cockpits, International Journal of Aviation Psychology 8(1), 1998",
+      "url": "https://www.tandfonline.com/doi/abs/10.1207/s15327108ijap0801_3",
+      "finding": "Automation bias is omission and commission errors from using automated cues in place of vigilant information seeking; experimentally manipulated accountability did not significantly affect performance, pilots who felt internally accountable checked more and erred less, and pilots erroneously remembered the presence of expected cues."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -19514,6 +19572,18 @@
    "target": "algorithmicpay",
    "kind": "twin",
    "why": "Both use personal data and automated systems to set a different rate for each person, prices for shoppers and pay for workers, and one Colorado bill tried to ban both."
+  },
+  {
+   "source": "expertdeferral",
+   "target": "homogenisation",
+   "kind": "leads",
+   "why": "When many research teams defer to agents that share the same default preferences, their apparent agreement is less independent than it looks; in simulations, agents with no assigned lean made the same five choices in 91% of 123 runs."
+  },
+  {
+   "source": "expertdeferral",
+   "target": "thinking",
+   "kind": "twin",
+   "why": "Both describe people handing reasoning to an AI: deferral settles the judgment call itself, while loss of critical thinking is the habit of checking less."
   }
  ],
  "themes": {
