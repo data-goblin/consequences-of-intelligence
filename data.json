@@ -16173,6 +16173,103 @@
      }
     }
    ]
+  },
+  {
+   "id": "aiwashing",
+   "label": "Inflated AI claims mislead investors and customers",
+   "valence": -2.62,
+   "probability": 0.6,
+   "year": 2025,
+   "evidence": "reported",
+   "summary": "Companies overstate what their AI can do to win money and customers. The US SEC fined two investment advisers $400,000 in total in March 2024 for claiming AI they did not use, and its chair said such AI washing hurts investors[1]. In 2025 it charged a startup founder with raising over $42 million on claims that his shopping app used AI to complete purchases, when, it alleges, contract employees entered the orders by hand[2], and found that the vast majority of drive-thru orders taken by one version of a restaurant-technology company's AI ordering product needed human intervention[3]. The FTC said one AI content detector sold as 98 percent accurate scored 53 percent on general content[4]. US investors filed 16 securities class actions classed as AI-related in 2025 and 15 in the first half of 2026; these are allegations, and of the 15, seven concerned AI development while five involved data centres and four AI infrastructure or hardware[5]. One audit of 100 German startups found AI claims without inspectable evidence or methodology, with claimed capabilities rarely matching the underlying systems[6]. Sanctions so far are modest: the advisers settled without admitting or denying the findings, and the drive-thru company paid no penalty[1][3].",
+   "refs": [
+    {
+     "title": "US Securities and Exchange Commission, SEC Charges Two Investment Advisers with Making False and Misleading Statements About Their Use of Artificial Intelligence, March 2024",
+     "url": "https://www.sec.gov/newsroom/press-releases/2024-36",
+     "finding": "Delphia (USA) Inc. claimed from 2019 to 2023 to use AI and machine learning that incorporated client data in its investment process, capabilities the SEC found it lacked; Global Predictions Inc. called itself the 'first regulated AI financial advisor' in 2023. Without admitting or denying the findings, they agreed to pay $225,000 and $175,000 in civil penalties, $400,000 in total. Chair Gary Gensler said: 'Such AI washing hurts investors.'"
+    },
+    {
+     "title": "US Securities and Exchange Commission, Litigation Release No. 26282, Alberto Saniger Mantinan, a/k/a Albert Saniger, April 2025",
+     "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26282",
+     "finding": "The SEC charged the founder and former CEO of Nate, Inc. with raising over $42 million by telling Seed and Series A investors that the app used automated technology that relied on AI to complete purchases without human involvement; it alleges Nate relied largely on contract employees who entered orders by hand and that the app could not use AI to complete purchases. The SEC seeks injunctions, an officer-and-director bar, disgorgement and civil penalties."
+    },
+    {
+     "title": "US Securities and Exchange Commission, SEC Charges Restaurant-Technology Company Presto Automation for Misleading Statements About AI Product, January 2025",
+     "url": "https://www.sec.gov/enforcement-litigation/administrative-proceedings/33-11352-s",
+     "finding": "From November 2021 to May 2023 Presto made false and misleading statements about Presto Voice, its AI drive-thru ordering product: for a period the speech recognition in all deployed units was owned and operated by a third party, and in the version using its own technology the vast majority of orders required human intervention. Presto settled without admitting or denying the findings and paid no civil penalty, citing its cooperation and remediation."
+    },
+    {
+     "title": "US Federal Trade Commission, FTC Order Requires Workado to Back Up Artificial Intelligence Detection Claims, April 2025",
+     "url": "https://www.ftc.gov/news-events/news/press-releases/2025/04/ftc-order-requires-workado-back-artificial-intelligence-detection-claims",
+     "finding": "Workado advertised its AI Content Detector as '98 percent' accurate at telling AI-written from human-written text, but independent testing found 53 percent accuracy on general-purpose content; the FTC alleges the model was trained or fine-tuned only on academic content. The Bureau of Consumer Protection director said the product did no better than a coin toss."
+    },
+    {
+     "title": "Cornerstone Research and Stanford Law School Securities Class Action Clearinghouse, Securities Class Action Filings: 2026 Midyear Assessment, July 2026",
+     "url": "https://www.cornerstone.com/insights/reports/securities-class-action-filings-2026-midyear-assessment/",
+     "finding": "There were 15 AI-related filings in 2026 H1, against 16 in all of 2025 and 15 in 2024; of the 15, seven related to AI development, five involved data centres and four concerned AI infrastructure or hardware (three of which also concerned data centres). AI-related filings were 13% of core filings in 2026 H1. All involved claims under Section 10(b)."
+    },
+    {
+     "title": "Pranav, Hartmann and Lauscher, Auditing AI-Washing in German Startups: A Mixed-Methods Study of Marketing Claims and Perceptions, AIES 2026",
+     "url": "https://ojs.aaai.org/index.php/AIES/article/view/43118",
+     "finding": "An audit of 100 German startups with a seven-dimension codebook, plus 63 expert interviews, found three forms of exaggerated AI capability: claims without inspectable evidence, performance numbers without methodology and claims without acknowledged limits; claimed capabilities rarely matched the underlying systems, consumers who had met exaggerated claims withdrew trust from later AI marketing, and 38% of the sample were flagged for moderate or serious ethical concern. The authors recommend bringing startup AI claims under disclosure requirements and offering the codebook to regulators, investors and consumer-protection bodies."
+    }
+   ],
+   "theme": "power",
+   "stage": "active",
+   "control": "mitigable",
+   "price_of": [],
+   "control_note": "Hype rewards any company that can claim the AI label, and investors and buyers rarely see what sits behind it. Regulators can demand evidence for AI claims and punish false ones, but the cases brought so far are few and carried modest penalties.",
+   "actions": [
+    {
+     "action": "Charge firms that claim AI they do not have",
+     "actor": "regulators",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "The SEC has brought AI washing cases against investment advisers, a restaurant-technology company and a startup founder, with civil penalties of $400,000 in total in the 2024 adviser cases.",
+     "ref": {
+      "title": "US Securities and Exchange Commission, SEC Charges Two Investment Advisers with Making False and Misleading Statements About Their Use of Artificial Intelligence, March 2024",
+      "url": "https://www.sec.gov/newsroom/press-releases/2024-36",
+      "finding": "Delphia (USA) Inc. claimed from 2019 to 2023 to use AI and machine learning that incorporated client data in its investment process, capabilities the SEC found it lacked; Global Predictions Inc. called itself the 'first regulated AI financial advisor' in 2023. Without admitting or denying the findings, they agreed to pay $225,000 and $175,000 in civil penalties, $400,000 in total. Chair Gary Gensler said: 'Such AI washing hurts investors.'"
+     }
+    },
+    {
+     "action": "Require evidence behind AI accuracy claims",
+     "actor": "regulators",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "A final FTC order bars one AI detector maker from claiming accuracy unless competent and reliable evidence backs the claim; it binds only that company.",
+     "ref": {
+      "title": "US Federal Trade Commission, FTC Approves Final Order against Workado, LLC, Which Misrepresented the Accuracy of its Artificial Intelligence Content Detection Product, August 2025",
+      "url": "https://www.ftc.gov/node/297697",
+      "finding": "The final order, approved 3-0 on 28 August 2025, bars Workado from claims about the effectiveness of any AI content detection product unless they are not misleading and backed by competent and reliable evidence, and requires it to keep that evidence, notify eligible customers and file compliance reports one year after the order and annually for three more years."
+     }
+    },
+    {
+     "action": "Bring startup AI claims under disclosure rules",
+     "actor": "legislators",
+     "status": "idea",
+     "aim": "probability",
+     "evidence": "The authors of one audit of German startups propose disclosure requirements for startup AI claims and offer their codebook to regulators, investors and consumer-protection bodies for routine audits.",
+     "ref": {
+      "title": "Pranav, Hartmann and Lauscher, Auditing AI-Washing in German Startups: A Mixed-Methods Study of Marketing Claims and Perceptions, AIES 2026",
+      "url": "https://ojs.aaai.org/index.php/AIES/article/view/43118",
+      "finding": "An audit of 100 German startups with a seven-dimension codebook, plus 63 expert interviews, found three forms of exaggerated AI capability: claims without inspectable evidence, performance numbers without methodology and claims without acknowledged limits; claimed capabilities rarely matched the underlying systems, consumers who had met exaggerated claims withdrew trust from later AI marketing, and 38% of the sample were flagged for moderate or serious ethical concern. The authors recommend bringing startup AI claims under disclosure requirements and offering the codebook to regulators, investors and consumer-protection bodies."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "Theranos blood-testing fraud charges",
+     "year": 2018,
+     "parallel": "A startup raised money on a technology it said it had built, while much of the work ran on other companies' machines, as the SEC later found at one AI drive-thru company.",
+     "outcome": "The SEC charged Theranos, Elizabeth Holmes and Ramesh Balwani with fraud after the company raised more than $700 million while most patient tests ran on modified or commercial analyzers made by others; Holmes settled with a $500,000 penalty and a 10-year bar from serving as an officer or director of a public company.",
+     "ref": {
+      "title": "US Securities and Exchange Commission, Theranos, CEO Holmes, and Former President Balwani Charged With Massive Fraud, March 2018",
+      "url": "https://www.sec.gov/news/press-release/2018-41",
+      "finding": "Theranos raised more than $700 million from investors while claiming its portable analyzer ran comprehensive blood tests from finger-drop samples; it could complete only a small number of tests and most patient tests ran on modified or commercial analyzers made by others. It projected over $100 million in 2014 revenue and made a little more than $100,000. Holmes agreed, without admitting or denying the allegations, to a $500,000 penalty, a 10-year officer-and-director bar and the return of 18.9 million shares."
+     }
+    }
+   ]
   }
  ],
  "links": [
