@@ -16752,6 +16752,118 @@
      }
     }
    ]
+  },
+  {
+   "id": "driverassist",
+   "label": "Drivers over-trust driver-assist systems and crash",
+   "valence": -3.43,
+   "probability": 0.5,
+   "year": 2024,
+   "evidence": "measured",
+   "summary": "Systems that steer and brake for a driver who is still meant to watch the road can lull that driver into looking away. In its analysis of 956 crashes involving Tesla's Autopilot reported through August 2023, NHTSA found a mismatch between weak driver engagement controls and the system's permissive capabilities that led to foreseeable misuse and avoidable crashes, including at least 13 with one or more deaths[1]. In two small IIHS field studies, ten drivers of a Volvo with Pilot Assist were more than three times as likely to show signs of disengagement after a month of use as at the start[2], and 14 Tesla Model 3 drivers learned to time Autopilot's attention reminders and did more secondary tasks during alerts over four weeks[3]. In August 2025 a Miami federal jury found Tesla 33% responsible for a 2019 crash in which a driver using Autopilot reached for a dropped phone and killed a woman standing beside a parked car, and awarded $243 million; Tesla said the driver was entirely at fault and that it would appeal[4], and the judge later denied its motion for a new trial[5]. In October 2025 NHTSA opened a probe into 2.88 million Teslas with Full Self-Driving, which Tesla describes as a single end-to-end neural network, over 58 reports of traffic violations including 14 crashes[6][7]. One IIHS study of older Nissan and BMW models found little evidence that partial automation prevents crashes beyond automatic emergency braking, which does cut them[8], and of the first 14 systems IIHS rated, only one had acceptable safeguards against misuse[9].",
+   "refs": [
+    {
+     "title": "NHTSA Office of Defects Investigation, EA22002 closing resume, Autopilot System Driver Controls, April 2024",
+     "url": "https://static.nhtsa.gov/odi/inv/2022/INCLA-EA22002-14498.pdf",
+     "finding": "ODI analysed 956 crashes reported up to 30 August 2023; after excluding 489, it grouped the remaining 467 into frontal crashes with adequate time for an attentive driver to respond (211), roadway departures after Autosteer was inadvertently disengaged (111) and departures in low traction (145). Tesla's weak driver engagement system was not appropriate for Autopilot's permissive operating capabilities, a critical safety gap that led to foreseeable misuse and avoidable crashes, including at least 13 crashes with one or more fatalities. Tesla filed recall 23V838 on 12 December 2023 for 2,031,220 vehicles, and ODI opened recall query RQ24009 to assess the remedy."
+    },
+    {
+     "title": "IIHS, Drivers let their focus slip as they get used to partial automation, November 2020",
+     "url": "https://www.iihs.org/news/detail/drivers-let-their-focus-slip-as-they-get-used-to-partial-automation",
+     "finding": "In a month-long study of Massachusetts volunteers, the ten drivers of a Volvo S90 were, after correction for video coding errors, more than 3 times as likely to show signs of disengagement and 17 times as likely to take both hands off the wheel after a month of Pilot Assist use, compared with the start of the study."
+    },
+    {
+     "title": "IIHS, Drivers quickly learn to skirt limits set by partial automation systems, September 2024",
+     "url": "https://www.iihs.org/news/detail/drivers-quickly-learn-to-skirt-limits-set-by-partial-automation-systems",
+     "finding": "Fourteen drivers of a 2020 Tesla Model 3 logged a little more than 12,000 miles on Autopilot, which issued 3,858 attention warnings; from the first to the fourth week initial reminders per 1,000 miles rose 26% while escalations fell 64%, and drivers grew more likely to take their hands off the wheel, look away and do secondary tasks during alerts."
+    },
+    {
+     "title": "Reuters, Tesla ordered by Florida jury to pay $243 million in fatal Autopilot crash, August 2025",
+     "url": "https://finance.yahoo.com/news/tesla-ordered-florida-jury-pay-192910068.html",
+     "finding": "A Miami federal jury awarded $129 million in compensatory and $200 million in punitive damages, with Tesla assigned 33% of compensatory damages ($42.6 million) and the driver 67%; in the 25 April 2019 crash the driver ran a stop sign and light after reaching down for a dropped phone. Plaintiffs argued Tesla designed Autopilot for controlled-access highways but did not stop its use elsewhere; Tesla said the driver was solely at fault and it would appeal."
+    },
+    {
+     "title": "CarComplaints.com, Benavides v. Tesla: Judge Upholds $243 Million Jury Verdict, February 2026",
+     "url": "https://www.carcomplaints.com/news/2026/benavides-v-tesla-judge-upholds-243-million-jury-verdict.shtml",
+     "finding": "US District Judge Beth Bloom denied Tesla's motion for a new trial, saying Tesla presented no new information to justify overturning the verdict; Naibel Benavides Leon, 22, was killed and Dillon Angulo seriously injured when the Model S hit a parked Tahoe that struck them."
+    },
+    {
+     "title": "Reuters, US Probes Driver Assistance Software in 2.9 Million Tesla Vehicles Over Traffic Violations, October 2025",
+     "url": "https://www.insurancejournal.com/news/national/2025/10/13/843431.htm",
+     "finding": "NHTSA opened a preliminary evaluation into 2.88 million Tesla vehicles with Full Self-Driving after 58 reports of traffic safety violations, including 14 crashes and 23 injuries; six reports describe a Tesla entering an intersection against a red light and crashing. NHTSA said the system induced vehicle behaviour that violated traffic safety laws."
+    },
+    {
+     "title": "Drive Tesla Canada, Tesla begins public roll-out of FSD Beta v12, January 2024",
+     "url": "https://driveteslacanada.ca/news/tesla-begins-public-roll-out-of-fsd-beta-v12-2023-44-30-12",
+     "finding": "Tesla's release notes say FSD Beta v12 upgrades the city-streets driving stack to a single end-to-end neural network, replacing over 300,000 lines of explicit C++ code."
+    },
+    {
+     "title": "IIHS, IIHS-HLDI research finds little evidence that partial automation prevents crashes, July 2024",
+     "url": "https://www.iihs.org/news/detail/iihs-hldi-research-finds-little-evidence-that-partial-automation-prevents-crashes",
+     "finding": "In claims and police-reported crash data for 2017-19 Nissan Rogues with ProPILOT Assist and 2013-17 BMW and Mini models with Driving Assistant Plus, forward collision warning and automatic emergency braking cut crashes and claims, but partial automation showed little evidence of preventing crashes beyond them; ProPILOT Assist's apparent benefits were similar on low-speed roads, suggesting other factors. The vehicles were 5 to 11 years old and the data could not show whether systems were on."
+    },
+    {
+     "title": "IIHS, First partial driving automation safeguard ratings show industry has work to do, March 2024",
+     "url": "https://www.iihs.org/news/detail/first-partial-driving-automation-safeguard-ratings-show-industry-has-work-to-do",
+     "finding": "Of the first 14 partial automation systems tested from nine manufacturers, one (Lexus LS Teammate) was rated acceptable, two marginal and 11 poor, including the Tesla Model 3; IIHS President David Harkey said most lack adequate measures to prevent misuse and there is little evidence partial automation makes driving safer."
+    }
+   ],
+   "theme": "world",
+   "stage": "active",
+   "control": "mitigable",
+   "price_of": [],
+   "control_note": "Driving automation that handles the routine work well is what invites drivers to stop watching, and drivers learn to game the reminders meant to keep them alert. Driver monitoring, limits on where a system will engage and marketing that does not oversell it narrow the gap, but do not close it while a human must take over.",
+   "actions": [
+    {
+     "action": "Recall systems whose driver controls are too weak",
+     "actor": "regulators",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "After NHTSA's investigation, Tesla recalled all 2,031,220 vehicles equipped with Autopilot in December 2023 to strengthen driver warnings; NHTSA opened a recall query to assess whether the fix works.",
+     "ref": {
+      "title": "NHTSA Office of Defects Investigation, EA22002 closing resume, Autopilot System Driver Controls, April 2024",
+      "url": "https://static.nhtsa.gov/odi/inv/2022/INCLA-EA22002-14498.pdf",
+      "finding": "ODI analysed 956 crashes reported up to 30 August 2023; after excluding 489, it grouped the remaining 467 into frontal crashes with adequate time for an attentive driver to respond (211), roadway departures after Autosteer was inadvertently disengaged (111) and departures in low traction (145). Tesla's weak driver engagement system was not appropriate for Autopilot's permissive operating capabilities, a critical safety gap that led to foreseeable misuse and avoidable crashes, including at least 13 crashes with one or more fatalities. Tesla filed recall 23V838 on 12 December 2023 for 2,031,220 vehicles, and ODI opened recall query RQ24009 to assess the remedy."
+     }
+    },
+    {
+     "action": "Bar marketing that oversells driver assistance",
+     "actor": "regulators",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "A California judge ruled in December 2025 that Tesla's use of the name Autopilot was misleading; given 60 days by the DMV, Tesla dropped the name and added that Full Self-Driving needs supervision, avoiding a 30-day sales suspension. The ruling covers marketing in one state, not how the systems behave.",
+     "ref": {
+      "title": "Electrek, Tesla avoids 30-day California sales suspension after dropping misleading 'Autopilot' marketing, February 2026",
+      "url": "https://electrek.co/2026/02/18/tesla-avoids-30-day-california-sales-suspension-after-dropping-misleading-autopilot-marketing/",
+      "finding": "An administrative law judge ruled in December 2025 that Tesla's use of Autopilot was misleading and violated state law; the DMV's final decision permanently stayed the manufacturer licence suspension and gave Tesla 60 days to stop using the term. Tesla stopped using Autopilot, added that Full Self-Driving requires supervision and in January 2026 discontinued Autopilot as a standalone feature in the US and Canada."
+     }
+    },
+    {
+     "action": "Rate safeguards against driver misuse",
+     "actor": "safety researchers",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "IIHS rates partial automation on driver monitoring, escalating alerts and emergency stops; in its first round only one of 14 systems was acceptable.",
+     "ref": {
+      "title": "IIHS, First partial driving automation safeguard ratings show industry has work to do, March 2024",
+      "url": "https://www.iihs.org/news/detail/first-partial-driving-automation-safeguard-ratings-show-industry-has-work-to-do",
+      "finding": "The ratings ask systems to monitor the driver's gaze and hands, start alerts within 10 seconds of inattention and escalate before 20 seconds, begin slowing within 35 seconds, and require the driver to start or confirm lane changes; of 14 systems one was acceptable, two marginal and 11 poor."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "Uber self-driving test car kills a pedestrian in Tempe",
+     "year": 2018,
+     "parallel": "A human was meant to supervise an automated car and stopped watching the road, the same supervision gap that partial automation creates for ordinary drivers.",
+     "outcome": "The NTSB found the probable cause was the operator's failure to monitor the road and the automated system because she was visually distracted by her personal phone; the system detected the pedestrian 5.6 seconds before impact but never classified her correctly, and the operator looked back at the road about 1 second before impact.",
+     "ref": {
+      "title": "NTSB, Collision Between Vehicle Controlled by Developmental Automated Driving System and Pedestrian, HWY18MH010, 2019",
+      "url": "https://www.ntsb.gov/investigations/Pages/HWY18MH010.aspx",
+      "finding": "In the 18 March 2018 crash in Tempe, Arizona, the probable cause was the vehicle operator's failure to monitor the driving environment and the automated driving system because she was visually distracted by her personal cell phone; the system detected the pedestrian 5.6 seconds before impact but never accurately classified her as a pedestrian or predicted her path."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -19298,6 +19410,12 @@
    "target": "tutoring",
    "kind": "counters",
    "why": "With only 23% of people in low-income countries online in 2025, the students who stand to gain most from an AI tutor are the least able to reach one."
+  },
+  {
+   "source": "robotaxisafety",
+   "target": "driverassist",
+   "kind": "twin",
+   "why": "Driving automation that runs with no human driver cut injury crashes in Waymo's data, while systems that still need a watching driver invite that driver to stop watching."
   }
  ],
  "themes": {
