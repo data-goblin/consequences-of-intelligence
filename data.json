@@ -16590,6 +16590,113 @@
      }
     }
    ]
+  },
+  {
+   "id": "scoopedresearch",
+   "label": "Labs claim discoveries built on experts' work",
+   "valence": -2.88,
+   "probability": 0.6,
+   "year": 2026,
+   "stage": "emerging",
+   "evidence": "reported",
+   "theme": "ip",
+   "summary": "AI labs now announce research results under their own name, before peer review, while the experts whose work feeds them can lose credit and cannot check what the lab used. On 8 September 2026 OpenAI posted a proof of finite-time blowup for the forced Navier-Stokes equations, found by about 10,000 agents in 88 hours, and said the effort began after a rumour about work by Tristan Buckmaster of NYU and Levent Alpöge of Anthropic[1]. Buckmaster, who had kept every draft of that project in OpenAI's Codex, says OpenAI first told him the result needed very little human input, that its first prompt came after information about their work reached OpenAI, and that the route it took was one Diego Córdoba and Luis Martínez-Zoroa opened; he says he does not know whether his data was used[2]. OpenAI's paper cites Córdoba and Martínez-Zoroa[3]. OpenAI first wrote that it could not rule out that de-identified data from their use of its products helped improve its models, then said after an investigation that Buckmaster's Codex prompts could not have influenced the system[1][4]; on Free, Plus and Pro plans, ChatGPT and Codex content can train OpenAI's models unless the user opts out[5]. The Clay Mathematics Institute said the problem had apparently been settled but that its review is deliberately unhurried[6], 28 Fields Medalists wrote that rushed AI announcements raise severe attribution and plagiarism questions[7], and one analysis argues the Lean formalisation does not match the written proof[8]. In 2025 an OpenAI vice president said GPT-5 had solved 10 open Erdős problems, when it had found existing papers that solved them[9]. The BBC reports that these disputes feed fears that AI could undermine trust in science[10].",
+   "refs": [
+    {
+     "title": "OpenAI, On the Navier-Stokes Millennium Prize Problem, 8 September 2026 (updated 10 September 2026)",
+     "url": "https://openai.com/index/navier-stokes-solution/",
+     "finding": "An internal OpenAI system of about 10,000 concurrent agents produced a proof of finite-time blowup for the Navier-Stokes equations with a smooth force (statements C and D of the Clay formulation) about 88 hours after launch, with Lean verification in 17 more hours; the effort began on 1 September after a rumour OpenAI later linked to Alpöge and Buckmaster. After a 10 September investigation OpenAI says Buckmaster's Codex prompts over the previous two months could not have influenced the system, including through training, and that it does not intend to claim the prize."
+    },
+    {
+     "title": "Tristan Buckmaster, statement, 8 September 2026",
+     "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
+     "finding": "Buckmaster and Alpöge put all drafts of the project into Codex; OpenAI told them very little human input was used, then it emerged a team had worked on it and that the first prompt was sent after information about their work reached OpenAI. The smooth-force route was opened by Córdoba and Martínez-Zoroa. When he asked about training on his Codex sessions he got no answer. He says he does not know whether their data was used and is not accusing anyone."
+    },
+    {
+     "title": "OpenAI, Finite time blowup for Navier-Stokes, September 2026",
+     "url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+     "finding": "The 166-page paper, credited to OpenAI, cites Córdoba and Martínez-Zoroa's forced-singularity constructions for the 3D Euler equations and their extension with Zheng to hypodissipative Navier-Stokes."
+    },
+    {
+     "title": "OpenAI, On the Navier-Stokes Millennium Prize Problem, as archived on 8 September 2026",
+     "url": "https://web.archive.org/web/20260908171518/https://openai.com/index/navier-stokes-solution",
+     "finding": "The first version said no specific user data was accessed, but that, while unlikely, OpenAI could not rule out that de-identified data derived from Alpöge and Buckmaster's usage of its products helped improve its models."
+    },
+    {
+     "title": "OpenAI Help Center, How your data is used to improve model performance (October 2026)",
+     "url": "https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance",
+     "finding": "On services for individuals (Free, Plus, Pro) OpenAI may use content, including Codex tasks, to train its models unless the user opts out; Codex has a separate setting for training on full environments. Business, Enterprise, Edu, API and ChatGPT for Academic Researchers content is not used by default."
+    },
+    {
+     "title": "Clay Mathematics Institute, Navier-Stokes announcement, 11 September 2026",
+     "url": "https://www.claymath.org/news/navier-stokes-announcement",
+     "finding": "CMI says the Navier-Stokes problem has apparently been settled, and that its rules set out how to evaluate what was achieved and assign credit, in a process that is deliberately unhurried."
+    },
+    {
+     "title": "A Severe Misalignment of AI in Mathematics, open letter by 28 Fields Medalists, 11 September 2026",
+     "url": "https://mathandai.org",
+     "finding": "AI-produced solutions are often announced in a rush, leaving no time for a proper writeup or for citing others' prior work, and skipping the long community vetting through talks, discussion and simplification; this raises severe attribution and plagiarism questions that the mathematical community and AI companies must address urgently."
+    },
+    {
+     "title": "Bastounis, Circelli and Hansen, Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correctness, arXiv 2610.08144 (October 2026)",
+     "url": "https://arxiv.org/abs/2610.08144",
+     "finding": "The authors argue that OpenAI's Lean formalisation of its Navier-Stokes blowup proof does not match the natural-language proof, so a successful Lean check does not confirm the informal argument."
+    },
+    {
+     "title": "Anthony Ha, OpenAI's 'embarrassing' math, TechCrunch, 19 October 2025",
+     "url": "https://techcrunch.com/2025/10/19/openais-embarrassing-math/",
+     "finding": "OpenAI VP Kevin Weil posted that GPT-5 found solutions to 10 previously unsolved Erdős problems and deleted the post after Thomas Bloom, who runs the Erdős problems site, called it a dramatic misrepresentation: GPT-5 had found references that already solved them."
+    },
+    {
+     "title": "BBC News, Pallab Ghosh, A bust-up between mathematicians is fuelling fears that AI could undermine science, 28 October 2026",
+     "url": "https://www.bbc.com/news/articles/c6gelgxjwzdzo",
+     "finding": "Buckmaster asked whether his research stored in Codex could have fed OpenAI's work; OpenAI said nobody there, human or AI, saw the other team's work before publication. The BBC says the case shows AI could undermine faith in the scientific process by raising questions about the novelty and accuracy of research."
+    }
+   ],
+   "control": "mitigable",
+   "price_of": [
+    "science"
+   ],
+   "control_note": "Labs can publish their prompts, outputs and timelines, credit the work they build on and leave checking and write-up to independent experts, and researchers can keep unpublished work out of tools that train on it. None of this stops a lab from announcing first, and only the lab can show what its model saw.",
+   "actions": [
+    {
+     "action": "Hand AI results to independent expert groups and claim no academic credit",
+     "actor": "AI labs",
+     "status": "tested",
+     "aim": "impact",
+     "evidence": "In October 2026 OpenAI said it seeks no academic credit for discoveries by its internal models, and asked outside experts to shepherd three new results, with no non-disclosure agreements and freedom to publish; it says choosing the first shepherds shapes who gets involved and creates an asymmetry of information.",
+     "ref": {
+      "title": "OpenAI, Working with academic communities to build scientific understanding, 26 October 2026",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "finding": "OpenAI states four principles for its external collaborations: transparency with no NDAs, no academic credit for discoveries produced by its internal models, recognition for the group's own writeups and for crediting the researchers and ideas the work draws on, and voluntary, unpaid, independent participation."
+     }
+    },
+    {
+     "action": "Keep unpublished research out of model training",
+     "actor": "researchers",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "Individual ChatGPT and Codex plans train on content by default unless the user opts out, while business, API and academic-researcher workspaces do not; Codex has a separate switch for training on full environments.",
+     "ref": {
+      "title": "OpenAI Help Center, How your data is used to improve model performance (October 2026)",
+      "url": "https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance",
+      "finding": "Opting out under Data controls or in the Privacy Portal covers ChatGPT conversations and Codex tasks; the Codex Include environments setting is separate. Feedback such as a thumbs up can still put the whole conversation into training."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "Watson and Crick use King's College data on DNA",
+     "year": 1953,
+     "parallel": "A rival team used another group's unpublished results, shared informally, to confirm a famous discovery, and the credit took years to set right.",
+     "outcome": "Watson and Crick used the King's group's data from an informal MRC report without permission to confirm their double helix, said in their 1953 paper that they were not aware of the details, and only in 1954 wrote that without Franklin's data their structure would have been most unlikely, if not impossible. Cobb and Comfort argue Franklin was an equal contributor, not a victim of theft.",
+     "ref": {
+      "title": "Cobb and Comfort, What Rosalind Franklin truly contributed to the discovery of DNA's structure, Nature 616 (2023)",
+      "url": "https://www.nature.com/articles/d41586-023-01313-5",
+      "finding": "Watson and Crick solved the structure by their own trial and error and then used the King's data, without permission, to confirm it; their 1954 paper acknowledged that without Franklin's data the formulation of their structure would have been most unlikely, if not impossible."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -19100,6 +19207,18 @@
    "target": "fakereceipts",
    "kind": "leads",
    "why": "Generators that make photo-realistic images in seconds produce receipts and damage photos without the editing flaws that used to give forgeries away."
+  },
+  {
+   "source": "datagrab",
+   "target": "scoopedresearch",
+   "kind": "leads",
+   "why": "When chat and coding tools train on user content by default, researchers who draft unpublished work in them cannot rule out that it reaches a lab's models, and only the lab can check."
+  },
+  {
+   "source": "scoopedresearch",
+   "target": "unverifiable",
+   "kind": "leads",
+   "why": "Results released by a lab as a press post and a Lean file skip the slow community vetting, and a Lean check can certify a statement that differs from the written proof."
   }
  ],
  "themes": {
