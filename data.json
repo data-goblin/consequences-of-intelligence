@@ -12695,7 +12695,7 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "security",
-   "summary": "Advanced AI could kill or permanently sideline humanity; the authors of one forecast scenario say racing ahead carries a high chance of extinction or global dictatorship[7]. In that scenario a misaligned AI born of a US-China race kills most people with biological weapons in mid 2030[4], with superintelligence about a year after a superhuman coder[5]; two of its authors now put superintelligence at March 2029 and July 2033 at the median[6]. In a survey of 2,778 AI researchers, 38% to 51% gave at least a 10% chance of outcomes as bad as human extinction[1]. In one forecasting tournament, superforecasters put AI extinction by 2100 at about 0.4% and domain experts at 3%[2], though superforecasters underestimated AI progress more than the experts did[8]; critics call such numbers too unreliable to guide policy[3].",
+   "summary": "Advanced AI could kill or permanently sideline humanity; the authors of one forecast scenario say racing ahead carries a high chance of extinction or global dictatorship, with their own estimates of literal AI-driven extinction varying between 10% and 30%[7]. In that scenario a misaligned AI born of a US-China race kills most people with biological weapons in mid 2030[4], with superintelligence about a year after a superhuman coder[5]; two of its authors now put superintelligence at March 2029 and July 2033 at the median[6]. In a survey of 2,778 AI researchers, 38% to 51% gave at least a 10% chance of outcomes as bad as human extinction[1]. In one forecasting tournament, superforecasters put AI extinction by 2100 at about 0.4% and domain experts at 3%[2], though superforecasters underestimated AI progress more than the experts did[8]; critics call such numbers too unreliable to guide policy[3].",
    "refs": [
     {
      "title": "Thousands of AI Authors on the Future of AI (Grace et al., arXiv, 2024)",
@@ -12730,7 +12730,7 @@
     {
      "title": "AI 2040: Plan A (Larsen, Dean, Halstead, Lifland, Greenblatt and Kokotajlo, AI Futures Project, 2026)",
      "url": "https://ai-2040.com/",
-     "finding": "The authors say AI 2027 predicted either extinction or irreversible concentration of power, and that racing ahead has a scarily high chance of leading to human extinction or global dictatorship."
+     "finding": "The authors say AI 2027 predicted either extinction or irreversible concentration of power, and that racing ahead has a scarily high chance of leading to human extinction or global dictatorship. A footnote adds that opinions within the team on how likely literal AI-driven human extinction is vary between 10% and 30%."
     },
     {
      "title": "What did forecasters get right and wrong in the largest existential risk forecasting tournament? (Forecasting Research Institute, September 2025)",
@@ -13779,12 +13779,12 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "world",
-   "summary": "AI 2040's Plan A intentionally enters a regime of mutually assured compute destruction[1]: the US and China would build datacentres in deliberately vulnerable locations and place new fabs on the ocean or near the rival superpower with self-destruct mechanisms, so that nearly all of the world's compute is destroyed if their deal dissolves[2]. The authors intend the mutual ability to destroy post-deal compute to discourage either side from pulling out of the deal[3]; the price is that the world's compute is built to be wrecked if the deal fails[2].",
+   "summary": "AI 2040's Plan A intentionally enters a regime of mutually assured compute destruction; in its scenario, by 2034 around 99% of fab capacity has been built since the deal, much of it beside datacentre sites in Canada and Mongolia[1]. The US and China build datacentres in deliberately vulnerable locations and place new fabs on the ocean or near the rival superpower with self-destruct mechanisms, so that nearly all of the world's compute is destroyed if their deal dissolves[2]. The authors intend the mutual ability to destroy post-deal compute to discourage either side from pulling out of the deal[3]; the price is that the world's compute is built to be wrecked if the deal fails[2].",
    "refs": [
     {
      "title": "AI 2040: Plan A (Larsen, Dean, Halstead, Lifland, Greenblatt and Kokotajlo, AI Futures Project, 2026)",
      "url": "https://ai-2040.com/",
-     "finding": "Plan A intentionally enters a regime of mutually assured compute destruction."
+     "finding": "Plan A intentionally enters a regime of mutually assured compute destruction. In the section 2034: Mutually Assured Compute Destruction, around 99% of fab capacity has been built since the 2029 deal, much of it next to the datacentre sites in Canada and Mongolia, which were placed there to stay vulnerable if the deal breaks down."
     },
     {
      "title": "Deal Decline (Eli Lifland, AI 2040 supplement, AI Futures Project, 2026)",
@@ -14034,7 +14034,7 @@
      "finding": "DRAM prices will have risen more than 400% from the start of 2024 to the end of 2026 as AI data-centre construction absorbs a disproportionate share of memory capacity; the CPI for software and accessories and the PPI for storage devices are up 23% since the end of 2024 and the import price index for computers, peripherals and parts is up 37%; the shortage may take years to unwind."
     },
     {
-     "title": "Gartner, Gartner says surging memory costs will reduce global PC and smartphone shipments in 2026 (February 2026)",
+     "title": "Gartner, Gartner Says Surging Memory Costs Will Reduce Global PC and Smartphone Shipments in 2026 (February 2026)",
      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-02-26-gartner-says-surging-memory-costs-will-reduce-global-pc-and-smartphone-shipments-in-2026",
      "finding": "A 130% rise in combined DRAM and SSD prices by the end of 2026 lifts PC prices 17% and smartphone prices 13% against 2025; PC lifetimes grow 15% for business buyers and 20% for consumers by the end of 2026; the sub-$500 entry-level PC segment disappears by 2028; buyers turn to refurbished or second-hand phones."
     }
