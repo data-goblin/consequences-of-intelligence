@@ -17338,6 +17338,88 @@
     }
    ],
    "valence": -1.93
+  },
+  {
+   "id": "wikislop",
+   "label": "AI text and machine translation degrade Wikipedia",
+   "valence": -2.54,
+   "probability": 0.5,
+   "year": 2025,
+   "evidence": "measured",
+   "summary": "AI writing tools and machine translation let people add Wikipedia articles they did not write or cannot read. Two detectors flagged 5.36% of 2,909 English articles created in August 2024 as containing significant AI-generated text, a lower bound of 4.36% after subtracting the rate on older articles, with lower rates in German, French and Italian; flagged articles were often self-promotional or one-sided[1]. The damage is greatest in small languages: volunteers on four African-language editions estimated 40% to 60% of their articles were uncorrected machine translations, and because Wikipedia is sometimes the largest online text source for such languages, the errors can flow into the AI models trained on it[2]. The Wikimedia Language Committee approved closing the Greenlandic Wikipedia in September 2025 after its only active admin reported nonsensical machine-translated articles and almost no Greenlandic-speaking editors[3]. These sources do not separate large language model output from older machine translation, and one 2025 study puts LLM influence on Wikipedia content at about 1% in certain categories[4].",
+   "refs": [
+    {
+     "title": "Brooks, Eggert and Peskoff, The Rise of AI-Generated Content in Wikipedia, Proceedings of the First Workshop on Advancing NLP for Wikipedia (WikiNLP), November 2024",
+     "url": "https://arxiv.org/html/2410.08044v1",
+     "finding": "Princeton researchers ran two AI-text detectors, GPTZero and Binoculars, on 2,909 English Wikipedia articles created in August 2024, with thresholds set to a 1% false positive rate on articles from before GPT-3.5. They flagged 5.36% of the new articles, a lower bound of 4.36% after subtracting the baseline, and found lower rates for German, French and Italian. Of 45 English articles flagged by both tools, 8 were self-promotional and 8 pushed a viewpoint on polarising topics; some flagged pages had been deleted by moderators. False negatives were not estimated and the tools are designed mainly for English."
+    },
+    {
+     "title": "Jacob Judah, MIT Technology Review, How AI and Wikipedia have sent vulnerable languages into a doom spiral, September 2025",
+     "url": "https://www.technologyreview.com/2025/09/25/1124005/ai-wikipedia-vulnerable-languages-doom-spiral/",
+     "finding": "Volunteers working on four African-language Wikipedias estimated that 40% to 60% of their articles were uncorrected machine translations, and the magazine's own audit of the Inuktitut edition estimated more than two-thirds of pages with more than several sentences contain machine-translated portions. Wikipedia's built-in Content Translate tool relies on external machine translation systems; each community decides whether to allow it, and English Wikipedia has largely banned it, claiming about 95% of articles created with it failed to meet an acceptable standard without substantial work. Wikipedia is sometimes the largest online text source for low-resource languages, so its errors can carry into AI training data. The article says there is no perfect data on the scale of the problem and several figures are volunteers' estimates."
+    },
+    {
+     "title": "Wikimedia Meta-Wiki, Proposals for closing projects/Closure of Greenlandic Wikipedia, December 2024 to December 2025",
+     "url": "https://meta.wikimedia.org/wiki/Proposals_for_closing_projects/Closure_of_Greenlandic_Wikipedia",
+     "finding": "Kenneth Wehr, the Greenlandic Wikipedia's only active admin, proposed closing it on 25 December 2024: only one or two Greenlandic users had edited in about 20 years, the wiki had shrunk from about 1,500 to about 250 mostly short or unintelligible articles, early machine-translated articles made no sense, and Google Translate's Greenlandic output still has errors such as translating 'reindeer' as 'parrot'. He argued unchecked machine-generated text could corrupt the language. The Language Committee adopted the closure on 27 September 2025 and decided on 1 December 2025 not to move the remaining content to the Incubator."
+    },
+    {
+     "title": "Huang, Xu, Geng, Wan and Chen, Wikipedia in the Era of LLMs: Evolution and Risks, Transactions on Machine Learning Research (arXiv 2503.02879, revised March 2026)",
+     "url": "https://arxiv.org/abs/2503.02879",
+     "finding": "The authors estimate that large language models have influenced Wikipedia content by about 1% in certain categories and conclude that LLMs have not yet fully changed Wikipedia's language and knowledge structures. They warn that if Wikipedia-based machine translation benchmarks absorb LLM-generated text, model scores may be inflated, and that retrieval-augmented generation may suffer if the knowledge base is contaminated."
+    }
+   ],
+   "theme": "information",
+   "stage": "active",
+   "limiters": [
+    {
+     "limit": "Editors delete and ban unreviewed AI text",
+     "kind": "governance",
+     "evidence": "English Wikipedia made unreviewed LLM-generated pages eligible for speedy deletion in August 2025 and in 2026 generally prohibited using AI writing tools to create or rewrite articles, except copyediting and reviewed translation.",
+     "ref": {
+      "title": "Wikimedia Meta-Wiki, Artificial intelligence/Policies by project, accessed October 2026",
+      "url": "https://meta.wikimedia.org/wiki/Artificial_intelligence/Policies_by_project",
+      "finding": "English Wikipedia adopted speedy deletion criterion G15 on 4 August 2025, making pages that show signs of being generated by an LLM with no human review eligible for speedy deletion. Later English rules include a guideline of 20 March 2026 prohibiting LLM-generated or rewritten article content except copyediting and translation, a guideline of 10 February 2026 allowing LLM-assisted translation reviewed by a person skilled in both languages, and an editing policy of 11 April 2026 that generally prohibits using AI writing tools to create or rewrite articles. Many other language editions list their own AI policies or guidelines."
+     }
+    },
+    {
+     "limit": "Detectors give uncertain counts",
+     "kind": "evidence",
+     "evidence": "A Wikimedia research review of the main 2024 study says it does not show whether the text readers see is more likely AI-generated, and that the two detectors it used disagreed sharply across languages.",
+     "ref": {
+      "title": "Tilman Bayer, Wikimedia Research Newsletter, October 2024",
+      "url": "https://meta.wikimedia.org/wiki/Research:Newsletter/2024/October",
+      "finding": "A review of the Brooks et al. study says it does not report how many flagged articles survived editors' checks or show whether the text readers actually read has become substantially more likely to be AI-generated. It notes that the reliability of AI detection software has been repeatedly questioned, that the two detectors disagreed sharply across languages, and that calibrating on March 2022 articles assumes they are comparable to August 2024 ones."
+     }
+    }
+   ],
+   "enablers": [
+    {
+     "action": "Offer one-click machine translation of articles",
+     "actor": "Wikimedia Foundation",
+     "status": "in force",
+     "counters": "Editors delete and ban unreviewed AI text",
+     "evidence": "Wikipedia's built-in Content Translate tool relies on external machine translation systems and each language community decides whether to allow it; English Wikipedia has largely banned it, saying about 95% of articles created with it failed to meet an acceptable standard without substantial work.",
+     "ref": {
+      "title": "Jacob Judah, MIT Technology Review, How AI and Wikipedia have sent vulnerable languages into a doom spiral, September 2025",
+      "url": "https://www.technologyreview.com/2025/09/25/1124005/ai-wikipedia-vulnerable-languages-doom-spiral/",
+      "finding": "Volunteers working on four African-language Wikipedias estimated that 40% to 60% of their articles were uncorrected machine translations, and the magazine's own audit of the Inuktitut edition estimated more than two-thirds of pages with more than several sentences contain machine-translated portions. Wikipedia's built-in Content Translate tool relies on external machine translation systems; each community decides whether to allow it, and English Wikipedia has largely banned it, claiming about 95% of articles created with it failed to meet an acceptable standard without substantial work. Wikipedia is sometimes the largest online text source for low-resource languages, so its errors can carry into AI training data. The article says there is no perfect data on the scale of the problem and several figures are volunteers' estimates."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "Scots Wikipedia written by a non-speaker",
+     "year": 2020,
+     "parallel": "Text produced by someone who did not know the language filled a small-language Wikipedia, and editors warned it had likely contaminated the training data translation algorithms use for that language.",
+     "outcome": "Editors proposed a bot mass rollback of the affected articles and recruiting new admins, while the Signpost named the lack of a Scots-speaking editor community as the long-term problem.",
+     "ref": {
+      "title": "SnowFire and Nosebagbear, The Wikipedia Signpost, The high road and the low road: Will the Scots language Wikipedia survive?, August 2020",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2020-08-30/News_and_notes",
+      "finding": "One prolific user, described as an American teenager who could not speak Scots, wrote almost every article on the Scots Wikipedia over about seven years by translating English Wikipedia word for word from a dictionary while keeping English sentence structure. The errors had likely contaminated training data that translation algorithms use for Scots. The proposed response was a bot mass rollback of affected articles and recruiting new admins; the deeper problem was the lack of a Scots-speaking editor community."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -20004,6 +20086,24 @@
    "target": "deepfakeevidence",
    "kind": "twin",
    "why": "Both use generated images as proof of something that never happened, and both shift the burden onto whoever must check the evidence, an employer or insurer here and a court there."
+  },
+  {
+   "source": "wikislop",
+   "target": "collapse",
+   "kind": "leads",
+   "why": "Wikipedia is sometimes the largest online text source for small languages, so machine-translated errors in those editions can enter the data AI models are trained on."
+  },
+  {
+   "source": "translation",
+   "target": "wikislop",
+   "kind": "leads",
+   "why": "Machine translation lets people who do not speak a language publish Wikipedia articles in it, as happened in the Greenlandic and several African-language editions."
+  },
+  {
+   "source": "wikislop",
+   "target": "endangeredlang",
+   "kind": "counters",
+   "why": "Uncorrected machine translations pollute the scarce online text in small languages that language tools for those languages learn from."
   }
  ],
  "themes": {
