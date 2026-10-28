@@ -16513,6 +16513,83 @@
      }
     }
    ]
+  },
+  {
+   "id": "fakereceipts",
+   "label": "AI-forged receipts and claim photos",
+   "valence": -2.64,
+   "probability": 0.65,
+   "year": 2025,
+   "evidence": "reported",
+   "summary": "Image generators can make photos of receipts and damage that pass a visual check. AppZen, whose software checks expense receipts, found AI-generated receipts made up about 14% of fraudulent receipts in September 2025, against none a year earlier[1], and 70.8% of receipts it flagged as fake by mid-May 2026, with 1,471 AI-generated fakes submitted by 745 employees at 174 companies claiming $148,143[2]. AppZen says this means a fake receipt is now almost always AI-made, not that expense fraud grew by that much, and the AI fakes averaged about $100, against $182 for older template fakes[2]. In one survey of 1,000 employed US adults commissioned by Emburse, 40% said they had used AI to generate a fake receipt for a business expense, 19% for a purchase that never happened[3]. The UK insurer Aviva detected more than 18,400 suspect claims worth a record £233 million in 2025, its first total to include Direct Line, and reports a growing number backed by AI-generated images and manipulated documents, mainly in motor insurance, without giving a count[4].",
+   "refs": [
+    {
+     "title": "Computerworld, The latest genAI scam: fake expense receipts, October 2025",
+     "url": "https://www.computerworld.com/article/4079701/new-ai-scam-fake-expense-receipts.html",
+     "finding": "Receipts made with generative AI accounted for about 14% of all fraudulent receipts AppZen saw in September 2025, against none a year earlier, and the Financial Times reported a worldwide surge in fake receipts made with image generators; Ramp's software found more than $1 million of fake invoices in three months. Companies check metadata and file name patterns, but these controls are far from secure because metadata can be deleted."
+    },
+    {
+     "title": "Accounting Today, Use of AI receipts in expense fraud soars, June 2026",
+     "url": "https://www.accountingtoday.com/news/use-of-ai-receipts-in-expense-fraud-soars",
+     "finding": "AI-generated receipts rose from 0% of receipts flagged as fake on AppZen's platform in March 2025 to 70.8% by mid-May 2026, based on 1,471 AI-generated fake receipts from 745 employees at 174 companies claiming $148,143; template fakes fell from 95% to 100% of flags to 29%, with the crossover in April 2026. AI fakes averaged about $100 with a median of about $32, against $182 for template fakes. AppZen says this does not mean expense fraud grew by that proportion, but that a receipt identified as fraudulent is now almost always AI-generated."
+    },
+    {
+     "title": "Emburse, Four in Ten U.S. Employees Have Used AI to Generate Fake Expense Receipts, June 2026",
+     "url": "https://www.emburse.com/company/news/four-in-ten-employees-have-used-ai-to-generate-fake-expense-receipts",
+     "finding": "In an online survey by Atomik Research of 1,000 professionally employed adults in the US and 1,000 in the UK, fielded 5 to 8 May 2026, 40% of US employees said they had used AI to generate a fake receipt for a business expense: 19% to fabricate a purchase, 15% to inflate a real one and 6% to replace a lost receipt; 40% of those used company-funded AI tools."
+    },
+    {
+     "title": "Insurance Business, Aviva detects record £233 million in fraud as AI tools and ghost broking accelerate, June 2026",
+     "url": "https://www.insurancebusinessmag.com/uk/news/claims/aviva-detects-record-233-million-in-fraud-as-ai-tools-and-ghost-broking-accelerate-578006.aspx",
+     "finding": "Aviva identified more than 18,400 suspect claims worth £233 million across its brands in 2025, a record level of claims fraud and the first figures combining Aviva and Direct Line; it is detecting a growing number of claims supported by AI-generated images and manipulated documents, particularly in motor insurance, where fraudsters fabricate accident scenes and damage imagery. Motor makes up more than seven in 10 detected fraud cases and its detected value rose 39%."
+    }
+   ],
+   "theme": "security",
+   "stage": "active",
+   "control": "mitigable",
+   "price_of": [
+    "newart"
+   ],
+   "control_note": "The same generators that make realistic pictures for art and fun make realistic receipts and damage photos, and the fakes lack the editing flaws that checks used to catch. Checking a claim against an independent record, such as the card transaction behind a receipt, cuts the payoff, but image checks alone are easy to beat.",
+   "actions": [
+    {
+     "action": "Match receipts to card transactions",
+     "actor": "employers",
+     "status": "proposed",
+     "aim": "probability",
+     "evidence": "Because AI receipts lack the font, logo and pixel flaws that gave forgeries away, one trade report advises checking each receipt against card transaction data, merchant codes and payment times, or paying with virtual cards tied to a single transaction.",
+     "ref": {
+      "title": "PYMNTS, AI-Generated Fake Receipts Now Make Up 71% of Expense Fraud, June 2026",
+      "url": "https://www.pymnts.com/?p=3892615",
+      "finding": "Image-based checks no longer work because AI receipts lack the editing artefacts, such as font inconsistencies, mismatched logos and pixelation, that flag forgeries; it recommends matching receipts against card transaction data, merchant category codes and payment timestamps, and cites Emburse's suggestion of virtual cards tied to a specific transaction."
+     }
+    },
+    {
+     "action": "Screen submitted receipts with automated fake checks",
+     "actor": "expense software vendors",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "Expense platforms already scan receipts for signs of generation, such as metadata and file name patterns, but metadata can be deleted, so these checks are far from secure.",
+     "ref": {
+      "title": "Computerworld, The latest genAI scam: fake expense receipts, October 2025",
+      "url": "https://www.computerworld.com/article/4079701/new-ai-scam-fake-expense-receipts.html",
+      "finding": "Companies use AI to analyse metadata, patterns in file names and other details to spot fake receipts, but the control systems are far from secure since metadata can be deleted."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "Inkjet counterfeiting of US currency",
+     "year": 1997,
+     "parallel": "Cheap home computers and printers let ordinary people forge documents that once needed skill and special equipment, as image generators now do for receipts.",
+     "outcome": "The US Secret Service told Congress that inkjet-made counterfeits rose from $174,924, about 0.5% of counterfeit currency passed in fiscal 1995, to $6,121,292, or 19%, in fiscal 1997; the Bureau of Engraving and Printing's redesigned Series 1996 notes carry features copiers and scanners find hard to reproduce, which work only if people check for them.",
+     "ref": {
+      "title": "US House of Representatives, Committee on Banking and Financial Services, Counterfeiting Using Personal Computers, hearing, March 1998",
+      "url": "https://commdocs.house.gov/committees/bank/hba47580.000/hba47580_0.HTM",
+      "finding": "Secret Service Special Agent Dennis Lynch testified that inkjet-produced notes were $174,924, about 0.5% of counterfeit currency passed in the US, in fiscal 1995 and $6,121,292, or 19%, in fiscal 1997, an 805% increase; the Bureau of Engraving and Printing said the Series 1996 design has features copiers and scanners have difficulty reproducing, and the chairman stressed people must check their money for them to work."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -19017,6 +19094,12 @@
    "target": "voicescams",
    "kind": "twin",
    "why": "Both rest on cheap voice cloning, used in one case to sell a performer's voice without consent and in the other to impersonate a relative."
+  },
+  {
+   "source": "imagegen",
+   "target": "fakereceipts",
+   "kind": "leads",
+   "why": "Generators that make photo-realistic images in seconds produce receipts and damage photos without the editing flaws that used to give forgeries away."
   }
  ],
  "themes": {
