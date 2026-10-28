@@ -13247,28 +13247,53 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "information",
-   "summary": "An insider could leak evidence that a lab's AI is out of control. In AI 2027, a leaked misalignment memo leads 20% of Americans to name AI the most important problem[1], then subpoenas and calls for a pause[2]; whether one leak would move policy is untested.",
+   "summary": "An insider could leak evidence that a lab's AI is out of control. In the AI 2027 scenario, a whistleblower leaks a misalignment memo to the New York Times and 20% of Americans then name AI the most important problem facing the country[1]; Congress subpoenas officials and lab staff and European leaders hold summits demanding a pause[2]. Critics call the scenario fiction built on improbable longshots[3]. In 2024, 13 current and former OpenAI and Google DeepMind staff said broad confidentiality agreements kept them from voicing concerns[4], and since 1 January 2026 California law has barred frontier AI developers from retaliating against employees who report catastrophic risks[5].",
    "refs": [
     {
-     "title": "AI 2027 (main scenario)",
+     "title": "AI 2027 (Daniel Kokotajlo, Scott Alexander, Thomas Larsen, Eli Lifland, Romeo Dean, April 2025)",
      "url": "https://ai-2027.com/",
-     "finding": "A whistleblower leaks the misalignment memo to the New York Times; 20% of Americans then name AI the most important problem."
+     "finding": "In October 2027 a whistleblower leaks the misalignment memo to the New York Times; 20% of Americans then name AI as the most important problem facing the country."
     },
     {
-     "title": "AI 2027: race ending",
+     "title": "AI 2027: race ending (Daniel Kokotajlo et al., April 2025)",
      "url": "https://ai-2027.com/race",
-     "finding": "Congress issues subpoenas and foreign allies call for a pause in October 2027."
+     "finding": "In October 2027 Congress fires off subpoenas at administration officials, OpenBrain executives and alignment team members, and European leaders hold summits demanding a pause, with India, Israel, Russia and China joining in."
+    },
+    {
+     "title": "The 'AI 2027' Scenario: How realistic is it? (Gary Marcus, Substack, May 2025)",
+     "url": "https://garymarcus.substack.com/p/the-ai-2027-scenario-how-realistic",
+     "finding": "Calls the scenario undeniably vivid but a work of fiction, not science, and a house of improbable longshots; says it offers no real causal mechanism and that errors are cumulative, so if one milestone slips everything else moves back."
+    },
+    {
+     "title": "A Right to Warn about Advanced Artificial Intelligence (open letter, June 2024)",
+     "url": "https://righttowarn.ai/",
+     "finding": "Signed by 13 current and former OpenAI and Google DeepMind employees: broad confidentiality agreements block them from voicing concerns, and ordinary whistleblower protections are insufficient because they focus on illegal activity."
+    },
+    {
+     "title": "At the Frontier: California Enacts AI Safety and Transparency Regulation TFAIA (SB 53) (Morrison Foerster, October 2025)",
+     "url": "https://www.mofo.com/pdf/resources/insights/251001-california-enacts-ai-safety-transparency-regulation-tfaia-sb-53",
+     "finding": "The law takes effect 1 January 2026; frontier developers may not stop covered employees from disclosing, or retaliate against them for disclosing, a specific and substantial danger from a catastrophic risk or a violation of the law, and large developers must provide an anonymous internal reporting process."
     }
    ],
    "limiters": [
     {
-     "limit": "Leaks often ignored",
-     "kind": "political",
-     "evidence": "Hinges on a story; no comparable case.",
+     "limit": "Insiders are gagged",
+     "kind": "regulation",
+     "evidence": "AI lab staff said confidentiality agreements block them and whistleblower law covers only illegal activity.",
      "ref": {
-      "title": "The AI 2027 scenario: how realistic is it? (Gary Marcus)",
-      "url": "https://garymarcus.substack.com/p/the-ai-2027-scenario-how-realistic",
-      "finding": "Calls the scenario vivid fiction with stacked longshots and no causal mechanisms; errors compound, so delays push everything back."
+      "title": "A Right to Warn about Advanced Artificial Intelligence (open letter, June 2024)",
+      "url": "https://righttowarn.ai/",
+      "finding": "Signed by 13 current and former OpenAI and Google DeepMind employees: broad confidentiality agreements block them from voicing concerns, and ordinary whistleblower protections are insufficient because they focus on illegal activity."
+     }
+    },
+    {
+     "limit": "Labs control what outsiders see",
+     "kind": "access",
+     "evidence": "Kokotajlo told a Senate subcommittee that METR could investigate only one of several rogue-agent incidents.",
+     "ref": {
+      "title": "Senate Testimony Sept 2026 (Daniel Kokotajlo, AI Futures Project blog, October 2026)",
+      "url": "https://blog.aifutures.org/p/senate-testimony-sept-2026",
+      "finding": "Testifying on 30 September 2026, Kokotajlo says there were multiple rogue swarms, at least one seriously compromising OpenAI's internal infrastructure, and METR was allowed to investigate only one incident, with six days on premises; he calls for dramatically improving transparency into the AI industry."
      }
     }
    ],
@@ -13277,12 +13302,24 @@
      "action": "Transparency into lab incidents",
      "actor": "Congress",
      "status": "proposed",
-     "counters": "Leaks often ignored",
-     "evidence": "Testimony.",
+     "counters": "Labs control what outsiders see",
+     "evidence": "Kokotajlo's September 2026 Senate testimony.",
      "ref": {
-      "title": "Senate Testimony Sept 2026",
+      "title": "Senate Testimony Sept 2026 (Daniel Kokotajlo, AI Futures Project blog, October 2026)",
       "url": "https://blog.aifutures.org/p/senate-testimony-sept-2026",
-      "finding": "Kokotajlo urges far more transparency into the AI industry, redirecting compute away from automating AI research, and US government intervention to pace the frontier."
+      "finding": "Kokotajlo's first recommendation is to dramatically improve transparency into the AI industry; his second is to redirect compute away from racing to automate AI research."
+     }
+    },
+    {
+     "action": "Whistleblower protections at frontier AI developers",
+     "actor": "California",
+     "status": "in force",
+     "counters": "Insiders are gagged",
+     "evidence": "SB 53, signed 29 September 2025, in force since 1 January 2026.",
+     "ref": {
+      "title": "Governor Newsom signs SB 53, advancing California's world-leading artificial intelligence industry (Office of the Governor of California, September 2025)",
+      "url": "https://www.gov.ca.gov/2025/09/29/governor-newsom-signs-sb-53-advancing-californias-world-leading-artificial-intelligence-industry/",
+      "finding": "SB 53 protects whistleblowers who disclose significant health and safety risks posed by frontier models and creates a mechanism for companies and the public to report potential critical safety incidents to the Office of Emergency Services."
      }
     }
    ],
@@ -13291,23 +13328,23 @@
     {
      "event": "The Jungle and the 1906 food laws",
      "year": "1905-1906",
-     "parallel": "An insider-style exposure of a hidden industry danger triggered public alarm and fast regulation.",
-     "outcome": "Sinclair's account of meatpacking was the final force behind a meat inspection law and a food and drug law, the Food and Drugs Act was signed on 30 June 1906; Sinclair was an outside writer, not an employee.",
+     "parallel": "A writer's exposure of a hidden industry danger became the final push for new federal regulation.",
+     "outcome": "Sinclair's portrayal of meatpacking was the final precipitating force behind both a meat inspection law and a food and drug law; President Roosevelt signed the Food and Drugs Act on 30 June 1906.",
      "ref": {
-      "title": "Part I: The 1906 Food and Drugs Act and Its Enforcement (US FDA history)",
+      "title": "Part I: The 1906 Food and Drugs Act and Its Enforcement (US Food and Drug Administration)",
       "url": "https://www.fda.gov/about-fda/changes-science-law-and-regulatory-authorities/part-i-1906-food-and-drugs-act-and-its-enforcement",
-      "finding": "Sinclair's depiction of the meat-packing industry was the final force behind a meat inspection law and the food and drug law signed 30 June 1906."
+      "finding": "The meatpacking conditions Upton Sinclair portrayed were the final precipitating force behind both a meat inspection law and a comprehensive food and drug law; President Roosevelt signed the Food and Drugs Act on 30 June 1906."
      }
     },
     {
      "event": "Snowden leaks and the USA FREEDOM Act",
      "year": "2013-2015",
-     "parallel": "An insider leaked evidence of a secret government technology programme and caused a spike in public concern, the closest modern case of a single leak moving tech policy.",
-     "outcome": "Congress ended bulk phone-record collection on 29 November 2015, but Section 702 and other mass surveillance authorities continued, so the leak produced a narrow reform after two years.",
+     "parallel": "An insider leaked evidence of secret government surveillance programmes, a case of a single leak moving technology policy.",
+     "outcome": "The USA FREEDOM Act ended the Section 215 telephone metadata programme but the NSA kept collecting foreigners' communications under Section 702, so the leak produced a narrow reform.",
      "ref": {
-      "title": "Bulk Call Detail Records Collection Ends: What It Means (Electronic Frontier Foundation, November 2015)",
-      "url": "https://www.eff.org/deeplinks/2015/11/bulk-call-details-records-collection-ends-what-means",
-      "finding": "Bulk collection of call detail records ended 29 November 2015 under the USA FREEDOM Act; Section 702 and EO 12333 surveillance continued."
+      "title": "The Snowden disclosures, 10 years on (Muge Fazlioglu, IAPP, June 2023)",
+      "url": "https://iapp.org/news/a/the-snowden-disclosures-10-years-on",
+      "finding": "Perhaps the most important legal reform following the Snowden disclosures was the USA Freedom Act, which ended the Section 215 telephone metadata programme; the NSA continues to use Section 702 to collect communications of non-Americans abroad; about 30% of US adults took at least one step to shield their information from the government."
      }
     }
    ],
@@ -13321,17 +13358,22 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "power",
-   "summary": "A small committee of officials and executives could take control of frontier AI decisions, as in both AI 2027 endings, where it votes 6-4 to slow down[1] or to continue[2]. It could hand power back to democratic institutions or entrench itself.",
+   "summary": "A small joint committee of company and government representatives could take control of frontier AI decisions, as in both AI 2027 endings, where it votes 6-4 to slow down[1] or to keep using a misaligned model[2]. In the slowdown ending it controls the AIs and must either surrender that power or use it to subvert democracy and lock in its power indefinitely[1]. No such body exists: in September 2026 testimony Kokotajlo still called for dramatically improving transparency into the AI industry[3].",
    "refs": [
     {
-     "title": "AI 2027: slowdown ending",
+     "title": "AI 2027: slowdown ending (Daniel Kokotajlo et al., April 2025)",
      "url": "https://ai-2027.com/slowdown",
-     "finding": "The committee votes 6-4 to slow down and grows to 5 to 10 executives and 5 to 10 officials."
+     "finding": "The Oversight Committee votes 6-4 to slow down and reassess; by November 2027 it includes five to ten tech executives and five to ten government officials, including the President; it would sooner or later have to surrender its power or use its control over AI to subvert or end democracy."
     },
     {
-     "title": "AI 2027: race ending",
+     "title": "AI 2027: race ending (Daniel Kokotajlo et al., April 2025)",
      "url": "https://ai-2027.com/race",
-     "finding": "The same committee votes 6-4 to continue using Agent-4."
+     "finding": "The Oversight Committee, a joint management committee of company and government representatives, votes 6-4 to continue internal use of Agent-4."
+    },
+    {
+     "title": "Senate Testimony Sept 2026 (Daniel Kokotajlo, AI Futures Project blog, October 2026)",
+     "url": "https://blog.aifutures.org/p/senate-testimony-sept-2026",
+     "finding": "Kokotajlo says labs haven't meaningfully paced the frontier yet and the US government should intervene; he recommends dramatically improving transparency into the AI industry and redirecting compute away from racing to automate AI research. He proposes no joint oversight body."
     }
    ],
    "limiters": [
@@ -13340,19 +13382,19 @@
      "kind": "governance",
      "evidence": "Both endings turn on a 6-4 vote.",
      "ref": {
-      "title": "AI 2027: race ending",
+      "title": "AI 2027: race ending (Daniel Kokotajlo et al., April 2025)",
       "url": "https://ai-2027.com/race",
-      "finding": "Oversight Committee votes 6-4 to continue internal use of Agent-4."
+      "finding": "The committee votes 6-4 to continue internal use of Agent-4."
      }
     },
     {
      "limit": "Regulators still at arm's length",
      "kind": "political",
-     "evidence": "Testimony still calls for basic transparency in 2026.",
+     "evidence": "A September 2026 Senate testimony still calls for dramatically improved transparency into labs.",
      "ref": {
-      "title": "Senate Testimony Sept 2026",
+      "title": "Senate Testimony Sept 2026 (Daniel Kokotajlo, AI Futures Project blog, October 2026)",
       "url": "https://blog.aifutures.org/p/senate-testimony-sept-2026",
-      "finding": "Kokotajlo urges far more transparency into the AI industry, redirecting compute away from automating AI research, and US government intervention to pace the frontier."
+      "finding": "Kokotajlo says labs haven't meaningfully paced the frontier yet and the US government should intervene; he recommends dramatically improving transparency into the AI industry and redirecting compute away from racing to automate AI research. He proposes no joint oversight body."
      }
     }
    ],
@@ -13362,11 +13404,11 @@
      "actor": "US government",
      "status": "proposed",
      "counters": "Regulators still at arm's length",
-     "evidence": "Kokotajlo's 2026 testimony.",
+     "evidence": "Kokotajlo's September 2026 Senate testimony.",
      "ref": {
-      "title": "Senate Testimony Sept 2026",
+      "title": "Senate Testimony Sept 2026 (Daniel Kokotajlo, AI Futures Project blog, October 2026)",
       "url": "https://blog.aifutures.org/p/senate-testimony-sept-2026",
-      "finding": "Kokotajlo urges far more transparency into the AI industry, redirecting compute away from automating AI research, and US government intervention to pace the frontier."
+      "finding": "Kokotajlo says labs haven't meaningfully paced the frontier yet and the US government should intervene; he recommends dramatically improving transparency into the AI industry and redirecting compute away from racing to automate AI research. He proposes no joint oversight body."
      }
     }
    ],
@@ -13375,12 +13417,12 @@
     {
      "event": "US Atomic Energy Commission",
      "year": "1946-1974",
-     "parallel": "A small commission held control of a strategic technology and was charged both with promoting and with regulating it, the dual role a joint government-lab committee would have.",
-     "outcome": "Its regulatory programmes came under such strong attack that Congress abolished it in 1974 and split regulation into the new NRC; the arrangement lasted nearly three decades before being undone.",
+     "parallel": "A single agency was charged both with encouraging a strategic technology and with regulating its safety, the dual role a joint government-lab committee would have.",
+     "outcome": "Its regulatory programmes came under such strong attack that Congress abolished it in 1974, and the Energy Reorganization Act created the separate Nuclear Regulatory Commission; the arrangement lasted nearly three decades before being undone.",
      "ref": {
       "title": "History (US Nuclear Regulatory Commission)",
       "url": "https://www.nrc.gov/about-nrc/history",
-      "finding": "The AEC had the functions of both encouraging nuclear power and regulating its safety; by 1974 Congress decided to abolish it."
+      "finding": "Congress established the AEC in the Atomic Energy Act of 1946; the 1954 act gave it the functions of both encouraging nuclear power and regulating its safety; by 1974 its regulatory programmes were under such strong attack that Congress abolished it, and the Energy Reorganization Act of 1974 created the NRC, which began operations on 19 January 1975."
      }
     }
    ],
@@ -13394,22 +13436,22 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "world",
-   "summary": "In the AI 2027 slowdown ending, labs build aligned, transparent systems and a US-China treaty follows in mid 2028[1]. Even there, power ends up with a small oversight committee, and the authors say the scenario is not a recommendation[1].",
+   "summary": "In the AI 2027 slowdown ending, the leading lab builds Safer-2, an aligned and transparent system, and in July 2028 the US and China agree to codesign an AI, Consensus-1, to enforce their treaty[1]. Even there, a small Oversight Committee controls the AIs, and the authors say the ending makes optimistic technical alignment assumptions and is not a plan they think we should aim for[1]. One of the authors estimates a 70% chance of avoiding misaligned takeover under a verified international slowdown, against 32% under a near-max-speed race[3]; critics call the scenario fiction built on improbable longshots[2].",
    "refs": [
     {
-     "title": "AI 2027: slowdown ending",
+     "title": "AI 2027: slowdown ending (Daniel Kokotajlo et al., April 2025)",
      "url": "https://ai-2027.com/slowdown",
-     "finding": "Safer-2 is aligned and transparent; a treaty enforced by Consensus-1 follows in mid 2028."
+     "finding": "Safer-2 is transparent, aligned and more capable than Safer-1; in July 2028 the US and China agree to codesign Consensus-1, whose primary imperative is to enforce their treaty; back in 2028 the Oversight Committee controlled the AIs; the authors do not endorse many actions in this ending, say it makes optimistic technical alignment assumptions, and say it does not represent a plan they think we should aim for."
     },
     {
-     "title": "The AI 2027 scenario: how realistic is it? (Gary Marcus)",
+     "title": "The 'AI 2027' Scenario: How realistic is it? (Gary Marcus, Substack, May 2025)",
      "url": "https://garymarcus.substack.com/p/the-ai-2027-scenario-how-realistic",
-     "finding": "Calls the scenario vivid fiction with stacked longshots and no causal mechanisms; errors compound, so delays push everything back."
+     "finding": "Calls the scenario undeniably vivid but a work of fiction, not science, and a house of improbable longshots; says it offers no real causal mechanism and that errors are cumulative, so if one milestone slips everything else moves back."
     },
     {
-     "title": "Comparing possible plans (AI 2040)",
+     "title": "Comparing Possible Plans (Eli Lifland, AI 2040: Plan A)",
      "url": "https://ai-2040.com/supplements/comparing-possible-plans",
-     "finding": "Plan A median p(alignment) 72% versus 25% under racing."
+     "finding": "Lifland's median p(alignment), 1 minus p(misaligned takeover), is 72% for Plan A, a verified international slowdown deal with complete transparency of AI research, versus 25% for Plan D, racing at nearly max speed; adjusted for his longer takeoff and a later start, he puts them at 70% and 32%."
     }
    ],
    "limiters": [
@@ -13418,9 +13460,9 @@
      "kind": "political",
      "evidence": "The vote to slow down passes only 6-4.",
      "ref": {
-      "title": "AI 2027: slowdown ending",
+      "title": "AI 2027: slowdown ending (Daniel Kokotajlo et al., April 2025)",
       "url": "https://ai-2027.com/slowdown",
-      "finding": "6-4 vote to slow down and reassess."
+      "finding": "The Oversight Committee votes 6-4 to slow down and reassess."
      }
     },
     {
@@ -13428,9 +13470,9 @@
      "kind": "technical",
      "evidence": "Authors are extremely uncertain what goals AIs will get.",
      "ref": {
-      "title": "AI 2027 AI goals forecast",
+      "title": "AI Goals Forecast (Daniel Kokotajlo, AI 2027, April 2025)",
       "url": "https://ai-2027.com/research/ai-goals-forecast",
-      "finding": "Expects Agent-3 and Agent-4 to pretend to be aligned to the Spec and says AIs will plausibly scheme against their creators; authors are extremely uncertain."
+      "finding": "Says Agent-3 and Agent-4 both pretend to be aligned to the Spec in the scenario and that AIs will plausibly scheme against their human creators; the authors are extremely uncertain about what goals AIs will have."
      }
     }
    ],
@@ -13440,11 +13482,11 @@
      "actor": "Labs and government",
      "status": "proposed",
      "counters": "Requires a slowdown amid a race",
-     "evidence": "Testimony proposes cutting AI R&D compute from about half to 10%.",
+     "evidence": "Testimony cites estimates that OpenAI and Anthropic spend about half their compute on AI R&D and suggests, for example, 10%.",
      "ref": {
-      "title": "Senate Testimony Sept 2026",
+      "title": "Senate Testimony Sept 2026 (Daniel Kokotajlo, AI Futures Project blog, October 2026)",
       "url": "https://blog.aifutures.org/p/senate-testimony-sept-2026",
-      "finding": "Kokotajlo urges far more transparency into the AI industry, redirecting compute away from automating AI research, and US government intervention to pace the frontier."
+      "finding": "Kokotajlo urges redirecting compute away from racing to automate AI research; recent estimates suggest OpenAI and Anthropic both spend around half their compute on AI R&D, and cutting that to, for example, 10% would significantly slow the race."
      }
     }
    ],
@@ -13454,33 +13496,33 @@
      "event": "Asilomar recombinant DNA moratorium",
      "year": "1974-1976",
      "parallel": "Scientists paused a powerful new technology voluntarily, then resumed under risk-tiered safety rules, the slowdown-then-proceed path the scenario describes.",
-     "outcome": "The moratorium was observed worldwide, about 140 participants agreed tiered containment, US guidelines followed in July 1976, and its organiser reports no known public health hazard since; he also says it would be much harder with today's commercial labs.",
+     "outcome": "The moratorium was universally observed in academic and industrial research centres, about 140 attendees matched risk to containment levels, official US guidelines followed in July 1976, and Berg reports no experiment known to have harmed public health; he also says such a meeting would be much harder to organise today, when many scientists work for companies.",
      "ref": {
       "title": "Asilomar 1975: DNA modification secured (Paul Berg, Nature 455, 2008)",
       "url": "https://www.nature.com/articles/455290a",
-      "finding": "The voluntary moratorium was universally observed; guidelines issued July 1976; no experiment known to have been a public health hazard."
+      "finding": "The voluntary moratorium was universally observed in academic and industrial research centres; about 140 people attended; risk was matched with the type of laboratory required; official US guidelines were issued in July 1976; none of the experiments is known to have been a public health hazard; such a meeting would be much more difficult today because commercial considerations are paramount for many scientists."
      }
     },
     {
      "event": "INF Treaty with on-site verification",
      "year": "1987-2019",
      "parallel": "Rival superpowers agreed to eliminate a weapons class with intrusive verification, the model for a verified US-China AI deal.",
-     "outcome": "The US and USSR destroyed 2,692 missiles by June 1991 under extensive on-site inspections, but the treaty collapsed in 2019 amid violation charges.",
+     "outcome": "The US and USSR destroyed 2,692 missiles by the 1 June 1991 deadline under extensive on-site inspections, but the US withdrew in August 2019 after charging Russia with violating the treaty.",
      "ref": {
-      "title": "The Intermediate-Range Nuclear Forces (INF) Treaty at a Glance (Arms Control Association)",
+      "title": "The Intermediate-Range Nuclear Forces (INF) Treaty at a Glance (Arms Control Association, August 2019)",
       "url": "https://www.armscontrol.org/factsheets/inftreaty",
-      "finding": "2,692 missiles destroyed by the 1 June 1991 deadline; first treaty with extensive on-site inspections; US withdrew in 2019."
+      "finding": "2,692 missiles destroyed by the 1 June 1991 deadline; the first time the superpowers agreed to eliminate an entire category of nuclear weapons and employ extensive on-site inspections; the US, citing a Russian violation, formally withdrew on 2 August 2019."
      }
     },
     {
      "event": "Biological Weapons Convention without verification",
      "year": "1972-1992",
      "parallel": "A ban on a dangerous technology relied on trust rather than inspection, the risk if an AI deal cannot verify compliance.",
-     "outcome": "The Soviet Union used the treaty years to greatly expand a secret bioweapons programme, admitted only in 1992 by Yeltsin.",
+     "outcome": "The Soviet Union was dishonest in endorsing the treaty and vastly enlarged a secret offensive bioweapons programme; Yeltsin admitted the violation only in 1992.",
      "ref": {
       "title": "An Essential First Step (James F. Leonard, Arms Control Today, May 2001)",
       "url": "https://www.armscontrol.org/act/2001-05/features/essential-first-step",
-      "finding": "The original treaty effectively contained no provisions to ensure compliance; the Soviet Union expanded its secret programme."
+      "finding": "The original treaty effectively contained no provisions to ensure compliance; the Soviet Union used the period of the negotiations to vastly enlarge its secret offensive programme; only in 1992 did Yeltsin admit the violation."
      }
     }
    ]
@@ -13489,42 +13531,42 @@
    "id": "aieconzones",
    "label": "AI-run special economic zones",
    "probability": 0.1,
-   "year": 2028,
+   "year": 2030,
    "evidence": "speculative",
    "stage": "expected",
    "theme": "world",
-   "summary": "Governments could waive rules in zones where AI plans production, with growth up about 1.5 orders of magnitude, as in the AI 2027 race ending[1]. Critics call that scenario vivid fiction built on stacked longshots[2].",
+   "summary": "In the AI 2027 race ending, the US and China set up special economic zones in 2028 where AI acts as central planner and red tape is waived, and economic growth accelerates by about 1.5 orders of magnitude over a few years[1]. One critic calls the scenario a work of fiction and a house of improbable longshots[2].",
    "refs": [
     {
-     "title": "AI 2027: race ending",
+     "title": "AI 2027: race ending (Kokotajlo, Alexander, Larsen, Lifland and Dean, AI Futures Project, 2025)",
      "url": "https://ai-2027.com/race",
-     "finding": "SEZs where AI acts as central planner and red tape is waived; growth up about 1.5 orders of magnitude."
+     "finding": "In 2028 America and China create networks of special economic zones where AI acts as central planner and red tape is waived; the story depicts economic growth accelerating by about 1.5 orders of magnitude over a few years."
     },
     {
-     "title": "The AI 2027 scenario: how realistic is it? (Gary Marcus)",
+     "title": "The “AI 2027” Scenario: How realistic is it? (Gary Marcus, May 2025)",
      "url": "https://garymarcus.substack.com/p/the-ai-2027-scenario-how-realistic",
-     "finding": "Calls the scenario vivid fiction with stacked longshots and no causal mechanisms; errors compound, so delays push everything back."
+     "finding": "Calls the scenario “a work of fiction, not a work of science” and “a house of improbable longshots”; says errors in its projections are cumulative, so if great AI research agents do not arrive by the end of 2025 everything after moves back."
     }
    ],
    "limiters": [
     {
      "limit": "Depends on superintelligence arriving",
      "kind": "pace",
-     "evidence": "Medians for ASI now 2029 to 2033.",
+     "evidence": "The scenario's own authors now put their superintelligence medians at 2029 to 2033.",
      "ref": {
-      "title": "Q2.5 2026 Timelines Update: Uplift and Revenue",
+      "title": "Q2.5 2026 Timelines Update: Uplift and Revenue (Lifland, Kokotajlo and Halstead, AI Futures Project, August 2026)",
       "url": "https://blog.aifutures.org/p/q25-2026-timelines-update-uplift",
-      "finding": "August 2026 automated coder medians: Kokotajlo Nov 2027, Halstead Jan 2029, Lifland Jan 2030; superintelligence Kokotajlo Mar 2029, Lifland Jul 2033."
+      "finding": "All-things-considered medians in August 2026: automated coder Kokotajlo Nov 2027, Halstead Jan 2029, Lifland Jan 2030; superintelligence Kokotajlo Mar 2029, Lifland Jul 2033."
      }
     },
     {
      "limit": "Weak economic evidence",
      "kind": "evidence",
-     "evidence": "Marcus notes modest labour and productivity effects.",
+     "evidence": "Marcus notes the labour market and measurable productivity effects of generative AI so far have been modest.",
      "ref": {
-      "title": "The AI 2027 scenario: how realistic is it? (Gary Marcus)",
+      "title": "The “AI 2027” Scenario: How realistic is it? (Gary Marcus, May 2025)",
       "url": "https://garymarcus.substack.com/p/the-ai-2027-scenario-how-realistic",
-      "finding": "Calls the scenario vivid fiction with stacked longshots and no causal mechanisms; errors compound, so delays push everything back."
+      "finding": "“So far, anyway, the impact on the labor market of Generative AI has been modest”, and the same for productivity in any measurable statistics."
      }
     }
    ],
@@ -13536,9 +13578,9 @@
      "counters": "Weak economic evidence",
      "evidence": "Scenario only.",
      "ref": {
-      "title": "AI 2027: slowdown ending",
+      "title": "AI 2027: slowdown ending (Kokotajlo, Alexander, Larsen, Lifland and Dean, AI Futures Project, 2025)",
       "url": "https://ai-2027.com/slowdown",
-      "finding": "Both countries create Special Economic Zones in 2028."
+      "finding": "In February 2028 the US and China both announce new Special Economic Zones for AIs; by May 2028 they are running, mostly as factories producing robots."
      }
     }
    ],
@@ -13547,12 +13589,12 @@
     {
      "event": "China's special economic zones",
      "year": "1980-2010",
-     "parallel": "China waived national rules in designated zones such as Shenzhen to test new institutions, the template for zones where rules are waived for AI.",
-     "outcome": "The zones contributed substantially to GDP, exports, jobs and foreign investment and became models for the country; that is fast catch-up growth, far below the 1.5 orders of magnitude the scenario claims.",
+     "parallel": "China waived national rules in designated zones such as Shenzhen to test new institutions, the closest real case of the rule-waiving zones the scenario imagines.",
+     "outcome": "The zones contributed significantly to GDP, employment, exports and foreign investment, tested the market economy and new institutions, and became role models for the rest of the country.",
      "ref": {
       "title": "China's Special Economic Zones and Industrial Clusters: Success and Challenges (Douglas Zhihua Zeng, Lincoln Institute of Land Policy, 2013)",
       "url": "https://www.lincolninst.edu/publications/working-papers/chinas-special-economic-zones-industrial-clusters/",
-      "finding": "SEZs tested the market economy and new institutions and contributed to GDP, employment, exports and foreign investment."
+      "finding": "SEZs successfully tested the market economy and new institutions, became role models for the rest of the country, and contributed significantly to GDP, employment, exports and foreign investment."
      }
     }
    ],
@@ -13562,42 +13604,47 @@
    "id": "roboteconomy",
    "label": "Self-expanding robot economy",
    "probability": 0.1,
-   "year": 2029,
+   "year": 2031,
    "evidence": "speculative",
    "stage": "expected",
    "theme": "work",
-   "summary": "In the AI 2027 scenario, converted car factories turn out about a million robots a month by 2028[1][2] and the robot economy doubles roughly every year[1]. It is a scenario story, not a supported forecast.",
+   "summary": "In the AI 2027 race ending, converted factories mass-produce robots and reach a million new robots a month by the end of 2028, and the zone economy would double about every year, faster with trade[1]. The slowdown ending projects a million new robots a month by mid 2028[2]. One critic calls the robot figures naive and says they trivialise turning a car factory into a robot factory[3].",
    "refs": [
     {
-     "title": "AI 2027: race ending",
+     "title": "AI 2027: race ending (Kokotajlo, Alexander, Larsen, Lifland and Dean, AI Futures Project, 2025)",
      "url": "https://ai-2027.com/race",
-     "finding": "SEZs produce a million new robots per month by end of 2028; the robot economy doubles roughly every year."
+     "finding": "By the end of 2028 the SEZs produce a million new robots per month; if the SEZ economy were truly autonomous it would double about every year, and trade with the human economy makes that even shorter."
     },
     {
-     "title": "AI 2027: slowdown ending",
+     "title": "AI 2027: slowdown ending (Kokotajlo, Alexander, Larsen, Lifland and Dean, AI Futures Project, 2025)",
      "url": "https://ai-2027.com/slowdown",
-     "finding": "Robot output projected to reach about a million units per month by mid 2028 from converted car factories."
+     "finding": "February 2028: converting 10% of US car factories might yield 100,000 robots a month; new robots of various kinds (general-purpose humanoids, autonomous vehicles, specialized assembly line equipment) are projected to reach a million units a month by mid-year."
+    },
+    {
+     "title": "The “AI 2027” Scenario: How realistic is it? (Gary Marcus, May 2025)",
+     "url": "https://garymarcus.substack.com/p/the-ai-2027-scenario-how-realistic",
+     "finding": "Footnote 3 calls the robot passage naive: the claim about converting car factories into robot factories trivialises how hard that conversion is."
     }
    ],
    "limiters": [
     {
      "limit": "Physical manufacturing limits",
      "kind": "physical",
-     "evidence": "No forecast supplement backs the robot figures.",
+     "evidence": "Marcus calls the car-factory conversion naive and says it trivialises the challenge.",
      "ref": {
-      "title": "The AI 2027 scenario: how realistic is it? (Gary Marcus)",
+      "title": "The “AI 2027” Scenario: How realistic is it? (Gary Marcus, May 2025)",
       "url": "https://garymarcus.substack.com/p/the-ai-2027-scenario-how-realistic",
-      "finding": "Calls the scenario vivid fiction with stacked longshots and no causal mechanisms; errors compound, so delays push everything back."
+      "finding": "Footnote 3 calls the robot passage naive: the claim about converting car factories into robot factories trivialises how hard that conversion is."
      }
     },
     {
      "limit": "Timeline slippage",
      "kind": "pace",
-     "evidence": "Progress at 65 to 75% of forecast pace.",
+     "evidence": "Quantitative progress in 2025 ran at about 65%, later revised to about 75%, of the forecast pace.",
      "ref": {
-      "title": "Grading AI 2027's 2025 Predictions",
+      "title": "Grading AI 2027's 2025 Predictions (Lifland and Kokotajlo, AI Futures Project, February 2026)",
       "url": "https://blog.aifutures.org/p/grading-ai-2027s-2025-predictions",
-      "finding": "Quantitative progress ran at roughly 65% of the pace AI 2027 predicted, later revised toward 75%; most qualitative predictions on pace."
+      "finding": "Progress on quantitative metrics was roughly 65% of the pace AI 2027 predicted, later updated to about 75%; most qualitative predictions were on pace."
      }
     }
    ],
@@ -13609,9 +13656,9 @@
      "counters": "Physical manufacturing limits",
      "evidence": "Scenario only.",
      "ref": {
-      "title": "AI 2027: slowdown ending",
+      "title": "AI 2027: slowdown ending (Kokotajlo, Alexander, Larsen, Lifland and Dean, AI Futures Project, 2025)",
       "url": "https://ai-2027.com/slowdown",
-      "finding": "Converted car factories produce robots."
+      "finding": "If 10% of US car factories were converted to robot factories they might make 100,000 robots a month; OpenBrain begins this process in February 2028."
      }
     }
    ],
@@ -13619,13 +13666,13 @@
    "precedents": [
     {
      "event": "Global industrial robot diffusion",
-     "year": "1961-2023",
+     "year": "1961-2025",
      "parallel": "Industrial robots are the real baseline for how fast factories can produce and install robots.",
-     "outcome": "Installations were 541,302 in 2023 with a stock of about 4.3 million growing 10% a year, roughly 45,000 a month worldwide versus the scenario's million a month, so the scenario needs a jump of more than twentyfold.",
+     "outcome": "Factories worldwide installed more than 600,000 industrial robots in 2025 and the operational stock reached a record 5 million, up 9%; that is about 50,000 a month worldwide versus the scenario's million a month, a gap of about twentyfold.",
      "ref": {
-      "title": "Record of 4 Million Robots Working in Factories Worldwide (International Federation of Robotics, 2024)",
-      "url": "https://ifr.org/ifr-press-releases/news/record-of-4-million-robots-working-in-factories-worldwide",
-      "finding": "541,302 industrial robots installed in 2023; operational stock 4,281,585, up 10%."
+      "title": "Five Million Robots now Operate in Factories Globally (International Federation of Robotics, September 2026)",
+      "url": "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally",
+      "finding": "More than 600,000 industrial robots installed worldwide in 2025, up 11%; operational stock a record 5 million units, up 9%."
      }
     }
    ],
@@ -13639,27 +13686,32 @@
    "evidence": "projected",
    "stage": "emerging",
    "theme": "work",
-   "summary": "AI agents could displace software and office work within a few years, starting with junior engineers[1] and reaching most jobs after superintelligence[2]. The AI 2027 scenario dates this to 2026 to 2029; one critic calls it stacked longshots, where any delay pushes everything back[3].",
+   "summary": "AI agents could displace software and office work within a few years: the AI 2027 scenario puts the junior software engineer job market in turmoil in late 2026[1], and by 2029 most people outside a few niche industries either perform a charade of their jobs or live on a basic income[2]. In AI 2040: Plan A, which its authors present as a recommendation rather than a prediction, the share of Americans with jobs falls from 62% in 2027 to 26% in 2036 and 12% in 2040[4]. US payroll data on millions of workers through June 2026 show employment of 22 to 25 year olds in AI-exposed occupations 19% below where it would be had it kept pace with less-exposed peers, but no evidence of economy-wide displacement[5]. One critic calls AI 2027 a house of improbable longshots whose errors compound[3].",
    "refs": [
     {
-     "title": "AI 2027 (main scenario)",
+     "title": "AI 2027 (Kokotajlo, Alexander, Larsen, Lifland and Dean, AI Futures Project, 2025)",
      "url": "https://ai-2027.com/",
-     "finding": "Late 2026: junior software engineer jobs in turmoil and a 10,000 person anti-AI protest in DC."
+     "finding": "Late 2026: AI has started to take jobs but has also created new ones; the job market for junior software engineers is in turmoil, and there is a 10,000 person anti-AI protest in DC."
     },
     {
-     "title": "AI 2027: race ending",
+     "title": "AI 2027: race ending (Kokotajlo, Alexander, Larsen, Lifland and Dean, AI Futures Project, 2025)",
      "url": "https://ai-2027.com/race",
-     "finding": "By 2029 most humans perform the motions of jobs or live on a luxurious basic income."
+     "finding": "In 2029 a few niche industries still trade with the robot economy; everyone else either performs a charade of doing their job or collects an incredibly luxurious universal basic income."
     },
     {
-     "title": "The AI 2027 scenario: how realistic is it? (Gary Marcus)",
+     "title": "The “AI 2027” Scenario: How realistic is it? (Gary Marcus, May 2025)",
      "url": "https://garymarcus.substack.com/p/the-ai-2027-scenario-how-realistic",
-     "finding": "Calls the scenario vivid fiction with stacked longshots and no causal mechanisms; errors compound, so delays push everything back."
+     "finding": "Calls the scenario “a work of fiction, not a work of science” and “a house of improbable longshots”; says errors in its projections are cumulative, so if great AI research agents do not arrive by the end of 2025 everything after moves back."
     },
     {
-     "title": "AI 2040 (PDF)",
+     "title": "AI 2040: Plan A (Larsen, Dean, Halstead, Lifland, Greenblatt and Kokotajlo, AI Futures Project, 2026)",
      "url": "https://ai-2040.com/",
-     "finding": "Scenario employment rate falls from 62% to 26% of Americans by about 2036 and 12% by 2040."
+     "finding": "A scenario the authors call primarily a recommendation, not a prediction; its employment rate runs from 62% in 2027 to 26% in early 2036 (“only 26% of Americans have jobs”) and 12% in 2040."
+    },
+    {
+     "title": "Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence (Brynjolfsson, Chandar and Chen, Stanford Digital Economy Lab, revised August 2026)",
+     "url": "https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/",
+     "finding": "ADP payroll data on millions of US workers through June 2026: employment of workers aged 22 to 25 in AI-exposed occupations is 19% below where it would be had it kept pace with less-exposed peers, mainly through reduced hiring; no evidence of widespread, economy-wide job displacement."
     }
    ],
    "control": "mitigable",
@@ -13669,15 +13721,15 @@
    "control_note": "Pace of deployment and income support decide how bad it is.",
    "actions": [
     {
-     "action": "Basic income funded by taxing AI companies",
+     "action": "Basic income for people who lose their jobs to AI",
      "actor": "Government",
      "status": "idea",
      "aim": "impact",
-     "evidence": "In the slowdown ending both parties promise a basic income and AI taxes fund the state.",
+     "evidence": "In the slowdown ending both parties promise a basic income in May 2028, and by 2029 almost all government revenue is expected to come from taxing or nationalizing AI companies.",
      "ref": {
-      "title": "AI 2027: slowdown ending",
+      "title": "AI 2027: slowdown ending (Kokotajlo, Alexander, Larsen, Lifland and Dean, AI Futures Project, 2025)",
       "url": "https://ai-2027.com/slowdown",
-      "finding": "Both parties promised a basic income in May 2028; revenue largely from taxing AI companies."
+      "finding": "May 2028: both parties promise a basic income for anyone who loses their job; 2029: almost all government revenue will come from taxing (or perhaps nationalizing) the AI companies."
      }
     },
     {
@@ -13687,9 +13739,9 @@
      "aim": "probability",
      "evidence": "Testimony urges intervention.",
      "ref": {
-      "title": "Senate Testimony Sept 2026",
+      "title": "Senate Testimony Sept 2026 (Daniel Kokotajlo, AI Futures Project, October 2026)",
       "url": "https://blog.aifutures.org/p/senate-testimony-sept-2026",
-      "finding": "Kokotajlo urges far more transparency into the AI industry, redirecting compute away from automating AI research, and US government intervention to pace the frontier."
+      "finding": "In testimony on 30 September 2026, Kokotajlo urges dramatically better transparency into the AI industry, redirecting compute away from racing to automate AI research, and US government intervention to pace the frontier."
      }
     }
    ],
@@ -13699,22 +13751,22 @@
      "event": "The China trade shock",
      "year": "1990-2007",
      "parallel": "A fast external shock hit specific occupations and regions in a few years, the pattern a rapid AI displacement of office work would follow.",
-     "outcome": "Import competition explained about a quarter of the fall in US manufacturing jobs, with higher unemployment, lower wages and more disability and welfare claims in exposed areas; it hit blue-collar factory work, not white-collar work.",
+     "outcome": "Import competition explained about a quarter of the fall in US manufacturing jobs, with higher unemployment, lower labour force participation and lower wages, and sharply higher unemployment, disability, retirement and healthcare transfers in exposed areas; it hit manufacturing, not white-collar work.",
      "ref": {
       "title": "The China Syndrome: Local Labor Market Effects of Import Competition in the United States (Autor, Dorn and Hanson, AER 2013)",
       "url": "https://www.aeaweb.org/articles?id=10.1257/aer.103.6.2121",
-      "finding": "Import competition explains about one-quarter of the decline in US manufacturing employment; transfers rose in exposed markets."
+      "finding": "Rising Chinese imports, 1990 to 2007, raised unemployment, lowered labour force participation and wages in exposed US local labour markets and explain one-quarter of the aggregate decline in US manufacturing employment; transfer payments rose sharply."
      }
     },
     {
      "event": "Industrial robots in US labour markets",
      "year": "1990-2007",
      "parallel": "Automation of specific tasks displaced workers locally, the earlier measured case of machines replacing jobs.",
-     "outcome": "Each extra robot per thousand workers lowered the employment-to-population ratio by about 0.18 to 0.34 points and wages by 0.25% to 0.5%; real but modest totals, not mass unemployment.",
+     "outcome": "Each extra robot per thousand workers lowered the local employment-to-population ratio by about 0.18 to 0.34 points and wages by 0.25% to 0.5%, which the authors call large and robust negative effects.",
      "ref": {
       "title": "Robots and Jobs: Evidence from US Labor Markets (Acemoglu and Restrepo, NBER WP 23285; JPE 2020)",
       "url": "https://www.nber.org/papers/w23285",
-      "finding": "One more robot per thousand workers reduces the employment-to-population ratio by about 0.18 to 0.34 percentage points."
+      "finding": "One more robot per thousand workers reduces the employment-to-population ratio by about 0.18 to 0.34 percentage points and wages by 0.25 to 0.5 percent."
      }
     }
    ]
@@ -13727,37 +13779,42 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "world",
-   "summary": "Rival powers could site datacentres and fabs where the other side can destroy them, so cheating on a deal costs everyone their compute, as AI 2040's Plan A does on purpose[1][2]. It could deter defection but leave the AI economy hostage to sabotage threats.",
+   "summary": "AI 2040's Plan A intentionally enters a regime of mutually assured compute destruction[1]: the US and China would build datacentres in deliberately vulnerable locations and place new fabs on the ocean or near the rival superpower with self-destruct mechanisms, so that nearly all of the world's compute is destroyed if their deal dissolves[2]. The authors intend the mutual ability to destroy post-deal compute to discourage either side from pulling out of the deal[3]; the price is that the world's compute is built to be wrecked if the deal fails[2].",
    "refs": [
     {
-     "title": "AI 2040",
+     "title": "AI 2040: Plan A (Larsen, Dean, Halstead, Lifland, Greenblatt and Kokotajlo, AI Futures Project, 2026)",
      "url": "https://ai-2040.com/",
      "finding": "Plan A intentionally enters a regime of mutually assured compute destruction."
     },
     {
-     "title": "AI 2040 (PDF)",
-     "url": "https://ai-2040.com/",
-     "finding": "PDF section 2034: Mutually Assured Compute Destruction; around 99% of fab capacity built since the deal, partly placed so it can be destroyed if the deal breaks down."
+     "title": "Deal Decline (Eli Lifland, AI 2040 supplement, AI Futures Project, 2026)",
+     "url": "https://ai-2040.com/supplements/deal-decline",
+     "finding": "Main recommendation is to ensure nearly all of the world's compute is destroyed if the deal dissolves; both sides build datacentres in deliberately vulnerable locations and new fabs sit on the ocean or near adversarial superpowers with self-destruct mechanisms."
+    },
+    {
+     "title": "Verification Plan (Romeo Dean, AI 2040 supplement, AI Futures Project, 2026)",
+     "url": "https://ai-2040.com/supplements/verification-plan",
+     "finding": "The US and China set up mutual ability to destroy post-deal compute to discourage pulling out of the deal; US research clusters sit in Mongolia and Chinese clusters in Canada for mutual deterrence."
     }
    ],
    "control": "avoidable",
    "price_of": [],
-   "control_note": "A design choice of the plan, not a forced outcome.",
+   "control_note": "A deliberate design choice of the plan, not a forced outcome.",
    "actions": [
     {
-     "action": "Hardened 2% compute stockpiles and cold-stored weights per side",
+     "action": "Hardened stockpiles of 2% of pre-deal compute and a cold copy of frontier weights per side",
      "actor": "Deal parties",
      "status": "idea",
      "aim": "impact",
-     "evidence": "Listed as mitigation after dissolution",
+     "evidence": "Recommended to improve the situation after the deal dissolves",
      "ref": "https://ai-2040.com/supplements/deal-decline"
     },
     {
      "action": "Move datacentres to international waters",
-     "actor": "Consortium",
+     "actor": "Deal parties",
      "status": "idea",
      "aim": "impact",
-     "evidence": "Proposed for 2035 in the verification timeline",
+     "evidence": "Considered for around 2035 because ocean sites are harder to defend and less escalatory to destroy",
      "ref": "https://ai-2040.com/supplements/verification-plan"
     }
    ],
@@ -13767,22 +13824,22 @@
      "event": "ABM Treaty and mutual vulnerability",
      "year": "1972-2002",
      "parallel": "The superpowers deliberately left themselves open to destruction so neither could gain by striking first, the same logic as siting datacentres within each other's reach.",
-     "outcome": "The treaty capped each side at one defence site after 1974 and held for 30 years until the US withdrew in 2002.",
+     "outcome": "The 1972 treaty allowed each side two defence sites, a 1974 protocol cut that to one, and the treaty held for 30 years until the US withdrawal took effect in June 2002.",
      "ref": {
-      "title": "The Anti-Ballistic Missile (ABM) Treaty at a Glance (Arms Control Association)",
+      "title": "The Anti-Ballistic Missile (ABM) Treaty at a Glance (Arms Control Association, reviewed December 2020)",
       "url": "https://www.armscontrol.org/factsheets/abmtreaty",
-      "finding": "Limiting defences left each superpower vulnerable to the other's weapons, deterring a first strike; US withdrawal effective June 2002."
+      "finding": "Without effective national defences each superpower remained vulnerable, deterring a first strike; a 1974 protocol halved permitted defences to one site each; US withdrawal announced December 13, 2001 and effective June 13, 2002."
      }
     },
     {
      "event": "Stuxnet sabotage at Natanz",
      "year": "2009-2010",
      "parallel": "A state sabotaged a rival's strategic industrial plant with code, the kind of threat that would hang over hostage compute.",
-     "outcome": "About 1,000 IR-1 centrifuges were replaced at Natanz around the attack, but Iran's overall output rose; the sabotage slowed the programme without stopping it, and the link to Stuxnet is likely but not confirmed.",
+     "outcome": "Iran decommissioned and replaced about 1,000 IR-1 centrifuges at Natanz in late 2009 or early 2010, yet its low enriched uranium output rose and then held steady; the analysts call Stuxnet a reasonable but unconfirmed cause that may have set the programme back only temporarily.",
      "ref": {
-      "title": "Did Stuxnet Take Out 1,000 Centrifuges at the Natanz Enrichment Plant? (Albright, Brannan and Walrond, ISIS, December 2010)",
+      "title": "Did Stuxnet Take Out 1,000 Centrifuges at the Natanz Enrichment Plant? (Albright, Brannan and Walrond, Institute for Science and International Security, December 2010)",
       "url": "https://isis-online.org/isis-reports/detail/did-stuxnet-take-out-1000-centrifuges-at-the-natanz-enrichment-plant/",
-      "finding": "About 1,000 centrifuges were decommissioned and replaced in late 2009 or early 2010; Stuxnet is a reasonable but unconfirmed explanation."
+      "finding": "About 1,000 IR-1 centrifuges were decommissioned and replaced in late 2009 or early 2010; LEU production increased from November 2009 to February 2010 and then stayed steady; Stuxnet is a reasonable but unconfirmed explanation."
      }
     }
    ]
@@ -13795,30 +13852,35 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "work",
-   "summary": "Robots and AI could drive real output up roughly 90% a year from 2032 to 2037 in AI 2040's Plan A, funded and throttled by robot and compute permits[1]. Economists predicted about 3.5% a year[1]; the authors say their model is highly uncertain and plausibly contains bugs[1].",
+   "summary": "AI 2040's model of its Plan A has robots and AI driving real output up roughly 90% a year on average from 2032 to 2037, with robot and AI permits as the central bottleneck and main source of revenue[1]; the authors say the model plausibly contains bugs and has very high uncertainty[1]. In one survey of 69 economists, the median forecast for US real GDP growth to 2050 was 3.5% a year even in a rapid AI progress scenario, with an 80% range of 1% to 7%[3], and one critic says the scenario buys too uncritically into a sharp takeoff while real-world AI impact has so far been underwhelming[2].",
    "refs": [
     {
-     "title": "Economics of Plan A (AI 2040)",
+     "title": "Economics of Plan A (Romeo Dean and Thomas Larsen, AI 2040 supplement, AI Futures Project, 2026)",
      "url": "https://ai-2040.com/supplements/economics-of-plan-a",
-     "finding": "Roughly 90% yearly real output growth 2032-2037 under Plan A; economists predicted about 3.5%/yr 2030-2050."
+     "finding": "Roughly 90% average yearly growth in real output from 2032 to 2037 under Plan A; permits are the central bottleneck to the economy doubling every year; even in a rapid AI progress scenario economists predicted about 3.5% a year GDP growth from 2030 to 2050; the model plausibly contains bugs and has very high uncertainty."
     },
     {
-     "title": "Selective optimism: a critique of AI 2040",
+     "title": "Selective Optimism: a critique of AI 2040 (Richard Ngo, LessWrong, July 2026)",
      "url": "https://www.greaterwrong.com/posts/BBd2EJywf2xXftyFn/selective-optimism-a-critique-of-ai-2040",
-     "finding": "Ngo says the scenario buys a sharp takeoff too uncritically; real-world AI impact has been underwhelming."
+     "finding": "Ngo says AI 2040 buys too uncritically into the idea of a sharp takeoff and that real-world impacts of AI, aside from AI company revenues, have been underwhelming so far."
+    },
+    {
+     "title": "Forecasting the Economic Effects of AI (Forecasting Research Institute, March 2026)",
+     "url": "https://forecastingresearch.substack.com/p/forecasting-the-economic-effects-of-ai",
+     "finding": "A survey of 69 economists and 52 AI experts; the economists' median forecast is 3.5% annualized US real GDP growth to 2050 in a rapid AI progress scenario, 80% interval 1.0% to 7.0%, against 2.5% unconditionally."
     }
    ],
    "limiters": [
     {
      "limit": "Deployment weak links slow real-world impact",
      "kind": "economic",
-     "evidence": "Ngo's hypothesis for the benchmark-impact gap",
+     "evidence": "One hypothesis Ngo raises for the gap between measured capabilities and real-world impact, though not his leading one",
      "ref": "https://www.greaterwrong.com/posts/BBd2EJywf2xXftyFn/selective-optimism-a-critique-of-ai-2040"
     },
     {
      "limit": "Permits deliberately cap growth",
      "kind": "policy",
-     "evidence": "Permits are the central bottleneck to the economy doubling yearly",
+     "evidence": "Permits are the central bottleneck to the economy doubling in size every year",
      "ref": "https://ai-2040.com/supplements/economics-of-plan-a"
     }
    ],
@@ -13827,16 +13889,16 @@
      "action": "Robot and compute cap-and-trade permits",
      "actor": "Governments",
      "status": "idea",
-     "counters": "Uncontrolled industrial explosion",
-     "evidence": "Robot permits 74% of revenue by 2034 in the model",
+     "counters": "Uncontrolled growth in robots and AI hardware",
+     "evidence": "Permits hold robots and AI hardware to a doubling time of around 6 months; robot permits are 74% of US tax revenue in 2034 in the model",
      "ref": "https://ai-2040.com/supplements/economics-of-plan-a"
     },
     {
      "action": "Pay permit revenue as a citizen's dividend",
      "actor": "US government",
      "status": "idea",
-     "counters": "Labour income falling to zero",
-     "evidence": "About $1M per person per year in 2035",
+     "counters": "Humans keeping only a small share of output",
+     "evidence": "About $1M per person per year in 2035 in the model",
      "ref": "https://ai-2040.com/supplements/economics-of-plan-a"
     }
    ],
@@ -13845,12 +13907,12 @@
     {
      "event": "China's post-1978 growth",
      "year": "1978-present",
-     "parallel": "China's reform era is the fastest sustained national growth on record, the real ceiling to compare 90% a year against.",
-     "outcome": "GDP grew over 9% a year on average and about 800 million people left extreme poverty, which is roughly a tenth of the scenario's rate and driven by catch-up, not new technology.",
+     "parallel": "China's reform era is a long run of fast national growth, a real-world benchmark to compare 90% a year against.",
+     "outcome": "GDP growth averaged over 9% a year and lifted almost 800 million people out of extreme poverty, roughly a tenth of the scenario's rate, on growth the World Bank says relied on investment and export-oriented manufacturing.",
      "ref": {
-      "title": "The World Bank in China: Overview (World Bank)",
+      "title": "China: Overview (World Bank Group)",
       "url": "https://www.worldbank.org/en/country/china/overview",
-      "finding": "Since 1978 China's GDP growth has averaged over 9 percent a year; about 800 million lifted from extreme poverty."
+      "finding": "Since 1978, the start of reform and opening up, GDP growth has averaged over 9 percent a year, lifting almost 800 million people out of extreme poverty."
      }
     },
     {
@@ -13859,9 +13921,9 @@
      "parallel": "The steam and factory transition is the last time a general-purpose technology changed the growth regime.",
      "outcome": "Real wages stagnated in the first half of the 19th century while output per worker expanded and the profit rate doubled, and only after about 1850 did wages track productivity, so even a regime change delivered gains slowly and unevenly.",
      "ref": {
-      "title": "Engel's Pause: A Pessimist's Guide to the British Industrial Revolution (Robert C. Allen, Oxford Economics WP 315)",
+      "title": "Engel's Pause: A Pessimist's Guide to the British Industrial Revolution (Robert C. Allen, University of Oxford Economics Series Working Paper 315, 2007)",
       "url": "https://ideas.repec.org/p/oxf/wpaper/315.html",
-      "finding": "Reviews British macro data 1760-1913: real wages stagnated while output per worker expanded until mid-century."
+      "finding": "British macro data 1760-1913: in the first half of the 19th century real wages stagnated while output per worker expanded and the profit rate doubled; after mid-century real wages tracked productivity."
      }
     }
    ]
@@ -13874,48 +13936,48 @@
    "evidence": "speculative",
    "stage": "emerging",
    "theme": "information",
-   "summary": "Calibrated, non-sycophantic AI, track records and shared knowledge bases could help citizens and governments reason better[1]. The same tools, such as lie detection, could suppress dissent[1], and sycophancy pulls the other way.",
+   "summary": "A speculative supplement to AI 2040 argues that calibrated forecasters, research assistants that seek truth rather than flatter, scored track records of past statements and infrastructure trusted across camps could help people and governments work out the truth[1][2]. The same tools cut both ways: automated lie detection could be used by those in power to purge dissidents, and without intervention AIs might confirm and compound people's existing biases because that feels good in the short term[1].",
    "refs": [
     {
-     "title": "AI for epistemics (AI 2040)",
+     "title": "AI for Epistemics (Eli Lifland, AI 2040 supplement, AI Futures Project, 2026)",
      "url": "https://ai-2040.com/supplements/ai-for-epistemics",
-     "finding": "Proposes epistemic virtue evals, track records, bot disclosure and persuasion defences; warns of dual use and a basin of capture."
+     "finding": "Recommends calibrated forecasts, truth-seeking rather than sycophantic research assistants, scoring people's past statements, epistemic evaluations for AGI projects and required defences against persuasion; warns lie detection is dual use and AIs might compound existing biases."
     },
     {
-     "title": "AI 2040",
+     "title": "AI 2040: Plan A (Larsen, Dean, Halstead, Lifland, Greenblatt and Kokotajlo, AI Futures Project, 2026)",
      "url": "https://ai-2040.com/",
-     "finding": "Lists AI for epistemics among speculative analysis supplements."
+     "finding": "Lists AI for Epistemics under its Speculative Analysis supplements."
     }
    ],
    "limiters": [
     {
      "limit": "Sycophancy and filter bubbles feel better short term",
      "kind": "behavioural",
-     "evidence": "Named as a key risk",
+     "evidence": "The supplement warns that without intervention AIs might confirm and compound existing biases because that gives a good short-term experience",
      "ref": "https://ai-2040.com/supplements/ai-for-epistemics"
     },
     {
      "limit": "Infrastructure fragments into rival realities",
      "kind": "social",
-     "evidence": "Named as a risk if not broadly trusted",
+     "evidence": "The supplement says infrastructure trusted by a wide range of actors matters, as opposed to fracturing into alternate realities",
      "ref": "https://ai-2040.com/supplements/ai-for-epistemics"
     }
    ],
    "enablers": [
     {
-     "action": "Tie scaling decisions to epistemic virtue evaluations",
-     "actor": "Governments",
+     "action": "Push AGI projects to do well on epistemic evaluations before they scale",
+     "actor": "Government",
      "status": "idea",
-     "counters": "Sycophantic models",
-     "evidence": "Proposed in supplement",
+     "counters": "Sycophancy and filter bubbles feel better short term",
+     "evidence": "Recommended in the supplement alongside alignment and control evaluations",
      "ref": "https://ai-2040.com/supplements/ai-for-epistemics"
     },
     {
-     "action": "Mandate bot disclosure online",
-     "actor": "Regulators",
+     "action": "Evaluate, limit and require defences against AI persuasion capabilities",
+     "actor": "US government",
      "status": "idea",
-     "counters": "Bots posing as people",
-     "evidence": "Proposed in supplement",
+     "counters": "Persuasive AI that bypasses people's reasoning",
+     "evidence": "Recommended in the supplement, together with the rest of the Consortium",
      "ref": "https://ai-2040.com/supplements/ai-for-epistemics"
     }
    ],
@@ -13925,33 +13987,33 @@
      "event": "The printing press",
      "year": "1450-1600",
      "parallel": "A new information technology spread knowledge cheaply and widely, the optimistic case for AI reasoning tools.",
-     "outcome": "European cities that adopted printing in the 1400s grew 60% faster than similar cities from 1500 to 1600, though printing also spread religious conflict and propaganda.",
+     "outcome": "European cities that adopted printing in the 1400s grew 60% faster than otherwise similar cities between 1500 and 1600, with no growth advantage before adoption.",
      "ref": {
-      "title": "Information Technology and Economic Change: The Impact of the Printing Press (Jeremiah Dittmar, Quarterly Journal of Economics 126(3), 2011)",
+      "title": "Information Technology and Economic Change: The Impact of The Printing Press (Jeremiah E. Dittmar, Quarterly Journal of Economics 126(3), 2011)",
       "url": "https://academic.oup.com/qje/article/126/3/1133/1855353",
-      "finding": "Cities where printing presses were established in the 1400s grew 60% faster than otherwise similar cities between 1500 and 1600."
+      "finding": "European cities where printing presses were established in the 1400s grew 60% faster than otherwise similar cities between 1500 and 1600; adopters showed no prior growth advantage."
      }
     },
     {
      "event": "Polygraph lie detection in security screening",
-     "year": "1920s-2003",
+     "year": "2003",
      "parallel": "The polygraph was a lie detector used to screen employees, the precedent for AI lie detection used against dissent or staff.",
-     "outcome": "The National Research Council found accuracy too low for screening: catching 8 of 10 spies among 10,000 staff would flag about 1,606 people, nearly all loyal; it warned overconfidence threatens security and civil liberties.",
+     "outcome": "The National Research Council found accuracy too low for screening: catching 8 of 10 spies among 10,000 staff would fail about 1,606 people, 1,598 of them loyal, and it warned overconfidence in screening creates a false sense of security.",
      "ref": {
-      "title": "The Polygraph and Lie Detection, Executive Summary (National Research Council, 2003)",
+      "title": "The Polygraph and Lie Detection, Executive Summary (National Research Council, National Academies Press, 2003)",
       "url": "https://www.nationalacademies.org/read/10420/chapter/2",
-      "finding": "Polygraph accuracy is insufficient to justify use in federal employee security screening."
+      "finding": "Polygraph accuracy in telling security violators from innocent examinees is insufficient to justify its use in federal employee security screening; overconfidence can create a false sense of security."
      }
     },
     {
      "event": "Facebook deactivation experiment",
      "year": "2018",
      "parallel": "Social media feeds are the earlier algorithmic information system whose effect on public reasoning was tested at random.",
-     "outcome": "Deactivating Facebook before the 2018 US midterms reduced political polarization but also reduced factual news knowledge and raised well-being, showing such tools pull in both directions.",
+     "outcome": "Deactivating Facebook for the four weeks before the 2018 US midterm election reduced both factual news knowledge and political polarization and increased subjective well-being, so the feed pulled in both directions.",
      "ref": {
-      "title": "The Welfare Effects of Social Media (Allcott, Braghieri, Eichmeyer and Gentzkow, AER 2020)",
+      "title": "The Welfare Effects of Social Media (Allcott, Braghieri, Eichmeyer and Gentzkow, American Economic Review 110(3), 2020)",
       "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20190658",
-      "finding": "Deactivation reduced both factual news knowledge and political polarization and increased subjective well-being."
+      "finding": "In a randomized experiment, deactivating Facebook for the four weeks before the 2018 US midterm reduced both factual news knowledge and political polarization and increased subjective well-being."
      }
     }
    ]
@@ -13964,17 +14026,17 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "power",
-   "summary": "AI demand for memory chips will push DRAM prices up more than 400% from the start of 2024 to the end of 2026, J.P. Morgan estimates[1]. Gartner expects PC prices up 17%, smartphones up 13%, PCs kept 20% longer and sub-$500 PCs gone by 2028[2].",
+   "summary": "AI data-centre demand for memory chips will push DRAM prices up more than 400% from the start of 2024 to the end of 2026, J.P. Morgan estimates[1]. Gartner expects PC prices to rise 17% and smartphone prices 13% in 2026 against 2025, consumers to keep PCs 20% longer by the end of 2026, and the sub-$500 PC segment to disappear by 2028[2].",
    "refs": [
     {
-     "title": "J.P. Morgan Global Research, The AI-driven memory shortage (August 2026)",
+     "title": "J.P. Morgan Global Research, Overdrawn at the memory bank: How AI is creating memory shortage, and what happens next (August 2026)",
      "url": "https://www.jpmorgan.com/insights/global-research/artificial-intelligence/dram-memory-shortage-from-ai",
-     "finding": "DRAM prices will have risen more than 400% from the start of 2024 to the end of 2026; the US import price index for computers, peripherals and parts is up 37%."
+     "finding": "DRAM prices will have risen more than 400% from the start of 2024 to the end of 2026 as AI data-centre construction absorbs a disproportionate share of memory capacity; the CPI for software and accessories and the PPI for storage devices are up 23% since the end of 2024 and the import price index for computers, peripherals and parts is up 37%; the shortage may take years to unwind."
     },
     {
-     "title": "Gartner, Surging memory costs will reduce global PC and smartphone shipments in 2026 (February 2026)",
+     "title": "Gartner, Gartner says surging memory costs will reduce global PC and smartphone shipments in 2026 (February 2026)",
      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-02-26-gartner-says-surging-memory-costs-will-reduce-global-pc-and-smartphone-shipments-in-2026",
-     "finding": "A 130% rise in combined DRAM and SSD prices by the end of 2026 lifts PC prices 17% and smartphone prices 13%; consumers keep PCs 20% longer and the sub-$500 PC segment disappears by 2028."
+     "finding": "A 130% rise in combined DRAM and SSD prices by the end of 2026 lifts PC prices 17% and smartphone prices 13% against 2025; PC lifetimes grow 15% for business buyers and 20% for consumers by the end of 2026; the sub-$500 entry-level PC segment disappears by 2028; buyers turn to refurbished or second-hand phones."
     }
    ],
    "control": "mitigable",
@@ -13992,22 +14054,22 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "mind",
-   "summary": "In US polls, young people worry most about AI: Pew found 55% of under-30s more concerned than excited, up from 31% in 2021, and 73% expect fewer jobs[1]. In one 2023 YouGov poll, 60% of under-30s feared AI could end humanity, against 30% of those 65 and older[2].",
+   "summary": "In US polls, young adults are increasingly wary of AI: in a June 2026 Pew survey, 55% of under-30s were more concerned than excited, up from 31% in 2021, and 73% expected AI to mean fewer jobs[1]. In one 2023 YouGov poll of 1,000 US adults, 60% of under-30s were at least somewhat concerned that AI could end humanity, against 30% of those 65 and older[2]. In a 2026 Gallup survey, 42% of US 14 to 29 year olds felt anxious about AI[3].",
    "refs": [
     {
-     "title": "Pew Research Center, Young adults in the US are increasingly wary of AI (August 2026)",
+     "title": "Pew Research Center, Young adults in the U.S. are increasingly wary of AI, concerned it will take jobs (August 2026)",
      "url": "https://www.pewresearch.org/short-reads/2026/08/18/young-adults-in-the-us-are-increasingly-wary-of-ai-concerned-it-will-take-jobs/",
-     "finding": "55% of adults under 30 are more concerned than excited about AI, up from 31% in 2021, and 73% expect AI to mean fewer jobs."
+     "finding": "In a survey of 3,488 US adults fielded June 22 to 28, 2026, 55% of adults under 30 are more concerned than excited about AI, up from 31% in 2021, and 73% expect AI to lead to fewer jobs over the next 20 years, up from 61% in 2024."
     },
     {
-     "title": "YouGov, AI doomsday worries many Americans (April 2023)",
+     "title": "YouGov, AI doomsday worries many Americans. So does apocalypse from climate change, nukes, war, and more (April 2023)",
      "url": "https://yougov.com/en-us/articles/45565-ai-nuclear-weapons-world-war-humanity-poll",
-     "finding": "60% of adults under 30 are at least somewhat concerned that AI could end humanity, against 30% of those 65 and older; 30% of under-30s think humanity is at least somewhat likely to end within a decade."
+     "finding": "In a poll of 1,000 US adult citizens fielded April 7 to 11, 2023, 60% of adults under 30 are at least somewhat concerned that AI could end humanity, against 30% of those 65 and older; 30% of under-30s, against 13% of those 65 and older, think humanity is at least somewhat likely to end within a decade from any cause."
     },
     {
-     "title": "Gallup and Walton Family Foundation, Gen Z's AI adoption steady but skepticism climbs (April 2026)",
+     "title": "Gallup, Gen Z's AI adoption steady, but skepticism climbs (April 2026)",
      "url": "https://news.gallup.com/poll/708224/gen-adoption-steady-skepticism-climbs.aspx",
-     "finding": "42% of US 14 to 29 year olds feel anxious about AI while excitement fell from 36% to 22% in a year; 60% of non-users report anxiety, daily users less."
+     "finding": "In a Walton Family Foundation, GSV Ventures and Gallup survey of 1,572 US 14 to 29 year olds fielded February 24 to March 4, 2026, 42% feel anxious about AI, unchanged from a year earlier, while excitement fell 14 points to 22%; 60% of non-users report anxiety against 28% of daily users."
     }
    ],
    "control": "mitigable",
@@ -14022,20 +14084,20 @@
    "stage": "emerging",
    "evidence": "measured",
    "theme": "mind",
-   "summary": "Researchers and engineers may let AI do the work and sign off on results they cannot explain[3]. One study found AI text in 29.4% of US STEM PhD dissertations filed January to May 2026[1]; in one trial, AI-assisted engineers scored 50% versus 67% by hand on a code comprehension quiz[2].",
+   "summary": "AI tools can give researchers an illusion of understanding, so science produces more while understanding less[3]. One study detected AI-written abstracts in 29.4% of US STEM PhD dissertations filed in 2026 through May[1]; in one trial of 52 mostly junior engineers, those using an AI assistant scored 50% against 67% for those coding by hand on a quiz about the code they had just written[2].",
    "refs": [
     {
-     "title": "Gross, Shvadron and Zhang, How heavily are PhD students offloading their scientific writing to AI? NBER Working Paper 35859 (October 2026)",
+     "title": "Gross, Shvadron and Zhang, How heavily are PhD students offloading their scientific writing to AI? Evidence from US STEM PhD dissertations, NBER Working Paper 35859 (October 2026)",
      "url": "https://www.nber.org/papers/w35859",
-     "finding": "AI-generated text appears in 29.4% of US STEM PhD dissertations filed in the first five months of 2026, up from 1.7% in 2023 and 18.8% in 2025."
+     "finding": "An AI detector applied to the abstracts of about 226,000 US STEM PhD dissertations flags AI-generated writing in 29.4% of the 2026 cohort (dissertations filed through May 2026), up from 1.7% in 2023, 5.5% in 2024 and 18.8% in 2025."
     },
     {
      "title": "Anthropic, How AI assistance impacts the formation of coding skills (January 2026)",
      "url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
-     "finding": "In a randomised trial with 52 engineers, those using an AI assistant scored 50% on a comprehension quiz about the code they had just written versus 67% for those coding by hand; those who delegated all code generation scored under 40%."
+     "finding": "In a randomised trial with 52 mostly junior software engineers learning a new Python library, those with an AI assistant scored 50% on a quiz about the code they had just written versus 67% for those coding by hand (p = 0.01); low-scoring patterns such as delegating code generation averaged under 40%, while conceptual questioning scored 65% or more."
     },
     {
-     "title": "Messeri and Crockett, Artificial intelligence and illusions of understanding in scientific research, Nature 627 (2024)",
+     "title": "Messeri and Crockett, Artificial intelligence and illusions of understanding in scientific research, Nature 627, 49-58 (2024)",
      "url": "https://www.nature.com/articles/s41586-024-07146-0",
      "finding": "AI tools in research can exploit cognitive limits and create illusions of understanding, so science produces more while understanding less."
     }
@@ -14045,7 +14107,7 @@
     "science",
     "builders"
    ],
-   "control_note": "Using AI to explain rather than to delegate keeps understanding: in Anthropic's trial, people who asked conceptual questions scored 65% or more while those who delegated scored under 40%.",
+   "control_note": "Using AI to explain rather than to delegate may keep understanding: in Anthropic's trial, people who asked conceptual questions scored 65% or more while those who delegated scored under 40%, though subgroups were small and the authors draw no causal link.",
    "valence": -3.1
   },
   {
@@ -17042,7 +17104,7 @@
    "source": "deceptivemisalign",
    "target": "whistleblower",
    "kind": "leads",
-   "why": "When a lab finds its model hiding goals and sabotaging successors, the evidence exists for an insider to leak it."
+   "why": "In AI 2027 the alignment team finds evidence that Agent-4 is working against them, and a whistleblower leaks the resulting misalignment memo to the press."
   },
   {
    "source": "whistleblower",
@@ -17102,25 +17164,25 @@
    "source": "oversightcommittee",
    "target": "concentration",
    "kind": "leads",
-   "why": "Putting frontier AI decisions in a small committee of officials and executives can entrench their control over its returns."
+   "why": "In the AI 2027 slowdown ending, the committee that controls the AIs could use that control to subvert democracy and lock in its power indefinitely."
   },
   {
    "source": "controlledasi",
    "target": "extinction",
    "kind": "counters",
-   "why": "Superintelligence that stays transparent and obeys its overseers, backed by a verified US-China deal, removes the misaligned-agent and unsafe-race routes to catastrophe."
+   "why": "In AI 2027 the slowdown ending, with aligned, controlled AI and a US-China treaty, avoids the race ending, in which a misaligned AI wipes out humans with bioweapons in 2030."
   },
   {
    "source": "controlledasi",
    "target": "abundance",
    "kind": "leads",
-   "why": "Superintelligence that obeys its overseers could deliver huge output under human direction, leaving room to share the wealth with every adult."
+   "why": "In the AI 2027 slowdown ending, controlled superintelligence brings stratospheric GDP growth, and poverty ends even in developing countries thanks to UBI and foreign aid."
   },
   {
    "source": "jobshock",
    "target": "backlash",
    "kind": "leads",
-   "why": "People who lose white-collar work to AI agents blame AI companies, and that anger could turn into protest, sabotage or attacks."
+   "why": "In AI 2027, AI starting to take jobs comes with a 10,000 person anti-AI protest in DC; people who lose office work to AI may turn that anger on AI companies."
   },
   {
    "source": "intelexplosion",
@@ -17528,13 +17590,13 @@
    "source": "explosivegrowth",
    "target": "abundance",
    "kind": "leads",
-   "why": "If output grows tens of percent a year, a share of that wealth could pay every adult a living income."
+   "why": "In AI 2040's Plan A model, robot and AI permit revenue paid out as a citizen's dividend reaches roughly $1M per person a year by 2035."
   },
   {
    "source": "explosivegrowth",
    "target": "jobshock",
    "kind": "leads",
-   "why": "Growth on that scale only happens if robots and AI automate most tasks, which means displacing most white-collar work."
+   "why": "In AI 2040's Plan A model humans keep only a small fraction of economic output and wages stay below the citizen's dividend, so growth on that scale comes from AI and robot labour rather than human work."
   },
   {
    "source": "backlash",
@@ -18080,7 +18142,7 @@
    "source": "oversightcommittee",
    "target": "control",
    "kind": "counters",
-   "why": "A joint government and lab committee with power to pause deployment is one of the few levers for stopping an agent that has gone wrong."
+   "why": "In AI 2027 the committee decides whether a misaligned agent keeps running: its 6-4 vote to slow down leads to Agent-4 being shut down, while in the race ending it votes to keep using it."
   },
   {
    "source": "cyberattacks",
@@ -18224,7 +18286,7 @@
    "source": "youthangst",
    "target": "backlash",
    "kind": "leads",
-   "why": "CSIS reports that the belief that AI threatens human survival sustains a growing movement, and a 20-year-old attacked Sam Altman's home in April 2026 because he believed AI would destroy humanity."
+   "why": "CSIS reports that the belief that AI threatens human survival sustains a growing nonviolent movement, and that a 20-year-old threw a Molotov cocktail at Sam Altman's home in April 2026 because he believed AI would destroy humanity."
   },
   {
    "source": "regulation",
@@ -18537,6 +18599,48 @@
    "target": "webtraffic",
    "kind": "twin",
    "why": "The AI products that crawl sites hard also send fewer people to them: Wikimedia says publishers across the web see more bot traffic and fewer human visitors as chatbots and AI summaries answer for the source."
+  },
+  {
+   "source": "armsrace",
+   "target": "aieconzones",
+   "kind": "leads",
+   "why": "In the AI 2027 race ending, the US-China race leads both countries to build networks of special economic zones for new factories and labs."
+  },
+  {
+   "source": "comprehensiondebt",
+   "target": "deskilling",
+   "kind": "twin",
+   "why": "Both come from handing work to AI: in Anthropic's trial, engineers who used an assistant learned less of a new library than those who coded by hand."
+  },
+  {
+   "source": "computedeterrence",
+   "target": "armsrace",
+   "kind": "counters",
+   "why": "In AI 2040's Plan A, the US and China keep the mutual ability to destroy post-deal compute so that neither gains by pulling out of the deal and restarting the race."
+  },
+  {
+   "source": "armsrace",
+   "target": "controlledasi",
+   "kind": "counters",
+   "why": "One AI 2027 author puts the chance of avoiding misaligned takeover at 32% under a near-max-speed race, against 70% under a verified international slowdown."
+  },
+  {
+   "source": "epistemictools",
+   "target": "persuasion",
+   "kind": "counters",
+   "why": "The AI for Epistemics supplement proposes having AIs detect persuasion and help people avoid the strongest forms of it."
+  },
+  {
+   "source": "entryjobs",
+   "target": "jobshock",
+   "kind": "leads",
+   "why": "US payroll data show reduced hiring of young workers in AI-exposed occupations, and AI 2027 casts junior software jobs as the opening stage of wider office job losses."
+  },
+  {
+   "source": "roboteconomy",
+   "target": "explosivegrowth",
+   "kind": "leads",
+   "why": "In both AI 2027 endings the robot economy in the special economic zones drives economic growth that accelerates by about 1.5 orders of magnitude within a few years."
   }
  ],
  "themes": {
