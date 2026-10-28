@@ -16028,6 +16028,89 @@
      }
     }
    ]
+  },
+  {
+   "id": "crawlerload",
+   "label": "AI crawlers strain sites that host free knowledge",
+   "valence": -2.16,
+   "probability": 0.8,
+   "year": 2025,
+   "evidence": "measured",
+   "summary": "Bots that gather training data for AI models and fetch pages for chatbot answers put a heavy load on sites that serve free content. The Wikimedia Foundation says bandwidth for multimedia downloads grew 50% from January 2024, mostly from scraping bots collecting training data for large language models and other uses, and that bots made up at least 65% of its most expensive traffic though only about 35% of pageviews[1]; by March 2026 it was blocking or throttling about 30% of automated requests from crawlers that break its policies, which send up to billions of requests a day[2]. Fastly found that in some cases AI fetchers sent over 39,000 requests a minute from mid-April to mid-July 2025, with effects like a DDoS attack even without malicious intent[3]. At the documentation host Read the Docs, one buggy AI crawler downloaded 73 TB in May 2024 and cost over $5,000 in bandwidth[4]. Across Cloudflare's network AI bots made up an average of 4.2% of HTML requests in 2025, slightly less than Googlebot alone[5].",
+   "refs": [
+    {
+     "title": "Wikimedia Foundation, How crawlers impact the operations of the Wikimedia projects, April 2025",
+     "url": "https://diff.wikimedia.org/2025/04/01/how-crawlers-impact-the-operations-of-the-wikimedia-projects/",
+     "finding": "Bandwidth used for downloading multimedia content grew 50% since January 2024, mostly from scraping bots collecting training data for large language models and other uses rather than human readers; bots account for at least 65% of the most expensive traffic reaching the core datacentres though they make up about 35% of pageviews. When people streamed a 1.5-hour Jimmy Carter debate video after his death, some connections were saturated for about an hour because bot load had already cut the headroom, and scrapers also hit the code review platform and bug tracker."
+    },
+    {
+     "title": "Wikimedia Foundation, Quo Vadis, Crawlers? Progress and what's next on safeguarding our infrastructure, March 2026",
+     "url": "https://diff.wikimedia.org/2026/03/26/quo-vadis-crawlers-progress-and-whats-next-on-safeguarding-our-infrastructure/",
+     "finding": "A year on, the Foundation is blocking or throttling about 30% of automated requests from crawlers that do not follow its policies, which send up to billions of requests per day, after updating its robot policy, improving bot detection and starting to roll out global API rate limits in March 2026; crawler operators have turned to residential proxy networks spanning hundreds of millions of IP addresses, which makes blocking hard, and high-volume users are pointed to Wikimedia Enterprise."
+    },
+    {
+     "title": "Fastly, New Fastly Threat Research Reveals AI crawlers make up almost 80% of AI bot traffic, Meta Leads AI Crawling As ChatGPT Dominates Real-Time Web Traffic, August 2025",
+     "url": "https://www.fastly.com/press/press-releases/new-fastly-threat-research-reveals-ai-crawlers-make-up-almost-80-of-ai-bot",
+     "finding": "From mid-April to mid-July 2025, AI crawlers made up almost 80% of AI bot traffic seen on Fastly's network, with Meta at 52% of AI crawler traffic, Google 23% and OpenAI 20%. In some cases fetcher request volume exceeded 39,000 requests per minute, putting pressure on unprotected origin infrastructure and mimicking the effects of DDoS attacks even without malicious intent."
+    },
+    {
+     "title": "Read the Docs, AI crawlers need to be more respectful, July 2024",
+     "url": "https://read-the-docs-website.readthedocs-hosted.com/blog/2024/07/ai-crawlers-abuse/",
+     "finding": "One AI crawler downloaded 73 TB of zipped HTML files in May 2024, almost 10 TB in a single day, because of a bug that made it fetch the same files repeatedly, costing over $5,000 in bandwidth charges; after blocking AI crawlers, bandwidth for downloaded files fell 75%, from about 800 GB to about 200 GB a day."
+    },
+    {
+     "title": "Cloudflare, The 2025 Cloudflare Radar Year in Review: the rise of AI, post-quantum, and record-breaking DDoS attacks, 2025",
+     "url": "https://blog.cloudflare.com/radar-2025-year-in-review/",
+     "finding": "Throughout 2025, traffic from AI bots accounted for an average of 4.2% of HTML requests, ranging from 2.4% to 6.4%, while Googlebot alone made up 4.5%; AI crawlers were the user agents with the most full-site disallow rules in robots.txt files."
+    }
+   ],
+   "theme": "ip",
+   "stage": "active",
+   "control": "mitigable",
+   "price_of": [
+    "betteranswers",
+    "cheapintelligence"
+   ],
+   "control_note": "Models and chatbot answers need fresh pages from the web, and the cost of serving those pages falls on whoever hosts them. Rate limits, bot challenges and paid bulk access cut the load, but crawlers that hide behind residential proxies keep the fight going and the blocks can also catch real readers.",
+   "actions": [
+    {
+     "action": "Rate-limit and block crawlers that break the robot policy",
+     "actor": "site operators",
+     "status": "in force",
+     "aim": "impact",
+     "evidence": "The Wikimedia Foundation began rolling out global API rate limits in March 2026 and blocks or throttles about 30% of automated requests from crawlers that break its policies, but crawlers using residential proxies spanning hundreds of millions of IP addresses are hard to block.",
+     "ref": {
+      "title": "Wikimedia Foundation, Quo Vadis, Crawlers? Progress and what's next on safeguarding our infrastructure, March 2026",
+      "url": "https://diff.wikimedia.org/2026/03/26/quo-vadis-crawlers-progress-and-whats-next-on-safeguarding-our-infrastructure/",
+      "finding": "A year on, the Foundation is blocking or throttling about 30% of automated requests from crawlers that do not follow its policies, which send up to billions of requests per day, after updating its robot policy, improving bot detection and starting to roll out global API rate limits in March 2026; crawler operators have turned to residential proxy networks spanning hundreds of millions of IP addresses, which makes blocking hard, and high-volume users are pointed to Wikimedia Enterprise."
+     }
+    },
+    {
+     "action": "Make suspicious clients solve a proof-of-work challenge",
+     "actor": "open-source projects",
+     "status": "in force",
+     "aim": "impact",
+     "evidence": "GNOME, the Linux Kernel Mailing List archive, sourcehut and FFmpeg adopted the Anubis challenge, and a Duke University pilot blocked more than 4 million unwanted requests a day; it relies on scrapers not running JavaScript, which bot makers may work around.",
+     "ref": {
+      "title": "LWN.net, Anubis sends AI scraperbots to a well-deserved fate, July 2025",
+      "url": "https://lwn.net/Articles/1028558/",
+      "finding": "Anubis, an MIT-licensed tool, makes suspicious clients solve a proof-of-work challenge before reaching a site and has been adopted by GNOME, the Linux Kernel Mailing List archive, sourcehut and FFmpeg; a Duke University pilot blocked more than 4 million unwanted HTTP requests a day, with twelve people reporting problems in one week, usually because cookies were disabled. It works because most scraper bots do not run client-side JavaScript, and the article expects bot makers to find ways around it."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "The robots.txt convention",
+     "year": 1994,
+     "parallel": "Site owners have long needed a way to tell crawlers which parts of a site to leave alone, because crawlers that visit a whole site can be a burden.",
+     "outcome": "Martijn Koster defined the Robots Exclusion Protocol in 1994 and it became an IETF standard only in 2022; compliance is voluntary, and the standard says its rules are not a form of access authorization.",
+     "ref": {
+      "title": "Koster, Illyes, Zeller and Sassman, RFC 9309: Robots Exclusion Protocol, IETF 2022",
+      "url": "https://www.rfc-editor.org/rfc/rfc9309.html",
+      "finding": "The protocol, originally defined by Martijn Koster in 1994, lets service owners tell crawlers which parts of a site they may access, since it may be inconvenient for service owners if crawlers visit the entirety of their URI space; it was published as an IETF standard in September 2022, and its rules are not a form of access authorization."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -18448,6 +18531,12 @@
    "target": "unverifiable",
    "kind": "leads",
    "why": "In one analysis of ICLR 2026, reviews with more AI in them gave higher scores and AI-generated reviews were longer and full of filler, which weakens the check reviewers make on new research."
+  },
+  {
+   "source": "crawlerload",
+   "target": "webtraffic",
+   "kind": "twin",
+   "why": "The AI products that crawl sites hard also send fewer people to them: Wikimedia says publishers across the web see more bot traffic and fewer human visitors as chatbots and AI summaries answer for the source."
   }
  ],
  "themes": {
