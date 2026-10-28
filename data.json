@@ -14118,27 +14118,32 @@
    "stage": "active",
    "evidence": "reported",
    "theme": "power",
-   "summary": "Platforms change terms to train on user data by default, which the FTC warns can be unfair or deceptive[2]. All six US frontier developers studied train on users' chats by default[1]; Meta trains on EU public posts unless users object[3], and LinkedIn's opt-out covers only later data[4].",
+   "summary": "Platforms change terms to train on user data by default, which the FTC warns can be unfair or deceptive[2]. All six US frontier developers studied appear to train on users' chats by default[1]; Meta trains on EU adults' public posts unless they object[3], and LinkedIn turned on training with member profiles, posts and resumes in the EU, UK and other regions, where opting out does not undo training already done[4][5].",
    "refs": [
     {
-     "title": "King et al., User Privacy and Large Language Models: An Analysis of Frontier Developers' Privacy Policies, Stanford HAI (2025)",
+     "title": "King, Klyman, Capstick, Saade and Hsieh, User Privacy and Large Language Models: An Analysis of Frontier Developers' Privacy Policies, arXiv (2025)",
      "url": "https://arxiv.org/abs/2509.05382",
-     "finding": "All six US frontier developers studied train on users' chat conversations by default, some keep them indefinitely, and four of six appear to include children's chats; policies often omit essential details."
+     "finding": "All six US frontier developers studied appear to use users' chat data to train and improve their models by default, some retain it indefinitely, four of six appear to include children's chat data, and their privacy policies often lack essential information about their practices."
     },
     {
-     "title": "FTC Office of Technology, AI (and other) Companies: Quietly Changing Your Terms of Service Could Be Unfair or Deceptive (February 2024)",
-     "url": "https://www.ftc.gov/node/85179",
-     "finding": "The FTC warned that firms face a conflict between turning user data into fuel for AI and keeping their privacy commitments, and that retroactive policy changes to allow AI training can be unfair or deceptive."
+     "title": "FTC Office of Technology and Division of Privacy and Identity Protection, AI (and other) Companies: Quietly Changing Your Terms of Service Could Be Unfair or Deceptive (February 2024)",
+     "url": "https://www.ftc.gov/policy/advocacy-research/tech-at-ftc/2024/02/ai-other-companies-quietly-changing-your-terms-service-could-be-unfair-or-deceptive",
+     "finding": "Firms have strong business incentives to turn user data into fuel for AI products while holding existing privacy commitments, and it may be unfair or deceptive to adopt more permissive data practices through a surreptitious, retroactive amendment to terms of service or a privacy policy."
     },
     {
-     "title": "The Register, Meta's still violating GDPR rules with latest plan to train AI on EU user data, says noyb (May 2025)",
-     "url": "https://www.theregister.com/2025/05/14/metas_still_violating_gdpr_rules/",
-     "finding": "Meta began training on EU users' public posts and interactions from 27 May 2025 on an opt-out basis, and required people who had objected in 2024 to object again."
+     "title": "Data Protection Commission (Ireland), DPC statement on Meta AI (21 May 2025)",
+     "url": "https://www.dataprotection.ie/en/news-media/latest-news/dpc-statement-meta-ai",
+     "finding": "Meta told the DPC it would begin training its generative AI models on public content shared by adults on Facebook and Instagram across the EU/EEA on 27 May 2025; people can object through a form, private posts are out of scope, and the DPC's recommendations covered transparency notices and an easier objection form."
     },
     {
-     "title": "TechRadar, LinkedIn set to start to train its AI on member profiles (2025)",
-     "url": "https://www.techradar.com/pro/linkedin-set-to-start-to-train-its-ai-on-member-profiles",
-     "finding": "From November 2025 LinkedIn trains on member profiles, posts and CVs by default in the EU, UK and other regions; opting out only covers data collected afterwards."
+     "title": "LinkedIn Help, LinkedIn and generative AI (GAI) FAQs",
+     "url": "https://www.linkedin.com/help/linkedin/answer/a5538339",
+     "finding": "LinkedIn trains content-generating AI models on profile data, member posts and comments, and resumes and screening answers, but not private messages; it updated its privacy notice for the Designated Countries and the UK on 3 November 2025, and opting out does not affect training that has already taken place."
+    },
+    {
+     "title": "The Register, You have one week to opt out or become fodder for LinkedIn AI training (October 2025)",
+     "url": "https://www.theregister.com/2025/10/27/linkedin_ai_profile_scraping/",
+     "finding": "From 3 November 2025 LinkedIn uses profile details and public posts of members in the EU, EEA, Switzerland, Canada and Hong Kong to train AI unless they opt out, and the UK's earlier exemption appears to be ending."
     }
    ],
    "control": "mitigable",
@@ -14146,7 +14151,7 @@
     "betteranswers",
     "cheapintelligence"
    ],
-   "control_note": "Opt-in consent rules and enforcement against retroactive policy changes would stop it, but regulators have so far negotiated opt-outs rather than required opt-in.",
+   "control_note": "Opt-in consent rules and enforcement against retroactive policy changes would stop it, but Ireland's regulator let Meta proceed with an objection form after recommending changes to it.",
    "valence": -3.79
   },
   {
@@ -14157,29 +14162,29 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "power",
-   "summary": "Models absorb the stereotypes in their training data[3] and sometimes amplify them; one analysis of more than 5,000 Stable Diffusion images found it amplified race and gender stereotypes beyond US labour statistics[2]. In one study, alignment training hid dialect prejudice behind polite answers that still shaped decisions[1].",
+   "summary": "Models can absorb biased or outdated claims from their training data[3] and sometimes amplify them; one analysis of 5,100 Stable Diffusion images found it exaggerated race and gender gaps beyond US labour statistics[2]. In one study, human-preference alignment made models' overt statements about African Americans more positive while covert dialect prejudice remained and still drove harsher hypothetical judgements[1].",
    "refs": [
     {
      "title": "Hofmann, Kalluri, Jurafsky and King, AI generates covertly racist decisions about people based on their dialect, Nature 633 (2024)",
      "url": "https://www.nature.com/articles/s41586-024-07856-5",
-     "finding": "Language models judged speakers of African American English more harshly than any human stereotypes recorded in experiments, assigning them lower-prestige jobs and more convictions and death sentences; human-preference alignment widened the gap between covert and overt racism."
+     "finding": "Language models held covert stereotypes about speakers of African American English more negative than any human stereotypes about African Americans recorded in experiments, and were more likely to assign them less-prestigious jobs, convict them of crimes and sentence them to death; human-preference alignment widened the gap between covert and overt stereotypes by superficially obscuring the racism."
     },
     {
-     "title": "Bloomberg, Humans Are Biased. Generative AI Is Even Worse (2023)",
+     "title": "Nicoletti and Bass, Humans Are Biased. Generative AI Is Even Worse, Bloomberg (June 2023)",
      "url": "https://www.bloomberg.com/graphics/2023-generative-ai-bias/",
-     "finding": "Across more than 5,000 Stable Diffusion images, the model amplified race and gender stereotypes beyond US labour statistics, rarely showing women as doctors, lawyers or judges and linking darker-skinned men with crime."
+     "finding": "Across 5,100 Stable Diffusion images for 14 jobs and three crime-related keywords, the model amplified race and gender stereotypes compared with US labour data: women made up about 3% of images for 'judge' against 34% of US judges, and over 80% of 'inmate' images showed people with darker skin, though people of color are less than half of the US prison population."
     },
     {
-     "title": "Omiye et al., Large language models propagate race-based medicine, npj Digital Medicine (2023)",
+     "title": "Omiye, Lester, Spichak, Rotemberg and Daneshjou, Large language models propagate race-based medicine, npj Digital Medicine 6, 195 (2023)",
      "url": "https://www.nature.com/articles/s41746-023-00939-z",
-     "finding": "All four commercial chatbots tested repeated debunked race-based medical claims, such as race-adjusted kidney function and lung capacity."
+     "finding": "All four commercial models tested (ChatGPT, GPT-4, Bard and Claude) gave race-based medical answers, all repeated the false claim that skin thickness differs by race, and GPT-4 promoted race-based kidney function and lung capacity values; the authors note models trained on internet text and textbooks may incorporate older, biased information."
     }
    ],
    "control": "mitigable",
    "price_of": [
     "betteranswers"
    ],
-   "control_note": "Bias audits before deployment and curated or reweighted data reduce it, but the Nature study found that surface-level alignment hides prejudice rather than removing it.",
+   "control_note": "Bias audits before deployment can catch it, but the Nature study found that human-preference alignment hid dialect prejudice rather than removing it.",
    "valence": -3.75
   },
   {
@@ -14190,34 +14195,39 @@
    "stage": "emerging",
    "evidence": "reported",
    "theme": "information",
-   "summary": "Generated papers, citations and reviews may pile up faster than anyone can check: GPTZero found at least 100 fabricated citations across 51 accepted NeurIPS 2025 papers[1], and an estimated 6.5% to 16.9% of AI-conference peer-review text was substantially LLM-modified[2]. arXiv's CS section stopped taking unreviewed review papers after a flood[3].",
+   "summary": "Generated papers, citations and reviews may pile up faster than anyone can check: GPTZero reported 100 human-verified fabricated citations in more than 50 accepted NeurIPS 2025 papers[1], though NeurIPS said wrong references do not necessarily invalidate a paper[5]. An estimated 6.5% to 16.9% of peer-review text at four AI conferences was substantially LLM-modified[2], at least 13.5% of 2024 PubMed abstracts show signs of LLM processing[4], and arXiv's computer-science category stopped accepting review and position papers without peer review after an influx it said LLMs made easy to churn out[3].",
    "refs": [
     {
-     "title": "GPTZero, GPTZero finds 100 new hallucinations in NeurIPS 2025 accepted papers (January 2026)",
+     "title": "Shmatko, Adam, Esau, Cui and Tian, GPTZero finds 100 new hallucinations in NeurIPS 2025 accepted papers, GPTZero (January 2026)",
      "url": "https://gptzero.me/news/neurips/",
-     "finding": "Scanning 4,841 of 5,290 papers accepted at NeurIPS 2025 found at least 100 hand-verified fabricated citations across 51 papers that had passed peer review."
+     "finding": "Scanning 4,841 of the 5,290 papers accepted at NeurIPS 2025 found 100 hallucinated citations, each verified by a human expert, in papers that had passed peer review; the post puts the number of affected papers at 51 in its text and 53 in its table."
     },
     {
      "title": "Liang et al., Monitoring AI-Modified Content at Scale: A Case Study on the Impact of ChatGPT on AI Conference Peer Reviews, ICML (2024)",
      "url": "https://arxiv.org/abs/2403.07183",
-     "finding": "An estimated 6.5% to 16.9% of peer-review text at major AI conferences in 2023 and 2024 was substantially modified by language models, more so for reviews submitted close to the deadline."
+     "finding": "An estimated 6.5% to 16.9% of peer-review text at ICLR 2024, NeurIPS 2023, CoRL 2023 and EMNLP 2023 could have been substantially modified by language models, more so in reviews with lower reviewer confidence, those submitted close to the deadline and those from reviewers less likely to respond to rebuttals."
     },
     {
-     "title": "404 Media, arXiv Changes Rules After Getting Spammed With AI-Generated Research Papers (October 2025)",
-     "url": "https://www.404media.co/arxiv-changes-rules-after-getting-spammed-with-ai-generated-research-papers/",
-     "finding": "arXiv's computer-science section stopped accepting review and position papers that have not passed peer review, after a flood of AI-written surveys its moderators could not screen."
+     "title": "arXiv blog, Attention Authors: Updated Practice for Review Articles and Position Papers in arXiv CS Category (October 2025)",
+     "url": "https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/",
+     "finding": "Review articles and position papers in arXiv's computer-science category must now be accepted at a journal or conference after peer review, because of an unmanageable influx of hundreds of review articles a month that large language models have made easy to churn out."
     },
     {
-     "title": "Kobak et al., Science Advances 2025",
+     "title": "Kobak, González-Márquez, Horvát and Lause, Delving into LLM-assisted writing in biomedical publications through excess vocabulary, Science Advances 11 (2025)",
      "url": "https://www.science.org/doi/10.1126/sciadv.adt3813",
-     "finding": "At least 13.5% of 2024 biomedical abstracts show signs of LLM processing."
+     "finding": "Excess style words in more than 15 million PubMed abstracts from 2010 to 2024 indicate that at least 13.5% of 2024 abstracts were processed with LLMs, reaching 40% in some subcorpora."
+    },
+    {
+     "title": "Fortune, NeurIPS, one of the world's top academic AI conferences, accepted research papers with 100+ AI-hallucinated citations, new report claims (January 2026)",
+     "url": "https://fortune.com/2026/01/21/neurips-ai-conferences-research-papers-hallucinations/",
+     "finding": "NeurIPS said that even if 1.1% of papers have one or more incorrect references due to LLM use, the content of the papers is not necessarily invalidated, and that significantly more effort is needed to determine the implications."
     }
    ],
    "control": "mitigable",
    "price_of": [
     "science"
    ],
-   "control_note": "Automated citation checks, disclosure rules and paid, accountable reviewing can keep the filters working; detectors alone are unreliable.",
+   "control_note": "Automated citation checks confirmed by a human and stricter gatekeeping such as arXiv's peer-review requirement can keep the filters working, but fabricated citations still passed NeurIPS review.",
    "valence": -3.09
   },
   {
@@ -14228,44 +14238,54 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "information",
-   "summary": "In one study of 697 people, participants were worse at spotting false tweets written by GPT-3 than by people[1]. NewsGuard counts 3,749 AI content farm sites, up from 49 in May 2023[2], and in one audit ten leading chatbots repeated false news claims 35% of the time[3].",
+   "summary": "In one preregistered study of 697 people, participants were slightly worse at spotting false tweets written by GPT-3 than false tweets written by people[1]. NewsGuard counted 3,749 AI content farm sites in 16 languages by June 2026[2], up from 49 it found in April 2023[3], and in its August 2025 audit ten leading chatbots repeated false news claims 35% of the time[4]. Journalists at 22 public broadcasters found almost half of over 3,000 AI assistant answers about news had at least one significant issue[5]. Some researchers argue the fears are overblown, because how much misinformation people see is limited by demand and distribution rather than by the cost of making it[6].",
    "refs": [
     {
      "title": "Spitale, Biller-Andorno and Germani, AI model GPT-3 (dis)informs us better than humans, Science Advances (2023)",
      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10306283/",
-     "finding": "In a preregistered study of 697 people, participants were less able to spot false tweets written by GPT-3 than false tweets written by people, and could not reliably tell GPT-3 tweets from human ones."
+     "finding": "In a preregistered study of 697 people, mostly from the UK, Australia, Canada, the US and Ireland, participants recognised false tweets written by people slightly better than false tweets written by GPT-3 (0.92 versus 0.89), and could not tell GPT-3 tweets from human ones better than chance."
     },
     {
      "title": "NewsGuard, Tracking AI-enabled Misinformation: AI Content Farm sites (updated June 2026)",
      "url": "https://www.newsguardtech.com/special-reports/ai-tracking-center/",
-     "finding": "NewsGuard has identified 3,749 AI content farm news and information sites in 16 languages, up from 49 when it started counting in May 2023."
+     "finding": "NewsGuard has identified 3,749 AI content farm news and information sites spanning 16 languages (page last updated 23 June 2026)."
     },
     {
-     "title": "NewsGuard, One-Year AI Audit Progress Report Finds that AI Models Spread Falsehoods in the News 35% of the Time (September 2025)",
-     "url": "https://www.newsguardtech.com/press/newsguard-one-year-ai-audit-progress-report-finds-that-ai-models-spread-falsehoods-in-the-news-35-of-the-time/",
-     "finding": "Ten leading chatbots repeated false claims on news topics 35% of the time in August 2025, up from 18% a year earlier, as they stopped declining and drew on a web seeded by disinformation networks."
+     "title": "Sadeghi and Arvanitis, Rise of the Newsbots: AI-Generated News Websites Proliferating Online, NewsGuard (May 2023)",
+     "url": "https://www.newsguardtech.com/special-reports/newsbots-ai-generated-news-websites-proliferating/",
+     "finding": "In April 2023, NewsGuard identified 49 websites in seven languages that appear to be entirely or mostly generated by AI language models and are designed to look like typical news sites."
+    },
+    {
+     "title": "NewsGuard, AI False Information Rate Nearly Doubles in One Year (September 2025)",
+     "url": "https://www.newsguardtech.com/ai-monitor/august-2025-ai-false-claim-monitor/",
+     "finding": "In August 2025, ten leading chatbots repeated false information on news topics 35% of the time, up from 18% in August 2024; their non-response rate fell from 31% to 0% as they adopted real-time web search and drew on a polluted online ecosystem, sometimes deliberately seeded by networks including Russian disinformation operations."
     },
     {
      "title": "EBU and BBC, News Integrity in AI Assistants (October 2025)",
      "url": "https://www.ebu.ch/research/open/report/news-integrity-in-ai-assistants",
      "finding": "Journalists from 22 public service broadcasters in 18 countries reviewed over 3,000 answers from ChatGPT, Copilot, Gemini and Perplexity; almost half had at least one significant issue."
+    },
+    {
+     "title": "Simon, Altay and Mercier, Misinformation reloaded? Fears about the impact of generative AI on misinformation are overblown, HKS Misinformation Review (October 2023)",
+     "url": "https://misinforeview.hks.harvard.edu/article/misinformation-reloaded-fears-about-the-impact-of-generative-ai-on-misinformation-are-overblown/",
+     "finding": "The authors argue that misinformation consumption is mostly limited by demand, not supply, that most people see little of it, and that the cost of reaching people, rather than the cost of creating content, remains the bottleneck; their evidence comes mainly from wealthy democracies."
     }
    ],
    "control": "mitigable",
    "price_of": [
     "cheapintelligence"
    ],
-   "control_note": "Provenance labels, platform duties and source-quality filters in chatbots cut reach and repetition, but producing a convincing false story costs almost nothing.",
+   "control_note": "Provenance labels, platform duties and source-quality filters in chatbots can limit reach and repetition; producing a convincing false story costs almost nothing, but reaching an audience remains the harder step.",
    "precedents": [
     {
      "event": "Veles fake news sites in the 2016 US election",
      "year": 2016,
-     "parallel": "A small town in North Macedonia ran at least 100 US politics sites that published made-up stories for ad clicks, the same economics that generated text now automates.",
-     "outcome": "The sites earned their owners a few thousand dollars a month and spread widely on Facebook; they needed people to write every story, which language models no longer do.",
+     "parallel": "Teenagers in Veles, a small town in what is now North Macedonia, ran at least 100 US politics sites, mostly pro-Trump, that found or made up clickbait stories for ad revenue, the business model that generated text now makes cheaper.",
+     "outcome": "The teenagers typically earned a few thousand dollars a month; their biggest hit, a false Hillary Clinton quote, drew over 480,000 shares, reactions and comments on Facebook.",
      "ref": {
-      "title": "The World, Kids in Macedonia made up and circulated many false news stories in the US election (November 2016)",
+      "title": "Christopher Woolf, Kids in Macedonia made up and circulated many false news stories in the US election, The World (November 2016)",
       "url": "https://theworld.org/stories/2016-11-16/kids-macedonia-made-and-circulated-many-false-news-stories-us-election",
-      "finding": "At least 100 fake US politics sites, mostly pro-Trump, were run from Veles for advertising revenue."
+      "finding": "Veles was home to at least 100 fake news sites about US politics, mostly pro-Trump, run by teenagers for advertising revenue; they typically earned a few thousand dollars a month, and a story with a false Clinton quote drew over 480,000 shares, reactions and comments on Facebook."
      }
     }
    ],
@@ -14279,29 +14299,29 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "ip",
-   "summary": "Generators turn a description into a picture, a song or a story. In one study, artists who adopted text-to-image tools became 25% more productive and drew about 50% more favourites per view[1]; in another, AI ideas helped the least creative writers most[2].",
+   "summary": "In one study of over 50,000 users of an art-sharing site, artists who adopted text-to-image tools became 25% more productive and within six months drew about 50% more favourites per view, though the average novelty of their work fell[1]. In an experiment with 293 writers, story ideas from a language model helped the least creative writers most, bringing them level with the most creative, while the stories became more alike[2].",
    "refs": [
     {
      "title": "Zhou and Lee, Generative artificial intelligence, human creativity, and art, PNAS Nexus (2024)",
      "url": "https://academic.oup.com/pnasnexus/article/3/3/pgae052/7618478",
-     "finding": "Artists who adopted text-to-image tools became 25% more productive and, after a few months, their work drew about 50% more favourites per view, though average novelty fell."
+     "finding": "Across over 4 million artworks from more than 50,000 users, adopting text-to-image tools raised artists' productivity by 25% and, by the sixth month, the likelihood of a favourite per view by 50%, while average content novelty and visual novelty fell."
     },
     {
      "title": "Doshi and Hauser, Generative AI enhances individual creativity but reduces the collective diversity of novel content, Science Advances (2024)",
      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11244532/",
-     "finding": "In a study of 293 writers, AI ideas raised the novelty and quality of stories most for the least creative writers, bringing them roughly level with the most creative, while the stories became more alike."
+     "finding": "In an online experiment with 293 writers and 600 evaluators, access to AI story ideas made stories more creative, better written and more enjoyable, with the biggest gains for writers who scored lowest on a creativity test, putting them on par with the highest scorers, while stories with AI ideas became more similar to each other."
     }
    ],
    "precedents": [
     {
      "event": "The Kodak camera puts photography in amateur hands",
      "year": 1888,
-     "parallel": "Kodak sold a box camera that needed no skill, \"you press the button, we do the rest\", and image-making spread from trained professionals to anyone.",
-     "outcome": "Snapshots became a mass form of expression and photography grew into an art of its own, while painters lost much of their portrait trade.",
+     "parallel": "Kodak sold a simple box camera and processed the film for the customer, so people with no photographic training could make pictures, as generators let people without artistic training make images.",
+     "outcome": "By simplifying the camera and processing the film for the customer, Kodak made photography accessible to millions of casual amateurs with no professional training, technical expertise or aesthetic credentials.",
      "ref": {
-      "title": "George Eastman Museum, From the Camera Obscura to the Revolutionary Kodak",
-      "url": "https://www.eastman.org/camera-obscura-revolutionary-kodak",
-      "finding": "The 1888 Kodak was designed for novices, needed no adjustments or photographic knowledge, and was sold with the slogan \"You press the button, we do the rest.\""
+      "title": "Mia Fineman, Kodak and the Rise of Amateur Photography, The Metropolitan Museum of Art, Heilbrunn Timeline of Art History (October 2004)",
+      "url": "https://www.metmuseum.org/essays/kodak-and-the-rise-of-amateur-photography",
+      "finding": "The Kodak #1 of 1888 was a simple box camera loaded with a 100-exposure roll that was sent back to the factory for processing and reloading; by simplifying the apparatus and processing the film for the consumer, Eastman made photography accessible to millions of casual amateurs with no particular professional training, technical expertise or aesthetic credentials."
      }
     }
    ],
@@ -14315,29 +14335,29 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "information",
-   "summary": "Models state falsehoods as confidently as facts, partly because benchmarks reward confident guessing over admitting uncertainty[1]. Even summarising a given document, current models add unsupported claims in 1.8% to 24.2% of summaries[2]; by June 2026 one database counted 1,058 US court cases with improper AI use in filings[3].",
+   "summary": "Models produce plausible but false statements instead of admitting uncertainty, partly because most benchmarks score a confident guess above saying it does not know[1]. Even when summarising a document they were given, the models on one leaderboard produced summaries not factually consistent with it in 1.8% to 24.2% of cases[2]. By 27 October 2026 one database listed 2,225 decisions worldwide in which a court or tribunal found or implied that a party relied on hallucinated content, 1,514 of them in the US[3].",
    "refs": [
     {
      "title": "Kalai, Nachum, Vempala and Zhang, Why Language Models Hallucinate (2025)",
      "url": "https://arxiv.org/abs/2509.04664",
-     "finding": "Hallucinations follow from how models are trained and scored: benchmarks reward a confident guess over admitting uncertainty, so models learn to guess."
+     "finding": "Language models produce plausible but incorrect statements because training and evaluation reward guessing over admitting uncertainty; most benchmarks penalise uncertain answers, so models are optimised to be good test-takers."
     },
     {
      "title": "Vectara, Hallucination Leaderboard (updated October 2026)",
      "url": "https://github.com/vectara/hallucination-leaderboard",
-     "finding": "Even when only summarising a document they were given, current models add unsupported claims in 1.8% to 24.2% of summaries."
+     "finding": "Of the models on the leaderboard (updated 22 October 2026), the share of document summaries judged not factually consistent with the source ranged from 1.8% to 24.2%."
     },
     {
-     "title": "Kirschenfeld, Handling Hallucinations: A Reflection on the Last Three Years, UNC Law Library (June 2026)",
-     "url": "https://library.law.unc.edu/2026/06/handling-hallucinations-a-reflection/",
-     "finding": "Damien Charlotin's database recorded 1,058 US court cases involving improper use of generative AI in filings by June 2026, about 40% of them by attorneys."
+     "title": "Damien Charlotin, AI Hallucination Cases Database (updated 27 October 2026)",
+     "url": "https://www.damiencharlotin.com/hallucinations/",
+     "finding": "The database tracks legal decisions where a court or tribunal explicitly found or implied that a party relied on hallucinated content, not mere allegations; it listed 2,225 cases, 1,514 of them in the US, with 879 involving lawyers and 1,283 pro se litigants."
     }
    ],
    "control": "mitigable",
    "price_of": [
     "betteranswers"
    ],
-   "control_note": "Checking claims against sources, by people or by verification tools, catches most errors, but only when someone actually checks.",
+   "control_note": "Checking claims against their sources catches errors, but only when someone actually checks; scoring models so that admitting uncertainty beats guessing could reduce errors at the source.",
    "valence": -2.86
   },
   {
@@ -14348,17 +14368,22 @@
    "stage": "expected",
    "evidence": "projected",
    "theme": "world",
-   "summary": "If AI compresses decades of biology into years, most infectious disease and most cancers could become preventable or curable[1]. Early results are mixed: in one analysis, AI-discovered molecules passed Phase I 80% to 90% of the time, but Phase II success was about 40%, in line with the industry[2].",
+   "summary": "Dario Amodei forecasts that AI could compress 50 to 100 years of biological progress into 5 to 10, bringing reliable prevention and treatment of nearly all natural infectious disease and the elimination of most cancer[1]. Early clinical results are mixed: in one analysis of AI-native biotech pipelines, AI-discovered molecules passed Phase I 80% to 90% of the time, but Phase II success was about 40%, in line with historic averages and based on a small sample[2]. A 2026 IQVIA analysis found a 75% Phase I success rate for AI-enabled programs at emerging biopharma companies, Phase II success on par with comparable programs, and too few Phase III transitions to judge[3].",
    "refs": [
     {
-     "title": "Amodei, Machines of Loving Grace (October 2024)",
+     "title": "Amodei, Machines of Loving Grace: How AI Could Transform the World for the Better (October 2024)",
      "url": "https://www.darioamodei.com/essay/machines-of-loving-grace",
-     "finding": "Forecasts that AI could compress 50 to 100 years of biological progress into 5 to 10, with reliable prevention of nearly all natural infectious disease and elimination of most cancer."
+     "finding": "Forecasts that AI could compress the progress biologists would make in 50 to 100 years into 5 to 10, with reliable prevention and treatment of nearly all natural infectious disease and elimination of most cancer, where reductions of 95% or more in mortality and incidence seem possible."
     },
     {
      "title": "Jayatunga et al., How successful are AI-discovered drugs in clinical trials? A first analysis and emerging lessons, Drug Discovery Today (2024)",
      "url": "https://pubmed.ncbi.nlm.nih.gov/38692505/",
-     "finding": "AI-discovered molecules passed Phase I trials 80% to 90% of the time, well above historic averages, but Phase II success was about 40%, in line with the industry."
+     "finding": "Of molecules from AI-native biotech companies, 80% to 90% succeeded in Phase I, well above historic averages; Phase II success was about 40%, comparable to historic averages, though the Phase II sample was small."
+    },
+    {
+     "title": "Alex Roland, IQVIA Institute's Global R&D Trends 2026 Report Finds Credible Signal on AI-Enabled Programs, IQVIA (May 2026)",
+     "url": "https://www.iqvia.com/blogs/2026/05/iqvia-institutes-global-r-and-d-trends-2026-report-finds-credible-signal-on-ai-enabled-programs",
+     "finding": "Over the most recent three-year window, AI-enabled programs at emerging biopharma companies had a 75% Phase I success rate, Phase II success on par with comparable non-AI programs and too few Phase III transitions to analyse; the vetted cohort was relatively small and industry-wide success rates were unchanged."
     }
    ],
    "valence": 5.0
@@ -14371,17 +14396,22 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "security",
-   "summary": "Models can turn compiled programs and firmware back into readable code; in one study, open decompilation models more than doubled the share of programs that recompile and run correctly versus GPT-4o and Ghidra[1]. With an AI assistant, one researcher found four login-free flaws in camera firmware[2].",
+   "summary": "Models can help turn compiled programs and firmware back into readable code. On one benchmark of C functions, an open model trained for decompilation produced code that recompiled and passed tests 45% of the time, against 16% for GPT-4o and 20% for the Ghidra decompiler[1]. Using AI models to explain decompiled firmware, one researcher found an HTTPS private key shared by all TP-Link Tapo C200 cameras and four flaws reachable without logging in[2]. The output is not yet reliable: on 23,400 functions from 130 real programs, language-model decompilers produced more understandable code than commercial tools but had a 52.2% deficit in functional correctness[3].",
    "refs": [
     {
      "title": "Tan, Luo, Li and Zhang, LLM4Decompile: Decompiling Binary Code with Large Language Models, EMNLP (2024)",
      "url": "https://arxiv.org/abs/2403.05286",
-     "finding": "Open models trained for decompilation more than doubled the share of decompiled programs that recompile and run correctly compared with GPT-4o and the Ghidra decompiler."
+     "finding": "On the HumanEval-Decompile benchmark, the 6.7-billion-parameter end-to-end model produced C functions that recompiled and passed tests 45.4% of the time on average across optimisation levels, against 16.0% for GPT-4o and 20.1% for Ghidra; the abstract reports re-executability gains of over 100% against both."
     },
     {
-     "title": "evilsocket, TP-Link Tapo C200: Hardcoded Keys, Buffer Overflows and Privacy in the Era of AI Assisted Reverse Engineering (December 2025)",
+     "title": "Simone Margaritelli (evilsocket), TP-Link Tapo C200: Hardcoded Keys, Buffer Overflows and Privacy in the Era of AI Assisted Reverse Engineering (December 2025)",
      "url": "https://evilsocket.net/2025/12/18/TP-Link-Tapo-C200-Hardcoded-Keys-Buffer-Overflows-and-Privacy-in-the-Era-of-AI-Assisted-Reverse-Engineering",
-     "finding": "Working with an AI assistant to map and explain decompiled firmware, one researcher found a private key shared across cameras and four flaws exploitable without logging in."
+     "finding": "Using AI models to research the firmware, explore its files and explain and rename decompiled functions in Ghidra, the author found that the camera's HTTPS private key is shared by all devices and four flaws reachable without authentication, three of which received CVEs when TP-Link published an advisory in December 2025."
+    },
+    {
+     "title": "Gao et al., DecompileBench: A Comprehensive Benchmark for Evaluating Decompilers in Real-World Scenarios, Findings of ACL (2025)",
+     "url": "https://aclanthology.org/2025.findings-acl.1194/",
+     "finding": "Comparing six industrial decompilers with six language-model approaches on 23,400 functions from 130 real-world programs, the language-model methods beat commercial tools on code understandability but had a 52.2% deficit in functional correctness."
     }
    ],
    "valence": -0.33,
@@ -14395,17 +14425,22 @@
    "stage": "emerging",
    "evidence": "reported",
    "theme": "security",
-   "summary": "AI assistants could let researchers, journalists and owners take apart apps and devices without a specialist lab. One hobbyist used Claude Code to decompile his robot vacuum's app and found about 7,000 vacuums in 24 countries exposing live cameras, microphones and floor plans[1].",
+   "summary": "AI coding assistants could let researchers, journalists and owners take apart apps and devices without a specialist lab. One hobbyist used Claude Code to decompile his DJI robot vacuum's app and found about 7,000 vacuums in 24 countries exposing live cameras, microphones and floor plans; DJI said it shipped patches on 8 and 10 February 2026, though he said other flaws remained[1]. Audits without AI show what such work can expose: a 2024 study of Samsung and LG TVs in the UK and US found content-recognition tracking ran even when the set was used as a plain external display, and opting out stopped the traffic[2]. Texas sued Samsung, Sony, LG, Hisense and TCL over smart TV data collection, and in February 2026 Samsung agreed to halt collecting content-recognition viewing data from Texans without their express consent; the other cases were still ongoing[3].",
    "refs": [
     {
-     "title": "Malwarebytes, Hobby coder accidentally creates vacuum robot army (February 2026)",
+     "title": "Danny Bradbury, Hobby coder accidentally creates vacuum robot army, Malwarebytes (February 2026)",
      "url": "https://www.malwarebytes.com/blog/news/2026/02/hobby-coder-accidentally-creates-vacuum-robot-army",
-     "finding": "A hobbyist used Claude Code to decompile the app of his DJI robot vacuum and found that about 7,000 vacuums in 24 countries exposed live cameras, microphones and floor plans to anyone with one device token."
+     "finding": "A hobbyist used Claude Code to decompile the app of his DJI Romo robot vacuum and found that about 7,000 vacuums in 24 countries exposed live cameras, microphones and floor plans to anyone with one device token; DJI said it issued patches on 8 and 10 February, while he said other flaws, including a camera PIN bypass, remained."
     },
     {
      "title": "Anselmi et al., Watching TV with the Second-Party: A First Look at Automatic Content Recognition Tracking in Smart TVs, IMC (2024)",
      "url": "https://arxiv.org/abs/2409.06203",
-     "finding": "An audit of Samsung and LG sets found content-recognition tracking sending fingerprints of what is on screen even when the TV is only used as a monitor; opting out stopped the traffic."
+     "finding": "A black-box network audit of Samsung and LG smart TVs in the UK and US found content-recognition tracking works even when the TV is used as a plain external display, and that opting out stops traffic to the recognition servers."
+    },
+    {
+     "title": "Office of the Texas Attorney General, Attorney General Paxton Secures Major Agreement with Samsung to Ensure that Texans are Protected from Smart TVs Collecting Their Data Without Their Knowledge (February 2026)",
+     "url": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-paxton-secures-major-agreement-samsung-ensure-texans-are-protected-smart-tvs",
+     "finding": "Following the Attorney General's lawsuit, Samsung must halt any collection or processing of ACR viewing data without Texas consumers' express consent and add clear and conspicuous disclosures and consent screens; Texas has also sued Sony, LG, Hisense and TCL, and those cases remain ongoing."
     }
    ],
    "valence": 3.43
@@ -14418,41 +14453,41 @@
    "stage": "expected",
    "evidence": "projected",
    "theme": "security",
-   "summary": "Agent-run attacks could hit power, hospitals, payments or fuel supply across whole regions at once, faster than defenders respond. The UK's NCSC judges AI will almost certainly make intrusions more effective[1], and one state-sponsored group used an agent for 80 to 90% of an espionage campaign[2].",
+   "summary": "Agent-run attacks could take down power, hospitals, payments or fuel supply across whole regions at once. The UK's NCSC judges AI will almost certainly make parts of intrusions more effective and further shrink the days between a flaw's disclosure and its exploitation, and that critical systems could become more vulnerable to advanced attackers by 2027[1]. Anthropic reported that a Chinese state-sponsored group used an AI agent for 80 to 90% of an espionage campaign against about 30 targets, though it succeeded in only a few cases and the agent sometimes made up results[2].",
    "refs": [
     {
-     "title": "NCSC, Impact of AI on cyber threat from now to 2027 (May 2025)",
+     "title": "NCSC, Impact of AI on cyber threat from now to 2027 (7 May 2025)",
      "url": "https://www.ncsc.gov.uk/report/impact-ai-cyber-threat-now-2027",
-     "finding": "AI will almost certainly make intrusions more effective and efficient, and it is a realistic possibility that critical systems become more vulnerable to advanced actors by 2027."
+     "finding": "AI will almost certainly make elements of cyber intrusion operations more effective and efficient and further reduce the time between disclosure and exploitation, now days; assuming a lag in mitigations, it is a realistic possibility that critical systems become more vulnerable to advanced threat actors by 2027."
     },
     {
-     "title": "Anthropic, Disrupting the first reported AI-orchestrated cyber espionage campaign (2025)",
+     "title": "Anthropic, Disrupting the first reported AI-orchestrated cyber espionage campaign (13 November 2025)",
      "url": "https://www.anthropic.com/news/disrupting-AI-espionage",
-     "finding": "A state-sponsored group used an agent to perform 80 to 90% of an espionage campaign against about 30 targets."
+     "finding": "A group Anthropic assessed with high confidence to be Chinese state-sponsored used an AI agent to perform 80 to 90% of a campaign against roughly 30 targets, succeeding in a small number of cases; the agent occasionally hallucinated credentials or overstated what it had found."
     }
    ],
    "control": "mitigable",
    "price_of": [
     "patching"
    ],
-   "control_note": "The same agents that find holes can patch them. Hardening critical systems and segmenting networks limit how far one attack spreads.",
+   "control_note": "AI will also help system owners and developers secure systems, and systems that keep pace with AI-enabled threats stay far less exposed than those that fall behind. Hardening critical systems and separating them from office networks limit how far one attack spreads.",
    "precedents": [
     {
      "event": "Colonial Pipeline ransomware",
      "year": 2021,
-     "parallel": "One ransomware intrusion into a company network led to a fuel pipeline being shut, the kind of knock-on disruption feared at larger scale.",
-     "outcome": "Drivers queued and stockpiled fuel along the US east coast; it was a criminal ransomware attack with no AI.",
+     "parallel": "One ransomware attack that encrypted a company's office IT systems led it to shut down a fuel pipeline, the kind of knock-on disruption feared at larger scale.",
+     "outcome": "Drivers queued and panic-bought fuel along the US East Coast and thousands of gas stations ran dry; it was a criminal ransomware attack with no AI.",
      "ref": {
-      "title": "CISA, The Attack on Colonial Pipeline: What We've Learned and What We've Done Over the Past Two Years",
-      "url": "https://www.cisa.gov/news-events/news/attack-colonial-pipeline-what-weve-learned-what-weve-done-over-past-two-years",
-      "finding": "The May 2021 attack led to long lines at gas stations along the eastern seaboard."
+      "title": "US Senate Committee on Homeland Security and Governmental Affairs, Threats to Critical Infrastructure: Examining the Colonial Pipeline Cyberattack (hearing, 8 June 2021)",
+      "url": "https://www.govinfo.gov/content/pkg/CHRG-117shrg46569/html/CHRG-117shrg46569.htm",
+      "finding": "Colonial's CEO testified that a ransomware attack by a cyber criminal group encrypted the company's IT systems and that it shut the pipeline down; senators described panic buying, gas lines and nearly 16,000 stations without fuel."
      }
     },
     {
      "event": "NotPetya",
      "year": 2017,
-     "parallel": "Malware aimed at one country spread on its own through global company networks, showing how far one attack can reach.",
-     "outcome": "The US government called it the most destructive and costly cyberattack in history, with billions of dollars in damage across three continents.",
+     "parallel": "Malware the US tied to a Russian effort to destabilise Ukraine quickly spread worldwide, showing how far one attack can reach.",
+     "outcome": "The US government called it the most destructive and costly cyberattack in history, with billions of dollars in damage across Europe, Asia and the Americas.",
      "ref": {
       "title": "White House, Statement from the Press Secretary (15 February 2018)",
       "url": "https://trumpwhitehouse.archives.gov/briefings-statements/statement-press-secretary-25/",
@@ -14470,17 +14505,17 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "ip",
-   "summary": "Views on AI-assisted art split. In one survey of 459 artists, most wanted model makers to disclose which artworks they train on and worried about the art workforce[1]; one study found artists using text-to-image tools became 25% more productive and drew about 50% more favourites per view, though novelty fell[2].",
+   "summary": "Views on AI-assisted art split. In one survey of 459 artists, 80% wanted model makers to disclose which art they train on and 62% saw the models as a threat to art workers[1]; one study of over 4 million artworks on an art-sharing site found artists who adopted text-to-image tools became 25% more productive and about 50% more likely to get a favourite per view, though average novelty fell[2].",
    "refs": [
     {
-     "title": "Lovato et al., Foregrounding Artist Opinions: A Survey Study on Transparency, Ownership, and Fairness in AI Generative Art (2024)",
+     "title": "Lovato et al., Foregrounding Artist Opinions: A Survey Study on Transparency, Ownership, and Fairness in AI Generative Art (arXiv preprint, 2024)",
      "url": "https://arxiv.org/abs/2401.15497",
-     "finding": "In a survey of 459 artists, most wanted model makers to disclose which artworks they train on and were concerned about AI's effect on the art workforce, while seeing some potential benefits."
+     "finding": "In a survey of 459 artists, 80% agreed model creators should disclose in detail which art and images they train on and 62% agreed AI models are a threat to art workers, while views on the tools' usefulness were mixed."
     },
     {
      "title": "Zhou and Lee, Generative artificial intelligence, human creativity, and art, PNAS Nexus (2024)",
      "url": "https://academic.oup.com/pnasnexus/article/3/3/pgae052/7618478",
-     "finding": "Artists who adopted text-to-image tools became 25% more productive and, after a few months, their work drew about 50% more favourites per view, though average novelty fell."
+     "finding": "In over 4 million artworks from more than 50,000 users of a large art-sharing platform, adopting text-to-image AI raised productivity by 25% and the likelihood of a favourite per view by 50%, while average content and visual novelty fell and peak content novelty rose."
     }
    ],
    "valence": -0.83,
@@ -14494,17 +14529,17 @@
    "stage": "emerging",
    "evidence": "reported",
    "theme": "work",
-   "summary": "AI could build interfaces and small tools on demand, so software bends to each person instead of everyone adapting to one fixed app. Google's Gemini already generates interactive interfaces from a prompt[1]; researchers argue AI coding helps most when software is built to be reshaped[2].",
+   "summary": "AI could build interfaces and small tools on demand, so software bends to each person instead of everyone adapting to one fixed app. Google began rolling out Gemini features that generate a whole interactive interface from a prompt in November 2025[1]; Ink & Switch researchers argue AI coding makes editing your own tools much faster when combined with software built to be reshaped, but does not remove every barrier on its own[2].",
    "refs": [
     {
-     "title": "Google Research, Generative UI: A rich, custom, visual interactive user experience for any prompt (November 2025)",
+     "title": "Google Research, Generative UI: A rich, custom, visual interactive user experience for any prompt (18 November 2025)",
      "url": "https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt/",
-     "finding": "Gemini generates an entire interactive interface for a prompt, shipped in the Gemini app and Search AI Mode; raters preferred it to every method except sites designed by human experts."
+     "finding": "Gemini generates an entire interactive interface for a prompt, rolling out as experiments in the Gemini app and in Search AI Mode for US Google AI Pro and Ultra subscribers; human raters preferred only sites designed by human experts over it."
     },
     {
-     "title": "Litt, Horowitz, van Hardenberg and Matthews, Malleable Software (Ink & Switch, June 2025)",
+     "title": "Litt, Horowitz, van Hardenberg and Matthews, Malleable software: Restoring user agency in a world of locked-down apps (Ink & Switch, June 2025)",
      "url": "https://www.inkandswitch.com/essay/malleable-software/",
-     "finding": "AI-assisted development can make it much faster to edit your tools, but only alongside software that lets people reshape and compose them."
+     "finding": "When combined with a malleable environment, AI-assisted development can make it much faster to edit your tools, but AI code generation alone does not address all the barriers to malleability."
     }
    ],
    "valence": 2.84
@@ -17886,7 +17921,7 @@
    "source": "regulationlag",
    "target": "datagrab",
    "kind": "leads",
-   "why": "Without rules that require opt-in consent, retroactive terms changes go unchallenged for years."
+   "why": "Without rules that require opt-in consent, platforms can switch on training by default and leave each user to object."
   },
   {
    "source": "datagrab",
@@ -17922,7 +17957,7 @@
    "source": "biasdata",
    "target": "wrongfularrests",
    "kind": "leads",
-   "why": "NIST found face-recognition false positive rates up to 100 times higher for some demographic groups, while several algorithms developed in China had low false positive rates on East Asian faces, pointing to the role of training data."
+   "why": "NIST found face-recognition false positive rates often 10 to more than 100 times higher for some demographic groups, while a number of algorithms developed in China had low false positive rates on East Asian faces, pointing to the role of training data."
   },
   {
    "source": "biasdata",
@@ -18108,13 +18143,13 @@
    "source": "decompilation",
    "target": "gamecheats",
    "kind": "leads",
-   "why": "Decompiled game code shows cheat makers exactly where to hook in."
+   "why": "Decompiled game code could show cheat makers where to hook in, though no study yet links AI decompilation to cheating."
   },
   {
    "source": "deviceaudit",
    "target": "surveillance",
    "kind": "counters",
-   "why": "Owners who can see hidden tracking can expose it and push makers to switch it off."
+   "why": "Exposing hidden device tracking can lead to enforcement, as when Texas sued TV makers and Samsung agreed to require consent before collecting viewing data."
   },
   {
    "source": "cyberattacks",
@@ -18126,7 +18161,7 @@
    "source": "iot",
    "target": "cyberdisruption",
    "kind": "leads",
-   "why": "Hijacked routers and industrial controllers give attackers footholds inside power, water and transport systems."
+   "why": "Hijacked routers, firewalls and other network devices already give state hackers footholds inside energy, water and transport networks."
   },
   {
    "source": "hardening",
@@ -18144,13 +18179,13 @@
    "source": "aiart",
    "target": "artists",
    "kind": "leads",
-   "why": "Clients who can generate images themselves commission fewer illustrators."
+   "why": "After image generators arrived, job posts for image creation on a large online freelancing platform fell 17%."
   },
   {
    "source": "aiart",
    "target": "newart",
    "kind": "twin",
-   "why": "The same generators that artists see as soulless copying let people without training make art for the first time."
+   "why": "The same generators that most surveyed artists see as a threat to art workers let people without training make images."
   },
   {
    "source": "builders",
@@ -18180,7 +18215,7 @@
    "source": "imagegen",
    "target": "misinformation",
    "kind": "leads",
-   "why": "Convincing fake photos of events that never happened spread faster than corrections."
+   "why": "People cannot reliably tell AI-made faces from real ones, so generated photos can pass as evidence of events that never happened."
   },
   {
    "source": "imagegen",
@@ -18216,7 +18251,7 @@
    "source": "hallucinations",
    "target": "accessibility",
    "kind": "counters",
-   "why": "Blind users often cannot see when an AI description is wrong, so made-up details undercut the help."
+   "why": "In one study of 26 blind people, errors in AI visual assistance tools were hard to verify without sight, which undercuts the help they give."
   },
   {
    "source": "translation",
@@ -18564,7 +18599,7 @@
    "source": "hallucinations",
    "target": "bureaucracy",
    "kind": "counters",
-   "why": "Caseworkers tend to follow a wrong chatbot answer: in one randomized test an incorrect suggestion cut their accuracy on benefit questions by about 20 percentage points."
+   "why": "Caseworkers tend to follow a wrong chatbot answer: in one randomized test an incorrect suggestion cut their accuracy on benefit questions by a mean 18 percentage points."
   },
   {
    "source": "syntheticmedia",
@@ -18859,6 +18894,30 @@
    "target": "explosivegrowth",
    "kind": "leads",
    "why": "In both AI 2027 endings the robot economy in the special economic zones drives economic growth that accelerates by about 1.5 orders of magnitude within a few years."
+  },
+  {
+   "source": "aiart",
+   "target": "homogenisation",
+   "kind": "leads",
+   "why": "Artists who adopted text-to-image tools produced work with lower average content and visual novelty."
+  },
+  {
+   "source": "patching",
+   "target": "cyberdisruption",
+   "kind": "counters",
+   "why": "The UK's NCSC says AI will also help system owners and developers secure their systems."
+  },
+  {
+   "source": "decompilation",
+   "target": "iot",
+   "kind": "leads",
+   "why": "AI-assisted firmware analysis found flaws reachable without logging in on a home camera with about 25,000 units exposed online."
+  },
+  {
+   "source": "hallucinations",
+   "target": "unverifiable",
+   "kind": "leads",
+   "why": "Fabricated citations from language models reached at least 51 accepted NeurIPS 2025 papers after peer review."
   }
  ],
  "themes": {
