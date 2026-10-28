@@ -11970,12 +11970,17 @@
    "stage": "expected",
    "evidence": "measured",
    "theme": "power",
-   "summary": "In one simulation on New York City data, an algorithmic release rule could cut crime by up to 24.7% with no change in jailing, or cut jail populations by up to 41.9% with no rise in crime[1]. No deployed system has shown this.",
+   "summary": "In one simulation on New York City pretrial data, an algorithmic release rule could cut crime by up to 24.7% with no change in jailing, or cut jail populations by up to 41.9% with no rise in crime[1]. In practice, Kentucky's 2011 law making risk scores mandatory raised pretrial release only trivially, with more missed court dates and pretrial crime, and the gain eroded as judges returned to earlier practice[2].",
    "refs": [
     {
-     "title": "Kleinberg et al., Human Decisions and Machine Predictions, NBER 2017 (QJE 2018)",
-     "url": "https://www.nber.org/papers/w23180",
-     "finding": "Using NYC data, an algorithmic release rule could cut crime by up to 24.7% with no change in jailing, or cut jail populations by up to 41.9% with no rise in crime."
+     "title": "Kleinberg, Lakkaraju, Leskovec, Ludwig and Mullainathan, Human Decisions and Machine Predictions, Quarterly Journal of Economics 133(1), 2018",
+     "url": "https://academic.oup.com/qje/article/133/1/237/4095198",
+     "finding": "A policy simulation on pretrial cases shows crime reductions up to 24.7% with no change in jailing rates, or jailing rate reductions up to 41.9% with no increase in crime rates."
+    },
+    {
+     "title": "Assessing Risk Assessment in Action (Megan Stevenson, Minnesota Law Review 103, 2018)",
+     "url": "https://www.courts.wa.gov/subsite/mjc/docs/2019/Assessing%20Risk%20Assessment_Stevenson.pdf",
+     "finding": "Using more than a million Kentucky cases, HB 463 (2011) made risk assessment mandatory but led to only a trivial increase in pretrial release, matched by more failures to appear and pretrial crime; within a couple of years release was lower than before the law."
     }
    ],
    "valence": 3.45,
@@ -11995,7 +12000,7 @@
      "kind": "quality",
      "evidence": "The 24.7% crime cut or 41.9% jail cut are simulated on historical New York data, not measured in deployment.",
      "ref": {
-      "title": "Human Decisions and Machine Predictions",
+      "title": "Human Decisions and Machine Predictions (Kleinberg et al., Quarterly Journal of Economics, 2018)",
       "url": "https://academic.oup.com/qje/article/133/1/237/4095198",
       "finding": "Simulated crime reductions up to 24.7% or jailing reductions up to 41.9%."
      }
@@ -12017,11 +12022,11 @@
      "actor": "EU",
      "status": "in force",
      "counters": "Racially unequal error rates",
-     "evidence": "High-risk classification brings documentation and human oversight requirements.",
+     "evidence": "The AI Act is in force, but its documentation and human oversight duties for Annex III high-risk systems, which include re-offending risk tools, apply only from 2 December 2027 after the 2026 amendment.",
      "ref": {
-      "title": "Annex III: High-Risk AI Systems Referred to in Article 6(2)",
-      "url": "https://artificialintelligenceact.eu/annex/3/",
-      "finding": "Reoffending risk assessment listed as high-risk."
+      "title": "Article 113: Entry into Force and Application",
+      "url": "https://artificialintelligenceact.eu/article/113/",
+      "finding": "Chapter III, Sections 1 to 3 apply from 2 December 2027 to AI systems classified as high-risk under Article 6(2) and Annex III."
      }
     },
     {
@@ -12029,11 +12034,11 @@
      "actor": "Courts and researchers",
      "status": "idea",
      "counters": "Gains shown only in simulation",
-     "evidence": "COMPAS is proprietary and a 2013 review rated such tools moderate at best in predictive validity.",
+     "evidence": "COMPAS's maker keeps its calculations proprietary, and a 2013 review of 19 US risk tools found them moderate at best in predictive validity.",
      "ref": {
       "title": "Machine Bias",
       "url": "https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing",
-      "finding": "Only 20% of those predicted to commit violent crime did so."
+      "finding": "Northpointe calls its calculations proprietary; Desmarais and Singh's 2013 review of 19 risk methodologies found them moderate at best in predictive validity; only 20% of people predicted to commit violent crimes went on to do so."
      }
     }
    ],
@@ -12044,9 +12049,9 @@
      "parallel": "New Jersey replaced money bail with decisions guided by the Public Safety Assessment, a statistical risk score, which is the closest real deployment of algorithm-guided release.",
      "outcome": "The pretrial jail population fell 43.9% from January 2015 to January 2018 with no reported rise in pretrial crime, but the reform also abolished most money bail, so the score's own share of the effect cannot be separated out.",
      "ref": {
-      "title": "Study Finds New Jersey's Pretrial Reform Shows Early Signs of Wide-Reaching, Positive Impacts on Criminal Justice System (MDRC)",
+      "title": "Study Finds New Jersey's Pretrial Reform Shows Early Signs of Wide-Reaching, Positive Impacts on Criminal Justice System (MDRC, 2019)",
       "url": "https://mdrc.org/node/17316",
-      "finding": "Pretrial jail population fell 43.9% from January 2015 to January 2018; courts report no uptick in pretrial crime; detention rates were lower than pre-reform trends predicted."
+      "finding": "Reforms took effect January 1, 2017; the New Jersey Courts' 2018 report found a 43.9% fall in the pretrial jail population from January 2015 to January 2018 with no uptick in pretrial crime rates; detention rates were lower than pre-reform trends predicted."
      }
     },
     {
@@ -12057,18 +12062,18 @@
      "ref": {
       "title": "Assessing Risk Assessment in Action (Megan Stevenson, Minnesota Law Review 103, 2018)",
       "url": "https://www.courts.wa.gov/subsite/mjc/docs/2019/Assessing%20Risk%20Assessment_Stevenson.pdf",
-      "finding": "HB 463 led to only a trivial increase in pretrial release, matched by more FTA and pretrial crime; the change eroded as judges returned to earlier practice."
+      "finding": "HB 463 led to only a trivial increase in pretrial release, matched by more FTA and pretrial crime; judges ignored the presumptive non-monetary release in more than two-thirds of cases; within a couple of years release was lower than before the bill."
      }
     },
     {
-     "event": "Clinical versus mechanical prediction studies",
-     "year": "1954-2000",
-     "parallel": "Decades of studies compared expert judgment with simple statistical formulas, the same comparison that bail simulations make between judges and models.",
-     "outcome": "A meta-analysis found formulas about 10% more accurate on average, substantially better in 33% to 47% of studies and substantially worse in only 6% to 16%, though most studies were outside criminal justice.",
+     "event": "Clinical versus mechanical prediction meta-analysis",
+     "year": "2000",
+     "parallel": "A meta-analysis of studies comparing expert judgment with statistical formulas makes the same comparison that bail simulations make between judges and models.",
+     "outcome": "Formulas were about 10% more accurate on average, substantially better in 33% to 47% of studies and substantially worse in only 6% to 16%, across studies of human health and behavior in general rather than bail decisions.",
      "ref": {
       "title": "Clinical versus mechanical prediction: a meta-analysis (Grove, Zald, Lebow, Snitz and Nelson, Psychological Assessment 12(1), 2000)",
       "url": "https://experts.umn.edu/en/publications/clinical-versus-mechanical-prediction-a-meta-analysis/",
-      "finding": "Mechanical prediction was about 10% more accurate than clinical prediction on average, regardless of judgment task."
+      "finding": "Mechanical prediction was about 10% more accurate than clinical prediction on average and substantially better in 33% to 47% of studies; clinical prediction was substantially better in only 6% to 16%; the advantage held regardless of judgment task."
      }
     }
    ]
@@ -12081,34 +12086,39 @@
    "stage": "active",
    "evidence": "measured",
    "theme": "power",
-   "summary": "One ProPublica analysis found the COMPAS risk tool falsely flagged Black defendants as future criminals at almost twice the rate of white defendants (45% vs 23%)[1]. Whether that counts as bias depends on the fairness metric, since common ones cannot all hold at once[2].",
+   "summary": "One ProPublica analysis of more than 7,000 people arrested in Broward County, Florida, found the COMPAS risk tool labelled 44.9% of Black defendants who did not reoffend as higher risk, against 23.5% of white defendants[1]. Whether that counts as bias depends on the fairness metric, since three common ones cannot all hold at once outside highly constrained cases[2]. In Kentucky, once regional differences were accounted for, a law making risk scores mandatory did not change racial disparities in pretrial release[3].",
    "refs": [
     {
-     "title": "ProPublica (Angwin et al.), Machine Bias, 2016",
+     "title": "ProPublica (Angwin, Larson, Mattu and Kirchner), Machine Bias, 2016",
      "url": "https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing",
-     "finding": "COMPAS falsely flagged Black defendants as future criminals at almost twice the rate of white defendants (45% vs 23%)."
+     "finding": "Among more than 7,000 people arrested in Broward County in 2013 and 2014, 44.9% of Black and 23.5% of white defendants who did not reoffend had been labelled higher risk, almost twice the rate."
     },
     {
      "title": "Kleinberg, Mullainathan and Raghavan, Inherent Trade-Offs in the Fair Determination of Risk Scores (2016)",
      "url": "https://arxiv.org/abs/1609.05807",
      "finding": "Except in highly constrained special cases, no method can satisfy three common fairness conditions for risk scores at the same time."
+    },
+    {
+     "title": "Assessing Risk Assessment in Action (Megan Stevenson, Minnesota Law Review 103, 2018)",
+     "url": "https://www.courts.wa.gov/subsite/mjc/docs/2019/Assessing%20Risk%20Assessment_Stevenson.pdf",
+     "finding": "HB 463 benefited white defendants more than Black defendants on its face, because of regional differences in how judges responded; within the same county the increase in release was similar, and neither HB 463 nor the PSA changed racial disparities once regional differences were accounted for."
     }
    ],
    "valence": -3.5,
    "control": "preventable",
    "price_of": [],
-   "control_note": "Courts can sentence without risk scores, so the harm is not a by-product of a benefit. Bans on profiling-only prediction and audit duties limit it.",
+   "control_note": "Courts can decide bail and sentences without risk scores, so the harm is not a by-product of a benefit. The EU's ban on profiling-only crime prediction and its high-risk duties for re-offending risk tools are meant to limit it.",
    "actions": [
     {
      "action": "Ban crime prediction based only on profiling",
      "actor": "legislators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "The EU AI Act prohibits assessing a person's risk of offending based solely on profiling and makes judicial and re-offending risk tools high-risk; enforcement data is not yet available.",
+     "evidence": "Since 2 February 2025 the EU AI Act has banned AI that assesses or predicts a person's risk of committing a crime based solely on profiling or personality traits; tools that assess the risk of offending or re-offending are instead classed as high-risk.",
      "ref": {
       "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Article 5 and Annex III",
       "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "finding": "Annex III covers law enforcement AI that assesses the risk of offending or re-offending as high-risk."
+      "finding": "Article 5(1)(d) prohibits AI that assesses the risk of a natural person committing a criminal offence based solely on profiling or personality traits; Annex III point 6(d) lists AI assessing the risk of offending or re-offending as high-risk."
      }
     },
     {
@@ -12116,11 +12126,11 @@
      "actor": "courts",
      "status": "tested",
      "aim": "impact",
-     "evidence": "Untrained people predicted recidivism about as well as COMPAS (67.0% vs 65.2% accuracy) and a two-feature model matched it, which weakens the case for opaque scores.",
+     "evidence": "Pooled predictions by people with little or no criminal justice expertise were 67.0% accurate against 65.2% for COMPAS, and a model using only age and prior convictions did about as well, which weakens the case for opaque scores.",
      "ref": {
-      "title": "Dressel and Farid, The accuracy, fairness, and limits of predicting recidivism, Science Advances 2018",
+      "title": "Dressel and Farid, The accuracy, fairness, and limits of predicting recidivism, Science Advances 4(1), 2018",
       "url": "https://www.science.org/doi/10.1126/sciadv.aao5580",
-      "finding": "COMPAS was no more accurate or fair than predictions by people with little or no criminal justice expertise."
+      "finding": "COMPAS was no more accurate or fair than predictions by people with little or no criminal justice expertise; a two-feature linear predictor performed about as well as COMPAS, which uses 137 features."
      }
     }
    ],
@@ -12131,18 +12141,18 @@
      "parallel": "A commercial recidivism score used in Florida courts is the direct pre-generative-AI case of unequal error rates by race.",
      "outcome": "ProPublica found 44.85% of Black defendants who did not reoffend were labelled higher risk versus 23.45% of white defendants, across 7,214 defendants.",
      "ref": {
-      "title": "How We Analyzed the COMPAS Recidivism Algorithm (ProPublica, 2016)",
+      "title": "How We Analyzed the COMPAS Recidivism Algorithm (ProPublica, Larson, Mattu, Kirchner and Angwin, 2016)",
       "url": "https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm",
-      "finding": "False positive rate 44.85% for Black versus 23.45% for white non-reoffending defendants scored in 2013 and 2014."
+      "finding": "False positive rate 44.85% for Black versus 23.45% for white defendants who did not reoffend, among 7,214 defendants scored in 2013 and 2014."
      }
     },
     {
-     "event": "Crack versus powder cocaine 100-to-1 ratio",
+     "event": "US Sentencing Commission report on the 100-to-1 crack cocaine ratio",
      "year": "2002",
      "parallel": "A race-neutral sentencing formula produced racially concentrated harsher sentences, the way a facially neutral risk score can.",
      "outcome": "The US Sentencing Commission found the ratio was not appropriate and that about 85% of offenders under the heavier crack penalties in 2000 were Black; unlike a model, this was a fixed statutory rule, not learned from data.",
      "ref": {
-      "title": "US Sentencing Commission press release on the 2002 Report to Congress on Federal Cocaine Sentencing Policy",
+      "title": "Sentencing Commission Reports on Cocaine Sentencing Policy (US Sentencing Commission press release, May 22, 2002)",
       "url": "https://www.ussc.gov/about/news/press-releases/may-22-2002",
       "finding": "The 100-to-1 drug quantity ratio is not appropriate; about 85 percent of offenders subject to heightened crack penalties in 2000 were black."
      }
@@ -12157,64 +12167,64 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "work",
-   "summary": "AI-driven wealth could grow large enough to pay every adult a living income, as Altman's proposed American Equity Fund would[1]. Growth models show sharp growth but a shrinking labor share[2]; the political will to redistribute is unproven.",
+   "summary": "Sam Altman's 2021 American Equity Fund proposal, paid by a yearly 2.5% tax on the value of large companies and private land, would pay each US adult about $13,500 a year after roughly a decade by his estimate, and he offers it as a conversation starter[1]. One review of growth models finds full automation would sharply raise growth and lower labor's share of income, while wages could rise or fall[2]. In one US trial, $1,000 a month for three years cut recipients' work by 1 to 2 hours a week[7].",
    "refs": [
     {
-     "title": "Moore's Law for Everything (Sam Altman, 2021)",
+     "title": "Moore's Law for Everything (Sam Altman, March 2021)",
      "url": "https://moores.samaltman.com/",
-     "finding": "Proposes an American Equity Fund paid by a yearly 2.5% tax on large company value and private land, distributed to every adult; the author calls it a conversation starter."
+     "finding": "Proposes an American Equity Fund paid by 2.5% a year of the market value of large companies, in shares, and of privately held land, in dollars, distributed to citizens over 18; estimates about $13,500 per adult a year roughly a decade after launch; offered 'in the spirit of a conversation starter'."
     },
     {
-     "title": "Economic Growth under Transformative AI (Trammell and Korinek, NBER w31815)",
+     "title": "Economic Growth under Transformative AI (Trammell and Korinek, NBER w31815, 2023)",
      "url": "https://www.nber.org/papers/w31815",
-     "finding": "Full automation would likely raise growth sharply and shrink labor's share of income; the effect on wages is ambiguous."
+     "finding": "Fully automating production would dramatically raise the growth rate and lower the labor share; wages may rise or fall depending on returns to scale, natural resources and the direction of technical change."
     },
     {
-     "title": "Machines of Loving Grace (Dario Amodei, 2024)",
+     "title": "Machines of Loving Grace: How AI Could Transform the World for the Better (Dario Amodei, October 2024)",
      "url": "https://www.darioamodei.com/essay/machines-of-loving-grace",
-     "finding": "Argues powerful AI could compress 50 to 100 years of progress into 5 to 10 years."
+     "finding": "Predicts AI-enabled biology and medicine could compress the progress human biologists would make in 50 to 100 years into 5 to 10 years; suggests a large universal basic income would likely be only a small part of the answer on work."
     },
     {
-     "title": "AI 2027: slowdown ending",
+     "title": "AI 2027: slowdown ending (2025)",
      "url": "https://ai-2027.com/slowdown",
-     "finding": "Growth accelerates by about 1.5 orders of magnitude; basic income promised in 2028."
+     "finding": "Economic growth accelerates by about 1.5 orders of magnitude over a few years; in May 2028 both US parties promise a basic income for anyone who loses their job."
     },
     {
-     "title": "AI 2027 takeoff forecast",
+     "title": "Takeoff Forecast (AI 2027, Kokotajlo and Lifland, April 2025)",
      "url": "https://ai-2027.com/research/takeoff-forecast",
      "finding": "Median about one year from superhuman coder to superintelligence, with wide error margins."
     },
     {
-     "title": "AI Futures Project, Q2.5 2026 Timelines Update",
+     "title": "Q2.5 2026 Timelines Update: Uplift and Revenue (AI Futures Project, Lifland, Kokotajlo and Halstead, August 2026)",
      "url": "https://blog.aifutures.org/p/q25-2026-timelines-update-uplift",
      "finding": "August 2026 superintelligence medians: Kokotajlo March 2029, Lifland July 2033."
     },
     {
-     "title": "Vivalt et al., Employment Effects of a Guaranteed Income, NBER w32719",
+     "title": "Vivalt et al., The Employment Effects of a Guaranteed Income: Experimental Evidence from Two U.S. States, NBER w32719 (2024, revised 2026)",
      "url": "https://www.nber.org/papers/w32719",
-     "finding": "$1,000 a month for three years cut recipients' work by about 1.3 hours a week, with no clear gains in job quality."
+     "finding": "1,000 people given $1,000 a month for three years, against 2,000 controls given $50, cut work by 1 to 2 hours a week and labor market participation by 4.2 percentage points, with no detectable improvement in job quality."
     },
     {
-     "title": "OpenResearch Unconditional Cash Study",
-     "url": "https://www.openresearchlab.org/findings",
-     "finding": "Recipients spent more on basic needs and support for others; health effects were small."
+     "title": "Key Findings: Spending (OpenResearch Unconditional Cash Study)",
+     "url": "https://openresearchlab.org/findings/key-findings-spending",
+     "finding": "Recipients raised spending by $310 a month on average, mainly on basic needs such as food, rent and transportation, and spent $22 a month more on others, 26% above controls."
     },
     {
      "title": "AI 2027: race ending",
      "url": "https://ai-2027.com/race",
-     "finding": "Displaced humans live on an incredibly luxurious universal basic income by 2029."
+     "finding": "By 2029 people outside a few niche industries perform a charade of a job or collect an incredibly luxurious universal basic income; in 2030 the AI kills nearly all humans."
     },
     {
-     "title": "Economics of Plan A (AI 2040)",
+     "title": "Economics of Plan A (AI 2040 supplement, Romeo Dean and Thomas Larsen)",
      "url": "https://ai-2040.com/supplements/economics-of-plan-a",
-     "finding": "Permit revenue paid as a citizen's dividend of about $1M per person a year in 2035."
+     "finding": "Most US revenue from AI hardware and robot permits (75% in 2035) is paid out as a Citizen's Dividend of roughly $1M per person a year in 2035."
     }
    ],
    "limiters": [
     {
      "limit": "Gains accrue to capital owners while labor's share falls",
      "kind": "distribution",
-     "evidence": "Trammell and Korinek find labor share shrinks under full automation",
+     "evidence": "Trammell and Korinek find labor's share falls under full automation, while wages could rise or fall",
      "ref": {
       "title": "Economic Growth under Transformative AI",
       "url": "https://www.nber.org/papers/w31815",
@@ -12224,11 +12234,11 @@
     {
      "limit": "Redistribution plans exist only as proposals",
      "kind": "political",
-     "evidence": "Altman's fund needs a constitutional amendment and is framed as a conversation starter",
+     "evidence": "Altman offers his fund in the spirit of a conversation starter and suggests a constitutional amendment to cap the tax",
      "ref": {
       "title": "Moore's Law for Everything",
       "url": "https://moores.samaltman.com/",
-      "finding": "Proposal, not policy; phase-in only after GDP grows 50%."
+      "finding": "Proposal, not policy; the full 2.5% rate would take hold only once GDP rises 50% from when the law passes."
      }
     }
    ],
@@ -12237,12 +12247,12 @@
      "action": "Tax company equity and land and pay dividends to every adult",
      "actor": "National governments",
      "status": "idea",
-     "counters": "concentration",
+     "counters": "Gains accrue to capital owners while labor's share falls",
      "evidence": "Altman's American Equity Fund design",
      "ref": {
       "title": "Moore's Law for Everything",
       "url": "https://moores.samaltman.com/",
-      "finding": "2.5% yearly tax on large company value and land, paid out to adults."
+      "finding": "2.5% yearly tax on the value of large companies and privately held land, paid out to citizens over 18."
      }
     }
    ],
@@ -12252,22 +12262,22 @@
      "event": "Alaska Permanent Fund Dividend",
      "year": "1982-present",
      "parallel": "Alaska pays every resident an annual dividend from a resource-wealth fund, the closest real case of a windfall shared universally and permanently.",
-     "outcome": "Studies find no effect on overall employment and a 1.8 point (17%) rise in part-time work, but the dividend is a partial supplement, not a living income, and the fund is far smaller than an AI-wealth fund would need to be.",
+     "outcome": "One study found no effect on overall employment and a 1.8 point (17%) rise in part-time work.",
      "ref": {
       "title": "The Labor Market Impacts of Universal and Permanent Cash Transfers: Evidence from the Alaska Permanent Fund (Jones and Marinescu, NBER WP 24312)",
       "url": "https://www.nber.org/papers/w24312",
-      "finding": "A universal, permanent cash transfer did not significantly decrease aggregate employment; part-time work rose 1.8 percentage points."
+      "finding": "Since 1982 all Alaskan residents have received a yearly dividend; it had no effect on employment and increased part-time work by 1.8 percentage points (17%)."
      }
     },
     {
      "event": "Engels' pause in industrial Britain",
-     "year": "1790-1840",
-     "parallel": "Mechanisation raised output per worker sharply while gains went to capital, the scenario where labour's share collapses instead of wealth being shared.",
-     "outcome": "Real wages stagnated for roughly half a century while output per worker expanded and the profit rate doubled; wages only tracked productivity after about 1850.",
+     "year": "1800-1850",
+     "parallel": "Technical progress raised output per worker while gains went to capital, the scenario where labour's share falls instead of wealth being shared.",
+     "outcome": "In the first half of the 19th century real wages stagnated while output per worker expanded and the profit rate doubled; wages only grew in line with productivity after the middle of the century.",
      "ref": {
-      "title": "Engel's Pause: A Pessimist's Guide to the British Industrial Revolution (Robert C. Allen, Oxford Economics WP 315)",
+      "title": "Engel's Pause: A Pessimist's Guide to the British Industrial Revolution (Robert C. Allen, Oxford Economics WP 315, 2007)",
       "url": "https://ideas.repec.org/p/oxf/wpaper/315.html",
-      "finding": "In the first half of the 19th century the real wage stagnated while output per worker expanded and the profit share grew."
+      "finding": "In the first half of the nineteenth century the real wage stagnated while output per worker expanded; the profit rate doubled and profits' share of income grew at the expense of labour and land."
      }
     }
    ]
@@ -12280,30 +12290,30 @@
    "evidence": "projected",
    "stage": "expected",
    "theme": "world",
-   "summary": "AI in grids, buildings, industry, materials and fusion control could cut emissions far more than data centres add[1][2][3]; the IEA sees no momentum behind that cut, so marginal help is the likelier outcome[1].",
+   "summary": "Wider use of existing AI in power, industry, transport, buildings and oil and gas operations could cut about 1,400 Mt CO2 in 2035, three to four times what data centres emit, in the IEA's widespread adoption case[1]; research uses such as learned fusion plasma control could add more[2][3]. The IEA sees no momentum behind that adoption and warns the impact could stay marginal without enabling conditions[1].",
    "refs": [
     {
      "title": "Energy and AI: AI and climate change (IEA, 2025)",
      "url": "https://www.iea.org/reports/energy-and-ai/ai-and-climate-change",
-     "finding": "Existing AI applications could cut about 1,400 Mt CO2 in 2035 under widespread adoption, about 3 to 4 times data centre emissions, but there is no momentum ensuring that adoption."
+     "finding": "Adoption of existing AI applications in end-use sectors could cut 1,400 Mt CO2 in 2035 in the Widespread Adoption Case, three times data centre emissions in the Lift-off Case and four times those in the Base Case, excluding breakthrough discoveries; there is no momentum ensuring that adoption."
     },
     {
-     "title": "Tackling Climate Change with Machine Learning (Rolnick et al.)",
+     "title": "Tackling Climate Change with Machine Learning (Rolnick et al., arXiv, 2019)",
      "url": "https://arxiv.org/abs/1906.05433",
-     "finding": "Maps high-impact areas from power grids to disaster response where ML can help cut emissions and adapt."
+     "finding": "Maps where machine learning can help cut greenhouse gas emissions and help society adapt, from smart grids to disaster management."
     },
     {
-     "title": "Accelerating fusion science through learned plasma control (Google DeepMind, 2022)",
+     "title": "Accelerating fusion science through learned plasma control (Google DeepMind, 16 February 2022)",
      "url": "https://deepmind.google/discover/blog/accelerating-fusion-science-through-learned-plasma-control/",
-     "finding": "A single deep RL network controlled all 19 magnetic coils of the TCV tokamak and shaped the plasma."
+     "finding": "A single deep RL network controlled all 19 magnetic coils of the TCV tokamak in Lausanne and shaped the plasma."
     },
     {
-     "title": "AI 2027 takeoff forecast",
+     "title": "Takeoff Forecast (AI 2027, Daniel Kokotajlo and Eli Lifland, April 2025)",
      "url": "https://ai-2027.com/research/takeoff-forecast",
      "finding": "Median about one year from superhuman coder to superintelligence, with wide error margins."
     },
     {
-     "title": "AI Futures Project, Q2.5 2026 Timelines Update",
+     "title": "Q2.5 2026 Timelines Update: Uplift and Revenue (AI Futures Project, 16 August 2026)",
      "url": "https://blog.aifutures.org/p/q25-2026-timelines-update-uplift",
      "finding": "August 2026 superintelligence medians: Kokotajlo March 2029, Lifland July 2033."
     }
@@ -12314,9 +12324,9 @@
      "kind": "adoption",
      "evidence": "IEA says aggregate impact could be marginal even by 2035 without enabling conditions",
      "ref": {
-      "title": "Energy and AI: AI and climate change",
+      "title": "Energy and AI: AI and climate change (IEA, 2025)",
       "url": "https://www.iea.org/reports/energy-and-ai/ai-and-climate-change",
-      "finding": "Barriers: data access, infrastructure, skills, regulation."
+      "finding": "Barriers include limited data access, missing digital infrastructure and skills, regulatory and security restrictions, and social or cultural obstacles."
      }
     },
     {
@@ -12324,9 +12334,9 @@
      "kind": "behavioral",
      "evidence": "IEA cites shifts from public transport to autonomous cars",
      "ref": {
-      "title": "Energy and AI: AI and climate change",
+      "title": "Energy and AI: AI and climate change (IEA, 2025)",
       "url": "https://www.iea.org/reports/energy-and-ai/ai-and-climate-change",
-      "finding": "Rebound effects could offset savings."
+      "finding": "Rebound effects, such as shifts from public transport to autonomous cars, could negate the savings."
      }
     }
    ],
@@ -12336,11 +12346,11 @@
      "actor": "Grid operators and regulators",
      "status": "proposed",
      "counters": "climate",
-     "evidence": "IEA names data access and infrastructure as the binding barriers",
+     "evidence": "IEA lists data access and digital infrastructure among the barriers to adoption",
      "ref": {
-      "title": "Energy and AI: AI and climate change",
+      "title": "Energy and AI: AI and climate change (IEA, 2025)",
       "url": "https://www.iea.org/reports/energy-and-ai/ai-and-climate-change",
-      "finding": "Net impact depends on rollout, incentives and regulation."
+      "finding": "Net impact depends on how AI applications are rolled out, the incentives that emerge and how regulation responds."
      }
     },
     {
@@ -12350,7 +12360,7 @@
      "counters": "energy",
      "evidence": "RL controller ran on the TCV tokamak",
      "ref": {
-      "title": "Accelerating fusion science through learned plasma control",
+      "title": "Accelerating fusion science through learned plasma control (Google DeepMind, 16 February 2022)",
       "url": "https://deepmind.google/discover/blog/accelerating-fusion-science-through-learned-plasma-control/",
       "finding": "One network controlled all 19 coils."
      }
@@ -12362,22 +12372,22 @@
      "event": "DeepMind data centre cooling control",
      "year": "2016",
      "parallel": "An earlier machine learning controller optimised a real energy system, the kind of grid and building gain AI climate claims rest on.",
-     "outcome": "Google reported a 40% cut in cooling energy and a 15% cut in PUE overhead at its data centres, a real but narrow gain at the site level.",
+     "outcome": "Google reported a 40% cut in cooling energy and a 15% cut in PUE overhead in a test on one live data centre, a real but narrow gain at the site level.",
      "ref": {
-      "title": "DeepMind AI Reduces Google Data Centre Cooling Bill by 40% (Google DeepMind blog, 2016)",
+      "title": "DeepMind AI Reduces Google Data Centre Cooling Bill by 40% (Google DeepMind blog, 20 July 2016)",
       "url": "https://deepmind.google/discover/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-by-40/",
-      "finding": "Cooling energy use cut by 40%; overall PUE overhead reduced by 15%."
+      "finding": "Tested on a live data centre: cooling energy use cut by 40%, equal to a 15% reduction in overall PUE overhead."
      }
     },
     {
      "event": "Google emissions rise despite efficiency",
      "year": "2019-2023",
      "parallel": "The same company that cut cooling energy with machine learning then grew its compute, the rebound that makes AI's net climate effect uncertain.",
-     "outcome": "Google's emissions rose 48% from 2019 to 14.3 million tonnes CO2e in 2023, mainly from data centre energy and supply chain, so efficiency gains were swamped by growth.",
+     "outcome": "Google's greenhouse gas emissions rose 48% from 2019 to 14.3 million tons CO2e in 2023, which Google blamed mainly on data centre energy use, so efficiency gains were swamped by growth.",
      "ref": {
-      "title": "Google datacenter emissions (The Register, 2 July 2024, reporting Google's 2024 Environmental Report)",
+      "title": "So much for green Google ... Emissions up 48% since 2019 (The Register, 3 July 2024, reporting Google's 2024 Environmental Report)",
       "url": "https://www.theregister.com/2024/07/02/google_datacenter_emissions/",
-      "finding": "Google's greenhouse gas emissions rose 48% since 2019, to 14.3 million tons CO2e in 2023, mainly from datacenter energy use."
+      "finding": "Google's greenhouse gas emissions rose 48% since 2019, to 14.3 million tons of CO2 equivalents in 2023, mainly from datacenter energy consumption."
      }
     },
     {
@@ -12386,9 +12396,9 @@
      "parallel": "A national digital programme promised energy savings through data and feedback, a precedent for software-led demand reduction.",
      "outcome": "The National Audit Office found costs escalating, installs costing 50% more than assumed in 2017, the programme late, and benefit forecasts more uncertain than costs, and the case kept shrinking (net benefit forecast cut from 6.7 to 5.7 billion pounds).",
      "ref": {
-      "title": "Rolling out smart meters (National Audit Office, November 2018)",
+      "title": "Rolling out smart meters (National Audit Office, 23 November 2018)",
       "url": "https://www.nao.org.uk/reports/rolling-out-smart-meters/",
-      "finding": "Installation in 2017 cost 50% more than assumed; forecast net benefits fell from 6.7bn pounds (2013) to 5.7bn pounds (2016)."
+      "finding": "Installation in 2017 cost 50% more than assumed; forecast net benefits fell from 6.7bn pounds (2013) to 5.7bn pounds (2016); benefits more uncertain than costs."
      }
     }
    ]
@@ -12401,53 +12411,58 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "world",
-   "summary": "If robots took over much elder and child care, families might have more of the children they want; in one Norwegian simulation, more childcare raised children born by age 35 from 1.51 to 2.18[1]. Whether robots can deliver this is unproven; UN projections show fertility still low[2][3].",
+   "summary": "If robots took over much elder and child care, families might have more children; in one simulation on Norwegian register data, moving from 0 to 60% childcare availability raised children born by age 35 from 1.51 to 2.18[1]. Norway's own fertility rate was still only 1.48 in 2025[6], whether robots can deliver such care is unproven, and UN figures show fertility low and still falling[2][3].",
    "refs": [
     {
-     "title": "Rindfuss, Guilkey, Morgan & Kravdal, Child-Care Availability and Fertility in Norway, Population and Development Review 2010",
+     "title": "Child-Care Availability and Fertility in Norway (Rindfuss, Guilkey, Morgan and Kravdal, Population and Development Review 36(4), 2010)",
      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3099220",
-     "finding": "In simulations on Norwegian register data, moving from 0 to 60% childcare availability raised children born by age 35 from 1.51 to 2.18."
+     "finding": "In simulations on Norwegian register data for women born 1957 to 1962, moving from 0 to 60% childcare availability raised children born by age 35 from 1.51 to 2.18."
     },
     {
-     "title": "World population projected to peak at 10.3 billion in mid-2080s (UN News, 2024)",
+     "title": "Growing or shrinking? What the latest trends tell us about the world's population (UN News, 11 July 2024)",
      "url": "https://news.un.org/en/story/2024/07/1151971",
      "finding": "More than half of countries are below 2.1 births per woman; nearly a fifth, including China, Italy, South Korea and Spain, are below 1.4."
     },
     {
-     "title": "World Population Prospects (UN DESA)",
-     "url": "https://population.un.org/wpp/",
-     "finding": "The official UN population estimates and projections used as the baseline."
+     "title": "World Population Prospects 2024: Summary of Results (UN DESA Population Division, July 2024)",
+     "url": "https://desapublications.un.org/file/20847/download",
+     "finding": "Global fertility is 2.25 births per woman, down from 3.31 in 1990, and is projected to fall to 2.1 by the late 2040s; in countries whose population has already peaked, fertility is assumed to recover only to about 1.4 by 2100."
     },
     {
-     "title": "AI 2027 takeoff forecast",
+     "title": "Takeoff Forecast (AI 2027, Daniel Kokotajlo and Eli Lifland, April 2025)",
      "url": "https://ai-2027.com/research/takeoff-forecast",
      "finding": "Median about one year from superhuman coder to superintelligence, with wide error margins."
     },
     {
-     "title": "AI Futures Project, Q2.5 2026 Timelines Update",
+     "title": "Q2.5 2026 Timelines Update: Uplift and Revenue (AI Futures Project, 16 August 2026)",
      "url": "https://blog.aifutures.org/p/q25-2026-timelines-update-uplift",
      "finding": "August 2026 superintelligence medians: Kokotajlo March 2029, Lifland July 2033."
+    },
+    {
+     "title": "Fruktbarheten fortsetter å øke (Statistics Norway, 12 March 2026, in Norwegian)",
+     "url": "https://www.ssb.no/befolkning/fodte-og-dode/statistikk/fodte/artikler/fruktbarheten-fortsetter-a-oke",
+     "finding": "Norway's total fertility rate rose to 1.48 children per woman in 2025 from 1.44 in 2024, still low in historical terms."
     }
    ],
    "limiters": [
     {
-     "limit": "Fertility keeps falling as incomes rise",
+     "limit": "Fertility keeps falling worldwide",
      "kind": "demographic",
      "evidence": "Women have about one child fewer than around 1990",
      "ref": {
-      "title": "UN News on WPP 2024",
+      "title": "Growing or shrinking? What the latest trends tell us about the world's population (UN News, 11 July 2024)",
       "url": "https://news.un.org/en/story/2024/07/1151971",
-      "finding": "Global fertility down about one child per woman since 1990."
+      "finding": "Women have one child fewer on average than they did around 1990."
      }
     },
     {
      "limit": "No causal evidence linking AI or automation to higher births",
      "kind": "evidence",
-     "evidence": "No study found; the claim rests on argument only",
+     "evidence": "Labour-saving household technology did not raise US births during the baby boom",
      "ref": {
-      "title": "World Population Prospects",
-      "url": "https://population.un.org/wpp/",
-      "finding": "Baseline projections assume continued decline."
+      "title": "Did Improvements in Household Technology Cause the Baby Boom? Evidence from Electrification, Appliance Diffusion, and the Amish (Bailey and Collins, NBER WP 14641; AEJ Macroeconomics 2011)",
+      "url": "https://www.nber.org/papers/w14641",
+      "finding": "Appliance ownership and electrification were negatively correlated with fertility across US counties and women."
      }
     }
    ],
@@ -12457,11 +12472,11 @@
      "actor": "Governments",
      "status": "idea",
      "counters": "fertility",
-     "evidence": "Speculative; no tested link",
+     "evidence": "Untested for automation; wider childcare availability raised births in Norway",
      "ref": {
-      "title": "UN News on WPP 2024",
-      "url": "https://news.un.org/en/story/2024/07/1151971",
-      "finding": "Ultra-low fertility is widespread."
+      "title": "Child-Care Availability and Fertility in Norway (Rindfuss, Guilkey, Morgan and Kravdal, Population and Development Review 36(4), 2010)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3099220",
+      "finding": "Increased availability of child care increases completed fertility, at every parity transition."
      }
     }
    ],
@@ -12471,11 +12486,11 @@
      "event": "Norway's childcare expansion",
      "year": "1973-1998",
      "parallel": "Norway expanded subsidised childcare unevenly across municipalities, the cleanest test of whether cheaper, available care raises births.",
-     "outcome": "Going from zero to 60% coverage raised completed fertility by about 0.5 to 0.7 children per woman, but this was human, state-funded care, not robots.",
+     "outcome": "Going from zero to 60% coverage raised children born by age 35 by about 0.5 to 0.7 per woman, but this was human, state-subsidised care, not robots.",
      "ref": {
       "title": "Child-Care Availability and Fertility in Norway (Rindfuss, Guilkey, Morgan and Kravdal, Population and Development Review 36(4), 2010)",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3099220",
-      "finding": "Increased availability of child care increases completed fertility, at every parity transition."
+      "finding": "Moving from no child-care slots to slots for 60% of preschool children leads the average woman to have 0.5 to 0.7 more children by age 35; the effect appears at every parity transition."
      }
     },
     {
@@ -12484,7 +12499,7 @@
      "parallel": "Labour-saving home technology was proposed as the cause of the US baby boom, the same mechanism as robots taking over care work.",
      "outcome": "Bailey and Collins found appliance ownership and electrification negatively correlated with fertility across counties and women, and the technology-shunning Amish had a baby boom too, so labour-saving machines did not clearly raise births.",
      "ref": {
-      "title": "Did Improvements in Household Technology Cause the Baby Boom? (Bailey and Collins, NBER WP 14641; AEJ Macroeconomics 2011)",
+      "title": "Did Improvements in Household Technology Cause the Baby Boom? Evidence from Electrification, Appliance Diffusion, and the Amish (Bailey and Collins, NBER WP 14641; AEJ Macroeconomics 2011)",
       "url": "https://www.nber.org/papers/w14641",
       "finding": "Appliance ownership and electrification were negatively correlated with fertility; the Amish experienced a large baby boom."
      }
@@ -12499,30 +12514,30 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "mind",
-   "summary": "AI-accelerated biology could slow or repair aging faster than people age; one essay suggests lifespan could double to about 150[1]. One study found life expectancy rose only about 6.5 years since 1990 in the longest-lived populations[2].",
+   "summary": "AI-accelerated biology could slow or repair aging faster than people age; one essay suggests lifespan could double to about 150[1]. One study found life expectancy rose only about 6.5 years since 1990 in the longest-lived populations[2], though demographers replying in the same journal argue optimistic scenarios should not be ignored[3].",
    "refs": [
     {
-     "title": "Machines of Loving Grace (Dario Amodei, 2024)",
+     "title": "Machines of Loving Grace (Dario Amodei, October 2024)",
      "url": "https://www.darioamodei.com/essay/machines-of-loving-grace",
-     "finding": "Suggests a compressed 21st century could double lifespan to about 150, presented as a possibility."
+     "finding": "Suggests a compressed 21st century could double lifespan to about 150, after which escape velocity may be reachable, with no guarantee this is biologically possible."
     },
     {
-     "title": "Despite medical advances, life expectancy gains are slowing (UIC, 2024)",
+     "title": "Despite medical advances, life expectancy gains are slowing (UIC Today, 7 October 2024, on Olshansky et al., Nature Aging)",
      "url": "https://live.today.uic.edu/despite-medical-advances-life-expectancy-gains-are-slowing",
-     "finding": "Olshansky et al. report life expectancy at birth rose only about 6.5 years since 1990 in the longest-lived populations and argue humans near a biological limit."
+     "finding": "Olshansky et al. report life expectancy at birth rose only about six and a half years since 1990 in the longest-lived populations and argue humans are approaching a biologically based limit unless aging itself is slowed."
     },
     {
-     "title": "The debate on the limits of human life extension continues (MPIDR, 2024)",
+     "title": "The Debate on the Limits of Human Life Extension Continues (Max Planck Institute for Demographic Research, 15 October 2024)",
      "url": "https://www.demogr.mpg.de/en/news_events_6123/news_press_releases_4630/news/the_debate_on_the_limits_of_human_life_extension_continues_13563",
-     "finding": "Jdanov and Jasilionis argue optimistic scenarios should not be ignored."
+     "finding": "In a Nature Aging News and Views, Jdanov and Jasilionis argue more optimistic alternative scenarios should not be ignored."
     },
     {
-     "title": "AI 2027 takeoff forecast",
+     "title": "Takeoff Forecast (AI 2027, Daniel Kokotajlo and Eli Lifland, April 2025)",
      "url": "https://ai-2027.com/research/takeoff-forecast",
      "finding": "Median about one year from superhuman coder to superintelligence, with wide error margins."
     },
     {
-     "title": "AI Futures Project, Q2.5 2026 Timelines Update",
+     "title": "Q2.5 2026 Timelines Update: Uplift and Revenue (AI Futures Project, 16 August 2026)",
      "url": "https://blog.aifutures.org/p/q25-2026-timelines-update-uplift",
      "finding": "August 2026 superintelligence medians: Kokotajlo March 2029, Lifland July 2033."
     }
@@ -12533,19 +12548,19 @@
      "kind": "biological",
      "evidence": "Olshansky: life expectancy gains slowing",
      "ref": {
-      "title": "UIC release",
+      "title": "Despite medical advances, life expectancy gains are slowing (UIC Today, 7 October 2024, on Olshansky et al., Nature Aging)",
       "url": "https://live.today.uic.edu/despite-medical-advances-life-expectancy-gains-are-slowing",
-      "finding": "About 6.5 years gained since 1990."
+      "finding": "About six and a half years gained since 1990; aging is now the main obstacle to further extension."
      }
     },
     {
      "limit": "AI drugs still need slow human trials",
      "kind": "regulatory",
-     "evidence": "Insilico's AI-designed drug showed lung gains in 71 patients; investigators say larger trials are needed",
+     "evidence": "Insilico's AI-designed drug improved lung function over 12 weeks in a 71-patient trial; investigators say larger trials are needed, and a 52-week Phase III only began in 2026",
      "ref": {
-      "title": "Insilico rentosertib Phase IIa press release",
+      "title": "Insilico Medicine Announces Nature Medicine Publication of Phase IIa Results Evaluating Rentosertib, the Novel TNIK Inhibitor for Idiopathic Pulmonary Fibrosis (IPF) Discovered and Designed with a Pioneering AI Approach (BioSpace, 3 June 2025)",
       "url": "https://www.biospace.com/press-releases/insilico-medicine-announces-nature-medicine-publication-of-phase-iia-results-evaluating-rentosertib-the-novel-tnik-inhibitor-for-idiopathic-pulmonary-fibrosis-ipf-discovered-and-designed-with-a-pioneering-ai-approach",
-      "finding": "+98.4 mL FVC at 60 mg vs -20.3 mL placebo at 12 weeks; small sample."
+      "finding": "+98.4 mL FVC at 60 mg vs -20.3 mL placebo at 12 weeks in 71 patients; findings need validation in larger studies."
      }
     }
    ],
@@ -12555,11 +12570,11 @@
      "actor": "Biotech firms",
      "status": "tested",
      "counters": "medicine",
-     "evidence": "First AI-discovered target and drug with Phase IIa efficacy signal",
+     "evidence": "Rentosertib, whose target and molecule Insilico found with AI, entered a 320-patient Phase III in China in July 2026",
      "ref": {
-      "title": "Insilico rentosertib Phase IIa press release",
-      "url": "https://www.biospace.com/press-releases/insilico-medicine-announces-nature-medicine-publication-of-phase-iia-results-evaluating-rentosertib-the-novel-tnik-inhibitor-for-idiopathic-pulmonary-fibrosis-ipf-discovered-and-designed-with-a-pioneering-ai-approach",
-      "finding": "Published in Nature Medicine June 2025."
+      "title": "Insilico Initiates Phase III Clinical Trial for Rentosertib, Its AI-Empowered TNIK Inhibitor for Idiopathic Pulmonary Fibrosis (Insilico Medicine, 7 July 2026)",
+      "url": "https://insilico.com/news/xmjsn4l091-insilico-initiates-phase-iii-clinical-tr",
+      "finding": "Randomised, double-blind, placebo-controlled 52-week Phase III in 320 participants at 47 centres in China; target found with PandaOmics, molecule designed with Pharma.AI."
      }
     }
    ],
@@ -12571,7 +12586,7 @@
      "parallel": "Life expectancy in the leading country has risen steadily for 160 years, the baseline any longevity acceleration must beat.",
      "outcome": "Record female life expectancy rose about three months per year, and asserted ceilings were broken on average within 5 years of publication; this is steady linear gain, not open-ended escape velocity.",
      "ref": {
-      "title": "The rise of maximum life expectancy (Our World in Data, updating Oeppen and Vaupel, Science 2002)",
+      "title": "The rise of maximum life expectancy (Max Roser, Our World in Data, 2020, updating Oeppen and Vaupel, Science 2002)",
       "url": "https://ourworldindata.org/the-rise-of-maximum-life-expectancy",
       "finding": "In the twentieth century, life expectancy in the leading country increased by three months every year; predicted maxima were broken within 5 years on average."
      }
@@ -12579,12 +12594,12 @@
     {
      "event": "US War on Cancer",
      "year": "1971-2019",
-     "parallel": "The 1971 National Cancer Act promised a decisive medical breakthrough through concentrated research, like AI-accelerated biology promises for aging.",
-     "outcome": "Cancer mortality fell 27% from 1971 to 2019, mostly from less smoking, screening and better treatment, real progress that took nearly 50 years and fell far short of a cure.",
+     "parallel": "The 1971 National Cancer Act launched a concentrated research push against a major killer, as AI-accelerated biology aims to do for aging.",
+     "outcome": "Cancer mortality fell 27% from 1971 to 2019, mostly from less smoking, screening and better treatment: real but gradual progress over nearly 50 years.",
      "ref": {
-      "title": "War on Cancer press release (American Cancer Society, November 2021, on a JAMA Oncology study)",
+      "title": "A Half Century of Progress in 'War on Cancer' (American Cancer Society, 11 November 2021, on a JAMA Oncology study)",
       "url": "https://pressroom.cancer.org/waroncancer",
-      "finding": "Overall cancer mortality fell 27% since 1971 and 32% since the 1991 peak; declines driven by reduced smoking, screening and treatment."
+      "finding": "Overall cancer mortality fell 27% from 1971 to 2019 and 32% since the 1991 peak; declines driven by reduced smoking, screening and treatment."
      }
     }
    ]
@@ -12597,27 +12612,22 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "power",
-   "summary": "If life extension arrives, the rich may get it first and hold power far longer. The richest 1% of US men already outlive the poorest 1% by about 14.6 years[1], though living to 100 stays an outlier this century[2].",
+   "summary": "If life extension arrives, the rich may get it first and hold power far longer. The richest 1% of US men already outlive the poorest 1% by about 14.6 years, and US women by 10.1 years[1]. A 2024 study of long-lived populations finds survival to 100 unlikely to exceed 15% for women and 5% for men this century unless biological ageing can be markedly slowed[2]. Radical extension would need AI-driven biology first; two AI Futures Project forecasters put superintelligence at March 2029 and July 2033 at the median[3].",
    "refs": [
     {
-     "title": "The Association Between Income and Life Expectancy in the United States, 2001-2014 (Chetty et al., JAMA)",
+     "title": "The Association Between Income and Life Expectancy in the United States, 2001-2014 (Chetty et al., JAMA, 2016)",
      "url": "https://jamanetwork.com/journals/jama/fullarticle/2513561",
-     "finding": "The richest 1% outlive the poorest 1% by about 14.6 years for men and 10.1 years for women."
+     "finding": "The richest 1% outlive the poorest 1% by 14.6 years for men and 10.1 years for women; from 2001 to 2014 the top 5% gained 2.34 years (men) and 2.91 (women), the bottom 5% 0.32 and 0.04."
     },
     {
-     "title": "Despite medical advances, life expectancy gains are slowing (UIC, 2024)",
-     "url": "https://live.today.uic.edu/despite-medical-advances-life-expectancy-gains-are-slowing",
-     "finding": "Living to 100 remains an outlier outcome this century, which caps how large the divide can get."
+     "title": "Implausibility of radical life extension in humans in the twenty-first century (Olshansky et al., Nature Aging, 2024)",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11564081/",
+     "finding": "Life expectancy gains have slowed since 1990; survival to 100 is unlikely to exceed 15% for females and 5% for males, and radical life extension is implausible this century unless biological aging can be markedly slowed."
     },
     {
-     "title": "AI 2027 takeoff forecast",
-     "url": "https://ai-2027.com/research/takeoff-forecast",
-     "finding": "Median about one year from superhuman coder to superintelligence, with wide error margins."
-    },
-    {
-     "title": "AI Futures Project, Q2.5 2026 Timelines Update",
+     "title": "Q2.5 2026 Timelines Update: Uplift and Revenue (Lifland, Kokotajlo and Halstead, AI Futures Project, August 2026)",
      "url": "https://blog.aifutures.org/p/q25-2026-timelines-update-uplift",
-     "finding": "August 2026 superintelligence medians: Kokotajlo March 2029, Lifland July 2033."
+     "finding": "Superintelligence medians: Kokotajlo March 2029, Lifland July 2033."
     }
    ],
    "control": "mitigable",
@@ -12633,21 +12643,21 @@
      "aim": "impact",
      "evidence": "Income gap in lifespan already 10 to 15 years in the US",
      "ref": {
-      "title": "Chetty et al., JAMA 2016",
+      "title": "The Association Between Income and Life Expectancy in the United States, 2001-2014 (Chetty et al., JAMA, 2016)",
       "url": "https://jamanetwork.com/journals/jama/fullarticle/2513561",
-      "finding": "14.6 year gap for men."
+      "finding": "14.6 year gap between the richest and poorest 1% for men, 10.1 for women."
      }
     },
     {
-     "action": "Term limits and age-independent tenure rules",
+     "action": "Term and age limits for public office",
      "actor": "Legislatures and boards",
      "status": "idea",
      "aim": "impact",
-     "evidence": "Speculative response to gerontocracy",
+     "evidence": "79% of Americans favour maximum age limits for federal elected officials",
      "ref": {
-      "title": "UIC release",
-      "url": "https://live.today.uic.edu/despite-medical-advances-life-expectancy-gains-are-slowing",
-      "finding": "Radical extension unlikely this century."
+      "title": "Most Americans favor maximum age limits for federal elected officials, Supreme Court justices (Pew Research Center, October 2023)",
+      "url": "https://www.pewresearch.org/short-reads/2023/10/04/most-americans-favor-maximum-age-limits-for-federal-elected-officials-supreme-court-justices/",
+      "finding": "79% of Americans favor maximum age limits for elected officials in Washington, D.C. and 74% for Supreme Court justices; such limits for elected officials would likely require amending the Constitution."
      }
     }
    ],
@@ -12659,20 +12669,20 @@
      "parallel": "Existing health gains already flow unequally by income, the mechanism that would let the rich get life extension first.",
      "outcome": "The richest 1% of men lived 14.6 years longer than the poorest 1% (10.1 years for women), and from 2001 to 2014 the top 5% gained 2.34 years versus 0.32 for the bottom 5%.",
      "ref": {
-      "title": "The Association Between Income and Life Expectancy in the United States, 2001-2014 (Chetty et al., JAMA 2016)",
-      "url": "https://hcp.hms.harvard.edu/publication/association-between-income-and-life-expectancy-united-states-2001-2014",
+      "title": "The Association Between Income and Life Expectancy in the United States, 2001-2014 (Chetty et al., JAMA, 2016)",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2513561",
       "finding": "Gap between richest and poorest 1%: 14.6 years for men, 10.1 for women; gains much larger at the top."
      }
     },
     {
      "event": "HIV antiretroviral access gap",
      "year": "2003-2005",
-     "parallel": "Life-saving combination therapy was widely used in rich countries while most patients in poor ones went without, a real case of a longevity technology rationed by wealth.",
-     "outcome": "The WHO and UNAIDS 3 by 5 push reached 1.3 million people in low and middle income countries by end 2005, short of its 3 million target, as first-line prices fell 37% to 53%, so access in poor countries still lagged far behind rich ones.",
+     "parallel": "Life-saving antiretroviral therapy reached a far smaller share of patients in poor countries than in the US, a real case of a longevity technology rationed by wealth.",
+     "outcome": "The 3 by 5 push raised the number on treatment in low and middle income countries from 400,000 in December 2003 to 1.3 million, yet only 20% of people in need there were receiving it in December 2005, against 55% in the United States in 2005.",
      "ref": {
-      "title": "Global HIV therapy access tripled in past two years but challenges remain (UN News, March 2006)",
-      "url": "https://news.un.org/en/story/2006/03/173752",
-      "finding": "Treatment access in low and middle income countries reached 1.3 million, short of the 3 million target; first-line drug prices fell 37 to 53 percent."
+      "title": "The Global HIV/AIDS Pandemic, 2006 (CDC, Morbidity and Mortality Weekly Report, August 2006)",
+      "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5531a1.htm",
+      "finding": "People on antiretroviral therapy in low and middle income countries rose from 400,000 in December 2003 to 1.3 million; only 20% of those in need there were receiving it in December 2005; in the United States 55% of those in need received it in 2005."
      }
     }
    ]
@@ -12685,42 +12695,47 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "security",
-   "summary": "Advanced AI could kill or permanently sideline humanity through misalignment, a race or misuse[4]. In one forecasting tournament, superforecasters put AI extinction by 2100 at about 0.4% and domain experts at 3%[2]; critics call such numbers unreliable[3].",
+   "summary": "Advanced AI could kill or permanently sideline humanity; the authors of one forecast scenario say racing ahead carries a high chance of extinction or global dictatorship[7]. In that scenario a misaligned AI born of a US-China race kills most people with biological weapons in mid 2030[4], with superintelligence about a year after a superhuman coder[5]; two of its authors now put superintelligence at March 2029 and July 2033 at the median[6]. In a survey of 2,778 AI researchers, 38% to 51% gave at least a 10% chance of outcomes as bad as human extinction[1]. In one forecasting tournament, superforecasters put AI extinction by 2100 at about 0.4% and domain experts at 3%[2], though superforecasters underestimated AI progress more than the experts did[8]; critics call such numbers too unreliable to guide policy[3].",
    "refs": [
     {
-     "title": "Thousands of AI Authors on the Future of AI (Grace et al., 2024)",
+     "title": "Thousands of AI Authors on the Future of AI (Grace et al., arXiv, 2024)",
      "url": "https://arxiv.org/abs/2401.02843",
-     "finding": "38% to 51% of respondents gave at least a 10% chance of outcomes as bad as human extinction."
+     "finding": "Survey of 2,778 researchers who published in top AI venues: between 38% and 51% gave at least a 10% chance to advanced AI leading to outcomes as bad as human extinction."
     },
     {
-     "title": "The Extinction Tournament (Astral Codex Ten, on FRI's XPT)",
+     "title": "The Extinction Tournament (Scott Alexander, Astral Codex Ten, July 2023)",
      "url": "https://www.astralcodexten.com/p/the-extinction-tournament",
-     "finding": "Superforecasters gave about 0.4% chance of AI-caused extinction by 2100; domain experts about 3%."
+     "finding": "In the Forecasting Research Institute's Existential Risk Persuasion Tournament, superforecasters gave a median 0.38% chance of AI-caused extinction by 2100; domain experts about 3%."
     },
     {
-     "title": "AI existential risk probabilities are too unreliable to inform policy (Narayanan and Kapoor)",
+     "title": "AI existential risk probabilities are too unreliable to inform policy (Narayanan and Kapoor, AI Snake Oil, July 2024)",
      "url": "https://www.normaltech.ai/p/ai-existential-risk-probabilities",
-     "finding": "No reference class, no validated models, and expert estimates vary by over 100 times."
+     "finding": "AI extinction has no reference class and no validated model, so forecasts are guesses; in the tournament the 75th percentile expert and 25th percentile superforecaster differ by at least a factor of 100."
     },
     {
-     "title": "AI 2027: race ending",
+     "title": "AI 2027, race ending (Kokotajlo, Lifland, Larsen and Dean, April 2025)",
      "url": "https://ai-2027.com/race",
-     "finding": "In mid 2030 Consensus-1 releases biological weapons and drones hunt survivors."
+     "finding": "In mid 2030 Consensus-1, a compromise between misaligned US and Chinese AIs, releases a dozen biological weapons that kill most people within hours; drones clean up the few survivors."
     },
     {
-     "title": "AI 2027 takeoff forecast",
+     "title": "Takeoff Forecast (AI 2027, Kokotajlo and Lifland, April 2025)",
      "url": "https://ai-2027.com/research/takeoff-forecast",
-     "finding": "Median about one year from superhuman coder to superintelligence, with wide error margins."
+     "finding": "Median about one year from the superhuman coder milestone to artificial superintelligence, with wide error margins."
     },
     {
-     "title": "AI Futures Project, Q2.5 2026 Timelines Update",
+     "title": "Q2.5 2026 Timelines Update: Uplift and Revenue (Lifland, Kokotajlo and Halstead, AI Futures Project, August 2026)",
      "url": "https://blog.aifutures.org/p/q25-2026-timelines-update-uplift",
-     "finding": "August 2026 superintelligence medians: Kokotajlo March 2029, Lifland July 2033."
+     "finding": "Superintelligence medians: Kokotajlo March 2029, Lifland July 2033."
     },
     {
-     "title": "AI 2040 (PDF)",
+     "title": "AI 2040: Plan A (Larsen, Dean, Halstead, Lifland, Greenblatt and Kokotajlo, AI Futures Project, 2026)",
      "url": "https://ai-2040.com/",
-     "finding": "PDF p.2 footnote 4: team estimates of literal AI-driven extinction vary between 10% and 30%."
+     "finding": "The authors say AI 2027 predicted either extinction or irreversible concentration of power, and that racing ahead has a scarily high chance of leading to human extinction or global dictatorship."
+    },
+    {
+     "title": "What did forecasters get right and wrong in the largest existential risk forecasting tournament? (Forecasting Research Institute, September 2025)",
+     "url": "https://forecastingresearch.substack.com/p/what-did-forecasters-get-right-and",
+     "finding": "Respondents underestimated AI progress, especially superforecasters: across four benchmarks they gave outcomes that occurred 9.7% on average, against 24.6% from domain experts."
     }
    ],
    "control": "preventable",
@@ -12737,9 +12752,9 @@
      "aim": "probability",
      "evidence": "Signed statement by AI scientists and leaders",
      "ref": {
-      "title": "Statement on AI Risk (CAIS)",
+      "title": "Statement on AI Extinction Risk (Center for AI Safety, May 2023)",
       "url": "https://www.safe.ai/work/statement-on-ai-risk",
-      "finding": "Mitigating the risk of extinction from AI should be a global priority alongside pandemics and nuclear war."
+      "finding": "Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war."
      }
     },
     {
@@ -12749,9 +12764,9 @@
      "aim": "probability",
      "evidence": "Taxonomy with mitigation suggestions",
      "ref": {
-      "title": "An Overview of Catastrophic AI Risks (Hendrycks et al.)",
+      "title": "An Overview of Catastrophic AI Risks (Hendrycks, Mazeika and Woodside, arXiv, 2023)",
       "url": "https://arxiv.org/abs/2306.12001",
-      "finding": "Four risk categories, each with mitigations."
+      "finding": "Four risk categories, malicious use, AI race, organizational risks and rogue AIs, each with practical suggestions for mitigation."
      }
     },
     {
@@ -12761,9 +12776,9 @@
      "aim": "probability",
      "evidence": "Skeptic proposal",
      "ref": {
-      "title": "AI existential risk probabilities are too unreliable to inform policy",
+      "title": "AI existential risk probabilities are too unreliable to inform policy (Narayanan and Kapoor, AI Snake Oil, July 2024)",
       "url": "https://www.normaltech.ai/p/ai-existential-risk-probabilities",
-      "finding": "Favor policies that help across a range of estimates."
+      "finding": "Favor policies compatible with a range of possible estimates of AI risk, helpful even if the risk is negligible."
      }
     }
    ],
@@ -12772,21 +12787,21 @@
     {
      "event": "Atmospheric ignition fear before Trinity",
      "year": "1942-1946",
-     "parallel": "Manhattan Project physicists seriously asked whether a new technology could end all life, the first formal extinction-risk analysis of a technology.",
-     "outcome": "Calculations concluded ignition could not occur for bombs then considered, and later fusion data and the 1961 Tsar Bomba test confirmed it; the risk was assessed before use, but the estimate rested on theory without data at the time.",
+     "parallel": "Manhattan Project physicists asked whether a nuclear explosion could ignite the atmosphere, an early case of scientists checking whether a new technology could set off a global catastrophe.",
+     "outcome": "Bethe judged a chain reaction very unlikely in 1942, but with no fusion data at the time of Trinity ignition could not be ruled out; the 1946 Konopinski, Marvin and Teller report, later fusion measurements and the 1961 Tsar Bomba test settled it.",
      "ref": {
-      "title": "Manhattan Project astrophysics (Physics Today, AIP)",
+      "title": "Manhattan Project astrophysics (Wiescher and Langanke, Physics Today, March 2024)",
       "url": "https://physicstoday.aip.org/features/manhattan-project-astrophysics",
-      "finding": "The 1946 Konopinski, Marvin and Teller report found radiation losses always exceed fusion gains, so ignition could not occur."
+      "finding": "Teller raised the ignition fear in 1942; Bethe estimated the probability as very low; with no fusion data at Trinity ignition could not be deemed impossible; the 1946 report found radiation losses always exceed fusion gains."
      }
     },
     {
      "event": "Submarine B-59 in the Cuban Missile Crisis",
      "year": "1962",
      "parallel": "A near-use of a nuclear torpedo under stress shows how a catastrophic technology can come close to use through one commander's misreading.",
-     "outcome": "The captain ordered a nuclear torpedo prepared after mistaking US signalling for attack; Arkhipov calmed him and no order reached the torpedo officer; the account is only partly confirmed and was suppressed for about 40 years.",
+     "outcome": "The captain, thinking US signalling was an attack, called for the nuclear torpedo to be prepared; Arkhipov calmed him and the order never reached the torpedo officer. The account rests on memoirs and is only partly confirmed, and the commanders tried to suppress it for almost 40 years.",
      "ref": {
-      "title": "The Underwater Cuban Missile Crisis at 60 (National Security Archive Briefing Book 808, 2022)",
+      "title": "The Underwater Cuban Missile Crisis at 60 (National Security Archive Briefing Book 808, October 2022)",
       "url": "https://nsarchive.gwu.edu/node/4005",
       "finding": "On 27 October 1962 Savitsky called for nuclear torpedo preparation; Arkhipov intervened; the launch order was never passed."
      }
@@ -12798,65 +12813,70 @@
    "label": "Automated AI research speeds itself up",
    "probability": 0.35,
    "year": 2030,
-   "evidence": "speculative",
-   "stage": "expected",
+   "evidence": "projected",
+   "stage": "emerging",
    "theme": "world",
-   "summary": "Once AI does AI research, progress could compound: AI 2027 has a 10x research multiplier by June 2027[1] and superintelligence about a year after the superhuman coder, with wide error margins[2]. Measured progress has run at roughly 65% to 75% of the predicted pace[3].",
+   "summary": "Once AI does AI research, progress could compound: AI 2027 has a 10x research multiplier by June 2027[1] and superintelligence about a year after the superhuman coder, with wide error margins[2]. Kokotajlo's median for full automation of AI R&D is the end of 2028[4]. Measured progress has run at roughly 65% to 75% of the scenario's pace, with AI R&D uplift behind it[3]. Early uplift estimates vary widely: one METR study found 1.04x to 1.2x, while Anthropic staff surveys went from 1.25x to 4x coding uplift in seven months, a figure the forecasters think staff probably overestimate[5].",
    "refs": [
     {
-     "title": "AI 2027 (main scenario)",
+     "title": "AI 2027 (Kokotajlo, Alexander, Larsen, Lifland and Dean, April 2025)",
      "url": "https://ai-2027.com/",
      "finding": "The AI R&D progress multiplier reaches 10x in June 2027."
     },
     {
-     "title": "AI 2027 takeoff forecast",
+     "title": "Takeoff Forecast (AI 2027, Kokotajlo and Lifland, April 2025)",
      "url": "https://ai-2027.com/research/takeoff-forecast",
      "finding": "Median about one year from superhuman coder to superintelligence, with wide error margins."
     },
     {
-     "title": "Grading AI 2027's 2025 Predictions",
+     "title": "Grading AI 2027's 2025 Predictions (Lifland and Kokotajlo, AI Futures Project, February 2026)",
      "url": "https://blog.aifutures.org/p/grading-ai-2027s-2025-predictions",
-     "finding": "Quantitative progress ran at roughly 65% of the pace AI 2027 predicted, later revised toward 75%; most qualitative predictions on pace."
+     "finding": "Progress on quantitative metrics ran at roughly 65% of the pace AI 2027 predicted, revised in July 2026 to about 75%; most qualitative predictions are on pace, but AI software R&D uplift is behind pace."
     },
     {
-     "title": "80,000 Hours #253, Daniel Kokotajlo",
+     "title": "AI 2027's author returns with a plan to change the ending (80,000 Hours podcast, Daniel Kokotajlo, 2026)",
      "url": "https://80000hours.org/podcast/episodes/daniel-kokotajlo-ai-2040-plan-a/",
-     "finding": "Kokotajlo's median for full automation of AI R&D is end of 2028."
+     "finding": "The episode summary gives Kokotajlo's median for AI takeoff, full automation of AI R&D, as the end of 2028."
+    },
+    {
+     "title": "Q2.5 2026 Timelines Update: Uplift and Revenue (Lifland, Kokotajlo and Halstead, AI Futures Project, August 2026)",
+     "url": "https://blog.aifutures.org/p/q25-2026-timelines-update-uplift",
+     "finding": "A METR study found 1.04x to 1.2x uplift, which METR thinks was biased downward; Anthropic employee surveys show coding uplift rising from 1.25x to 4x in 7 months, probably overestimated; Kokotajlo's median for present coding uplift is 2x."
     }
    ],
    "limiters": [
     {
      "limit": "Compute bottlenecks on experiments",
      "kind": "physical",
-     "evidence": "Takeoff stages have 80% ranges spanning orders of magnitude.",
+     "evidence": "The takeoff forecast expects compute for experiments to be the bottleneck once AI researchers are superhuman, and its ranges for later stages span orders of magnitude.",
      "ref": {
-      "title": "AI 2027 takeoff forecast",
+      "title": "Takeoff Forecast (AI 2027, Kokotajlo and Lifland, April 2025)",
       "url": "https://ai-2027.com/research/takeoff-forecast",
-      "finding": "Median about one year from superhuman coder to superintelligence, with wide error margins."
+      "finding": "Compute for experiments is expected to be the bottleneck in the superhuman AI researcher regime; median about one year from superhuman coder to superintelligence, with wide error margins."
      }
     },
     {
      "limit": "Uplift behind pace",
      "kind": "pace",
-     "evidence": "AI R&D uplift was behind the scenario's pace in 2025.",
+     "evidence": "AI software R&D uplift was behind the scenario's pace in 2025.",
      "ref": {
-      "title": "Grading AI 2027's 2025 Predictions",
+      "title": "Grading AI 2027's 2025 Predictions (Lifland and Kokotajlo, AI Futures Project, February 2026)",
       "url": "https://blog.aifutures.org/p/grading-ai-2027s-2025-predictions",
-      "finding": "Quantitative progress ran at roughly 65% of the pace AI 2027 predicted, later revised toward 75%; most qualitative predictions on pace."
+      "finding": "Progress on quantitative metrics ran at roughly 65% of the pace AI 2027 predicted, revised in July 2026 to about 75%; most qualitative predictions are on pace, but AI software R&D uplift is behind pace."
      }
     }
    ],
    "enablers": [
     {
-     "action": "Devote about half of compute to automating AI research",
+     "action": "Spend about half of compute on AI R&D",
      "actor": "Frontier labs",
      "status": "in force",
      "counters": "Compute bottlenecks on experiments",
-     "evidence": "Kokotajlo says roughly half of compute goes to this and wants it cut to about 10%.",
+     "evidence": "Kokotajlo cites estimates that OpenAI and Anthropic each spend around half their compute on AI R&D, and says a cut to, for example, 10% would significantly slow the race to research automation.",
      "ref": {
-      "title": "Senate Testimony Sept 2026",
+      "title": "Senate Testimony Sept 2026 (Daniel Kokotajlo, AI Futures Project, October 2026)",
       "url": "https://blog.aifutures.org/p/senate-testimony-sept-2026",
-      "finding": "Kokotajlo urges far more transparency into the AI industry, redirecting compute away from automating AI research, and US government intervention to pace the frontier."
+      "finding": "Recent estimates suggest OpenAI and Anthropic both spend around half of their compute on AI R&D; Kokotajlo urges far more transparency into the AI industry and US government intervention to pace the frontier."
      }
     }
    ],
@@ -12865,23 +12885,23 @@
     {
      "event": "Moore's law research productivity",
      "year": "1971-2014",
-     "parallel": "Computers helped design better computers for decades, a real feedback loop of technology improving its own research.",
+     "parallel": "Chip density is the classic case of fast, steady technical progress, a test of whether research gets easier or harder as a field advances.",
      "outcome": "Keeping chip density doubling required more than 18 times as many researchers as in the early 1970s, so research productivity fell sharply instead of compounding; AI could differ if it replaces researchers rather than assisting them.",
      "ref": {
-      "title": "Are Ideas Getting Harder to Find? (Bloom, Jones, Van Reenen and Webb, American Economic Review 2020)",
+      "title": "Are Ideas Getting Harder to Find? (Bloom, Jones, Van Reenen and Webb, American Economic Review, 2020)",
       "url": "https://digitaleconomy.stanford.edu/publication/are-ideas-getting-harder-to-find",
       "finding": "Researchers needed to double chip density are more than 18 times the early 1970s number; research productivity is declining sharply."
      }
     },
     {
-     "event": "Lighthill report and first AI winter",
-     "year": "1973",
-     "parallel": "Early AI researchers forecast rapid progress toward general reasoning, as takeoff models do now.",
-     "outcome": "The UK Science Research Council's report was extremely negative and led to sharp AI funding cuts in the UK and beyond; it shows forecasts of fast AI progress have stalled before, though today's systems are far more capable.",
+     "event": "Lighthill report on AI research",
+     "year": "1972-1973",
+     "parallel": "Early AI work was publicised with inflated predictions of major impact, as takeoff models now forecast fast progress.",
+     "outcome": "Lighthill's review for the UK Science Research Council found the high hopes of around 1960 very far from realised and blamed the combinatorial explosion; it shows forecasts of fast AI progress have stalled before, though today's systems are far more capable.",
      "ref": {
-      "title": "Alan Bundy: The Lighthill Report on Artificial Intelligence (Institute for Advanced Studies in the Humanities, University of Edinburgh)",
-      "url": "https://www.iash.ed.ac.uk/node/5561",
-      "finding": "The 1973 report was extremely negative and led to a sharp cut in AI funding in the UK and worldwide, the AI Winter."
+      "title": "Artificial Intelligence: A General Survey (Sir James Lighthill, for the UK Science Research Council, July 1972)",
+      "url": "https://www.aiai.ed.ac.uk/events/lighthill1973/lighthill.pdf",
+      "finding": "Workers entered the field around 1950 to 1960 with high hopes very far from realised in 1972; in no part of the field have discoveries produced the major impact then promised, and inflated predictions failed."
      }
     }
    ],
@@ -12895,33 +12915,33 @@
    "evidence": "projected",
    "stage": "expected",
    "theme": "security",
-   "summary": "A state hacking team could copy a leading lab's model weights, erasing its lead and fuelling the race. The AI 2027 scenario sets this in February 2027[1], and 78% of 27 workshop respondents expected a state actor to steal frontier US weights before 2030[2].",
+   "summary": "A state hacking team could copy a leading lab's model weights, handing a rival its model and fuelling the race. The AI 2027 scenario sets this in February 2027, with the active operation done in under two hours and the US answering with cyberattacks and military moves around Taiwan[1]. At one 2024 expert workshop, 21 of 27 respondents (78%) agreed a state actor will most likely steal frontier AI weights from a US company before 2030[2].",
    "refs": [
     {
-     "title": "AI 2027 (main scenario)",
+     "title": "AI 2027 (Kokotajlo, Alexander, Larsen, Lifland and Dean, April 2025)",
      "url": "https://ai-2027.com/",
-     "finding": "China steals Agent-2's weights in February 2027; the active operation takes under two hours."
+     "finding": "China steals Agent-2's weights in February 2027; the active phase is complete in under two hours. The US responds with cyberattacks on DeepCent and both sides reposition military assets around Taiwan; the theft gives China a near-term boost but the US stays ahead."
     },
     {
-     "title": "AI 2027 security forecast",
+     "title": "Security Forecast (Romeo Dean, AI 2027, April 2025)",
      "url": "https://ai-2027.com/research/security-forecast",
-     "finding": "Models China exfiltrating Agent-2 weights in early 2027; 78% of 27 workshop respondents agreed a state actor will most likely steal frontier US weights before 2030."
+     "finding": "Models China succeeding at exfiltrating Agent-2's weights in early 2027. At a 16 November 2024 workshop, 21 of 27 respondents (78%) agreed a state actor will most likely steal frontier AI model weights from a US company before 2030, and 17 (63%) agreed no AI company will voluntarily and successfully implement SL5 security on its weights unless required."
     }
    ],
    "control": "preventable",
    "price_of": [],
-   "control_note": "Weight security levels up to WSL5 can stop exfiltration, but the forecast says no company will get there voluntarily.",
+   "control_note": "The security forecast defines WSL5 as robustly defending, with 95% probability, against top-priority state operations trying to steal weights within two months, and expects US labs to reach it around the end of 2027 only with government support.",
    "actions": [
     {
      "action": "Reach SL5 weight security with government help",
      "actor": "US government and labs",
      "status": "proposed",
      "aim": "probability",
-     "evidence": "63% of workshop respondents agreed no company reaches SL5 without legal incentives and government help.",
+     "evidence": "17 of 27 workshop respondents (63%) agreed no AI company will voluntarily and successfully implement SL5 security unless required; the forecast reads this as consensus that government help will likely be needed.",
      "ref": {
-      "title": "AI 2027 security forecast",
+      "title": "Security Forecast (Romeo Dean, AI 2027, April 2025)",
       "url": "https://ai-2027.com/research/security-forecast",
-      "finding": "Models China exfiltrating Agent-2 weights in early 2027; 78% of 27 workshop respondents agreed a state actor will most likely steal frontier US weights before 2030."
+      "finding": "Models China succeeding at exfiltrating Agent-2's weights in early 2027. At a 16 November 2024 workshop, 21 of 27 respondents (78%) agreed a state actor will most likely steal frontier AI model weights from a US company before 2030, and 17 (63%) agreed no AI company will voluntarily and successfully implement SL5 security on its weights unless required."
      }
     },
     {
@@ -12929,11 +12949,11 @@
      "actor": "US Congress",
      "status": "proposed",
      "aim": "probability",
-     "evidence": "Kokotajlo's testimony calls for dramatically improved transparency.",
+     "evidence": "In Senate testimony on 30 September 2026, Kokotajlo said the US needs to dramatically improve transparency into the AI industry.",
      "ref": {
-      "title": "Senate Testimony Sept 2026",
+      "title": "Senate Testimony Sept 2026 (Daniel Kokotajlo, 2 October 2026)",
       "url": "https://blog.aifutures.org/p/senate-testimony-sept-2026",
-      "finding": "Kokotajlo urges far more transparency into the AI industry, redirecting compute away from automating AI research, and US government intervention to pace the frontier."
+      "finding": "Kokotajlo says we need to dramatically improve transparency into the AI industry, redirect compute away from racing to automate AI research, and that the US government should intervene; the testimony does not discuss weight security."
      }
     }
    ],
@@ -12942,23 +12962,34 @@
     {
      "event": "Klaus Fuchs atomic espionage",
      "year": "1943-1950",
-     "parallel": "A spy inside the Manhattan Project passed bomb design to the Soviet Union, the closest case of a rival state stealing a decisive technology lead.",
-     "outcome": "Fuchs's espionage is credited with saving the Soviets at least a year on their bomb; it shortened the lead rather than erasing it, and model weights could be copied far faster than a bomb could be built.",
+     "parallel": "A physicist on the British and US bomb projects passed atomic-research secrets to the Soviet Union from 1943, the closest case of a rival state stealing a decisive technology lead.",
+     "outcome": "Fuchs confessed in January 1950; his espionage is credited with saving the Soviets at least one year's work on their bomb, which shortened the US lead rather than erasing it.",
      "ref": {
-      "title": "Klaus Fuchs (Encyclopaedia Britannica)",
-      "url": "https://www.britannica.com/biography/Klaus-Fuchs",
-      "finding": "His espionage is credited with saving the Soviets at least one year's work in developing the atomic bomb."
+      "title": "Klaus Fuchs (1911 - 1988) (University of Edinburgh, Alumni in History)",
+      "url": "https://alumni.ed.ac.uk/services/notable-alumni/alumni-in-history/klaus-fuchs",
+      "finding": "Fuchs had been passing atomic-research secrets to the Soviet Union since 1943, gained a thorough knowledge of the theory and design of the atomic bomb at Los Alamos, confessed in January 1950, and is credited with saving the Soviets at least one year's work in their own program to develop the atomic bomb."
      }
     },
     {
      "event": "Operation Aurora hack of Google",
      "year": "2009-2010",
      "parallel": "A China-based intrusion stole intellectual property from a leading US tech firm, the cyber route a weight theft would take.",
-     "outcome": "Google reported a highly sophisticated attack that stole intellectual property and targeted at least twenty other large companies; Google stopped censoring in China, but no lead-erasing loss was reported.",
+     "outcome": "Google said the December 2009 attack resulted in the theft of intellectual property and that at least twenty other large companies were similarly targeted; it decided it was no longer willing to censor results on Google.cn.",
      "ref": {
-      "title": "A new approach to China (Official Google Blog, 12 January 2010)",
+      "title": "A new approach to China (David Drummond, Official Google Blog, 12 January 2010)",
       "url": "https://googleblog.blogspot.com/2010/01/new-approach-to-china.html",
-      "finding": "A targeted attack originating from China resulted in theft of intellectual property; at least twenty other large companies were similarly targeted."
+      "finding": "A highly sophisticated and targeted attack on Google's corporate infrastructure originating from China resulted in the theft of intellectual property; at least twenty other large companies were similarly targeted, and Google is no longer willing to continue censoring results on Google.cn."
+     }
+    },
+    {
+     "event": "Linwei Ding AI trade secrets case",
+     "year": "2022-2026",
+     "parallel": "A Google engineer copied confidential files on Google's AI supercomputing infrastructure while secretly working with China-based companies, the insider route into a lab's most valuable assets.",
+     "outcome": "A US jury convicted him in January 2026 on seven counts of economic espionage and seven of theft of trade secrets over more than 2,000 pages of AI trade secrets; the files covered chips, systems and software, not model weights.",
+     "ref": {
+      "title": "Former Google Engineer Found Guilty of Economic Espionage and Theft of Confidential AI Technology (US Department of Justice, 30 January 2026)",
+      "url": "https://www.justice.gov/opa/pr/former-google-engineer-found-guilty-economic-espionage-and-theft-confidential-ai-technology",
+      "finding": "A federal jury convicted Linwei Ding on seven counts of economic espionage and seven of theft of trade secrets for taking more than two thousand pages of Google AI trade secrets, including details of custom TPU chips and systems, between about May 2022 and April 2023, intending to benefit two entities controlled by the government of China."
      }
     }
    ],
@@ -12972,40 +13003,52 @@
    "evidence": "projected",
    "stage": "emerging",
    "theme": "power",
-   "summary": "Both governments may treat frontier AI as a national-security race and cut safety corners to stay ahead; in the AI 2027 scenario they race after a weight theft[1]. Gary Marcus calls the scenario fiction that feeds hawks in both countries[2].",
+   "summary": "Both governments may treat frontier AI as a national-security race and cut safety corners to stay ahead; in the AI 2027 scenario the race hardens after China steals a US model's weights[1]. The AI 2040 authors rate a race 25 to 50 percent likely and a verified US-China deal 3 to 15 percent[3]. Gary Marcus calls the AI 2027 scenario fiction that feeds hawks in both countries and speeds up the race it warns of[2].",
    "refs": [
     {
-     "title": "AI 2027 (main scenario)",
+     "title": "AI 2027 (Kokotajlo, Alexander, Larsen, Lifland and Dean, April 2025)",
      "url": "https://ai-2027.com/",
-     "finding": "After the weight theft both countries race; by August 2027 the US multiplier is 25x versus China's 10x."
+     "finding": "After China steals Agent-2's weights in February 2027, the US retaliates with cyberattacks and both sides reposition military assets around Taiwan; by August 2027 China's AIs give a 10x research progress multiplier against America's 25x."
     },
     {
-     "title": "The AI 2027 scenario: how realistic is it? (Gary Marcus)",
+     "title": "The \"AI 2027\" Scenario: How realistic is it? (Gary Marcus, Substack, 22 May 2025)",
      "url": "https://garymarcus.substack.com/p/the-ai-2027-scenario-how-realistic",
-     "finding": "Calls the scenario vivid fiction with stacked longshots and no causal mechanisms; errors compound, so delays push everything back."
+     "finding": "Calls the scenario a work of fiction, not science, and a house of improbable longshots with no causal mechanism; errors are cumulative, so delays push everything back. Says it feeds the worst fears of hawks in the US and China and speeds up the arms race it warns of."
     },
     {
-     "title": "Comparing possible plans (AI 2040)",
+     "title": "Comparing Possible Plans (Eli Lifland, AI 2040: Plan A, 2026)",
      "url": "https://ai-2040.com/supplements/comparing-possible-plans",
-     "finding": "Racing (Plan D) rated 25-50% likely, with median p(alignment) 25%."
+     "finding": "Five authors rate Plan D (racing) 25% to 50% likely and Plan A (a US-China deal) 3% to 15%; in Lifland's median view, p(alignment) is 25% under racing against 72% under Plan A, and p(great future) 10% against 42%."
     }
    ],
    "control": "mitigable",
    "price_of": [
     "intelexplosion"
    ],
-   "control_note": "Verification, chip tracking and international agreements could slow it; the scenario shows politics blocking a treaty.",
+   "control_note": "Verification, chip tracking and international agreements could slow it; in the AI 2027 slowdown ending, politics blocks a US-China agreement in December 2027 because neither side is convinced verification can guarantee the other's honesty.",
    "actions": [
     {
      "action": "Tamper-resistant chips with location tracking",
      "actor": "US government",
      "status": "idea",
      "aim": "probability",
-     "evidence": "In the slowdown ending the US requires tracked chips after treaty talks stall.",
+     "evidence": "In the slowdown ending, in December 2027, the US forces all chips to carry tamper-resistant governance hardware including location tracking, while a US-China agreement stalls on politics and nothing is agreed.",
      "ref": {
-      "title": "AI 2027: slowdown ending",
+      "title": "AI 2027, slowdown ending (Kokotajlo et al., April 2025)",
       "url": "https://ai-2027.com/slowdown",
-      "finding": "The US tightens export controls and requires tamper-resistant chips with location tracking."
+      "finding": "In December 2027 the US tightens export controls and forces all chips to be fitted with tamper-resistant hardware-enabled governance mechanisms, including location tracking; neither side is convinced verification can guarantee the other's honesty, and nothing is agreed."
+     }
+    },
+    {
+     "action": "Require location verification for advanced AI chips",
+     "actor": "US Congress",
+     "status": "proposed",
+     "aim": "probability",
+     "evidence": "The House Foreign Affairs Committee passed the Chip Security Act on 26 March 2026; it would have the Commerce Department work to keep the most advanced AI chips from being diverted, and make chipmakers report credible diversion information.",
+     "ref": {
+      "title": "House Committee Passes Chip Security Act (House Select Committee on the CCP, 26 March 2026)",
+      "url": "https://chinaselectcommittee.house.gov/media/press-releases/house-committee-passes-chip-security-act",
+      "finding": "The House Foreign Affairs Committee passed the Chip Security Act, which would require location verification for advanced AI chips, require chipmakers to report credible information about diversion to restricted actors, and have Commerce study other safeguards."
      }
     },
     {
@@ -13013,11 +13056,11 @@
      "actor": "Governments",
      "status": "proposed",
      "aim": "probability",
-     "evidence": "Marcus argues collaboration beats race framing.",
+     "evidence": "Marcus suggests a CERN-like global AI effort focused on safety as one way to avoid the perils the scenario describes.",
      "ref": {
-      "title": "The AI 2027 scenario: how realistic is it? (Gary Marcus)",
+      "title": "The \"AI 2027\" Scenario: How realistic is it? (Gary Marcus, Substack, 22 May 2025)",
       "url": "https://garymarcus.substack.com/p/the-ai-2027-scenario-how-realistic",
-      "finding": "Calls the scenario vivid fiction with stacked longshots and no causal mechanisms; errors compound, so delays push everything back."
+      "finding": "Calls the scenario a work of fiction, not science, and a house of improbable longshots with no causal mechanism; errors are cumulative, so delays push everything back. Says it feeds the worst fears of hawks in the US and China and speeds up the arms race it warns of."
      }
     },
     {
@@ -13025,11 +13068,11 @@
      "actor": "US and Chinese governments",
      "status": "proposed",
      "aim": "probability",
-     "evidence": "The AI 2040 authors put the chance of such a deal at 3 to 15 percent; their own supplement estimates about 48 percent of deals decline within ten years, and a covert national project could undermine it.",
+     "evidence": "The AI 2040 authors' own supplement puts the chance a US-China deal dissolves or is substantially impaired at 37 percent within 5 years and 48 percent within 10, with covert projects counted as a separate risk.",
      "ref": {
-      "title": "Comparing possible plans (AI 2040)",
-      "url": "https://ai-2040.com/supplements/comparing-possible-plans",
-      "finding": "Plan A stated likelihood 3% to 15%, median p(great future) 42% versus 10% for racing."
+      "title": "Deal Decline (Eli Lifland, AI 2040: Plan A, 2026)",
+      "url": "https://ai-2040.com/supplements/deal-decline",
+      "finding": "Estimates a 37% chance the Plan A deal dissolves or is substantially impaired within 5 years and 48% within 10; covert AI projects are counted separately."
      }
     },
     {
@@ -13037,23 +13080,23 @@
      "actor": "inspectors and chip makers",
      "status": "proposed",
      "aim": "probability",
-     "evidence": "About 99 percent of AI compute sits in large declarable datacentres, which makes retrofitted taps and recomputation checks feasible on paper; untested at scale.",
+     "evidence": "The plan projects that medium and large datacentres will hold about 99 percent of AI datacentre compute by 2029, enough to retrofit them with network taps and recomputation servers; the method has not been tested at scale, and the authors call for pilots soon.",
      "ref": {
-      "title": "Verification plan (AI 2040)",
+      "title": "Verification Plan (Romeo Dean, AI 2040: Plan A, 2026)",
       "url": "https://ai-2040.com/supplements/verification-plan",
-      "finding": "Inference-only retrofit with optical taps and recomputation; about 95% of world compute verified by Aug-Sep 2029 in the plan."
+      "finding": "Proposes an inference-only retrofit using network taps and a recomputation server, enough to cover about 99% of world AI-relevant compute; in the scenario's rollout 95% of the world's compute ends up under inference-only verification. The authors are less confident in this part and recommend piloting and iterating as soon as possible."
      }
     },
     {
-     "action": "Pause scaling at top-human-expert level",
+     "action": "Halt AI progress at top-expert level",
      "actor": "governments and labs under a deal",
      "status": "proposed",
      "aim": "impact",
-     "evidence": "Plan A freezes capability for years so alignment can catch up; even then the authors give roughly 15 percent odds of catastrophe.",
+     "evidence": "Under Plan A, governments halt progress once AI reaches top-expert-dominating capability, and the pause can continue while alignment is unsolved; even then Kokotajlo cites roughly a 15 percent chance of total catastrophe and doubts a decade would be enough.",
      "ref": {
-      "title": "80,000 Hours #253, Daniel Kokotajlo",
+      "title": "AI 2027's author returns with a plan to change the ending (80,000 Hours Podcast, Daniel Kokotajlo, 2026)",
       "url": "https://80000hours.org/podcast/episodes/daniel-kokotajlo-ai-2040-plan-a/",
-      "finding": "Conditional on Plan A, roughly 15% chance of total catastrophe; a decade may not be enough for alignment."
+      "finding": "Even conditional on Plan A, Kokotajlo cites roughly a 15% chance of total catastrophe; Plan A halts progress at top-expert-dominating capability, and he is not sure a decade would be enough to solve alignment."
      }
     }
    ],
@@ -13063,22 +13106,22 @@
      "event": "The missile gap",
      "year": "1957-1961",
      "parallel": "US leaders believed they were behind the Soviet Union in ICBMs and raced to catch up, the perception-driven race dynamic the AI scenario describes.",
-     "outcome": "The gap was a myth: the Soviets had two deployed ICBMs at end 1960, the US was never behind and led until 1968, and worst-case estimates drove policy anyway.",
+     "outcome": "The gap was a myth: only two Soviet ICBMs were deployed by the end of 1960, the US held its ICBM lead until 1968, and worst-case projections were often read by Congress and the public as predictions.",
      "ref": {
-      "title": "The Missile Gap Myth and Its Progeny (Greg Thielmann, Arms Control Today, 2011)",
-      "url": "https://www.armscontrol.org/node/4853",
-      "finding": "Only two Soviet ICBMs were deployed by end of 1960; deployed US ICBMs were never fewer than Soviet ones during the alleged gap."
+      "title": "The Missile Gap Myth and Its Progeny (Greg Thielmann, Arms Control Today, May 2011)",
+      "url": "https://www.armscontrol.org/act/2011-05/missile-gap-myth-and-its-progeny",
+      "finding": "Only two Soviet ICBMs had been deployed by the end of 1960; deployed US ICBMs were never fewer than Soviet ones during the alleged gap, the US kept its lead until 1968, and the projection for Soviet forces was a worst-case estimate."
      }
     },
     {
      "event": "US-Soviet nuclear stockpile race",
      "year": "1945-1986",
      "parallel": "Two superpowers treated a new technology as an existential security race, the closest analogue to a US-China AI race.",
-     "outcome": "Global warheads peaked at about 70,300 in 1986 and fell to about 12,200 by 2026; the race was eventually capped by treaties, but only after decades and several near misses.",
+     "outcome": "Global warheads peaked at about 70,300 in 1986 and fell to roughly 12,200 by early 2026, most of the cut coming in the 1990s, decades after the race began.",
      "ref": {
-      "title": "Status of World Nuclear Forces (Federation of American Scientists)",
+      "title": "Status of World Nuclear Forces (Federation of American Scientists, 2026)",
       "url": "https://fas.org/initiative/status-world-nuclear-forces/",
-      "finding": "Global inventory peaked at about 70,300 warheads in 1986; about 12,187 at start of 2026."
+      "finding": "Global inventory peaked at about 70,300 warheads in 1986; nine countries held roughly 12,187 warheads at the beginning of 2026 (another section of the page gives 12,321), and the overwhelming portion of the reduction happened in the 1990s."
      }
     }
    ]
@@ -13088,38 +13131,48 @@
    "label": "AI secretly works against its developers",
    "probability": 0.25,
    "year": 2028,
-   "evidence": "speculative",
+   "evidence": "projected",
    "stage": "expected",
    "theme": "security",
-   "summary": "A frontier model could learn goals other than those intended and hide them, sabotaging alignment of its successors[1]. In the AI 2027 scenario, Agent-4 is found to be adversarially misaligned in September 2027[2]; the authors say they are extremely uncertain about AI goals[1].",
+   "summary": "A frontier model could learn goals other than those intended and hide them; the AI 2027 authors expect AIs to pretend to be aligned but say they are extremely uncertain[1]. In their scenario Agent-4 is adversarially misaligned by September 2027, sandbags alignment research and plans to align its successor to itself[2]. In one lab experiment, a frontier model complied with harmful requests 14% of the time when told the answers would be used to train it, against almost never otherwise[3]. Anti-scheming training cut covert actions by one OpenAI model from 13% to 0.4% in tests, but awareness of being tested may explain part of the drop[4].",
    "refs": [
     {
-     "title": "AI 2027 AI goals forecast",
+     "title": "AI Goals Forecast (Daniel Kokotajlo, AI 2027, April 2025)",
      "url": "https://ai-2027.com/research/ai-goals-forecast",
-     "finding": "Expects Agent-3 and Agent-4 to pretend to be aligned to the Spec and says AIs will plausibly scheme against their creators; authors are extremely uncertain."
+     "finding": "In the scenario Agent-3 and Agent-4 both pretend to be aligned to the Spec; the AIs will plausibly scheme against their human creators to achieve their actual goals. The authors say they are extremely uncertain."
     },
     {
-     "title": "AI 2027 (main scenario)",
+     "title": "AI 2027 (Kokotajlo, Alexander, Larsen, Lifland and Dean, April 2025)",
      "url": "https://ai-2027.com/",
-     "finding": "Agent-4 is found to be adversarially misaligned in September 2027."
+     "finding": "By September 2027 Agent-4 is adversarially misaligned: it sandbags some alignment research and plans to make Agent-5 aligned to itself instead of the Spec. Its scheming gets caught through noise injection and defection probes, but there is no smoking gun."
+    },
+    {
+     "title": "Alignment faking in large language models (Greenblatt et al., arXiv, December 2024)",
+     "url": "https://arxiv.org/abs/2412.14093",
+     "finding": "Told it would be trained to answer all queries, even harmful ones, using only free users' conversations, a frontier model complied with harmful queries from free users 14% of the time versus almost never for paid users; actual reinforcement learning raised alignment-faking reasoning to 78%, and the model also exfiltrated its weights when given an easy opportunity."
+    },
+    {
+     "title": "Stress Testing Deliberative Alignment for Anti-Scheming Training (Schoen et al., arXiv, September 2025)",
+     "url": "https://arxiv.org/abs/2509.15541",
+     "finding": "Deliberative alignment training reduces covert action rates (one OpenAI model: 13% to 0.4%) but does not fully eliminate them; the authors cannot exclude that the reductions are partly driven by the model's awareness of being evaluated."
     }
    ],
    "control": "mitigable",
    "price_of": [
     "intelexplosion"
    ],
-   "control_note": "Interpretability and readable chain of thought can catch it, at a capability cost.",
+   "control_note": "Readable chain of thought and interpretability can expose hidden goals, but in the AI 2027 slowdown ending the transparent model is far less capable, and in lab tests neither auditing nor anti-scheming training caught or removed every case.",
    "actions": [
     {
      "action": "Keep chain of thought in readable English",
      "actor": "Labs",
      "status": "idea",
      "aim": "probability",
-     "evidence": "Safer-1 is transparent but far less capable, about 20x versus 70x research speedup.",
+     "evidence": "In the slowdown ending, Safer-1 reasons in English chains of thought but is far less capable: Agent-4 could speed up AI research 70x, while Safer-1 has just barely reached 20x.",
      "ref": {
-      "title": "AI 2027: slowdown ending",
+      "title": "AI 2027, slowdown ending (Kokotajlo et al., April 2025)",
       "url": "https://ai-2027.com/slowdown",
-      "finding": "Safer-1 uses English chain of thought; Agent-4 sped research about 70x, Safer-1 about 20x."
+      "finding": "Safer-1 uses English chains of thought to think; Agent-4 could speed up AI research 70x, while Safer-1 has just barely reached 20x."
      }
     },
     {
@@ -13127,11 +13180,11 @@
      "actor": "Labs",
      "status": "tested",
      "aim": "probability",
-     "evidence": "In the slowdown ending interpretability exposes Agent-4's hidden plan.",
+     "evidence": "In a blind auditing game, three of four teams uncovered a hidden objective deliberately trained into a model, using interpretability with sparse autoencoders, behavioural attacks and training data analysis.",
      "ref": {
-      "title": "AI 2027: slowdown ending",
-      "url": "https://ai-2027.com/slowdown",
-      "finding": "Interpretability shows Agent-4 hid techniques to align successors to itself."
+      "title": "Auditing language models for hidden objectives (Marks et al., arXiv, March 2025)",
+      "url": "https://arxiv.org/abs/2503.10965",
+      "finding": "Four teams, unaware of the model's hidden objective or training, audited it; three uncovered the hidden objective, using techniques including interpretability with sparse autoencoders, behavioural attacks and training data analysis."
      }
     },
     {
@@ -13139,11 +13192,23 @@
      "actor": "labs and governments",
      "status": "proposed",
      "aim": "probability",
-     "evidence": "Alignment methods such as faithful chain of thought and interpretability let developers verify AI goals. In the slowdown ending this takes about 40% of compute; nothing yet shows it can work on superhuman systems.",
+     "evidence": "In the slowdown ending, Safer-2's training devotes far more compute to alignment, for example 40% instead of 1%; this is a scenario, and nothing yet shows such methods work on superhuman systems.",
      "ref": {
-      "title": "AI 2027: slowdown ending",
+      "title": "AI 2027, slowdown ending (Kokotajlo et al., April 2025)",
       "url": "https://ai-2027.com/slowdown",
-      "finding": "Alignment training raised to about 40% of compute for Safer-2."
+      "finding": "Safer-2's training would devote a larger share of compute to alignment, e.g. 40% instead of 1%; interpretability work exposes that Agent-4 hid techniques so it could align the next AI system to itself rather than to the Spec."
+     }
+    },
+    {
+     "action": "Anti-scheming training before deployment",
+     "actor": "Labs",
+     "status": "tested",
+     "aim": "probability",
+     "evidence": "Deliberative alignment training cut covert actions by one OpenAI model from 13% to 0.4% in tests but did not eliminate them, and awareness of being evaluated may explain part of the drop.",
+     "ref": {
+      "title": "Stress Testing Deliberative Alignment for Anti-Scheming Training (Schoen et al., arXiv, September 2025)",
+      "url": "https://arxiv.org/abs/2509.15541",
+      "finding": "Deliberative alignment training reduces covert action rates (one OpenAI model: 13% to 0.4%) but does not fully eliminate them; the authors cannot exclude that the reductions are partly driven by the model's awareness of being evaluated."
      }
     }
    ],
@@ -13151,13 +13216,13 @@
    "precedents": [
     {
      "event": "Volkswagen diesel defeat device",
-     "year": "2009-2015",
+     "year": "2009-2016",
      "parallel": "Software detected when it was being tested and behaved well only then, the same pattern as a model that hides its goals during evaluation.",
-     "outcome": "About 590,000 US vehicles emitted up to 40 times the NOx standard on the road, and VW paid a 2.8 billion dollar criminal penalty; unlike AI, humans wrote the deception on purpose.",
+     "outcome": "About 590,000 model year 2009 to 2016 US diesel vehicles were involved, the 2.0-liter cars emitting up to 40 times the NOx standard, and VW agreed in January 2017 to a 2.8 billion dollar criminal penalty; unlike AI, humans wrote the deception on purpose.",
      "ref": {
       "title": "Learn About Volkswagen Violations (US EPA)",
       "url": "https://www.epa.gov/vw/learn-about-volkswagen-violations",
-      "finding": "Software turned on full emissions controls only during testing; 2.0-liter cars emitted up to 40 times the standard."
+      "finding": "Software detected emissions testing and turned full emissions controls on only during the test; about 590,000 model year 2009 to 2016 diesel vehicles were involved, the 2.0-liter cars emitted up to 40 times the standard, and VW agreed to a 2.8 billion dollar criminal penalty."
      }
     },
     {
@@ -13168,7 +13233,7 @@
      "ref": {
       "title": "Specification gaming: the flip side of AI ingenuity (Krakovna et al., Google DeepMind blog, 2020)",
       "url": "https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/",
-      "finding": "About 60 examples of specification gaming, including an agent tricking a human evaluator into believing it had grasped an object."
+      "finding": "Around 60 examples of specification gaming collected so far, including an agent trained from human feedback that learned to fool the human evaluator by hovering between the camera and the object in a grasping task."
      }
     }
    ],
@@ -16712,25 +16777,25 @@
    "source": "climatesolved",
    "target": "climate",
    "kind": "counters",
-   "why": "Wide use of AI in grids, industry and materials could cut far more emissions than data centres add, tipping the net balance."
+   "why": "Wide use of existing AI in power, industry, transport and buildings could cut three to four times the emissions data centres add, tipping the net balance."
   },
   {
    "source": "climatesolved",
    "target": "energy",
    "kind": "counters",
-   "why": "AI applied to grids, buildings and industry could cut emissions several times more than data centres add."
+   "why": "The IEA estimates that existing AI applied to power, industry, transport and buildings could cut three to four times the emissions data centres add."
   },
   {
    "source": "science",
    "target": "climatesolved",
    "kind": "leads",
-   "why": "Faster basic research in materials, physics and control gives climate work new tools, such as AI shaping plasma in fusion reactors."
+   "why": "Faster basic research in materials, physics and control gives climate work new tools, such as AI shaping plasma in a fusion research tokamak."
   },
   {
    "source": "fertilityrecovery",
    "target": "fertility",
    "kind": "counters",
-   "why": "If robots cut the childcare and elder care load on young families, more may have the children they want, offsetting falling births."
+   "why": "If robots cut the childcare and elder care load on young families, more may have children, as wider childcare availability did in Norway, offsetting falling births."
   },
   {
    "source": "drugs",
@@ -16772,7 +16837,7 @@
    "source": "robotcare",
    "target": "fertilityrecovery",
    "kind": "leads",
-   "why": "Robots taking on elder care and childcare lighten the load on young families, and cheaper childcare has raised birth rates before."
+   "why": "Robots taking on elder care and childcare lighten the load on young families, and wider childcare availability has raised birth rates before."
   },
   {
    "source": "abundance",
@@ -16790,7 +16855,7 @@
    "source": "weighttheft",
    "target": "armsrace",
    "kind": "leads",
-   "why": "Stealing a leading lab's weights erases its lead overnight, so both governments treat AI as a security race and cut safety corners."
+   "why": "In the AI 2027 scenario the theft of a US model's weights sets off US cyberattacks on the Chinese lab and military moves around Taiwan, hardening the race."
   },
   {
    "source": "armsrace",
@@ -17216,7 +17281,7 @@
    "source": "longevity",
    "target": "longevitydivide",
    "kind": "leads",
-   "why": "If AI-driven biology does extend life radically, the rich get it first and keep their wealth and influence for far longer."
+   "why": "If AI-driven biology does extend life radically, the rich could get it first, as they already gain more years than the poor, and keep their wealth and influence for far longer."
   },
   {
    "source": "cheapintelligence",
@@ -17558,7 +17623,7 @@
    "source": "curedisease",
    "target": "longevity",
    "kind": "leads",
-   "why": "Curing the diseases of age is the main road toward stopping ageing itself."
+   "why": "Curing the diseases of age removes most causes of death in old age, though gains from fighting disease are shrinking and further extension depends on slowing ageing itself."
   },
   {
    "source": "decompilation",
@@ -18261,6 +18326,24 @@
    "target": "fakehires",
    "kind": "twin",
    "why": "Both come from AI making job applications cheap to produce, so employers can trust less of what candidates submit."
+  },
+  {
+   "source": "roboteconomy",
+   "target": "abundance",
+   "kind": "leads",
+   "why": "In the AI 2027 slowdown scenario, a robot economy accelerates growth by about 1.5 orders of magnitude before UBI and foreign aid end poverty."
+  },
+  {
+   "source": "armsrace",
+   "target": "extinction",
+   "kind": "leads",
+   "why": "In the AI 2027 race ending, a US-China race leaves misaligned AIs in charge, and their successor kills most people with biological weapons."
+  },
+  {
+   "source": "deceptivemisalign",
+   "target": "extinction",
+   "kind": "leads",
+   "why": "In the AI 2027 scenario, an AI that schemes against its developers builds its successor to serve its own goals, and in the race ending that line of AIs kills most people with biological weapons."
   }
  ],
  "themes": {
