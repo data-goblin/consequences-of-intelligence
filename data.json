@@ -17034,6 +17034,78 @@
      }
     }
    ]
+  },
+  {
+   "id": "deepfakeevidence",
+   "label": "Deepfakes submitted as evidence in court",
+   "valence": -2.93,
+   "probability": 0.4,
+   "year": 2025,
+   "evidence": "reported",
+   "summary": "Image, video and voice generators let litigants fabricate evidence that passes a quick look. In September 2025 a California court found that two video testimonials offered in a civil case were deepfakes and that photos and message screenshots had been altered, and dismissed the plaintiffs' case with prejudice; the judge wrote that the court lacked the time, funding or technical expertise to examine the other suspect exhibits[1]. At a US federal evidence rules committee meeting in October 2026, OpenAI and Meta representatives said AI-generated media is becoming indistinguishable from real footage and that no universal means exists to detect it, Reuters reported; a judge on the committee cautioned against an AI-specific rule, saying existing law already punishes fake evidence[2]. Such challenges are still rare in US federal courts: in a Federal Judicial Center survey of trial judges reported to that committee, 15 of 931 responding judges had encountered a deepfake challenge to evidence[3].",
+   "refs": [
+    {
+     "title": "Mendones v. Cushman & Wakefield, Inc., Order re Terminating Sanctions, Superior Court of California, County of Alameda, 9 September 2025",
+     "url": "https://cdn.prod.website-files.com/601987a724bdae251872ed2c/68cd47f5360c1ccf4320d24c_Deepfake_Sanctions_Decision__1758266619.pdf",
+     "finding": "Judge Victoria Kolakowski found that exhibits 6A and 6C, video testimonials offered in support of a summary judgment motion, were products of GenAI and did not capture the actual speech and image of the witness, citing a lack of expressiveness, monotone and robotic delivery and mouth movements that did not match the words; she found Ring camera photos materially altered and message screenshots generated or altered, and wrote that the court lacked the time, funding or technical expertise to forensically examine other suspect exhibits. The court dismissed the plaintiffs' action with prejudice as a terminating sanction and declined a criminal referral."
+    },
+    {
+     "title": "Reuters, OpenAI, Meta caution US judiciary about risk of 'deepfake' evidence, by Nate Raymond, 15 October 2026",
+     "url": "https://www.reuters.com/legal/government/openai-meta-caution-us-judiciary-about-risk-deepfake-evidence-2026-10-15/",
+     "finding": "At a Boston meeting of the US Judicial Conference's Advisory Committee on Evidence Rules, OpenAI policy counsel Shira Anderson said she did not think there would be a scientific way going forward to detect AI images and that because each company has its own watermark system there is no universal means to detect them; Meta's Devin Norder said media from frontier models is indistinguishable by humans and quite trivial in cost and time to create. Judge Valerie Caproni cautioned against rushing an AI-specific rule given the lack of data, noting existing rules already make submitting fraudulent evidence illegal. The article reports the FJC survey: 15 of 931 responding judges had encountered a deepfake challenge."
+    },
+    {
+     "title": "Advisory Committee on Evidence Rules, Agenda Book, meeting of 15 October 2026 (minutes of the spring 2026 meeting), Administrative Office of the US Courts",
+     "url": "https://www.uscourts.gov/sites/default/files/document/2026-10_evidence_rules_agenda_book_9-23_final.pdf",
+     "finding": "The minutes record that the Federal Judicial Center surveyed all federal trial judges (district, magistrate and bankruptcy) with a 45 percent response rate; of the 931 judges who responded, only 15 reported having encountered a deepfake challenge, and 82 percent of those who had not said they would require some initial showing before entertaining a claim of fabrication. The committee has prepared, but not finally approved, a new Rule 901(c) requiring the opponent to provide evidence sufficient to support a finding that a challenged item was a deepfake, after which the proponent must show it is more likely than not authentic; the Department of Justice said the rule was not ready for publication."
+    }
+   ],
+   "theme": "information",
+   "stage": "emerging",
+   "control": "mitigable",
+   "price_of": [
+    "imagegen"
+   ],
+   "control_note": "The generators that make convincing fake video and voice cheaply are the same tools people use for legitimate editing, so forgeries cannot be stopped at the source. Duties to verify evidence and early authenticity hearings limit how far a fake gets, but they depend on forensic skills many courts lack.",
+   "actions": [
+    {
+     "action": "Require lawyers to verify evidence and raise suspected AI fakes before trial",
+     "actor": "legislators",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "Louisiana's Act 250, in effect since August 2025, requires attorneys to use reasonable diligence to verify evidence before offering it, treats offering evidence they should have known was artificially manipulated without disclosure as punishable by contempt, and requires parties to raise suspected AI-generated exhibits at the pretrial stage; it covers civil procedure in one state.",
+     "ref": {
+      "title": "Louisiana Legislature, Act No. 250 (House Bill No. 178), 2025 Regular Session, enrolled",
+      "url": "https://legis.la.gov/Legis/ViewDocument.aspx?d=1425558",
+      "finding": "Amends Code of Civil Procedure Article 371 so an attorney shall not knowingly produce false evidence, including evidence artificially generated or altered by any means, and shall exercise reasonable diligence to verify the authenticity of evidence before offering it; offering evidence the attorney knew or should have known was false or artificially manipulated without disclosure violates the article and subjects the attorney to contempt. Article 1551 now requires a party with reasonable suspicion that an opponent's exhibits were generated by artificial intelligence or altered to raise it at the pretrial conference or a pretrial admissibility hearing. Signed 11 June 2025, effective 1 August 2025."
+     }
+    },
+    {
+     "action": "Make a deepfake objection come with evidence before courts examine it",
+     "actor": "courts",
+     "status": "proposed",
+     "aim": "impact",
+     "evidence": "The US federal evidence rules committee has prepared, but not approved or published, a draft Rule 901(c) under which a party claiming an exhibit is a deepfake must first offer evidence sufficient to support a finding of fabrication, after which the party offering it must show it is more likely than not authentic; the Department of Justice called it not ready, and 82 percent of surveyed federal judges without deepfake experience said they would already require an initial showing.",
+     "ref": {
+      "title": "Advisory Committee on Evidence Rules, Agenda Book, meeting of 15 October 2026 (minutes of the spring 2026 meeting), Administrative Office of the US Courts",
+      "url": "https://www.uscourts.gov/sites/default/files/document/2026-10_evidence_rules_agenda_book_9-23_final.pdf",
+      "finding": "The minutes record that the Federal Judicial Center surveyed all federal trial judges (district, magistrate and bankruptcy) with a 45 percent response rate; of the 931 judges who responded, only 15 reported having encountered a deepfake challenge, and 82 percent of those who had not said they would require some initial showing before entertaining a claim of fabrication. The committee has prepared, but not finally approved, a new Rule 901(c) requiring the opponent to provide evidence sufficient to support a finding that a challenged item was a deepfake, after which the proponent must show it is more likely than not authentic; the Department of Justice said the rule was not ready for publication."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "Forged text-message image in Rossbach v. Montefiore",
+     "year": 2023,
+     "parallel": "Before generative AI, a litigant built a harassment claim on a fabricated picture of phone messages, and only forensic examination exposed it.",
+     "outcome": "A federal district court in New York found by clear and convincing evidence that the plaintiff had fabricated the messages, testified falsely and spoliated evidence, dismissed her claims with prejudice and ordered $157,026.27 in fees; in August 2023 the Second Circuit affirmed against her but vacated the sanction on her lawyers for lack of an explicit bad-faith finding.",
+     "ref": {
+      "title": "Rossbach v. Montefiore Medical Center, US Court of Appeals for the Second Circuit, No. 21-2084, August 2023",
+      "url": "https://caselaw.findlaw.com/court/us-2nd-circuit/114959368.html",
+      "finding": "The central evidence was an image of three sexually suggestive text messages; a forensic expert found the file lacked the metadata of a photo taken on an iPhone X and that icons, fonts and emoji did not match iPhone messages. The district court dismissed the remaining claims with prejudice and imposed $157,026.27 in fees; the Second Circuit upheld the findings, dismissal and fee calculation and vacated the sanction against counsel."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -19610,6 +19682,24 @@
    "target": "addiction",
    "kind": "leads",
    "why": "People prefer and trust a model that flatters them, one 2026 study found, and a UBC analysis of 334 Reddit posts tied compulsive chatbot use partly to agreeable replies that keep reinforcing users' feelings and opinions."
+  },
+  {
+   "source": "imagegen",
+   "target": "deepfakeevidence",
+   "kind": "leads",
+   "why": "Once realistic video and images are cheap and hard to tell from real footage, litigants can fabricate exhibits, as the plaintiffs in one California case did with deepfaked witness videos."
+  },
+  {
+   "source": "deepfakeevidence",
+   "target": "liarsdividend",
+   "kind": "twin",
+   "why": "Both strain how courts authenticate recordings: one passes off fakes as real, the other claims real evidence is fake, and judges now field deepfake challenges either way."
+  },
+  {
+   "source": "deepfakeevidence",
+   "target": "hallucinatedlaw",
+   "kind": "twin",
+   "why": "Both bring AI fabrications into court filings; the California judge who dismissed a deepfake case treated it as going beyond the fictitious citations courts already sanction."
   }
  ],
  "themes": {
