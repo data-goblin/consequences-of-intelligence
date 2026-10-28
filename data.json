@@ -16864,6 +16864,98 @@
      }
     }
    ]
+  },
+  {
+   "id": "algorithmicpay",
+   "label": "Algorithms set each worker's pay",
+   "valence": -3.14,
+   "probability": 0.5,
+   "year": 2025,
+   "evidence": "measured",
+   "summary": "Many platforms now set the pay for each job with algorithms, so two workers doing the same task can be paid different amounts and workers cannot accurately predict what a shift will earn[3]. One Oxford study with Worker Info Exchange analysed more than 1.5 million trips by 258 UK Uber drivers from 2016 to 2024 and found that after Uber introduced dynamic pricing in 2023, drivers' inflation-adjusted hourly income before costs fell from over £22 to just over £19, unpaid waiting time grew, and Uber's commission rose from about 25% to 29%, with Uber taking over half the fare on some trips[1]; pay also became less predictable and more unequal between drivers[2]. A TUC report drawing on the study says 93 of 114 drivers earned less after the change while Uber's surplus per hour rose 38%[3]. Uber said it did not recognise the figures and that UK drivers took home over £1 billion in January to March 2025, up on the year before[4]. Beyond ride-hailing, one audit of 500 AI labour-management vendors flagged 20 as high risk for enabling such pay setting, including five in customer service and four in health care, and 16 of the 20 linked directly to payroll or HR systems[5].",
+   "refs": [
+    {
+     "title": "University of Oxford Department of Computer Science, New Oxford research reveals Uber's algorithmic pricing leaves drivers and passengers worse off, June 2025",
+     "url": "https://www.cs.ox.ac.uk/news/2455-full.html",
+     "finding": "Analysing data from 258 UK Uber drivers across more than 1.5 million trips between 2016 and 2024, researchers found that after Uber introduced dynamic pricing in 2023 passengers paid more per trip while drivers' inflation-adjusted hourly income before operating costs dropped from over £22 to just over £19, drivers spent more unpaid time waiting, and Uber's commission rose from around 25% to 29%, in some cases over half the fare."
+    },
+    {
+     "title": "Binns, Stein, Datta, Van Kleek and Shadbolt, Not Even Nice Work If You Can Get It; A Longitudinal Study of Uber's Algorithmic Pay and Pricing, arXiv 2025",
+     "url": "https://arxiv.org/abs/2506.15278",
+     "finding": "A participatory audit of Uber's algorithmic pay and work allocation using 1.5 million trips from 258 UK drivers finds that after dynamic pricing pay fell, Uber's cut rose, job allocation and pay became less predictable, inequality between drivers increased and drivers spent more time waiting for jobs."
+    },
+    {
+     "title": "TUC, The human price of dynamic pay, 2026",
+     "url": "https://www.tuc.org.uk/sites/default/files/2026-04/dynamicpay.pdf",
+     "finding": "Defines dynamic pay as algorithmically determined, variable and potentially personalised pay under which two workers doing the same task may be paid different amounts. Citing the Oxford and Worker Info Exchange study, the median driver retained 71% of the fare, only 46% retained 75% or more, Uber's surplus per hour rose 38%, and 93 of 114 drivers earned less after dynamic pricing while 21 earned more. The TUC calls for ending dynamic pay-setting."
+    },
+    {
+     "title": "TaxiPoint, Uber rejects University of Oxford study that finds drivers see drop in pay under 'Dynamic' pricing, June 2025",
+     "url": "https://www.taxi-point.co.uk/post/uber-rejects-university-of-oxford-study-that-finds-drivers-see-drop-in-pay-under-dynamic-pricing",
+     "finding": "Uber said: We do not recognise the figures in this report, adding that UK drivers took home over £1 billion in earnings between January and March 2025, up on the year before, and that all drivers receive a weekly summary breaking down what Uber and the driver received."
+    },
+    {
+     "title": "Dubal and Negrón, How artificial intelligence uncouples hard work from fair wages through 'surveillance pay' practices, and how to fix it, Washington Center for Equitable Growth, August 2025",
+     "url": "https://equitablegrowth.org/how-artificial-intelligence-uncouples-hard-work-from-fair-wages-through-surveillance-pay-practices-and-how-to-fix-it/",
+     "finding": "Describes surveillance pay as digitalised wage-setting using large swaths of granular worker data. An audit of 500 AI labour-management vendors flagged 20 as high risk for enabling algorithmic pay: five in customer service, four in health care, one in last-mile logistics, one in manufacturing and nine cross-sector; 16 of the 20 link directly to payroll or HR systems. The authors argue transparency alone is insufficient and propose banning the use of real-time data to automate pay."
+    }
+   ],
+   "theme": "work",
+   "stage": "active",
+   "control": "mitigable",
+   "price_of": [],
+   "control_note": "Setting each job's price from live data lets a platform match drivers to demand, and the same opacity lets it change workers' share without notice. Bans on pay set from surveillance data, collective data rights and rules on automated decisions can limit it, but one US state ban has already failed.",
+   "actions": [
+    {
+     "action": "Require transparency and human oversight of algorithmic management",
+     "actor": "legislators",
+     "status": "in force",
+     "aim": "impact",
+     "evidence": "The EU platform work directive, published in November 2024, imposes greater transparency on algorithmic management and bans some automated decisions, such as suspending accounts; its rules apply only from 2 December 2026.",
+     "ref": {
+      "title": "European Parliament Legislative Train, Initiative to improve the working conditions of people working in the platform economy, 2024",
+      "url": "https://www.europarl.europa.eu/legislative-train/theme-a-europe-fit-for-the-digital-age/file-improving-working-conditions-of-platform-workers",
+      "finding": "The directive was adopted by the Council on 14 October 2024, signed on 23 October and published in the Official Journal on 11 November 2024, and will apply from 2 December 2026; it imposes greater transparency on algorithmic management and prohibits certain decisions, such as suspending accounts, and the use of algorithms to process emotional or psychological data."
+     }
+    },
+    {
+     "action": "Ban pay set from surveillance data",
+     "actor": "legislators",
+     "status": "proposed",
+     "aim": "probability",
+     "evidence": "A Colorado bill would have barred employers from using automated decision systems to set pay from surveillance data, with civil penalties and a right to sue; a House committee voted 7 to 4 to postpone it indefinitely on 22 April 2025.",
+     "ref": {
+      "title": "Colorado General Assembly, HB25-1264, Prohibit Surveillance Data to Set Prices and Wages, 2025",
+      "url": "https://leg.colorado.gov/bills/hb25-1264",
+      "finding": "The bill would bar employers from using automated decision systems to set a worker's pay based on surveillance data about the worker's traits, behaviours or biometrics, enforced by the attorney general, district attorneys and private suits; the House Judiciary Committee postponed it indefinitely, 7 to 4, on 22 April 2025."
+     }
+    },
+    {
+     "action": "Sue under data protection law over automated pay",
+     "actor": "worker groups",
+     "status": "proposed",
+     "aim": "impact",
+     "evidence": "Worker Info Exchange sent Uber a letter before action in November 2025 claiming its upfront pricing uses automated decision-making and profiling to set driver pay in breach of the GDPR, and plans collective proceedings in Amsterdam; no court has ruled.",
+     "ref": {
+      "title": "Worker Info Exchange, Drivers in UK and Europe set to sue Uber for unfair pay set by algorithm, November 2025",
+      "url": "https://www.workerinfoexchange.org/post/drivers-in-uk-and-europe-set-to-sue-uber-for-unfair-pay-set-by-algorithm",
+      "finding": "WIE International sent a letter before action to Uber BV and Uber Technologies alleging GDPR breaches through automated decision-making, including profiling, in Up Front Pricing that reduced take-home pay, and training the algorithm on drivers' data without consent; it intends collective proceedings before the Amsterdam District Court seeking compensation and an order stopping the practice."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "DoorDash used customer tips to cover its own pay to workers",
+     "year": 2020,
+     "parallel": "An opaque platform pay formula quietly shifted money away from workers, and only an investigation showed how pay was really calculated.",
+     "outcome": "The District of Columbia attorney general alleged that from July 2017 to September 2019 DoorDash used consumer tips to cover its own payments to workers; DoorDash paid $2.5 million, including $1.5 million to workers, and must give workers an itemised breakdown of each delivery's pay.",
+     "ref": {
+      "title": "Office of the Attorney General for the District of Columbia, AG Racine Reaches $2.5 Million Agreement with DoorDash for Misrepresenting that Consumer Tips Would Go to Food Delivery Drivers, November 2020",
+      "url": "https://oag.dc.gov/release/ag-racine-reaches-25-million-agreement-doordash",
+      "finding": "Under DoorDash's payment model from July 2017 to September 2019 it used consumer tips to cover its own payments to workers instead of passing them on, so the more consumers tipped the less DoorDash paid; the $2.5 million settlement includes $1.5 million for workers, and DoorDash must keep tips separate from base pay and give workers an itemised summary of each delivery's payment."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -19416,6 +19508,12 @@
    "target": "driverassist",
    "kind": "twin",
    "why": "Driving automation that runs with no human driver cut injury crashes in Waymo's data, while systems that still need a watching driver invite that driver to stop watching."
+  },
+  {
+   "source": "surveillancepricing",
+   "target": "algorithmicpay",
+   "kind": "twin",
+   "why": "Both use personal data and automated systems to set a different rate for each person, prices for shoppers and pay for workers, and one Colorado bill tried to ban both."
   }
  ],
  "themes": {
