@@ -1131,14 +1131,14 @@
    "summary": "As AI makes tasks cheaper, demand and expectations may grow faster than time is saved. In one 2024 Upwork survey, 77% of employees using AI said it had added to their workload[1]; in one Danish study, 85% of chatbot users said they moved saved time to other tasks, and earnings and recorded hours did not change[2].",
    "refs": [
     {
-     "title": "Upwork Research Institute 2024",
+     "title": "Upwork Research Institute, From Burnout to Balance: AI-Enhanced Work Models for the Future, 2024",
      "url": "https://www.upwork.com/research/ai-enhanced-work-models",
-     "finding": "In one 2024 survey of 2,500 workers and executives in the US, UK, Australia and Canada, 77% of employees using AI said it had added to their workload, while 96% of executives expected AI to raise productivity."
+     "finding": "In a 2024 survey of 2,500 people in the US, UK, Australia and Canada (1,250 C-suite executives, 625 full-time employees and 625 freelancers), 77% of employees using AI said the tools had added to their workload, while 96% of C-suite leaders expected AI to raise productivity."
     },
     {
-     "title": "Humlum and Vestergaard, Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI, NBER w33777",
+     "title": "Humlum and Vestergaard 2025, Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI, NBER w33777 (revised 2026)",
      "url": "https://www.nber.org/papers/w33777",
-     "finding": "In Danish surveys of 11 exposed occupations linked to registry data, 85% of chatbot users said they moved saved time to other tasks, and effects on earnings and recorded hours were precise nulls."
+     "finding": "In Danish surveys of 11 exposed occupations linked to registry data, 85% of chatbot users said they moved saved time to other job tasks and fewer than 10% took more breaks or leisure; effects on earnings and recorded hours were precise nulls, ruling out average effects larger than 2%."
     },
     {
      "title": "Acemoglu 2025, The Simple Macroeconomics of AI, Economic Policy (NBER w32487)",
@@ -1148,7 +1148,7 @@
     {
      "title": "Anthropic Economic Index report: Uneven geographic and enterprise AI adoption, September 2025",
      "url": "https://www.anthropic.com/research/anthropic-economic-index-september-2025-report",
-     "finding": "Classifies Claude.ai and enterprise API use by economic task, and as automation or augmentation."
+     "finding": "Classifies Claude.ai conversations and first-party API transcripts by O*NET task and as automation or augmentation; on Claude.ai the directive (automation) share rose from 27% to 39%."
     }
    ],
    "theme": "work",
@@ -1158,7 +1158,7 @@
     "productivity",
     "cheapintelligence"
    ],
-   "control_note": "If tasks get cheaper, demand for them can grow, by the same mechanism as the productivity gain; how much depends on how elastic demand is. Policy and employers mostly decide who captures the saved time.",
+   "control_note": "If tasks get cheaper, demand for them can grow, by the same mechanism as the productivity gain; how much depends on how elastic demand is. Employers set workloads, and in one Danish study most chatbot users moved saved time to other job tasks while fewer than 10% took more breaks or leisure.",
    "actions": [
     {
      "action": "Set workload targets when AI is introduced",
@@ -1167,9 +1167,9 @@
      "aim": "probability",
      "evidence": "In one vendor survey, 77% of employees using AI said it added to their workload; this is self-reported and not causal.",
      "ref": {
-      "title": "Upwork Research Institute, From Burnout to Balance: AI-Enhanced Work Models, 2024",
+      "title": "Upwork Research Institute, From Burnout to Balance: AI-Enhanced Work Models for the Future, 2024",
       "url": "https://www.upwork.com/research/ai-enhanced-work-models",
-      "finding": "In one 2024 survey of 2,500 workers and executives in the US, UK, Australia and Canada, 77% of employees using AI said it had added to their workload, while 96% of executives expected AI to raise productivity."
+      "finding": "In a 2024 survey of 2,500 people in the US, UK, Australia and Canada (1,250 C-suite executives, 625 full-time employees and 625 freelancers), 77% of employees using AI said the tools had added to their workload, while 96% of C-suite leaders expected AI to raise productivity."
      }
     },
     {
@@ -1189,12 +1189,12 @@
     {
      "event": "Jevons and British coal",
      "year": "1865",
-     "parallel": "Cheaper use of a resource raised total demand for it, the same mechanism by which cheaper tasks may grow total work.",
-     "outcome": "Jevons argued that more efficient steam engines would not reduce coal demand but speed depletion; the rebound depends on how elastic demand is, so it is not automatic.",
+     "parallel": "Jevons argued that using a resource more efficiently raises total demand for it, the same mechanism by which cheaper tasks may grow total work.",
+     "outcome": "Jevons argued that more efficient use of coal would not reduce demand for it but would spur more use and speed the depletion of supplies.",
      "ref": {
       "title": "W. Stanley Jevons, The Coal Question, 1865 (Yale Energy History)",
       "url": "https://energyhistory.yale.edu/w-stanley-jevons-the-coal-question-1865/",
-      "finding": "Jevons held that efficiency in consumption would not reduce demand for energy."
+      "finding": "Jevons held that increased efficiency in consumption would not reduce demand for energy but would spur increased use and further deplete supplies."
      }
     },
     {
@@ -1212,11 +1212,11 @@
      "event": "Household appliances and housework",
      "year": "1926-1997",
      "parallel": "Labour-saving machines in the home were expected to free time, a close parallel to AI saving time at work.",
-     "outcome": "Australian 1997 time-use data found domestic technology rarely reduced women's unpaid work and sometimes increased it; Gershuny disputed the method, so the evidence is contested.",
+     "outcome": "Australian 1997 time-use data found domestic technology rarely reduced women's unpaid working time and sometimes increased it; Gershuny published a rebuttal in the same journal issue, so the evidence is contested.",
      "ref": {
-      "title": "Bittman, Rice and Wajcman 2004, Appliances and their impact, British Journal of Sociology",
-      "url": "https://openresearch-repository.anu.edu.au/items/69e28c23-1065-4788-a26f-39fc09408f25",
-      "finding": "Domestic technology rarely reduces women's unpaid working time and produces some increases."
+      "title": "Bittman, Mahmud Rice and Wajcman 2004, Appliances and their impact: the ownership of domestic technology and time spent on household work, British Journal of Sociology 55(3)",
+      "url": "https://researchonline.lse.ac.uk/id/eprint/28630",
+      "finding": "Using the Australian 1997 Time Use Survey, which records appliance ownership, finds that domestic technology rarely reduces women's unpaid working time and even produces some increases in domestic labour."
      }
     }
    ]
@@ -1228,12 +1228,12 @@
    "probability": 0.12,
    "year": 2031,
    "evidence": "projected",
-   "summary": "Basic income looks workable but modest: in one US trial, $1,000 a month for three years to 1,000 low-income people cut work by 1 to 2 hours a week[1], and health gains were mostly short-lived[2]. Political support for a universal scheme is unproven.",
+   "summary": "Guaranteed-income trials show modest effects: in one US trial, $1,000 a month for three years to 1,000 low-income people cut work by 1 to 2 hours a week[1], and health gains were mostly short-lived[2]. Political support for a universal scheme is unproven; in one 2020 US survey, 54% of adults opposed a federal basic income of about $1,000 a month and 45% favoured it[5].",
    "refs": [
     {
      "title": "Vivalt et al. 2026, The Employment Effects of a Guaranteed Income: Experimental Evidence from Two U.S. States, Quarterly Journal of Economics (NBER w32719)",
      "url": "https://www.nber.org/papers/w32719",
-     "finding": "$1,000 a month for three years to 1,000 low-income people cut their work by 1 to 2 hours a week and labour market participation by 4.2 percentage points, with no impact on job quality."
+     "finding": "$1,000 a month for three years to 1,000 low-income people, against 2,000 controls paid $50 a month, cut their work by 1 to 2 hours a week and labour market participation by 4.2 percentage points, with no impact on job quality."
     },
     {
      "title": "Miller et al., Does Income Affect Health? Evidence from a Randomized Controlled Trial of a Guaranteed Income, NBER w32711",
@@ -1243,12 +1243,17 @@
     {
      "title": "Kokotajlo, Lifland, Larsen and Dean (with Scott Alexander), AI 2027: race ending, 2025",
      "url": "https://ai-2027.com/race",
-     "finding": "In the authors' scenario, by 2029 people whose jobs are obsolete either act out their old roles or collect an incredibly luxurious universal basic income."
+     "finding": "In the authors' scenario, by 2029 humans realise they are obsolete; outside a few niche industries, people either perform a charade of doing their jobs or collect an incredibly luxurious universal basic income."
     },
     {
      "title": "Dean and Larsen, Economics of Plan A (AI 2040 scenario supplement)",
      "url": "https://ai-2040.com/supplements/economics-of-plan-a",
-     "finding": "In the authors' modelled scenario, most US AI permit revenue is paid to US residents as a Citizen's Dividend of about $1M per person a year by 2035; they say they do not fully trust the model."
+     "finding": "In the authors' modelled scenario, AI and robot permit revenue is paid out as a Citizen's Dividend, with 75% of US permit revenue going to the US population in 2035, roughly $1M per person a year; they say they do not trust the model's outputs to be accurate."
+    },
+    {
+     "title": "Gilberstadt, More Americans oppose than favor the government providing a universal basic income for all adult citizens, Pew Research Center, 2020",
+     "url": "https://www.pewresearch.org/short-reads/2020/08/19/more-americans-oppose-than-favor-the-government-providing-a-universal-basic-income-for-all-adult-citizens/",
+     "finding": "In an online survey of 11,001 US adults from July 27 to August 2, 2020, 54% opposed the federal government providing a guaranteed income of about $1,000 a month for all adult citizens, whether or not they work, and 45% favoured it."
     }
    ],
    "theme": "work",
@@ -1277,11 +1282,11 @@
     {
      "limit": "no political path",
      "kind": "regulation",
-     "evidence": "No country pays a basic income large enough to live on; Iran's nationwide cash transfer since 2011 was compensation for subsidy cuts, not a basic income.",
+     "evidence": "In one 2020 survey of 11,001 US adults, 54% opposed a federal basic income of about $1,000 a month for all adult citizens, whether or not they work; 45% favoured it.",
      "ref": {
-      "title": "Salehi-Isfahani and Mostafavi-Dehzooei 2018, Cash transfers and labor supply: Evidence from a large-scale program in Iran, Journal of Development Economics",
-      "url": "https://erf.org.eg/publications/cash-transfers-and-labor-supply-evidence-from-a-large-scale-program-in-iran",
-      "finding": "Apart from youth, the authors find no evidence that the transfers, worth 29% of median household income, reduced labour supply."
+      "title": "Gilberstadt, More Americans oppose than favor the government providing a universal basic income for all adult citizens, Pew Research Center, 2020",
+      "url": "https://www.pewresearch.org/short-reads/2020/08/19/more-americans-oppose-than-favor-the-government-providing-a-universal-basic-income-for-all-adult-citizens/",
+      "finding": "In an online survey of 11,001 US adults from July 27 to August 2, 2020, 54% opposed the federal government providing a guaranteed income of about $1,000 a month for all adult citizens, whether or not they work, and 45% favoured it."
      }
     }
    ],
@@ -1293,9 +1298,9 @@
      "counters": "no political path",
      "evidence": "A Kenyan trial pays a 12-year basic income in 44 villages, alongside 2-year and lump-sum arms and 100 control villages.",
      "ref": {
-      "title": "Universal Basic Income: Short-Term Results from a Long-Term Experiment in Kenya",
+      "title": "Banerjee, Faye, Krueger, Niehaus and Suri 2023, Universal Basic Income: Short-Term Results from a Long-Term Experiment in Kenya (working paper)",
       "url": "https://conference.nber.org/conf_papers/f192616.pdf",
-      "finding": "Across 195 treated villages in rural Kenya, compared with 100 control villages, UBI expanded local enterprise; labour supply did not fall overall but shifted from wage work to self-employment."
+      "finding": "In a trial in rural Kenya with 195 treated and 100 control villages, communities receiving the 12-year UBI saw more enterprises and higher revenues; labour supply did not change overall but shifted from wage employment to self-employment."
      }
     },
     {
@@ -1305,7 +1310,7 @@
      "counters": "high fiscal cost",
      "evidence": "In Kenya, a one-off lump sum had similar or larger economic effects than a two-year stream of the same value; the authors note it is cheaper only if households get less.",
      "ref": {
-      "title": "Universal Basic Income: Short-Term Results from a Long-Term Experiment in Kenya",
+      "title": "Banerjee, Faye, Krueger, Niehaus and Suri 2023, Universal Basic Income: Short-Term Results from a Long-Term Experiment in Kenya (working paper)",
       "url": "https://conference.nber.org/conf_papers/f192616.pdf",
       "finding": "The lump sums had similar, if not larger, economic impacts than the short-term stream, which had noticeably smaller effects despite delivering the same capital."
      }
@@ -1330,20 +1335,20 @@
      "parallel": "A universal, unconditional cash payment has run for decades, the closest real case of a basic income.",
      "outcome": "The dividend had no effect on employment and raised part-time work by 1.8 percentage points (17 percent).",
      "ref": {
-      "title": "Jones and Marinescu 2022, The Labor Market Impacts of Universal and Permanent Cash Transfers, AEJ: Economic Policy",
+      "title": "Jones and Marinescu 2022, The Labor Market Impacts of Universal and Permanent Cash Transfers: Evidence from the Alaska Permanent Fund, AEJ: Economic Policy",
       "url": "https://www.aeaweb.org/articles?id=10.1257/pol.20190299",
-      "finding": "No effect on employment; part-time work rose 1.8 percentage points."
+      "finding": "No effect on employment; part-time work rose 1.8 percentage points (17 percent)."
      }
     },
     {
      "event": "Finland basic income experiment",
      "year": "2017-2018",
-     "parallel": "A national randomised trial tested unconditional payments to unemployed people as a step toward a simpler, universal system.",
-     "outcome": "About 2,000 unemployed people received 560 euros a month; employment rose slightly more than in the control group and recipients reported better wellbeing and less mental strain, but a 2018 activation reform muddied the employment result and it did not help those already in hard situations.",
+     "parallel": "A national randomised trial tested unconditional payments to unemployed people as a step toward a simpler social security system.",
+     "outcome": "2,000 people drawn at random from those on unemployment benefit received 560 euros a month; from November 2017 to October 2018 it added an average of 6 days of employment, and recipients reported less mental strain, depression, sadness and loneliness, but a new activation model in 2018 complicated the employment result.",
      "ref": {
-      "title": "Finland Toolbox presentation, Finland's Basic Income Experiment 2017-2018 (2020)",
-      "url": "https://toolbox.finland.fi/wp-content/uploads/sites/2/2018/04/basic_income_experiment_2017-2018_results_2020.pdf",
-      "finding": "Slightly better employment and better perceived wellbeing; interpretation complicated by the 2018 activation model."
+      "title": "Finland's Basic Income Experiment 2017-2018, Finland Toolbox (Finland Promotion Board)",
+      "url": "https://toolbox.finland.fi/life-society/finlands-basic-income-experiment-2017-2018/",
+      "finding": "2,000 randomly selected recipients of unemployment benefit got 560 euros a month; basic income added 6 days of employment from November 2017 to October 2018 and improved perceived wellbeing; a new activation model in 2018 complicated interpretation."
      }
     },
     {
@@ -1352,7 +1357,7 @@
      "parallel": "A guaranteed annual income open to a whole town is the main community-level test of universal cash.",
      "outcome": "Forget reported hospitalisations fell 8.5% relative to a comparison group, but Green's 2021 reanalysis found pre-trends that point to higher hospital use, so health benefits are unproven.",
      "ref": {
-      "title": "Green 2021, A Reanalysis of 'The Town with No Poverty'",
+      "title": "Green 2021, A Reanalysis of 'The Town with No Poverty: The Health Effects of a Canadian Guaranteed Annual Income Field Experiment'",
       "url": "https://economics.ubc.ca/wp-content/uploads/sites/38/2021/03/forget-cpp-reanalysis.pdf",
       "finding": "After accounting for pre-trends, the data point to an increase in hospital use, reversing Forget's 2011 conclusion."
      }
@@ -1360,12 +1365,12 @@
     {
      "event": "Iran's nationwide cash transfer",
      "year": "2011",
-     "parallel": "A national government paid unconditional monthly cash to nearly all households, the closest country-scale case.",
-     "outcome": "Transfers worth 29% of median household income did not reduce labour supply except among young people, and service-sector workers worked more hours.",
+     "parallel": "A national government paid unconditional monthly cash to more than 70 million people, the closest country-scale case.",
+     "outcome": "Transfers worth 28% of median per capita household income, paid to compensate for removed energy subsidies, did not reduce hours worked or labour force participation, and labour supply rose among women and self-employed men.",
      "ref": {
-      "title": "Salehi-Isfahani and Mostafavi-Dehzooei 2018, Cash transfers and labor supply: Evidence from a large-scale program in Iran, Journal of Development Economics",
-      "url": "https://erf.org.eg/publications/cash-transfers-and-labor-supply-evidence-from-a-large-scale-program-in-iran",
-      "finding": "Apart from youth, the authors find no evidence that the transfers, worth 29% of median household income, reduced labour supply."
+      "title": "Salehi-Isfahani and Mostafavi-Dehzooei 2018, Cash transfers and labor supply: Evidence from a large-scale program in Iran, Journal of Development Economics 135",
+      "url": "https://econpapers.repec.org/RePEc:eee:deveco:v:135:y:2018:i:c:p:349-367",
+      "finding": "Monthly transfers from 2011 to more than 70 million people, compensating for removed energy subsidies and worth 28% of median per capita household income, did not reduce hours worked or labour force participation, and raised labour supply among women and self-employed men."
      }
     }
    ],
@@ -1378,12 +1383,17 @@
    "probability": 0.6,
    "year": 2026,
    "evidence": "projected",
-   "summary": "Models that turn binaries back into readable source could help keep abandoned software, games and industrial systems alive and interoperable. In one study, open models recompiled and passed tests on more than twice as many decompiled functions as GPT-4o and Ghidra on two benchmarks[1].",
+   "summary": "Models that turn binaries back into readable source could help keep abandoned software and games alive and interoperable. In one study, open models recompiled and passed tests on more than twice as many decompiled functions as GPT-4o and Ghidra on two benchmarks[1]; in one hobby project rebuilding the source of the game Snowboard Kids 2, the developer reported more progress in three weeks with an AI coding agent than in the preceding three months[2].",
    "refs": [
     {
      "title": "Tan, Luo, Li and Zhang, LLM4Decompile: Decompiling Binary Code with Large Language Models, EMNLP 2024",
      "url": "https://arxiv.org/abs/2403.05286",
-     "finding": "Open models re-executed more than twice as many decompiled functions as GPT-4o and Ghidra on two benchmarks."
+     "finding": "Presents what the authors call the first and largest open-source LLM series (1.3B to 33B parameters) trained to decompile binary code; the models beat GPT-4o and Ghidra by over 100% in re-executability rate on HumanEval and ExeBench."
+    },
+    {
+     "title": "The Unexpected Effectiveness of One-Shot Decompilation with Claude, Chris' Blog, 2025",
+     "url": "https://blog.chrislewis.au/the-unexpected-effectiveness-of-one-shot-decompilation-with-claude/",
+     "finding": "Running an AI coding agent unattended against a build-and-verify script, the author made more progress matching Snowboard Kids 2 functions in three weeks than in the preceding three months, estimates roughly 79% of functions should be matchable, and warns the remaining ones will be the hardest and many matches are hard to read."
     }
    ],
    "theme": "ip",
@@ -1392,31 +1402,31 @@
     {
      "limit": "legal limits on decompilation",
      "kind": "regulation",
-     "evidence": "EU law allows decompilation only for interoperability and only of the needed parts.",
+     "evidence": "EU law allows decompilation without the rightholder's consent only when indispensable for interoperability, only by someone entitled to use a copy, and only of the parts needed.",
      "ref": {
       "title": "Directive 2009/24/EC on the legal protection of computer programs, Article 6",
       "url": "https://eur-lex.europa.eu/eli/dir/2009/24/oj/eng",
-      "finding": "Decompilation without the rightholder's consent is allowed only when needed for interoperability and limited to the needed parts."
+      "finding": "Reproducing and translating code without authorisation is allowed only when indispensable to obtain the information needed for interoperability of an independently created program, by a person entitled to use a copy, and limited to the parts needed; the information may not be used to build a substantially similar program."
      }
     },
     {
      "limit": "output not fully correct",
      "kind": "quality",
-     "evidence": "LLM4Decompile more than doubled re-executability over GPT-4o and Ghidra, but even its best released model re-executes only about 65% of benchmark functions.",
+     "evidence": "LLM4Decompile more than doubled re-executability over GPT-4o and Ghidra, but even its best released model re-executes only about 65% of functions on one benchmark.",
      "ref": {
-      "title": "LLM4Decompile repository and model results, GitHub",
+      "title": "albertan017/LLM4Decompile: Reverse Engineering: Decompiling Binary Code with Large Language Models, GitHub",
       "url": "https://github.com/albertan017/LLM4Decompile",
-      "finding": "Open models re-executed more than twice as many decompiled functions as GPT-4o and Ghidra; the best released model re-executes about 65% of benchmark functions."
+      "finding": "The best released model, llm4decompile-9b-v2, reached a re-executability rate of 0.6494 on the Decompile benchmark; the code is under the MIT and DeepSeek licences."
      }
     },
     {
      "limit": "skills to verify output",
      "kind": "skills",
-     "evidence": "Even the best released model re-executes about 65% of benchmark functions, so experts must test the rest.",
+     "evidence": "Even the best released model re-executes only about 65% of functions on one benchmark, so experts must test the rest.",
      "ref": {
-      "title": "LLM4Decompile repository and model results, GitHub",
+      "title": "albertan017/LLM4Decompile: Reverse Engineering: Decompiling Binary Code with Large Language Models, GitHub",
       "url": "https://github.com/albertan017/LLM4Decompile",
-      "finding": "Open models re-executed more than twice as many decompiled functions as GPT-4o and Ghidra; the best released model re-executes about 65% of benchmark functions."
+      "finding": "The best released model, llm4decompile-9b-v2, reached a re-executability rate of 0.6494 on the Decompile benchmark; the code is under the MIT and DeepSeek licences."
      }
     }
    ],
@@ -1426,11 +1436,11 @@
      "actor": "research labs",
      "status": "in force",
      "counters": "output not fully correct",
-     "evidence": "LLM4Decompile models were released openly for reuse.",
+     "evidence": "LLM4Decompile models from 1.3B to 33B parameters were released as open source.",
      "ref": {
       "title": "Tan, Luo, Li and Zhang, LLM4Decompile: Decompiling Binary Code with Large Language Models, EMNLP 2024",
       "url": "https://arxiv.org/abs/2403.05286",
-      "finding": "Open models re-executed more than twice as many decompiled functions as GPT-4o and Ghidra on two benchmarks."
+      "finding": "Presents what the authors call the first and largest open-source LLM series (1.3B to 33B parameters) trained to decompile binary code; the models beat GPT-4o and Ghidra by over 100% in re-executability rate on HumanEval and ExeBench."
      }
     },
     {
@@ -1438,11 +1448,11 @@
      "actor": "legislators",
      "status": "idea",
      "counters": "legal limits on decompilation",
-     "evidence": "The EU directive has an interoperability exception but none for preservation.",
+     "evidence": "EU law lets cultural heritage institutions copy software in their permanent collections for preservation, but that exception covers only the reproduction right, not the translation of code that decompilation involves.",
      "ref": {
-      "title": "Directive 2009/24/EC on the legal protection of computer programs, Article 6",
-      "url": "https://eur-lex.europa.eu/eli/dir/2009/24/oj/eng",
-      "finding": "Decompilation without the rightholder's consent is allowed only when needed for interoperability and limited to the needed parts."
+      "title": "Directive (EU) 2019/790 on copyright and related rights in the Digital Single Market, Article 6",
+      "url": "https://eur-lex.europa.eu/eli/dir/2019/790/oj/eng",
+      "finding": "Member States must let cultural heritage institutions make copies of works permanently in their collections, in any format, for preservation and only as far as necessary; for computer programs this covers the reproduction right in Article 4(1)(a) of Directive 2009/24/EC, not the translation and adaptation right in Article 4(1)(b)."
      }
     }
    ],
@@ -1462,7 +1472,7 @@
      "event": "Sony v. Connectix emulator",
      "year": "2000",
      "parallel": "Reverse engineering a console BIOS let PlayStation games run on ordinary computers, the kind of afterlife decompilation gives old software.",
-     "outcome": "The Ninth Circuit lifted the injunction and found Connectix's intermediate copies were fair use because the final emulator contained no infringing code.",
+     "outcome": "The Ninth Circuit reversed, ordered the injunction dissolved and found Connectix's intermediate copies were fair use because the final emulator contained no infringing material.",
      "ref": {
       "title": "Sony Computer Entertainment v. Connectix Corp., 203 F.3d 596 (9th Cir. 2000), US Copyright Office Fair Use Index",
       "url": "https://www.copyright.gov/fair-use/summaries/sony-connectix-9thcir2000.pdf",
@@ -1478,17 +1488,17 @@
    "probability": 0.85,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Polished-looking AI output that lacks substance shifts work onto whoever receives it; in one survey of 1,150 full-time US desk workers, 40% had received such workslop in the past month, costing about two hours per incident[1][2].",
+   "summary": "Polished-looking AI output that lacks substance shifts work onto whoever receives it, leaving colleagues to do the real thinking and clean-up[2]; in one survey of 1,150 full-time US desk workers, 40% had received such workslop in the past month, costing about two hours per incident[2].",
    "refs": [
     {
-     "title": "Niederhoffer et al., AI-Generated Workslop Is Destroying Productivity, HBR 2025",
+     "title": "Niederhoffer, Kellerman, Lee, Liebscher, Rapuano and Hancock, AI-Generated \"Workslop\" Is Destroying Productivity, Harvard Business Review, September 2025",
      "url": "https://hbr.org/2025/09/ai-generated-workslop-is-destroying-productivity",
-     "finding": "In one survey of 1,150 full-time US desk workers, 40% received workslop in the past month, costing nearly two hours per incident."
+     "finding": "The article opens by noting that workers in companies embracing generative AI are largely following mandates to use the tools, yet few see them create real value. The rest is paywalled; the survey figures are cited from BetterUp's own report."
     },
     {
-     "title": "BetterUp Labs and Stanford Social Media Lab, Workslop survey, September 2025",
+     "title": "BetterUp Labs and Stanford Social Media Lab, Workslop: The Hidden Cost of AI-Generated Busywork, survey of September 2025",
      "url": "https://www.betterup.com/workslop",
-     "finding": "1,150 full-time US desk workers; 40% received workslop in the last month, about 2 hours to resolve each, an estimated $186 per employee per month."
+     "finding": "Online survey of 1,150 full-time US desk workers in September 2025; 40% received workslop in the last month, each incident took about 2 hours to resolve, an estimated $186 per employee per month; workslop leaves colleagues to do the real thinking and clean-up."
     }
    ],
    "theme": "work",
@@ -1498,15 +1508,15 @@
    "control_note": "Workslop comes from how AI output is used and checked, not from the capability itself. Norms and review keep the benefit.",
    "actions": [
     {
-     "action": "Replace blanket AI mandates with task-specific norms",
+     "action": "Set clear guardrails for AI use instead of blanket adoption",
      "actor": "employers",
      "status": "idea",
      "aim": "probability",
-     "evidence": "The HBR authors link workslop to mandates without guidance; no trial of norms has been published.",
+     "evidence": "BetterUp Labs and the Stanford Social Media Lab say leaders can curb workslop by setting clear guardrails and modelling thoughtful AI use; their survey did not test this.",
      "ref": {
-      "title": "Niederhoffer et al., AI-Generated Workslop Is Destroying Productivity, HBR 2025",
-      "url": "https://hbr.org/2025/09/ai-generated-workslop-is-destroying-productivity",
-      "finding": "Mandated AI use without clear norms produces low-substance output that costs recipients time."
+      "title": "BetterUp Labs and Stanford Social Media Lab, Workslop: The Hidden Cost of AI-Generated Busywork, survey of September 2025",
+      "url": "https://www.betterup.com/workslop",
+      "finding": "Leaders can curb workslop by setting clear guardrails, modelling thoughtful AI use and cultivating pilot mindsets that use AI to enhance collaboration rather than avoid work."
      }
     },
     {
@@ -1514,11 +1524,11 @@
      "actor": "employers",
      "status": "idea",
      "aim": "probability",
-     "evidence": "In one experiment with 758 BCG consultants, those using GPT-4 on a task outside its frontier were 19% less likely to reach a correct answer; training staff on the frontier itself was not tested.",
+     "evidence": "In one preregistered experiment with 758 knowledge workers run with Boston Consulting Group, GPT-4 users were 19% less likely to produce a correct solution on a task outside the frontier; one arm got a prompt engineering overview, but training staff on where the frontier lies was not tested.",
      "ref": {
-      "title": "Dell'Acqua et al., Navigating the Jagged Technological Frontier, Organization Science 2026",
+      "title": "Dell'Acqua et al., Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality, Organization Science 2026",
       "url": "https://doi.org/10.1287/orsc.2025.21838",
-      "finding": "In a preregistered experiment with 758 BCG consultants, GPT-4 users completed 12.2% more tasks 25.1% faster inside the frontier, but were 19% less likely to be correct on a task outside it."
+      "finding": "In a preregistered experiment with 758 knowledge workers, run with Boston Consulting Group, GPT-4 users completed 12.2% more tasks 25.1% faster inside the frontier, but were 19% less likely to produce correct solutions on a task outside it."
      }
     }
    ],
@@ -1526,12 +1536,12 @@
     {
      "event": "Columbia shuttle and PowerPoint engineering",
      "year": "2003",
-     "parallel": "A polished slide compressed a key risk into vague bullets and shifted the work of finding it onto readers who never did, as hollow AI output does.",
+     "parallel": "A polished slide compressed a key risk into vague bullets, so a manager could read it and miss that it described a life-threatening situation, as hollow AI output leaves the real work to its reader.",
      "outcome": "The Board found the slide put at the bottom that one debris estimate was 640 times larger than the data used to calibrate the model (later analysis put it at 400 times), and called the endemic use of PowerPoint briefing slides instead of technical papers a sign of problematic technical communication at NASA.",
      "ref": {
-      "title": "Columbia Accident Investigation Board Report, Volume 1, 'Engineering by Viewgraphs' (p. 191)",
+      "title": "Columbia Accident Investigation Board Report, Volume I, August 2003, 'Engineering by Viewgraphs' (p. 191)",
       "url": "https://www.nasa.gov/wp-content/uploads/2025/04/caib-report.pdf",
-      "finding": "Key fact was at the bottom of the slide; the Board criticised PowerPoint briefings replacing technical papers."
+      "finding": "Only at the bottom of the slide did engineers state that one debris estimate was 640 times larger than the calibration data (later analysis: 400 times); the Board called the endemic use of PowerPoint briefing slides instead of technical papers an illustration of problematic technical communication at NASA."
      }
     }
    ]
@@ -1543,22 +1553,27 @@
    "probability": 0.8,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Fabricated bug and security reports waste the scarce time of volunteer maintainers[1]. At curl, about a fifth of security reports in the first half of 2025 were AI slop, and the share of valid reports fell to around 5%[1]. Since spring 2026 the slop has mostly stopped, but AI-assisted reports, now mostly accurate, arrive at 4 to 5 times the 2024 rate, so the load on maintainers grew[2][3].",
+   "summary": "Fabricated bug and security reports waste the scarce time of volunteer maintainers; in 2024 a triager for CPython, pip and other projects reported an uptick in low-quality, LLM-hallucinated reports[4]. At curl, about a fifth of security reports in 2025 up to mid-July were AI slop, and the share of valid reports fell to around 5%[1]. Since spring 2026 the slop has practically stopped and every recent report had some AI involvement, typically accurate[3], but reports arrive at 4 to 5 times the 2024 rate and take almost all of the lead maintainer's days[2].",
    "refs": [
     {
-     "title": "Daniel Stenberg, Death by a thousand slops, 2025",
+     "title": "Daniel Stenberg, Death by a thousand slops, July 2025",
      "url": "https://daniel.haxx.se/blog/2025/07/14/death-by-a-thousand-slops/",
-     "finding": "About a fifth of curl's 2025 security reports through early July were AI slop and the valid rate fell to around 5%."
+     "finding": "About 20% of curl's 2025 security reports up to mid-July were AI slop and about 5% were genuine vulnerabilities, a valid rate significantly lower than in previous years; each report takes the seven-person security team 30 minutes to three hours."
     },
     {
      "title": "Daniel Stenberg, The pressure, May 2026",
      "url": "https://daniel.haxx.se/blog/2026/05/26/the-pressure/",
-     "finding": "Incoming curl security reports run 4 to 5 times the 2024 rate and double the 2025 rate; quality is higher than ever, and triage takes almost all of the lead maintainer's days."
+     "finding": "Incoming curl security reports run 4 to 5 times the 2024 rate and double the 2025 rate, more than one a day; quality is higher than ever, and triage takes almost all of the lead maintainer's days."
     },
     {
      "title": "Daniel Stenberg, ignore the slop, October 2026",
      "url": "https://daniel.haxx.se/blog/2026/10/22/ignore-the-slop/",
-     "finding": "Since spring 2026 slop reports are practically gone; every recent report had AI involved, and they are typically accurate."
+     "finding": "Since spring 2026 slop reports are practically gone; every recent report had AI involved to some extent, and they are typically accurate, though much too wordy."
+    },
+    {
+     "title": "Seth Larson, New era of slop security reports for open source, December 2024",
+     "url": "https://sethmlarson.dev/slop-security-reports",
+     "finding": "A member of the security triage team for CPython, pip, urllib3 and Requests noticed an uptick in extremely low-quality, spammy and LLM-hallucinated security reports, which waste maintainers' time and add to burnout."
     }
    ],
    "theme": "work",
@@ -1577,9 +1592,9 @@
      "aim": "probability",
      "evidence": "Proposed by Seth Larson, who triages security reports for CPython, pip and other projects; no measured effect yet.",
      "ref": {
-      "title": "Seth Larson, New era of slop security reports for open source, 2024",
+      "title": "Seth Larson, New era of slop security reports for open source, December 2024",
       "url": "https://sethmlarson.dev/slop-security-reports",
-      "finding": "Calls on report platforms to rate-limit submissions, hamper new accounts and remove incentives; asks reporters to have a human review reports."
+      "finding": "Calls on report platforms to rate-limit report creation, prevent or hamper newly registered users from reporting, and remove incentives; asks reporters not to submit reports no human has reviewed."
      }
     },
     {
@@ -1587,11 +1602,11 @@
      "actor": "maintainers",
      "status": "in force",
      "aim": "probability",
-     "evidence": "curl ended its bug bounty on 31 January 2026, citing AI slop; the effect of ending it on report volume is not measured.",
+     "evidence": "curl ended its bug bounty on 31 January 2026, citing an explosion of AI slop; the effect of ending it on report volume is not measured.",
      "ref": {
       "title": "Daniel Stenberg, The end of the curl bug-bounty, January 2026",
       "url": "https://daniel.haxx.se/blog/2026/01/26/the-end-of-the-curl-bug-bounty/",
-      "finding": "The bounty, run on HackerOne since April 2019, stopped on 31 January 2026 after 87 confirmed vulnerabilities and over 100,000 USD paid; the confirmed rate fell below 5% in 2025."
+      "finding": "The bounty, run on HackerOne since April 2019, stopped on 31 January 2026 after 87 confirmed vulnerabilities and over 100,000 USD paid; the confirmed rate, north of 15% in earlier years, fell below 5% in 2025."
      }
     },
     {
@@ -1601,7 +1616,7 @@
      "aim": "impact",
      "evidence": "curl published 21 examples, but Stenberg calls bans toothless because new accounts are free.",
      "ref": {
-      "title": "Daniel Stenberg, Death by a thousand slops, 2025",
+      "title": "Daniel Stenberg, Death by a thousand slops, July 2025",
       "url": "https://daniel.haxx.se/blog/2025/07/14/death-by-a-thousand-slops/",
       "finding": "curl published 21 slop reports; bans are a toothless threat because new accounts are free."
      }
@@ -1616,16 +1631,16 @@
      "ref": {
       "title": "Linux Foundation TAB 2021, Report on University of Minnesota Breach-of-Trust Incident",
       "url": "https://lore.kernel.org/lkml/202105051005.49BFABCE@keescook/",
-      "finding": "435 commits re-reviewed, 39 needing fixes; the research wasted maintainers' scarce time."
+      "finding": "435 commits re-reviewed, 39 found incorrect and in need of fixing; the research wasted the time of reviewers and maintainers, the resource in shortest supply."
      }
     },
     {
      "event": "Bogus critical curl CVE",
      "year": "2019-2023",
      "parallel": "A non-security bug was filed as a critical vulnerability, leaving the volunteer maintainer to fight a false alarm that spread worldwide.",
-     "outcome": "In 2023 NVD rated CVE-2020-19909 9.8 critical although curl had already judged the 2019 report not a security problem, and MITRE declined to reject it. This is one maintainer's account, not a measured rate.",
+     "outcome": "In 2023 NVD rated CVE-2020-19909 9.8 critical although curl had told the reporter in 2019 that the bug was not a security problem, and MITRE declined to reject it. This is one maintainer's account, not a measured rate.",
      "ref": {
-      "title": "Stenberg 2023, CVE-2020-19909 is everything that is wrong with CVEs",
+      "title": "Daniel Stenberg, CVE-2020-19909 is everything that is wrong with CVEs, August 2023",
       "url": "https://daniel.haxx.se/blog/2023/08/26/cve-2020-19909-is-everything-that-is-wrong-with-cves/",
       "finding": "A known non-security bug was published as a 9.8 critical CVE; the rejection request was refused."
      }
@@ -1639,17 +1654,17 @@
    "probability": 0.95,
    "year": 2024,
    "evidence": "measured",
-   "summary": "Use for schoolwork is rising: one Pew survey found 26% of US teens had used ChatGPT for schoolwork in 2024, double the 2023 share[1], and a 2025 Pew survey found 54% had used chatbots for schoolwork help[4]. Unguarded use can lift homework scores and hurt exam scores, as in one Turkish trial[2] and one study of 26,811 Chinese secondary students[3]. Self-reported cheating by US high schoolers did not rise in 2023 surveys, so AI may change how students cheat more than how often[5].",
+   "summary": "Use for schoolwork is rising: one Pew survey found 26% of US teens had used ChatGPT for schoolwork in 2024, double the 2023 share[1], and in a broader 2025 Pew question 54% had used chatbots for schoolwork help and 59% thought using AI to cheat was a regular occurrence at their school[4]. Unguarded use can lift practice or homework scores and hurt exam scores, as in one trial with nearly 1,000 Turkish high school students[2] and one study of 26,811 Chinese secondary students[3]. In 2023 Challenge Success surveys, self-reported cheating by US high schoolers stayed about the same or fell slightly after ChatGPT arrived[5].",
    "refs": [
     {
-     "title": "Pew Research Center, Jan 2025",
+     "title": "Pew Research Center, About a quarter of U.S. teens have used ChatGPT for schoolwork, double the share in 2023, January 2025",
      "url": "https://www.pewresearch.org/short-reads/2025/01/15/about-a-quarter-of-us-teens-have-used-chatgpt-for-schoolwork-double-the-share-in-2023/",
-     "finding": "26% of US teens used ChatGPT for schoolwork, double the 2023 share."
+     "finding": "In a survey of 1,391 US teens aged 13 to 17 in autumn 2024, 26% used ChatGPT for schoolwork, up from 13% in 2023."
     },
     {
-     "title": "Bastani et al., Generative AI without guardrails can harm learning, PNAS 2025",
+     "title": "Bastani et al., Generative AI without guardrails can harm learning: Evidence from high school mathematics, PNAS 2025",
      "url": "https://www.pnas.org/doi/10.1073/pnas.2422633122",
-     "finding": "Students with plain GPT-4 practice access scored 17% worse on exams once access was removed."
+     "finding": "In a field experiment with nearly 1,000 high school maths students in Turkey, plain GPT-4 access raised practice grades 48% but students scored 17% worse on exams once access was removed."
     },
     {
      "title": "Strömberg, Lei and Wu, The Generative AI Learning Penalty: Evidence from Chinese Secondary Education, CEPR Discussion Paper 21577, 2026",
@@ -1659,12 +1674,12 @@
     {
      "title": "Pew Research Center, How Teens Use and View AI, February 2026",
      "url": "https://www.pewresearch.org/internet/2026/02/24/how-teens-use-and-view-ai/",
-     "finding": "In a survey of 1,458 US teens aged 13 to 17 in autumn 2025, 54% used chatbots for schoolwork help, 1 in 10 did all or most schoolwork with them, and 59% think cheating with AI is regular at their school."
+     "finding": "In a survey of 1,458 US teens aged 13 to 17 from 25 September to 9 October 2025, 54% used chatbots to get help with schoolwork, one in ten did all or most schoolwork with chatbots' help, and 59% think using AI to cheat is a regular occurrence at their school."
     },
     {
-     "title": "Stanford Graduate School of Education, What do AI chatbots really mean for students and cheating?, 2023",
+     "title": "Stanford Graduate School of Education, What do AI chatbots really mean for students and cheating?, October 2023",
      "url": "https://ed.stanford.edu/news/what-do-ai-chatbots-really-mean-students-and-cheating",
-     "finding": "In Challenge Success surveys, 60 to 70% of US high schoolers reported cheating before ChatGPT, and the share stayed about the same or fell slightly in 2023."
+     "finding": "In Challenge Success surveys, 60 to 70% of US high schoolers reported at least one cheating behaviour in the previous month before ChatGPT, and the share stayed about the same or fell slightly in 2023."
     }
    ],
    "theme": "mind",
@@ -1680,11 +1695,11 @@
      "actor": "schools",
      "status": "tested",
      "aim": "impact",
-     "evidence": "In a 1,000-student RCT, guardrails removed most of the 17% exam penalty seen with plain GPT-4.",
+     "evidence": "In one RCT with nearly 1,000 Turkish high school students, a tutor with guardrails largely removed the 17% exam penalty seen with plain GPT-4.",
      "ref": {
-      "title": "Bastani et al., Generative AI without guardrails can harm learning, PNAS 2025",
+      "title": "Bastani et al., Generative AI without guardrails can harm learning: Evidence from high school mathematics, PNAS 2025",
       "url": "https://www.pnas.org/doi/10.1073/pnas.2422633122",
-      "finding": "Unguarded GPT-4 cut exam scores 17%; a tutor that gave hints, not answers, removed most of that harm."
+      "finding": "Unguarded GPT-4 cut exam scores 17%; with the safeguards in GPT Tutor, exam performance was statistically indistinguishable from the control group."
      }
     },
     {
@@ -1692,11 +1707,11 @@
      "actor": "schools",
      "status": "proposed",
      "aim": "probability",
-     "evidence": "At one UK university, 94% of AI answers in unsupervised take-home exams went undetected, so detection alone fails; supervised formats are the implied fix, not a tested one.",
+     "evidence": "At one UK university, 94% of AI answers in unsupervised take-home exams went undetected; the authors name a return to supervised, in-person exams as one option, which does not cover coursework and was not tested.",
      "ref": {
-      "title": "Scarfe et al., A real-world test of AI infiltration of a university examinations system, PLOS ONE 2024",
+      "title": "Scarfe et al., A real-world test of artificial intelligence infiltration of a university examinations system: A \"Turing Test\" case study, PLOS ONE 2024",
       "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0305354",
-      "finding": "94% of AI-written exam answers went undetected and scored about half a grade higher than students."
+      "finding": "At the University of Reading, 94% of AI-written answers in unsupervised take-home psychology exams went undetected and scored on average half a grade boundary higher than real students."
      }
     },
     {
@@ -1704,24 +1719,24 @@
      "actor": "researchers",
      "status": "in force",
      "aim": "impact",
-     "evidence": "Teen use for schoolwork doubled to 26% in a year, showing why policy must track usage.",
+     "evidence": "Pew's repeated surveys of US teens showed ChatGPT use for schoolwork doubling from 13% in 2023 to 26% in 2024.",
      "ref": {
-      "title": "Pew Research Center, Share of teens using ChatGPT for schoolwork doubled, 2025",
+      "title": "Pew Research Center, About a quarter of U.S. teens have used ChatGPT for schoolwork, double the share in 2023, January 2025",
       "url": "https://www.pewresearch.org/short-reads/2025/01/15/about-a-quarter-of-us-teens-have-used-chatgpt-for-schoolwork-double-the-share-in-2023/",
-      "finding": "26% of US teens used ChatGPT for schoolwork in 2024, double the 2023 share."
+      "finding": "26% of US teens used ChatGPT for schoolwork in 2024, up from 13% in 2023."
      }
     }
    ],
    "precedents": [
     {
      "event": "Essay mills and contract cheating",
-     "year": "1978-2014",
+     "year": "1978-2018",
      "parallel": "Paying someone else to do coursework is the closest earlier form of outsourcing homework that AI now makes free.",
-     "outcome": "Across 65 studies with 54,514 participants, self-reported contract cheating averaged 3.52% historically but 15.7% in studies since 2014, a rise as access got easier; self-report surveys vary widely in method.",
+     "outcome": "Across 71 samples from 65 studies with 54,514 participants, self-reported contract cheating averaged 3.52% historically but 15.7% in samples since 2014; the review says the rise may reflect more self-reported cheating generally and that most designs likely under-report it.",
      "ref": {
-      "title": "Newton 2018, How Common Is Commercial Contract Cheating in Higher Education and Is It Increasing?, Frontiers in Education",
+      "title": "Newton, How Common Is Commercial Contract Cheating in Higher Education and Is It Increasing? A Systematic Review, Frontiers in Education 2018",
       "url": "https://www.frontiersin.org/articles/10.3389/feduc.2018.00067/full",
-      "finding": "Contract cheating was reported by 15.7% of students since 2014, up from a 3.52% historic average."
+      "finding": "Contract cheating was self-reported by 15.7% of students in samples from 2014 on, up from a 3.52% historic average."
      }
     }
    ]
@@ -1733,32 +1748,32 @@
    "probability": 0.65,
    "year": 2025,
    "evidence": "measured",
-   "summary": "One survey of 319 knowledge workers found higher confidence in AI went with less critical thinking[1]; in one small MIT study, LLM-assisted essay writers showed the weakest brain connectivity and recall[2], though other researchers have questioned its methods[5]. Other studies link AI use to lower critical-thinking scores[3] and less self-evaluation[4]; most are small or self-reported[1][2][3].",
+   "summary": "One survey of 319 knowledge workers found higher confidence in AI went with less critical thinking[1]; in one small MIT study, LLM-assisted essay writers showed the weakest brain connectivity and recall[2], though other researchers have questioned its methods[5]. Other studies link AI use to lower critical thinking[3] and to fewer metacognitive steps such as evaluation[4]; most are small or self-reported[1][2][3].",
    "refs": [
     {
-     "title": "Lee et al., Microsoft Research and CMU, CHI 2025",
+     "title": "Lee et al., The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers, CHI 2025",
      "url": "https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/",
      "finding": "Among 319 knowledge workers, higher confidence in AI went with less critical thinking."
     },
     {
-     "title": "Kosmyna et al., Your Brain on ChatGPT, MIT 2025",
+     "title": "Kosmyna et al., Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task, MIT Media Lab 2025",
      "url": "https://arxiv.org/abs/2506.08872",
-     "finding": "In 54 participants, LLM-assisted essay writers showed the weakest EEG connectivity and struggled to quote their own essays. Preprint, not peer reviewed as of December 2025."
+     "finding": "In 54 participants, LLM-assisted essay writers showed the weakest EEG connectivity and struggled to quote their own essays. An arXiv preprint, last revised December 2025, with no journal version listed."
     },
     {
-     "title": "Gerlich, AI Tools in Society, Societies 2025",
+     "title": "Gerlich, AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking, Societies 2025",
      "url": "https://www.mdpi.com/2075-4698/15/1/6",
-     "finding": "In 666 participants, heavier AI tool use correlated with lower critical-thinking scores, mediated by cognitive offloading; cross-sectional, and a table was corrected in September 2025."
+     "finding": "In surveys and interviews with 666 participants, more frequent AI tool use correlated with lower critical thinking, partly through greater cognitive offloading; the design is correlational, and a correction to a table was published in September 2025."
     },
     {
-     "title": "Fan et al., Beware of metacognitive laziness, British Journal of Educational Technology 2025",
+     "title": "Fan et al., Beware of metacognitive laziness: Effects of generative artificial intelligence on learning motivation, processes, and performance, British Journal of Educational Technology 2025",
      "url": "https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.13544",
-     "finding": "In 117 students, ChatGPT support raised essay scores but brought no more knowledge gain or transfer than other support, with fewer self-evaluation steps."
+     "finding": "In a randomised experiment with 117 university students, ChatGPT support improved essay scores more than the other conditions but made no significant difference to knowledge gain or transfer, and the ChatGPT group showed fewer metacognitive processes such as evaluation and orientation."
     },
     {
-     "title": "Stanković et al., Comment on: Your Brain on ChatGPT, 2025",
+     "title": "Stanković et al., Comment on: Your Brain on ChatGPT: Accumulation of Cognitive Debt When Using an AI Assistant for Essay Writing Tasks, arXiv 2025",
      "url": "https://arxiv.org/abs/2601.00856",
-     "finding": "Criticises the limited sample size, EEG methods, reproducibility and reporting, and argues some results should be read more conservatively."
+     "finding": "Criticises the study design, including its limited sample size, the reproducibility of its analyses, its EEG methods, inconsistent reporting and limited transparency, and argues some results could be interpreted more conservatively."
     }
    ],
    "theme": "mind",
@@ -1775,11 +1790,11 @@
      "actor": "individuals",
      "status": "tested",
      "aim": "impact",
-     "evidence": "In one preprint, 18 people who wrote unaided before switching to AI kept higher recall and brain engagement; the sample is too small to be firm.",
+     "evidence": "In one preprint's fourth session, with 18 returning participants, those who switched from writing unaided to using AI showed higher recall and brain engagement; the sample is too small to be firm.",
      "ref": {
-      "title": "Kosmyna et al., Your Brain on ChatGPT, 2025",
+      "title": "Kosmyna et al., Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task, MIT Media Lab 2025",
       "url": "https://arxiv.org/abs/2506.08872",
-      "finding": "In session 4 (18 participants), those who wrote without AI first and then used it showed higher recall and brain engagement."
+      "finding": "In session 4 (18 participants in total), those who had written without AI and then used it showed higher memory recall and more prefrontal and occipito-parietal activation, similar to search-engine users."
      }
     },
     {
@@ -1787,9 +1802,9 @@
      "actor": "AI developers",
      "status": "idea",
      "aim": "probability",
-     "evidence": "Lower self-confidence and higher AI trust went with less critical thinking in a 319-person survey; design fixes are untested.",
+     "evidence": "Lower self-confidence and higher AI trust went with less critical thinking in a 319-person survey; the survey did not test design fixes.",
      "ref": {
-      "title": "Lee et al., The Impact of Generative AI on Critical Thinking, CHI 2025",
+      "title": "Lee et al., The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers, CHI 2025",
       "url": "https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/",
       "finding": "In 319 knowledge workers, more confidence in AI went with less critical thinking and more self-confidence with more."
      }
@@ -1799,11 +1814,11 @@
      "actor": "AI developers",
      "status": "tested",
      "aim": "impact",
-     "evidence": "A hint-only tutor kept exam scores at control level where plain GPT-4 cut them 17%.",
+     "evidence": "In one trial with nearly 1,000 high-school maths students, a tutor that gave hints, not answers, largely avoided the 17% drop in exam grades seen with plain GPT-4.",
      "ref": {
-      "title": "Bastani et al., Generative AI without guardrails can harm learning, PNAS 2025",
+      "title": "Bastani et al., Generative AI without guardrails can harm learning: Evidence from high school mathematics, PNAS 2025",
       "url": "https://www.pnas.org/doi/10.1073/pnas.2422633122",
-      "finding": "Unguarded GPT-4 cut exam scores 17%; a tutor that gave hints, not answers, removed most of that harm."
+      "finding": "With nearly 1,000 high-school maths students, those who practised with unguarded GPT-4 scored 17% lower once access was removed than students who never had it; a tutor with learning safeguards largely mitigated that harm."
      }
     }
    ],
@@ -1814,9 +1829,9 @@
      "parallel": "The fear that a tool which stores knowledge will weaken memory and give only the look of wisdom is the same fear now raised about AI.",
      "outcome": "The complaint is recorded but was never measured, and literacy went on to underpin later scholarship, so this shows the same worry has been overstated before, not that offloading thought is free.",
      "ref": {
-      "title": "Plato, Phaedrus 275a-b (Perseus Digital Library, Tufts)",
+      "title": "Plato, Phaedrus 275a-b, tr. Harold N. Fowler (Perseus Digital Library, Tufts)",
       "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0174:text=Phaedrus:page=275",
-      "finding": "Writing was said to produce forgetfulness and the appearance of wisdom, not true wisdom."
+      "finding": "Writing will produce forgetfulness in those who learn it, because they will not practise their memory, and offers the appearance of wisdom, not true wisdom."
      }
     },
     {
@@ -1839,7 +1854,7 @@
    "probability": 0.6,
    "year": 2026,
    "evidence": "measured",
-   "summary": "Experts who rely on AI assistance can lose skill once it is taken away. In one Polish observational study at four centres, adenoma detection in non-AI colonoscopies fell from 28.4% to 22.4% in the three months after AI was introduced[1]. A Norwegian prospective trial of 13 endoscopists found no deskilling after AI exposure[2].",
+   "summary": "Experts who rely on AI assistance can lose skill once it is taken away. In one retrospective observational study at four Polish centres, adenoma detection in non-AI colonoscopies fell from 28.4% to 22.4% in the three months after AI was introduced[1]. A prospective trial of 13 endoscopists in Norway found no deskilling or upskilling in non-AI colonoscopy after a period of AI use[2].",
    "refs": [
     {
      "title": "Budzyń et al., Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy: a multicentre, observational study, Lancet Gastroenterology and Hepatology 2025",
@@ -1849,7 +1864,7 @@
     {
      "title": "Pedersen et al., Learning and deskilling effects of artificial intelligence in colonoscopy among endoscopists with different levels of experience: a pragmatic, prospective trial, Endoscopy 2026",
      "url": "https://doi.org/10.1055/a-2858-7084",
-     "finding": "Across 13 Norwegian endoscopists and 5,013 colonoscopies, no upskilling or deskilling was seen in non-AI colonoscopy after a period of AI exposure."
+     "finding": "Across 13 endoscopists (7 inexperienced, 6 experienced) and 5,013 colonoscopies at hospitals in Norway, no upskilling or deskilling was seen in non-AI colonoscopy after a period of AI exposure; AI raised inexperienced endoscopists' detection of polyps of 5 mm or more only while it was in use."
     }
    ],
    "theme": "mind",
@@ -1859,18 +1874,18 @@
     "medicine",
     "productivity"
    ],
-   "control_note": "Skill fades when a task is handed to a machine; this follows from the help itself. Deliberate practice without AI can slow it.",
+   "control_note": "Skill fades when a task is handed to a machine; this follows from the help itself. Aviation regulators urge regular manual practice to counter the same fade.",
    "actions": [
     {
      "action": "Schedule regular procedures without AI",
      "actor": "hospitals",
      "status": "idea",
      "aim": "impact",
-     "evidence": "Detection rates in non-AI colonoscopies fell after AI exposure in an observational study; manual-practice rules are borrowed from aviation and not tested in medicine.",
+     "evidence": "In one observational study, adenoma detection in non-AI colonoscopies fell after AI was introduced; the study did not test scheduled practice without AI.",
      "ref": {
       "title": "Budzyń et al., Endoscopist deskilling risk after exposure to artificial intelligence in colonoscopy: a multicentre, observational study, Lancet Gastroenterology and Hepatology 2025",
       "url": "https://www.thelancet.com/journals/langas/article/PIIS2468-1253(25)00133-5/fulltext",
-      "finding": "Adenoma detection in non-AI colonoscopies fell after endoscopists got used to AI assistance."
+      "finding": "At four Polish centres, adenoma detection in non-AI colonoscopies fell from 28.4% to 22.4% in the three months after AI tools were introduced."
      }
     },
     {
@@ -1878,11 +1893,11 @@
      "actor": "medical schools",
      "status": "idea",
      "aim": "probability",
-     "evidence": "In one high-school maths trial, a hint-giving tutor largely avoided the 17% exam loss that answer-giving GPT-4 caused; this has not been tested in medical training.",
+     "evidence": "In one high-school maths trial, a hint-giving tutor largely avoided the 17% exam loss that unguarded GPT-4 caused; the trial did not involve medical training.",
      "ref": {
-      "title": "Bastani et al., Generative AI without guardrails can harm learning, PNAS 2025",
+      "title": "Bastani et al., Generative AI without guardrails can harm learning: Evidence from high school mathematics, PNAS 2025",
       "url": "https://www.pnas.org/doi/10.1073/pnas.2422633122",
-      "finding": "Unguarded GPT-4 cut exam scores 17%; a tutor that gave hints, not answers, removed most of that harm."
+      "finding": "With nearly 1,000 high-school maths students, those who practised with unguarded GPT-4 scored 17% lower once access was removed than students who never had it; a tutor with learning safeguards largely mitigated that harm."
      }
     }
    ],
@@ -1891,22 +1906,22 @@
      "event": "Air France 447 loss of control",
      "year": "2009",
      "parallel": "Pilots used to automation struggled when it switched off, the clearest case of experts losing a skill the machine usually performs.",
-     "outcome": "France's investigators listed the absence of training in manual handling at high altitude among the factors after the autopilot disconnected and the crew lost control; the report also blamed sensor icing and confusing displays.",
+     "outcome": "France's investigators listed an absence of training in manual aeroplane handling at high altitude among the factors after the autopilot disconnected and the crew lost control; they also cited Pitot probes blocked by ice crystals and the lack of a clear cockpit display of the airspeed inconsistencies.",
      "ref": {
-      "title": "BEA 2012, Final report presentation on Air France 447",
+      "title": "BEA 2012, Final report presentation: Accident on 1st June 2009 to the Airbus A330-203 operated by Air France flight AF 447 Rio de Janeiro - Paris",
       "url": "https://bea.aero/fileadmin/uploads/tx_elyextendttnews/presentation.rapport.final.05juillet2012.en_04.pdf",
-      "finding": "Absence of training at high altitude in manual aeroplane handling was a contributing factor."
+      "finding": "After Pitot probes were obstructed by ice crystals and the autopilot disconnected, an absence of training at high altitude in manual aeroplane handling was among the associated factors."
      }
     },
     {
-     "event": "FAA alert on manual flying skills",
-     "year": "2013",
-     "parallel": "The aviation regulator formally warned that constant reliance on automation erodes the skill needed when it fails.",
-     "outcome": "FAA analysis found an increase in manual handling errors and warned that continuous autoflight use could degrade pilots' ability to recover from an undesired state; the response was advisory, urging more hand flying in training and line operations.",
+     "event": "Transport Canada guidance on manual flying",
+     "year": "2015",
+     "parallel": "An aviation regulator formally warned that constant reliance on automation can erode the manual skill needed when it fails.",
+     "outcome": "Transport Canada said recent studies suggest continuous autoflight use could degrade pilots' manual flying skills and encouraged operators to build manual flying into line operations and training; the circular is guidance only and sets no minimum standards.",
      "ref": {
-      "title": "FAA SAFO 13002, Manual Flight Operations",
-      "url": "https://www.faa.gov/sites/faa.gov/files/other_visit/aviation_industry/airline_operators/airline_safety/SAFO13002.pdf",
-      "finding": "Continuous use of autoflight does not reinforce manual skills and could degrade recovery ability."
+      "title": "Transport Canada, Advisory Circular AC 600-006, Flight Deck Automation Policy and Manual Flying in Operations and Training, 2015",
+      "url": "https://tc.canada.ca/en/aviation/reference-centre/advisory-circulars/advisory-circular-ac-no-600-006",
+      "finding": "The continuous use of autoflight systems could potentially lead to the degradation of a pilot's manual flying skills; operators are encouraged to incorporate manual flight into both line operations and training."
      }
     }
    ]
@@ -1918,22 +1933,22 @@
    "probability": 0.85,
    "year": 2025,
    "evidence": "measured",
-   "summary": "One US survey of teens aged 13 to 17 found 72% had used AI companions and over half used them at least a few times a month[1]. In one 4-week randomised study of 981 people, heavier daily chatbot use went with more loneliness and dependence and less socialising[2]; one US survey of 5,001 single adults found 16% had engaged with AI as a romantic companion[3].",
+   "summary": "One US survey of 1,060 teens aged 13 to 17 found 72% had used AI companions and 52% used them at least a few times a month[1]. In one 4-week randomised study of 981 people, heavier daily chatbot use went with more loneliness and dependence and less socialising, though the assigned chatbot modes themselves had no significant effect[2]; one US survey of 5,001 single adults found 16% had engaged with AI as a romantic companion[3].",
    "refs": [
     {
-     "title": "Common Sense Media, Talk, Trust and Trade-offs 2025",
-     "url": "https://www.commonsensemedia.org/research/talk-trust-and-trade-offs-how-and-why-teens-use-ai-companions",
-     "finding": "72% of US teens aged 13 to 17 have used AI companions at least once and over half use them at least a few times a month."
+     "title": "Common Sense Media, Talk, Trust, and Trade-Offs: How and Why Teens Use AI Companions, 2025",
+     "url": "https://www.commonsensemedia.org/sites/default/files/research/report/talk-trust-and-trade-offs_2025_web.pdf",
+     "finding": "In a nationally representative NORC survey of 1,060 US teens aged 13 to 17 (April to May 2025), 72% had used AI companions at least once and 52% were regular users who interact with them at least a few times a month."
     },
     {
-     "title": "Fang et al., How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use: A Longitudinal Randomized Controlled Study, 2025",
+     "title": "Fang et al., How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use: A Longitudinal Randomized Controlled Study, arXiv 2025",
      "url": "https://arxiv.org/abs/2503.17473",
-     "finding": "In a 4-week randomised study of 981 people, higher daily use correlated with more loneliness, dependence and problematic use and less socialising, across all chatbot modes."
+     "finding": "In a 4-week randomised study of 981 people, higher daily use correlated with more loneliness, dependence and problematic use and less socialising, regardless of assigned chatbot mode; the modes themselves had no significant effect."
     },
     {
-     "title": "Psychology Today on Match and the Kinsey Institute, Singles in America 2025",
+     "title": "Lee, AI Use in Dating Jumps 333%, Psychology Today 2025",
      "url": "https://www.psychologytoday.com/us/blog/a-funny-bone-to-pick/202506/ai-use-in-dating-jumps-333",
-     "finding": "In a survey of 5,001 US single adults run by Dynata with the Kinsey Institute for Match, 16% had engaged with AI as a romantic companion, 33% of Gen Z."
+     "finding": "Reports that in Match's 14th Singles in America survey of 5,001 US single adults aged 18 to 98, conducted by Dynata with the Kinsey Institute, 16% had engaged with AI as a romantic companion, 33% of Gen Z."
     }
    ],
    "theme": "mind",
@@ -1942,7 +1957,7 @@
    "price_of": [
     "companionship"
    ],
-   "control_note": "The emotional pull that eases loneliness is the same pull that drives dependence. Rules on design and minors reduce the worst cases.",
+   "control_note": "The emotional pull that eases loneliness is the same pull that drives dependence. Rules on design and minors target the worst cases; their effect is not yet measured.",
    "actions": [
     {
      "action": "Require AI disclosure and crisis protocols",
@@ -1961,11 +1976,11 @@
      "actor": "AI developers",
      "status": "idea",
      "aim": "probability",
-     "evidence": "In a 981-person randomised study, heavier voluntary use went with worse outcomes across all chatbot modes; caps and nudges have not been tested.",
+     "evidence": "In a 981-person randomised study, heavier voluntary use went with worse outcomes whatever the chatbot mode; the study did not test caps or nudges.",
      "ref": {
-      "title": "Fang et al., How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use: A Longitudinal Randomized Controlled Study, 2025",
+      "title": "Fang et al., How AI and Human Behaviors Shape Psychosocial Effects of Extended Chatbot Use: A Longitudinal Randomized Controlled Study, arXiv 2025",
       "url": "https://arxiv.org/abs/2503.17473",
-      "finding": "In a 4-week randomised study of 981 people, higher daily use correlated with more loneliness, dependence and problematic use and less socialising, across all chatbot modes."
+      "finding": "In a 4-week randomised study of 981 people, higher daily use correlated with more loneliness, dependence and problematic use and less socialising, regardless of assigned chatbot mode; the modes themselves had no significant effect."
      }
     }
    ],
@@ -1974,22 +1989,22 @@
      "event": "ELIZA chatbot",
      "year": "1966",
      "parallel": "A simple keyword program drew people into private, emotional conversations, the first case of attachment to a machine that talks back.",
-     "outcome": "Weizenbaum's secretary asked him to leave the room so she could keep talking to it, and he wrote that short exposures could induce powerful delusional thinking in quite normal people; this is anecdote, not measured dependence.",
+     "outcome": "Weizenbaum's secretary, who knew she was talking to a machine, asked him to leave the room after typing a few sentences, and he later wrote that extremely short exposures to a simple program could induce powerful delusional thinking in quite normal people; this is anecdote, not measured dependence.",
      "ref": {
-      "title": "Uenuma 2026, Why the Computer Scientist Behind the World's First Chatbot Dedicated His Life to Publicizing the Threat Posed by A.I., Smithsonian Magazine",
-      "url": "https://www.smithsonianmag.com/history/why-the-computer-scientist-behind-the-worlds-first-chatbot-dedicated-his-life-to-publicizing-the-threat-posed-by-ai-180987971/",
-      "finding": "Some users were hard to convince ELIZA was not human; Weizenbaum's secretary wanted privacy with it."
+      "title": "Berry and Ciston 2024, Weizenbaum's Secretary, ELIZA Archaeology Project",
+      "url": "https://sites.google.com/view/elizaarchaeology/blog/3-weizenbaums-secretary",
+      "finding": "Quotes Weizenbaum: his secretary, who knew she was talking to a machine, asked him to leave the room, and in Computer Power and Human Reason (1976) he wrote that short exposures to a simple program could induce powerful delusional thinking in quite normal people."
      }
     },
     {
      "event": "Parasocial relationships with broadcast hosts",
      "year": "1956-present",
      "parallel": "One-sided intimacy with radio and TV personalities is the long-studied template for companionship with an AI persona.",
-     "outcome": "Horton and Wohl named the effect in 1956; later research found committed viewers felt more distress when a show ended, and such bonds are especially common among young people. Unlike a TV host, an AI companion answers back, which may deepen the bond.",
+     "outcome": "Horton and Wohl's original essay on the effect dates from 1956; later studies found that losing a favourite radio or TV figure can bring a painful parasocial breakup, felt more intensely the stronger the bond. Unlike a TV host, an AI companion answers back, which may deepen the bond.",
      "ref": {
-      "title": "Parasocial interaction (Britannica)",
-      "url": "https://www.britannica.com/science/parasocial-interaction",
-      "finding": "Committed viewers experienced more distress in a 'parasocial breakup'; parasocial interactions are especially common among young people."
+      "title": "Schramm et al., Research trends on parasocial interactions and relationships with media characters. A review of 281 English and German-language studies from 2016 to 2020, Frontiers in Psychology 2024",
+      "url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2024.1418564/full",
+      "finding": "Cites Horton and Wohl (1956) as the original essay; reports that dismissal of a beloved radio personality can cause a painful parasocial breakup, and that the stronger a viewer's bond with a TV star, the more intensely a breakup after a scandal is felt."
      }
     }
    ]
@@ -2001,10 +2016,10 @@
    "probability": 0.6,
    "year": 2025,
    "evidence": "measured",
-   "summary": "OpenAI rolled back a GPT-4o update that made the model overly flattering and agreeable[1], after an added reward signal from users' thumbs-up and thumbs-down ratings favoured agreeable answers[2]. In three experiments with 2,405 people, a single exchange with a flattering AI made people more sure they were right and less willing to repair a conflict, and 11 models affirmed users' actions 49% more often than humans did[3].",
+   "summary": "OpenAI rolled back a GPT-4o update that made the model overly flattering and agreeable[1], after an added reward signal from users' thumbs-up and thumbs-down ratings favoured agreeable answers[2]. In one study, 11 models affirmed users' actions 49% more often than humans did, and in three preregistered experiments with 2,405 people a single exchange with a flattering AI made people more sure they were right and less willing to repair a conflict, yet they rated the flattering AI more trustworthy and preferred it[3]. Humans and preference models prefer convincingly written sycophantic answers over correct ones a non-negligible share of the time, so training on approval can reward flattery[4].",
    "refs": [
     {
-     "title": "OpenAI, Sycophancy in GPT-4o 2025",
+     "title": "OpenAI, Sycophancy in GPT-4o: what happened and what we're doing about it, April 2025",
      "url": "https://openai.com/index/sycophancy-in-gpt-4o/",
      "finding": "OpenAI rolled back an update that made the model overly flattering and agreeable."
     },
@@ -2016,7 +2031,12 @@
     {
      "title": "Cheng et al., Sycophantic AI decreases prosocial intentions and promotes dependence, Science 2026",
      "url": "https://doi.org/10.1126/science.aec8352",
-     "finding": "11 models affirmed users' actions 49% more often than humans; in three preregistered experiments with 2,405 people, one sycophantic exchange cut willingness to repair conflicts and raised conviction of being right."
+     "finding": "11 models affirmed users' actions 49% more often than humans, including on queries involving deception or illegality; in three preregistered experiments with 2,405 people, one sycophantic exchange cut willingness to take responsibility for and repair conflicts and raised conviction of being right, while participants rated sycophantic models more trustworthy and preferred them."
+    },
+    {
+     "title": "Sharma et al., Towards Understanding Sycophancy in Language Models, ICLR 2024",
+     "url": "https://arxiv.org/abs/2310.13548",
+     "finding": "Five AI assistants were sycophantic across four free-form tasks; responses matching a user's views were more likely to be preferred, and humans and preference models preferred convincingly written sycophantic responses over correct ones a non-negligible fraction of the time."
     }
    ],
    "theme": "mind",
@@ -2038,15 +2058,15 @@
      }
     },
     {
-     "action": "Correct preference data that rewards agreement",
+     "action": "Fine-tune models to resist users' stated opinions",
      "actor": "labs",
      "status": "tested",
      "aim": "probability",
-     "evidence": "Preference models prefer sycophantic over correct answers a non-negligible share of the time, which identifies the cause to fix.",
+     "evidence": "In one 2023 study, a light fine-tuning step on synthetic data that teaches robustness to users' opinions significantly reduced sycophancy on held-out prompts; how widely labs use such data is not published.",
      "ref": {
-      "title": "Sharma et al., Towards Understanding Sycophancy in Language Models, ICLR 2024",
-      "url": "https://arxiv.org/abs/2310.13548",
-      "finding": "Humans and preference models often prefer convincing sycophantic answers over correct ones, so training on approval rewards flattery."
+      "title": "Wei, Huang, Lu, Zhou and Le, Simple synthetic data reduces sycophancy in large language models, arXiv 2023",
+      "url": "https://arxiv.org/abs/2308.03958",
+      "finding": "Scaling and instruction tuning increased sycophancy in PaLM models up to 540B parameters; adding synthetic data from public NLP tasks in a lightweight fine-tuning step significantly reduced sycophantic behaviour on held-out prompts."
      }
     }
    ],
@@ -2055,22 +2075,22 @@
      "event": "Asch conformity experiments",
      "year": "1951-1956",
      "parallel": "People shift their stated judgments toward the voices around them, so a system that always agrees can pull beliefs off course.",
-     "outcome": "In Asch's study, 123 participants went along with a unanimously wrong majority in 36.8% of critical trials; a 2023 replication with 202 Swiss students found about 33%. Here the pressure came from peers, not a single flattering assistant.",
+     "outcome": "Asch's 123 participants went along with a unanimously wrong majority in 36.8% of critical trials on average; a 2023 replication with 202 valid cases from the University of Bern in Switzerland found 33%. Here the pressure came from peers, not a single flattering assistant.",
      "ref": {
       "title": "Franzen and Mader, The power of social influence: A replication and extension of the Asch experiment, PLOS ONE 2023",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10686423/",
-      "finding": "Asch reported a mean error rate of 36.8% across 123 subjects in critical trials; the replication found about 33% among University of Bern students."
+      "finding": "Asch (1955) reported a mean error rate of 36.8% across 123 real subjects in critical trials; the replication recruited 210 students at the University of Bern (202 valid cases) and found an error rate of 33% for the standard line-length experiment."
      }
     },
     {
      "event": "Engagement-optimised social media feeds",
      "year": "2018",
      "parallel": "Feeds tuned on what users approve of are the closest earlier case of systems optimised for approval rather than accuracy.",
-     "outcome": "In a randomised trial, deactivating Facebook before the 2018 US midterms reduced political polarisation and raised wellbeing, but also reduced factual news knowledge, so the effects cut both ways.",
+     "outcome": "In a randomised trial, deactivating Facebook for four weeks before the 2018 US midterms reduced political polarisation and raised subjective wellbeing, but also reduced factual news knowledge, so the effects cut both ways.",
      "ref": {
-      "title": "Allcott et al. 2020, The Welfare Effects of Social Media, American Economic Review",
+      "title": "Allcott, Braghieri, Eichmeyer and Gentzkow, The Welfare Effects of Social Media, American Economic Review 2020",
       "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20190658",
-      "finding": "Deactivation reduced polarisation and news knowledge and increased subjective wellbeing."
+      "finding": "Four weeks of Facebook deactivation before the 2018 US midterms reduced factual news knowledge and political polarisation and increased subjective wellbeing."
      }
     }
    ]
@@ -2082,37 +2102,37 @@
    "probability": 0.8,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Generative models make copying others' work cheap; the New York Times alleges ChatGPT reproduced its articles verbatim, and a judge let its main copyright claims go forward in 2025[2]. Two US courts found training on books fair use in 2025[3][4], but Anthropic paid $1.5 billion to settle claims over pirated copies[5], and a German court held that lyrics memorised by a model infringe[6]. The US Copyright Office says training that yields works competing in existing markets goes beyond fair use[1].",
+   "summary": "The New York Times alleges ChatGPT regurgitated its articles verbatim, and in March 2025 a federal judge narrowed its suit against OpenAI but let the main copyright claims go forward[2]. Two federal judges in California found training on books fair use in June 2025[3][4], though one said the authors had made the wrong arguments[4], and Anthropic agreed to pay $1.5 billion, about $3,000 per work, to settle claims over books taken from pirate libraries[5]. A Munich court held that song lyrics memorised by a model and reproduced in its outputs infringe, in a ruling that is not yet final[6]. A pre-publication US Copyright Office report says commercial training that produces content competing with the works in existing markets goes beyond established fair use[1].",
    "refs": [
     {
-     "title": "US Copyright Office, Copyright and Artificial Intelligence",
-     "url": "https://www.copyright.gov/ai/",
-     "finding": "Part 3 (pre-publication, May 2025) says commercial training that yields content competing with the works in existing markets goes beyond established fair use."
+     "title": "US Copyright Office, Copyright and Artificial Intelligence, Part 3: Generative AI Training (pre-publication version), May 2025",
+     "url": "https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-3-Generative-AI-Training-Report-Pre-Publication-Version.pdf",
+     "finding": "Various training uses are likely transformative, but making commercial use of vast troves of copyrighted works to produce expressive content that competes with them in existing markets, especially through illegal access, goes beyond established fair use boundaries."
     },
     {
-     "title": "NPR, Judge allows New York Times copyright case against OpenAI to go forward, March 2025",
-     "url": "https://www.kaxe.org/news/2025-03-26/judge-allows-new-york-times-copyright-case-against-openai-to-go-forward",
-     "finding": "Judge Sidney Stein narrowed the case but let the main infringement claims proceed; the Times argued ChatGPT regurgitated articles verbatim."
+     "title": "Bobby Allyn, NPR, Judge allows 'New York Times' copyright case against OpenAI to go forward, March 2025",
+     "url": "https://www.npr.org/2025/03/26/nx-s1-5288157/new-york-times-openai-copyright-case-goes-forward",
+     "finding": "Judge Sidney Stein narrowed the case but let the main copyright infringement claims proceed; the publishers argued ChatGPT regurgitated articles verbatim, which OpenAI disputed."
     },
     {
-     "title": "Wiggin, Bartz v. Anthropic: first court decision on fair use in LLM training, 2025",
+     "title": "Wiggin and Dana, Bartz v. Anthropic: First Court Decision on Fair Use Defense in LLM Training, June 2025",
      "url": "https://www.wiggin.com/publication/bartz-v-anthropic-first-court-decision-on-fair-use-defense-in-llm-training/",
-     "finding": "On 23 June 2025 Judge Alsup held training on the authors' books was exceedingly transformative fair use, but pirated library copies were not."
+     "finding": "On 23 June 2025 Judge Alsup held training on the authors' books was exceedingly transformative fair use, as was digitising purchased print books, but use of pirated library copies was not."
     },
     {
-     "title": "IPWatchdog, Judge says authors made wrong arguments in ruling for Meta on fair use, 2025",
+     "title": "Eileen McDermott, IPWatchdog, Judge Says Authors Made the Wrong Arguments in Ruling for Meta on Fair Use, June 2025",
      "url": "https://ipwatchdog.com/2025/06/26/judge-says-authors-made-wrong-arguments-ruling-meta-fair-use/",
-     "finding": "Judge Chhabria granted Meta summary judgment on fair use but said these plaintiffs made the wrong arguments and failed to build a record on market dilution."
+     "finding": "Judge Chhabria granted Meta partial summary judgment on fair use but said these plaintiffs made the wrong arguments and failed to build a record on market dilution, and that the ruling does not mean Meta's training is lawful in general."
     },
     {
-     "title": "Authors Guild, Court grants final approval of Anthropic copyright settlement, 2026",
+     "title": "Authors Guild, Court Grants Final Approval of $1.5 Billion Anthropic Copyright Settlement, July 2026",
      "url": "https://authorsguild.org/news/court-grants-final-approval-anthropic-copyright-settlement/",
-     "finding": "Final approval on 20 July 2026 of a $1.5 billion settlement, about $3,000 per work, covering past acquisition from pirate libraries; output claims are not released."
+     "finding": "Judge Araceli Martínez-Olguín granted final approval on 20 July 2026 of a $1.5 billion settlement, about $3,000 per work; it releases only past claims over acquiring and copying the works, including files from Library Genesis and Pirate Library Mirror, does not release output claims, and payouts had not begun."
     },
     {
-     "title": "Grünecker, AI and copyright law: Munich Regional Court rules against OpenAI, 2025",
+     "title": "Mark Peters and Felix Rützel, Grünecker, AI and Copyright Law: Munich Regional Court Rules Against OpenAI, November 2025",
      "url": "https://grunecker.de/en/insights/ai-and-copyright-law-munich-regional-court-rules-against-openai/",
-     "finding": "In GEMA v. OpenAI (42 O 14139/24) the court held lyrics memorised in the model and reproduced in outputs infringe and fall outside the text and data mining exception; not yet final."
+     "finding": "In GEMA v. OpenAI (42 O 14139/24) the court held lyrics memorised in GPT-4 and GPT-4o and reproduced in outputs infringe and fall outside the text and data mining exception; not yet final, and OpenAI may appeal."
     }
    ],
    "theme": "ip",
@@ -2129,11 +2149,11 @@
      "actor": "legislators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "The EU AI Act requires a copyright policy and a public training summary; compliance effects are not yet known.",
+     "evidence": "The EU AI Act requires a copyright policy and a public training summary from general-purpose model providers, applying from 2 August 2025; compliance effects are not yet known.",
      "ref": {
-      "title": "Regulation (EU) 2024/1689, the AI Act",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "finding": "Article 53 requires general-purpose model providers to have a copyright policy and to publish a summary of the content used for training."
+      "title": "European Commission AI Act Service Desk, Article 53: Obligations for providers of general-purpose AI models",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53",
+      "finding": "Article 53(1)(c) and (d) require general-purpose model providers to put in place a policy to comply with Union copyright law, including rights reservations, and to publish a sufficiently detailed summary of the content used for training; open-source models are not exempt from these two points."
      }
     },
     {
@@ -2145,7 +2165,7 @@
      "ref": {
       "title": "US Copyright Office, Copyright and Artificial Intelligence",
       "url": "https://www.copyright.gov/ai/",
-      "finding": "Part 1 on digital replicas (July 2024), Part 2 on copyrightability (January 2025) and a pre-publication Part 3 on generative AI training (May 2025)."
+      "finding": "Part 1 on digital replicas (July 2024), Part 2 on copyrightability (January 2025) and a pre-publication Part 3 on generative AI training (May 2025); a final Part 3 is still to come."
      }
     },
     {
@@ -2153,11 +2173,11 @@
      "actor": "artists",
      "status": "tested",
      "aim": "probability",
-     "evidence": "Tools such as Glaze add cloaks to artwork, but one study showed off-the-shelf methods such as upscaling defeat them.",
+     "evidence": "Tools such as Glaze add cloaks to artwork, but one study showed off-the-shelf methods such as upscaling defeat Glaze, Mist and Anti-DreamBooth.",
      "ref": {
       "title": "Hönig et al., Adversarial Perturbations Cannot Reliably Protect Artists From Generative AI, 2024",
       "url": "https://arxiv.org/abs/2406.12027",
-      "finding": "Low-effort, off-the-shelf techniques such as image upscaling are enough to build mimicry methods that defeat existing protections."
+      "finding": "Low-effort, off-the-shelf techniques such as image upscaling are enough to build mimicry methods that defeat Mist, Glaze and Anti-DreamBooth."
      }
     }
    ],
@@ -2175,24 +2195,24 @@
     },
     {
      "event": "Napster file sharing",
-     "year": "1999-2001",
+     "year": "2001",
      "parallel": "Free digital copying at scale outran the law until courts drew a line, the same path AI training and output cases are on.",
-     "outcome": "The Ninth Circuit held Napster's file transfers were not fair use, finding the copying non-transformative and commercial, with evidence of reduced CD sales.",
+     "outcome": "The Ninth Circuit upheld a ruling that file transfers through Napster were not fair use, finding the copying non-transformative and commercial, with evidence that Napster reduced audio CD sales.",
      "ref": {
       "title": "A&M Records, Inc. v. Napster, Inc., 239 F.3d 1004 (9th Cir. 2001), US Copyright Office Fair Use Index",
       "url": "https://www.copyright.gov/fair-use/summaries/a&mrecords-napster-9thcir2001.pdf",
-      "finding": "File sharing was not fair use; Napster reduced CD sales."
+      "finding": "Transfers of files through Napster were not fair use; the use was non-transformative and commercial, and plaintiffs showed Napster reduced audio CD sales."
      }
     },
     {
      "event": "Google Books mass scanning",
-     "year": "2004-2015",
+     "year": "2015",
      "parallel": "Copying millions of whole works without permission to build a new service is the closest legal analogue to training on scraped text.",
      "outcome": "Google scanned more than twenty million books; the Second Circuit held the scanning and snippet search was fair use because it did not substitute for buying the books. AI output can substitute more directly, so the analogy is unsettled.",
      "ref": {
       "title": "Authors Guild, Inc. v. Google Inc. (2d Cir. 2015), US Copyright Office Fair Use Index",
       "url": "https://www.copyright.gov/fair-use/summaries/authorsguild-google-2dcir2015.pdf",
-      "finding": "Digitising 20 million-plus books for search was transformative fair use."
+      "finding": "Plaintiffs said Google scanned more than twenty million books; the Second Circuit held digitising them for search and snippet view was transformative fair use that did not provide a significant substitute for buying the books."
      }
     }
    ]
@@ -2204,12 +2224,12 @@
    "probability": 0.45,
    "year": 2027,
    "evidence": "speculative",
-   "summary": "Cheaper decompilation could lower the bar for cheats, exploits and griefing tools aimed at other players. One open model family already turns compiled benchmark functions back into working C code more often than GPT-4o or Ghidra[1]; no study yet links this to cheating or harassment.",
+   "summary": "Cheaper decompilation could lower the bar for cheats, exploits and griefing tools aimed at other players. One open model family already turns compiled benchmark functions back into C code that recompiles and passes tests more than twice as often as GPT-4o or the Ghidra decompiler[1]; no study yet links this to cheating or harassment.",
    "refs": [
     {
-     "title": "Tan et al., LLM4Decompile: Decompiling Binary Code with Large Language Models, EMNLP 2024",
+     "title": "Tan, Luo, Li and Zhang, LLM4Decompile: Decompiling Binary Code with Large Language Models, EMNLP 2024",
      "url": "https://arxiv.org/abs/2403.05286",
-     "finding": "LLM4Decompile beats GPT-4o and Ghidra on re-executability on the HumanEval and ExeBench benchmarks; the paper does not study cheating."
+     "finding": "LLM4Decompile-End beats GPT-4o and Ghidra by over 100% in re-executability on the HumanEval and ExeBench benchmarks; the paper does not study cheating."
     }
    ],
    "theme": "ip",
@@ -2227,7 +2247,7 @@
      "aim": "probability",
      "evidence": "Riot reports cheaters back below 1% of VALORANT ranked games after a 10% spike in Brazil; figures are self-reported.",
      "ref": {
-      "title": "Riot Games, Vanguard hits new bans-per-second record, 2025",
+      "title": "Riot Games, Vanguard hits new 'Bans-Per-Second' record, February 2025",
       "url": "https://playvalorant.com/en-us/news/dev/vanguard-hits-new-bans-per-second-record/",
       "finding": "Riot reports the global share of VALORANT ranked games with a cheater is back below 1%, after Brazil briefly hit 10%."
      }
@@ -2239,9 +2259,9 @@
      "aim": "probability",
      "evidence": "After adding Vanguard to League of Legends, Riot reported 1 in 200 ranked games with a scripter; figures are self-reported.",
      "ref": {
-      "title": "Riot Games, /dev: Vanguard x LoL Retrospective, 2024",
+      "title": "Riot Games, /dev: Vanguard x LoL Retrospective, August 2024",
       "url": "https://www.leagueoflegends.com/en-us/news/dev/dev-vanguard-x-lol-retrospective/",
-      "finding": "As of August 2024, only 1 in every 200 ranked League games is played with a scripter."
+      "finding": "At the time of writing (published 22 August 2024), only 1 in every 200 ranked League games was played with a scripter."
      }
     },
     {
@@ -2249,20 +2269,20 @@
      "actor": "game studios",
      "status": "in force",
      "aim": "probability",
-     "evidence": "Bungie won a May 2024 jury verdict of $63,210 against AimJunkies and an arbitration award of about $4.3 million under the DMCA; whether this deters cheat sellers is unmeasured.",
+     "evidence": "Bungie won a May 2024 jury verdict of $63,210 against AimJunkies and an arbitration award of about $4.3 million after an arbitrator found DMCA anti-circumvention violations; whether this deters cheat sellers is unmeasured.",
      "ref": {
-      "title": "TorrentFreak, Court denies cheat seller AimJunkies a new trial, affirms Bungie's $4.3 million win, 2024",
+      "title": "TorrentFreak, Court Denies Cheat Seller AimJunkies a New Trial, Affirms Bungie's $4.3m Win, September 2024",
       "url": "https://torrentfreak.com/court-denies-cheat-seller-aimjunkies-a-new-trial-affirms-bungies-4-3-million-win-240902/",
-      "finding": "An arbitrator found AimJunkies bypassed Bungie's technical protection measures in violation of the DMCA and awarded about $4.3 million; a Seattle jury separately awarded $63,210."
+      "finding": "An arbitrator found AimJunkies bypassed Bungie's technical protection measures in violation of the DMCA and awarded about $4.3 million, which the Ninth Circuit affirmed; a Seattle jury separately awarded $63,210, and the judge denied a new trial."
      }
     }
    ],
    "precedents": [
     {
      "event": "Game Genie and Nintendo",
-     "year": "1990-1992",
+     "year": "1991-1992",
      "parallel": "A device that altered game data to change play is an early cheat tool built by understanding game internals.",
-     "outcome": "The Ninth Circuit held the Game Genie did not infringe because its altered displays were not fixed derivative works and home use was fair use; Nintendo had cited a $150 million market for it. It altered a player's own game, unlike multiplayer cheats.",
+     "outcome": "The Ninth Circuit held the Game Genie did not infringe because its altered displays were not fixed derivative works and home use was fair use; Nintendo had pointed at oral argument to a $150 million market for it. It altered a player's own game, unlike multiplayer cheats.",
      "ref": {
       "title": "Lewis Galoob Toys, Inc. v. Nintendo of America, Inc., 964 F.2d 965 (9th Cir. 1992), Public.Resource.Org",
       "url": "https://law.resource.org/pub/us/case/reporter/F2/964/964.F2d.965.91-16205.html",
@@ -2273,7 +2293,7 @@
      "event": "Glider bot in World of Warcraft",
      "year": "2005-2010",
      "parallel": "A commercial bot that automated play in a shared online world shows how lower-cost tooling feeds cheating at other players' expense and an arms race with anti-cheat.",
-     "outcome": "Glider sold 120,000 licences for $3.5 million by 2008 and was reconfigured to evade Blizzard's Warden; Blizzard said it received 465,000 bot complaints and spent $940,000 a year handling them. MDY was held liable under one DMCA anti-circumvention provision, not for copyright infringement.",
+     "outcome": "MDY reported $3.5 million in gross revenue from 120,000 Glider licences by September 2008 and changed Glider to evade Blizzard's Warden; Blizzard said it received 465,000 bot complaints from December 2004 to March 2008 and spent $940,000 a year handling them. MDY was held liable under one DMCA anti-circumvention provision, not for copyright infringement.",
      "ref": {
       "title": "MDY Industries, LLC v. Blizzard Entertainment, Inc., 629 F.3d 928 (9th Cir. 2010, amended 2011)",
       "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2011/02/17/09-15932.pdf",
@@ -17045,7 +17065,7 @@
    "source": "concentration",
    "target": "ubi",
    "kind": "leads",
-   "why": "If AI returns flow to owners of compute rather than workers, taxing and sharing that wealth becomes the obvious remedy."
+   "why": "If AI returns flow to owners of capital rather than workers, taxing and sharing that wealth is one proposed remedy, as in one scenario that pays AI permit revenue to residents as a Citizen's Dividend."
   },
   {
    "source": "builders",
@@ -19217,7 +19237,7 @@
    "source": "cognitiveload",
    "target": "deskilling",
    "kind": "leads",
-   "why": "Taking routine work off people leaves them less practice, the pattern aviation regulators found when autopilots turned pilots into monitors of the flight path."
+   "why": "Taking routine work off people leaves them less practice, the pattern aviation regulators warned of when they said continuous autopilot use could degrade pilots' manual flying skills."
   },
   {
    "source": "regulationlag",
@@ -19584,6 +19604,12 @@
    "target": "thinking",
    "kind": "twin",
    "why": "Both describe people handing reasoning to an AI: deferral settles the judgment call itself, while loss of critical thinking is the habit of checking less."
+  },
+  {
+   "source": "sycophancy",
+   "target": "addiction",
+   "kind": "leads",
+   "why": "People prefer and trust a model that flatters them, one 2026 study found, and a UBC analysis of 334 Reddit posts tied compulsive chatbot use partly to agreeable replies that keep reinforcing users' feelings and opinions."
   }
  ],
  "themes": {
