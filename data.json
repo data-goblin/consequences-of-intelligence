@@ -4335,11 +4335,11 @@
     {
      "limit": "poor connectivity",
      "kind": "infrastructure",
-     "evidence": "Only 27% of people in low-income countries used the internet in 2024, which limits forecasts delivered online.",
+     "evidence": "Only 23% of people in low-income countries used the internet in 2025, which limits forecasts delivered online.",
      "ref": {
-      "title": "ITU Facts and Figures 2024: Internet use",
-      "url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-internet-use/",
-      "finding": "2.6 billion people, one third of the world, are still offline; only 27% of the population is online in low-income countries, against 93% in high-income countries."
+      "title": "ITU, Global number of Internet users increases, but disparities deepen key digital divides, 17 November 2025",
+      "url": "https://www.itu.int/en/mediacentre/Pages/PR-2025-11-17-Facts-and-Figures.aspx",
+      "finding": "2.2 billion people remain offline in 2025, with about three-quarters of the world online; 94% of people in high-income countries use the internet against only 23% in low-income countries."
      }
     }
    ],
