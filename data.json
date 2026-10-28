@@ -17213,6 +17213,88 @@
      }
     }
    ]
+  },
+  {
+   "id": "csmajors",
+   "label": "Students turn away from computer science",
+   "probability": 0.5,
+   "year": 2025,
+   "stage": "emerging",
+   "evidence": "measured",
+   "theme": "work",
+   "summary": "Undergraduate enrollment in computer and information science at US four-year colleges fell 8.1% in fall 2025 to about 606,000 and graduate enrollment fell 14.0%, while overall postsecondary enrollment grew 1.0%[1]. In the group of departments that reported to the CRA Taulbee survey every year since 2020, new bachelor's computer science majors fell 13% in 2025 even as degrees awarded hit a record[2]. In one survey of 133 US and Canadian computing departments, 62% reported lower undergraduate enrollment for 2025-26; their leaders cited fewer job openings and fear that AI will eliminate software engineering jobs, but also falling international enrollment, and AI, data science and cybersecurity programs more often grew[3]. In one opt-in US survey of currently enrolled college students, 16% said they had already changed their major because of AI's potential impact on jobs[4]. None of these sources isolates AI as the cause of the computer science decline.",
+   "refs": [
+    {
+     "title": "National Student Clearinghouse, The Changing Landscape of Postsecondary Education, February 2026",
+     "url": "https://www.studentclearinghouse.org/nscblog/changing-landscape-of-postsecondary-education/",
+     "finding": "In fall 2025, computer and information science enrollment declined across every award level and institution type: undergraduate enrollment at four-year institutions fell 8.1% to about 606,000 and graduate enrollment fell 14.0% to about 190,000, while overall postsecondary enrollment grew 1.0%. Data science and data analytics grew strongly to nearly 80,000 students at the undergraduate and graduate levels."
+    },
+    {
+     "title": "Batten, CRA Update: New CRA Taulbee Survey Findings Show Record Degree Production Alongside a Cooling Enrollment Pipeline, Computing Research News, June 2026",
+     "url": "https://cra.org/crn/2026/06/cra-update-new-cra-taulbee-survey-findings-show-record-degree-production-alongside-a-cooling-enrollment-pipeline/",
+     "finding": "In 2025, new bachelor's computer science majors fell to 33,490, down 13% across the longitudinal cohort of units that reported complete data every year from 2020 to 2025, and total bachelor's enrollment fell to 169,528, down 4%, while bachelor's degrees awarded reached a record 41,858, up 13%, likely reflecting prior surges in enrollment."
+    },
+    {
+     "title": "George, CERP Pulse Survey: A Snapshot of 2025 Undergraduate Computing Enrollment Patterns, Computing Research News, October 2025",
+     "url": "https://cra.org/crn/2025/10/cerp-pulse-survey-a-snapshot-of-2025-undergraduate-computing-enrollment-patterns/",
+     "finding": "Of 133 computing units at US and Canadian institutions surveyed from 27 August to 17 September 2025 (46.5% response rate), 62% reported lower undergraduate enrollment for 2025-26 than 2024-25; declines were concentrated in computer science, information systems and software engineering, while computer engineering, data science, cybersecurity and AI programs more often grew. Leaders cited fewer job opportunities, fears that AI will eliminate many software engineering jobs, and falling international enrollment, with 54% agreeing international undergraduate computing enrollment is down amid immigration policy changes and visa delays."
+    },
+    {
+     "title": "Marken, College Students Weigh AI's Impact on Majors and Careers, Gallup, April 2026",
+     "url": "https://news.gallup.com/poll/704087/college-students-weigh-impact-majors-careers.aspx",
+     "finding": "In the Lumina Foundation-Gallup 2026 State of Higher Education Study, an opt-in web survey fielded 2 to 31 October 2025 that included 1,433 associate and 2,368 bachelor's students, 16% of currently enrolled students said they had already changed their major or field of study because of AI's potential impact (19% of associate and 13% of bachelor's students; 21% of men and 12% of women), and 42% of bachelor's students had given at least a fair amount of thought to changing major because of AI."
+    }
+   ],
+   "limiters": [
+    {
+     "limit": "Students shift within computing, not out of it",
+     "kind": "incentives",
+     "evidence": "Data science and data analytics enrollment grew to nearly 80,000 US students in fall 2025 while computer and information science fell.",
+     "ref": {
+      "title": "National Student Clearinghouse, The Changing Landscape of Postsecondary Education, February 2026",
+      "url": "https://www.studentclearinghouse.org/nscblog/changing-landscape-of-postsecondary-education/",
+      "finding": "In fall 2025, computer and information science enrollment declined across every award level and institution type: undergraduate enrollment at four-year institutions fell 8.1% to about 606,000 and graduate enrollment fell 14.0% to about 190,000, while overall postsecondary enrollment grew 1.0%. Data science and data analytics grew strongly to nearly 80,000 students at the undergraduate and graduate levels."
+     }
+    },
+    {
+     "limit": "Visa limits and the job market blur the AI signal",
+     "kind": "evidence",
+     "evidence": "54% of surveyed computing units agreed international undergraduate enrollment is down, citing immigration policy changes and visa delays alongside job-market and AI fears.",
+     "ref": {
+      "title": "George, CERP Pulse Survey: A Snapshot of 2025 Undergraduate Computing Enrollment Patterns, Computing Research News, October 2025",
+      "url": "https://cra.org/crn/2025/10/cerp-pulse-survey-a-snapshot-of-2025-undergraduate-computing-enrollment-patterns/",
+      "finding": "Of 133 computing units at US and Canadian institutions surveyed from 27 August to 17 September 2025 (46.5% response rate), 62% reported lower undergraduate enrollment for 2025-26 than 2024-25; declines were concentrated in computer science, information systems and software engineering, while computer engineering, data science, cybersecurity and AI programs more often grew. Leaders cited fewer job opportunities, fears that AI will eliminate many software engineering jobs, and falling international enrollment, with 54% agreeing international undergraduate computing enrollment is down amid immigration policy changes and visa delays."
+     }
+    }
+   ],
+   "enablers": [
+    {
+     "action": "Hire fewer young workers into AI-exposed jobs",
+     "actor": "US employers",
+     "status": "in force",
+     "counters": null,
+     "evidence": "In US payroll data through June 2026, employment of 22 to 25 year olds in AI-exposed occupations such as software development was 19% below that of less-exposed peers, mainly through reduced hiring; the authors call this descriptive, not causal.",
+     "ref": {
+      "title": "Brynjolfsson, Chandar and Chen, Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence, Stanford Digital Economy Lab, revised August 2026",
+      "url": "https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/",
+      "finding": "In ADP payroll data on millions of US workers through June 2026, employment of workers aged 22 to 25 in AI-exposed occupations, including software development and customer support, stands 19% below where it would be had it kept pace with less-exposed peers, operating mainly through reduced hiring; experienced workers show no comparable gap. The authors call these descriptive indicators rather than causal estimates."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "Computer science enrollment after the dot-com bust",
+     "year": "2000-2007",
+     "parallel": "Computing degrees fell during the early-2000s downturn and slow job growth, much as enrollment is falling now amid weak entry-level hiring and fears about AI.",
+     "outcome": "In CRA's survey of doctorate-granting departments, new computer science majors halved from 15,958 in fall 2000 to 7,915 in fall 2007 and enrollment fell 49% from its 2001-02 peak, before new-major counts levelled off in 2006 and 2007.",
+     "ref": {
+      "title": "Vegso, Enrollments and Degree Production at US CS Departments Drop Further in 2006-07, Computing Research News, March 2008",
+      "url": "https://cra.org/crn/2008/03/enrollments_and_degree_production_at_us_cs_departments_drop_further_in/",
+      "finding": "In CRA's Taulbee Survey of doctorate-granting departments, the number of new CS majors in fall 2007 was half of fall 2000 (7,915 versus 15,958), enrollments dropped 49% from their 2001-02 peak, and bachelor's degrees fell 43% between 2003-04 and 2006-07, a decline the article calls foreseeable given the economic downturn and slow job growth of the early 2000s; flat and slightly rising new-major counts in 2006 and 2007 might indicate that interest was stabilizing."
+     }
+    }
+   ],
+   "valence": -1.93
   }
  ],
  "links": [
@@ -19831,6 +19913,12 @@
    "target": "promptinjection",
    "kind": "twin",
    "why": "Both turn an agent's trust in what it reads against its user: hidden instructions in content in one case, invented or planted package names in agent skills and documentation in the other."
+  },
+  {
+   "source": "entryjobs",
+   "target": "csmajors",
+   "kind": "leads",
+   "why": "Fewer entry-level hires in AI-exposed jobs such as software development are the job-market signal that computing department leaders say is steering students away from computer science."
   }
  ],
  "themes": {
