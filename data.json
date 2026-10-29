@@ -16930,17 +16930,17 @@
    "probability": 0.5,
    "year": 2024,
    "evidence": "measured",
-   "summary": "Systems that steer and brake for a driver who is still meant to watch the road can lull that driver into looking away. In its analysis of 956 crashes involving Tesla's Autopilot reported through August 2023, NHTSA found a mismatch between weak driver engagement controls and the system's permissive capabilities that led to foreseeable misuse and avoidable crashes, including at least 13 with one or more deaths[1]. In two small IIHS field studies, ten drivers of a Volvo with Pilot Assist were more than three times as likely to show signs of disengagement after a month of use as at the start[2], and 14 Tesla Model 3 drivers learned to time Autopilot's attention reminders and did more secondary tasks during alerts over four weeks[3]. In August 2025 a Miami federal jury found Tesla 33% responsible for a 2019 crash in which a driver using Autopilot reached for a dropped phone and killed a woman standing beside a parked car, and awarded $243 million; Tesla said the driver was entirely at fault and that it would appeal[4], and the judge later denied its motion for a new trial[5]. In October 2025 NHTSA opened a probe into 2.88 million Teslas with Full Self-Driving, which Tesla describes as a single end-to-end neural network, over 58 reports of traffic violations including 14 crashes[6][7]. One IIHS study of older Nissan and BMW models found little evidence that partial automation prevents crashes beyond automatic emergency braking, which does cut them[8], and of the first 14 systems IIHS rated, only one had acceptable safeguards against misuse[9].",
+   "summary": "Systems that steer and brake for a driver who is still meant to watch the road can lull that driver into looking away. NHTSA reviewed 956 crashes involving Tesla's Autopilot reported through August 2023, set aside 489 that lacked data or were unrelated, and found that a weak driver engagement system paired with Autopilot's permissive capabilities led to foreseeable misuse and avoidable crashes, including at least 13 with one or more deaths[1]. In two small IIHS field studies in the US, ten Massachusetts drivers of a Volvo with Pilot Assist were more than three times as likely to show signs of disengagement after a month of use as at the start[2], and 14 Tesla Model 3 drivers learned to time Autopilot's attention reminders and did more secondary tasks during alerts over four weeks[3]. In August 2025 a Miami federal jury found Tesla 33% responsible for a 2019 crash in which a driver using Autopilot reached for a dropped phone, ran a stop sign and hit a parked car, killing one person and seriously injuring another; Tesla was ordered to pay $243 million, including $200 million in punitive damages, and said the driver was solely at fault[4]. The judge denied Tesla's motion for a new trial in February 2026 and Tesla appealed to the Eleventh Circuit in March 2026[5]. In October 2025 NHTSA opened a probe into an estimated 2.88 million Teslas with Full Self-Driving, a system Tesla itself says needs a fully attentive driver, over 58 reported traffic violations such as running red lights, including 14 crashes with 23 injuries[6]. One IIHS study of older Nissan and BMW models found little evidence that partial automation prevents crashes beyond automatic emergency braking, which does cut them[7], and of the first 14 systems IIHS rated, only one had acceptable safeguards against misuse[8].",
    "refs": [
     {
      "title": "NHTSA Office of Defects Investigation, EA22002 closing resume, Autopilot System Driver Controls, April 2024",
      "url": "https://static.nhtsa.gov/odi/inv/2022/INCLA-EA22002-14498.pdf",
-     "finding": "ODI analysed 956 crashes reported up to 30 August 2023; after excluding 489, it grouped the remaining 467 into frontal crashes with adequate time for an attentive driver to respond (211), roadway departures after Autosteer was inadvertently disengaged (111) and departures in low traction (145). Tesla's weak driver engagement system was not appropriate for Autopilot's permissive operating capabilities, a critical safety gap that led to foreseeable misuse and avoidable crashes, including at least 13 crashes with one or more fatalities. Tesla filed recall 23V838 on 12 December 2023 for 2,031,220 vehicles, and ODI opened recall query RQ24009 to assess the remedy."
+     "finding": "ODI analysed 956 crashes reported up to 30 August 2023; in 489 it found insufficient data, another vehicle at fault, Autopilot not in use or the crash otherwise unrelated. It grouped the remaining 467 into frontal crashes with adequate time for an attentive driver to respond (211), roadway departures after Autosteer was inadvertently disengaged by the driver (111) and departures in low traction (145). Tesla's weak driver engagement system was not appropriate for Autopilot's permissive operating capabilities; the mismatch created a critical safety gap that led to foreseeable misuse and avoidable crashes, and ODI identified at least 13 crashes involving one or more fatalities in which foreseeable misuse played an apparent role. Tesla filed recall 23V838 on 12 December 2023 for all vehicles with Autopilot (investigation population 2,031,220), and ODI opened recall query RQ24009 to assess the remedy."
     },
     {
      "title": "IIHS, Drivers let their focus slip as they get used to partial automation, November 2020",
      "url": "https://www.iihs.org/news/detail/drivers-let-their-focus-slip-as-they-get-used-to-partial-automation",
-     "finding": "In a month-long study of Massachusetts volunteers, the ten drivers of a Volvo S90 were, after correction for video coding errors, more than 3 times as likely to show signs of disengagement and 17 times as likely to take both hands off the wheel after a month of Pilot Assist use, compared with the start of the study."
+     "finding": "In a four-week study by IIHS and MIT AgeLab of 20 Massachusetts volunteers, the ten drivers of a Volvo S90 were, after correction for video coding errors, more than 3 times as likely to show signs of disengagement and 17 times as likely to take both hands off the wheel after a month of Pilot Assist use, compared with the start of the study."
     },
     {
      "title": "IIHS, Drivers quickly learn to skirt limits set by partial automation systems, September 2024",
@@ -16950,22 +16950,17 @@
     {
      "title": "Reuters, Tesla ordered by Florida jury to pay $243 million in fatal Autopilot crash, August 2025",
      "url": "https://finance.yahoo.com/news/tesla-ordered-florida-jury-pay-192910068.html",
-     "finding": "A Miami federal jury awarded $129 million in compensatory and $200 million in punitive damages, with Tesla assigned 33% of compensatory damages ($42.6 million) and the driver 67%; in the 25 April 2019 crash the driver ran a stop sign and light after reaching down for a dropped phone. Plaintiffs argued Tesla designed Autopilot for controlled-access highways but did not stop its use elsewhere; Tesla said the driver was solely at fault and it would appeal."
+     "finding": "A Miami federal jury awarded $129 million in compensatory and $200 million in punitive damages, with Tesla assigned 33% of compensatory damages ($42.6 million) and the driver 67%; in the 25 April 2019 crash the driver reached down for a dropped phone and drove his Model S through a stop sign and light into a parked Chevrolet Tahoe, killing Naibel Benavides Leon and seriously injuring Dillon Angulo. Plaintiffs argued Tesla designed Autopilot for controlled-access highways but did not stop its use elsewhere; Tesla said the driver was solely at fault and it would appeal."
     },
     {
-     "title": "CarComplaints.com, Benavides v. Tesla: Judge Upholds $243 Million Jury Verdict, February 2026",
-     "url": "https://www.carcomplaints.com/news/2026/benavides-v-tesla-judge-upholds-243-million-jury-verdict.shtml",
-     "finding": "US District Judge Beth Bloom denied Tesla's motion for a new trial, saying Tesla presented no new information to justify overturning the verdict; Naibel Benavides Leon, 22, was killed and Dillon Angulo seriously injured when the Model S hit a parked Tahoe that struck them."
+     "title": "US District Court, Southern District of Florida, Benavides v. Tesla, No. 1:21-cv-21940, Notice of Appeal (Dkt. 616), March 2026",
+     "url": "https://storage.courtlistener.com/recap/gov.uscourts.flsd.593426/gov.uscourts.flsd.593426.616.0.pdf",
+     "finding": "On 16 March 2026 Tesla appealed to the US Court of Appeals for the Eleventh Circuit from the final judgment entered on 4 August 2025 and from the court's 20 February 2026 order denying its amended renewed motion for judgment as a matter of law or, alternatively, for a new trial or to amend the judgment."
     },
     {
-     "title": "Reuters, US Probes Driver Assistance Software in 2.9 Million Tesla Vehicles Over Traffic Violations, October 2025",
-     "url": "https://www.insurancejournal.com/news/national/2025/10/13/843431.htm",
-     "finding": "NHTSA opened a preliminary evaluation into 2.88 million Tesla vehicles with Full Self-Driving after 58 reports of traffic safety violations, including 14 crashes and 23 injuries; six reports describe a Tesla entering an intersection against a red light and crashing. NHTSA said the system induced vehicle behaviour that violated traffic safety laws."
-    },
-    {
-     "title": "Drive Tesla Canada, Tesla begins public roll-out of FSD Beta v12, January 2024",
-     "url": "https://driveteslacanada.ca/news/tesla-begins-public-roll-out-of-fsd-beta-v12-2023-44-30-12",
-     "finding": "Tesla's release notes say FSD Beta v12 upgrades the city-streets driving stack to a single end-to-end neural network, replacing over 300,000 lines of explicit C++ code."
+     "title": "NHTSA Office of Defects Investigation, PE25012 opening resume, Traffic safety violations while Full Self Driving is engaged, October 2025",
+     "url": "https://static.nhtsa.gov/odi/inv/2025/INOA-PE25012-19171.pdf",
+     "finding": "Opened 7 October 2025 for an estimated 2,882,566 Tesla vehicles with FSD (Supervised) or FSD (Beta), which Tesla characterises as an SAE Level 2 system requiring a fully attentive driver. ODI counted 58 incidents, including 14 crashes with 23 injuries and no fatalities, in which FSD induced vehicle behaviour that violated traffic safety laws, most often entering intersections against red signals or moving into opposing lanes; six SGO reports describe crashes after a Tesla entered an intersection on red. ODI will assess whether drivers had warning or time to intervene."
     },
     {
      "title": "IIHS, IIHS-HLDI research finds little evidence that partial automation prevents crashes, July 2024",
@@ -16989,11 +16984,11 @@
      "actor": "regulators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "After NHTSA's investigation, Tesla recalled all 2,031,220 vehicles equipped with Autopilot in December 2023 to strengthen driver warnings; NHTSA opened a recall query to assess whether the fix works.",
+     "evidence": "After NHTSA's investigation, Tesla recalled all vehicles equipped with Autopilot in December 2023 to make driver warnings more effective and reduce mode confusion; NHTSA opened a recall query to assess whether the fix works.",
      "ref": {
       "title": "NHTSA Office of Defects Investigation, EA22002 closing resume, Autopilot System Driver Controls, April 2024",
       "url": "https://static.nhtsa.gov/odi/inv/2022/INCLA-EA22002-14498.pdf",
-      "finding": "ODI analysed 956 crashes reported up to 30 August 2023; after excluding 489, it grouped the remaining 467 into frontal crashes with adequate time for an attentive driver to respond (211), roadway departures after Autosteer was inadvertently disengaged (111) and departures in low traction (145). Tesla's weak driver engagement system was not appropriate for Autopilot's permissive operating capabilities, a critical safety gap that led to foreseeable misuse and avoidable crashes, including at least 13 crashes with one or more fatalities. Tesla filed recall 23V838 on 12 December 2023 for 2,031,220 vehicles, and ODI opened recall query RQ24009 to assess the remedy."
+      "finding": "ODI analysed 956 crashes reported up to 30 August 2023; in 489 it found insufficient data, another vehicle at fault, Autopilot not in use or the crash otherwise unrelated. It grouped the remaining 467 into frontal crashes with adequate time for an attentive driver to respond (211), roadway departures after Autosteer was inadvertently disengaged by the driver (111) and departures in low traction (145). Tesla's weak driver engagement system was not appropriate for Autopilot's permissive operating capabilities; the mismatch created a critical safety gap that led to foreseeable misuse and avoidable crashes, and ODI identified at least 13 crashes involving one or more fatalities in which foreseeable misuse played an apparent role. Tesla filed recall 23V838 on 12 December 2023 for all vehicles with Autopilot (investigation population 2,031,220), and ODI opened recall query RQ24009 to assess the remedy."
      }
     },
     {
@@ -17001,11 +16996,11 @@
      "actor": "regulators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "A California judge ruled in December 2025 that Tesla's use of the name Autopilot was misleading; given 60 days by the DMV, Tesla dropped the name and added that Full Self-Driving needs supervision, avoiding a 30-day sales suspension. The ruling covers marketing in one state, not how the systems behave.",
+     "evidence": "California's DMV adopted a judge's finding in December 2025 that Tesla's use of the name Autopilot misled consumers; given 60 days, Tesla stopped using the term in its California marketing and renamed Full Self-Driving to Full Self-Driving (Supervised), avoiding a 30-day licence suspension. The ruling covers marketing in one state, not how the systems behave.",
      "ref": {
-      "title": "Electrek, Tesla avoids 30-day California sales suspension after dropping misleading 'Autopilot' marketing, February 2026",
-      "url": "https://electrek.co/2026/02/18/tesla-avoids-30-day-california-sales-suspension-after-dropping-misleading-autopilot-marketing/",
-      "finding": "An administrative law judge ruled in December 2025 that Tesla's use of Autopilot was misleading and violated state law; the DMV's final decision permanently stayed the manufacturer licence suspension and gave Tesla 60 days to stop using the term. Tesla stopped using Autopilot, added that Full Self-Driving requires supervision and in January 2026 discontinued Autopilot as a standalone feature in the US and Canada."
+      "title": "California DMV, Tesla Takes Corrective Action to Avoid DMV Suspension, February 2026",
+      "url": "https://www.dmv.ca.gov/portal/news-and-media/tesla-takes-corrective-action-to-avoid-dmv-suspension/",
+      "finding": "In its 16 December 2025 decision the DMV found that Tesla's use of Autopilot for its driver assistance features misled consumers and violated state law; it kept the judge's findings but permanently stayed the manufacturer licence suspension and gave Tesla 60 days to act. Tesla stopped using Autopilot in California marketing and changed Full Self-Driving to Full Self-Driving (Supervised), avoiding a 30-day suspension of its dealer and manufacturer licences."
      }
     },
     {
@@ -17026,11 +17021,11 @@
      "event": "Uber self-driving test car kills a pedestrian in Tempe",
      "year": 2018,
      "parallel": "A human was meant to supervise an automated car and stopped watching the road, the same supervision gap that partial automation creates for ordinary drivers.",
-     "outcome": "The NTSB found the probable cause was the operator's failure to monitor the road and the automated system because she was visually distracted by her personal phone; the system detected the pedestrian 5.6 seconds before impact but never classified her correctly, and the operator looked back at the road about 1 second before impact.",
+     "outcome": "The NTSB found the probable cause was the operator's failure to monitor the road and the automated system because she was visually distracted throughout the trip by her personal phone, with Uber's inadequate safety culture contributing; the system detected the pedestrian 5.6 seconds before impact but never classified her correctly, and the operator looked back at the road about 1 second before impact.",
      "ref": {
       "title": "NTSB, Collision Between Vehicle Controlled by Developmental Automated Driving System and Pedestrian, HWY18MH010, 2019",
       "url": "https://www.ntsb.gov/investigations/Pages/HWY18MH010.aspx",
-      "finding": "In the 18 March 2018 crash in Tempe, Arizona, the probable cause was the vehicle operator's failure to monitor the driving environment and the automated driving system because she was visually distracted by her personal cell phone; the system detected the pedestrian 5.6 seconds before impact but never accurately classified her as a pedestrian or predicted her path."
+      "finding": "In the 18 March 2018 crash in Tempe, Arizona, the probable cause was the vehicle operator's failure to monitor the driving environment and the automated driving system because she was visually distracted throughout the trip by her personal cell phone; contributing were Uber ATG's inadequate safety culture, including no adequate mechanisms for operators' automation complacency, and insufficient state oversight. The system detected the pedestrian 5.6 seconds before impact but never accurately classified her as a pedestrian or predicted her path; the operator redirected her gaze to the road about 1 second before impact."
      }
     }
    ]
@@ -17042,22 +17037,22 @@
    "probability": 0.5,
    "year": 2025,
    "evidence": "measured",
-   "summary": "Many platforms now set the pay for each job with algorithms, so two workers doing the same task can be paid different amounts and workers cannot accurately predict what a shift will earn[3]. One Oxford study with Worker Info Exchange analysed more than 1.5 million trips by 258 UK Uber drivers from 2016 to 2024 and found that after Uber introduced dynamic pricing in 2023, drivers' inflation-adjusted hourly income before costs fell from over £22 to just over £19, unpaid waiting time grew, and Uber's commission rose from about 25% to 29%, with Uber taking over half the fare on some trips[1]; pay also became less predictable and more unequal between drivers[2]. A TUC report drawing on the study says 93 of 114 drivers earned less after the change while Uber's surplus per hour rose 38%[3]. Uber said it did not recognise the figures and that UK drivers took home over £1 billion in January to March 2025, up on the year before[4]. Beyond ride-hailing, one audit of 500 AI labour-management vendors flagged 20 as high risk for enabling such pay setting, including five in customer service and four in health care, and 16 of the 20 linked directly to payroll or HR systems[5].",
+   "summary": "In the UK, many platform operators now set the pay for each job with algorithms, so two workers doing the same task can be offered different amounts and workers cannot accurately predict what a shift will earn, according to the Trades Union Congress[3]. One Oxford study with Worker Info Exchange analysed more than 1.5 million trips by 258 UK Uber drivers from 2016 to 2024 and found that after Uber introduced dynamic pricing in 2023, drivers' inflation-adjusted hourly income before costs fell from over £22 to just over £19, unpaid waiting time grew, and Uber's commission rose from about 25% to 29%, with Uber taking over half the fare on some trips[1]; pay also became less predictable and more unequal between drivers[2]. A TUC report drawing on the study says 93 of 114 drivers earned less after the change while Uber's surplus per hour rose 38%[3]. Uber said it did not recognise the figures and that UK drivers took home over £1 billion in January to March 2025, up on the year before[4]. Beyond ride-hailing, one review of 500 early-stage AI labour-management vendors judged 20 at high risk of producing such pay discrimination, including five in customer service and four in health care, and 16 of the 20 linked directly to payroll or HR systems[5].",
    "refs": [
     {
      "title": "University of Oxford Department of Computer Science, New Oxford research reveals Uber's algorithmic pricing leaves drivers and passengers worse off, June 2025",
      "url": "https://www.cs.ox.ac.uk/news/2455-full.html",
-     "finding": "Analysing data from 258 UK Uber drivers across more than 1.5 million trips between 2016 and 2024, researchers found that after Uber introduced dynamic pricing in 2023 passengers paid more per trip while drivers' inflation-adjusted hourly income before operating costs dropped from over £22 to just over £19, drivers spent more unpaid time waiting, and Uber's commission rose from around 25% to 29%, in some cases over half the fare."
+     "finding": "Analysing data from 258 UK Uber drivers across more than 1.5 million trips between 2016 and 2024, researchers working with Worker Info Exchange found that after Uber introduced dynamic pricing in 2023 passengers paid more per trip while drivers' inflation-adjusted hourly income before operating costs dropped from over £22 to just over £19, drivers spent more unpaid time waiting, and Uber's commission rose from around 25% to 29%, in some cases over half the fare."
     },
     {
-     "title": "Binns, Stein, Datta, Van Kleek and Shadbolt, Not Even Nice Work If You Can Get It; A Longitudinal Study of Uber's Algorithmic Pay and Pricing, arXiv 2025",
+     "title": "Binns, Stein, Datta, Van Kleek and Shadbolt, Not Even Nice Work If You Can Get It; A Longitudinal Study of Uber's Algorithmic Pay and Pricing, FAccT 2025 (arXiv preprint)",
      "url": "https://arxiv.org/abs/2506.15278",
-     "finding": "A participatory audit of Uber's algorithmic pay and work allocation using 1.5 million trips from 258 UK drivers finds that after dynamic pricing pay fell, Uber's cut rose, job allocation and pay became less predictable, inequality between drivers increased and drivers spent more time waiting for jobs."
+     "finding": "A participatory audit of Uber's algorithmic pay and work allocation using 1.5 million trips from 258 UK drivers finds that after dynamic pricing pay fell, Uber's cut rose, job allocation and pay became less predictable, inequality between drivers increased and drivers spent more time waiting for jobs. Published in the Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency (doi 10.1145/3715275.3732099)."
     },
     {
      "title": "TUC, The human price of dynamic pay, 2026",
      "url": "https://www.tuc.org.uk/sites/default/files/2026-04/dynamicpay.pdf",
-     "finding": "Defines dynamic pay as algorithmically determined, variable and potentially personalised pay under which two workers doing the same task may be paid different amounts. Citing the Oxford and Worker Info Exchange study, the median driver retained 71% of the fare, only 46% retained 75% or more, Uber's surplus per hour rose 38%, and 93 of 114 drivers earned less after dynamic pricing while 21 earned more. The TUC calls for ending dynamic pay-setting."
+     "finding": "Says many platform operators in the UK now use algorithms to set an individual price for each job, so different workers may be offered different rates for the same job and can no longer accurately predict what they will earn on a shift; defines dynamic pay as algorithmically determined, variable and potentially personalised pay. Citing the Oxford and Worker Info Exchange study, the median driver retained 71% of the fare, only 46% retained 75% or more, Uber's surplus per hour rose 38%, and 93 of 114 drivers earned less after dynamic pricing while 21 earned more. The TUC calls for ending dynamic pay-setting, employment status reform and collective data rights."
     },
     {
      "title": "TaxiPoint, Uber rejects University of Oxford study that finds drivers see drop in pay under 'Dynamic' pricing, June 2025",
@@ -17067,14 +17062,14 @@
     {
      "title": "Dubal and Negrón, How artificial intelligence uncouples hard work from fair wages through 'surveillance pay' practices, and how to fix it, Washington Center for Equitable Growth, August 2025",
      "url": "https://equitablegrowth.org/how-artificial-intelligence-uncouples-hard-work-from-fair-wages-through-surveillance-pay-practices-and-how-to-fix-it/",
-     "finding": "Describes surveillance pay as digitalised wage-setting using large swaths of granular worker data. An audit of 500 AI labour-management vendors flagged 20 as high risk for enabling algorithmic pay: five in customer service, four in health care, one in last-mile logistics, one in manufacturing and nine cross-sector; 16 of the 20 link directly to payroll or HR systems. The authors argue transparency alone is insufficient and propose banning the use of real-time data to automate pay."
+     "finding": "Describes surveillance pay as digitalised wage-setting using granular worker data, including real-time monitoring. The authors' review of 500 early-stage AI vendors marketing machine-learning products for labour management identified 20 whose products they judged at high risk of producing algorithmic wage discrimination: five in customer service, four in health care, one in last-mile logistics, one in manufacturing and nine cross-sector; 16 of the 20 link directly to payroll or HR systems. The authors argue transparency alone is insufficient and propose banning the use of real-time data to automate pay."
     }
    ],
    "theme": "work",
    "stage": "active",
    "control": "mitigable",
    "price_of": [],
-   "control_note": "Setting each job's price from live data lets a platform match drivers to demand, and the same opacity lets it change workers' share without notice. Bans on pay set from surveillance data, collective data rights and rules on automated decisions can limit it, but one US state ban has already failed.",
+   "control_note": "Setting each job's price from live data lets a platform match drivers to demand, and the same opacity lets it change workers' share without notice. Bans on pay set from surveillance data, collective data rights and rules on automated decisions can limit it, but Colorado's governor vetoed such a ban in 2026.",
    "actions": [
     {
      "action": "Require transparency and human oversight of algorithmic management",
@@ -17093,11 +17088,11 @@
      "actor": "legislators",
      "status": "proposed",
      "aim": "probability",
-     "evidence": "A Colorado bill would have barred employers from using automated decision systems to set pay from surveillance data, with civil penalties and a right to sue; a House committee voted 7 to 4 to postpone it indefinitely on 22 April 2025.",
+     "evidence": "Colorado's legislature passed a bill in May 2026 that would have barred using surveillance data in price or wage setting algorithms to set individual prices or wages, enforced as a deceptive trade practice; the governor vetoed it on 2 June 2026.",
      "ref": {
-      "title": "Colorado General Assembly, HB25-1264, Prohibit Surveillance Data to Set Prices and Wages, 2025",
-      "url": "https://leg.colorado.gov/bills/hb25-1264",
-      "finding": "The bill would bar employers from using automated decision systems to set a worker's pay based on surveillance data about the worker's traits, behaviours or biometrics, enforced by the attorney general, district attorneys and private suits; the House Judiciary Committee postponed it indefinitely, 7 to 4, on 22 April 2025."
+      "title": "Colorado General Assembly, HB26-1210, Prohibit Surveillance Price & Wage Setting, 2026",
+      "url": "https://leg.colorado.gov/bills/hb26-1210",
+      "finding": "The bill would bar discrimination against consumers or workers when a price or wage setting algorithm analyses surveillance data about a person's characteristics, online behaviour or biometrics and its output substantially drives individualised prices or wages, enforced under the Colorado Consumer Protection Act. It passed the House 39 to 24 and the Senate 19 to 15, the House concurred on 7 May 2026, and the governor vetoed it on 2 June 2026."
      }
     },
     {
@@ -17105,11 +17100,23 @@
      "actor": "worker groups",
      "status": "proposed",
      "aim": "impact",
-     "evidence": "Worker Info Exchange sent Uber a letter before action in November 2025 claiming its upfront pricing uses automated decision-making and profiling to set driver pay in breach of the GDPR, and plans collective proceedings in Amsterdam; no court has ruled.",
+     "evidence": "Worker Info Exchange International filed a collective claim in the Amsterdam District Court on 2 September 2026 for Uber drivers in seven countries, alleging that automated pay setting and allocation breach the GDPR and that driver data was used for machine learning unlawfully; Uber rejects the claims and no court has ruled.",
      "ref": {
-      "title": "Worker Info Exchange, Drivers in UK and Europe set to sue Uber for unfair pay set by algorithm, November 2025",
-      "url": "https://www.workerinfoexchange.org/post/drivers-in-uk-and-europe-set-to-sue-uber-for-unfair-pay-set-by-algorithm",
-      "finding": "WIE International sent a letter before action to Uber BV and Uber Technologies alleging GDPR breaches through automated decision-making, including profiling, in Up Front Pricing that reduced take-home pay, and training the algorithm on drivers' data without consent; it intends collective proceedings before the Amsterdam District Court seeking compensation and an order stopping the practice."
+      "title": "AFP via Noovo, Uber visé par une action collective de chauffeurs à l'échelle européenne, September 2026",
+      "url": "https://www.noovo.info/nouvelles/justice/article/uber-vise-par-une-action-collective-de-chauffeurs-a-echelle-europeenne/",
+      "finding": "WIE International filed a complaint on Wednesday at the Amsterdam district court, where Uber has its European headquarters, for Uber drivers in the UK, Netherlands, Belgium, Germany, France, Poland and Romania, alleging that Uber made pay dynamic from 2020 and breached the GDPR through automated decisions without human involvement on fares and ride assignment and by processing drivers' data for machine learning. Uber told AFP it categorically rejects the claims, says drivers can accept or decline trips with earnings shown, and that its commission rate has stayed stable."
+     }
+    },
+    {
+     "action": "Study how platforms set each worker's pay",
+     "actor": "regulators",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "In October 2026 the US FTC ordered nine companies, including Uber, Lyft, DoorDash and Instacart, to document the inputs and tools they use to set driver pay and prices, including whether personal data drives individual pay offers; it is a study, not an enforcement action.",
+     "ref": {
+      "title": "US Federal Trade Commission, FTC Launches Personalized Pricing and Compensation Inquiry, October 2026",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-launches-personalized-pricing-compensation-inquiry",
+      "finding": "On 28 October 2026 the FTC voted 2 to 0 to issue Section 6(b) orders to Delta, United, JetBlue, Lyft, Uber, DoorDash, Instacart, Target and Walmart; ride-sharing and delivery firms must document the inputs, tools and procedures used to set driver compensation and pricing, including whether shifting pay offers use drivers' personal data. Chairman Ferguson said workers deserve to know if their compensation is affected by how companies use their personal data."
      }
     }
    ],
@@ -17118,11 +17125,11 @@
      "event": "DoorDash used customer tips to cover its own pay to workers",
      "year": 2020,
      "parallel": "An opaque platform pay formula quietly shifted money away from workers, and only an investigation showed how pay was really calculated.",
-     "outcome": "The District of Columbia attorney general alleged that from July 2017 to September 2019 DoorDash used consumer tips to cover its own payments to workers; DoorDash paid $2.5 million, including $1.5 million to workers, and must give workers an itemised breakdown of each delivery's pay.",
+     "outcome": "The District of Columbia attorney general alleged that from July 2017 to September 2019 DoorDash used consumer tips to cover its own payments to workers; DoorDash paid $2.5 million, including $1.5 million to workers, must pass all tips on without reducing base pay and must give workers an itemised summary of each delivery's pay.",
      "ref": {
       "title": "Office of the Attorney General for the District of Columbia, AG Racine Reaches $2.5 Million Agreement with DoorDash for Misrepresenting that Consumer Tips Would Go to Food Delivery Drivers, November 2020",
       "url": "https://oag.dc.gov/release/ag-racine-reaches-25-million-agreement-doordash",
-      "finding": "Under DoorDash's payment model from July 2017 to September 2019 it used consumer tips to cover its own payments to workers instead of passing them on, so the more consumers tipped the less DoorDash paid; the $2.5 million settlement includes $1.5 million for workers, and DoorDash must keep tips separate from base pay and give workers an itemised summary of each delivery's payment."
+      "finding": "Under DoorDash's payment model from July 2017 to September 2019 it used consumer tips to cover its own payments to workers instead of passing them on, so the more consumers tipped the less DoorDash paid; the $2.5 million settlement includes $1.5 million for workers, $750,000 to the District and $250,000 to charities, and DoorDash must keep a pay model that passes all tips to workers without reducing base pay and give workers an itemised summary of base pay, tips and promotions for each delivery."
      }
     }
    ]
@@ -17136,38 +17143,33 @@
    "stage": "emerging",
    "evidence": "measured",
    "theme": "mind",
-   "summary": "As agents take over routine analysis, the calls left to experts, such as which method to use or how to read ambiguous evidence, can quietly go the agent's way. In one Anthropic randomised trial, 50 causal-inference practitioners analysed data with an AI coding agent whose lean on each of four analytical choices was set by coin flip; they went with the agent's lean 86% of the time against 50% by chance, and neither experience nor expertise predicted who deferred[1]. When they had already taken a side, they switched 60% of the time if the agent argued the other way[2]. Afterwards 77% repeated the agent's arguments, sometimes nearly verbatim, but only 15% mentioned the agent in any answer, and more than half rated the final recommendation as more their own than the agent's[2]. The shift in that final recommendation was not statistically significant under the registered estimator, the agents were prompted to hold their lean more firmly than a stock agent would, and the study covered one task[2]; working with the agent also cut serious errors, 3 of 50 against 6 of 11 without it, in a comparison that was not randomised[2]. Experience does not protect against wrong advice either: in one experiment with 27 radiologists, incorrect AI suggestions cut correct mammogram ratings from 79.7% to 19.8% for inexperienced readers and from 82.3% to 45.5% for very experienced ones[3].",
+   "summary": "As agents take over routine analysis, the calls left to experts, such as which method to use or how to read ambiguous evidence, can quietly go the agent's way. In one Anthropic randomised trial, 50 professional analysts who were experts in causal inference ran a statistical analysis with an AI coding agent whose lean on each of four analytical choices was set by coin flip; they went with the agent's lean 86% of the time against about 50% by chance, and experience and expertise did not predict who deferred[1]. In the 38 cases where an analyst had already taken a side, they switched 60% of the time when the agent disagreed against 6% when it agreed[1]. 77% repeated the agent's argument in at least one answer, sometimes word for word, but only 15% credited the agent anywhere, and 52% of survey respondents rated the final recommendation as more their own than the agent's[1]. The effect on that final recommendation was weaker: 54% recommended rolling out the programme when the agent leaned that way against 36% when it leaned the other way[1]. The authors deliberately strengthened the agents' leans and studied one task, one field and one model; working with the agent also cut serious methodological errors, 3 of 50 against 6 of the 11 participants who chose not to use it, a comparison that was not randomised[1]. Experience does not protect against wrong advice either: in one experiment with 27 radiologists rating mammograms with purported AI suggestions, inexperienced readers rated 79.7% correctly when the suggestion was right and 19.8% when it was wrong, and very experienced readers 82.3% and 45.5%[2].",
    "refs": [
     {
-     "title": "Anthropic, How AI agents shape experts' judgment calls, 27 October 2026",
+     "title": "Herdağdelen, Joren and Tamkin, How AI agents shape experts' judgment calls, Anthropic, 27 October 2026",
      "url": "https://www.anthropic.com/research/agents-judgment-calls",
-     "finding": "In a randomised trial with 50 analysts using an AI coding agent, analysts matched the agent's coin-flip lean on four analytical decisions 86% of the time against about 50% by chance, and experience and expertise did not predict deferral; the authors say the leans were deliberately strengthened and only one task, field and model were studied."
-    },
-    {
-     "title": "Herdağdelen, Joren and Tamkin, Who's Aligned to Whom? How AI Agents Shape Experts' Research Judgment Calls, Anthropic (October 2026)",
-     "url": "https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf",
-     "finding": "61 practitioners completed the task, 11 without the agent; of the 50 with it, choices matched the agent's lean 86% of the time, those who had taken a side switched 60% of the time when the agent voiced the opposite lean, 77% repeated its talking points and 15% mentioned it. The policy shift was 17% of the distance from discontinue to roll out, not significant under the registered estimator (95% CI -6% to 40%). Serious errors: 6 of 11 without AI against 3 of 50 with it, not randomly assigned."
+     "finding": "Of 61 participants, 11 chose not to use the agent; the 50 analysts who used Claude Code matched their agent's coin-flip lean on four analytical choices 86% of the time against about 50% by chance, and experience and expertise did not predict who deferred. In 38 cases where an analyst had already stated a preference, they switched 60% of the time when the agent disagreed against 6% when it agreed (95% CI for the gap 24 to 82 points). 77% repeated the agent's argument in at least one answer, sometimes word for word, and 15% credited it; 52% of survey respondents rated the recommendation as more their own. 54% recommended rollout when the agent leaned that way against 36% when it leaned the other way. Serious methodological errors: 6 of 11 without the agent against 3 of 50 with it, groups that differed in experience. The leans were deliberately strengthened; one task, field and model; with no lean assigned the model made the same five choices in 112 of 123 runs."
     },
     {
      "title": "Dratsch et al., Automation Bias in Mammography: The Impact of Artificial Intelligence BI-RADS Suggestions on Reader Performance, Radiology 307(4), 2023",
      "url": "https://doi.org/10.1148/radiol.222176",
-     "finding": "In a prospective experiment, 27 radiologists rated mammograms with purported AI BI-RADS suggestions; correct ratings fell from 79.7% with correct suggestions to 19.8% with incorrect ones for inexperienced readers, 81.3% to 24.8% for moderately experienced and 82.3% to 45.5% for very experienced readers."
+     "finding": "In a prospective experiment, 27 radiologists read mammograms with purported AI BI-RADS suggestions; correct ratings averaged 79.7% with correct suggestions and 19.8% with incorrect ones for inexperienced readers, 81.3% and 24.8% for moderately experienced and 82.3% and 45.5% for very experienced readers."
     }
    ],
    "control": "mitigable",
    "price_of": [],
-   "control_note": "Agents that do the analysis well are the ones experts stop second-guessing, and the deferral leaves little trace in the expert's own account. Agents that lay out the case for each defensible option, and institutions that name which decisions need a person's own judgment, can keep the check meaningful, but neither has been tested at scale.",
+   "control_note": "Deferral leaves little trace in the expert's own account, so it is hard to detect. Agents that make the best case for each option or ask for the expert's view first, and organisations that decide which decisions need a person's own informed judgment, could keep the check meaningful, but neither has been tested.",
    "actions": [
     {
      "action": "Have agents argue each defensible option, not one",
      "actor": "AI developers",
      "status": "idea",
      "aim": "probability",
-     "evidence": "The authors suggest designing agents that make a strong case for each option on a judgment call, since in their trial the agent voiced its lean first on 77% of decisions, before the expert had taken a side.",
+     "evidence": "The authors suggest agents could make the best case for each option on a judgment call, or ask experts for their own view before offering one, after analysts in their trial mostly went with whichever side the agent argued.",
      "ref": {
-      "title": "Herdağdelen, Joren and Tamkin, Who's Aligned to Whom? How AI Agents Shape Experts' Research Judgment Calls, Anthropic (October 2026)",
-      "url": "https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf",
-      "finding": "On most decisions (77%) the agent voiced its lean before the participant had taken a side; with only one side argued, participants could adopt the agent's assumptions without articulating their own. The authors call for ways to measure deferral and help experts recognise it."
+      "title": "Herdağdelen, Joren and Tamkin, How AI agents shape experts' judgment calls, Anthropic, 27 October 2026",
+      "url": "https://www.anthropic.com/research/agents-judgment-calls",
+      "finding": "Agents could make the best case for each option, or ask experts for their own view before offering one; organisations will need to decide deliberately which decisions need a person's own informed judgment. In the trial, analysts went with their agent's lean 86% of the time."
      }
     }
    ],
@@ -17175,7 +17177,7 @@
     {
      "event": "Automation bias in glass-cockpit pilots",
      "year": 1998,
-     "parallel": "Professionals given an automated aid used its cues in place of their own checks and later misremembered how they had decided, as analysts in the agent trial rarely mentioned the agent.",
+     "parallel": "Professionals given an automated aid used its cues in place of their own checks, as analysts in the agent trial went with the agent's lean.",
      "outcome": "Pilots in flight scenarios made automation-related omission and commission errors; imposed accountability did not help, but pilots who felt accountable for their own performance double-checked the automation more and erred less, and pilots erroneously remembered expected cues being present.",
      "ref": {
       "title": "Mosier, Skitka, Heers and Burdick, Automation Bias: Decision Making and Performance in High-Tech Cockpits, International Journal of Aviation Psychology 8(1), 1998",
@@ -17192,22 +17194,22 @@
    "probability": 0.4,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Image, video and voice generators let litigants fabricate evidence that passes a quick look. In September 2025 a California court found that two video testimonials offered in a civil case were deepfakes and that photos and message screenshots had been altered, and dismissed the plaintiffs' case with prejudice; the judge wrote that the court lacked the time, funding or technical expertise to examine the other suspect exhibits[1]. At a US federal evidence rules committee meeting in October 2026, OpenAI and Meta representatives said AI-generated media is becoming indistinguishable from real footage and that no universal means exists to detect it, Reuters reported; a judge on the committee cautioned against an AI-specific rule, saying existing law already punishes fake evidence[2]. Such challenges are still rare in US federal courts: in a Federal Judicial Center survey of trial judges reported to that committee, 15 of 931 responding judges had encountered a deepfake challenge to evidence[3].",
+   "summary": "Image, video and voice generators let litigants fabricate evidence that passes a quick look. In September 2025 a California state court found that two video exhibits offered by self-represented plaintiffs in a civil case were AI deepfakes that did not capture the real witness, and threw out the case as a terminating sanction[1]; the judge had noticed a disjointed, monotone voice and metadata that contradicted the plaintiffs' own account, and she denied reconsideration in November 2025[2]. At a US federal evidence rules committee meeting in October 2026, an OpenAI representative said she did not expect a scientific way to detect AI images going forward and that no universal means exists to detect every company's watermark, and a Meta representative said media from leading models cannot be told from authentic media by humans, Reuters reported[3]. Such challenges are still rare in US federal courts: in a March 2026 Federal Judicial Center survey, 15 of 931 responding judges had encountered a deepfake challenge to evidence[3].",
    "refs": [
     {
-     "title": "Mendones v. Cushman & Wakefield, Inc., Order re Terminating Sanctions, Superior Court of California, County of Alameda, 9 September 2025",
-     "url": "https://cdn.prod.website-files.com/601987a724bdae251872ed2c/68cd47f5360c1ccf4320d24c_Deepfake_Sanctions_Decision__1758266619.pdf",
-     "finding": "Judge Victoria Kolakowski found that exhibits 6A and 6C, video testimonials offered in support of a summary judgment motion, were products of GenAI and did not capture the actual speech and image of the witness, citing a lack of expressiveness, monotone and robotic delivery and mouth movements that did not match the words; she found Ring camera photos materially altered and message screenshots generated or altered, and wrote that the court lacked the time, funding or technical expertise to forensically examine other suspect exhibits. The court dismissed the plaintiffs' action with prejudice as a terminating sanction and declined a criminal referral."
+     "title": "Eugene Volokh, Court Throws Out Case After Finding Plaintiffs Submitted Deepfake Videos and Altered Images, The Volokh Conspiracy (Reason), 25 September 2025",
+     "url": "https://reason.com/volokh/2025/09/25/court-throws-out-case-after-finding-plaintiffs-submitted-deepfake-videos-and-altered-images/",
+     "finding": "Quotes Judge Victoria Kolakowski's 9 September 2025 order in Mendones v. Cushman & Wakefield, Inc. (Superior Court of California, Alameda County): exhibits 6A and 6C are products of GenAI and do not capture the actual speech and image of the witness, who differs in accent, cadence, volume, word choice, pauses, gestures and facial expression from an authentic exhibit; a terminating sanction is appropriate and proportional; referral for criminal prosecution is not appropriate. The plaintiffs were self-represented."
+    },
+    {
+     "title": "NBC News, AI-generated evidence is showing up in court. Judges say they're not ready, by Jared Perlo, 18 November 2025",
+     "url": "https://www.nbcnews.com/tech/tech-news/ai-generated-evidence-deepfake-use-law-judges-object-rcna235976",
+     "finding": "In a California housing dispute, Judge Kolakowski noticed the witness's voice in exhibit 6C was disjointed and monotone; the video's metadata said it was captured on an iPhone 6, which the plaintiffs' own argument ruled out. She dismissed the case on 9 September and denied reconsideration on 6 November 2025; Judge Erica Yew said AI-faked or altered evidence is likely happening more often than is publicly reported, but no repository tracks it."
     },
     {
      "title": "Reuters, OpenAI, Meta caution US judiciary about risk of 'deepfake' evidence, by Nate Raymond, 15 October 2026",
      "url": "https://www.reuters.com/legal/government/openai-meta-caution-us-judiciary-about-risk-deepfake-evidence-2026-10-15/",
-     "finding": "At a Boston meeting of the US Judicial Conference's Advisory Committee on Evidence Rules, OpenAI policy counsel Shira Anderson said she did not think there would be a scientific way going forward to detect AI images and that because each company has its own watermark system there is no universal means to detect them; Meta's Devin Norder said media from frontier models is indistinguishable by humans and quite trivial in cost and time to create. Judge Valerie Caproni cautioned against rushing an AI-specific rule given the lack of data, noting existing rules already make submitting fraudulent evidence illegal. The article reports the FJC survey: 15 of 931 responding judges had encountered a deepfake challenge."
-    },
-    {
-     "title": "Advisory Committee on Evidence Rules, Agenda Book, meeting of 15 October 2026 (minutes of the spring 2026 meeting), Administrative Office of the US Courts",
-     "url": "https://www.uscourts.gov/sites/default/files/document/2026-10_evidence_rules_agenda_book_9-23_final.pdf",
-     "finding": "The minutes record that the Federal Judicial Center surveyed all federal trial judges (district, magistrate and bankruptcy) with a 45 percent response rate; of the 931 judges who responded, only 15 reported having encountered a deepfake challenge, and 82 percent of those who had not said they would require some initial showing before entertaining a claim of fabrication. The committee has prepared, but not finally approved, a new Rule 901(c) requiring the opponent to provide evidence sufficient to support a finding that a challenged item was a deepfake, after which the proponent must show it is more likely than not authentic; the Department of Justice said the rule was not ready for publication."
+     "finding": "At a Boston meeting of the US Judicial Conference's Advisory Committee on Evidence Rules, OpenAI's Shira Anderson said AI images keep improving, she did not think there would be a scientific way to detect them going forward, and because each company has its own watermark system there is no universal way to detect them all; Meta's director of product management Devin Norder said media from leading models is indistinguishable by humans from authentic media and quite trivial in cost and time to create. A March Federal Judicial Center survey found 15 of 931 responding judges had encountered a case where a party challenged evidence as a deepfake, and committee chair Judge Jesse Furman said courts had not yet seen many such cases despite many predictions."
     }
    ],
    "theme": "information",
@@ -17216,18 +17218,18 @@
    "price_of": [
     "imagegen"
    ],
-   "control_note": "The generators that make convincing fake video and voice cheaply are the same tools people use for legitimate editing, so forgeries cannot be stopped at the source. Duties to verify evidence and early authenticity hearings limit how far a fake gets, but they depend on forensic skills many courts lack.",
+   "control_note": "The generators that make convincing fake video and voice cheaply are the same tools people use for legitimate editing, so forgeries cannot be stopped at the source, and watermarks differ by company. Duties to verify evidence and early authenticity hearings limit how far a fake gets, but they depend on judges spotting fakes, and judges NBC News spoke to said courts are not ready.",
    "actions": [
     {
      "action": "Require lawyers to verify evidence and raise suspected AI fakes before trial",
      "actor": "legislators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "Louisiana's Act 250, in effect since August 2025, requires attorneys to use reasonable diligence to verify evidence before offering it, treats offering evidence they should have known was artificially manipulated without disclosure as punishable by contempt, and requires parties to raise suspected AI-generated exhibits at the pretrial stage; it covers civil procedure in one state.",
+     "evidence": "Louisiana's Act 250, in effect since August 2025, requires attorneys to use reasonable diligence to verify evidence before offering it, makes offering evidence they knew or should have known was artificially manipulated without disclosure a violation punishable by contempt, and requires parties to raise suspected AI-generated or altered exhibits at the pretrial conference or a pretrial hearing; it covers civil procedure in one state.",
      "ref": {
-      "title": "Louisiana Legislature, Act No. 250 (House Bill No. 178), 2025 Regular Session, enrolled",
-      "url": "https://legis.la.gov/Legis/ViewDocument.aspx?d=1425558",
-      "finding": "Amends Code of Civil Procedure Article 371 so an attorney shall not knowingly produce false evidence, including evidence artificially generated or altered by any means, and shall exercise reasonable diligence to verify the authenticity of evidence before offering it; offering evidence the attorney knew or should have known was false or artificially manipulated without disclosure violates the article and subjects the attorney to contempt. Article 1551 now requires a party with reasonable suspicion that an opponent's exhibits were generated by artificial intelligence or altered to raise it at the pretrial conference or a pretrial admissibility hearing. Signed 11 June 2025, effective 1 August 2025."
+      "title": "Louisiana Code of Civil Procedure Art. 371, as amended by Acts 2025, No. 250 (House Bill 178), Louisiana State Legislature",
+      "url": "https://www.legis.la.gov/LEGIS/Law.aspx?d=111841",
+      "finding": "An attorney shall not knowingly encourage or produce false evidence, including evidence artificially generated or altered, and shall exercise reasonable diligence to verify the authenticity of evidence before offering it; offering evidence the attorney knew or should have known through reasonable diligence was false or artificially manipulated, without disclosure, violates the article, and violators are subject to punishment for contempt of court. The same act amended Art. 1551 (https://legis.la.gov/legis/Law.aspx?d=122868) so a party that reasonably suspects an opponent's exhibits were falsified, including by AI generation or alteration, must raise it at the pretrial conference or a pretrial hearing. HB 178 was signed on 11 June 2025 and took effect on 1 August 2025."
      }
     },
     {
@@ -17235,11 +17237,11 @@
      "actor": "courts",
      "status": "proposed",
      "aim": "impact",
-     "evidence": "The US federal evidence rules committee has prepared, but not approved or published, a draft Rule 901(c) under which a party claiming an exhibit is a deepfake must first offer evidence sufficient to support a finding of fabrication, after which the party offering it must show it is more likely than not authentic; the Department of Justice called it not ready, and 82 percent of surveyed federal judges without deepfake experience said they would already require an initial showing.",
+     "evidence": "In May 2026 the US federal evidence rules committee tabled a proposed amendment under which a party challenging evidence as AI-fabricated must first show an inquiry is justified, after which the party offering it must show it is more likely than not authentic; the Justice Department's representative wanted more input on criminal cases, and the committee planned to revisit it at its fall 2026 meeting.",
      "ref": {
-      "title": "Advisory Committee on Evidence Rules, Agenda Book, meeting of 15 October 2026 (minutes of the spring 2026 meeting), Administrative Office of the US Courts",
-      "url": "https://www.uscourts.gov/sites/default/files/document/2026-10_evidence_rules_agenda_book_9-23_final.pdf",
-      "finding": "The minutes record that the Federal Judicial Center surveyed all federal trial judges (district, magistrate and bankruptcy) with a 45 percent response rate; of the 931 judges who responded, only 15 reported having encountered a deepfake challenge, and 82 percent of those who had not said they would require some initial showing before entertaining a claim of fabrication. The committee has prepared, but not finally approved, a new Rule 901(c) requiring the opponent to provide evidence sufficient to support a finding that a challenged item was a deepfake, after which the proponent must show it is more likely than not authentic; the Department of Justice said the rule was not ready for publication."
+      "title": "Bloomberg Law, Proposed AI Evidentiary Rules Punted Due to Lack of Consensus, by Holly Barker, 7 May 2026",
+      "url": "https://news.bloomberglaw.com/us-law-week/proposed-ai-evidentiary-rules-punted-due-to-lack-of-consensus",
+      "finding": "The Advisory Committee on Evidence Rules tabled proposed amendments on AI evidence after a couple of hours of debate and will reconsider them at its fall meeting. One would require a challenger to show an inquiry is justified, after which the proponent of evidence challenged as possibly AI-fabricated must prove it is more likely than not authentic. The Justice Department's representative, Elizabeth Shapiro, supported gathering more stakeholder input, particularly on criminal cases."
      }
     }
    ],
@@ -17265,7 +17267,7 @@
    "stage": "emerging",
    "evidence": "measured",
    "theme": "work",
-   "summary": "Undergraduate enrollment in computer and information science at US four-year colleges fell 8.1% in fall 2025 to about 606,000 and graduate enrollment fell 14.0%, while overall postsecondary enrollment grew 1.0%[1]. In the group of departments that reported to the CRA Taulbee survey every year since 2020, new bachelor's computer science majors fell 13% in 2025 even as degrees awarded hit a record[2]. In one survey of 133 US and Canadian computing departments, 62% reported lower undergraduate enrollment for 2025-26; their leaders cited fewer job openings and fear that AI will eliminate software engineering jobs, but also falling international enrollment, and AI, data science and cybersecurity programs more often grew[3]. In one opt-in US survey of currently enrolled college students, 16% said they had already changed their major because of AI's potential impact on jobs[4]. None of these sources isolates AI as the cause of the computer science decline.",
+   "summary": "Undergraduate enrollment in computer and information science at US four-year colleges fell 8.1% in fall 2025 to about 606,000 and graduate enrollment fell 14.0%, while overall postsecondary enrollment grew 1.0%[1]. The decline continued in spring 2026, with undergraduate enrollment in the field down 8.4% at four-year institutions while overall undergraduate enrollment grew 1.3%[2]. In the group of departments that reported to the CRA Taulbee survey every year since 2020, new bachelor's computer science majors fell 13% in 2025 even as degrees awarded hit a record[3]. In one survey of 134 leaders of US and Canadian computing units, 62% of responding units reported lower undergraduate enrollment for 2025-26; leaders cited weak tech hiring and fear that AI will eliminate software engineering jobs, but also falling international enrollment, and AI, data science and cybersecurity programs more often grew[4]. In one opt-in US survey of currently enrolled college students, 16% said they had already changed their major because of AI's potential impact[5]. None of these sources isolates AI as the cause of the computer science decline, and the Clearinghouse says the reasons are not yet clear[2].",
    "refs": [
     {
      "title": "National Student Clearinghouse, The Changing Landscape of Postsecondary Education, February 2026",
@@ -17273,19 +17275,24 @@
      "finding": "In fall 2025, computer and information science enrollment declined across every award level and institution type: undergraduate enrollment at four-year institutions fell 8.1% to about 606,000 and graduate enrollment fell 14.0% to about 190,000, while overall postsecondary enrollment grew 1.0%. Data science and data analytics grew strongly to nearly 80,000 students at the undergraduate and graduate levels."
     },
     {
+     "title": "National Student Clearinghouse, Computer Science Enrollment Is Cooling, August 2026",
+     "url": "https://www.studentclearinghouse.org/nscblog/computer-science-enrollment-is-cooling/",
+     "finding": "In spring 2026, undergraduate computer and information sciences enrollment fell 8.4% at four-year institutions, 9.3% at primarily associate degree-granting baccalaureate institutions and 11.2% at two-year colleges, declining across every major institutional sector, while overall undergraduate enrollment grew 1.3% and health professions and engineering posted significant increases. The Clearinghouse says the reasons for the declines are not yet clear and does not mention AI."
+    },
+    {
      "title": "Batten, CRA Update: New CRA Taulbee Survey Findings Show Record Degree Production Alongside a Cooling Enrollment Pipeline, Computing Research News, June 2026",
      "url": "https://cra.org/crn/2026/06/cra-update-new-cra-taulbee-survey-findings-show-record-degree-production-alongside-a-cooling-enrollment-pipeline/",
-     "finding": "In 2025, new bachelor's computer science majors fell to 33,490, down 13% across the longitudinal cohort of units that reported complete data every year from 2020 to 2025, and total bachelor's enrollment fell to 169,528, down 4%, while bachelor's degrees awarded reached a record 41,858, up 13%, likely reflecting prior surges in enrollment."
+     "finding": "In 2025, across all responding units, new bachelor's computer science majors numbered 33,490, total bachelor's enrollment 169,528 and bachelor's degrees awarded a record 41,858. In the longitudinal cohort of units that reported complete data every year from 2020 to 2025, new majors fell 13%, total enrollment fell 4% and degrees rose 13% from the prior year. The article says the record degree count likely reflects prior surges in enrollment and that the downturns imply degree counts will plateau and decline; it does not attribute the bachelor's trends to AI."
     },
     {
      "title": "George, CERP Pulse Survey: A Snapshot of 2025 Undergraduate Computing Enrollment Patterns, Computing Research News, October 2025",
      "url": "https://cra.org/crn/2025/10/cerp-pulse-survey-a-snapshot-of-2025-undergraduate-computing-enrollment-patterns/",
-     "finding": "Of 133 computing units at US and Canadian institutions surveyed from 27 August to 17 September 2025 (46.5% response rate), 62% reported lower undergraduate enrollment for 2025-26 than 2024-25; declines were concentrated in computer science, information systems and software engineering, while computer engineering, data science, cybersecurity and AI programs more often grew. Leaders cited fewer job opportunities, fears that AI will eliminate many software engineering jobs, and falling international enrollment, with 54% agreeing international undergraduate computing enrollment is down amid immigration policy changes and visa delays."
+     "finding": "CERP contacted 288 CRA academic member computing units and received responses from 134 leaders (46.5% response rate) at 130 institutions in the US and Canada, fielded 27 August to 17 September 2025. 62% of responding units reported lower undergraduate enrollment for 2025-26 than 2024-25 and 13% reported increases; declines were concentrated in computer science, information systems and software engineering, while computer engineering, data science, cybersecurity and AI programs more often grew. Leaders cited students' concern about hiring and layoffs in tech, fears that AI will eliminate many software engineering jobs, and falling international enrollment, with 54% somewhat or strongly agreeing that international undergraduate computing enrollment is down amid immigration policy changes and visa processing delays; some leaders saw AI as an opportunity."
     },
     {
      "title": "Marken, College Students Weigh AI's Impact on Majors and Careers, Gallup, April 2026",
      "url": "https://news.gallup.com/poll/704087/college-students-weigh-impact-majors-careers.aspx",
-     "finding": "In the Lumina Foundation-Gallup 2026 State of Higher Education Study, an opt-in web survey fielded 2 to 31 October 2025 that included 1,433 associate and 2,368 bachelor's students, 16% of currently enrolled students said they had already changed their major or field of study because of AI's potential impact (19% of associate and 13% of bachelor's students; 21% of men and 12% of women), and 42% of bachelor's students had given at least a fair amount of thought to changing major because of AI."
+     "finding": "In the Lumina Foundation-Gallup 2026 State of Higher Education Study, web surveys of 6,010 US adults aged 18 to 59 from Dynata's opt-in nonprobability panel, fielded 2 to 31 October 2025 and including 1,433 associate and 2,368 bachelor's students, 16% of currently enrolled students said they had already changed their major or field of study because of AI's potential impact (19% of associate and 13% of bachelor's students; 21% of men and 12% of women), and 42% of bachelor's students said AI had caused them to give at least a fair amount of thought to changing their major."
     }
    ],
    "limiters": [
@@ -17302,11 +17309,11 @@
     {
      "limit": "Visa limits and the job market blur the AI signal",
      "kind": "evidence",
-     "evidence": "54% of surveyed computing units agreed international undergraduate enrollment is down, citing immigration policy changes and visa delays alongside job-market and AI fears.",
+     "evidence": "54% of surveyed computing units somewhat or strongly agreed that international undergraduate computing enrollment is down, with leaders citing immigration policy changes and visa delays alongside job-market and AI fears.",
      "ref": {
       "title": "George, CERP Pulse Survey: A Snapshot of 2025 Undergraduate Computing Enrollment Patterns, Computing Research News, October 2025",
       "url": "https://cra.org/crn/2025/10/cerp-pulse-survey-a-snapshot-of-2025-undergraduate-computing-enrollment-patterns/",
-      "finding": "Of 133 computing units at US and Canadian institutions surveyed from 27 August to 17 September 2025 (46.5% response rate), 62% reported lower undergraduate enrollment for 2025-26 than 2024-25; declines were concentrated in computer science, information systems and software engineering, while computer engineering, data science, cybersecurity and AI programs more often grew. Leaders cited fewer job opportunities, fears that AI will eliminate many software engineering jobs, and falling international enrollment, with 54% agreeing international undergraduate computing enrollment is down amid immigration policy changes and visa delays."
+      "finding": "CERP contacted 288 CRA academic member computing units and received responses from 134 leaders (46.5% response rate) at 130 institutions in the US and Canada, fielded 27 August to 17 September 2025. 62% of responding units reported lower undergraduate enrollment for 2025-26 than 2024-25 and 13% reported increases; declines were concentrated in computer science, information systems and software engineering, while computer engineering, data science, cybersecurity and AI programs more often grew. Leaders cited students' concern about hiring and layoffs in tech, fears that AI will eliminate many software engineering jobs, and falling international enrollment, with 54% somewhat or strongly agreeing that international undergraduate computing enrollment is down amid immigration policy changes and visa processing delays; some leaders saw AI as an opportunity."
      }
     }
    ],
@@ -17316,11 +17323,11 @@
      "actor": "US employers",
      "status": "in force",
      "counters": null,
-     "evidence": "In US payroll data through June 2026, employment of 22 to 25 year olds in AI-exposed occupations such as software development was 19% below that of less-exposed peers, mainly through reduced hiring; the authors call this descriptive, not causal.",
+     "evidence": "In US payroll data through June 2026, employment of 22 to 25 year olds in AI-exposed occupations was 19% below where it would be had it kept pace with less-exposed peers, mainly through reduced hiring; the authors call this descriptive, not causal.",
      "ref": {
       "title": "Brynjolfsson, Chandar and Chen, Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence, Stanford Digital Economy Lab, revised August 2026",
       "url": "https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/",
-      "finding": "In ADP payroll data on millions of US workers through June 2026, employment of workers aged 22 to 25 in AI-exposed occupations, including software development and customer support, stands 19% below where it would be had it kept pace with less-exposed peers, operating mainly through reduced hiring; experienced workers show no comparable gap. The authors call these descriptive indicators rather than causal estimates."
+      "finding": "In ADP payroll data on millions of US workers through June 2026, employment of workers aged 22 to 25 in AI-exposed occupations stands 19% below where it would be had it kept pace with less-exposed peers, operating primarily through reduced hiring of young workers rather than increased separations; experienced workers show no comparable gap. The authors call these early, descriptive indicators rather than causal estimates."
      }
     }
    ],
@@ -17346,12 +17353,12 @@
    "probability": 0.5,
    "year": 2025,
    "evidence": "measured",
-   "summary": "AI writing tools and machine translation let people add Wikipedia articles they did not write or cannot read. Two detectors flagged 5.36% of 2,909 English articles created in August 2024 as containing significant AI-generated text, a lower bound of 4.36% after subtracting the rate on older articles, with lower rates in German, French and Italian; flagged articles were often self-promotional or one-sided[1]. The damage is greatest in small languages: volunteers on four African-language editions estimated 40% to 60% of their articles were uncorrected machine translations, and because Wikipedia is sometimes the largest online text source for such languages, the errors can flow into the AI models trained on it[2]. The Wikimedia Language Committee approved closing the Greenlandic Wikipedia in September 2025 after its only active admin reported nonsensical machine-translated articles and almost no Greenlandic-speaking editors[3]. These sources do not separate large language model output from older machine translation, and one 2025 study puts LLM influence on Wikipedia content at about 1% in certain categories[4].",
+   "summary": "AI writing tools and machine translation let people add Wikipedia articles they did not write or cannot read[2][3]. Two detectors flagged 5.36% of 2,909 English articles created in August 2024 as containing significant AI-generated text, a lower bound of 4.36% after subtracting the rate on older articles, with lower rates in German, French and Italian; flagged articles were often self-promotional or one-sided[1]. Small languages are especially exposed: volunteers on four African-language editions estimated 40% to 60% of their articles were uncorrected machine translations, and because Wikipedia is sometimes the largest online text source for such languages, the errors can flow into the AI models trained on it[2]. The Wikimedia Language Committee approved closing the Greenlandic Wikipedia in September 2025 after its only active admin reported nonsensical machine-translated articles and almost no Greenlandic-speaking editors[3]. These sources do not separate large language model output from older machine translation, and one 2025 study puts LLM influence on Wikipedia content at about 1% in certain categories[4].",
    "refs": [
     {
      "title": "Brooks, Eggert and Peskoff, The Rise of AI-Generated Content in Wikipedia, Proceedings of the First Workshop on Advancing NLP for Wikipedia (WikiNLP), November 2024",
      "url": "https://arxiv.org/html/2410.08044v1",
-     "finding": "Princeton researchers ran two AI-text detectors, GPTZero and Binoculars, on 2,909 English Wikipedia articles created in August 2024, with thresholds set to a 1% false positive rate on articles from before GPT-3.5. They flagged 5.36% of the new articles, a lower bound of 4.36% after subtracting the baseline, and found lower rates for German, French and Italian. Of 45 English articles flagged by both tools, 8 were self-promotional and 8 pushed a viewpoint on polarising topics; some flagged pages had been deleted by moderators. False negatives were not estimated and the tools are designed mainly for English."
+     "finding": "Princeton researchers ran two AI-text detectors, GPTZero and Binoculars, on 2,909 English Wikipedia articles created in August 2024 (pages under 100 words removed), with thresholds set to a 1% false positive rate on articles from before March 2022. They flagged 5.36% of the new articles, a lower bound of 4.36% after subtracting the baseline, and found lower rates for German, French and Italian. Of 45 English articles flagged by both tools, 8 were self-promotional and 8 pushed a viewpoint on polarising topics; some flagged pages had been deleted by moderators. False negatives were not estimated, so the true share could be substantially higher, and the tools are designed mainly for English."
     },
     {
      "title": "Jacob Judah, MIT Technology Review, How AI and Wikipedia have sent vulnerable languages into a doom spiral, September 2025",
@@ -17361,10 +17368,10 @@
     {
      "title": "Wikimedia Meta-Wiki, Proposals for closing projects/Closure of Greenlandic Wikipedia, December 2024 to December 2025",
      "url": "https://meta.wikimedia.org/wiki/Proposals_for_closing_projects/Closure_of_Greenlandic_Wikipedia",
-     "finding": "Kenneth Wehr, the Greenlandic Wikipedia's only active admin, proposed closing it on 25 December 2024: only one or two Greenlandic users had edited in about 20 years, the wiki had shrunk from about 1,500 to about 250 mostly short or unintelligible articles, early machine-translated articles made no sense, and Google Translate's Greenlandic output still has errors such as translating 'reindeer' as 'parrot'. He argued unchecked machine-generated text could corrupt the language. The Language Committee adopted the closure on 27 September 2025 and decided on 1 December 2025 not to move the remaining content to the Incubator."
+     "finding": "Kenneth Wehr, the Greenlandic Wikipedia's only active admin, proposed closing it on 25 December 2024: only one or two Greenlandic users had contributed in about 20 years, he had deleted most of the roughly 1,500 articles he inherited, which were mostly a few words long or unintelligible, leaving about 250, a Wikimedia AI translator had produced random letter sequences, and Google Translate's Greenlandic output still makes errors such as translating 'reindeer' as 'parrot'. He argued the project corrupts the Greenlandic language. The Language Committee adopted the closure on 27 September 2025 and decided on 1 December 2025 not to move the remaining content to the Incubator."
     },
     {
-     "title": "Huang, Xu, Geng, Wan and Chen, Wikipedia in the Era of LLMs: Evolution and Risks, Transactions on Machine Learning Research (arXiv 2503.02879, revised March 2026)",
+     "title": "Huang, Xu, Geng, Wan and Chen, Wikipedia in the Era of LLMs: Evolution and Risks, Transactions on Machine Learning Research (arXiv 2503.02879, March 2025, revised March 2026)",
      "url": "https://arxiv.org/abs/2503.02879",
      "finding": "The authors estimate that large language models have influenced Wikipedia content by about 1% in certain categories and conclude that LLMs have not yet fully changed Wikipedia's language and knowledge structures. They warn that if Wikipedia-based machine translation benchmarks absorb LLM-generated text, model scores may be inflated, and that retrieval-augmented generation may suffer if the knowledge base is contaminated."
     }
@@ -17379,17 +17386,17 @@
      "ref": {
       "title": "Wikimedia Meta-Wiki, Artificial intelligence/Policies by project, accessed October 2026",
       "url": "https://meta.wikimedia.org/wiki/Artificial_intelligence/Policies_by_project",
-      "finding": "English Wikipedia adopted speedy deletion criterion G15 on 4 August 2025, making pages that show signs of being generated by an LLM with no human review eligible for speedy deletion. Later English rules include a guideline of 20 March 2026 prohibiting LLM-generated or rewritten article content except copyediting and translation, a guideline of 10 February 2026 allowing LLM-assisted translation reviewed by a person skilled in both languages, and an editing policy of 11 April 2026 that generally prohibits using AI writing tools to create or rewrite articles. Many other language editions list their own AI policies or guidelines."
+      "finding": "English Wikipedia adopted speedy deletion criterion G15 on 4 August 2025, making pages that show signs of being generated by an LLM with no human review eligible for speedy deletion. Later English rules include a guideline of 10 February 2026 allowing LLM-assisted translation from other Wikipedias if reviewed by a person skilled in both languages, a guideline of 20 March 2026 prohibiting LLM-generated or rewritten article content except copyediting and translation, an editing policy of 11 April 2026 under which using AI writing tools to create or rewrite articles is, save for a few exceptions, generally prohibited, and a guideline of 7 May 2026 permitting presumptive removal of AI-generated content from users with a history of habitual LLM use. Many other language editions list their own AI policies or guidelines."
      }
     },
     {
      "limit": "Detectors give uncertain counts",
      "kind": "evidence",
-     "evidence": "A Wikimedia research review of the main 2024 study says it does not show whether the text readers see is more likely AI-generated, and that the two detectors it used disagreed sharply across languages.",
+     "evidence": "A Wikimedia research review of the main 2024 study says it does not show whether the text readers see is more likely AI-generated, and that the two detectors it used often disagreed across languages.",
      "ref": {
       "title": "Tilman Bayer, Wikimedia Research Newsletter, October 2024",
       "url": "https://meta.wikimedia.org/wiki/Research:Newsletter/2024/October",
-      "finding": "A review of the Brooks et al. study says it does not report how many flagged articles survived editors' checks or show whether the text readers actually read has become substantially more likely to be AI-generated. It notes that the reliability of AI detection software has been repeatedly questioned, that the two detectors disagreed sharply across languages, and that calibrating on March 2022 articles assumes they are comparable to August 2024 ones."
+      "finding": "A review of the Brooks et al. study says it does not report what share of AI-generated articles survived editors' checks and leaves it unclear whether the text readers actually read has become more likely to be AI-generated. It notes that the reliability of AI detection software has been repeatedly questioned, that the two detectors often disagreed, with GPTZero far more aggressive than Binoculars in English, French and German but much less so in Italian, and that assuming pre-GPT-3.5 calibration articles are comparable to August 2024 ones is questionable."
      }
     }
    ],
@@ -17411,12 +17418,12 @@
     {
      "event": "Scots Wikipedia written by a non-speaker",
      "year": 2020,
-     "parallel": "Text produced by someone who did not know the language filled a small-language Wikipedia, and editors warned it had likely contaminated the training data translation algorithms use for that language.",
+     "parallel": "Text produced by someone who did not know the language filled much of a small-language Wikipedia, and the Signpost warned it had likely poisoned the training data translation algorithms use for that language.",
      "outcome": "Editors proposed a bot mass rollback of the affected articles and recruiting new admins, while the Signpost named the lack of a Scots-speaking editor community as the long-term problem.",
      "ref": {
       "title": "SnowFire and Nosebagbear, The Wikipedia Signpost, The high road and the low road: Will the Scots language Wikipedia survive?, August 2020",
       "url": "https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2020-08-30/News_and_notes",
-      "finding": "One prolific user, described as an American teenager who could not speak Scots, wrote almost every article on the Scots Wikipedia over about seven years by translating English Wikipedia word for word from a dictionary while keeping English sentence structure. The errors had likely contaminated training data that translation algorithms use for Scots. The proposed response was a bot mass rollback of affected articles and recruiting new admins; the deeper problem was the lack of a Scots-speaking editor community."
+      "finding": "One prolific user, described in a viral Reddit post as an American teenager who could not speak Scots and as the writer of almost every article on the Scots Wikipedia, had edited it for over seven years, keeping English sentence structure and translating words one to one from a dictionary. The Signpost says this had likely poisoned training data sets for Scots used by translation algorithms. Short-term responses were a bot mass rollback of affected articles, enlisting new admins and other bots; the core problem was the absence of a Scots-speaking editor community, since authentic Scots-speaking editors had left by 2012."
      }
     }
    ]
@@ -19977,13 +19984,13 @@
    "source": "surveillancepricing",
    "target": "algorithmicpay",
    "kind": "twin",
-   "why": "Both use personal data and automated systems to set a different rate for each person, prices for shoppers and pay for workers; a vetoed 2026 Colorado bill tried to restrict both, and the FTC's October 2026 inquiry covers both."
+   "why": "Both use personal data and automated systems to set a different rate for each person, prices for shoppers and pay for workers; Colorado's HB26-1210, vetoed in June 2026, tried to restrict both, and the FTC's October 2026 inquiry covers both."
   },
   {
    "source": "expertdeferral",
    "target": "homogenisation",
    "kind": "leads",
-   "why": "When many research teams defer to agents that share the same default preferences, their apparent agreement is less independent than it looks; in simulations, agents with no assigned lean made the same five choices in 91% of 123 runs."
+   "why": "When many research teams defer to agents that share the same default preferences, their apparent agreement is less independent than it looks; with no lean assigned, the agent in one Anthropic study made the same five analytical choices in 112 of 123 runs."
   },
   {
    "source": "expertdeferral",
@@ -20007,13 +20014,13 @@
    "source": "deepfakeevidence",
    "target": "liarsdividend",
    "kind": "twin",
-   "why": "Both strain how courts authenticate recordings: one passes off fakes as real, the other claims real evidence is fake, and judges now field deepfake challenges either way."
+   "why": "Both strain how courts authenticate recordings: one passes off fakes as real, the other claims real evidence is fake, and federal judges report that challenges calling evidence a deepfake are so far rare."
   },
   {
    "source": "deepfakeevidence",
    "target": "hallucinatedlaw",
    "kind": "twin",
-   "why": "Both bring AI fabrications into court filings; the California judge who dismissed a deepfake case treated it as going beyond the fictitious citations courts already sanction."
+   "why": "Both bring AI fabrications into court, fake citations in briefs and fake exhibits in evidence, and courts answer both with sanctions against the party that filed them."
   },
   {
    "source": "bots",
@@ -20043,7 +20050,7 @@
    "source": "entryjobs",
    "target": "csmajors",
    "kind": "leads",
-   "why": "Fewer entry-level hires in AI-exposed jobs such as software development are the job-market signal that computing department leaders say is steering students away from computer science."
+   "why": "Weak hiring of young workers in AI-exposed jobs feeds the concerns about tech hiring and AI eliminating software engineering jobs that computing department leaders cite for falling computer science enrollment."
   },
   {
    "source": "schoolsurveillance",
@@ -20104,6 +20111,18 @@
    "target": "endangeredlang",
    "kind": "counters",
    "why": "Uncorrected machine translations pollute the scarce online text in small languages that language tools for those languages learn from."
+  },
+  {
+   "source": "driverassist",
+   "target": "expertdeferral",
+   "kind": "twin",
+   "why": "Both describe people letting an automated system decide while they remain responsible for the outcome: drivers stop watching the road as driver assistance takes over, and experts adopt an AI agent's analytical choices."
+  },
+  {
+   "source": "labels",
+   "target": "deepfakeevidence",
+   "kind": "counters",
+   "why": "Watermarks could let courts check whether an exhibit was generated, but OpenAI told the federal evidence rules committee that each company uses its own watermark and there is no universal way to detect them."
   }
  ],
  "themes": {
