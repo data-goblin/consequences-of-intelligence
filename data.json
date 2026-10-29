@@ -18092,6 +18092,29 @@
     }
    ],
    "valence": -1.87
+  },
+  {
+   "id": "learningfriction",
+   "label": "AI skips the struggle that builds skill",
+   "probability": 0.8,
+   "year": 2026,
+   "stage": "active",
+   "evidence": "measured",
+   "theme": "mind",
+   "summary": "Prompting for a result can skip the effort that makes people learn. In one Anthropic trial, 52 mostly junior engineers learning a new library with AI scored 50% on a later quiz, against 67% for those coding by hand[1]. In Turkey, plain GPT-4 lifted maths practice grades 48%, but exam scores fell 17% once it was removed[2].",
+   "refs": [
+    {
+     "title": "Anthropic, How AI assistance impacts the formation of coding skills, 29 January 2026",
+     "url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
+     "finding": "In a randomised trial, 52 mostly junior engineers learned the Trio library with or without an AI assistant; the AI group averaged 50% on the follow-up quiz against 67% (d=0.738, p=0.01) and was not significantly faster, with debugging questions showing the widest gap; participants who asked conceptual questions or asked for explanations kept scores of 65% or more, while those who delegated code scored below 40%."
+    },
+    {
+     "title": "Bastani et al., Generative AI without guardrails can harm learning: Evidence from high school mathematics, PNAS 2025",
+     "url": "https://www.pnas.org/doi/10.1073/pnas.2422633122",
+     "finding": "In a field experiment with nearly 1,000 high school maths students in Turkey, plain GPT-4 access raised practice grades 48% but students scored 17% worse on exams once access was removed."
+    }
+   ],
+   "valence": -2.56
   }
  ],
  "links": [
@@ -20908,6 +20931,24 @@
    "target": "paywalledai",
    "kind": "counters",
    "why": "As the price of a given level of capability collapses, yesterday's paid model becomes today's free one, narrowing the gap."
+  },
+  {
+   "source": "learningfriction",
+   "target": "deskilling",
+   "kind": "leads",
+   "why": "People who never struggle through a task build no skill to fall back on, so they lose more when the tool is gone."
+  },
+  {
+   "source": "learningfriction",
+   "target": "cheating",
+   "kind": "twin",
+   "why": "Both hand the effort of learning to a model: students lift homework grades and score worse on exams without it."
+  },
+  {
+   "source": "builders",
+   "target": "learningfriction",
+   "kind": "twin",
+   "why": "Both come from getting a working result without learning how it works: a gain for people who only need the result, a loss for people who need the skill."
   }
  ],
  "themes": {
