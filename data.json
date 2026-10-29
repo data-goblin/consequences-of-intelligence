@@ -17984,6 +17984,40 @@
      }
     }
    ]
+  },
+  {
+   "id": "localassistants",
+   "label": "Personal AI assistants on your own hardware",
+   "probability": 0.6,
+   "year": 2027,
+   "stage": "emerging",
+   "evidence": "reported",
+   "theme": "power",
+   "summary": "Open-source assistants such as OpenClaw run on your own computer, keep memory and credentials there and take on any task through chat apps[1][2]. Open-weight models like gpt-oss-20b run in 16GB of memory, so no lab's cloud has to see your mail, files or habits[3].",
+   "refs": [
+    {
+     "title": "OpenClaw, Your assistant, on your devices, in your chats (GitHub README)",
+     "url": "https://github.com/openclaw/openclaw",
+     "finding": "OpenClaw runs on your own computer and works with hosted and local model providers; state, memory and credentials live on your hardware."
+    },
+    {
+     "title": "Federico Viticci, OpenClaw Showed Me What the Future of Personal AI Assistants Looks Like (MacStories), 2026",
+     "url": "https://www.macstories.net/stories/clawdbot-showed-me-what-the-future-of-personal-ai-assistants-looks-like/",
+     "finding": "Running on a Mac mini and reached through Telegram, the assistant controlled music, lights and Gmail, sent a daily briefing and replaced a Zapier automation with a cron job; the author called it a tinkerer's laboratory, 'exhilarating and scary at the same time', and burned through 180 million API tokens."
+    },
+    {
+     "title": "OpenAI, gpt-oss-20b model card (Hugging Face), August 2025",
+     "url": "https://huggingface.co/openai/gpt-oss-20b",
+     "finding": "The 21B-parameter open-weight model, released under Apache 2.0, can run within 16GB of memory and be fine-tuned on consumer hardware."
+    },
+    {
+     "title": "Infosecurity Magazine, Researchers Find 40,000+ Exposed OpenClaw Instances, 9 February 2026",
+     "url": "https://www.infosecurity-magazine.com/news/researchers-40000-exposed-openclaw/",
+     "finding": "SecurityScorecard found 40,214 OpenClaw instances exposed to the internet on 28,663 IP addresses, 12,812 of them exploitable by remote code execution, and some users leaked third-party API keys through their control panels."
+    }
+   ],
+   "valence": 0.91,
+   "control_note": "Early setups are easy to get wrong: one scan found 40,214 OpenClaw instances exposed online, 12,812 open to takeover. Keeping the control panel off the public internet and giving the assistant only the access a task needs reduce the risk."
   }
  ],
  "links": [
@@ -20734,6 +20768,24 @@
    "target": "sycophancy",
    "kind": "twin",
    "why": "A chatbot that does not judge lowers the fear of asking, and the same lack of push-back let a flattering AI leave people in one Science study more sure they were right."
+  },
+  {
+   "source": "openweights",
+   "target": "localassistants",
+   "kind": "leads",
+   "why": "Open-weight models that run within 16GB of memory let a personal assistant work without sending anything to a lab's cloud."
+  },
+  {
+   "source": "localassistants",
+   "target": "concentration",
+   "kind": "counters",
+   "why": "An assistant that runs on hardware you own, with a model you can swap, keeps everyday AI help out of a few providers' hands."
+  },
+  {
+   "source": "localassistants",
+   "target": "promptinjection",
+   "kind": "leads",
+   "why": "An assistant with a shell, your email and your files reads untrusted messages all day, so a hidden instruction can turn it against its owner."
   }
  ],
  "themes": {
