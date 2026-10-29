@@ -8747,8 +8747,8 @@
   },
   {
    "id": "robotics",
-   "label": "Humanoid robots displace physical labour",
-   "valence": -2.49,
+   "label": "Humanoid robots displace some physical labour",
+   "valence": -2.56,
    "probability": 0.5,
    "year": 2030,
    "evidence": "projected",
@@ -18018,6 +18018,29 @@
    ],
    "valence": 0.91,
    "control_note": "Early setups are easy to get wrong: one scan found 40,214 OpenClaw instances exposed online, 12,812 open to takeover. Keeping the control panel off the public internet and giving the assistant only the access a task needs reduce the risk."
+  },
+  {
+   "id": "skysurveys",
+   "label": "AI sifts datasets too large for people",
+   "probability": 0.9,
+   "year": 2026,
+   "stage": "active",
+   "evidence": "measured",
+   "theme": "world",
+   "summary": "Telescopes now make more data than people can inspect. The Rubin Observatory takes 10 terabytes of images a night and sent 800,000 alerts on its first night, which brokers' algorithms pre-filter[1]. In Euclid's first release, AI trained by 9,976 volunteers classified over 380,000 galaxies, and an AI sweep checked by people found 500 likely gravitational lenses[2].",
+   "refs": [
+    {
+     "title": "heise online, Rubin Observatory's \"Discovery Machine\": 800,000 alerts on the first night, 27 February 2026",
+     "url": "https://www.heise.de/-11192717",
+     "finding": "The observatory shoots 10 terabytes of images of the night sky every night; each change against a template image triggers an alert within two minutes, 800,000 alerts went out on the first night, about seven million a night are expected soon, and brokers' algorithms pre-filter them."
+    },
+    {
+     "title": "ESA, Euclid opens data treasure trove, offers glimpse of deep fields, 19 March 2025",
+     "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_opens_data_treasure_trove_offers_glimpse_of_deep_fields",
+     "finding": "Euclid spotted 26 million galaxies in one week; the Zoobot AI, taught by 9,976 volunteers, classified more than 380,000 galaxies, and an initial AI sweep followed by citizen science and expert vetting found 500 strong lens candidates, almost all previously unknown, with more than 1.5 billion galaxies expected over six years."
+    }
+   ],
+   "valence": 3.56
   }
  ],
  "links": [
@@ -20786,6 +20809,18 @@
    "target": "promptinjection",
    "kind": "leads",
    "why": "An assistant with a shell, your email and your files reads untrusted messages all day, so a hidden instruction can turn it against its owner."
+  },
+  {
+   "source": "skysurveys",
+   "target": "science",
+   "kind": "leads",
+   "why": "Sorting surveys no team could inspect by hand turns raw data into findings, such as 500 new lens candidates from one week of Euclid images."
+  },
+  {
+   "source": "skysurveys",
+   "target": "darkfleets",
+   "kind": "twin",
+   "why": "Both use machine learning to find what people could not spot by hand in huge streams of images."
   }
  ],
  "themes": {
