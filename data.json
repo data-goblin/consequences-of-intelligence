@@ -17427,6 +17427,105 @@
      }
     }
    ]
+  },
+  {
+   "id": "supportbots",
+   "label": "Chatbots replace customer-service staff",
+   "valence": -1.67,
+   "probability": 0.55,
+   "year": 2025,
+   "evidence": "reported",
+   "summary": "Companies are cutting customer-support staff as chatbots and AI agents take over routine contacts, and some have walked the cuts back. In February 2024 Klarna said its AI assistant handled 2.3 million chats, two-thirds of its customer service chats, in its first month, the work of 700 full-time agents[1]. By May 2025 its chief executive said cost had weighed too heavily and the result was lower quality, that customers must always be able to reach a human, and Klarna was piloting freelance human agents; a spokesperson said it was still AI-first and was not replacing staff who left[2]. In September 2025 Salesforce's chief executive said he had cut support headcount from 9,000 to about 5,000 because AI agents now handle half of service interactions, and the company said it had redeployed hundreds of staff[3]. In August 2025 Commonwealth Bank of Australia reversed customer service job cuts tied to a new voice bot after a union challenge, calling its assessment an error[4]. These are company statements, not measurements, and no source here isolates AI as the cause of wider job change: BLS projects US customer service representative jobs to fall 5% from 2025 to 2035 as tasks are automated and customers use self-service, without naming AI[5], while industry data cited by Fortune show call centre employment in the Philippines rising every year from 2016 to 2025 and nearly doubling to 2 million[6].",
+   "refs": [
+    {
+     "title": "Klarna, Klarna AI assistant handles two-thirds of customer service chats in its first month, February 2024",
+     "url": "https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/",
+     "finding": "In its first month of global availability the AI assistant had 2.3 million conversations, two-thirds of Klarna's customer service chats, doing the equivalent work of 700 full-time agents; Klarna said errands were resolved in under 2 minutes against 11 minutes before, customer satisfaction was on par with human agents, and it estimated a $40 million profit improvement in 2024."
+    },
+    {
+     "title": "Fortune, As Klarna flips from AI-first to hiring people again, a new landmark survey reveals most AI projects fail to deliver, May 2025",
+     "url": "https://fortune.com/2025/05/09/klarna-ai-humans-return-on-investment/",
+     "finding": "Chief executive Sebastian Siemiatkowski told Bloomberg that cost had been too predominant an evaluation factor and that the result was lower quality, and that customers must always be able to reach a human if they want; Klarna was piloting freelance human support agents. A spokesperson told Fortune Klarna still does not replace departing employees, apart from freelance agents in its outsourcing division, and is very much still AI-first."
+    },
+    {
+     "title": "Fortune, Salesforce CEO Marc Benioff says his company cut 4,000 customer service jobs as AI steps in, September 2025",
+     "url": "https://fortune.com/2025/09/02/salesforce-ceo-billionaire-marc-benioff-ai-agents-jobs-layoffs-customer-service-sales/",
+     "finding": "On The Logan Bartlett Show, Benioff said he had reduced support headcount from 9,000 to about 5,000 because he needs fewer people, and that service interactions are now 50% with AI agents and 50% with humans. A Salesforce spokesperson said that after deploying its own AI support site it no longer needs to actively backfill support engineer roles and had redeployed hundreds of employees into professional services, sales and customer success."
+    },
+    {
+     "title": "The Canberra Times, Commonwealth Bank reverses AI chatbot job cuts, admits error, August 2025",
+     "url": "https://www.canberratimes.com.au/story/9046323/commonwealth-bank-reverses-ai-chatbot-job-cuts-admits-error/",
+     "finding": "Commonwealth Bank had cut customer service jobs, including 45 direct banking roles, after introducing a voice bot on its inbound customer enquiries line; on 21 August 2025 it said its initial assessment did not adequately consider all relevant business considerations, that the roles were not redundant, and apologised. The Finance Sector Union called the reversal a massive win and said the bank was caught out trying to dress up job cuts as innovation."
+    },
+    {
+     "title": "US Bureau of Labor Statistics, Occupational Outlook Handbook, Customer Service Representatives",
+     "url": "https://www.bls.gov/ooh/office-and-administrative-support/customer-service-representatives.htm",
+     "finding": "US employment of customer service representatives was 2,666,000 in 2025 and is projected to decline 5% (141,800 jobs) from 2025 to 2035, with about 289,500 openings a year from replacement; BLS expects less demand, especially in retail trade, as tasks continue to be automated and self-service systems, social media and mobile apps let customers handle simple tasks. The page does not name AI or chatbots."
+    },
+    {
+     "title": "Fortune, The AI boom hasn't stopped U.S. companies from hiring cheap offshore labor, and overseas call center employment is still skyrocketing, May 2026",
+     "url": "https://fortune.com/article/why-hasnt-ai-boom-displaced-call-center-workers-employment-offshoring-india-philippines/",
+     "finding": "Citing IT and Business Process Association of the Philippines data analysed by Apollo chief economist Torsten Slok, call centre employment in the Philippines rose every year from 2016 through 2025, nearly doubling to 2 million over the decade."
+    }
+   ],
+   "theme": "work",
+   "stage": "active",
+   "control": "mitigable",
+   "price_of": [
+    "productivity"
+   ],
+   "control_note": "Support desks are a large, scripted cost centre, so bots that handle routine contacts are an easy saving to book. Firms still answer for what their bots say, customers want a way to reach a person, and unions can contest cuts, which slows full replacement but does not stop firms leaving departed staff unreplaced.",
+   "actions": [
+    {
+     "action": "Hold firms liable for what their chatbots tell customers",
+     "actor": "courts",
+     "status": "in force",
+     "aim": "impact",
+     "evidence": "A British Columbia tribunal ruled in February 2024 that Air Canada was liable for a bereavement-fare answer its website chatbot got wrong, rejecting the idea that the bot was responsible for itself; the award was about CAD 650.",
+     "ref": {
+      "title": "Lifshitz and Hung, BC Tribunal Confirms Companies Remain Liable for Information Provided by AI Chatbot, Business Law Today (American Bar Association), February 2024",
+      "url": "https://businesslawtoday.org/?p=24320",
+      "finding": "In Moffatt v. Air Canada, 2024 BCCRT 149, decided 14 February 2024, the British Columbia Civil Resolution Tribunal found Air Canada liable for negligent misrepresentation after its website chatbot wrongly told a customer he could claim a bereavement fare within 90 days of ticketing; the chatbot was part of Air Canada's website, so the airline was responsible for its content, and it awarded about CAD 650 plus interest and fees."
+     }
+    },
+    {
+     "action": "Require disclosure of AI and a right to a human agent",
+     "actor": "legislators",
+     "status": "proposed",
+     "aim": "impact",
+     "evidence": "A US Senate bill introduced in July 2025 would make call-centre employers say when AI handles customer service and transfer callers on request to a human in the United States; it was referred to committee.",
+     "ref": {
+      "title": "S. 2495, Keep Call Centers in America Act of 2025, 119th Congress, introduced text (govinfo)",
+      "url": "https://www.govinfo.gov/content/pkg/BILLS-119s2495is/html/BILLS-119s2495is.htm",
+      "finding": "Introduced on 29 July 2025 by Senator Gallego with Senator Justice and referred to the Committee on Commerce, Science, and Transportation; Section 201 would require businesses with call centres of 50 or more employees to disclose at the start of an interaction that a nonhuman, artificial intelligence or machine is being used for customer service, and to transfer the consumer immediately on request to a human operator physically located in the United States."
+     }
+    },
+    {
+     "action": "Contest redundancies blamed on bots",
+     "actor": "unions",
+     "status": "tested",
+     "aim": "probability",
+     "evidence": "After a Finance Sector Union challenge, Commonwealth Bank reversed customer service job cuts tied to a voice bot in August 2025 and let staff stay, redeploy or leave.",
+     "ref": {
+      "title": "The Canberra Times, Commonwealth Bank reverses AI chatbot job cuts, admits error, August 2025",
+      "url": "https://www.canberratimes.com.au/story/9046323/commonwealth-bank-reverses-ai-chatbot-job-cuts-admits-error/",
+      "finding": "Commonwealth Bank had cut customer service jobs, including 45 direct banking roles, after introducing a voice bot on its inbound customer enquiries line; on 21 August 2025 it said its initial assessment did not adequately consider all relevant business considerations, that the roles were not redundant, and apologised. The Finance Sector Union called the reversal a massive win and said the bank was caught out trying to dress up job cuts as innovation."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "Santander UK brings its call centres back from India",
+     "year": 2011,
+     "parallel": "Moving customer service to a cheaper channel saved money until customers complained, the same pressure that has pushed some firms to put humans back behind their bots.",
+     "outcome": "After topping the FSA complaint tables, Santander UK moved all call centre work from Bangalore and Pune back to three UK cities and hired 500 more staff; its chief executive said customers prefer UK call centres.",
+     "ref": {
+      "title": "RTE News, UK bank brings call centres home, July 2011",
+      "url": "https://www.rte.ie/news/business/2011/0708/303448-santander-business",
+      "finding": "Santander UK moved all its call centre work from Bangalore and Pune, set up in 2003 when it was Abbey, back to Glasgow, Leicester and Liverpool after customer feedback, hiring 500 more UK staff for about 1.5 million calls a month; the move followed the bank topping the FSA complaint tables, and chief executive Ana Botin said customers prefer call centres in the UK, not offshore."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -20123,6 +20222,24 @@
    "target": "deepfakeevidence",
    "kind": "counters",
    "why": "Watermarks could let courts check whether an exhibit was generated, but OpenAI told the federal evidence rules committee that each company uses its own watermark and there is no universal way to detect them."
+  },
+  {
+   "source": "productivity",
+   "target": "supportbots",
+   "kind": "twin",
+   "why": "In one field study of over 5,000 support agents, an AI assistant raised issues resolved per hour, and the same kind of tool let firms such as Salesforce handle half of service contacts with no human agent."
+  },
+  {
+   "source": "supportbots",
+   "target": "jobshock",
+   "kind": "leads",
+   "why": "Customer support is one of the first office functions where firms say they cut staff for AI, such as Salesforce going from 9,000 support staff to about 5,000."
+  },
+  {
+   "source": "hallucinations",
+   "target": "supportbots",
+   "kind": "counters",
+   "why": "Bots that make up policies leave firms liable for what they say, as Air Canada found with a wrong bereavement-fare answer, which raises the cost of removing human agents."
   }
  ],
  "themes": {
