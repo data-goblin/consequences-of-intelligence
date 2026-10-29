@@ -18115,6 +18115,40 @@
     }
    ],
    "valence": -2.56
+  },
+  {
+   "id": "expertceiling",
+   "label": "AI raises the ceiling for skilled professionals",
+   "probability": 0.75,
+   "year": 2026,
+   "stage": "active",
+   "evidence": "reported",
+   "theme": "work",
+   "summary": "In skilled hands, AI can raise the ceiling, not just the floor. With AlphaEvolve, Terence Tao and colleagues matched the best known answers to most of 67 maths problems and improved several[1]. Anthropic's engineers said 27% of their AI-assisted work would not have been done otherwise, and many took on parts of the stack they used to avoid[2].",
+   "control_note": "Gains for experts are uneven. In a 2025 METR trial, 16 experienced open-source developers took 19% longer with AI while believing it had sped them up 20%, and in one call-centre study the most skilled agents gained little. Experts who keep judging the output, and use AI to explore rather than to skip thinking, see the most.",
+   "refs": [
+    {
+     "title": "Georgiev, Gómez-Serrano, Tao and Wagner, Mathematical exploration and discovery at scale, arXiv 2511.02864, November 2025",
+     "url": "https://arxiv.org/abs/2511.02864",
+     "finding": "Across 67 problems in analysis, combinatorics, geometry and number theory, AlphaEvolve rediscovered the best known solutions in most cases and found improved solutions in several, sometimes generalising finite results into formulas for all inputs, often with much less preparation and computation time."
+    },
+    {
+     "title": "Anthropic, How AI is transforming work at Anthropic, 2 December 2025",
+     "url": "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
+     "finding": "In a survey of 132 engineers and researchers, self-reported Claude use rose to 59% of work and average self-reported productivity gains to 50%; 27% of Claude-assisted work would not have been done otherwise, engineers described becoming more full-stack, and some worried about skills atrophying."
+    },
+    {
+     "title": "METR, Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity, 10 July 2025",
+     "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+     "finding": "16 experienced open-source developers took 19% longer on 246 real issues when allowed AI, though they had forecast a 24% speedup and afterwards believed they had been 20% faster; METR now calls the result out of date."
+    },
+    {
+     "title": "Brynjolfsson, Li and Raymond, Generative AI at Work, NBER w31161",
+     "url": "https://www.nber.org/papers/w31161",
+     "finding": "Among 5,179 customer support agents, AI assistance raised issues resolved per hour 14% on average, 34% for novice and low-skilled workers, with minimal impact on experienced and highly skilled workers."
+    }
+   ],
+   "valence": 2.1
   }
  ],
  "links": [
@@ -20949,6 +20983,24 @@
    "target": "learningfriction",
    "kind": "twin",
    "why": "Both come from getting a working result without learning how it works: a gain for people who only need the result, a loss for people who need the skill."
+  },
+  {
+   "source": "expertceiling",
+   "target": "science",
+   "kind": "leads",
+   "why": "Experts who can search far larger spaces of ideas, as mathematicians did with AlphaEvolve, push research past where it stood."
+  },
+  {
+   "source": "expertceiling",
+   "target": "productivity",
+   "kind": "twin",
+   "why": "AI lifts beginners toward the middle and can lift skilled people past their old limits: one raises the floor, the other the ceiling."
+  },
+  {
+   "source": "expertceiling",
+   "target": "deskilling",
+   "kind": "twin",
+   "why": "The same reliance that lets experts reach further can wear down the skills they need to judge what the AI gives them."
   }
  ],
  "themes": {
