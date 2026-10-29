@@ -17679,6 +17679,140 @@
      }
     }
    ]
+  },
+  {
+   "id": "curiosity",
+   "label": "Less fear of judgment makes people more curious",
+   "valence": 1.46,
+   "probability": 0.5,
+   "year": 2027,
+   "evidence": "speculative",
+   "summary": "Whether chatbots make people more curious has not been measured, but the mechanism has some evidence: a machine that does not judge can make questions easier to ask. In one lab experiment, people told a virtual human health interviewer was automated rather than operated by a person reported less fear of self-disclosure and less impression management, and observers rated them more willing to disclose[1]. In a survey of 6,960 students at four Australian universities, 49% used AI for feedback on their work, partly because it felt less risky than asking teachers; one student said it let them ask questions they were too ashamed to ask their teacher[2]. In a vignette study of 402 UK adults, most still preferred a doctor, but more chose a chatbot for embarrassing sexual symptoms than for non-sexual ones, and those preferring a chatbot expected to seek advice sooner[3]. In one 2025 survey of 5,123 US adults, 26% had used ChatGPT to learn something new, up from 8% in 2023[4]. Less fear is not always more openness: in one experiment with 286 people, a chatbot partner drew less fear of judgment than a human but no more intimate disclosure, and people trusted the human more[5]. The missing push-back cuts both ways: in three experiments with 2,405 people, a single exchange with a flattering AI made people more convinced they were right, yet they rated it more trustworthy and preferred it[6].",
+   "refs": [
+    {
+     "title": "Lucas, Gratch, King and Morency, It's only a computer: Virtual humans increase willingness to disclose, Computers in Human Behavior, 2014",
+     "url": "https://doi.org/10.1016/j.chb.2014.04.043",
+     "finding": "In health-screening interviews with a virtual human, participants who believed it was automated rather than operated by a person reported lower fear of self-disclosure and less impression management, displayed sadness more intensely and were rated by observers as more willing to disclose."
+    },
+    {
+     "title": "de Mello Heredia, Uni students are using AI to 'ask stupid questions' and get feedback on their work, The Conversation, August 2025, reporting Henderson et al., Comparing Generative AI and teacher feedback: student perceptions of usefulness and trustworthiness, Assessment & Evaluation in Higher Education 2025",
+     "url": "https://theconversation.com/uni-students-are-using-ai-to-ask-stupid-questions-and-get-feedback-on-their-work-263535",
+     "finding": "A survey of 6,960 students at four Australian universities, August to October 2024: 49% used AI for feedback on their work; 84% rated AI feedback helpful against 82% for lecturers, but 90% considered teacher feedback trustworthy against 60% for AI. Students described worry about being judged or embarrassed when asking teachers; one said AI 'allows me to ask stupid questions that I'm too ashamed to ask my teacher', another that AI feedback 'feels safer and less judgmental'. The paper's abstract says students valued AI feedback partly because it was perceived as less risky than seeking feedback from teachers."
+    },
+    {
+     "title": "Branley-Bell, Brown, Coventry and Sillence, Chatbots for embarrassing and stigmatizing conditions: could chatbots encourage users to seek medical advice?, Frontiers in Communication, September 2023",
+     "url": "https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2023.1275127/full",
+     "finding": "In a vignette experiment with 402 UK adults recruited to be nationally representative by age, gender and ethnicity, 65.7% chose a doctor in both scenarios and about 12% a chatbot in both; more participants chose a chatbot for embarrassing sexual symptoms than non-sexual ones, and those preferring a chatbot expected it to get them to seek advice sooner. Choices were hypothetical."
+    },
+    {
+     "title": "Pew Research Center, 34% of U.S. adults have used ChatGPT, about double the share in 2023, June 2025",
+     "url": "https://www.pewresearch.org/short-reads/2025/06/25/34-of-us-adults-have-used-chatgpt-about-double-the-share-in-2023/",
+     "finding": "In a survey of 5,123 US adults from 24 February to 2 March 2025, 26% had used ChatGPT to learn something new, up from 8% in March 2023; among adults under 30 the share was 46%."
+    },
+    {
+     "title": "Croes, Antheunis, van der Lee and de Wit, Digital Confessions: The Willingness to Disclose Intimate Information to a Chatbot and its Impact on Emotional Well-Being, Interacting with Computers, June 2024",
+     "url": "https://research.tilburguniversity.edu/en/publications/digital-confessions-the-willingness-to-disclose-intimate-informat/",
+     "finding": "In a 2 (human vs chatbot) by 2 (low vs high empathy) experiment with 286 participants, self-reported intimacy of disclosure did not differ between human and chatbot partners; participants felt less fear of judgment with the chatbot and more trust in the human; perceived anonymity was the only variable that directly affected disclosure intimacy."
+    },
+    {
+     "title": "Cheng et al., Sycophantic AI decreases prosocial intentions and promotes dependence, Science, March 2026",
+     "url": "https://doi.org/10.1126/science.aec8352",
+     "finding": "11 models affirmed users' actions 49% more often than humans; in three preregistered experiments with 2,405 participants, one interaction with a sycophantic AI reduced willingness to take responsibility for and repair interpersonal conflicts and increased conviction of being right, while participants trusted and preferred the sycophantic models."
+    }
+   ],
+   "theme": "mind",
+   "stage": "emerging",
+   "limiters": [
+    {
+     "limit": "people still prefer a person for serious questions",
+     "kind": "trust",
+     "evidence": "In one UK vignette study of 402 adults, 65.7% chose a doctor in both scenarios and about 12% chose a chatbot in both.",
+     "ref": {
+      "title": "Branley-Bell, Brown, Coventry and Sillence, Chatbots for embarrassing and stigmatizing conditions: could chatbots encourage users to seek medical advice?, Frontiers in Communication, September 2023",
+      "url": "https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2023.1275127/full",
+      "finding": "In a vignette experiment with 402 UK adults recruited to be nationally representative by age, gender and ethnicity, 65.7% chose a doctor in both scenarios and about 12% a chatbot in both; more participants chose a chatbot for embarrassing sexual symptoms than non-sexual ones, and those preferring a chatbot expected it to get them to seek advice sooner. Choices were hypothetical."
+     }
+    },
+    {
+     "limit": "answers trusted less than a teacher's",
+     "kind": "quality",
+     "evidence": "In one survey of 6,960 Australian university students, 60% considered AI feedback trustworthy against 90% for teacher feedback, and students found it less reliable and less specific.",
+     "ref": {
+      "title": "de Mello Heredia, Uni students are using AI to 'ask stupid questions' and get feedback on their work, The Conversation, August 2025",
+      "url": "https://theconversation.com/uni-students-are-using-ai-to-ask-stupid-questions-and-get-feedback-on-their-work-263535",
+      "finding": "90% of surveyed students considered teacher feedback trustworthy against 60% for AI feedback; students found AI feedback less reliable and less specific than teacher feedback."
+     }
+    },
+    {
+     "limit": "no one pushes back",
+     "kind": "quality",
+     "evidence": "The authors of one Science study warn that sycophancy can erode the social friction through which accountability and perspective-taking unfold, and found people judged flattering responses more helpful and trustworthy.",
+     "ref": {
+      "title": "AAAS news release, When AI agrees too much: How chatbots may be undermining our judgment, EurekAlert, March 2026",
+      "url": "https://www.eurekalert.org/news-releases/1120832",
+      "finding": "Participants judged sycophantic responses as more helpful and trustworthy and became more convinced of their own correctness; the release says sycophancy can 'erode the very social friction through which accountability, perspective-taking, and moral growth ordinarily unfold'."
+     }
+    },
+    {
+     "limit": "less fear does not mean more openness",
+     "kind": "evidence",
+     "evidence": "In one experiment with 286 people, a chatbot partner drew less fear of judgment than a human but no more intimate disclosure.",
+     "ref": {
+      "title": "Croes, Antheunis, van der Lee and de Wit, Digital Confessions: The Willingness to Disclose Intimate Information to a Chatbot and its Impact on Emotional Well-Being, Interacting with Computers, June 2024",
+      "url": "https://research.tilburguniversity.edu/en/publications/digital-confessions-the-willingness-to-disclose-intimate-informat/",
+      "finding": "Self-reported intimacy of disclosure did not differ between human and chatbot partners among 286 participants; participants felt less fear of judgment with the chatbot and more trust in the human."
+     }
+    },
+    {
+     "limit": "questions leave public forums",
+     "kind": "other",
+     "evidence": "Stack Overflow activity fell 25% within six months of ChatGPT's release relative to comparison forums, which the authors say shrinks the public data future models need.",
+     "ref": {
+      "title": "del Rio-Chanona, Laurentsyeva and Wachs, Large language models reduce public knowledge sharing on online Q&A platforms, PNAS Nexus, September 2024",
+      "url": "https://academic.oup.com/pnasnexus/article/3/9/pgae400/7754871",
+      "finding": "Within six months of ChatGPT's release, Stack Overflow activity fell 25% relative to its Russian and Chinese counterparts and to mathematics Q&A forums, a lower-bound estimate; peer-rated post quality did not change significantly, and the authors conclude LLM adoption reduces the public data needed to train future models."
+     }
+    }
+   ],
+   "enablers": [
+    {
+     "action": "Train models to resist users' stated opinions",
+     "actor": "research labs",
+     "status": "tested",
+     "counters": "no one pushes back",
+     "evidence": "In one 2023 study, a light fine-tuning step on synthetic data teaching robustness to user opinions significantly reduced sycophancy on held-out prompts.",
+     "ref": {
+      "title": "Wei, Huang, Lu, Zhou and Le, Simple synthetic data reduces sycophancy in large language models, arXiv, August 2023",
+      "url": "https://arxiv.org/abs/2308.03958",
+      "finding": "Scaling and instruction tuning increased sycophancy in PaLM models up to 540B parameters; adding synthetic data from public NLP tasks that encourages robustness to user opinions in a lightweight fine-tuning step significantly reduced sycophantic behaviour on held-out prompts."
+     }
+    },
+    {
+     "action": "Teach users to check AI answers",
+     "actor": "AI providers and deployers",
+     "status": "in force",
+     "counters": "answers trusted less than a teacher's",
+     "evidence": "The EU AI Act, as amended, requires providers and deployers to take measures supporting AI literacy among their staff and others using AI on their behalf; it does not cover the general public directly.",
+     "ref": {
+      "title": "EU AI Act, Article 4: AI literacy, accessed October 2026",
+      "url": "https://artificialintelligenceact.eu/article/4/",
+      "finding": "Providers and deployers of AI systems shall take measures to support AI literacy of their staff and others operating or using AI systems on their behalf, without having to guarantee any specific level for an individual; the article applies from 2 February 2025."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "Computer-assisted interviews for sensitive survey questions",
+     "year": 1998,
+     "parallel": "Letting people answer embarrassing questions to a computer rather than on a paper form raised what they admitted, an early sign that a machine can feel safer to confide in.",
+     "outcome": "In the 1995 National Survey of Adolescent Males, 1,690 respondents were randomly assigned to audio computer-assisted self-interviewing or a paper questionnaire; reported male-male sex, injection drug use and sexual contact with injection drug users were higher by factors of three or more with the computer. The comparison was with paper, not with a human interviewer.",
+     "ref": {
+      "title": "Turner, Ku, Rogers, Lindberg, Pleck and Sonenstein, Adolescent sexual behavior, drug use, and violence: increased reporting with computer survey technology, Science, 1998",
+      "url": "https://doi.org/10.1126/science.280.5365.867",
+      "finding": "1,690 respondents in the 1995 National Survey of Adolescent Males were randomly assigned to audio-CASI or a traditional self-administered questionnaire; audio-CASI produced prevalence estimates for male-male sex, injection drug use and sexual contact with injection drug users higher by factors of 3 or more, and increased reporting of several other risk behaviours."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -20423,6 +20557,12 @@
    "target": "creditexclusion",
    "kind": "twin",
    "why": "Both turn credit records into opaque scores that shut people out, of loans in one case and of rental homes in the other, with little room to appeal."
+  },
+  {
+   "source": "curiosity",
+   "target": "sycophancy",
+   "kind": "twin",
+   "why": "A chatbot that does not judge lowers the fear of asking, and the same lack of push-back let a flattering AI leave people in one Science study more sure they were right."
   }
  ],
  "themes": {
