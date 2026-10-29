@@ -11531,7 +11531,8 @@
       "finding": "Take-up was 34 percent of those eligible; the loans did not substitute for other credit, and households were 6.3 percentage points less likely to forgo expenses due to negative shocks."
      }
     }
-   ]
+   ],
+   "merged": "fairerbail"
   },
   {
    "id": "creditexclusion",
@@ -11614,7 +11615,8 @@
       "finding": "Credit characteristics did not serve as proxies for race, ethnicity or sex, and a race-neutral re-estimation had little effect on scores; length of credit history served in part as a proxy for age, and recent immigrants had somewhat lower scores than their performance implied."
      }
     }
-   ]
+   ],
+   "merged": "biasedsentencing"
   },
   {
    "id": "datalabour",
@@ -12024,13 +12026,13 @@
   },
   {
    "id": "fairerbail",
-   "label": "Algorithms improve bail decisions",
-   "probability": 0.35,
-   "year": 2030,
-   "stage": "expected",
+   "label": "AI decisions fairer than human judgement",
+   "probability": 0.6,
+   "year": 2025,
+   "stage": "active",
    "evidence": "measured",
    "theme": "power",
-   "summary": "In one simulation on New York City pretrial data, an algorithmic release rule could cut crime by up to 24.7% with no change in jailing, or cut jail populations by up to 41.9% with no rise in crime[1]. In practice, Kentucky's 2011 law making risk scores mandatory raised pretrial release only trivially, with more missed court dates and pretrial crime, and the gain eroded as judges returned to earlier practice[2].",
+   "summary": "Algorithms that decide things about people, such as who gets bail or credit, can be fairer than human judgement, depending on how they are made and used. In one simulation on New York City pretrial data, an algorithmic release rule could cut crime by up to 24.7% with no change in jailing, or cut jail populations by up to 41.9% with no rise in crime[1]. In practice, Kentucky's 2011 law making risk scores mandatory raised pretrial release only trivially, with more missed court dates and pretrial crime, and the gain eroded as judges returned to earlier practice[2]. Models built on alternative data can score people with no credit file: in one study of about 270,000 purchases at a German online furniture retailer, ten simple digital-footprint variables predicted default about as well as a credit bureau score, and as well for customers with no score as for those with one[3]. The same authors note that regulators will watch whether footprints proxy for traits lenders may not legally use[3], and a study of US mortgage data found that machine-learning credit models benefit Black and Hispanic borrowers less than others and widen rate gaps[4].",
    "refs": [
     {
      "title": "Kleinberg, Lakkaraju, Leskovec, Ludwig and Mullainathan, Human Decisions and Machine Predictions, Quarterly Journal of Economics 133(1), 2018",
@@ -12041,9 +12043,19 @@
      "title": "Assessing Risk Assessment in Action (Megan Stevenson, Minnesota Law Review 103, 2018)",
      "url": "https://www.courts.wa.gov/subsite/mjc/docs/2019/Assessing%20Risk%20Assessment_Stevenson.pdf",
      "finding": "Using more than a million Kentucky cases, HB 463 (2011) made risk assessment mandatory but led to only a trivial increase in pretrial release, matched by more failures to appear and pretrial crime; within a couple of years release was lower than before the law."
+    },
+    {
+     "title": "Berg, Burg, Gombović and Puri, On the Rise of FinTechs: Credit Scoring using Digital Footprints, NBER Working Paper 24551, 2018 (Review of Financial Studies, 2020)",
+     "url": "https://www.nber.org/papers/w24551",
+     "finding": "In 270,399 purchases at a German e-commerce furniture company from October 2015 to December 2016, ten digital-footprint variables predicted default with an AUC of 69.6% against 68.3% for the credit bureau score, with similar accuracy for customers who had no bureau score."
+    },
+    {
+     "title": "Fuster, Goldsmith-Pinkham, Ramadorai and Walther, Predictably Unequal? The Effects of Machine Learning on Credit Markets, Journal of Finance, 2022",
+     "url": "https://doi.org/10.1111/jofi.13090",
+     "finding": "Using US mortgage data, Black and Hispanic borrowers are disproportionately less likely to gain from machine-learning default models, and in an equilibrium model machine learning increases rate disparity between and within groups."
     }
    ],
-   "valence": 3.45,
+   "valence": 0.29,
    "limiters": [
     {
      "limit": "Racially unequal error rates",
@@ -12074,6 +12086,36 @@
       "url": "https://artificialintelligenceact.eu/annex/3/",
       "finding": "Point 6(d) covers assessing risk of offending or re-offending."
      }
+    },
+    {
+     "limit": "no account or digital footprint",
+     "kind": "access",
+     "evidence": "About 21% of adults worldwide still have no account, and footprint scoring reaches only people with a phone or online history; 84% of adults in low- and middle-income countries own a mobile phone.",
+     "ref": {
+      "title": "World Bank, The Global Findex Database 2025",
+      "url": "https://www.worldbank.org/en/publication/globalfindex",
+      "finding": "79% of adults globally have an account, and 84% of adults in low- and middle-income countries own a mobile phone."
+     }
+    },
+    {
+     "limit": "Opaque models hide unfair denials",
+     "kind": "regulation",
+     "evidence": "On 12 May 2025 the CFPB withdrew its circulars on credit denial notices, including the one on decisions made with complex algorithms, so lenders lose the US regulator's guidance on explaining model-driven denials.",
+     "ref": {
+      "title": "Consumer Financial Protection Bureau, Withdrawn Guidance",
+      "url": "https://www.consumerfinance.gov/compliance/guidance/withdrawn-guidance/",
+      "finding": "Circular 2022-03 on adverse action notices for credit decisions based on complex algorithms and Circular 2023-03 on proper use of sample forms are listed as withdrawn on 12 May 2025."
+     }
+    },
+    {
+     "limit": "High-risk compliance costs for lenders",
+     "kind": "cost",
+     "evidence": "The EU AI Act lists credit scoring of natural persons as high-risk, adding obligations.",
+     "ref": {
+      "title": "EU Artificial Intelligence Act, Annex III: High-Risk AI Systems Referred to in Article 6(2)",
+      "url": "https://artificialintelligenceact.eu/annex/3/",
+      "finding": "Point 5(b) lists AI systems used to evaluate the creditworthiness of natural persons or establish their credit score, except for detecting financial fraud, as high-risk."
+     }
     }
    ],
    "enablers": [
@@ -12099,6 +12141,30 @@
       "title": "Machine Bias",
       "url": "https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing",
       "finding": "Northpointe calls its calculations proprietary; Desmarais and Singh's 2013 review of 19 risk methodologies found them moderate at best in predictive validity; only 20% of people predicted to commit violent crimes went on to do so."
+     }
+    },
+    {
+     "action": "Combine digital footprints with bureau data",
+     "actor": "Lenders",
+     "status": "tested",
+     "counters": null,
+     "evidence": "Digital-footprint data predicted default about as well as bureau scores and complemented them in a study of a German online furniture retailer.",
+     "ref": {
+      "title": "Berg, Burg, Gombović and Puri, On the Rise of FinTechs: Credit Scoring Using Digital Footprints, Review of Financial Studies, 2020",
+      "url": "https://academic.oup.com/rfs/article/33/7/2845/5568311",
+      "finding": "Simple digital-footprint variables match the information content of credit bureau scores, complement rather than substitute for bureau data, and affect access to credit and reduce default rates."
+     }
+    },
+    {
+     "action": "Require specific reasons for every credit denial",
+     "actor": "CFPB",
+     "status": "in force",
+     "counters": "Opaque models hide unfair denials",
+     "evidence": "Regulation B still requires the principal reasons for any denial, and says a failure to reach a qualifying score is not enough, though the CFPB withdrew its AI-specific guidance in 2025.",
+     "ref": {
+      "title": "Consumer Financial Protection Bureau, Regulation B, 12 CFR 1002.9 Notifications",
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1002/9/",
+      "finding": "The statement of reasons for adverse action must be specific and indicate the principal reasons; saying the applicant failed to achieve a qualifying score on the creditor's scoring system is insufficient."
      }
     }
    ],
@@ -12135,18 +12201,40 @@
       "url": "https://experts.umn.edu/en/publications/clinical-versus-mechanical-prediction-a-meta-analysis/",
       "finding": "Mechanical prediction was about 10% more accurate than clinical prediction on average and substantially better in 33% to 47% of studies; clinical prediction was substantially better in only 6% to 16%; the advantage held regardless of judgment task."
      }
+    },
+    {
+     "event": "Spread of automated credit scoring",
+     "year": "1980s-2007",
+     "parallel": "Fast, cheap statistical scoring of borrowers was expected to widen access to credit, as alternative-data AI scoring is now.",
+     "outcome": "The Federal Reserve concluded scoring likely contributed to greater availability and affordability of credit and predicted default for all major demographic groups, though average scores were lower for Black and Hispanic consumers; it had only limited direct information on scoring's own contribution.",
+     "ref": {
+      "title": "Report to the Congress on Credit Scoring and Its Effects on the Availability and Affordability of Credit, executive summary (Federal Reserve Board, 2007)",
+      "url": "https://www.federalreserve.gov/boarddocs/rptcongress/creditscore/executivesummary.htm",
+      "finding": "Credit scoring likely contributed to improved availability and affordability of credit; credit history scores predict credit risk for the population as a whole and for all major demographic groups."
+     }
+    },
+    {
+     "event": "M-Shwari digital loans in Kenya",
+     "year": "2012-2019",
+     "parallel": "A loan product delivered fully on mobile phones reached Kenyan households outside formal lending, an earlier version of the fintech inclusion story.",
+     "outcome": "34 percent of eligible people took the loans, which did not substitute for other credit, and households were 6.3 percentage points less likely to forgo expenses after shocks; the authors say digital loans are not a panacea for wider credit market failures.",
+     "ref": {
+      "title": "Fintech and Household Resilience to Shocks: Evidence from Digital Loans in Kenya (Bharadwaj, Jack and Suri, NBER w25604)",
+      "url": "https://www.nber.org/papers/w25604",
+      "finding": "Take-up was 34 percent of those eligible; the loans did not substitute for other credit, and households were 6.3 percentage points less likely to forgo expenses due to negative shocks."
+     }
     }
    ]
   },
   {
    "id": "biasedsentencing",
-   "label": "Biased risk scores in criminal justice",
+   "label": "AI decisions that entrench bias",
    "probability": 0.5,
    "year": 2025,
    "stage": "active",
    "evidence": "measured",
    "theme": "power",
-   "summary": "One ProPublica analysis of more than 7,000 people arrested in Broward County, Florida, found the COMPAS risk tool labelled 44.9% of Black defendants who did not reoffend as higher risk, against 23.5% of white defendants[1]. Whether that counts as bias depends on the fairness metric, since three common ones cannot all hold at once outside highly constrained cases[2]. In Kentucky, once regional differences were accounted for, a law making risk scores mandatory did not change racial disparities in pretrial release[3].",
+   "summary": "The same kind of algorithm can also repeat or widen bias in decisions about people, depending on how it is made and used. One ProPublica analysis of more than 7,000 people arrested in Broward County, Florida, found the COMPAS risk tool labelled 44.9% of Black defendants who did not reoffend as higher risk, against 23.5% of white defendants[1]. Whether that counts as bias depends on the fairness metric, since three common ones cannot all hold at once outside highly constrained cases[2]. In Kentucky, once regional differences were accounted for, a law making risk scores mandatory did not change racial disparities in pretrial release[3]. Credit models built on more data and more flexible methods can use proxies for race or poverty that applicants cannot see. A race-blind US tax-audit selection system audited Black taxpayers at 2.9 to 4.7 times the rate of non-Black taxpayers, showing how such proxies arise[4]. In one study of US mortgage data, machine learning default models benefited Black and Hispanic borrowers less than other groups and, in the authors' market model, widened rate gaps between and within groups[5]. Against this, a study of US mortgages found algorithmic FinTech lenders charged Latinx and African-American borrowers extra interest, but 40% less than face-to-face lenders, and did not discriminate in loan approval[6].",
    "refs": [
     {
      "title": "ProPublica (Angwin, Larson, Mattu and Kirchner), Machine Bias, 2016",
@@ -12162,12 +12250,29 @@
      "title": "Assessing Risk Assessment in Action (Megan Stevenson, Minnesota Law Review 103, 2018)",
      "url": "https://www.courts.wa.gov/subsite/mjc/docs/2019/Assessing%20Risk%20Assessment_Stevenson.pdf",
      "finding": "HB 463 benefited white defendants more than Black defendants on its face, because of regional differences in how judges responded; within the same county the increase in release was similar, and neither HB 463 nor the PSA changed racial disparities once regional differences were accounted for."
+    },
+    {
+     "title": "Measuring and Mitigating Racial Disparities in Tax Audits (Elzayn, Smith, Hertz, Ramesh, Fisher, Ho and Goldin, Stanford Institute for Economic Policy Research working paper, January 2023)",
+     "url": "https://siepr.stanford.edu/publications/working-paper/measuring-and-mitigating-racial-disparities-tax-audits",
+     "finding": "Despite race-blind audit selection, Black taxpayers were audited at 2.9 to 4.7 times the rate of non-Black taxpayers, driven mainly by audits of Earned Income Tax Credit claims."
+    },
+    {
+     "title": "Predictably Unequal? The Effects of Machine Learning on Credit Markets (Fuster, Goldsmith-Pinkham, Ramadorai and Walther, Journal of Finance 77(1), 2022)",
+     "url": "https://doi.org/10.1111/jofi.13090",
+     "finding": "Using US mortgage data, Black and Hispanic borrowers were less likely to benefit from machine learning default models than from traditional ones; in an equilibrium model, machine learning increased rate disparities between and within groups, mainly because of its greater flexibility."
+    },
+    {
+     "title": "Consumer-Lending Discrimination in the FinTech Era (Bartlett, Morse, Stanton and Wallace, NBER Working Paper 25943, 2019; Journal of Financial Economics 2021)",
+     "url": "https://www.nber.org/papers/w25943",
+     "finding": "Lenders charged Latinx and African-American borrowers 7.9 and 3.6 basis points more for purchase and refinance mortgages, about $765 million a year; FinTech algorithms also discriminated, but 40% less than face-to-face lenders, and did not discriminate in loan approval."
     }
    ],
-   "valence": -3.5,
-   "control": "preventable",
-   "price_of": [],
-   "control_note": "Courts can decide bail and sentences without risk scores, so the harm is not a by-product of a benefit. The EU's ban on profiling-only crime prediction and its high-risk duties for re-offending risk tools are meant to limit it.",
+   "valence": -3.02,
+   "control": "mitigable",
+   "price_of": [
+    "cheapintelligence"
+   ],
+   "control_note": "Courts can decide bail and sentences without risk scores, and the EU bans profiling-only crime prediction and puts high-risk duties on re-offending risk tools. Lenders will keep using complex models, so some unfair exclusion is likely; explanation duties and high-risk rules aim to reduce it and let applicants correct errors, but no study has measured their effect.",
    "actions": [
     {
      "action": "Ban crime prediction based only on profiling",
@@ -12192,6 +12297,30 @@
       "url": "https://www.science.org/doi/10.1126/sciadv.aao5580",
       "finding": "COMPAS was no more accurate or fair than predictions by people with little or no criminal justice expertise; a two-feature linear predictor performed about as well as COMPAS, which uses 137 features."
      }
+    },
+    {
+     "action": "Require specific reasons for algorithmic credit denials",
+     "actor": "regulators",
+     "aim": "impact",
+     "status": "in force",
+     "evidence": "US Regulation B requires specific principal reasons for any adverse credit action and rules out citing a failed score; no study measures the rule's effect on exclusion.",
+     "ref": {
+      "title": "Regulation B (Equal Credit Opportunity Act), 12 CFR 1002.9 Notifications (Consumer Financial Protection Bureau)",
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1002/9/",
+      "finding": "A statement of reasons for adverse action must be specific and indicate the principal reasons; saying the applicant failed to achieve a qualifying score on the creditor's scoring system is insufficient."
+     }
+    },
+    {
+     "action": "Treat credit scoring AI as high-risk",
+     "actor": "legislators",
+     "aim": "probability",
+     "status": "in force",
+     "evidence": "The AI Act is in force, but after the AI Omnibus amendment, in force since 27 July 2026, its high-risk duties for areas including credit scoring apply only from 2 December 2027; untested so far.",
+     "ref": {
+      "title": "European Commission, AI Act (Shaping Europe's digital future), 2026",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "finding": "The AI Act lists credit scoring that denies citizens the opportunity to obtain a loan among high-risk uses in access to essential services; the AI Omnibus entered into force on 27 July 2026, and rules for systems in the Annex III high-risk areas apply from 2 December 2027."
+     }
     }
    ],
    "precedents": [
@@ -12215,6 +12344,28 @@
       "title": "Sentencing Commission Reports on Cocaine Sentencing Policy (US Sentencing Commission press release, May 22, 2002)",
       "url": "https://www.ussc.gov/about/news/press-releases/may-22-2002",
       "finding": "The 100-to-1 drug quantity ratio is not appropriate; about 85 percent of offenders subject to heightened crack penalties in 2000 were black."
+     }
+    },
+    {
+     "event": "HOLC redlining maps",
+     "year": "1930s",
+     "parallel": "Government risk maps graded neighbourhoods partly by race, so a lending tool used geography as a proxy that cut off credit, the risk with opaque alternative-data models.",
+     "outcome": "The maps led to lower home ownership, house values and rents and more segregation in graded areas for decades, through reduced credit access and disinvestment; the maps were explicit about race, while AI proxies are usually hidden.",
+     "ref": {
+      "title": "The Effects of the 1930s HOLC \"Redlining\" Maps (Aaronson, Hartley and Mazumder, Federal Reserve Bank of Chicago Working Paper 2017-12, revised August 2020)",
+      "url": "https://www.chicagofed.org/~/media/publications/working-papers/2017/wp2017-12-pdf",
+      "finding": "The maps led to reduced home ownership rates, house values and rents and increased racial segregation in later decades through reduced credit access and disinvestment."
+     }
+    },
+    {
+     "event": "Fed review of credit score proxies",
+     "year": "2007",
+     "parallel": "Regulators tested whether conventional credit scores acted as proxies for race, the same question asked of alternative-data models.",
+     "outcome": "Black and Hispanic borrowers had lower average scores, but re-estimating the model race-neutrally had little effect on scores; length of credit history partly proxied for age, and recent immigrants scored somewhat lower than their repayment implied. This cuts against assuming proxies are always present.",
+     "ref": {
+      "title": "Report to the Congress on Credit Scoring and Its Effects on the Availability and Affordability of Credit, executive summary (Federal Reserve Board, August 2007)",
+      "url": "https://www.federalreserve.gov/boarddocs/rptcongress/creditscore/executivesummary.htm",
+      "finding": "Credit characteristics did not serve as proxies for race, ethnicity or sex, and a race-neutral re-estimation had little effect on scores; length of credit history served in part as a proxy for age, and recent immigrants had somewhat lower scores than their performance implied."
      }
     }
    ]
