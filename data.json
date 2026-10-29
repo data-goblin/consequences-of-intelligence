@@ -17526,6 +17526,95 @@
      }
     }
    ]
+  },
+  {
+   "id": "aibooks",
+   "label": "AI-written books flood online bookstores",
+   "probability": 0.9,
+   "year": 2025,
+   "evidence": "measured",
+   "summary": "Generative AI makes it cheap to publish books in bulk, and online bookstores are filling with them. One working paper, not yet peer reviewed, ran an AI-text detector over 14,419 self-published genre-fiction e-books released on Amazon from January 2023 to March 2026: 20% had substantial AI text (over a quarter of the prose) and took 12.1% of sales and 11.3% of revenue, and their share of new Top 25 entrants rose from near zero to 31%[1]. Over those three years selling titles grew 19.2-fold while revenue grew 8.9-fold, and revenue per book for releases with no AI text fell in seven of eight genres from 2023 to 2025, a pattern the authors call observational and specific to one platform[1]. In September 2023 Amazon cut how many new titles a self-publisher can create to three a day, saying it had seen no spike but wanted to protect against abuse[2], and it requires publishers to tell it about AI-generated text, images and translations, though not about AI-assisted editing[3]. In May 2026 Barnes & Noble's chief executive said it excludes AI-generated books from its online catalogue as far as it knows and asks publishers to label them, but would not ban them outright[4].",
+   "refs": [
+    {
+     "title": "Chakrabarty, Liu, Ginsburg and Dhillon, Generative AI floods and dilutes the market for books, arXiv 2607.20349, working paper under review, July 2026",
+     "url": "https://arxiv.org/abs/2607.20349",
+     "finding": "Ran the Pangram v3.3 detector over 14,419 self-published genre-fiction e-books released on Amazon from January 2023 to March 2026, matched to daily sales from a Big Five publisher's panel through June 2026. Books with substantial AI text (over 25% of prose) were 20.0% of books but 12.1% of sales and 11.3% of revenue, and rose from near zero to 31% of new Top 25 entrants. From Q1 2023 to Q1 2026 selling titles grew 19.2-fold and revenue 8.9-fold; revenue per book for no-AI releases fell from the 2023 to the 2025 cohort in seven of eight genre clusters. The authors read the comparisons as observational and specific to one platform."
+    },
+    {
+     "title": "Quach, Amazon 'protects' against junk AI e-books by limiting author-bots to three a day, The Register, September 2023",
+     "url": "https://www.theregister.com/2023/09/22/amazon_ai_book_publishing_limit/",
+     "finding": "Amazon told Kindle Direct Publishing users that while it had not seen a spike in publishing numbers, it was lowering the volume limits on new title creations to help protect against abuse, to three a day, with exceptions on request; it already required publishers to disclose AI-generated text, images or translations."
+    },
+    {
+     "title": "Amazon Kindle Direct Publishing, Content Guidelines, Artificial intelligence (AI) content",
+     "url": "https://kdp.amazon.com/en_US/help/topic/G200672390",
+     "finding": "KDP requires publishers to inform it of AI-generated content (text, images or translations created by an AI-based tool, even if substantially edited afterwards) when publishing or republishing a book, but not of AI-assisted content they created themselves and refined with AI tools."
+    },
+    {
+     "title": "Fortune, Barnes & Noble CEO clarifies the bookseller's stance on AI-written books after refusing to ban them, May 2026",
+     "url": "https://fortune.com/2026/05/22/barnes-noble-ceo-stance-ai-generated-books-refusing-to-ban/",
+     "finding": "Chief executive James Daunt said Barnes & Noble does not sell AI books as far as it is aware, takes active measures to exclude AI-generated books from its online catalogue and never knowingly orders them for its stores, and demands that publishers label AI-generated books; he would not ban them outright and would stock a labelled AI book that does not copy others if customers wanted it."
+    }
+   ],
+   "theme": "ip",
+   "stage": "active",
+   "control": "mitigable",
+   "price_of": [
+    "newart"
+   ],
+   "control_note": "Generating a book costs almost nothing, so volume caps and disclosure rules slow the flow rather than stop it, and disclosure depends on sellers telling the truth. Retailers can keep AI books out of their own catalogues and authors can certify human work, but one seller can publish under many pen names.",
+   "actions": [
+    {
+     "action": "Cap new titles per day and require AI disclosure",
+     "actor": "platforms",
+     "status": "in force",
+     "aim": "probability",
+     "evidence": "Amazon cut new Kindle Direct Publishing titles to three a day per publisher in September 2023 and requires publishers to declare AI-generated text, images and translations.",
+     "ref": {
+      "title": "Quach, Amazon 'protects' against junk AI e-books by limiting author-bots to three a day, The Register, September 2023",
+      "url": "https://www.theregister.com/2023/09/22/amazon_ai_book_publishing_limit/",
+      "finding": "Amazon told Kindle Direct Publishing users that while it had not seen a spike in publishing numbers, it was lowering the volume limits on new title creations to help protect against abuse, to three a day, with exceptions on request; it already required publishers to disclose AI-generated text, images or translations."
+     }
+    },
+    {
+     "action": "Keep AI-generated books out of the catalogue and demand labels",
+     "actor": "publishers",
+     "status": "in force",
+     "aim": "impact",
+     "evidence": "Barnes & Noble says it takes active measures to exclude AI-generated books from its online catalogue and demands that publishers label them.",
+     "ref": {
+      "title": "Fortune, Barnes & Noble CEO clarifies the bookseller's stance on AI-written books after refusing to ban them, May 2026",
+      "url": "https://fortune.com/2026/05/22/barnes-noble-ceo-stance-ai-generated-books-refusing-to-ban/",
+      "finding": "Chief executive James Daunt said Barnes & Noble does not sell AI books as far as it is aware, takes active measures to exclude AI-generated books from its online catalogue and never knowingly orders them for its stores, and demands that publishers label AI-generated books; he would not ban them outright and would stock a labelled AI book that does not copy others if customers wanted it."
+     }
+    },
+    {
+     "action": "Certify human-written books",
+     "actor": "authors",
+     "status": "in force",
+     "aim": "impact",
+     "evidence": "The Authors Guild launched a Human Authored mark in January 2025, first for members' single-author books, with a public database to check certified titles.",
+     "ref": {
+      "title": "Authors Guild, Authors Guild Launches \"Human Authored\" Certification to Preserve Authenticity in Literature, January 2025",
+      "url": "https://authorsguild.org/news/ag-launches-human-authored-certification-to-preserve-authenticity-in-literature/",
+      "finding": "On 29 January 2025 the Authors Guild launched a numbered Human Authored mark for covers and promotion, at first only for members' single-author books, with a public database to verify certified titles; spell-check, grammar tools and AI research or brainstorming are allowed if the text itself is human-written."
+     }
+    }
+   ],
+   "precedents": [
+    {
+     "event": "Spam e-books clog the Kindle store",
+     "year": 2011,
+     "parallel": "Cheap repackaged text, before generative AI, already let sellers fill Amazon's self-publishing system with near-identical e-books.",
+     "outcome": "Reuters reported thousands of such e-books a month, often at 99 cents, and a course claiming to teach publishing 10 to 20 a day without writing a word; Amazon said barely differentiated copies of the same book do not improve the customer experience.",
+     "ref": {
+      "title": "Barr, Spam clogging Amazon's Kindle self-publishing, Reuters via NBC News, June 2011",
+      "url": "https://www.nbcnews.com/id/wbna43443225",
+      "finding": "Thousands of e-books a month were being published through Amazon's self-publishing system, many built from cheaply bought Private Label Rights content and listed at 99 cents beside other books; one DVD course claimed to teach publishing 10 to 20 Kindle books a day without writing a word, and an Amazon spokeswoman said undifferentiated or barely differentiated versions of the same book do not improve the customer experience."
+     }
+    }
+   ],
+   "valence": -2.29
   }
  ],
  "links": [
@@ -20240,6 +20329,24 @@
    "target": "supportbots",
    "kind": "counters",
    "why": "Bots that make up policies leave firms liable for what they say, as Air Canada found with a wrong bereavement-fare answer, which raises the cost of removing human agents."
+  },
+  {
+   "source": "aimusicflood",
+   "target": "aibooks",
+   "kind": "twin",
+   "why": "Cheap generation lets uploaders flood a marketplace built for human work, with AI tracks passing half of Deezer's uploads on peak days and substantial AI text in a fifth of one sample of self-published Amazon e-books."
+  },
+  {
+   "source": "aibooks",
+   "target": "incentives",
+   "kind": "leads",
+   "why": "In one study of Amazon e-books, revenue per book for releases with no AI text fell in seven of eight genres as AI titles multiplied, which cuts what a human author can expect to earn."
+  },
+  {
+   "source": "aibooks",
+   "target": "labels",
+   "kind": "leads",
+   "why": "As AI books spread, Amazon asks publishers to declare AI-generated text, Barnes & Noble demands labels and the Authors Guild certifies human-written books."
   }
  ],
  "themes": {
