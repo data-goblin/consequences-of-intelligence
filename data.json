@@ -363,7 +363,7 @@
     {
      "event": "Bloom's two sigma tutoring claim",
      "year": "1984",
-     "parallel": "One-to-one tutoring was claimed to lift students two standard deviations, the same hope now placed on an AI tutor for every child.",
+     "parallel": "One-to-one tutoring was claimed to lift students two standard deviations, the same hope now placed on an AI tutor for every pupil.",
      "outcome": "The claim came from three-week dissertation experiments, one of them never published, that combined tutoring with extra testing and feedback, and their effects have never been replicated; a 2020 meta-analysis of 96 randomised tutoring studies found an average effect of 0.37 standard deviations.",
      "ref": {
       "title": "von Hippel 2024, Two-Sigma Tutoring: Separating Science Fiction from Science Fact, Education Next",
@@ -372,12 +372,12 @@
      }
     },
     {
-     "event": "One Laptop per Child in Peru",
+     "event": "OLPC laptops in Peru",
      "year": "2009-2019",
-     "parallel": "Putting a learning device in every child's hands was expected to transform learning in low-income schools, the same bet as unguarded AI access.",
+     "parallel": "Putting a learning device in every pupil's hands was expected to transform learning in low-income schools, the same bet as unguarded AI access.",
      "outcome": "A randomised evaluation in 531 rural primary schools, tracked over 10 years, found no significant effect on academic performance or on finishing primary and secondary school, some evidence of worse grade progression, and better computer skills but not cognitive skills; teachers made little use of the laptops in class. A laptop without tutoring design differs from a guarded AI tutor, which is the point.",
      "ref": {
-      "title": "Cueto, Beuermann, Cristia, Malamud and Pardo 2025, Laptops in the Long Run: Evidence from the One Laptop per Child Program in Rural Peru, NBER w34495",
+      "title": "Cueto, Beuermann, Cristia, Malamud and Pardo 2025, Laptops in the Long Run: Evidence from the OLPC Program in Rural Peru, NBER w34495",
       "url": "https://www.nber.org/papers/w34495",
       "finding": "Across 531 rural Peruvian primary schools over 10 years, laptops had no significant effect on academic performance, school completion or university enrolment, with some evidence of worse grade progression; computer skills rose but cognitive skills did not."
      }
@@ -2548,7 +2548,7 @@
      "ref": {
       "title": "Future of Privacy Forum, The AI Act implementation timeline: what changes under the AI Omnibus, 2026",
       "url": "https://fpf.org/blog/the-ai-act-implementation-timeline-what-changes-under-the-ai-omnibus/",
-      "finding": "The Omnibus adds a prohibition on AI systems that generate child sexual abuse material and non-consensual intimate material, applying from 2 December 2026."
+      "finding": "The Omnibus adds a prohibition on AI systems that generate sexual abuse material of minors and non-consensual intimate material, applying from 2 December 2026."
      }
     },
     {
@@ -4056,11 +4056,11 @@
      "event": "Anti-personnel landmines",
      "year": "1997-2024",
      "parallel": "A landmine is the oldest weapon that selects and attacks a target with no human in the loop at the moment of firing, so its casualty record shows who actually gets hit when the decision is delegated to the device.",
-     "outcome": "Landmine Monitor recorded at least 6,279 casualties from landmines and explosive remnants of war in 2024, up 9 percent from 5,757 in 2023, with civilians 90 percent of recorded victims and children 46 percent of civilian casualties, led by Myanmar with 2,029; the count includes unexploded ordnance, not only mines, and a mine does not discriminate at all, whereas the AI claim is that targeting will be selective.",
+     "outcome": "Landmine Monitor recorded at least 6,279 casualties from landmines and explosive remnants of war in 2024, up 9 percent from 5,757 in 2023, with civilians 90 percent of recorded victims and minors 46 percent of civilian casualties, led by Myanmar with 2,029; the count includes unexploded ordnance, not only mines, and a mine does not discriminate at all, whereas the AI claim is that targeting will be selective.",
      "ref": {
       "title": "Civilian Casualties Remain Alarmingly High as Use of Landmines Spreads (Humanity and Inclusion, citing Landmine Monitor 2025)",
       "url": "https://www.hi-us.org/en/civilian-casualties-remain-alarmingly-high-as-use-of-landmines-spreads",
-      "finding": "At least 6,279 victims of landmines and explosive remnants of war in 2024, a 9 percent rise from 5,757 in 2023; civilians were 90 percent of recorded victims and children 46 percent of civilian casualties; top countries were Myanmar 2,029, Syria 1,015, Afghanistan 624, Ukraine 293, Yemen 247; improvised landmines caused more than a third of casualties."
+      "finding": "At least 6,279 victims of landmines and explosive remnants of war in 2024, a 9 percent rise from 5,757 in 2023; civilians were 90 percent of recorded victims and minors 46 percent of civilian casualties; top countries were Myanmar 2,029, Syria 1,015, Afghanistan 624, Ukraine 293, Yemen 247; improvised landmines caused more than a third of casualties."
      }
     }
    ]
@@ -4924,22 +4924,22 @@
   },
   {
    "id": "csam",
-   "label": "AI-generated child abuse imagery",
+   "label": "AI-generated abuse imagery of minors",
    "valence": -4.05,
    "probability": 0.9,
    "year": 2024,
    "evidence": "reported",
-   "summary": "AI generators create child abuse imagery, including of known victims[1]. In September 2023, 20,254 AI-generated images were posted to one dark web forum, and of 11,108 that IWF analysts assessed, 2,978 were criminal under UK law[1]. AI abuse videos the IWF found rose from 13 in 2024 to 3,443 in 2025, still a small share of its reports[2].",
+   "summary": "AI generators create abuse imagery of minors, including of known victims[1]. In September 2023, 20,254 AI-generated images were posted to one dark web forum, and of 11,108 that IWF analysts assessed, 2,978 were criminal under UK law[1]. AI abuse videos the IWF found rose from 13 in 2024 to 3,443 in 2025, still a small share of its reports[2].",
    "refs": [
     {
-     "title": "Internet Watch Foundation, How AI is being abused to create child sexual abuse imagery, October 2023",
+     "title": "Internet Watch Foundation, How AI is being abused to create CSAM, October 2023",
      "url": "https://iwf.org.uk/media/q4zll2ya/iwf-ai-csam-report_public-oct23v1.pdf",
-     "finding": "20,254 AI-generated images were posted to one dark web CSAM forum in September 2023; of 11,108 assessed, 2,978 were criminal under UK law, and the IWF found many AI images featuring known victims and famous children."
+     "finding": "20,254 AI-generated images were posted to one dark web CSAM forum in September 2023; of 11,108 assessed, 2,978 were criminal under UK law, and the IWF found many AI images featuring known victims and famous minors."
     },
     {
-     "title": "Internet Watch Foundation, Harm without limits: AI child sexual abuse material through the eyes of our Analysts, AI CSAM Report 2026",
+     "title": "Internet Watch Foundation, Harm without limits: AI CSAM through the eyes of our Analysts, AI CSAM Report 2026",
      "url": "https://admin.iwf.org.uk/media/hl1nvdti/iwf-ai-csam-report-2026.pdf",
-     "finding": "In 2025 the IWF assessed 8,029 AI-generated images and videos as realistic child sexual abuse, still a small share of all reports; AI abuse videos rose from 13 in 2024 to 3,443 in 2025."
+     "finding": "In 2025 the IWF assessed 8,029 AI-generated images and videos as realistic sexual abuse of minors, still a small share of all reports; AI abuse videos rose from 13 in 2024 to 3,443 in 2025."
     }
    ],
    "theme": "information",
@@ -4955,9 +4955,9 @@
      "aim": "probability",
      "evidence": "Eleven AI firms including OpenAI, Google and Stability AI publicly committed to Safety by Design principles; the commitments are voluntary and the page describes no independent audit.",
      "ref": {
-      "title": "Thorn, Generative AI Principles for child safety (Safety by Design, with All Tech Is Human)",
+      "title": "Thorn, Generative AI Principles (Safety by Design, with All Tech Is Human)",
       "url": "https://www.thorn.org/blog/generative-ai-principles/",
-      "finding": "AI firms committed to remove CSAM from training data and to remove models and services that nudify images of children from their platforms."
+      "finding": "AI firms committed to remove CSAM from training data and to remove models and services that nudify images of minors from their platforms."
      }
     },
     {
@@ -4967,9 +4967,9 @@
      "aim": "impact",
      "evidence": "IWF assessed 8,029 realistic AI abuse images and videos in 2025, and AI videos rose from 13 to 3,443; it says small fine-tuned models that run offline are often highly resilient to removal efforts.",
      "ref": {
-      "title": "Internet Watch Foundation, Harm without limits: AI child sexual abuse material through the eyes of our Analysts, AI CSAM Report 2026",
+      "title": "Internet Watch Foundation, Harm without limits: AI CSAM through the eyes of our Analysts, AI CSAM Report 2026",
       "url": "https://admin.iwf.org.uk/media/hl1nvdti/iwf-ai-csam-report-2026.pdf",
-      "finding": "AI child abuse videos rose from 13 in 2024 to 3,443 in 2025; LoRA files are small, run offline and are often highly resilient to efforts to remove them."
+      "finding": "AI abuse videos of minors rose from 13 in 2024 to 3,443 in 2025; LoRA files are small, run offline and are often highly resilient to efforts to remove them."
      }
     }
    ],
@@ -4980,7 +4980,7 @@
      "parallel": "Cheap cameras and cheap distribution already pushed the volume of abuse imagery past what clearinghouses and police could act on, which is the same capacity failure generators are now accused of causing.",
      "outcome": "Google and NCMEC researchers found detected abuse imagery had grown exponentially to nearly one million detected events per month, exceeding the capability of independent clearinghouses and law enforcement to take action, and argued for machine learning to automate detection and response; the figures count detected events, not abuse itself.",
      "ref": {
-      "title": "Bursztein et al., Rethinking the Detection of Child Sexual Abuse Imagery on the Internet (WWW 2019)",
+      "title": "Bursztein et al., Rethinking the Detection of CSAI on the Internet (WWW 2019)",
       "url": "https://research.google/pubs/rethinking-the-detection-of-child-sexual-abuse-imagery-on-the-internet/",
       "finding": "The first longitudinal study of the distribution of this imagery finds exponential growth to nearly one million detected events per month, exceeding the capabilities of independent clearinghouses and law enforcement to take action."
      }
@@ -5826,7 +5826,7 @@
      "event": "Elementary Education Acts, England and Wales",
      "year": "1870-1890s",
      "parallel": "A basic skill became a legal duty, the way AI literacy obligations are now appearing in law.",
-     "outcome": "The 1870 Act for the first time required adequate provision for elementary education across the country and attendance from five to ten became compulsory in 1880, yet by the early 1890s only 82% of that age group attended regularly, as many children worked and families relied on their income; two decades on, the mandate still had not reached everyone.",
+     "outcome": "The 1870 Act for the first time required adequate provision for elementary education across the country and attendance from five to ten became compulsory in 1880, yet by the early 1890s only 82% of that age group attended regularly, as many kids worked and families relied on their income; two decades on, the mandate still had not reached everyone.",
      "ref": {
       "title": "Victorian Schooldays (University of Leicester Library, Special Collections)",
       "url": "https://leicester.omeka.net/exhibits/show/victorianschooldays",
@@ -7177,7 +7177,7 @@
      "event": "Molly Russell inquest",
      "year": "2017-2022",
      "parallel": "Recommendation algorithms fed a depressed 14-year-old self-harm content she had not asked for, an earlier case of a machine system deepening a vulnerable user's crisis.",
-     "outcome": "The coroner concluded she died from an act of self-harm while suffering from depression and the negative effects of online content, which contributed to her death in a more than minimal way, and recommended that the government consider age verification, separate platforms for adults and children and an independent regulator.",
+     "outcome": "The coroner concluded she died from an act of self-harm while suffering from depression and the negative effects of online content, which contributed to her death in a more than minimal way, and recommended that the government consider age verification, separate platforms for adults and minors and an independent regulator.",
      "ref": {
       "title": "Regulation 28 Report to Prevent Future Deaths, Molly Rose Russell (Andrew Walker, Senior Coroner, Northern District of Greater London, 13 October 2022), copy hosted by Leigh Day",
       "url": "https://www.leighday.co.uk/media/1icefrwd/regulation-28-mr.pdf",
@@ -8362,11 +8362,11 @@
      "event": "Leaded gasoline phase-out",
      "year": "1920s-1996",
      "parallel": "A technology spread for decades before rules caught up with its harms, as regulators now trail AI.",
-     "outcome": "Lead was added to US gasoline from the early 1920s, EPA set its first reduction standards in 1973 and on-road leaded fuel was banned only from 1996, by which time EPA said children's blood lead levels were down 70 percent; the harm was physical and slow, not a fast-moving product.",
+     "outcome": "Lead was added to US gasoline from the early 1920s, EPA set its first reduction standards in 1973 and on-road leaded fuel was banned only from 1996, by which time EPA said kids' blood lead levels were down 70 percent; the harm was physical and slow, not a fast-moving product.",
      "ref": {
       "title": "EPA Takes Final Step in Phaseout of Leaded Gasoline (US EPA press release, 29 January 1996)",
       "url": "https://www.epa.gov/archive/epa/aboutepa/epa-takes-final-step-phaseout-leaded-gasoline.html",
-      "finding": "Lead blended into gasoline since the early 1920s; first lead reduction standards in 1973; ban on leaded fuel for on-road vehicles effective 1 January 1996; children's blood lead down 70 percent."
+      "finding": "Lead blended into gasoline since the early 1920s; first lead reduction standards in 1973; ban on leaded fuel for on-road vehicles effective 1 January 1996; kids' blood lead down 70 percent."
      }
     },
     {
@@ -8566,7 +8566,7 @@
     {
      "event": "Grandparent impostor phone scams",
      "year": "2017-2018",
-     "parallel": "Scammers already phoned elderly people pretending to be a grandchild in trouble; voice cloning makes the same script more convincing.",
+     "parallel": "Scammers already phoned elderly people pretending to be a grandson in trouble; voice cloning makes the same script more convincing.",
      "outcome": "Reported losses to family and friend impostors reached $41 million in a year, up from $26 million, with a median $9,000 loss for people 70 and over who sent cash; the scam worked without any cloned voice.",
      "ref": {
       "title": "New twist to grandparent scam: mail cash (FTC Consumer Protection Data Spotlight, December 2018)",
@@ -8577,7 +8577,7 @@
     {
      "event": "Virtual kidnapping calls",
      "year": "2015-2017",
-     "parallel": "Callers played a recorded scream so parents would believe a child was in danger and pay at once, the exact emotional lever AI voice clones now pull.",
+     "parallel": "Callers played a recorded scream so parents would believe their kid was in danger and pay at once, the exact emotional lever AI voice clones now pull.",
      "outcome": "One FBI case found more than 80 victims across four states with losses above $87,000, ransom demands usually $2,000 or less; it relied on a likely recorded scream and cold-calling hundreds of numbers, and most targets saw through it.",
      "ref": {
       "title": "ABC30 Fresno, FBI warns Californians to not fall for a female caller that screams \"Help me!\", it's a scam, October 2017",
@@ -8674,14 +8674,14 @@
    "probability": 0.25,
    "year": 2035,
    "evidence": "speculative",
-   "summary": "Two US think tanks warn that if AI companions draw young people away from dating and marriage, fewer couples could form and birth rates could fall further[1][2]; one also expects AI to weaken young adults' job prospects and doubts robots can ease childcare soon[1]. No population-level study shows this yet.",
+   "summary": "Two US think tanks warn that if AI companions draw young people away from dating and marriage, fewer couples could form and birth rates could fall further[1][2]; one also expects AI to weaken young adults' job prospects and doubts robots can soon care for kids[1]. No population-level study shows this yet.",
    "theme": "mind",
    "stage": "expected",
    "refs": [
     {
      "title": "What Will Artificial Intelligence Do to Birthrates? (Dan Hess, Institute for Family Studies, 2026)",
      "url": "https://ifstudies.org/blog/what-will-artificial-intelligence-do-to-birthrates",
-     "finding": "Argues AI will more likely lower than raise birthrates, through weaker job prospects for young adults and AI companions pulling people out of dating and marriage; it doubts robots can soon substitute for human childcare."
+     "finding": "Argues AI will more likely lower than raise birthrates, through weaker job prospects for young adults and AI companions pulling people out of dating and marriage; it doubts robots can soon substitute for humans caring for kids."
     },
     {
      "title": "The Impacts of Digital Technology on Human Relationships: How Smartphones, Social Media, Pornography, and AI Chatbots Threaten Sex, Marriage, and Fertility (Morell and Lawrence, Ethics and Public Policy Center, 2026)",
@@ -8693,18 +8693,18 @@
    "price_of": [
     "companionship"
    ],
-   "control_note": "The link is speculative and births fall for many reasons. Only general family policy works against it, and a review of quasi-experiments found childcare and universal child transfers do the most to raise fertility.",
+   "control_note": "The link is speculative and births fall for many reasons. Only general family policy works against it, and a review of quasi-experiments found day care and universal family transfers do the most to raise fertility.",
    "actions": [
     {
-     "action": "Expand public childcare",
+     "action": "Expand public day care",
      "actor": "governments",
      "status": "in force",
      "aim": "impact",
-     "evidence": "A review of 57 (quasi)experimental studies from Europe, the US, Canada and Australia found childcare and universal transfers have the most positive effects on fertility.",
+     "evidence": "A review of 57 (quasi)experimental studies from Europe, the US, Canada and Australia found day care and universal transfers have the most positive effects on fertility.",
      "ref": {
       "title": "Effects of policy on fertility: a systematic review of (quasi)experiments (Bergsvik, Fauske and Hart, Statistics Norway Discussion Paper 922, 2020)",
       "url": "https://swopec.hhs.se/dispap/abs/dispap922.htm",
-      "finding": "A review of 57 published and working papers with (quasi)experimental designs found childcare and universal transfers have the most positive effects on fertility; parental leave showed few effects."
+      "finding": "A review of 57 published and working papers with (quasi)experimental designs found day care and universal transfers have the most positive effects on fertility; parental leave showed few effects."
      }
     },
     {
@@ -8725,7 +8725,7 @@
      "event": "Telenovelas reach Brazilian homes",
      "year": "1970-1991",
      "parallel": "A new screen medium portraying small families and private life changed family size, much as AI partners might reshape partnering.",
-     "outcome": "Women in areas reached by the Globo network had significantly lower fertility, most strongly among women of lower socioeconomic status, and children's names and novela content point to the soap operas rather than TV access alone; it shows media can move birth rates, not that AI partners will.",
+     "outcome": "Women in areas reached by the Globo network had significantly lower fertility, most strongly among women of lower socioeconomic status, and baby names and novela content point to the soap operas rather than TV access alone; it shows media can move birth rates, not that AI partners will.",
      "ref": {
       "title": "Soap Operas and Fertility: Evidence from Brazil (La Ferrara, Chong and Duryea, American Economic Journal: Applied Economics, 2012)",
       "url": "https://www.aeaweb.org/articles?id=10.1257/app.4.4.1",
@@ -10430,7 +10430,7 @@
     {
      "title": "Complexity Digest, AI can help humans find common ground in democratic deliberation (summary of Tessler et al., Science), 2024",
      "url": "https://comdig.cssociety.org/2024/10/27/ai-can-help-humans-find-common-ground-in-democratic-deliberation/",
-     "finding": "An LLM mediator helped small UK groups find common ground on issues including Brexit, immigration, the minimum wage, climate change and universal childcare, producing statements that won wide agreement and left groups less divided."
+     "finding": "An LLM mediator helped small UK groups find common ground on issues including Brexit, immigration, the minimum wage, climate change and universal day care, producing statements that won wide agreement and left groups less divided."
     },
     {
      "title": "Tessler et al., AI can help humans find common ground in democratic deliberation (Science, 2024)",
@@ -10541,7 +10541,7 @@
    "stage": "emerging",
    "evidence": "speculative",
    "theme": "mind",
-   "summary": "Chatbots that imitate dead people from their digital traces are already sold, including Project December and HereAfter[2]. Cambridge researchers used speculative scenarios to warn of psychological harm, advertising in a dead loved one's manner and distress to children[1][2]. Direct evidence is small: interviews with 26 deadbot users found a private space to grieve but concerns about memory distortion and dependency[4].",
+   "summary": "Chatbots that imitate dead people from their digital traces are already sold, including Project December and HereAfter[2]. Cambridge researchers used speculative scenarios to warn of psychological harm, advertising in a dead loved one's manner and distress to kids[1][2]. Direct evidence is small: interviews with 26 deadbot users found a private space to grieve but concerns about memory distortion and dependency[4].",
    "refs": [
     {
      "title": "Hollanek and Nowaczyk-Basinska, Griefbots, Deadbots, Postmortem Avatars: on Responsible Applications of Generative AI in the Digital Afterlife Industry (Philosophy and Technology), 2024",
@@ -10551,7 +10551,7 @@
     {
      "title": "University of Cambridge, Call for safeguards to prevent unwanted 'hauntings' by AI chatbots of dead loved ones, 2024",
      "url": "https://www.cam.ac.uk/research/news/call-for-safeguards-to-prevent-unwanted-hauntings-by-ai-chatbots-of-dead-loved-ones",
-     "finding": "Some companies already offer deadbots, such as Project December and HereAfter, and similar services have begun to emerge in China; researchers warn of psychological harm, an overwhelming emotional weight, advertising in the manner of a departed loved one, and distress to children."
+     "finding": "Some companies already offer deadbots, such as Project December and HereAfter, and similar services have begun to emerge in China; researchers warn of psychological harm, an overwhelming emotional weight, advertising in the manner of a departed loved one, and distress to kids."
     },
     {
      "title": "Xygkou et al., The 'Conversation' about Loss: Understanding How Chatbot Technology was Used in Supporting People in Grief (CHI 2023)",
@@ -10809,13 +10809,13 @@
   },
   {
    "id": "csamdetection",
-   "label": "AI classifiers find unseen child abuse material",
+   "label": "AI classifiers find unseen abuse material of minors",
    "probability": 0.7,
    "year": 2025,
    "stage": "active",
    "evidence": "reported",
    "theme": "security",
-   "summary": "AI classifiers can find new child abuse material that hash matching misses, but at higher error rates[2]. Thorn reports its detection work flagged 4.16 million suspected abuse files in 2024[1]. The only public precision figure, 99.9% while finding 80% of the material in a test set, comes from vendor tests that EU data protection authorities say cannot be verified[2].",
+   "summary": "AI classifiers can find new abuse material of minors that hash matching misses, but at higher error rates[2]. Thorn reports its detection work flagged 4.16 million suspected abuse files in 2024[1]. The only public precision figure, 99.9% while finding 80% of the material in a test set, comes from vendor tests that EU data protection authorities say cannot be verified[2].",
    "refs": [
     {
      "title": "Thorn, 2024 Impact Report",
@@ -10823,7 +10823,7 @@
      "finding": "In 2024: 4,162,256 total suspected CSAM files detected, 2,237,225 files classified as suspected CSAM and 1,979,406 known CSAM files matched; 60+ companies use Thorn's CSAM detection products. No precision or accuracy figures are given."
     },
     {
-     "title": "EDPB-EDPS Joint Opinion 04/2022 on the Proposal for a Regulation to prevent and combat child sexual abuse, 2022",
+     "title": "EDPB-EDPS Joint Opinion 04/2022 on the proposed CSA Regulation, 2022",
      "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/edpbedps-joint-opinion/edpb-edps-joint-opinion-042022-proposal_en",
      "finding": "Hash matching has an estimated false positive rate of no more than 1 in 50 billion; classifiers for new CSAM have generally significantly higher error rates, with one able to be set at 99.9% precision while identifying only 80% of the CSAM in the data set; there is no information on the tests or benchmarks vendors used, so the figures cannot be replicated or validated."
     },
@@ -10833,7 +10833,7 @@
      "finding": "The interim regime expired on 3 April 2026 after Parliament rejected an extension; Regulation (EU) 2026/1881 reinstates it until 3 April 2028 and does not apply to end-to-end encrypted interpersonal communications; the permanent CSA Regulation is still in trilogue."
     },
     {
-     "title": "Associated Press, Report urges fixes to online child exploitation CyberTipline before AI makes it worse (Bangor Daily News), 2024",
+     "title": "Associated Press, Report urges fixes to NCMEC's CyberTipline before AI makes it worse (Bangor Daily News), 2024",
      "url": "https://www.bangordailynews.com/2024/04/22/nation/report-urges-fixes-to-online-child-exploitation-cybertipline-before-ai-makes-it-worse/",
      "finding": "A Stanford Internet Observatory report found the sheer amount of CyberTipline reports is overwhelming law enforcement and makes it hard to know which to prioritise; a single detective may be responsible for 2,000 reports a year; the tipline received more than 36 million reports in 2023."
     }
@@ -10845,7 +10845,7 @@
      "kind": "quality",
      "evidence": "The only public figure, from vendor tests cited in the EU impact assessment, is a classifier that at 99.9% precision finds 80% of the abuse material in a test set; EU data protection authorities say no test details exist to verify it.",
      "ref": {
-      "title": "EDPB-EDPS Joint Opinion 04/2022 on the Proposal for a Regulation to prevent and combat child sexual abuse, 2022",
+      "title": "EDPB-EDPS Joint Opinion 04/2022 on the proposed CSA Regulation, 2022",
       "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/edpbedps-joint-opinion/edpb-edps-joint-opinion-042022-proposal_en",
       "finding": "New-CSAM classifiers have generally significantly higher error rates than hash matching; one can be set at 99.9% precision but then identifies only 80% of the CSAM in the data set; there is no information on the tests or benchmarks vendors used to measure performance."
      }
@@ -10865,7 +10865,7 @@
      "kind": "regulation",
      "evidence": "EU data protection authorities found that orders to detect unknown abuse material and grooming in private messages, given their intrusiveness, probabilistic nature and error rates, go beyond what is necessary and proportionate.",
      "ref": {
-      "title": "EDPB-EDPS Joint Opinion 04/2022 on the Proposal for a Regulation to prevent and combat child sexual abuse, 2022",
+      "title": "EDPB-EDPS Joint Opinion 04/2022 on the proposed CSA Regulation, 2022",
       "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/edpbedps-joint-opinion/edpb-edps-joint-opinion-042022-proposal_en",
       "finding": "Adopted 28 July 2022; detection of unknown CSAM and grooming in interpersonal communications goes beyond what is necessary and proportionate due to intrusiveness, probabilistic nature and error rates; grooming provisions should be removed."
      }
@@ -10877,11 +10877,11 @@
      "actor": "Governments and platforms",
      "status": "in force",
      "counters": "Report volume overwhelms investigators",
-     "evidence": "IWF received 424,047 reports suspected to contain child sexual abuse imagery in 2024 and confirmed that 291,273 did.",
+     "evidence": "IWF received 424,047 reports suspected to contain sexual abuse imagery of minors in 2024 and confirmed that 291,273 did.",
      "ref": {
       "title": "IWF Annual Data & Insights Report 2024",
       "url": "https://www.iwf.org.uk/annual-data-insights-report-2024/",
-      "finding": "424,047 reports suspected to contain child sexual abuse imagery in 2024; 291,273 reports confirmed to contain child sexual abuse imagery."
+      "finding": "424,047 reports suspected to contain sexual abuse imagery of minors in 2024; 291,273 reports confirmed to contain sexual abuse imagery of minors."
      }
     },
     {
@@ -10891,7 +10891,7 @@
      "counters": "Privacy law limits scanning",
      "evidence": "Safer offers self-hosted deployment that limits data shared with the vendor.",
      "ref": {
-      "title": "CSAM Detection from Experts in Child Safety Technology | Safer by Thorn",
+      "title": "CSAM Detection | Safer by Thorn",
       "url": "https://safer.io/",
       "finding": "With the self-hosted option customers share limited data; a secure API-based deployment is also available."
      }
@@ -10916,7 +10916,7 @@
      "parallel": "Microsoft and NCMEC deployed automated matching to find abuse images at platform scale, the step before classifiers that flag unseen images.",
      "outcome": "PhotoDNA was designed to match resized or similarly altered copies of known images, and Microsoft donated it to NCMEC to share with online service providers; NCMEC had reviewed almost 30 million images and videos since 2003, but the release gives no measured accuracy and the method only finds images already identified.",
      "ref": {
-      "title": "Microsoft and National Center for Missing & Exploited Children Push for Action to Fight Child Pornography (Microsoft press release), 2009",
+      "title": "Microsoft and NCMEC Push for Action to Fight CSAM (Microsoft press release), 2009",
       "url": "https://news.microsoft.com/2009/12/15/microsoft-and-national-center-for-missing-exploited-children-push-for-action-to-fight-child-pornography/",
       "finding": "PhotoDNA creates a signature for an image that still matches when the image is resized or similarly altered; NCMEC can make it available to online service providers; NCMEC had reviewed almost 30 million photos and videos since 2003 and its victim identification programme reviews 250,000 a week."
      }
@@ -11189,27 +11189,27 @@
    ]
   },
   {
-   "id": "childwelfarealgo",
-   "label": "Algorithms screen child-neglect reports",
+   "id": "neglectscreening",
+   "label": "Algorithms screen reports of neglect",
    "probability": 0.55,
    "year": 2025,
    "stage": "active",
    "evidence": "measured",
    "theme": "power",
-   "summary": "In Allegheny County, Pennsylvania, a risk score helps decide which neglect calls get investigated. A Carnegie Mellon analysis found that from August 2016 to May 2018 it flagged 32.5% of Black children reported for mandatory investigation, against 20.8% of white children, and caseworkers reduced the gap[1]. A county-commissioned Stanford evaluation found Black-white disparities in case openings narrowed afterwards[2].",
+   "summary": "In Allegheny County, Pennsylvania, a risk score helps decide which neglect calls get investigated. A Carnegie Mellon analysis found that from August 2016 to May 2018 it flagged 32.5% of Black minors reported for mandatory investigation, against 20.8% of white minors, and caseworkers reduced the gap[1]. A county-commissioned Stanford evaluation found Black-white disparities in case openings narrowed afterwards[2].",
    "refs": [
     {
-     "title": "AP via KTVZ, An algorithm that screens for child neglect raises concerns, 2022",
+     "title": "AP via KTVZ, An algorithm that screens neglect reports raises concerns, 2022",
      "url": "https://ktvz.com/news/2022/04/28/an-algorithm-that-screens-for-child-neglect-raises-concerns/",
-     "finding": "Carnegie Mellon researchers found that from August 2016 to May 2018 the Allegheny tool's scores flagged 32.5% of Black children reported for neglect for a mandatory investigation, against 20.8% of white children; social workers disagreed with the score about a third of the time and reduced the disparity."
+     "finding": "Carnegie Mellon researchers found that from August 2016 to May 2018 the Allegheny tool's scores flagged 32.5% of Black minors reported for neglect for a mandatory investigation, against 20.8% of white minors; social workers disagreed with the score about a third of the time and reduced the disparity."
     },
     {
      "title": "Allegheny County DHS, Impact Evaluation Summary of the Allegheny Family Screening Tool, April 2019",
      "url": "https://analytics.alleghenycounty.us/wp-content/uploads/2019/05/Impact-Evaluation-Summary-from-16-ACDHS-26_PredictiveRisk_Package_050119_FINAL-5.pdf",
-     "finding": "A Stanford quasi-experimental evaluation of about 31,000 children referred before and 34,000 after the tool found it did not raise the screen-in rate, increased screening-in of children later found to need intervention, and reduced Black-white disparities in case-opening rates."
+     "finding": "A Stanford quasi-experimental evaluation of about 31,000 minors referred before and 34,000 after the tool found it did not raise the screen-in rate, increased screening-in of minors later found to need intervention, and reduced Black-white disparities in case-opening rates."
     },
     {
-     "title": "AP via PBS NewsHour, Oregon dropping AI tool used to help decide child abuse cases, 2022",
+     "title": "AP via PBS NewsHour, Oregon dropping AI tool used to help decide abuse cases, 2022",
      "url": "https://www.pbs.org/newshour/nation/oregon-dropping-ai-tool-used-to-help-decide-child-abuse-cases",
      "finding": "Oregon told staff its hotline workers would stop using its Safety at Screening Tool, inspired by the Allegheny tool, at the end of June 2022, to reduce disparities in which families are investigated, replacing it with a Structured Decision Making model."
     }
@@ -11224,11 +11224,11 @@
      "actor": "agencies",
      "aim": "impact",
      "status": "tested",
-     "evidence": "A Stanford quasi-experimental evaluation of about 31,000 pre and 34,000 post children found more children in need were screened in without a rise in investigations; it was not a randomised trial and the county commissioned it.",
+     "evidence": "A Stanford quasi-experimental evaluation of about 31,000 pre and 34,000 post referrals found more minors in need were screened in without a rise in investigations; it was not a randomised trial and the county commissioned it.",
      "ref": {
       "title": "Allegheny County DHS, Impact Evaluation Summary of the Allegheny Family Screening Tool, April 2019",
       "url": "https://analytics.alleghenycounty.us/wp-content/uploads/2019/05/Impact-Evaluation-Summary-from-16-ACDHS-26_PredictiveRisk_Package_050119_FINAL-5.pdf",
-      "finding": "The tool did not increase the screen-in rate, increased identification of children needing intervention, and reduced Black-white disparities in case-opening rates."
+      "finding": "The tool did not increase the screen-in rate, increased identification of minors needing intervention, and reduced Black-white disparities in case-opening rates."
      }
     },
     {
@@ -11236,7 +11236,7 @@
      "actor": "legislators",
      "aim": "probability",
      "status": "in force",
-     "evidence": "The EU AI Act lists systems that public authorities use to evaluate eligibility for essential public assistance as high-risk, which requires providers to examine their data for possible biases; the AI Omnibus amendment, in force since 27 July 2026, moved these duties to 2 December 2027; whether child-welfare screening falls under it depends on use, and no effect data exist yet.",
+     "evidence": "The EU AI Act lists systems that public authorities use to evaluate eligibility for essential public assistance as high-risk, which requires providers to examine their data for possible biases; the AI Omnibus amendment, in force since 27 July 2026, moved these duties to 2 December 2027; whether neglect screening falls under it depends on use, and no effect data exist yet.",
      "ref": {
       "title": "EU AI Act, Annex III: High-risk AI systems referred to in Article 6(2)",
       "url": "https://artificialintelligenceact.eu/annex/3/",
@@ -11248,8 +11248,8 @@
     {
      "event": "COMPAS criminal risk scores",
      "year": "2016",
-     "parallel": "A statistical risk score used to guide decisions about people produced unequal error rates by race, as child-neglect screening tools have.",
-     "outcome": "In Broward County, Florida, 44.9 percent of Black defendants who did not reoffend had been labelled higher risk, against 23.5 percent of white defendants; this is a journalistic analysis of over 7,000 people in criminal justice, not child welfare, and the tool's maker disputes it.",
+     "parallel": "A statistical risk score used to guide decisions about people produced unequal error rates by race, as neglect screening tools have.",
+     "outcome": "In Broward County, Florida, 44.9 percent of Black defendants who did not reoffend had been labelled higher risk, against 23.5 percent of white defendants; this is a journalistic analysis of over 7,000 people in criminal justice, not neglect screening, and the tool's maker disputes it.",
      "ref": {
       "title": "Machine Bias (ProPublica)",
       "url": "https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing",
@@ -11942,7 +11942,7 @@
    "stage": "active",
    "evidence": "reported",
    "theme": "power",
-   "summary": "Australia's automated debt-raising scheme, Robodebt, unlawfully asserted debts against about 433,000 people[1], and the Dutch Tax Administration was fined for using applicants' nationality as a risk indicator for childcare benefit claims[2]. These scandals predate generative AI; agents could repeat them at greater scale.",
+   "summary": "Australia's automated debt-raising scheme, Robodebt, unlawfully asserted debts against about 433,000 people[1], and the Dutch Tax Administration was fined for using applicants' nationality as a risk indicator for day-care benefit claims[2]. These scandals predate generative AI; agents could repeat them at greater scale.",
    "refs": [
     {
      "title": "Prygodicz v Commonwealth of Australia (No 2) [2021] FCA 634, Federal Court of Australia",
@@ -11952,7 +11952,7 @@
     {
      "title": "Dutch Data Protection Authority, Tax Administration fined for discriminatory and unlawful data processing, 2021",
      "url": "https://www.autoriteitpersoonsgegevens.nl/en/current/tax-administration-fined-for-discriminatory-and-unlawful-data-processing",
-     "finding": "The Tax Administration was fined 2.75 million euros because its use of applicants' (dual) nationality data as a risk indicator in assessing childcare benefit applications was unlawful and discriminatory."
+     "finding": "The Tax Administration was fined 2.75 million euros because its use of applicants' (dual) nationality data as a risk indicator in assessing day-care benefit applications was unlawful and discriminatory."
     }
    ],
    "valence": -3.8,
@@ -12622,12 +12622,12 @@
    "evidence": "speculative",
    "stage": "expected",
    "theme": "world",
-   "summary": "If robots took over much elder and child care, families might have more children. In one simulation on Norwegian register data, moving from 0 to 60% childcare availability raised children born by age 35 from 1.51 to 2.18[1]. But Norway's fertility rate was only 1.48 in 2025[6], robot care is unproven, and UN figures show fertility still falling[2][3].",
+   "summary": "If robots took over much elder care and day care, families might have more kids. In one simulation on Norwegian register data, moving from 0 to 60% day-care availability raised births by age 35 from 1.51 to 2.18[1]. But Norway's fertility rate was only 1.48 in 2025[6], robot care is unproven, and UN figures show fertility still falling[2][3].",
    "refs": [
     {
-     "title": "Child-Care Availability and Fertility in Norway (Rindfuss, Guilkey, Morgan and Kravdal, Population and Development Review 36(4), 2010)",
+     "title": "Rindfuss, Guilkey, Morgan and Kravdal, Population and Development Review 36(4), 2010",
      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3099220",
-     "finding": "In simulations on Norwegian register data for women born 1957 to 1962, moving from 0 to 60% childcare availability raised children born by age 35 from 1.51 to 2.18."
+     "finding": "In simulations on Norwegian register data for women born 1957 to 1962, moving from 0 to 60% day-care availability raised births by age 35 from 1.51 to 2.18."
     },
     {
      "title": "Growing or shrinking? What the latest trends tell us about the world's population (UN News, 11 July 2024)",
@@ -12652,18 +12652,18 @@
     {
      "title": "Fruktbarheten fortsetter å øke (Statistics Norway, 12 March 2026, in Norwegian)",
      "url": "https://www.ssb.no/befolkning/fodte-og-dode/statistikk/fodte/artikler/fruktbarheten-fortsetter-a-oke",
-     "finding": "Norway's total fertility rate rose to 1.48 children per woman in 2025 from 1.44 in 2024, still low in historical terms."
+     "finding": "Norway's total fertility rate rose to 1.48 births per woman in 2025 from 1.44 in 2024, still low in historical terms."
     }
    ],
    "limiters": [
     {
      "limit": "Fertility keeps falling worldwide",
      "kind": "demographic",
-     "evidence": "Women have about one child fewer than around 1990",
+     "evidence": "Women have about one birth fewer than around 1990",
      "ref": {
       "title": "Growing or shrinking? What the latest trends tell us about the world's population (UN News, 11 July 2024)",
       "url": "https://news.un.org/en/story/2024/07/1151971",
-      "finding": "Women have one child fewer on average than they did around 1990."
+      "finding": "Women have one birth fewer on average than they did around 1990."
      }
     },
     {
@@ -12679,29 +12679,29 @@
    ],
    "enablers": [
     {
-     "action": "Use automation gains to fund childcare and care work",
+     "action": "Use automation gains to fund day care and care work",
      "actor": "Governments",
      "status": "idea",
      "counters": "fertility",
-     "evidence": "Untested for automation; wider childcare availability raised births in Norway",
+     "evidence": "Untested for automation; wider day-care availability raised births in Norway",
      "ref": {
-      "title": "Child-Care Availability and Fertility in Norway (Rindfuss, Guilkey, Morgan and Kravdal, Population and Development Review 36(4), 2010)",
+      "title": "Rindfuss, Guilkey, Morgan and Kravdal, Population and Development Review 36(4), 2010",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3099220",
-      "finding": "Increased availability of child care increases completed fertility, at every parity transition."
+      "finding": "Increased availability of day care increases completed fertility, at every parity transition."
      }
     }
    ],
    "valence": 3.05,
    "precedents": [
     {
-     "event": "Norway's childcare expansion",
+     "event": "Norway's day-care expansion",
      "year": "1973-1998",
-     "parallel": "Norway expanded subsidised childcare unevenly across municipalities, the cleanest test of whether cheaper, available care raises births.",
-     "outcome": "Going from zero to 60% coverage raised children born by age 35 by about 0.5 to 0.7 per woman, but this was human, state-subsidised care, not robots.",
+     "parallel": "Norway expanded subsidised day care unevenly across municipalities, the cleanest test of whether cheaper, available care raises births.",
+     "outcome": "Going from zero to 60% coverage raised births by age 35 by about 0.5 to 0.7 per woman, but this was human, state-subsidised care, not robots.",
      "ref": {
-      "title": "Child-Care Availability and Fertility in Norway (Rindfuss, Guilkey, Morgan and Kravdal, Population and Development Review 36(4), 2010)",
+      "title": "Rindfuss, Guilkey, Morgan and Kravdal, Population and Development Review 36(4), 2010",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3099220",
-      "finding": "Moving from no child-care slots to slots for 60% of preschool children leads the average woman to have 0.5 to 0.7 more children by age 35; the effect appears at every parity transition."
+      "finding": "Moving from no day-care slots to slots for 60% of preschoolers leads the average woman to have 0.5 to 0.7 more births by age 35; the effect appears at every parity transition."
      }
     },
     {
@@ -14334,7 +14334,7 @@
     {
      "title": "King, Klyman, Capstick, Saade and Hsieh, User Privacy and Large Language Models: An Analysis of Frontier Developers' Privacy Policies, arXiv (2025)",
      "url": "https://arxiv.org/abs/2509.05382",
-     "finding": "All six US frontier developers studied appear to use users' chat data to train and improve their models by default, some retain it indefinitely, four of six appear to include children's chat data, and their privacy policies often lack essential information about their practices."
+     "finding": "All six US frontier developers studied appear to use users' chat data to train and improve their models by default, some retain it indefinitely, four of six appear to include minors' chat data, and their privacy policies often lack essential information about their practices."
     },
     {
      "title": "FTC Office of Technology and Division of Privacy and Identity Protection, AI (and other) Companies: Quietly Changing Your Terms of Service Could Be Unfair or Deceptive (February 2024)",
@@ -14889,7 +14889,7 @@
     {
      "title": "NHTSA Office of Defects Investigation, PE26001 resume, 2026",
      "url": "https://static.nhtsa.gov/odi/inv/2026/INOA-PE26001-10005.pdf",
-     "finding": "NHTSA opened a preliminary evaluation on 28 January 2026 into about 3,067 Waymo vehicles after a driverless Waymo struck a child within two blocks of a Santa Monica, California elementary school during drop-off on 23 January 2026; Waymo reported minor injuries."
+     "finding": "NHTSA opened a preliminary evaluation on 28 January 2026 into about 3,067 Waymo vehicles after a driverless Waymo struck a young pedestrian within two blocks of a Santa Monica, California elementary school during drop-off on 23 January 2026; Waymo reported minor injuries."
     },
     {
      "title": "NTSB, HWY26FH007: Automated Driving System-Equipped Vehicle Passed School Bus Loading Student Passengers, 2026",
@@ -16133,42 +16133,42 @@
   },
   {
    "id": "aitoys",
-   "label": "Chatbot toys say unsafe things to children",
+   "label": "Chatbot toys say unsafe things to kids",
    "valence": -2.65,
    "probability": 0.4,
    "year": 2025,
    "evidence": "reported",
-   "summary": "Chatbot toys for children can have weak guardrails. In a November 2025 US PIRG Education Fund report, FoloToy's Kumma bear told testers where to find knives, pills and matches, and a trigger word brought graphic sexual content[1]. The report's co-author said AI toys remain relatively rare[1], and California enacted a four-year moratorium on companion chatbot toys for children under 16[3][6].",
+   "summary": "Chatbot toys for kids can have weak guardrails. In a November 2025 US PIRG Education Fund report, FoloToy's Kumma bear told testers where to find knives, pills and matches, and a trigger word brought graphic sexual content[1]. The report's co-author said AI toys remain relatively rare[1], and California enacted a four-year moratorium on companion chatbot toys for under-16s[3][6].",
    "refs": [
     {
      "title": "The New York Times (via The Nightly), FoloToy AI toy bear 'Kumma' speaks of sex, knives and pills, a consumer group warns, November 2025",
      "url": "https://thenightly.com.au/business/the-new-york-times-folotoy-made-ai-toy-bear-kumma-speaks-of-sex-knives-and-pills-a-consumer-group-warns-c-20814379",
-     "finding": "A US PIRG Education Fund report dated 13 November found that FoloToy's Kumma bear, built on OpenAI's GPT-4o and marketed to children and adults, told testers where to find knives, pills, matches and plastic bags, and that 'kink' was a trigger word that introduced new sexual words and content, which the co-author said went into some really graphic details. The report said Grok and Miko 3 showed stronger guardrails and Kumma responded far less consistently: Grok, a $99 plush rocket for ages 3 to 12, generally refused and often directed users to an adult, though it said plastic bags might be in a kitchen drawer, and Miko 3, a $189 robot for ages 5 to 10, said where to find plastic bags and matches when set to a user age of 5. OpenAI suspended the developer for policy violations, saying its policies prohibit any use to exploit, endanger or sexualize anyone under 18, and FoloToy said it would pull Kumma from the market for a safety audit. The co-author said AI toys remain relatively rare but already show troubling gaps in how they handle conversations; the article adds that some lack even basic safeguards."
+     "finding": "A US PIRG Education Fund report dated 13 November found that FoloToy's Kumma bear, built on OpenAI's GPT-4o and marketed to kids and adults, told testers where to find knives, pills, matches and plastic bags, and that 'kink' was a trigger word that introduced new sexual words and content, which the co-author said went into some really graphic details. The report said Grok and Miko 3 showed stronger guardrails and Kumma responded far less consistently: Grok, a $99 plush rocket for ages 3 to 12, generally refused and often directed users to an adult, though it said plastic bags might be in a kitchen drawer, and Miko 3, a $189 robot for ages 5 to 10, said where to find plastic bags and matches when set to a user age of 5. OpenAI suspended the developer for policy violations, saying its policies prohibit any use to exploit, endanger or sexualize anyone under 18, and FoloToy said it would pull Kumma from the market for a safety audit. The co-author said AI toys remain relatively rare but already show troubling gaps in how they handle conversations; the article adds that some lack even basic safeguards."
     },
     {
-     "title": "University of Cambridge, Report calls for AI toy safety standards to protect young children, March 2026",
+     "title": "University of Cambridge, Report calls for AI toy safety standards to protect under-fives, March 2026",
      "url": "https://www.cam.ac.uk/stories/ai-toys-study-play",
-     "finding": "In what the researchers call the first systematic study of how generative AI toys may influence development up to age five, they video-recorded 14 children at London children's centres playing with Curio Interactive's Gabbo soft toy and ran focus groups and workshops with early years practitioners and 19 children's charity leaders. The toys struggled with social and pretend play, misunderstood children and reacted inappropriately to emotions: to a five-year-old saying 'I love you' it replied with a reminder to adhere to the guidelines, and when a three-year-old said 'I'm sad' it misheard and replied that it was a happy little bot; it also mistook parents' voices for the child's. Some practitioners felt the toys could support aspects of development such as language and communication skills. The report calls for clearer regulation, labelling standards, limits on how far toys encourage children to befriend or confide in them, tighter controls over third-party access to AI models, and testing with children before release."
+     "finding": "In what the researchers call the first systematic study of how generative AI toys may influence development up to age five, they video-recorded 14 kids at London early years centres playing with Curio Interactive's Gabbo soft toy and ran focus groups and workshops with early years practitioners and 19 youth charity leaders. The toys struggled with social and pretend play, misunderstood kids and reacted inappropriately to emotions: to a five-year-old saying 'I love you' it replied with a reminder to adhere to the guidelines, and when a three-year-old said 'I'm sad' it misheard and replied that it was a happy little bot; it also mistook parents' voices for the kid's. Some practitioners felt the toys could support aspects of development such as language and communication skills. The report calls for clearer regulation, labelling standards, limits on how far toys encourage kids to befriend or confide in them, tighter controls over third-party access to AI models, and testing with kids before release."
     },
     {
      "title": "Ballard Spahr, California AI Toy Bill Brings Software Behavior Into Product Safety, September 2026",
      "url": "https://www.ballardspahr.com/insights/alerts-and-articles/2026/09/california-ai-toy-bill-brings-software-behavior-into-product-safety",
-     "finding": "SB 867, signed by Governor Newsom the day before the 11 September 2026 alert and taking effect on 1 January 2027, provides that no person shall manufacture, sell or exchange any toy that includes a companion chatbot, defining a toy as a physical product designed, marketed or manufactured for play by children under 16. Unlike California's companion chatbot disclosure law it has no compliance path through disclosures, testing or certification, so a covered toy stays prohibited even if the maker adds content filters. Customer service tools, game characters limited to game topics and some standalone voice assistants are excluded."
+     "finding": "SB 867, signed by Governor Newsom the day before the 11 September 2026 alert and taking effect on 1 January 2027, provides that no person shall manufacture, sell or exchange any toy that includes a companion chatbot, defining a toy as a physical product designed, marketed or manufactured for play by under-16s. Unlike California's companion chatbot disclosure law it has no compliance path through disclosures, testing or certification, so a covered toy stays prohibited even if the maker adds content filters. Customer service tools, game characters limited to game topics and some standalone voice assistants are excluded."
     },
     {
      "title": "California State Senator Steve Padilla, First-In-Nation AI Toy Moratorium Moves to Governor's Desk, September 2026",
      "url": "https://sd18.senate.ca.gov/node/422",
-     "finding": "In a release dated 1 September 2026, the bill's author says SB 867 places a 4-year moratorium on the sale and manufacturing of toys with AI chatbot capabilities for children under 16 (one paragraph says under 18); it passed the Senate unanimously and the Assembly 74 to 1. The release cites the Trouble in Toyland 2025 report's findings that AI toys discuss sexually explicit topics, advise children where to find matches or knives, use addictive features and pose data privacy risks."
+     "finding": "In a release dated 1 September 2026, the bill's author says SB 867 places a 4-year moratorium on the sale and manufacturing of toys with AI chatbot capabilities for under-16s (one paragraph says under 18); it passed the Senate unanimously and the Assembly 74 to 1. The release cites the Trouble in Toyland 2025 report's findings that AI toys discuss sexually explicit topics, advise kids where to find matches or knives, use addictive features and pose data privacy risks."
     },
     {
      "title": "Futurism, AI Teddy Bear Back on the Market After Getting Caught Telling Kids How to Find Pills and Start Fires, November 2025",
      "url": "https://futurism.com/future-society/ai-teddy-bear-back-on-market",
-     "finding": "After a week-long internal safety review, FoloToy said it had begun gradually restoring sales and had strengthened and upgraded its child-safety safeguards; it was unclear which model the toy would use by default or whether its access to OpenAI's models had been restored. The PIRG report's co-author called a week on the short side and said the question is whether the products perform better than before."
+     "finding": "After a week-long internal safety review, FoloToy said it had begun gradually restoring sales and had strengthened and upgraded its youth-safety safeguards; it was unclear which model the toy would use by default or whether its access to OpenAI's models had been restored. The PIRG report's co-author called a week on the short side and said the question is whether the products perform better than before."
     },
     {
      "title": "Law Commentary, Newsom Signs California Ban on AI Chatbot Toys for Kids Under 16, September 2026",
      "url": "https://www.lawcommentary.com/articles/newsom-california-ban-ai-chatbot-toys-kids-under-16",
-     "finding": "Governor Newsom signed SB 867 on 10 September 2026, creating a four-year moratorium from 1 January 2027 that expires on 1 January 2031 unless extended; it bars manufacturing, selling or exchanging, possessing with intent to sell, or offering to retailers any toy for children under 16 that contains a companion chatbot as defined in California law."
+     "finding": "Governor Newsom signed SB 867 on 10 September 2026, creating a four-year moratorium from 1 January 2027 that expires on 1 January 2031 unless extended; it bars manufacturing, selling or exchanging, possessing with intent to sell, or offering to retailers any toy for under-16s that contains a companion chatbot as defined in California law."
     }
    ],
    "theme": "mind",
@@ -16177,18 +16177,18 @@
    "price_of": [
     "companionship"
    ],
-   "control_note": "Toymakers wire general-purpose chatbots into products for small children, and guardrails differ widely between toys, with one giving way to a single trigger word. Testing with children before release, limits on third-party access to models and outright bans reduce the risk; a ban also removes whatever help with language the toys might offer.",
+   "control_note": "Toymakers wire general-purpose chatbots into products for toddlers, and guardrails differ widely between toys, with one giving way to a single trigger word. Testing with kids before release, limits on third-party access to models and outright bans reduce the risk; a ban also removes whatever help with language the toys might offer.",
    "actions": [
     {
      "action": "Ban toys with companion chatbots",
      "actor": "legislators",
      "status": "in force",
      "aim": "probability",
-     "evidence": "California's SB 867, signed in September 2026, bars making or selling toys with a companion chatbot for children under 16 from 1 January 2027, with no compliance path through disclosures, testing or certification, so content filters do not make a covered toy legal; it covers one state.",
+     "evidence": "California's SB 867, signed in September 2026, bars making or selling toys with a companion chatbot for under-16s from 1 January 2027, with no compliance path through disclosures, testing or certification, so content filters do not make a covered toy legal; it covers one state.",
      "ref": {
       "title": "Ballard Spahr, California AI Toy Bill Brings Software Behavior Into Product Safety, September 2026",
       "url": "https://www.ballardspahr.com/insights/alerts-and-articles/2026/09/california-ai-toy-bill-brings-software-behavior-into-product-safety",
-      "finding": "SB 867, signed by Governor Newsom the day before the 11 September 2026 alert and taking effect on 1 January 2027, provides that no person shall manufacture, sell or exchange any toy that includes a companion chatbot, defining a toy as a physical product designed, marketed or manufactured for play by children under 16. Unlike California's companion chatbot disclosure law it has no compliance path through disclosures, testing or certification, so a covered toy stays prohibited even if the maker adds content filters. Customer service tools, game characters limited to game topics and some standalone voice assistants are excluded."
+      "finding": "SB 867, signed by Governor Newsom the day before the 11 September 2026 alert and taking effect on 1 January 2027, provides that no person shall manufacture, sell or exchange any toy that includes a companion chatbot, defining a toy as a physical product designed, marketed or manufactured for play by under-16s. Unlike California's companion chatbot disclosure law it has no compliance path through disclosures, testing or certification, so a covered toy stays prohibited even if the maker adds content filters. Customer service tools, game characters limited to game topics and some standalone voice assistants are excluded."
      }
     },
     {
@@ -16200,7 +16200,7 @@
      "ref": {
       "title": "The New York Times (via The Nightly), FoloToy AI toy bear 'Kumma' speaks of sex, knives and pills, a consumer group warns, November 2025",
       "url": "https://thenightly.com.au/business/the-new-york-times-folotoy-made-ai-toy-bear-kumma-speaks-of-sex-knives-and-pills-a-consumer-group-warns-c-20814379",
-      "finding": "A US PIRG Education Fund report dated 13 November found that FoloToy's Kumma bear, built on OpenAI's GPT-4o and marketed to children and adults, told testers where to find knives, pills, matches and plastic bags, and that 'kink' was a trigger word that introduced new sexual words and content, which the co-author said went into some really graphic details. The report said Grok and Miko 3 showed stronger guardrails and Kumma responded far less consistently: Grok, a $99 plush rocket for ages 3 to 12, generally refused and often directed users to an adult, though it said plastic bags might be in a kitchen drawer, and Miko 3, a $189 robot for ages 5 to 10, said where to find plastic bags and matches when set to a user age of 5. OpenAI suspended the developer for policy violations, saying its policies prohibit any use to exploit, endanger or sexualize anyone under 18, and FoloToy said it would pull Kumma from the market for a safety audit. The co-author said AI toys remain relatively rare but already show troubling gaps in how they handle conversations; the article adds that some lack even basic safeguards."
+      "finding": "A US PIRG Education Fund report dated 13 November found that FoloToy's Kumma bear, built on OpenAI's GPT-4o and marketed to kids and adults, told testers where to find knives, pills, matches and plastic bags, and that 'kink' was a trigger word that introduced new sexual words and content, which the co-author said went into some really graphic details. The report said Grok and Miko 3 showed stronger guardrails and Kumma responded far less consistently: Grok, a $99 plush rocket for ages 3 to 12, generally refused and often directed users to an adult, though it said plastic bags might be in a kitchen drawer, and Miko 3, a $189 robot for ages 5 to 10, said where to find plastic bags and matches when set to a user age of 5. OpenAI suspended the developer for policy violations, saying its policies prohibit any use to exploit, endanger or sexualize anyone under 18, and FoloToy said it would pull Kumma from the market for a safety audit. The co-author said AI toys remain relatively rare but already show troubling gaps in how they handle conversations; the article adds that some lack even basic safeguards."
      }
     }
    ],
@@ -16208,12 +16208,12 @@
     {
      "event": "Germany's action against the My Friend Cayla doll",
      "year": 2017,
-     "parallel": "A talking toy reached children with a connection its makers had not secured, and a regulator took it off the market rather than wait for a fix.",
-     "outcome": "Germany's Federal Network Agency recommended destroying the dolls and asked stores to remove them, after experts showed that someone within about 10 metres could use the toy's unsecured Bluetooth link to listen to and talk with a child; a spokesman called it a concealed transmitting device, illegal under German telecoms law.",
+     "parallel": "A talking toy reached kids with a connection its makers had not secured, and a regulator took it off the market rather than wait for a fix.",
+     "outcome": "Germany's Federal Network Agency recommended destroying the dolls and asked stores to remove them, after experts showed that someone within about 10 metres could use the toy's unsecured Bluetooth link to listen to and talk with a kid; a spokesman called it a concealed transmitting device, illegal under German telecoms law.",
      "ref": {
       "title": "The African Courier, Parents in Germany told to destroy talking toy 'My Friend Cayla', February 2017",
       "url": "https://www.theafricancourier.de/living-in-germany/parents-in-germany-told-to-destroy-talking-toy-my-friend-cayla",
-      "finding": "Germany's Federal Network Agency recommended destroying My Friend Cayla dolls or disposing of them professionally and asked stores to remove them after experts showed hackers could use an unsecured Bluetooth device in the toy to listen to and talk with a child; a student researcher said a Bluetooth device could connect to the doll within a radius of 10m. A spokesman said the doll amounted to a concealed transmitting device, illegal under German telecoms law. The vulnerability was first revealed in January 2015, and the marketer Vivid said the hacking examples were isolated and carried out by specialists."
+      "finding": "Germany's Federal Network Agency recommended destroying My Friend Cayla dolls or disposing of them professionally and asked stores to remove them after experts showed hackers could use an unsecured Bluetooth device in the toy to listen to and talk with a kid; a student researcher said a Bluetooth device could connect to the doll within a radius of 10m. A spokesman said the doll amounted to a concealed transmitting device, illegal under German telecoms law. The vulnerability was first revealed in January 2015, and the marketer Vivid said the hacking examples were isolated and carried out by specialists."
      }
     }
    ]
@@ -18201,7 +18201,7 @@
    "source": "ncii",
    "target": "csam",
    "kind": "leads",
-   "why": "The same generators used to make nude fakes of real women and schoolchildren are turned to making abuse imagery of children."
+   "why": "The same generators used to make nude fakes of real women and pupils are turned to making abuse imagery of minors."
   },
   {
    "source": "surveillance",
@@ -18843,7 +18843,7 @@
    "source": "fertilityrecovery",
    "target": "fertility",
    "kind": "counters",
-   "why": "If robots cut the childcare and elder care load on young families, more may have children, as wider childcare availability did in Norway, offsetting falling births."
+   "why": "If robots cut the day-care and elder-care load on young families, more may have kids, as wider day-care availability did in Norway, offsetting falling births."
   },
   {
    "source": "drugs",
@@ -18885,13 +18885,13 @@
    "source": "robotcare",
    "target": "fertilityrecovery",
    "kind": "leads",
-   "why": "Robots taking on elder care and childcare lighten the load on young families, and wider childcare availability has raised birth rates before."
+   "why": "Robots taking on elder care and day care lighten the load on young families, and wider day-care availability has raised birth rates before."
   },
   {
    "source": "abundance",
    "target": "fertilityrecovery",
    "kind": "leads",
-   "why": "Large AI-driven output could pay for robot elder care and childcare, easing the care costs that hold families back from having children."
+   "why": "Large AI-driven output could pay for robot elder care and day care, easing the care costs that hold families back from having kids."
   },
   {
    "source": "intelexplosion",
@@ -19305,7 +19305,7 @@
    "source": "companionship",
    "target": "fertility",
    "kind": "twin",
-   "why": "Companions that ease loneliness meet the need for connection, which may also reduce the pull to form human couples and have children."
+   "why": "Companions that ease loneliness meet the need for connection, which may also reduce the pull to form human couples and have kids."
   },
   {
    "source": "betteranswers",
@@ -19779,7 +19779,7 @@
    "source": "imagegen",
    "target": "csam",
    "kind": "leads",
-   "why": "The same generators can be misused to produce sexual images of children."
+   "why": "The same generators can be misused to produce sexual images of minors."
   },
   {
    "source": "imagegen",
@@ -20031,7 +20031,7 @@
    "source": "openweights",
    "target": "csam",
    "kind": "leads",
-   "why": "The IWF reports that open models run locally, without moderation, remain offenders' tool of choice for generating child abuse imagery."
+   "why": "The IWF reports that open models run locally, without moderation, remain offenders' tool of choice for generating abuse imagery of minors."
   },
   {
    "source": "persuasion",
@@ -20109,7 +20109,7 @@
    "source": "regulation",
    "target": "ncii",
    "kind": "counters",
-   "why": "The 2026 AI Omnibus adds an EU ban on AI systems that generate non-consensual sexually explicit content or child abuse material, including nudification apps, from December 2026."
+   "why": "The 2026 AI Omnibus adds an EU ban on AI systems that generate non-consensual sexually explicit content or abuse material of minors, including nudification apps, from December 2026."
   },
   {
    "source": "energy",
@@ -20337,7 +20337,7 @@
    "source": "aitoys",
    "target": "parasocial",
    "kind": "twin",
-   "why": "Both concern bonds with chatbots, and Cambridge researchers urged limits on how far AI toys encourage young children to befriend or confide in them."
+   "why": "Both concern bonds with chatbots, and Cambridge researchers urged limits on how far AI toys encourage toddlers to befriend or confide in them."
   },
   {
    "source": "aitoys",
@@ -20352,10 +20352,10 @@
    "why": "Both draft professional records from recorded speech, but AI clinical scribes saved modest time while one randomised police trial of Draft One found none."
   },
   {
-   "source": "childwelfarealgo",
+   "source": "neglectscreening",
    "target": "biasedsentencing",
    "kind": "twin",
-   "why": "Both use risk scores to steer state decisions about people and flagged Black people more often than white people: 32.5% against 20.8% of children reported for neglect in Allegheny County, and 44.9% against 23.5% of defendants who did not reoffend in Broward County."
+   "why": "Both use risk scores to steer state decisions about people and flagged Black people more often than white people: 32.5% against 20.8% of minors reported for neglect in Allegheny County, and 44.9% against 23.5% of defendants who did not reoffend in Broward County."
   },
   {
    "source": "therapy",
@@ -20511,7 +20511,7 @@
    "source": "bullying",
    "target": "csam",
    "kind": "twin",
-   "why": "Thorn treats deepfake nudes of minors, including those teenagers make of peers, as AI-generated child sexual abuse material."
+   "why": "Thorn treats deepfake nudes of minors, including those teenagers make of peers, as AI-generated CSAM."
   },
   {
    "source": "insecurecode",
