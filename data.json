@@ -18041,6 +18041,57 @@
     }
    ],
    "valence": 3.56
+  },
+  {
+   "id": "indieclones",
+   "label": "Indie games and art styles cloned with AI",
+   "probability": 0.8,
+   "year": 2026,
+   "stage": "active",
+   "evidence": "reported",
+   "theme": "ip",
+   "summary": "Copycats now race small creators to market. Within a week of a viral Needle In A Haystack prototype, clone Steam pages appeared; one clone's demo passed the original's followers and another shipped first, in what one marketer calls an AI clone attack[1]. A Stable Diffusion model trained on 32 of illustrator Hollie Mengert's images copied her style without consent[2].",
+   "refs": [
+    {
+     "title": "How To Market A Game, AI Cloners Are Here. Are Indie Devs Cooked?, 28 October 2026",
+     "url": "https://howtomarketagame.com/2026/10/28/ai-cloners-are-here-are-indie-devs-cooked/",
+     "finding": "Clone Steam pages for Needle In A Haystack Simulator appeared within about a week of the developer's viral prototype video; one clone, Find The Needle, released a demo that passed the original's follower count on 5 October, another released a full game about a month after the tweet, and the author estimates the original trails the lead clone by about 20,000 wishlists; the article calls it a novel AI clone attack but does not show which tools the cloners used."
+    },
+    {
+     "title": "Andy Baio, Invasive Diffusion: How one unwilling illustrator found herself turned into an AI model (Waxy), 1 November 2022",
+     "url": "https://waxy.org/2022/11/invasive-diffusion-how-one-unwilling-illustrator-found-herself-turned-into-an-ai-model/",
+     "finding": "A Reddit user fine-tuned Stable Diffusion on 32 of Hollie Mengert's illustrations, some of them client work she did not own, and released it openly; she said: 'If I had been asked if they could do this, I wouldn't have said yes.'"
+    },
+    {
+     "title": "Inven Global, \"Pay $200 or We'll Clone Your Game with AI and Sell It First\": Absurd Extortion Targeting Indie Developers Spreads, 19 October 2026",
+     "url": "https://www.invenglobal.com/articles/27359/pay-200-or-well-clone-your-game-with-ai-and-sell-it-first-absurd-extortion-targeting-indie-developers-spreads",
+     "finding": "Developers of Dragon's Chronicles, Iron Pilgrim and Circusar reported emails demanding about $200 to stop an AI clone of their game launching first; one developer suspected bulk spam, and the Iron Pilgrim case was suspected of being a staged hoax to gain wishlists."
+    }
+   ],
+   "valence": -2.52
+  },
+  {
+   "id": "paywalledai",
+   "label": "Paying users get far more capable AI",
+   "probability": 0.9,
+   "year": 2025,
+   "stage": "active",
+   "evidence": "reported",
+   "theme": "power",
+   "summary": "The most capable AI sits behind subscriptions, so people who cannot pay get less. Claude's free tier leaves out Opus and Claude Code; Pro costs $20 a month, and Max, from $100, gives 5x or 20x more use than Pro[1]. In India, ChatGPT Plus costs ₹1,999 a month, and OpenAI added a ₹399 plan after users asked for something cheaper[2].",
+   "refs": [
+    {
+     "title": "Anthropic, Claude plans and pricing",
+     "url": "https://claude.com/pricing",
+     "finding": "Free covers everyday questions with Sonnet and Haiku but not Opus or Claude Code; Pro costs $20 a month billed monthly and gives at least 5x more usage per session than Free; Max starts at $100 a month and gives 5x or 20x more usage than Pro, with priority access at high-traffic times."
+    },
+    {
+     "title": "TechCrunch, OpenAI launches a sub-$5 ChatGPT plan in India, 18 August 2025",
+     "url": "https://techcrunch.com/2025/08/18/openai-launches-a-sub-5-chatgpt-plan-in-india",
+     "finding": "ChatGPT Go costs ₹399 ($4.60) a month against ₹1,999 (about $23) for Plus, with 10x the free tier's message limits; OpenAI's Nick Turley said making ChatGPT more affordable had been a key ask from users, and Indian users spent $3.6 million on the app in 90 days against 29 million downloads."
+    }
+   ],
+   "valence": -1.87
   }
  ],
  "links": [
@@ -20821,6 +20872,42 @@
    "target": "darkfleets",
    "kind": "twin",
    "why": "Both use machine learning to find what people could not spot by hand in huge streams of images."
+  },
+  {
+   "source": "ip",
+   "target": "indieclones",
+   "kind": "leads",
+   "why": "When copying others' work becomes trivial, a small studio's viral idea or an illustrator's style can be copied and sold before the creator ships."
+  },
+  {
+   "source": "indieclones",
+   "target": "artists",
+   "kind": "twin",
+   "why": "Both hit independent creators, whose income depends on their own style and ideas staying theirs."
+  },
+  {
+   "source": "indieclones",
+   "target": "voiceclones",
+   "kind": "twin",
+   "why": "Both copy something a creator built over years, a game, a style or a voice, and sell it without consent."
+  },
+  {
+   "source": "paywalledai",
+   "target": "aidivide",
+   "kind": "leads",
+   "why": "When the best models and the most use cost $20 to $200 a month, people and countries that cannot pay fall further behind."
+  },
+  {
+   "source": "concentration",
+   "target": "paywalledai",
+   "kind": "leads",
+   "why": "A few owners of frontier models set the price of the best AI, and they put the most capable versions behind the highest tiers."
+  },
+  {
+   "source": "cheapintelligence",
+   "target": "paywalledai",
+   "kind": "counters",
+   "why": "As the price of a given level of capability collapses, yesterday's paid model becomes today's free one, narrowing the gap."
   }
  ],
  "themes": {
