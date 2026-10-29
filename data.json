@@ -17615,6 +17615,70 @@
     }
    ],
    "valence": -2.29
+  },
+  {
+   "id": "tenantscreening",
+   "label": "Algorithmic tenant scores shut renters out",
+   "probability": 0.6,
+   "year": 2024,
+   "stage": "active",
+   "evidence": "reported",
+   "theme": "world",
+   "summary": "US landlords use screening software to vet renters, and when its data are wrong or its score leaves something out, applicants are refused with little chance to appeal. A 2022 US Consumer Financial Protection Bureau review of more than 24,000 complaints found over 16,000 about incorrect information in tenant reports, such as records belonging to someone else, and warned that corporate landlords' single algorithmic scores can hide data errors and magnify outdated information[1]. In Massachusetts, Mary Louis, a Black housing-voucher holder whose references showed 16 years of on-time rent, was refused on a screening service's score, and the management company said it could not override the outcome[2]. The class action she led said the SafeRent Score leaned on credit history and ignored vouchers, to the disadvantage of Black and Hispanic voucher holders; a court let the Fair Housing Act claims proceed and SafeRent settled for $2.275 million in November 2024 without admitting fault[2][3]. Liability for vendors is not settled: in February 2026 a US appeals court held that CoreLogic did not cause a denial by supplying a criminal-history report, because the landlord set the criteria and made the decision[4].",
+   "refs": [
+    {
+     "title": "US Consumer Financial Protection Bureau, CFPB Reports Highlight Problems with Tenant Background Checks, November 2022",
+     "url": "https://www.consumerfinance.gov/about-us/newsroom/cfpb-reports-highlight-problems-with-tenant-background-checks/",
+     "finding": "The CFPB analysed more than 24,000 complaints, over 16,000 about incorrect information in tenant background reports, such as negative data belonging to someone else, outdated entries and inaccurate arrest, criminal or eviction records, and about 4,500 about obstacles to getting errors fixed. It said corporate landlords' automated systems replace a holistic review with a single algorithmic score that can hide data errors and magnify the negative impact of erroneous and outdated information."
+    },
+    {
+     "title": "Bedayn, Suit Claiming Racial, Income Bias in Rental Algorithm Settled for $2.2 Million, Associated Press via Insurance Journal, November 2024",
+     "url": "https://www.insurancejournal.com/news/east/2024/11/25/802256.htm",
+     "finding": "Mary Louis, a Black woman, was denied a Massachusetts apartment in spring 2021 by a third-party service that scored rental applicants; her references showing 16 years of early or on-time rent did not help, and the management company said it did not accept appeals and could not override the outcome of the tenant screening. A federal judge approved a settlement of the class action she led in which SafeRent Solutions agreed to pay over $2.2 million, not to include its score on reports in certain cases including when an applicant uses a housing voucher, and to have any new screening score validated by a third party the plaintiffs agree to; SafeRent admitted no fault and said it believes its scores comply with all applicable laws."
+    },
+    {
+     "title": "Cohen Milstein, Louis, et al. v. SafeRent Solutions, et al., case page",
+     "url": "https://www.cohenmilstein.com/case-study/louis-et-al-v-saferent-solutions-et-al/",
+     "finding": "Louis v. SafeRent Solutions, No. 1:22-cv-10800 (D. Mass.), alleged that the SafeRent Score has a disparate impact on Black and Hispanic rental applicants who use federally funded housing vouchers, because it relies on credit history including non-tenancy debts and does not account for vouchers, which pay most of the rent directly; a July 26, 2023 ruling let the Fair Housing Act claims proceed, and Judge Angel Kelley granted final approval of a $2.275 million settlement on November 20, 2024."
+    },
+    {
+     "title": "US Court of Appeals for the Second Circuit, Connecticut Fair Housing Center v. CoreLogic Rental Property Solutions, Nos. 23-1118, 23-1166, opinion, February 2026",
+     "url": "https://infobytes.orrick.com/wp-content/uploads/CFHC-v-CoreLogic-Rental-Prop-2ndCir-02202026.pdf",
+     "finding": "Decided 20 February 2026: the court disagreed with the district court that the Fair Housing Act excludes certain types of defendants, but held that CoreLogic, whose CrimSAFE platform reported an applicant's criminal history to the landlord, did not cause the denial of housing, because the landlord set its criteria and decided whether to accept the applicant, so the disparate-impact claim failed; it also held the Connecticut Fair Housing Center lacked standing."
+    }
+   ],
+   "valence": -3.43,
+   "control": "mitigable",
+   "price_of": [
+    "productivity"
+   ],
+   "control_note": "Landlords keep the final say, which lets vendors argue a denial is not theirs; one appeals court accepted that in 2026, while a district court let fair-housing claims against a scoring vendor go ahead. Settlements can change how a score treats people, but only for the vendor and the class involved.",
+   "actions": [
+    {
+     "action": "Apply fair-housing law to the companies that score tenants",
+     "actor": "courts",
+     "status": "tested",
+     "aim": "impact",
+     "evidence": "A federal court in Massachusetts let Fair Housing Act disparate-impact claims against SafeRent proceed in July 2023, before the case settled; in February 2026 the Second Circuit held that a vendor that only supplies a report does not cause the landlord's denial.",
+     "ref": {
+      "title": "Cohen Milstein, Louis, et al. v. SafeRent Solutions, et al., case page",
+      "url": "https://www.cohenmilstein.com/case-study/louis-et-al-v-saferent-solutions-et-al/",
+      "finding": "Louis v. SafeRent Solutions, No. 1:22-cv-10800 (D. Mass.), alleged that the SafeRent Score has a disparate impact on Black and Hispanic rental applicants who use federally funded housing vouchers, because it relies on credit history including non-tenancy debts and does not account for vouchers, which pay most of the rent directly; a July 26, 2023 ruling let the Fair Housing Act claims proceed, and Judge Angel Kelley granted final approval of a $2.275 million settlement on November 20, 2024."
+     }
+    },
+    {
+     "action": "Keep scores off voucher holders' reports and validate new scores",
+     "actor": "courts",
+     "status": "in force",
+     "aim": "impact",
+     "evidence": "Under the November 2024 settlement SafeRent may not include its score on reports for applicants using housing vouchers and must have any new screening score validated by a third party the plaintiffs agree to.",
+     "ref": {
+      "title": "Bedayn, Suit Claiming Racial, Income Bias in Rental Algorithm Settled for $2.2 Million, Associated Press via Insurance Journal, November 2024",
+      "url": "https://www.insurancejournal.com/news/east/2024/11/25/802256.htm",
+      "finding": "Mary Louis, a Black woman, was denied a Massachusetts apartment in spring 2021 by a third-party service that scored rental applicants; her references showing 16 years of early or on-time rent did not help, and the management company said it did not accept appeals and could not override the outcome of the tenant screening. A federal judge approved a settlement of the class action she led in which SafeRent Solutions agreed to pay over $2.2 million, not to include its score on reports in certain cases including when an applicant uses a housing voucher, and to have any new screening score validated by a third party the plaintiffs agree to; SafeRent admitted no fault and said it believes its scores comply with all applicable laws."
+     }
+    }
+   ]
   }
  ],
  "links": [
@@ -20347,6 +20411,18 @@
    "target": "labels",
    "kind": "leads",
    "why": "As AI books spread, Amazon asks publishers to declare AI-generated text, Barnes & Noble demands labels and the Authors Guild certifies human-written books."
+  },
+  {
+   "source": "biasdata",
+   "target": "tenantscreening",
+   "kind": "leads",
+   "why": "Scores built on credit records carry their gaps into housing: the SafeRent suit said reliance on credit history and blindness to vouchers disadvantaged Black and Hispanic voucher holders."
+  },
+  {
+   "source": "tenantscreening",
+   "target": "creditexclusion",
+   "kind": "twin",
+   "why": "Both turn credit records into opaque scores that shut people out, of loans in one case and of rental homes in the other, with little room to appeal."
   }
  ],
  "themes": {
