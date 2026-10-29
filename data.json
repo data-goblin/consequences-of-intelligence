@@ -17448,14 +17448,14 @@
      "finding": "Chief executive Sebastian Siemiatkowski told Bloomberg that cost had been too predominant an evaluation factor and that the result was lower quality, and that customers must always be able to reach a human if they want; Klarna was piloting freelance human support agents. A spokesperson told Fortune Klarna still does not replace departing employees, apart from freelance agents in its outsourcing division, and is very much still AI-first."
     },
     {
-     "title": "Fortune, Salesforce CEO Marc Benioff says his company cut 4,000 customer service jobs as AI steps in, September 2025",
+     "title": "Fortune, Salesforce CEO Marc Benioff says his company has cut 4,000 customer service jobs as AI steps in: 'I need less heads', September 2025",
      "url": "https://fortune.com/2025/09/02/salesforce-ceo-billionaire-marc-benioff-ai-agents-jobs-layoffs-customer-service-sales/",
      "finding": "On The Logan Bartlett Show, Benioff said he had reduced support headcount from 9,000 to about 5,000 because he needs fewer people, and that service interactions are now 50% with AI agents and 50% with humans. A Salesforce spokesperson said that after deploying its own AI support site it no longer needs to actively backfill support engineer roles and had redeployed hundreds of employees into professional services, sales and customer success."
     },
     {
-     "title": "The Canberra Times, Commonwealth Bank reverses AI chatbot job cuts, admits error, August 2025",
+     "title": "The Canberra Times, Major bank apologises, reverses AI job replacement plan after 'error', August 2025",
      "url": "https://www.canberratimes.com.au/story/9046323/commonwealth-bank-reverses-ai-chatbot-job-cuts-admits-error/",
-     "finding": "Commonwealth Bank had cut customer service jobs, including 45 direct banking roles, after introducing a voice bot on its inbound customer enquiries line; on 21 August 2025 it said its initial assessment did not adequately consider all relevant business considerations, that the roles were not redundant, and apologised. The Finance Sector Union called the reversal a massive win and said the bank was caught out trying to dress up job cuts as innovation."
+     "finding": "Commonwealth Bank had cut 90 jobs, including 45 in direct banking, after introducing a voice bot on its inbound customer enquiries line; on 21 August 2025 it said its initial assessment did not adequately consider all relevant business considerations, that the roles were not redundant, and apologised, and staff could stay in their roles, seek redeployment or leave. The Finance Sector Union called the reversal a massive win and said the bank was caught out trying to dress up job cuts as innovation."
     },
     {
      "title": "US Bureau of Labor Statistics, Occupational Outlook Handbook, Customer Service Representatives",
@@ -17463,7 +17463,7 @@
      "finding": "US employment of customer service representatives was 2,666,000 in 2025 and is projected to decline 5% (141,800 jobs) from 2025 to 2035, with about 289,500 openings a year from replacement; BLS expects less demand, especially in retail trade, as tasks continue to be automated and self-service systems, social media and mobile apps let customers handle simple tasks. The page does not name AI or chatbots."
     },
     {
-     "title": "Fortune, The AI boom hasn't stopped U.S. companies from hiring cheap offshore labor, and overseas call center employment is still skyrocketing, May 2026",
+     "title": "Fortune, The AI boom hasn't stopped U.S. companies from hiring cheap offshore labor, and overseas call center employment is still skyrocketing, May 2026, updated August 2026",
      "url": "https://fortune.com/article/why-hasnt-ai-boom-displaced-call-center-workers-employment-offshoring-india-philippines/",
      "finding": "Citing IT and Business Process Association of the Philippines data analysed by Apollo chief economist Torsten Slok, call centre employment in the Philippines rose every year from 2016 through 2025, nearly doubling to 2 million over the decade."
     }
@@ -17493,11 +17493,11 @@
      "actor": "legislators",
      "status": "proposed",
      "aim": "impact",
-     "evidence": "A US Senate bill introduced in July 2025 would make call-centre employers say when AI handles customer service and transfer callers on request to a human in the United States; it was referred to committee.",
+     "evidence": "A US Senate bill introduced in July 2025 would make businesses that use AI for customer service say so at the start of an interaction and transfer callers on request to a human agent in the United States; on introduction it was referred to committee.",
      "ref": {
       "title": "S. 2495, Keep Call Centers in America Act of 2025, 119th Congress, introduced text (govinfo)",
       "url": "https://www.govinfo.gov/content/pkg/BILLS-119s2495is/html/BILLS-119s2495is.htm",
-      "finding": "Introduced on 29 July 2025 by Senator Gallego with Senator Justice and referred to the Committee on Commerce, Science, and Transportation; Section 201 would require businesses with call centres of 50 or more employees to disclose at the start of an interaction that a nonhuman, artificial intelligence or machine is being used for customer service, and to transfer the consumer immediately on request to a human operator physically located in the United States."
+      "finding": "Introduced on 29 July 2025 by Senator Gallego with Senator Justice and referred to the Committee on Commerce, Science, and Transportation; Section 201 would require a business that uses artificial intelligence for customer service to disclose at the start of a communication that a nonhuman, artificial intelligence or machine is being used, and to transfer the consumer immediately on request to a human customer service agent physically located in the United States. The 50-employee threshold in the bill's employer definition does not apply to Section 201."
      }
     },
     {
@@ -17507,9 +17507,9 @@
      "aim": "probability",
      "evidence": "After a Finance Sector Union challenge, Commonwealth Bank reversed customer service job cuts tied to a voice bot in August 2025 and let staff stay, redeploy or leave.",
      "ref": {
-      "title": "The Canberra Times, Commonwealth Bank reverses AI chatbot job cuts, admits error, August 2025",
+      "title": "The Canberra Times, Major bank apologises, reverses AI job replacement plan after 'error', August 2025",
       "url": "https://www.canberratimes.com.au/story/9046323/commonwealth-bank-reverses-ai-chatbot-job-cuts-admits-error/",
-      "finding": "Commonwealth Bank had cut customer service jobs, including 45 direct banking roles, after introducing a voice bot on its inbound customer enquiries line; on 21 August 2025 it said its initial assessment did not adequately consider all relevant business considerations, that the roles were not redundant, and apologised. The Finance Sector Union called the reversal a massive win and said the bank was caught out trying to dress up job cuts as innovation."
+      "finding": "Commonwealth Bank had cut 90 jobs, including 45 in direct banking, after introducing a voice bot on its inbound customer enquiries line; on 21 August 2025 it said its initial assessment did not adequately consider all relevant business considerations, that the roles were not redundant, and apologised, and staff could stay in their roles, seek redeployment or leave. The Finance Sector Union called the reversal a massive win and said the bank was caught out trying to dress up job cuts as innovation."
      }
     }
    ],
@@ -17518,7 +17518,7 @@
      "event": "Santander UK brings its call centres back from India",
      "year": 2011,
      "parallel": "Moving customer service to a cheaper channel saved money until customers complained, the same pressure that has pushed some firms to put humans back behind their bots.",
-     "outcome": "After topping the FSA complaint tables, Santander UK moved all call centre work from Bangalore and Pune back to three UK cities and hired 500 more staff; its chief executive said customers prefer UK call centres.",
+     "outcome": "After topping the FSA complaint tables, Santander UK moved all call centre work from Bangalore and Pune back to three UK cities, creating 500 UK-based jobs; its chief executive said customers prefer UK call centres.",
      "ref": {
       "title": "RTE News, UK bank brings call centres home, July 2011",
       "url": "https://www.rte.ie/news/business/2011/0708/303448-santander-business",
