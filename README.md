@@ -1,6 +1,6 @@
 # Consequences of Intelligence
 
-This repository holds the data behind [Consequences of Intelligence](https://data-goblins.com/consequences), a hand-drawn chart of the consequences of AI, from doom to bloom. Each entry in `data.json` is one consequence with a short summary, a score from -5 (doom) to +5 (bloom), a rough probability and year, and the public sources it rests on. Links describe how one consequence leads to, counters or mirrors another.
+This repository holds the data behind [Consequences of Intelligence](https://consequencesofintelligence.com), a hand-drawn chart of the consequences of AI, from doom to bloom. Each entry in `data.json` is one consequence with a short summary, a score from -5 (doom) to +5 (bloom), a rough probability and year, and the public sources it rests on. Links describe how one consequence leads to, counters or mirrors another.
 
 Scores, probabilities and timelines are rough estimates based on public sources. This is a personal, artistic project by Kurt Buhler of Data Goblins. It is not a forecast, and you should not read it as fact.
 
